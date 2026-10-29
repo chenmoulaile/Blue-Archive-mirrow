@@ -1,0 +1,124 @@
+/*
+ * BA 主题鼠标指针
+ *
+ * 文件来自 https://github.com/makipom/BlueArchive-Cursors（MIT, Copyright (c) 2023 Maki），
+ * 已下载到 resources/cursors/，由本地 http 服务器以 /res/cursors/* 提供。
+ * .cur / .ani 内嵌热点坐标，Chromium 在 Windows 上会按文件自带热点定位。
+ *
+ * 关掉指针（设置项）时，给 <html> 加 .no-custom-cursor 即可全部退回系统默认。
+ */
+
+:root {
+  --cur-normal: url('/res/cursors/normal.cur'), auto;
+  --cur-link: url('/res/cursors/link.cur'), pointer;
+  --cur-text: url('/res/cursors/text.ani'), text;
+  --cur-wait: url('/res/cursors/loading.ani'), wait;
+  --cur-progress: url('/res/cursors/background.ani'), progress;
+  --cur-move: url('/res/cursors/move.cur'), move;
+  --cur-help: url('/res/cursors/help.cur'), help;
+  --cur-pen: url('/res/cursors/pen.cur'), crosshair;
+  --cur-block: url('/res/cursors/block.cur'), not-allowed;
+  --cur-cell: url('/res/cursors/areaselect.cur'), cell;
+  --cur-copy: url('/res/cursors/alternativeselect.cur'), copy;
+  --cur-ns: url('/res/cursors/resizeNS.cur'), ns-resize;
+  --cur-we: url('/res/cursors/resizeWE.cur'), ew-resize;
+  --cur-nwse: url('/res/cursors/resizeDIAG1.cur'), nwse-resize;
+  --cur-nesw: url('/res/cursors/resizeDIAG2.cur'), nesw-resize;
+}
+
+html,
+body {
+  cursor: var(--cur-normal);
+}
+
+/* 可点击 */
+button,
+a,
+[role='button'],
+[data-cursor='pointer'],
+.nav-item,
+.tab,
+.btn,
+.icon-btn,
+.seg button,
+.story-item,
+.banner-item,
+.momo-chat,
+.shop-item,
+.furni,
+.picker-card,
+.event-row .btn {
+  cursor: var(--cur-link);
+}
+
+button:disabled,
+[disabled],
+[aria-disabled='true'] {
+  cursor: var(--cur-block);
+}
+
+/* 文本输入 */
+input[type='text'],
+input[type='search'],
+input[type='number'],
+input:not([type]),
+textarea,
+[contenteditable='true'] {
+  cursor: var(--cur-text);
+}
+
+/* 滑块 / 拖拽 */
+input[type='range'] {
+  cursor: var(--cur-we);
+}
+[data-cursor='move'] {
+  cursor: var(--cur-move);
+}
+[data-cursor='help'] {
+  cursor: var(--cur-help);
+}
+[data-cursor='crosshair'] {
+  cursor: var(--cur-pen);
+}
+[data-cursor='cell'] {
+  cursor: var(--cur-cell);
+}
+[data-cursor='copy'] {
+  cursor: var(--cur-copy);
+}
+[data-cursor='ns-resize'] {
+  cursor: var(--cur-ns);
+}
+[data-cursor='ew-resize'] {
+  cursor: var(--cur-we);
+}
+[data-cursor='nwse-resize'] {
+  cursor: var(--cur-nwse);
+}
+[data-cursor='nesw-resize'] {
+  cursor: var(--cur-nesw);
+}
+
+/* 加载中：整页换成等待指针 */
+[data-loading='true'],
+[data-loading='true'] * {
+  cursor: var(--cur-wait) !important;
+}
+
+/* 记忆大厅的 Canvas / 可拖拽舞台 */
+.lobby,
+.lobby-canvas,
+.player-stage,
+[data-cursor='none'] {
+  cursor: var(--cur-normal);
+}
+.lobby[data-dragging='true'] {
+  cursor: var(--cur-move);
+}
+
+/* 关闭自定义指针 */
+html.no-custom-cursor,
+html.no-custom-cursor body,
+html.no-custom-cursor * {
+  cursor: revert !important;
+}

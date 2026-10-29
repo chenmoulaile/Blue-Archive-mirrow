@@ -1,0 +1,2140 @@
+{
+ "generated": "2026-10-29T21:06:09",
+ "bundle_dir": "E:\\Blue archive\\.baad\\cn\\android\\raw\\bundles",
+ "atlas_count": 18,
+ "atlas_sprites": 1991,
+ "uisprite_instances": 217517,
+ "candidates": [
+  {
+   "key": "Combat/Common_Btn_BG",
+   "size": [
+    68,
+    70
+   ],
+   "border": [
+    29,
+    25,
+    29,
+    38
+   ],
+   "has_border": true,
+   "usage": {
+    "Sliced": 3792
+   },
+   "sliced_count": 3792
+  },
+  {
+   "key": "Common/Common_Btn_BG",
+   "size": [
+    68,
+    70
+   ],
+   "border": [
+    30,
+    30,
+    30,
+    35
+   ],
+   "has_border": true,
+   "usage": {
+    "Sliced": 3792
+   },
+   "sliced_count": 3792
+  },
+  {
+   "key": "Dreammaker/Common_Btn_BG",
+   "size": [
+    68,
+    70
+   ],
+   "border": [
+    28,
+    28,
+    28,
+    35
+   ],
+   "has_border": true,
+   "usage": {
+    "Sliced": 3792
+   },
+   "sliced_count": 3792
+  },
+  {
+   "key": "MinigameRhythm/Common_Btn_BG",
+   "size": [
+    68,
+    70
+   ],
+   "border": [
+    30,
+    25,
+    30,
+    40
+   ],
+   "has_border": true,
+   "usage": {
+    "Sliced": 3792
+   },
+   "sliced_count": 3792
+  },
+  {
+   "key": "TBG/Common_Btn_BG",
+   "size": [
+    67,
+    70
+   ],
+   "border": [
+    32,
+    25,
+    32,
+    40
+   ],
+   "has_border": true,
+   "usage": {
+    "Sliced": 3792
+   },
+   "sliced_count": 3792
+  },
+  {
+   "key": "Worldraid/Common_Btn_BG",
+   "size": [
+    68,
+    70
+   ],
+   "border": [
+    28,
+    20,
+    28,
+    35
+   ],
+   "has_border": true,
+   "usage": {
+    "Sliced": 3792
+   },
+   "sliced_count": 3792
+  },
+  {
+   "key": "Common/Formation_SuffCharacter_CoverLine_Btn",
+   "size": [
+    75,
+    76
+   ],
+   "border": [
+    32,
+    32,
+    32,
+    37
+   ],
+   "has_border": true,
+   "usage": {
+    "Sliced": 3253
+   },
+   "sliced_count": 3253
+  },
+  {
+   "key": "Combat/Common_Tab_Normal_Btn",
+   "size": [
+    76,
+    79
+   ],
+   "border": [
+    30,
+    30,
+    30,
+    30
+   ],
+   "has_border": true,
+   "usage": {
+    "Sliced": 2693
+   },
+   "sliced_count": 2693
+  },
+  {
+   "key": "Common/Common_Tab_Normal_Btn",
+   "size": [
+    76,
+    79
+   ],
+   "border": [
+    35,
+    35,
+    35,
+    35
+   ],
+   "has_border": true,
+   "usage": {
+    "Sliced": 2693
+   },
+   "sliced_count": 2693
+  },
+  {
+   "key": "CardGame/CCG_Bg_DumpCardsFrame",
+   "size": [
+    46,
+    46
+   ],
+   "border": [
+    20,
+    20,
+    20,
+    20
+   ],
+   "has_border": true,
+   "usage": {
+    "Sliced": 586
+   },
+   "sliced_count": 586
+  },
+  {
+   "key": "CardGame/CCG_Bg_BtnDumpCards",
+   "size": [
+    54,
+    54
+   ],
+   "border": [
+    16,
+    16,
+    16,
+    16
+   ],
+   "has_border": true,
+   "usage": {
+    "Sliced": 293
+   },
+   "sliced_count": 293
+  },
+  {
+   "key": "Common/Formation_TextInfo_Bg",
+   "size": [
+    63,
+    42
+   ],
+   "border": [
+    25,
+    35,
+    25,
+    5
+   ],
+   "has_border": true,
+   "usage": {
+    "Sliced": 117
+   },
+   "sliced_count": 117
+  },
+  {
+   "key": "Common/Common_TextInBox_10px",
+   "size": [
+    22,
+    12
+   ],
+   "border": [
+    10,
+    10,
+    10,
+    1
+   ],
+   "has_border": true,
+   "usage": {
+    "Sliced": 104
+   },
+   "sliced_count": 104
+  },
+  {
+   "key": "CardGame/CCG_Img_NodeFrame",
+   "size": [
+    56,
+    139
+   ],
+   "border": [
+    24,
+    36,
+    24,
+    96
+   ],
+   "has_border": true,
+   "usage": {
+    "Sliced": 49
+   },
+   "sliced_count": 49
+  },
+  {
+   "key": "BattlePass/BattlePass_ListSlot_Numtextbox",
+   "size": [
+    101,
+    70
+   ],
+   "border": [
+    25,
+    0,
+    40,
+    0
+   ],
+   "has_border": true,
+   "usage": {
+    "Sliced": 46
+   },
+   "sliced_count": 46
+  },
+  {
+   "key": "Worldraid_854/WorldRaid854_Frame_00",
+   "size": [
+    12,
+    12
+   ],
+   "border": [
+    4,
+    4,
+    4,
+    4
+   ],
+   "has_border": true,
+   "usage": {
+    "Sliced": 45
+   },
+   "sliced_count": 45
+  },
+  {
+   "key": "Worldraid_854/WorldRaid854_Frame_02",
+   "size": [
+    16,
+    16
+   ],
+   "border": [
+    6,
+    6,
+    6,
+    6
+   ],
+   "has_border": true,
+   "usage": {
+    "Sliced": 38
+   },
+   "sliced_count": 38
+  },
+  {
+   "key": "BattlePass/BattlePass_Btn_Type1",
+   "size": [
+    69,
+    55
+   ],
+   "border": [
+    30,
+    15,
+    30,
+    25
+   ],
+   "has_border": true,
+   "usage": {
+    "Sliced": 37
+   },
+   "sliced_count": 37
+  },
+  {
+   "key": "CardGame/CCG_Bg_BgLogEffect",
+   "size": [
+    68,
+    72
+   ],
+   "border": [
+    20,
+    0,
+    44,
+    0
+   ],
+   "has_border": true,
+   "usage": {
+    "Sliced": 21
+   },
+   "sliced_count": 21
+  },
+  {
+   "key": "CardGame/CCG_Bg_LogDefault",
+   "size": [
+    48,
+    58
+   ],
+   "border": [
+    12,
+    42,
+    32,
+    12
+   ],
+   "has_border": true,
+   "usage": {
+    "Sliced": 21
+   },
+   "sliced_count": 21
+  },
+  {
+   "key": "CardGame/CCG_Img_BgLogDefault",
+   "size": [
+    30,
+    30
+   ],
+   "border": [
+    14,
+    14,
+    14,
+    14
+   ],
+   "has_border": true,
+   "usage": {
+    "Sliced": 21
+   },
+   "sliced_count": 21
+  },
+  {
+   "key": "CardGame/CCG_Img_BgLogTurn",
+   "size": [
+    64,
+    60
+   ],
+   "border": [
+    30,
+    0,
+    30,
+    0
+   ],
+   "has_border": true,
+   "usage": {
+    "Sliced": 21
+   },
+   "sliced_count": 21
+  },
+  {
+   "key": "CardGame/CCG_Img_LogEffectDamage",
+   "size": [
+    59,
+    54
+   ],
+   "border": [
+    20,
+    0,
+    36,
+    0
+   ],
+   "has_border": true,
+   "usage": {
+    "Sliced": 21
+   },
+   "sliced_count": 21
+  },
+  {
+   "key": "BattlePass/BattlePass_Btn_B",
+   "size": [
+    246,
+    161
+   ],
+   "border": [
+    46,
+    35,
+    46,
+    42
+   ],
+   "has_border": true,
+   "usage": {
+    "Sliced": 20
+   },
+   "sliced_count": 20
+  },
+  {
+   "key": "BattlePass/BattlePass_Btn_Y",
+   "size": [
+    246,
+    161
+   ],
+   "border": [
+    35,
+    35,
+    35,
+    35
+   ],
+   "has_border": true,
+   "usage": {
+    "Sliced": 18
+   },
+   "sliced_count": 18
+  },
+  {
+   "key": "Worldraid_854/WorldRaid854_Bg_PopupBtn",
+   "size": [
+    140,
+    137
+   ],
+   "border": [
+    28,
+    0,
+    106,
+    0
+   ],
+   "has_border": true,
+   "usage": {
+    "Sliced": 15
+   },
+   "sliced_count": 15
+  },
+  {
+   "key": "Common/Tutorial_Message_BG",
+   "size": [
+    102,
+    102
+   ],
+   "border": [
+    51,
+    52,
+    28,
+    27
+   ],
+   "has_border": true,
+   "usage": {
+    "Sliced": 14,
+    "Advanced": 9
+   },
+   "sliced_count": 14
+  },
+  {
+   "key": "BattlePass/BattlePass_Btn_Common",
+   "size": [
+    96,
+    79
+   ],
+   "border": [
+    30,
+    0,
+    30,
+    0
+   ],
+   "has_border": true,
+   "usage": {
+    "Simple": 4,
+    "Sliced": 12
+   },
+   "sliced_count": 12
+  },
+  {
+   "key": "RoadPuzzle/Roadpuzzle_Bg_Text_2",
+   "size": [
+    38,
+    52
+   ],
+   "border": [
+    26,
+    0,
+    10,
+    0
+   ],
+   "has_border": true,
+   "usage": {
+    "Sliced": 12
+   },
+   "sliced_count": 12
+  },
+  {
+   "key": "Worldraid_854/WorldRaid854_Bg_SubBtn",
+   "size": [
+    28,
+    28
+   ],
+   "border": [
+    12,
+    8,
+    12,
+    16
+   ],
+   "has_border": true,
+   "usage": {
+    "Sliced": 12
+   },
+   "sliced_count": 12
+  },
+  {
+   "key": "Worldraid_854/WorldRaid854_Frame_Replay_Select_Off",
+   "size": [
+    52,
+    10
+   ],
+   "border": [
+    24,
+    0,
+    24,
+    0
+   ],
+   "has_border": true,
+   "usage": {
+    "Sliced": 12
+   },
+   "sliced_count": 12
+  },
+  {
+   "key": "Worldraid_854/WorldRaid854_Frame_Replay_Select_On",
+   "size": [
+    62,
+    20
+   ],
+   "border": [
+    30,
+    0,
+    30,
+    0
+   ],
+   "has_border": true,
+   "usage": {
+    "Sliced": 12
+   },
+   "sliced_count": 12
+  },
+  {
+   "key": "TBG/Tbg_Btn_Bg_Br",
+   "size": [
+    73,
+    72
+   ],
+   "border": [
+    30,
+    20,
+    30,
+    40
+   ],
+   "has_border": true,
+   "usage": {
+    "Sliced": 9
+   },
+   "sliced_count": 9
+  },
+  {
+   "key": "BattlePass/BattlePass_PopupBtn_Bg",
+   "size": [
+    44,
+    43
+   ],
+   "border": [
+    15,
+    15,
+    15,
+    15
+   ],
+   "has_border": true,
+   "usage": {
+    "Sliced": 8
+   },
+   "sliced_count": 8
+  },
+  {
+   "key": "RoadPuzzle/Roadpuzzle_Popup_TextBg",
+   "size": [
+    125,
+    971
+   ],
+   "border": [
+    55,
+    0,
+    55,
+    0
+   ],
+   "has_border": true,
+   "usage": {
+    "Sliced": 8
+   },
+   "sliced_count": 8
+  },
+  {
+   "key": "CardGame/CCG_Bg_BtnFuntion",
+   "size": [
+    69,
+    108
+   ],
+   "border": [
+    26,
+    26,
+    26,
+    26
+   ],
+   "has_border": true,
+   "usage": {
+    "Sliced": 7
+   },
+   "sliced_count": 7
+  },
+  {
+   "key": "RoadPuzzle/Roadpuzzle_Bg_Text_3",
+   "size": [
+    58,
+    98
+   ],
+   "border": [
+    8,
+    0,
+    38,
+    0
+   ],
+   "has_border": true,
+   "usage": {
+    "Sliced": 6
+   },
+   "sliced_count": 6
+  },
+  {
+   "key": "RoadPuzzle/Roadpuzzle_Btn_Big_Start",
+   "size": [
+    583,
+    209
+   ],
+   "border": [
+    500,
+    0,
+    76,
+    0
+   ],
+   "has_border": true,
+   "usage": {
+    "Sliced": 6
+   },
+   "sliced_count": 6
+  },
+  {
+   "key": "Worldraid_854/WorldRaid854_Frame_01",
+   "size": [
+    32,
+    4
+   ],
+   "border": [
+    14,
+    0,
+    14,
+    0
+   ],
+   "has_border": true,
+   "usage": {
+    "Sliced": 5
+   },
+   "sliced_count": 5
+  },
+  {
+   "key": "BattlePass/BattlePass_Btn_Type2",
+   "size": [
+    102,
+    151
+   ],
+   "border": [
+    50,
+    0,
+    24,
+    0
+   ],
+   "has_border": true,
+   "usage": {
+    "Sliced": 4
+   },
+   "sliced_count": 4
+  },
+  {
+   "key": "CardGame/CCG_Bg_Dialog",
+   "size": [
+    214,
+    145
+   ],
+   "border": [
+    152,
+    84,
+    54,
+    54
+   ],
+   "has_border": true,
+   "usage": {
+    "Sliced": 4
+   },
+   "sliced_count": 4
+  },
+  {
+   "key": "Combat/DamageGauge_EN0015_Frame_Gauge",
+   "size": [
+    28,
+    28
+   ],
+   "border": [
+    12,
+    0,
+    12,
+    0
+   ],
+   "has_border": true,
+   "usage": {
+    "Sliced": 4
+   },
+   "sliced_count": 4
+  },
+  {
+   "key": "Concentration/Concentration_BtnBG",
+   "size": [
+    99,
+    126
+   ],
+   "border": [
+    46,
+    0,
+    46,
+    0
+   ],
+   "has_border": true,
+   "usage": {
+    "Sliced": 4
+   },
+   "sliced_count": 4
+  },
+  {
+   "key": "RoadPuzzle/Roadpuzzle_Bg_Text_1",
+   "size": [
+    64,
+    81
+   ],
+   "border": [
+    15,
+    0,
+    40,
+    0
+   ],
+   "has_border": true,
+   "usage": {
+    "Sliced": 4
+   },
+   "sliced_count": 4
+  },
+  {
+   "key": "Worldraid_854/WorldRaid854_Frame_USB_On_00",
+   "size": [
+    46,
+    46
+   ],
+   "border": [
+    22,
+    22,
+    22,
+    22
+   ],
+   "has_border": true,
+   "usage": {
+    "Sliced": 4
+   },
+   "sliced_count": 4
+  },
+  {
+   "key": "CardGame/CCG_Bg_BtnDisable",
+   "size": [
+    224,
+    142
+   ],
+   "border": [
+    102,
+    0,
+    114,
+    0
+   ],
+   "has_border": true,
+   "usage": {
+    "Sliced": 3
+   },
+   "sliced_count": 3
+  },
+  {
+   "key": "CardGame/CCG_Img_BtnRestSelect",
+   "size": [
+    378,
+    288
+   ],
+   "border": [
+    64,
+    0,
+    310,
+    0
+   ],
+   "has_border": true,
+   "usage": {
+    "Sliced": 3
+   },
+   "sliced_count": 3
+  },
+  {
+   "key": "Combat/Combat_SubBtn",
+   "size": [
+    66,
+    66
+   ],
+   "border": [
+    25,
+    25,
+    25,
+    25
+   ],
+   "has_border": true,
+   "usage": {
+    "Sliced": 3
+   },
+   "sliced_count": 3
+  },
+  {
+   "key": "Combat/Combat_Textbg",
+   "size": [
+    53,
+    51
+   ],
+   "border": [
+    22,
+    22,
+    22,
+    22
+   ],
+   "has_border": true,
+   "usage": {
+    "Sliced": 3
+   },
+   "sliced_count": 3
+  },
+  {
+   "key": "Common/Cafe_Balloon_Text",
+   "size": [
+    512,
+    125
+   ],
+   "border": [
+    0,
+    35,
+    0,
+    85
+   ],
+   "has_border": true,
+   "usage": {
+    "Sliced": 3
+   },
+   "sliced_count": 3
+  },
+  {
+   "key": "Common/Common_TextSpace_Line",
+   "size": [
+    8,
+    56
+   ],
+   "border": [
+    2,
+    0,
+    2,
+    5
+   ],
+   "has_border": true,
+   "usage": {
+    "Sliced": 3
+   },
+   "sliced_count": 3
+  },
+  {
+   "key": "Common/Seasonal_Tab_Btn_1",
+   "size": [
+    86,
+    108
+   ],
+   "border": [
+    40,
+    0,
+    40,
+    0
+   ],
+   "has_border": true,
+   "usage": {
+    "Sliced": 3
+   },
+   "sliced_count": 3
+  },
+  {
+   "key": "Common/Seasonal_Tab_Btn_2",
+   "size": [
+    85,
+    116
+   ],
+   "border": [
+    40,
+    0,
+    40,
+    0
+   ],
+   "has_border": true,
+   "usage": {
+    "Sliced": 3
+   },
+   "sliced_count": 3
+  },
+  {
+   "key": "Worldraid_854/WorldRaid854_Img_BattlePopup_Frame_GlobalSkill",
+   "size": [
+    266,
+    242
+   ],
+   "border": [
+    0,
+    96,
+    0,
+    96
+   ],
+   "has_border": true,
+   "usage": {
+    "Sliced": 3
+   },
+   "sliced_count": 3
+  },
+  {
+   "key": "Worldraid_854/WorldRaid854_Img_BattlePopup_Frame_SkillList",
+   "size": [
+    92,
+    20
+   ],
+   "border": [
+    44,
+    8,
+    44,
+    8
+   ],
+   "has_border": true,
+   "usage": {
+    "Sliced": 3
+   },
+   "sliced_count": 3
+  },
+  {
+   "key": "CardGame/CCG_Bg_BtnMenu",
+   "size": [
+    50,
+    113
+   ],
+   "border": [
+    32,
+    0,
+    14,
+    0
+   ],
+   "has_border": true,
+   "usage": {
+    "Sliced": 2
+   },
+   "sliced_count": 2
+  },
+  {
+   "key": "CardGame/CCG_Bg_BtnMenu_Worldrade",
+   "size": [
+    64,
+    113
+   ],
+   "border": [
+    30,
+    0,
+    30,
+    0
+   ],
+   "has_border": true,
+   "usage": {
+    "Sliced": 2
+   },
+   "sliced_count": 2
+  },
+  {
+   "key": "CardGame/CCG_Bg_BtnMove",
+   "size": [
+    80,
+    80
+   ],
+   "border": [
+    36,
+    30,
+    36,
+    44
+   ],
+   "has_border": true,
+   "usage": {
+    "Sliced": 2
+   },
+   "sliced_count": 2
+  },
+  {
+   "key": "CardGame/CCG_Bg_BtnNext",
+   "size": [
+    224,
+    142
+   ],
+   "border": [
+    104,
+    0,
+    116,
+    0
+   ],
+   "has_border": true,
+   "usage": {
+    "Sliced": 2
+   },
+   "sliced_count": 2
+  },
+  {
+   "key": "CardGame/CCG_Bg_BtnStand",
+   "size": [
+    224,
+    142
+   ],
+   "border": [
+    104,
+    0,
+    116,
+    0
+   ],
+   "has_border": true,
+   "usage": {
+    "Sliced": 2
+   },
+   "sliced_count": 2
+  },
+  {
+   "key": "CardGame/CCG_Bg_NamePlate",
+   "size": [
+    86,
+    68
+   ],
+   "border": [
+    16,
+    18,
+    60,
+    46
+   ],
+   "has_border": true,
+   "usage": {
+    "Sliced": 2
+   },
+   "sliced_count": 2
+  },
+  {
+   "key": "CardGame/CCG_Btn_Disable",
+   "size": [
+    217,
+    138
+   ],
+   "border": [
+    104,
+    0,
+    104,
+    0
+   ],
+   "has_border": true,
+   "usage": {
+    "Sliced": 2
+   },
+   "sliced_count": 2
+  },
+  {
+   "key": "CardGame/CCG_Btn_Enable",
+   "size": [
+    217,
+    138
+   ],
+   "border": [
+    104,
+    0,
+    104,
+    0
+   ],
+   "has_border": true,
+   "usage": {
+    "Sliced": 2
+   },
+   "sliced_count": 2
+  },
+  {
+   "key": "CardGame/CCG_Btn_SortMyCard",
+   "size": [
+    64,
+    64
+   ],
+   "border": [
+    28,
+    28,
+    28,
+    28
+   ],
+   "has_border": true,
+   "usage": {
+    "Sliced": 2
+   },
+   "sliced_count": 2
+  },
+  {
+   "key": "Combat/SkillDeck_Decagram_Frame_01",
+   "size": [
+    42,
+    12
+   ],
+   "border": [
+    16,
+    0,
+    16,
+    0
+   ],
+   "has_border": true,
+   "usage": {
+    "Sliced": 2
+   },
+   "sliced_count": 2
+  },
+  {
+   "key": "Combat/SkillDeck_Decagram_Frame_05",
+   "size": [
+    54,
+    24
+   ],
+   "border": [
+    10,
+    0,
+    39,
+    0
+   ],
+   "has_border": true,
+   "usage": {
+    "Sliced": 2
+   },
+   "sliced_count": 2
+  },
+  {
+   "key": "Common/Common_TextBg_Voiceroom",
+   "size": [
+    51,
+    50
+   ],
+   "border": [
+    20,
+    15,
+    20,
+    30
+   ],
+   "has_border": true,
+   "usage": {
+    "Sliced": 2
+   },
+   "sliced_count": 2
+  },
+  {
+   "key": "RoadPuzzle/Roadpuzzle_StartBtn_Tag",
+   "size": [
+    125,
+    148
+   ],
+   "border": [
+    28,
+    0,
+    94,
+    0
+   ],
+   "has_border": true,
+   "usage": {
+    "Sliced": 2
+   },
+   "sliced_count": 2
+  },
+  {
+   "key": "TBG/Tbg_Btn_Bg_Y",
+   "size": [
+    64,
+    65
+   ],
+   "border": [
+    28,
+    20,
+    28,
+    40
+   ],
+   "has_border": true,
+   "usage": {
+    "Sliced": 2
+   },
+   "sliced_count": 2
+  },
+  {
+   "key": "Worldraid_854/WorldRaid854_Frame_SkillCondition_0",
+   "size": [
+    48,
+    48
+   ],
+   "border": [
+    22,
+    22,
+    22,
+    22
+   ],
+   "has_border": true,
+   "usage": {
+    "Sliced": 2
+   },
+   "sliced_count": 2
+  },
+  {
+   "key": "Worldraid_854/WorldRaid854_Frame_SkillCondition_1",
+   "size": [
+    62,
+    62
+   ],
+   "border": [
+    22,
+    22,
+    22,
+    22
+   ],
+   "has_border": true,
+   "usage": {
+    "Sliced": 2
+   },
+   "sliced_count": 2
+  },
+  {
+   "key": "Worldraid_854/WorldRaid854_Img_Replay_SliderFrame",
+   "size": [
+    34,
+    41
+   ],
+   "border": [
+    16,
+    18,
+    16,
+    18
+   ],
+   "has_border": true,
+   "usage": {
+    "Sliced": 2
+   },
+   "sliced_count": 2
+  },
+  {
+   "key": "BattlePass/BattlePass_Btn_Mission",
+   "size": [
+    351,
+    130
+   ],
+   "border": [
+    180,
+    0,
+    50,
+    0
+   ],
+   "has_border": true,
+   "usage": {
+    "Sliced": 1
+   },
+   "sliced_count": 1
+  },
+  {
+   "key": "CardGame/CCG_Bg_BtnAccept",
+   "size": [
+    224,
+    142
+   ],
+   "border": [
+    104,
+    0,
+    112,
+    0
+   ],
+   "has_border": true,
+   "usage": {
+    "Sliced": 1
+   },
+   "sliced_count": 1
+  },
+  {
+   "key": "CardGame/CCG_Bg_BtnBg",
+   "size": [
+    100,
+    94
+   ],
+   "border": [
+    48,
+    46,
+    48,
+    46
+   ],
+   "has_border": true,
+   "usage": {
+    "Sliced": 1
+   },
+   "sliced_count": 1
+  },
+  {
+   "key": "CardGame/CCG_Bg_BtnMenuDeco",
+   "size": [
+    17,
+    31
+   ],
+   "border": [
+    0,
+    12,
+    0,
+    16
+   ],
+   "has_border": true,
+   "usage": {
+    "Sliced": 1
+   },
+   "sliced_count": 1
+  },
+  {
+   "key": "CardGame/CCG_Bg_Btn_Dim",
+   "size": [
+    55,
+    54
+   ],
+   "border": [
+    26,
+    26,
+    26,
+    26
+   ],
+   "has_border": true,
+   "usage": {
+    "Sliced": 1
+   },
+   "sliced_count": 1
+  },
+  {
+   "key": "CardGame/CCG_Btn_TurnEnd",
+   "size": [
+    217,
+    138
+   ],
+   "border": [
+    104,
+    0,
+    104,
+    0
+   ],
+   "has_border": true,
+   "usage": {
+    "Sliced": 1
+   },
+   "sliced_count": 1
+  },
+  {
+   "key": "CardGame/CCG_Btn_TurnIn",
+   "size": [
+    54,
+    55
+   ],
+   "border": [
+    24,
+    18,
+    24,
+    32
+   ],
+   "has_border": true,
+   "usage": {
+    "Sliced": 1
+   },
+   "sliced_count": 1
+  },
+  {
+   "key": "CardGame/CCG_Btn_TurnProgress",
+   "size": [
+    217,
+    138
+   ],
+   "border": [
+    104,
+    0,
+    104,
+    0
+   ],
+   "has_border": true,
+   "usage": {
+    "Sliced": 1
+   },
+   "sliced_count": 1
+  },
+  {
+   "key": "CardGame/CCG_Img_BgLogExit",
+   "size": [
+    54,
+    84
+   ],
+   "border": [
+    47,
+    0,
+    4,
+    0
+   ],
+   "has_border": true,
+   "usage": {
+    "Sliced": 1
+   },
+   "sliced_count": 1
+  },
+  {
+   "key": "CardGame/CCG_Img_HudBattleFrame",
+   "size": [
+    158,
+    86
+   ],
+   "border": [
+    74,
+    0,
+    74,
+    0
+   ],
+   "has_border": true,
+   "usage": {
+    "Sliced": 1
+   },
+   "sliced_count": 1
+  },
+  {
+   "key": "Combat/SkillDeck_Decagram_Frame_00",
+   "size": [
+    81,
+    28
+   ],
+   "border": [
+    57,
+    0,
+    19,
+    0
+   ],
+   "has_border": true,
+   "usage": {
+    "Sliced": 1
+   },
+   "sliced_count": 1
+  },
+  {
+   "key": "Combat/SkillDeck_Decagram_Frame_04",
+   "size": [
+    25,
+    30
+   ],
+   "border": [
+    12,
+    9,
+    9,
+    17
+   ],
+   "has_border": true,
+   "usage": {
+    "Sliced": 1
+   },
+   "sliced_count": 1
+  },
+  {
+   "key": "Common/Common_AutoBg",
+   "size": [
+    82,
+    71
+   ],
+   "border": [
+    38,
+    0,
+    42,
+    0
+   ],
+   "has_border": true,
+   "usage": {
+    "Sliced": 1
+   },
+   "sliced_count": 1
+  },
+  {
+   "key": "Common/Common_Reward_BackEffect",
+   "size": [
+    100,
+    295
+   ],
+   "border": [
+    35,
+    0,
+    35,
+    0
+   ],
+   "has_border": true,
+   "usage": {
+    "Sliced": 1
+   },
+   "sliced_count": 1
+  },
+  {
+   "key": "Common/Seasonal_Playguide_Btn",
+   "size": [
+    194,
+    112
+   ],
+   "border": [
+    128,
+    0,
+    60,
+    0
+   ],
+   "has_border": true,
+   "usage": {
+    "Sliced": 1
+   },
+   "sliced_count": 1
+  },
+  {
+   "key": "Concentration/Concentration_Btn_Gray",
+   "size": [
+    132,
+    178
+   ],
+   "border": [
+    60,
+    1,
+    60,
+    1
+   ],
+   "has_border": true,
+   "usage": {
+    "Sliced": 1
+   },
+   "sliced_count": 1
+  },
+  {
+   "key": "Concentration/Concentration_Btn_Skip",
+   "size": [
+    109,
+    110
+   ],
+   "border": [
+    46,
+    0,
+    46,
+    0
+   ],
+   "has_border": true,
+   "usage": {
+    "Sliced": 1
+   },
+   "sliced_count": 1
+  },
+  {
+   "key": "Concentration/Concentration_Btn_Yellow",
+   "size": [
+    130,
+    176
+   ],
+   "border": [
+    60,
+    0,
+    60,
+    0
+   ],
+   "has_border": true,
+   "usage": {
+    "Sliced": 1
+   },
+   "sliced_count": 1
+  },
+  {
+   "key": "RoadPuzzle/Roadpuzzle_Btn_Skip",
+   "size": [
+    98,
+    113
+   ],
+   "border": [
+    40,
+    0,
+    40,
+    0
+   ],
+   "has_border": true,
+   "usage": {
+    "Sliced": 1
+   },
+   "sliced_count": 1
+  },
+  {
+   "key": "RoadPuzzle/Roadpuzzle_Btn_Text_Dark",
+   "size": [
+    90,
+    107
+   ],
+   "border": [
+    50,
+    0,
+    30,
+    0
+   ],
+   "has_border": true,
+   "usage": {
+    "Sliced": 1
+   },
+   "sliced_count": 1
+  },
+  {
+   "key": "RoadPuzzle/Roadpuzzle_Btn_Text_Dark_Worldraid",
+   "size": [
+    64,
+    81
+   ],
+   "border": [
+    33,
+    0,
+    23,
+    0
+   ],
+   "has_border": true,
+   "usage": {
+    "Sliced": 1
+   },
+   "sliced_count": 1
+  },
+  {
+   "key": "TBG/Tbg_Btn_Bg_B",
+   "size": [
+    64,
+    65
+   ],
+   "border": [
+    28,
+    22,
+    28,
+    38
+   ],
+   "has_border": true,
+   "usage": {
+    "Sliced": 1
+   },
+   "sliced_count": 1
+  },
+  {
+   "key": "Worldraid_854/WorldRaid854_Bg_BtnCollection",
+   "size": [
+    245,
+    154
+   ],
+   "border": [
+    170,
+    0,
+    50,
+    0
+   ],
+   "has_border": true,
+   "usage": {
+    "Sliced": 1
+   },
+   "sliced_count": 1
+  },
+  {
+   "key": "Worldraid_854/WorldRaid854_Bg_NodeNameGlow",
+   "size": [
+    22,
+    97
+   ],
+   "border": [
+    10,
+    0,
+    10,
+    0
+   ],
+   "has_border": true,
+   "usage": {
+    "Sliced": 1
+   },
+   "sliced_count": 1
+  },
+  {
+   "key": "Worldraid_854/WorldRaid854_Bg_ReplayBtn",
+   "size": [
+    86,
+    45
+   ],
+   "border": [
+    60,
+    12,
+    22,
+    30
+   ],
+   "has_border": true,
+   "usage": {
+    "Sliced": 1
+   },
+   "sliced_count": 1
+  },
+  {
+   "key": "BattlePass/BattlePass_Btn_Buy",
+   "size": [
+    695,
+    161
+   ],
+   "border": [
+    450,
+    0,
+    50,
+    0
+   ],
+   "has_border": true,
+   "usage": {
+    "Simple": 1
+   },
+   "sliced_count": 0
+  },
+  {
+   "key": "BattlePass/BattlePass_Btn_Buy_S2",
+   "size": [
+    695,
+    185
+   ],
+   "border": [
+    600,
+    0,
+    50,
+    0
+   ],
+   "has_border": true,
+   "usage": {
+    "Simple": 1
+   },
+   "sliced_count": 0
+  },
+  {
+   "key": "CardGame/CCG_Bg_ToastLogAlly",
+   "size": [
+    205,
+    64
+   ],
+   "border": [
+    18,
+    44,
+    182,
+    16
+   ],
+   "has_border": true,
+   "usage": {},
+   "sliced_count": 0
+  },
+  {
+   "key": "CardGame/CCG_Bg_ToastLogDefault",
+   "size": [
+    205,
+    64
+   ],
+   "border": [
+    18,
+    44,
+    182,
+    16
+   ],
+   "has_border": true,
+   "usage": {},
+   "sliced_count": 0
+  },
+  {
+   "key": "CardGame/CCG_Bg_ToastLogEnemy",
+   "size": [
+    205,
+    64
+   ],
+   "border": [
+    18,
+    44,
+    182,
+    16
+   ],
+   "has_border": true,
+   "usage": {},
+   "sliced_count": 0
+  },
+  {
+   "key": "CardGame/CCG_Btn_Active",
+   "size": [
+    54,
+    55
+   ],
+   "border": [
+    24,
+    18,
+    24,
+    32
+   ],
+   "has_border": true,
+   "usage": {},
+   "sliced_count": 0
+  },
+  {
+   "key": "CardGame/CCG_Btn_TurnOut",
+   "size": [
+    54,
+    55
+   ],
+   "border": [
+    24,
+    18,
+    24,
+    32
+   ],
+   "has_border": true,
+   "usage": {},
+   "sliced_count": 0
+  },
+  {
+   "key": "CardGame/CCG_Img_BgLogAlly",
+   "size": [
+    30,
+    30
+   ],
+   "border": [
+    14,
+    14,
+    14,
+    14
+   ],
+   "has_border": true,
+   "usage": {},
+   "sliced_count": 0
+  },
+  {
+   "key": "CardGame/CCG_Img_BgLogEnemy",
+   "size": [
+    30,
+    30
+   ],
+   "border": [
+    14,
+    14,
+    14,
+    14
+   ],
+   "has_border": true,
+   "usage": {},
+   "sliced_count": 0
+  },
+  {
+   "key": "CardGame/CCG_Img_BtnRestSelectDim",
+   "size": [
+    378,
+    288
+   ],
+   "border": [
+    64,
+    0,
+    310,
+    0
+   ],
+   "has_border": true,
+   "usage": {},
+   "sliced_count": 0
+  },
+  {
+   "key": "CardGame/CCG_Img_DimHudBtn",
+   "size": [
+    52,
+    52
+   ],
+   "border": [
+    24,
+    24,
+    24,
+    24
+   ],
+   "has_border": true,
+   "usage": {},
+   "sliced_count": 0
+  },
+  {
+   "key": "CardGame/CCG_Img_LogEffectHeal",
+   "size": [
+    59,
+    54
+   ],
+   "border": [
+    20,
+    0,
+    36,
+    0
+   ],
+   "has_border": true,
+   "usage": {},
+   "sliced_count": 0
+  },
+  {
+   "key": "CardGame/CCG_Img_LogEffectShield",
+   "size": [
+    59,
+    54
+   ],
+   "border": [
+    20,
+    0,
+    36,
+    0
+   ],
+   "has_border": true,
+   "usage": {},
+   "sliced_count": 0
+  },
+  {
+   "key": "CardGame/CCG_Img_LogGradient",
+   "size": [
+    32,
+    201
+   ],
+   "border": [
+    14,
+    0,
+    14,
+    0
+   ],
+   "has_border": true,
+   "usage": {},
+   "sliced_count": 0
+  },
+  {
+   "key": "Combat/Combat_SuffCharacter_CoverLine_Btn",
+   "size": [
+    75,
+    76
+   ],
+   "border": [
+    35,
+    35,
+    35,
+    35
+   ],
+   "has_border": true,
+   "usage": {},
+   "sliced_count": 0
+  },
+  {
+   "key": "Combat/Ingame_Operater_Text_Bg",
+   "size": [
+    101,
+    122
+   ],
+   "border": [
+    50,
+    50,
+    40,
+    50
+   ],
+   "has_border": true,
+   "usage": {},
+   "sliced_count": 0
+  },
+  {
+   "key": "Common/Cafe_Balloon_Text_Think",
+   "size": [
+    512,
+    125
+   ],
+   "border": [
+    0,
+    35,
+    0,
+    85
+   ],
+   "has_border": true,
+   "usage": {},
+   "sliced_count": 0
+  },
+  {
+   "key": "Common/Cafe_Btn_Bg",
+   "size": [
+    180,
+    148
+   ],
+   "border": [
+    2,
+    20,
+    174,
+    124
+   ],
+   "has_border": true,
+   "usage": {},
+   "sliced_count": 0
+  },
+  {
+   "key": "Worldraid/Conquest_2nd_Eventlobby_PanelLine3",
+   "size": [
+    64,
+    6
+   ],
+   "border": [
+    30,
+    0,
+    30,
+    0
+   ],
+   "has_border": true,
+   "usage": {},
+   "sliced_count": 0
+  },
+  {
+   "key": "Worldraid_854/WorldRaid854_Frame_Round4px",
+   "size": [
+    18,
+    18
+   ],
+   "border": [
+    8,
+    8,
+    8,
+    8
+   ],
+   "has_border": true,
+   "usage": {},
+   "sliced_count": 0
+  },
+  {
+   "key": "Common/Common_Plus_Tilt_Btn",
+   "size": [
+    127,
+    125
+   ],
+   "border": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "has_border": false,
+   "usage": {
+    "Sliced": 2439,
+    "Simple": 8
+   },
+   "sliced_count": 2439
+  },
+  {
+   "key": "Common/Common_Btn_Normal_B_S_Pt",
+   "size": [
+    251,
+    140
+   ],
+   "border": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "has_border": false,
+   "usage": {
+    "Simple": 1031,
+    "Sliced": 415
+   },
+   "sliced_count": 415
+  },
+  {
+   "key": "Dreammaker/Common_Btn_Normal_B_S_Pt",
+   "size": [
+    251,
+    140
+   ],
+   "border": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "has_border": false,
+   "usage": {
+    "Simple": 1031,
+    "Sliced": 415
+   },
+   "sliced_count": 415
+  }
+ ],
+ "candidate_count": 218,
+ "exported": 0
+}

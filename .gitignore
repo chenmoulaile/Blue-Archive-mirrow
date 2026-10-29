@@ -1,0 +1,33 @@
+# 依赖
+node_modules/
+dist/
+out/
+release/
+
+# 素材与抓取结果（体积大、版权归原厂，不入库）
+resources/
+viewer/
+data/*.json
+
+# 本地存档与缓存
+*.db
+*.sqlite
+*.sqlite3
+.cache/
+
+# 系统
+.DS_Store
+Thumbs.db
+*.log
+.part
+
+# Electron 运行时数据（存档/缓存），全部落在工作目录
+.userdata/
+.npmrc
+
+# 本地临时目录（TEMP/TMP 统一指到这里，避免写 C 盘）
+.tmp/
+
+# 外部工具与解包工作区（体积大，不入库）
+.vendor/
+.baad/

@@ -1,0 +1,236 @@
+/*
+ * 深色游戏风主题（默认）
+ *
+ * 取色来源：resources/ui/ 里 Common_Bg_* / Common_Square_Bg 这批底板的实际像素
+ * （BA 的 UI 精灵是白色遮罩，靠 NGUI mColor 上色；这里取的是游戏内常见的
+ *  深蓝底 + 白描边 + BA 蓝强调色）。
+ *
+ * 做法：只覆盖 :root 的变量 + 少量硬编码了白色的选择器，
+ * 不重写 global.css 的布局规则，避免牵一发动全身。
+ * 切回浅色：<html data-theme="light">。
+ */
+
+:root[data-theme='dark-game'] {
+  /* 文字 */
+  --ink: #eaf4ff;
+  --ink-2: #b6c9da;
+  --ink-3: #7d93a6;
+
+  /* 背景 */
+  --bg: #0a141f;
+  --bg-2: #0e1b28;
+  --card: rgba(16, 31, 46, 0.88);
+  --line: rgba(122, 178, 219, 0.18);
+
+  /* 阴影 */
+  --shadow: 0 6px 20px rgba(0, 0, 0, 0.34);
+  --shadow-lg: 0 18px 48px rgba(0, 0, 0, 0.52);
+
+  /* 强调色沿用 BA 蓝，星色保持不变 */
+  --ba-blue: #4aa8e6;
+  --ba-blue-deep: #7cc7f2;
+  --ba-cyan: #8fd8f2;
+}
+
+:root[data-theme='dark-game'] body {
+  background:
+    radial-gradient(circle at 22% 8%, rgba(38, 92, 138, 0.34), transparent 58%),
+    radial-gradient(circle at 82% 92%, rgba(24, 62, 96, 0.3), transparent 55%),
+    var(--bg);
+  color: var(--ink);
+}
+
+/* ---- 外壳 ---- */
+[data-theme='dark-game'] .shell {
+  background: transparent;
+}
+[data-theme='dark-game'] .sidebar {
+  background: rgba(8, 18, 28, 0.92);
+  border-right: 1px solid var(--line);
+}
+[data-theme='dark-game'] .brand b {
+  color: var(--ink);
+}
+[data-theme='dark-game'] .brand span {
+  color: var(--ink-3);
+}
+[data-theme='dark-game'] .nav-item {
+  color: var(--ink-2);
+}
+[data-theme='dark-game'] .nav-item:hover {
+  background: rgba(74, 168, 230, 0.16);
+  color: #fff;
+}
+[data-theme='dark-game'] .nav-item.on {
+  background: linear-gradient(90deg, rgba(74, 168, 230, 0.34), rgba(74, 168, 230, 0.1));
+  color: #fff;
+  box-shadow: inset 3px 0 0 var(--ba-blue);
+}
+[data-theme='dark-game'] .topbar h2 {
+  color: var(--ink);
+}
+[data-theme='dark-game'] .chip {
+  background: rgba(12, 26, 40, 0.8);
+  border: 1px solid var(--line);
+  color: var(--ink);
+}
+
+/* ---- 面板 ---- */
+[data-theme='dark-game'] .panel,
+[data-theme='dark-game'] .settings-grid > .panel {
+  background: var(--card);
+  border: 1px solid var(--line);
+  color: var(--ink);
+  backdrop-filter: blur(8px);
+}
+[data-theme='dark-game'] .panel h4 {
+  color: #fff;
+  border-bottom: 1px solid var(--line);
+}
+
+/* ---- 列表 / 卡片 ---- */
+[data-theme='dark-game'] .story-item,
+[data-theme='dark-game'] .momo-chat,
+[data-theme='dark-game'] .banner-item,
+[data-theme='dark-game'] .event-row,
+[data-theme='dark-game'] .furni,
+[data-theme='dark-game'] .picker-card,
+[data-theme='dark-game'] .shop-item {
+  background: rgba(14, 28, 42, 0.82);
+  border: 1px solid var(--line);
+  color: var(--ink);
+}
+[data-theme='dark-game'] .story-item:hover,
+[data-theme='dark-game'] .momo-chat:hover,
+[data-theme='dark-game'] .event-row:hover {
+  background: rgba(30, 58, 84, 0.9);
+}
+[data-theme='dark-game'] .story-item.on,
+[data-theme='dark-game'] .momo-chat.on {
+  background: rgba(74, 168, 230, 0.22);
+  border-color: rgba(122, 199, 242, 0.5);
+}
+[data-theme='dark-game'] .story-item b,
+[data-theme='dark-game'] .momo-chat b {
+  color: #fff;
+}
+[data-theme='dark-game'] .story-item span,
+[data-theme='dark-game'] .momo-chat span {
+  color: var(--ink-3);
+}
+
+/* ---- 表单控件：浏览器默认样式必须盖掉 ---- */
+[data-theme='dark-game'] input,
+[data-theme='dark-game'] select,
+[data-theme='dark-game'] textarea {
+  background: rgba(8, 18, 28, 0.86);
+  color: var(--ink);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+}
+[data-theme='dark-game'] input::placeholder {
+  color: var(--ink-3);
+}
+[data-theme='dark-game'] select option {
+  background: #0e1b28;
+  color: var(--ink);
+}
+[data-theme='dark-game'] input[type='range'] {
+  accent-color: var(--ba-blue);
+}
+[data-theme='dark-game'] input[type='checkbox'] {
+  accent-color: var(--ba-blue);
+}
+[data-theme='dark-game'] .seg {
+  background: rgba(8, 18, 28, 0.7);
+  border: 1px solid var(--line);
+}
+[data-theme='dark-game'] .seg button {
+  color: var(--ink-2);
+}
+[data-theme='dark-game'] .seg button.on {
+  background: rgba(74, 168, 230, 0.34);
+  color: #fff;
+}
+
+/* ---- 按钮 ---- */
+[data-theme='dark-game'] .btn {
+  background: linear-gradient(180deg, #4aa8e6, #2f7fbb);
+  color: #06202f;
+  border: none;
+  font-weight: 650;
+}
+[data-theme='dark-game'] .btn:hover {
+  filter: brightness(1.08);
+}
+[data-theme='dark-game'] .btn.ghost {
+  background: rgba(12, 26, 40, 0.8);
+  border: 1px solid var(--line);
+  color: var(--ink);
+}
+[data-theme='dark-game'] .btn.ghost:hover {
+  border-color: rgba(122, 199, 242, 0.55);
+  color: #fff;
+}
+[data-theme='dark-game'] .btn:disabled {
+  opacity: 0.45;
+}
+
+/* ---- 杂项 ---- */
+[data-theme='dark-game'] .muted {
+  color: var(--ink-3);
+}
+[data-theme='dark-game'] .warn {
+  background: rgba(232, 181, 63, 0.12);
+  border: 1px solid rgba(232, 181, 63, 0.32);
+  color: #f0d79a;
+}
+[data-theme='dark-game'] code {
+  background: rgba(8, 18, 28, 0.8);
+  color: #a9d6f5;
+  padding: 1px 5px;
+  border-radius: 5px;
+}
+[data-theme='dark-game'] .content {
+  background: transparent;
+}
+[data-theme='dark-game'] .empty-state {
+  color: var(--ink-3);
+}
+
+/* ---- Glyph 兜底图标：深色主题下必须是浅色线条 ---- */
+:root {
+  --glyph-color: currentColor;
+}
+[data-theme='dark-game'] {
+  --glyph-color: #dbeaf7;
+}
+[data-theme='light'] {
+  --glyph-color: #2b4257;
+}
+[data-theme='dark-game'] .glyph-fallback {
+  color: var(--glyph-color);
+}
+
+/* 顶栏 / 内容区：global.css 里有硬编码浅色底，这里必须显式盖掉 */
+[data-theme='dark-game'] .topbar {
+  background: transparent;
+  border-bottom: 1px solid var(--line);
+}
+[data-theme='dark-game'] .main,
+[data-theme='dark-game'] .content {
+  background: transparent;
+}
+
+/* 表单控件：global.css 里 `.field select` 之类特异性更高，这里用 !important 兜底 */
+[data-theme='dark-game'] select,
+[data-theme='dark-game'] input:not([type='range']):not([type='checkbox']),
+[data-theme='dark-game'] textarea {
+  background: rgba(8, 18, 28, 0.92) !important;
+  color: var(--ink) !important;
+  border: 1px solid var(--line) !important;
+}
+[data-theme='dark-game'] select option {
+  background: #0e1b28;
+  color: var(--ink);
+}

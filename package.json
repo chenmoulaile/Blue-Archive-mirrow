@@ -1,0 +1,43 @@
+{
+  "name": "shittim-chest",
+  "version": "0.2.0",
+  "private": true,
+  "description": "什亭之匣 —— 蔚蓝档案同人桌面客户端（非官方、非商业）",
+  "author": "fan project",
+  "license": "MIT",
+  "main": "dist-electron/main.js",
+  "build": {
+    "appId": "dev.shittimchest.app",
+    "productName": "Shittim Chest"
+  },
+  "scripts": {
+    "build:renderer": "vite build",
+    "build:electron": "node scripts/build-electron.mjs",
+    "build": "npm run build:electron && npm run build:renderer",
+    "start": "node scripts/start.mjs",
+    "dev": "npm run build && npm start",
+    "typecheck": "tsc --noEmit -p tsconfig.json",
+    "test:gacha": "node scripts/test-gacha.mjs",
+    "test:config": "node scripts/test-config.mjs",
+    "test:layout": "node scripts/measure-ui.mjs",
+    "test:e2e": "node scripts/e2e.mjs",
+    "preview": "python tools/viewer/build_preview.py",
+    "import:ui": "node scripts/import-ui.mjs"
+  },
+  "dependencies": {
+    "@esotericsoftware/spine-webgl": "4.2.120",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "@types/react": "^18.3.18",
+    "@types/react-dom": "^18.3.5",
+    "@vitejs/plugin-react": "^4.3.4",
+    "electron": "38.4.0",
+    "esbuild": "^0.24.2",
+    "playwright-core": "^1.64.1",
+    "typescript": "^5.7.2",
+    "vite": "^6.0.7"
+  }
+}

@@ -1,0 +1,436 @@
+{
+ "generated": "2026-10-29T20:57:30",
+ "bundle_dir": "E:\\Blue archive\\.baad\\cn\\android\\raw\\bundles",
+ "audio_clips": 676,
+ "unique_names": 676,
+ "name_prefixes": {
+  "SFX": 663,
+  "FX": 9,
+  "FurnitureBGM": 2,
+  "FurnituerBGM": 1,
+  "UI": 1
+ },
+ "samples": [
+  {
+   "name": "FurnitureBGM_240124_1",
+   "bytes": 4442924,
+   "files": [
+    "FurnitureBGM_240124_1.wav"
+   ]
+  },
+  {
+   "name": "FurnituerBGM_241023_1",
+   "bytes": 7475500,
+   "files": [
+    "FurnituerBGM_241023_1.wav"
+   ]
+  },
+  {
+   "name": "FurnitureBGM_240722_1",
+   "bytes": 8060972,
+   "files": [
+    "FurnitureBGM_240722_1.wav"
+   ]
+  },
+  {
+   "name": "SFX_HeavyTank01_Explosion_03",
+   "bytes": 94184,
+   "files": [
+    "SFX_HeavyTank01_Explosion_03.wav"
+   ]
+  },
+  {
+   "name": "SFX_Obstacles_prop_city_tire_01_B",
+   "bytes": 83642,
+   "files": [
+    "SFX_Obstacles_prop_city_tire_01_B.wav"
+   ]
+  },
+  {
+   "name": "SFX_DR0003_Run_01a",
+   "bytes": 5924,
+   "files": [
+    "SFX_DR0003_Run_01a.wav"
+   ]
+  },
+  {
+   "name": "SFX_Cat_Sound_B_01",
+   "bytes": 59212,
+   "files": [
+    "SFX_Cat_Sound_B_01.wav"
+   ]
+  },
+  {
+   "name": "SFX_Field_CH0070_Footsteps_Moving_02a",
+   "bytes": 3686,
+   "files": [
+    "SFX_Field_CH0070_Footsteps_Moving_02a.wav"
+   ]
+  },
+  {
+   "name": "SFX_FS_Run_L_04",
+   "bytes": 3268,
+   "files": [
+    "SFX_FS_Run_L_04.wav"
+   ]
+  },
+  {
+   "name": "SFX_Boing_JSD_03",
+   "bytes": 9188,
+   "files": [
+    "SFX_Boing_JSD_03.wav"
+   ]
+  },
+  {
+   "name": "SFX_DR0002_Idle_Turn",
+   "bytes": 25444,
+   "files": [
+    "SFX_DR0002_Idle_Turn.wav"
+   ]
+  },
+  {
+   "name": "SFX_Field_Hina_FootStep_02a",
+   "bytes": 12430,
+   "files": [
+    "SFX_Field_Hina_FootStep_02a.wav"
+   ]
+  },
+  {
+   "name": "SFX_Obstacles_Explosion_S_04b",
+   "bytes": 71310,
+   "files": [
+    "SFX_Obstacles_Explosion_S_04b.wav"
+   ]
+  },
+  {
+   "name": "SFX_Obstacles_prop_city_bongdari_02_B",
+   "bytes": 86598,
+   "files": [
+    "SFX_Obstacles_prop_city_bongdari_02_B.wav"
+   ]
+  },
+  {
+   "name": "SFX_Explosion_RL_Hit_03",
+   "bytes": 67258,
+   "files": [
+    "SFX_Explosion_RL_Hit_03.wav"
+   ]
+  },
+  {
+   "name": "SFX_Talk_Beep",
+   "bytes": 9488,
+   "files": [
+    "SFX_Talk_Beep.wav"
+   ]
+  },
+  {
+   "name": "SFX_Obstacles_prop_Common_Standsignboard",
+   "bytes": 61706,
+   "files": [
+    "SFX_Obstacles_prop_Common_Standsignboard.wav"
+   ]
+  },
+  {
+   "name": "SFX_Electric_JSD_Shock_01",
+   "bytes": 48732,
+   "files": [
+    "SFX_Electric_JSD_Shock_01.wav"
+   ]
+  },
+  {
+   "name": "SFX_JSD_Slide_01",
+   "bytes": 18066,
+   "files": [
+    "SFX_JSD_Slide_01.wav"
+   ]
+  },
+  {
+   "name": "FX_Level_PropHit_City_04",
+   "bytes": 39808,
+   "files": [
+    "FX_Level_PropHit_City_04.wav"
+   ]
+  },
+  {
+   "name": "SFX_Bullet_Short_02",
+   "bytes": 25576,
+   "files": [
+    "SFX_Bullet_Short_02.wav"
+   ]
+  },
+  {
+   "name": "SFX_UnderCover_CH0070_Ex01_Move_Walk_End",
+   "bytes": 20140,
+   "files": [
+    "SFX_UnderCover_CH0070_Ex01_Move_Walk_End.wav"
+   ]
+  },
+  {
+   "name": "SFX_Obstacles_prop_desert_car_B",
+   "bytes": 95404,
+   "files": [
+    "SFX_Obstacles_prop_desert_car_B.wav"
+   ]
+  },
+  {
+   "name": "SFX_CH0181_Ex_Shot_03",
+   "bytes": 53788,
+   "files": [
+    "SFX_CH0181_Ex_Shot_03.wav"
+   ]
+  },
+  {
+   "name": "SFX_Door2_Close",
+   "bytes": 59736,
+   "files": [
+    "SFX_Door2_Close.wav"
+   ]
+  },
+  {
+   "name": "SFX_Old_Skill_E_Ex_Add_Wav_c",
+   "bytes": 37806,
+   "files": [
+    "SFX_Old_Skill_E_Ex_Add_Wav_c.wav"
+   ]
+  },
+  {
+   "name": "SFX_DR_NPC_0002_Reward_Fishing_02",
+   "bytes": 116460,
+   "files": [
+    "SFX_DR_NPC_0002_Reward_Fishing_02.wav"
+   ]
+  },
+  {
+   "name": "SFX_JSD_Punch_01",
+   "bytes": 18022,
+   "files": [
+    "SFX_JSD_Punch_01.wav"
+   ]
+  },
+  {
+   "name": "SFX_Explosion_Grenade_02",
+   "bytes": 51716,
+   "files": [
+    "SFX_Explosion_Grenade_02.wav"
+   ]
+  },
+  {
+   "name": "SFX_HeavyTank01_Explosion_01",
+   "bytes": 59904,
+   "files": [
+    "SFX_HeavyTank01_Explosion_01.wav"
+   ]
+  },
+  {
+   "name": "SFX_Explosion_Grenade_01",
+   "bytes": 51716,
+   "files": [
+    "SFX_Explosion_Grenade_01.wav"
+   ]
+  },
+  {
+   "name": "SFX_Obstacles_Explosion_M_04b",
+   "bytes": 90126,
+   "files": [
+    "SFX_Obstacles_Explosion_M_04b.wav"
+   ]
+  },
+  {
+   "name": "SFX_Explosion_RL_Hit_02",
+   "bytes": 67258,
+   "files": [
+    "SFX_Explosion_RL_Hit_02.wav"
+   ]
+  },
+  {
+   "name": "SFX_Hit_Water_Pop_01",
+   "bytes": 20334,
+   "files": [
+    "SFX_Hit_Water_Pop_01.wav"
+   ]
+  },
+  {
+   "name": "FX_Level_PropDestroy_City_03",
+   "bytes": 59066,
+   "files": [
+    "FX_Level_PropDestroy_City_03.wav"
+   ]
+  },
+  {
+   "name": "SFX_UnderCover_CH0280_Move_Walk_Ing_01c",
+   "bytes": 7372,
+   "files": [
+    "SFX_UnderCover_CH0280_Move_Walk_Ing_01c.wav"
+   ]
+  },
+  {
+   "name": "SFX_Obstacles_prop_city_carsuv_B",
+   "bytes": 87746,
+   "files": [
+    "SFX_Obstacles_prop_city_carsuv_B.wav"
+   ]
+  },
+  {
+   "name": "SFX_Obstacles_prop_desert_02_B_lying",
+   "bytes": 61462,
+   "files": [
+    "SFX_Obstacles_prop_desert_02_B_lying.wav"
+   ]
+  },
+  {
+   "name": "SFX_Old_Skill_M_Ex_Cut_in",
+   "bytes": 237068,
+   "files": [
+    "SFX_Old_Skill_M_Ex_Cut_in.wav"
+   ]
+  },
+  {
+   "name": "SFX_UnderCover_CH0070_Ex01_Move_Walk_Ing_02a",
+   "bytes": 9430,
+   "files": [
+    "SFX_UnderCover_CH0070_Ex01_Move_Walk_Ing_02a.wav"
+   ]
+  },
+  {
+   "name": "SFX_Public_Paint_Fall_02",
+   "bytes": 128592,
+   "files": [
+    "SFX_Public_Paint_Fall_02.wav"
+   ]
+  },
+  {
+   "name": "SFX_Baal_Skill_EX_Start_1",
+   "bytes": 21292,
+   "files": [
+    "SFX_Baal_Skill_EX_Start_1.wav"
+   ]
+  },
+  {
+   "name": "SFX_DR0003_End",
+   "bytes": 27240,
+   "files": [
+    "SFX_DR0003_End.wav"
+   ]
+  },
+  {
+   "name": "SFX_Obstacles_prop_Electronic_Explosion_03",
+   "bytes": 57904,
+   "files": [
+    "SFX_Obstacles_prop_Electronic_Explosion_03.wav"
+   ]
+  },
+  {
+   "name": "SFX_Obstacles_prop_city_baricade_cover_B",
+   "bytes": 89072,
+   "files": [
+    "SFX_Obstacles_prop_city_baricade_cover_B.wav"
+   ]
+  },
+  {
+   "name": "SFX_FS_Run_R_02",
+   "bytes": 3268,
+   "files": [
+    "SFX_FS_Run_R_02.wav"
+   ]
+  },
+  {
+   "name": "SFX_Boing_JSD_01",
+   "bytes": 9188,
+   "files": [
+    "SFX_Boing_JSD_01.wav"
+   ]
+  },
+  {
+   "name": "SFX_UnderCover_CH0070_Move_Run_Ing_02a",
+   "bytes": 3952,
+   "files": [
+    "SFX_UnderCover_CH0070_Move_Run_Ing_02a.wav"
+   ]
+  },
+  {
+   "name": "SFX_Old_Skill_A_Ex_Cutin",
+   "bytes": 261388,
+   "files": [
+    "SFX_Old_Skill_A_Ex_Cutin.wav"
+   ]
+  },
+  {
+   "name": "SFX_UnderCover_CH0280_Move_Run_Ing_01a",
+   "bytes": 9000,
+   "files": [
+    "SFX_UnderCover_CH0280_Move_Run_Ing_01a.wav"
+   ]
+  },
+  {
+   "name": "SFX_UnderCover_CH0070_Ex01_Move_Walk_Ing_01b",
+   "bytes": 7974,
+   "files": [
+    "SFX_UnderCover_CH0070_Ex01_Move_Walk_Ing_01b.wav"
+   ]
+  },
+  {
+   "name": "SFX_Field_PJ_Hina_FootStep_01a",
+   "bytes": 2958,
+   "files": [
+    "SFX_Field_PJ_Hina_FootStep_01a.wav"
+   ]
+  },
+  {
+   "name": "SFX_Field_WPN_Hina_FootStep_01a",
+   "bytes": 12430,
+   "files": [
+    "SFX_Field_WPN_Hina_FootStep_01a.wav"
+   ]
+  },
+  {
+   "name": "SFX_CH0095_Public_Shot_04",
+   "bytes": 54062,
+   "files": [
+    "SFX_CH0095_Public_Shot_04.wav"
+   ]
+  },
+  {
+   "name": "SFX_Obstacles_prop_desert_box_C",
+   "bytes": 69474,
+   "files": [
+    "SFX_Obstacles_prop_desert_box_C.wav"
+   ]
+  },
+  {
+   "name": "SFX_DR_NPC_0001_Idle_02",
+   "bytes": 14616,
+   "files": [
+    "SFX_DR_NPC_0001_Idle_02.wav"
+   ]
+  },
+  {
+   "name": "SFX_FS_Run_Jump",
+   "bytes": 11032,
+   "files": [
+    "SFX_FS_Run_Jump.wav"
+   ]
+  },
+  {
+   "name": "SFX_UnderCover_CH0070_Move_Walk_Ing_01b",
+   "bytes": 3934,
+   "files": [
+    "SFX_UnderCover_CH0070_Move_Walk_Ing_01b.wav"
+   ]
+  },
+  {
+   "name": "SFX_Field_Movement_07",
+   "bytes": 22108,
+   "files": [
+    "SFX_Field_Movement_07.wav"
+   ]
+  },
+  {
+   "name": "SFX_CH0181_Ex_Shot_01",
+   "bytes": 53788,
+   "files": [
+    "SFX_CH0181_Ex_Shot_01.wav"
+   ]
+  }
+ ],
+ "exported": 676
+}

@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>什亭之匣 · 界面预览</title>
+<style>
+:root{--ink:#26333f;--sub:#6b7c8c;--line:#dbe7f0;--blue:#3f9fe0}
+*{box-sizing:border-box}
+body{margin:0;background:#eef6fc;color:var(--ink);
+  font:15px/1.7 -apple-system,"Segoe UI","Microsoft YaHei",system-ui,sans-serif}
+header{background:linear-gradient(135deg,#1b6fb8,#4aa8e0 60%,#8fd8f2);color:#fff;padding:34px 40px 30px}
+header h1{margin:0;font-size:24px;letter-spacing:1px}
+header p{margin:8px 0 0;opacity:.9;font-size:13.5px}
+.wrap{max-width:1180px;margin:0 auto;padding:28px 32px 60px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(430px,1fr));gap:22px}
+figure{margin:0;background:#fff;border:1px solid var(--line);border-radius:14px;overflow:hidden;
+  box-shadow:0 8px 24px rgba(24,60,100,.08);transition:.18s}
+figure:hover{transform:translateY(-3px);box-shadow:0 14px 34px rgba(24,60,100,.14)}
+figure img{width:100%;display:block;border-bottom:1px solid var(--line)}
+figcaption{padding:12px 16px;font-size:13px}
+figcaption b{display:block;font-size:14px;margin-bottom:3px}
+figcaption span{color:var(--sub);font-size:12.5px}
+.note{background:#fff8e6;border:1px solid #f2e0a8;border-radius:12px;padding:14px 18px;
+  font-size:12.5px;color:#7a5c00;line-height:1.8;margin-bottom:24px}
+</style></head><body>
+<header>
+  <h1>什亭之匣 · Shittim Chest</h1>
+  <p>Electron + React + TypeScript · 2479 集剧情 / 434 个回忆大厅 / 862 个历史卡池</p>
+</header>
+<div class="wrap">
+  <div class="note">
+    非官方、非商业同人作品，与 NAT GAMES / NEXON / Yostar 无任何关联。
+    游戏素材版权归 NAT GAMES / NEXON 所有；代码以 MIT 许可发布，不覆盖任何素材。
+    以下截图由端到端测试脚本自动抓取（<code>npm run test:e2e</code>）。
+  </div>
+  <div class="grid">
+    <figure><img src="../tools/recon/out/e2e-01-title.png" alt="启动页" loading="lazy"><figcaption><b>启动页</b><span>BA 风格标题画面，签到状态与资料概览入口</span></figcaption></figure><figure><img src="../tools/recon/out/e2e-02-lobby.png" alt="记忆大厅" loading="lazy"><figcaption><b>记忆大厅</b><span>Spine 4.2 骨骼动画，回忆大厅场景自带背景与暗角</span></figcaption></figure><figure><img src="../tools/recon/out/e2e-03-lobby-picker.png" alt="大厅选择" loading="lazy"><figcaption><b>大厅选择</b><span>298 位带回忆大厅模型的学生，可搜索切换</span></figcaption></figure><figure><img src="../tools/recon/out/e2e-05-story-player.png" alt="剧情播放器" loading="lazy"><figcaption><b>剧情播放器</b><span>背景 + 角色头像 + 台词，支持自动 / 快进 / 回看</span></figcaption></figure><figure><img src="../tools/recon/out/e2e-06-story-advanced.png" alt="剧情推进" loading="lazy"><figcaption><b>剧情推进</b><span>打字机逐字显示，进度条与 BGM 名实时更新</span></figcaption></figure><figure><img src="../tools/recon/out/e2e-07-gacha.png" alt="招募卡池" loading="lazy"><figcaption><b>招募卡池</b><span>862 个历史卡池，限定 / 复刻 / FES 分类</span></figcaption></figure><figure><img src="../tools/recon/out/e2e-08-gacha-result.png" alt="十连结果" loading="lazy"><figcaption><b>十连结果</b><span>★3 金 / ★2 紫 / ★1 灰，UP 角标</span></figcaption></figure><figure><img src="../tools/recon/out/e2e-09-momotalk.png" alt="桃信" loading="lazy"><figcaption><b>桃信</b><span>以羁绊剧情为素材的会话与回复选项</span></figcaption></figure><figure><img src="../tools/recon/out/e2e-11-cafe-placed.png" alt="咖啡厅" loading="lazy"><figcaption><b>咖啡厅</b><span>家具摆放、舒适度换算离线收益</span></figcaption></figure><figure><img src="../tools/recon/out/e2e-12-events.png" alt="活动复刻" loading="lazy"><figcaption><b>活动复刻</b><span>544 条活动时间线，跳转同期卡池</span></figcaption></figure><figure><img src="../tools/recon/out/e2e-13-settings.png" alt="设置" loading="lazy"><figcaption><b>设置</b><span>素材目录、播放参数、虚拟货币与版权声明</span></figcaption></figure>
+  </div>
+</div>
+</body></html>

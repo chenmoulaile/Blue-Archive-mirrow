@@ -1,0 +1,1229 @@
+{
+ "generated": "2026-10-29T20:52:41",
+ "bundle_dir": "E:\\Blue archive\\.baad\\cn\\android\\raw\\bundles",
+ "scanned_bundles": 5,
+ "total_uisprite": 217484,
+ "uisprite_with_border": 0,
+ "mSprite_null": 217484,
+ "type_distribution": {
+  "Simple": 39394,
+  "Sliced": 177207,
+  "Filled": 258,
+  "Tiled": 575,
+  "Advanced": 50
+ },
+ "common_keys": [
+  "mGradientTop",
+  "m_GameObject",
+  "rightAnchor",
+  "inclineAngle",
+  "mSpriteName",
+  "mFlip",
+  "rightType",
+  "mMat",
+  "updateAnchors",
+  "topAnchor",
+  "bottomType",
+  "mFillDirection",
+  "hideIfOffScreen",
+  "m_Script",
+  "mMasked",
+  "centerType",
+  "mFillCenter",
+  "mColor",
+  "mAtlas",
+  "bottomAnchor",
+  "autoResizeBoxCollider",
+  "mDepth",
+  "mGradientBottom",
+  "leftAnchor",
+  "topType",
+  "keepAspectRatio",
+  "mApplyGradient",
+  "mFillAmount",
+  "mPivot",
+  "aspectRatio",
+  "leftType",
+  "mHeight",
+  "mType",
+  "m_Enabled",
+  "m_Name",
+  "mInvert",
+  "mWidth",
+  "mFixedAspect",
+  "ImageName",
+  "mGradientLeftBottom"
+ ],
+ "border_field_variants": {
+  "none": 400
+ },
+ "atlas_sprites": 1991,
+ "atlas_sprites_with_border": 440,
+ "atlas_border_samples": [
+  {
+   "atlas": "Conquest",
+   "name": "Conquest_Bg_Raius10px",
+   "border": [
+    10,
+    10,
+    10,
+    10
+   ]
+  },
+  {
+   "atlas": "Conquest",
+   "name": "Conquest_Bg_Raius20px",
+   "border": [
+    22,
+    22,
+    22,
+    22
+   ]
+  },
+  {
+   "atlas": "Conquest",
+   "name": "Conquest_Bg_Raius5px",
+   "border": [
+    5,
+    5,
+    5,
+    5
+   ]
+  },
+  {
+   "atlas": "Conquest",
+   "name": "Conquest_Top_Step_Bg",
+   "border": [
+    164,
+    190,
+    164,
+    15
+   ]
+  },
+  {
+   "atlas": "Event",
+   "name": "ShiftingCraftItem_1",
+   "border": [
+    -56,
+    0,
+    12,
+    0
+   ]
+  },
+  {
+   "atlas": "TBG",
+   "name": "Common_Bg_Raius10px",
+   "border": [
+    10,
+    10,
+    10,
+    10
+   ]
+  },
+  {
+   "atlas": "TBG",
+   "name": "Common_Bg_Raius10px_Shadow",
+   "border": [
+    16,
+    24,
+    16,
+    12
+   ]
+  },
+  {
+   "atlas": "TBG",
+   "name": "Common_Bg_Raius5px",
+   "border": [
+    5,
+    5,
+    5,
+    5
+   ]
+  },
+  {
+   "atlas": "TBG",
+   "name": "Common_Btn_BG",
+   "border": [
+    32,
+    40,
+    32,
+    25
+   ]
+  },
+  {
+   "atlas": "TBG",
+   "name": "Common_Line_Dot",
+   "border": [
+    2,
+    2,
+    2,
+    2
+   ]
+  }
+ ],
+ "conclusion": "UISprite 组件上没有 border 字段（字段表里只有 mSpriteName / mType / mAtlas）。九宫格切边在 NGUIAtlas.mSprites[i] 的 borderLeft/Bottom/Right/Top 上。因此不需要 prefab 也能拿到切边，prefab 只用来确认某个 sprite 实际按 Sliced 使用。",
+ "bundles": [
+  {
+   "file": "assets-_mx-uis-_mxcommon-_mxdependency-fonts-2026-06-04_assets_all_3615108887.bundle",
+   "size_mb": 32.24
+  },
+  {
+   "file": "prologdepengroup-assets-_mx-uis-_mxcommon-_mxprolog-2026-06-04_assets_all_429589434.bundle",
+   "size_mb": 16.05
+  },
+  {
+   "file": "assets-_mx-uis-_mxcommon-_mxdependency-assets-2026-06-04_assets_all_2071781405.bundle",
+   "size_mb": 13.67
+  },
+  {
+   "file": "assets-_mx-uis-atlas-_mxdependency-textures-2026-06-04_assets_all_1087259318.bundle",
+   "size_mb": 3.11
+  },
+  {
+   "file": "ui-_mxload-prefabs-2026-06-04_assets_all_3962116668.bundle",
+   "size_mb": 2.88
+  }
+ ],
+ "samples": [
+  {
+   "gameobject": "",
+   "sprite_name": "Common_Icon_Diamond",
+   "mSprite_is_null": true,
+   "type": "Simple",
+   "border": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "border_field": "none"
+  },
+  {
+   "gameobject": "",
+   "sprite_name": "Common_Icon_Reddot",
+   "mSprite_is_null": true,
+   "type": "Simple",
+   "border": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "border_field": "none"
+  },
+  {
+   "gameobject": "",
+   "sprite_name": "Common_Icon_Gold",
+   "mSprite_is_null": true,
+   "type": "Simple",
+   "border": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "border_field": "none"
+  },
+  {
+   "gameobject": "",
+   "sprite_name": "Common_Line_Slash",
+   "mSprite_is_null": true,
+   "type": "Sliced",
+   "border": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "border_field": "none"
+  },
+  {
+   "gameobject": "",
+   "sprite_name": "Common_Icon_Stamina",
+   "mSprite_is_null": true,
+   "type": "Simple",
+   "border": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "border_field": "none"
+  },
+  {
+   "gameobject": "",
+   "sprite_name": "Lobby_Stamina_ToolTip_Bg",
+   "mSprite_is_null": true,
+   "type": "Sliced",
+   "border": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "border_field": "none"
+  },
+  {
+   "gameobject": "",
+   "sprite_name": "Common_Plus_Btn",
+   "mSprite_is_null": true,
+   "type": "Simple",
+   "border": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "border_field": "none"
+  },
+  {
+   "gameobject": "",
+   "sprite_name": "Common_Top_Home_Btn",
+   "mSprite_is_null": true,
+   "type": "Simple",
+   "border": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "border_field": "none"
+  },
+  {
+   "gameobject": "",
+   "sprite_name": "Common_Square_Bg",
+   "mSprite_is_null": true,
+   "type": "Sliced",
+   "border": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "border_field": "none"
+  },
+  {
+   "gameobject": "",
+   "sprite_name": "Common_Icon_RaidPoint",
+   "mSprite_is_null": true,
+   "type": "Simple",
+   "border": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "border_field": "none"
+  },
+  {
+   "gameobject": "",
+   "sprite_name": "Common_Empty",
+   "mSprite_is_null": true,
+   "type": "Sliced",
+   "border": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "border_field": "none"
+  },
+  {
+   "gameobject": "",
+   "sprite_name": "Common_Empty",
+   "mSprite_is_null": true,
+   "type": "Sliced",
+   "border": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "border_field": "none"
+  },
+  {
+   "gameobject": "",
+   "sprite_name": "Common_Square_Bg",
+   "mSprite_is_null": true,
+   "type": "Sliced",
+   "border": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "border_field": "none"
+  },
+  {
+   "gameobject": "",
+   "sprite_name": "Common_Square_Bg",
+   "mSprite_is_null": true,
+   "type": "Sliced",
+   "border": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "border_field": "none"
+  },
+  {
+   "gameobject": "",
+   "sprite_name": "Common_Plus_Btn",
+   "mSprite_is_null": true,
+   "type": "Simple",
+   "border": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "border_field": "none"
+  },
+  {
+   "gameobject": "",
+   "sprite_name": "Common_Plus_Btn",
+   "mSprite_is_null": true,
+   "type": "Simple",
+   "border": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "border_field": "none"
+  },
+  {
+   "gameobject": "",
+   "sprite_name": "Common_Top_Option_Btn",
+   "mSprite_is_null": true,
+   "type": "Simple",
+   "border": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "border_field": "none"
+  },
+  {
+   "gameobject": "",
+   "sprite_name": "Common_Square_Bg",
+   "mSprite_is_null": true,
+   "type": "Sliced",
+   "border": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "border_field": "none"
+  },
+  {
+   "gameobject": "",
+   "sprite_name": "WorldRaid854_Line_2px",
+   "mSprite_is_null": true,
+   "type": "Sliced",
+   "border": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "border_field": "none"
+  },
+  {
+   "gameobject": "",
+   "sprite_name": "WorldRaid854_Img_DotRed",
+   "mSprite_is_null": true,
+   "type": "Filled",
+   "border": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "border_field": "none"
+  },
+  {
+   "gameobject": "",
+   "sprite_name": "WorldRaid854_Img_MenuHighlight",
+   "mSprite_is_null": true,
+   "type": "Simple",
+   "border": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "border_field": "none"
+  },
+  {
+   "gameobject": "",
+   "sprite_name": "WorldRaid854_Icon_DotRed",
+   "mSprite_is_null": true,
+   "type": "Simple",
+   "border": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "border_field": "none"
+  },
+  {
+   "gameobject": "",
+   "sprite_name": "WorldRaid854_Icon_Shop",
+   "mSprite_is_null": true,
+   "type": "Simple",
+   "border": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "border_field": "none"
+  },
+  {
+   "gameobject": "",
+   "sprite_name": "WorldRaid854_Bg_BridgeMenu",
+   "mSprite_is_null": true,
+   "type": "Sliced",
+   "border": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "border_field": "none"
+  },
+  {
+   "gameobject": "",
+   "sprite_name": "WorldRaid854_Deco_00",
+   "mSprite_is_null": true,
+   "type": "Sliced",
+   "border": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "border_field": "none"
+  },
+  {
+   "gameobject": "",
+   "sprite_name": "WorldRaid854_Icon_ShowUI",
+   "mSprite_is_null": true,
+   "type": "Simple",
+   "border": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "border_field": "none"
+  },
+  {
+   "gameobject": "",
+   "sprite_name": "WorldRaid854_Icon_Home_01",
+   "mSprite_is_null": true,
+   "type": "Simple",
+   "border": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "border_field": "none"
+  },
+  {
+   "gameobject": "",
+   "sprite_name": "WorldRaid854_Box_8px",
+   "mSprite_is_null": true,
+   "type": "Sliced",
+   "border": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "border_field": "none"
+  },
+  {
+   "gameobject": "",
+   "sprite_name": "WorldRaid854_Icon_Back_01",
+   "mSprite_is_null": true,
+   "type": "Simple",
+   "border": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "border_field": "none"
+  },
+  {
+   "gameobject": "",
+   "sprite_name": "WorldRaid854_Frame_00",
+   "mSprite_is_null": true,
+   "type": "Sliced",
+   "border": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "border_field": "none"
+  },
+  {
+   "gameobject": "",
+   "sprite_name": "WorldRaid854_Line_2px",
+   "mSprite_is_null": true,
+   "type": "Simple",
+   "border": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "border_field": "none"
+  },
+  {
+   "gameobject": "",
+   "sprite_name": "WorldRaid854_Camera_View01",
+   "mSprite_is_null": true,
+   "type": "Sliced",
+   "border": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "border_field": "none"
+  },
+  {
+   "gameobject": "",
+   "sprite_name": "WorldRaid854_Icon_Setting_00",
+   "mSprite_is_null": true,
+   "type": "Simple",
+   "border": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "border_field": "none"
+  },
+  {
+   "gameobject": "",
+   "sprite_name": "WorldRaid854_Icon_Info",
+   "mSprite_is_null": true,
+   "type": "Simple",
+   "border": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "border_field": "none"
+  },
+  {
+   "gameobject": "",
+   "sprite_name": "WorldRaid854_Img_Menu",
+   "mSprite_is_null": true,
+   "type": "Simple",
+   "border": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "border_field": "none"
+  },
+  {
+   "gameobject": "",
+   "sprite_name": "WorldRaid854_Line_2px",
+   "mSprite_is_null": true,
+   "type": "Sliced",
+   "border": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "border_field": "none"
+  },
+  {
+   "gameobject": "",
+   "sprite_name": "WorldRaid854_Frame_00",
+   "mSprite_is_null": true,
+   "type": "Sliced",
+   "border": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "border_field": "none"
+  },
+  {
+   "gameobject": "",
+   "sprite_name": "WorldRaid854_Box_8px",
+   "mSprite_is_null": true,
+   "type": "Sliced",
+   "border": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "border_field": "none"
+  },
+  {
+   "gameobject": "",
+   "sprite_name": "WorldRaid854_Icon_Home_00",
+   "mSprite_is_null": true,
+   "type": "Simple",
+   "border": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "border_field": "none"
+  },
+  {
+   "gameobject": "",
+   "sprite_name": "WorldRaid854_Icon_Story",
+   "mSprite_is_null": true,
+   "type": "Simple",
+   "border": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "border_field": "none"
+  },
+  {
+   "gameobject": "",
+   "sprite_name": "WorldRaid854_Icon_Story",
+   "mSprite_is_null": true,
+   "type": "Simple",
+   "border": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "border_field": "none"
+  },
+  {
+   "gameobject": "",
+   "sprite_name": "WorldRaid854_Deco_00",
+   "mSprite_is_null": true,
+   "type": "Sliced",
+   "border": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "border_field": "none"
+  },
+  {
+   "gameobject": "",
+   "sprite_name": "WorldRaid854_Tag_New",
+   "mSprite_is_null": true,
+   "type": "Sliced",
+   "border": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "border_field": "none"
+  },
+  {
+   "gameobject": "",
+   "sprite_name": "WorldRaid854_Frame_00",
+   "mSprite_is_null": true,
+   "type": "Sliced",
+   "border": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "border_field": "none"
+  },
+  {
+   "gameobject": "",
+   "sprite_name": "WorldRaid854_Bg_TabWhite",
+   "mSprite_is_null": true,
+   "type": "Sliced",
+   "border": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "border_field": "none"
+  },
+  {
+   "gameobject": "",
+   "sprite_name": "WorldRaid854_Bg_TabWhite_Side",
+   "mSprite_is_null": true,
+   "type": "Sliced",
+   "border": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "border_field": "none"
+  },
+  {
+   "gameobject": "",
+   "sprite_name": "WorldRaid854_Bg_TabWhite",
+   "mSprite_is_null": true,
+   "type": "Sliced",
+   "border": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "border_field": "none"
+  },
+  {
+   "gameobject": "",
+   "sprite_name": "WorldRaid854_Bg_GetTicket",
+   "mSprite_is_null": true,
+   "type": "Simple",
+   "border": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "border_field": "none"
+  },
+  {
+   "gameobject": "",
+   "sprite_name": "WorldRaid854_Box_8px",
+   "mSprite_is_null": true,
+   "type": "Sliced",
+   "border": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "border_field": "none"
+  },
+  {
+   "gameobject": "",
+   "sprite_name": "WorldRaid854_Img_ReplayDeco_18",
+   "mSprite_is_null": true,
+   "type": "Sliced",
+   "border": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "border_field": "none"
+  },
+  {
+   "gameobject": "",
+   "sprite_name": "WorldRaid854_Line_2px",
+   "mSprite_is_null": true,
+   "type": "Sliced",
+   "border": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "border_field": "none"
+  },
+  {
+   "gameobject": "",
+   "sprite_name": "WorldRaid854_Glow_CameraView",
+   "mSprite_is_null": true,
+   "type": "Simple",
+   "border": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "border_field": "none"
+  },
+  {
+   "gameobject": "",
+   "sprite_name": "WorldRaid854_Img_Menu",
+   "mSprite_is_null": true,
+   "type": "Simple",
+   "border": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "border_field": "none"
+  },
+  {
+   "gameobject": "",
+   "sprite_name": "WorldRaid854_Camera_View00",
+   "mSprite_is_null": true,
+   "type": "Simple",
+   "border": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "border_field": "none"
+  },
+  {
+   "gameobject": "",
+   "sprite_name": "WorldRaid854_Img_BridgeDeco_10",
+   "mSprite_is_null": true,
+   "type": "Sliced",
+   "border": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "border_field": "none"
+  },
+  {
+   "gameobject": "",
+   "sprite_name": "WorldRaid854_Box_8px",
+   "mSprite_is_null": true,
+   "type": "Sliced",
+   "border": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "border_field": "none"
+  },
+  {
+   "gameobject": "",
+   "sprite_name": "WorldRaid854_Box_8px",
+   "mSprite_is_null": true,
+   "type": "Sliced",
+   "border": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "border_field": "none"
+  },
+  {
+   "gameobject": "",
+   "sprite_name": "WorldRaid854_Bg_TabWhite",
+   "mSprite_is_null": true,
+   "type": "Sliced",
+   "border": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "border_field": "none"
+  },
+  {
+   "gameobject": "",
+   "sprite_name": "WorldRaid854_Deco_01",
+   "mSprite_is_null": true,
+   "type": "Simple",
+   "border": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "border_field": "none"
+  },
+  {
+   "gameobject": "",
+   "sprite_name": "WorldRaid854_Frame_01",
+   "mSprite_is_null": true,
+   "type": "Sliced",
+   "border": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "border_field": "none"
+  },
+  {
+   "gameobject": "",
+   "sprite_name": "WorldRaid854_Box_Shadow_8px",
+   "mSprite_is_null": true,
+   "type": "Sliced",
+   "border": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "border_field": "none"
+  },
+  {
+   "gameobject": "",
+   "sprite_name": "WorldRaid854_Frame_00",
+   "mSprite_is_null": true,
+   "type": "Sliced",
+   "border": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "border_field": "none"
+  },
+  {
+   "gameobject": "",
+   "sprite_name": "WorldRaid854_Camera_View00",
+   "mSprite_is_null": true,
+   "type": "Simple",
+   "border": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "border_field": "none"
+  },
+  {
+   "gameobject": "",
+   "sprite_name": "WorldRaid854_Gradient_00",
+   "mSprite_is_null": true,
+   "type": "Sliced",
+   "border": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "border_field": "none"
+  },
+  {
+   "gameobject": "",
+   "sprite_name": "WorldRaid854_Bg_BridgeMenu",
+   "mSprite_is_null": true,
+   "type": "Sliced",
+   "border": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "border_field": "none"
+  },
+  {
+   "gameobject": "",
+   "sprite_name": "WorldRaid854_Frame_00",
+   "mSprite_is_null": true,
+   "type": "Sliced",
+   "border": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "border_field": "none"
+  },
+  {
+   "gameobject": "",
+   "sprite_name": "WorldRaid854_Box_8px",
+   "mSprite_is_null": true,
+   "type": "Sliced",
+   "border": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "border_field": "none"
+  },
+  {
+   "gameobject": "",
+   "sprite_name": "WorldRaid854_Line_2px",
+   "mSprite_is_null": true,
+   "type": "Sliced",
+   "border": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "border_field": "none"
+  },
+  {
+   "gameobject": "",
+   "sprite_name": "WorldRaid854_Img_BridgeDeco_10",
+   "mSprite_is_null": true,
+   "type": "Sliced",
+   "border": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "border_field": "none"
+  },
+  {
+   "gameobject": "",
+   "sprite_name": "WorldRaid854_Gradient_00",
+   "mSprite_is_null": true,
+   "type": "Sliced",
+   "border": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "border_field": "none"
+  },
+  {
+   "gameobject": "",
+   "sprite_name": "WorldRaid854_Box_8px",
+   "mSprite_is_null": true,
+   "type": "Sliced",
+   "border": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "border_field": "none"
+  },
+  {
+   "gameobject": "",
+   "sprite_name": "WorldRaid854_Box_8px",
+   "mSprite_is_null": true,
+   "type": "Sliced",
+   "border": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "border_field": "none"
+  },
+  {
+   "gameobject": "",
+   "sprite_name": "WorldRaid854_Circle_Reserch_Deco",
+   "mSprite_is_null": true,
+   "type": "Sliced",
+   "border": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "border_field": "none"
+  },
+  {
+   "gameobject": "",
+   "sprite_name": "WorldRaid854_Line_2px",
+   "mSprite_is_null": true,
+   "type": "Sliced",
+   "border": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "border_field": "none"
+  },
+  {
+   "gameobject": "",
+   "sprite_name": "WorldRaid854_Icon_Core_01",
+   "mSprite_is_null": true,
+   "type": "Sliced",
+   "border": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "border_field": "none"
+  },
+  {
+   "gameobject": "",
+   "sprite_name": "WorldRaid854_Img_BridgeDeco_20",
+   "mSprite_is_null": true,
+   "type": "Sliced",
+   "border": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "border_field": "none"
+  },
+  {
+   "gameobject": "",
+   "sprite_name": "WorldRaid854_Img_DotRed",
+   "mSprite_is_null": true,
+   "type": "Filled",
+   "border": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "border_field": "none"
+  },
+  {
+   "gameobject": "",
+   "sprite_name": "WorldRaid854_Icon_GetTicket",
+   "mSprite_is_null": true,
+   "type": "Simple",
+   "border": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "border_field": "none"
+  },
+  {
+   "gameobject": "",
+   "sprite_name": "WorldRaid854_Img_ReplayDeco_19",
+   "mSprite_is_null": true,
+   "type": "Sliced",
+   "border": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "border_field": "none"
+  },
+  {
+   "gameobject": "",
+   "sprite_name": "WorldRaid854_Deco_00",
+   "mSprite_is_null": true,
+   "type": "Sliced",
+   "border": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "border_field": "none"
+  }
+ ]
+}
