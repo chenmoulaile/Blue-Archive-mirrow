@@ -100,14 +100,14 @@ cd .vendor/Blue-Archive-Asset-Downloader && uv sync --extra unitypy --no-dev
 
 **已经在仓库里、不用重做的**：
 
-- `resources/ui/`（1991 张精灵，17MB）
-- `data/ui_atlas.json`、`data/ui_nineslice.json`（切边表）
+- `data/ui_atlas.json`、`data/ui_nineslice.json`（图集与切边元数据，659KB）
 - `data/se_index.json`、`data/se_map.json`
 - `deliverables/*.md`（Phase 1~3 报告）
 - `deliverables/*.json`（探针原始数据）
 
 **需要重建的**：
 
+- `resources/ui/`（1991 张精灵 PNG，`npm run import:ui`，约 3 分钟）
 - `resources/spine/`、`resources/story/`、`resources/bgm/`、`resources/se/`
 - `data/students*.json`、`data/story_index.json`、`data/gacha_banners.json` 等
 

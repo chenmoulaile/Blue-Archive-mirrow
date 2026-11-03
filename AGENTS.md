@@ -99,8 +99,10 @@ cp .baad/cn/android/raw/media/audio/bgm/*.ogg resources/bgm/
 ### 3.2 或者从上一台机器拷
 
 `resources/`（约 4GB）+ `data/`（约 45MB）+ `.baad/`（约 250MB）。
-**`resources/ui/` 和 `data/ui_atlas.json` / `ui_nineslice.json` / `se_index.json` / `se_map.json`
-已经在仓库里**，所以只做 UI 的话不用重新解包。
+**`data/ui_atlas.json` / `ui_nineslice.json` / `se_index.json` / `se_map.json` 已在仓库里**
+（659KB 元数据，含每个精灵的名字、尺寸、九宫格切边、来源标注），
+但 **`resources/ui/` 的 1991 张 PNG 不入库**（版权原因，与其他素材一致）。
+重建只需 3 分钟：下 74MB bundle → `npm run import:ui`。
 
 ### 3.3 关键数字（重建时用来对账）
 

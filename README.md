@@ -1,5 +1,9 @@
 # Shittim Chest（什亭之匣）
 
+> **接手开发请先读 [`AGENTS.md`](./AGENTS.md)** —— 三十秒上手、素材怎么重建、
+> 已知的坑、当前状态与下一步都在那一页。换机器接手的额外说明见
+> [`docs/HANDOFF.md`](./docs/HANDOFF.md)，路线图见 [`docs/ROADMAP.md`](./docs/ROADMAP.md)。
+
 > **非官方项目。** 本项目与 NAT GAMES / NEXON / Yostar 无任何关联，未获其授权或认可。
 > 《蔚蓝档案》(Blue Archive / ブルーアーカイブ) 的全部美术、音乐、剧情文本、角色形象
 > 版权归 **NAT GAMES / NEXON** 所有。本项目仅作个人学习与非商业同人用途。
