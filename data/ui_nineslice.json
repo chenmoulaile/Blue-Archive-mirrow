@@ -1,0 +1,4407 @@
+{
+ "generated": "2026-10-29T20:50:14",
+ "total": 440,
+ "source": "NGUIAtlas.mSprites[i].borderLeft/Bottom/Right/Top",
+ "sprites": {
+  "Conquest/Conquest_Bg_Raius10px": {
+   "border": [
+    10,
+    10,
+    10,
+    10
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_3962116668.bundle"
+  },
+  "Conquest/Conquest_Bg_Raius20px": {
+   "border": [
+    22,
+    22,
+    22,
+    22
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_3962116668.bundle"
+  },
+  "Conquest/Conquest_Bg_Raius5px": {
+   "border": [
+    5,
+    5,
+    5,
+    5
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_3962116668.bundle"
+  },
+  "Conquest/Conquest_Top_Step_Bg": {
+   "border": [
+    164,
+    15,
+    164,
+    190
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_3962116668.bundle"
+  },
+  "Event/ShiftingCraftItem_1": {
+   "border": [
+    0,
+    0,
+    12,
+    0
+   ],
+   "type": "Sliced",
+   "source_prefab": null
+  },
+  "TBG/Common_Bg_Raius10px": {
+   "border": [
+    10,
+    10,
+    10,
+    10
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_100728233.bundle"
+  },
+  "TBG/Common_Bg_Raius10px_Shadow": {
+   "border": [
+    16,
+    12,
+    16,
+    24
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1017843303.bundle"
+  },
+  "TBG/Common_Bg_Raius5px": {
+   "border": [
+    5,
+    5,
+    5,
+    5
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1006941425.bundle"
+  },
+  "TBG/Common_Btn_BG": {
+   "border": [
+    32,
+    25,
+    32,
+    40
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_100728233.bundle"
+  },
+  "TBG/Common_Line_Dot": {
+   "border": [
+    2,
+    2,
+    2,
+    2
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1013491542.bundle"
+  },
+  "TBG/Common_Line_Select_Y": {
+   "border": [
+    35,
+    35,
+    35,
+    35
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1289347097.bundle"
+  },
+  "TBG/TBG_Bg_Ingame_Select_1": {
+   "border": [
+    30,
+    20,
+    48,
+    56
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_321212961.bundle"
+  },
+  "TBG/TBG_Bg_Ingame_Select_2": {
+   "border": [
+    30,
+    15,
+    235,
+    54
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_321212961.bundle"
+  },
+  "TBG/Tbg_Btn_Bg_B": {
+   "border": [
+    28,
+    22,
+    28,
+    38
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_429126499.bundle"
+  },
+  "TBG/Tbg_Btn_Bg_Br": {
+   "border": [
+    30,
+    20,
+    30,
+    40
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1289347097.bundle"
+  },
+  "TBG/Tbg_Btn_Bg_Y": {
+   "border": [
+    28,
+    20,
+    28,
+    40
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_429126499.bundle"
+  },
+  "TBG/TBG_Inbox": {
+   "border": [
+    26,
+    26,
+    26,
+    26
+   ],
+   "type": "Sliced",
+   "source_prefab": null
+  },
+  "TBG/TBG_ResultBg": {
+   "border": [
+    320,
+    80,
+    260,
+    180
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_3668946546.bundle"
+  },
+  "TBG/TBG_SelectLineBg": {
+   "border": [
+    25,
+    26,
+    46,
+    46
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_321212961.bundle"
+  },
+  "TBG/TBG_TitleBg": {
+   "border": [
+    200,
+    0,
+    120,
+    0
+   ],
+   "type": "Simple",
+   "source_prefab": null
+  },
+  "Concentration/Concentration_Btn_Gray": {
+   "border": [
+    60,
+    1,
+    60,
+    1
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_3599226669.bundle"
+  },
+  "Concentration/Concentration_Btn_Skip": {
+   "border": [
+    46,
+    0,
+    46,
+    0
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_3599226669.bundle"
+  },
+  "Concentration/Concentration_Btn_Yellow": {
+   "border": [
+    60,
+    0,
+    60,
+    0
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_3599226669.bundle"
+  },
+  "Concentration/Concentration_BtnBG": {
+   "border": [
+    46,
+    0,
+    46,
+    0
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_3599226669.bundle"
+  },
+  "Concentration/Concentration_CardInfoBg_1": {
+   "border": [
+    26,
+    0,
+    54,
+    0
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_3599226669.bundle"
+  },
+  "Concentration/Concentration_CardInfoBg_2": {
+   "border": [
+    57,
+    0,
+    62,
+    0
+   ],
+   "type": "Advanced",
+   "source_prefab": null
+  },
+  "Concentration/Concentration_CardInfoBg_3": {
+   "border": [
+    12,
+    0,
+    12,
+    0
+   ],
+   "type": "Tiled",
+   "source_prefab": null
+  },
+  "Concentration/Concentration_CountBg": {
+   "border": [
+    52,
+    52,
+    52,
+    52
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_3599226669.bundle"
+  },
+  "Concentration/Concentration_Deco_Line": {
+   "border": [
+    16,
+    0,
+    16,
+    0
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1251314301.bundle"
+  },
+  "Concentration/Concentration_Icon_Check": {
+   "border": [
+    20,
+    21,
+    64,
+    44
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1251314301.bundle"
+  },
+  "Field_843/Common_Bg_10px": {
+   "border": [
+    12,
+    12,
+    12,
+    12
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1529559926.bundle"
+  },
+  "Field_843/Common_Bg_5px": {
+   "border": [
+    5,
+    5,
+    5,
+    5
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1298323568.bundle"
+  },
+  "Field_843/Common_Bg_Glow_5px": {
+   "border": [
+    12,
+    9,
+    12,
+    16
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1529559926.bundle"
+  },
+  "Field_843/Common_EffectLine_5px": {
+   "border": [
+    15,
+    15,
+    15,
+    15
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1529559926.bundle"
+  },
+  "Field_843/Common_EffectLine_Deco": {
+   "border": [
+    9,
+    9,
+    19,
+    19
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1529559926.bundle"
+  },
+  "Field_843/Common_EffectLine2_5px": {
+   "border": [
+    3,
+    16,
+    15,
+    20
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_2783275285.bundle"
+  },
+  "Field_843/Common_Line_10px": {
+   "border": [
+    12,
+    12,
+    12,
+    12
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1529559926.bundle"
+  },
+  "Field_843/Common_Line_15px": {
+   "border": [
+    19,
+    19,
+    19,
+    19
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1529559926.bundle"
+  },
+  "Field_843/Common_Line_5px": {
+   "border": [
+    8,
+    8,
+    8,
+    8
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1529559926.bundle"
+  },
+  "Field_843/Common_Square_Bg": {
+   "border": [
+    1,
+    1,
+    1,
+    1
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1000166740.bundle"
+  },
+  "Dreammaker/Common_Bg_Raius10px": {
+   "border": [
+    10,
+    10,
+    10,
+    10
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_100728233.bundle"
+  },
+  "Dreammaker/Common_Bg_Raius10px_Shadow": {
+   "border": [
+    15,
+    10,
+    15,
+    24
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1017843303.bundle"
+  },
+  "Dreammaker/Common_Bg_Raius20px": {
+   "border": [
+    20,
+    20,
+    20,
+    20
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_100728233.bundle"
+  },
+  "Dreammaker/Common_Bg_Raius20px_Shadow": {
+   "border": [
+    20,
+    20,
+    25,
+    28
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1033291452.bundle"
+  },
+  "Dreammaker/Common_Btn_BG": {
+   "border": [
+    28,
+    28,
+    28,
+    35
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_100728233.bundle"
+  },
+  "Dreammaker/Common_Dotline": {
+   "border": [
+    9,
+    0,
+    0,
+    0
+   ],
+   "type": "Tiled",
+   "source_prefab": null
+  },
+  "Dreammaker/Common_Square_Bg": {
+   "border": [
+    1,
+    1,
+    1,
+    1
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1000166740.bundle"
+  },
+  "Dreammaker/Dreammaker_Lobby_Info_BG_01": {
+   "border": [
+    18,
+    18,
+    18,
+    18
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_660847500.bundle"
+  },
+  "Dreammaker/Dreammaker_Lobby_Info_BG_02": {
+   "border": [
+    28,
+    0,
+    28,
+    0
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_660847500.bundle"
+  },
+  "Treasure/Common_Line_Dot": {
+   "border": [
+    3,
+    3,
+    3,
+    3
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1013491542.bundle"
+  },
+  "Treasure/Treasure_Event_Numbg": {
+   "border": [
+    25,
+    0,
+    15,
+    0
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1094777168.bundle"
+  },
+  "BattlePass/BattlePass_Btn_B": {
+   "border": [
+    46,
+    35,
+    46,
+    42
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_2292145205.bundle"
+  },
+  "BattlePass/BattlePass_Btn_Buy": {
+   "border": [
+    450,
+    0,
+    50,
+    0
+   ],
+   "type": "Simple",
+   "source_prefab": null
+  },
+  "BattlePass/BattlePass_Btn_Buy_S2": {
+   "border": [
+    600,
+    0,
+    50,
+    0
+   ],
+   "type": "Simple",
+   "source_prefab": null
+  },
+  "BattlePass/BattlePass_Btn_Common": {
+   "border": [
+    30,
+    0,
+    30,
+    0
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_2292145205.bundle"
+  },
+  "BattlePass/BattlePass_Btn_Mission": {
+   "border": [
+    180,
+    0,
+    50,
+    0
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_2292145205.bundle"
+  },
+  "BattlePass/BattlePass_Btn_Type1": {
+   "border": [
+    30,
+    15,
+    30,
+    25
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_3065737299.bundle"
+  },
+  "BattlePass/BattlePass_Btn_Type2": {
+   "border": [
+    50,
+    0,
+    24,
+    0
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_4052036627.bundle"
+  },
+  "BattlePass/BattlePass_Btn_Y": {
+   "border": [
+    35,
+    35,
+    35,
+    35
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_2292145205.bundle"
+  },
+  "BattlePass/BattlePass_Common_Bg_Raius10px": {
+   "border": [
+    10,
+    10,
+    10,
+    10
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_2292145205.bundle"
+  },
+  "BattlePass/BattlePass_Common_Bg_Raius20px": {
+   "border": [
+    20,
+    20,
+    20,
+    20
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_2292145205.bundle"
+  },
+  "BattlePass/BattlePass_Common_Gradient": {
+   "border": [
+    1,
+    2,
+    0,
+    2
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_2292145205.bundle"
+  },
+  "BattlePass/BattlePass_Common_Gradient_Both": {
+   "border": [
+    170,
+    1,
+    200,
+    1
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_2292145205.bundle"
+  },
+  "BattlePass/BattlePass_Common_Gradient_Vertical": {
+   "border": [
+    1,
+    1,
+    1,
+    1
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_2292145205.bundle"
+  },
+  "BattlePass/BattlePass_Common_Line_Dot": {
+   "border": [
+    3,
+    3,
+    3,
+    3
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_2292145205.bundle"
+  },
+  "BattlePass/BattlePass_Gauge": {
+   "border": [
+    13,
+    0,
+    13,
+    0
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_2292145205.bundle"
+  },
+  "BattlePass/BattlePass_ListSlot_NormalBg": {
+   "border": [
+    55,
+    55,
+    55,
+    55
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_2292145205.bundle"
+  },
+  "BattlePass/BattlePass_ListSlot_Numtextbox": {
+   "border": [
+    25,
+    0,
+    40,
+    0
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_2292145205.bundle"
+  },
+  "BattlePass/BattlePass_ListSlot_PremiumBg": {
+   "border": [
+    130,
+    100,
+    48,
+    43
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_2292145205.bundle"
+  },
+  "BattlePass/BattlePass_ListTab_Bg": {
+   "border": [
+    25,
+    28,
+    25,
+    15
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_2292145205.bundle"
+  },
+  "BattlePass/BattlePass_MissionIcon_RewardBg": {
+   "border": [
+    50,
+    0,
+    50,
+    0
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_2292145205.bundle"
+  },
+  "BattlePass/BattlePass_Popup_ItemBg": {
+   "border": [
+    48,
+    0,
+    48,
+    0
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_3996212013.bundle"
+  },
+  "BattlePass/BattlePass_PopupBtn_Bg": {
+   "border": [
+    15,
+    15,
+    15,
+    15
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_2612548292.bundle"
+  },
+  "BattlePass/BattlePass_Tab_B": {
+   "border": [
+    15,
+    15,
+    15,
+    15
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_2292145205.bundle"
+  },
+  "BattlePass/BattlePass_Tab_Type1": {
+   "border": [
+    20,
+    20,
+    20,
+    25
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_4052036627.bundle"
+  },
+  "BattlePass/BattlePass_Tab_Y": {
+   "border": [
+    20,
+    20,
+    20,
+    20
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_2292145205.bundle"
+  },
+  "MinigameRhythm/Combat_Bg_Hp": {
+   "border": [
+    11,
+    10,
+    11,
+    13
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1648782197.bundle"
+  },
+  "MinigameRhythm/Combat_Gauge_Hp": {
+   "border": [
+    3,
+    3,
+    3,
+    3
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_118903585.bundle"
+  },
+  "MinigameRhythm/Common_Bg_Raius10px": {
+   "border": [
+    10,
+    10,
+    10,
+    10
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_100728233.bundle"
+  },
+  "MinigameRhythm/Common_Bg_Raius5px": {
+   "border": [
+    5,
+    5,
+    5,
+    5
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1006941425.bundle"
+  },
+  "MinigameRhythm/Common_Btn_BG": {
+   "border": [
+    30,
+    25,
+    30,
+    40
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_100728233.bundle"
+  },
+  "MinigameRhythm/Common_Gradient": {
+   "border": [
+    2,
+    2,
+    280,
+    2
+   ],
+   "type": "Simple",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1382904969.bundle"
+  },
+  "MinigameRhythm/Common_Line_Dot": {
+   "border": [
+    2,
+    2,
+    2,
+    2
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1013491542.bundle"
+  },
+  "MinigameRhythm/Common_Line_Gradient_02": {
+   "border": [
+    500,
+    2,
+    5,
+    2
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1129108222.bundle"
+  },
+  "MinigameRhythm/Common_Square_Bg": {
+   "border": [
+    1,
+    1,
+    1,
+    2
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1000166740.bundle"
+  },
+  "RoadPuzzle/Roadpuzzle_Bg_Text_1": {
+   "border": [
+    15,
+    0,
+    40,
+    0
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_3503261584.bundle"
+  },
+  "RoadPuzzle/Roadpuzzle_Bg_Text_2": {
+   "border": [
+    26,
+    0,
+    10,
+    0
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_3503261584.bundle"
+  },
+  "RoadPuzzle/Roadpuzzle_Bg_Text_3": {
+   "border": [
+    8,
+    0,
+    38,
+    0
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_3503261584.bundle"
+  },
+  "RoadPuzzle/Roadpuzzle_Bg_TileLineDeco2": {
+   "border": [
+    0,
+    65,
+    0,
+    65
+   ],
+   "type": "Filled",
+   "source_prefab": null
+  },
+  "RoadPuzzle/Roadpuzzle_Btn_Big_Start": {
+   "border": [
+    500,
+    0,
+    76,
+    0
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_3503261584.bundle"
+  },
+  "RoadPuzzle/Roadpuzzle_Btn_Skip": {
+   "border": [
+    40,
+    0,
+    40,
+    0
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_4149453024.bundle"
+  },
+  "RoadPuzzle/Roadpuzzle_Btn_Text_Dark": {
+   "border": [
+    50,
+    0,
+    30,
+    0
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_4149453024.bundle"
+  },
+  "RoadPuzzle/Roadpuzzle_Btn_Text_Dark_Worldraid": {
+   "border": [
+    33,
+    0,
+    23,
+    0
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_3503261584.bundle"
+  },
+  "RoadPuzzle/Roadpuzzle_Popup_TabNormal": {
+   "border": [
+    46,
+    0,
+    46,
+    0
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1066677139.bundle"
+  },
+  "RoadPuzzle/Roadpuzzle_Popup_TabSelect": {
+   "border": [
+    46,
+    0,
+    46,
+    0
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1066677139.bundle"
+  },
+  "RoadPuzzle/Roadpuzzle_Popup_TextBg": {
+   "border": [
+    55,
+    0,
+    55,
+    0
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1066677139.bundle"
+  },
+  "RoadPuzzle/Roadpuzzle_Popup_TitleBg": {
+   "border": [
+    45,
+    0,
+    45,
+    0
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1066677139.bundle"
+  },
+  "RoadPuzzle/Roadpuzzle_StartBtn_Tag": {
+   "border": [
+    28,
+    0,
+    94,
+    0
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_3503261584.bundle"
+  },
+  "RoadPuzzle/Roadpuzzle_TileReward_NumBg": {
+   "border": [
+    22,
+    0,
+    22,
+    0
+   ],
+   "type": "Simple",
+   "source_prefab": null
+  },
+  "Worldraid_854/WorldRaid854_Bg_BattlePopup_StageInfo": {
+   "border": [
+    10,
+    10,
+    10,
+    10
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_3187605650.bundle"
+  },
+  "Worldraid_854/WorldRaid854_Bg_BridgeMenu": {
+   "border": [
+    38,
+    0,
+    410,
+    0
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1006941425.bundle"
+  },
+  "Worldraid_854/WorldRaid854_Bg_BtnCollection": {
+   "border": [
+    170,
+    0,
+    50,
+    0
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1984591082.bundle"
+  },
+  "Worldraid_854/WorldRaid854_Bg_Cost": {
+   "border": [
+    32,
+    24,
+    76,
+    68
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_891719027.bundle"
+  },
+  "Worldraid_854/WorldRaid854_Bg_HpGlow": {
+   "border": [
+    2,
+    46,
+    2,
+    46
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_2958376949.bundle"
+  },
+  "Worldraid_854/WorldRaid854_Bg_LightGlow": {
+   "border": [
+    36,
+    124,
+    36,
+    124
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1984591082.bundle"
+  },
+  "Worldraid_854/WorldRaid854_Bg_LobbyToast": {
+   "border": [
+    96,
+    24,
+    26,
+    20
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1006941425.bundle"
+  },
+  "Worldraid_854/WorldRaid854_Bg_NodeHp_IDC": {
+   "border": [
+    0,
+    20,
+    0,
+    20
+   ],
+   "type": "Simple",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_3540173252.bundle"
+  },
+  "Worldraid_854/WorldRaid854_Bg_NodeHp_Small": {
+   "border": [
+    12,
+    0,
+    12,
+    0
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_2958376949.bundle"
+  },
+  "Worldraid_854/WorldRaid854_Bg_NodeNameGlow": {
+   "border": [
+    10,
+    0,
+    10,
+    0
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_544277865.bundle"
+  },
+  "Worldraid_854/WorldRaid854_Bg_NodeShape_00": {
+   "border": [
+    236,
+    12,
+    236,
+    20
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_2958376949.bundle"
+  },
+  "Worldraid_854/WorldRaid854_Bg_NodeShape_01": {
+   "border": [
+    30,
+    8,
+    30,
+    22
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_2958376949.bundle"
+  },
+  "Worldraid_854/WorldRaid854_Bg_NodeShape_02": {
+   "border": [
+    30,
+    6,
+    30,
+    22
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_2958376949.bundle"
+  },
+  "Worldraid_854/WorldRaid854_Bg_NodeStatus": {
+   "border": [
+    40,
+    8,
+    40,
+    8
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_2958376949.bundle"
+  },
+  "Worldraid_854/WorldRaid854_Bg_PopupBanner": {
+   "border": [
+    10,
+    8,
+    10,
+    18
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_3818452989.bundle"
+  },
+  "Worldraid_854/WorldRaid854_Bg_PopupBtn": {
+   "border": [
+    28,
+    0,
+    106,
+    0
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_3540173252.bundle"
+  },
+  "Worldraid_854/WorldRaid854_Bg_ReplayBtn": {
+   "border": [
+    60,
+    12,
+    22,
+    30
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1006941425.bundle"
+  },
+  "Worldraid_854/WorldRaid854_Bg_ReplayImg": {
+   "border": [
+    16,
+    16,
+    16,
+    16
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_544277865.bundle"
+  },
+  "Worldraid_854/WorldRaid854_Bg_ReplayTag": {
+   "border": [
+    62,
+    0,
+    14,
+    0
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_544277865.bundle"
+  },
+  "Worldraid_854/WorldRaid854_Bg_ReplayTag_Scroll": {
+   "border": [
+    10,
+    0,
+    96,
+    0
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_544277865.bundle"
+  },
+  "Worldraid_854/WorldRaid854_Bg_SubBtn": {
+   "border": [
+    12,
+    8,
+    12,
+    16
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_2958376949.bundle"
+  },
+  "Worldraid_854/WorldRaid854_Bg_TabWhite": {
+   "border": [
+    142,
+    6,
+    260,
+    6
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1006941425.bundle"
+  },
+  "Worldraid_854/WorldRaid854_Bg_TabWhite_Long": {
+   "border": [
+    220,
+    6,
+    20,
+    6
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1984591082.bundle"
+  },
+  "Worldraid_854/WorldRaid854_Bg_TabWhite_Side": {
+   "border": [
+    230,
+    8,
+    230,
+    8
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1006941425.bundle"
+  },
+  "Worldraid_854/WorldRaid854_Bg_UpgradeSkill_Off": {
+   "border": [
+    448,
+    0,
+    90,
+    0
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1984591082.bundle"
+  },
+  "Worldraid_854/WorldRaid854_Bg_UpgradeSkill_On": {
+   "border": [
+    381,
+    0,
+    118,
+    0
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1984591082.bundle"
+  },
+  "Worldraid_854/WorldRaid854_Box_8px": {
+   "border": [
+    2,
+    2,
+    2,
+    2
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1006941425.bundle"
+  },
+  "Worldraid_854/WorldRaid854_Box_Blur3px": {
+   "border": [
+    20,
+    20,
+    20,
+    20
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_2958376949.bundle"
+  },
+  "Worldraid_854/WorldRaid854_Box_Round2px": {
+   "border": [
+    4,
+    4,
+    4,
+    4
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_2958376949.bundle"
+  },
+  "Worldraid_854/WorldRaid854_Box_Round4px": {
+   "border": [
+    6,
+    6,
+    6,
+    6
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_3540173252.bundle"
+  },
+  "Worldraid_854/WorldRaid854_Box_Shadow_8px": {
+   "border": [
+    4,
+    4,
+    4,
+    4
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1006941425.bundle"
+  },
+  "Worldraid_854/WorldRaid854_Frame_00": {
+   "border": [
+    4,
+    4,
+    4,
+    4
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1006941425.bundle"
+  },
+  "Worldraid_854/WorldRaid854_Frame_01": {
+   "border": [
+    14,
+    0,
+    14,
+    0
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1006941425.bundle"
+  },
+  "Worldraid_854/WorldRaid854_Frame_02": {
+   "border": [
+    6,
+    6,
+    6,
+    6
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_3540173252.bundle"
+  },
+  "Worldraid_854/WorldRaid854_Frame_Replay_Select_Off": {
+   "border": [
+    24,
+    0,
+    24,
+    0
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_544277865.bundle"
+  },
+  "Worldraid_854/WorldRaid854_Frame_Replay_Select_On": {
+   "border": [
+    30,
+    0,
+    30,
+    0
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_544277865.bundle"
+  },
+  "Worldraid_854/WorldRaid854_Frame_Round4px": {
+   "border": [
+    8,
+    8,
+    8,
+    8
+   ],
+   "type": "Sliced",
+   "source_prefab": null
+  },
+  "Worldraid_854/WorldRaid854_Frame_SkillCondition_0": {
+   "border": [
+    22,
+    22,
+    22,
+    22
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_3540173252.bundle"
+  },
+  "Worldraid_854/WorldRaid854_Frame_SkillCondition_1": {
+   "border": [
+    22,
+    22,
+    22,
+    22
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_3540173252.bundle"
+  },
+  "Worldraid_854/WorldRaid854_Frame_USB_On_00": {
+   "border": [
+    22,
+    22,
+    22,
+    22
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1984591082.bundle"
+  },
+  "Worldraid_854/WorldRaid854_Gradient_00": {
+   "border": [
+    36,
+    8,
+    226,
+    8
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1006941425.bundle"
+  },
+  "Worldraid_854/WorldRaid854_Gradient_Outglow": {
+   "border": [
+    36,
+    10,
+    226,
+    10
+   ],
+   "type": "Sliced",
+   "source_prefab": null
+  },
+  "Worldraid_854/WorldRaid854_Gradient_Scene": {
+   "border": [
+    8,
+    0,
+    8,
+    0
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1006941425.bundle"
+  },
+  "Worldraid_854/WorldRaid854_Img_AlertDeco_2": {
+   "border": [
+    20,
+    20,
+    20,
+    20
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_4015470350.bundle"
+  },
+  "Worldraid_854/WorldRaid854_Img_BattlePopup_Deco_00": {
+   "border": [
+    80,
+    39,
+    2,
+    2
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_3187605650.bundle"
+  },
+  "Worldraid_854/WorldRaid854_Img_BattlePopup_Deco_01": {
+   "border": [
+    20,
+    0,
+    20,
+    0
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_3540173252.bundle"
+  },
+  "Worldraid_854/WorldRaid854_Img_BattlePopup_Frame_GlobalSkill": {
+   "border": [
+    0,
+    96,
+    0,
+    96
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_3540173252.bundle"
+  },
+  "Worldraid_854/WorldRaid854_Img_BattlePopup_Frame_SkillList": {
+   "border": [
+    44,
+    8,
+    44,
+    8
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_3540173252.bundle"
+  },
+  "Worldraid_854/WorldRaid854_Img_BattlePopup_HpBar": {
+   "border": [
+    152,
+    0,
+    242,
+    0
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_3540173252.bundle"
+  },
+  "Worldraid_854/WorldRaid854_Img_BattlePopup_IDC": {
+   "border": [
+    31,
+    24,
+    31,
+    24
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_3187605650.bundle"
+  },
+  "Worldraid_854/WorldRaid854_Img_BattlePopup_Select_00": {
+   "border": [
+    42,
+    0,
+    52,
+    0
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_3187605650.bundle"
+  },
+  "Worldraid_854/WorldRaid854_Img_BridgeDeco_07": {
+   "border": [
+    16,
+    0,
+    4,
+    0
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_2958376949.bundle"
+  },
+  "Worldraid_854/WorldRaid854_Img_BridgeDeco_09": {
+   "border": [
+    0,
+    12,
+    0,
+    12
+   ],
+   "type": "Tiled",
+   "source_prefab": null
+  },
+  "Worldraid_854/WorldRaid854_Img_BridgeDeco_10": {
+   "border": [
+    28,
+    2,
+    14,
+    18
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1006941425.bundle"
+  },
+  "Worldraid_854/WorldRaid854_Img_BridgeDeco_19": {
+   "border": [
+    13,
+    13,
+    13,
+    13
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_2958376949.bundle"
+  },
+  "Worldraid_854/WorldRaid854_Img_BridgeDeco_20": {
+   "border": [
+    26,
+    0,
+    2,
+    0
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1006941425.bundle"
+  },
+  "Worldraid_854/WorldRaid854_Img_BridgeDeco_28": {
+   "border": [
+    14,
+    14,
+    14,
+    14
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_2958376949.bundle"
+  },
+  "Worldraid_854/WorldRaid854_Img_Deco_USB": {
+   "border": [
+    70,
+    20,
+    50,
+    36
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1984591082.bundle"
+  },
+  "Worldraid_854/WorldRaid854_Img_HpBar_Line": {
+   "border": [
+    14,
+    0,
+    0,
+    0
+   ],
+   "type": "Sliced",
+   "source_prefab": null
+  },
+  "Worldraid_854/WorldRaid854_Img_MapViewDeco_00": {
+   "border": [
+    24,
+    0,
+    106,
+    0
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_2958376949.bundle"
+  },
+  "Worldraid_854/WorldRaid854_Img_NodeDeco_01": {
+   "border": [
+    8,
+    8,
+    8,
+    8
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_2958376949.bundle"
+  },
+  "Worldraid_854/WorldRaid854_Img_NodeDeco_02": {
+   "border": [
+    26,
+    0,
+    22,
+    0
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_2958376949.bundle"
+  },
+  "Worldraid_854/WorldRaid854_Img_NodeDeco_06": {
+   "border": [
+    26,
+    8,
+    26,
+    8
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_2958376949.bundle"
+  },
+  "Worldraid_854/WorldRaid854_Img_NodeDeco_14": {
+   "border": [
+    31,
+    31,
+    31,
+    31
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_2958376949.bundle"
+  },
+  "Worldraid_854/WorldRaid854_Img_PopupDeco_02": {
+   "border": [
+    6,
+    0,
+    374,
+    0
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_3818452989.bundle"
+  },
+  "Worldraid_854/WorldRaid854_Img_Replay_NodeLine": {
+   "border": [
+    186,
+    0,
+    2,
+    0
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_544277865.bundle"
+  },
+  "Worldraid_854/WorldRaid854_Img_Replay_NodeLine_Add": {
+   "border": [
+    176,
+    146,
+    2,
+    168
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_544277865.bundle"
+  },
+  "Worldraid_854/WorldRaid854_Img_Replay_NodeLine_Slide": {
+   "border": [
+    2,
+    0,
+    200,
+    0
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_544277865.bundle"
+  },
+  "Worldraid_854/WorldRaid854_Img_Replay_SliderForeground": {
+   "border": [
+    14,
+    14,
+    14,
+    14
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_544277865.bundle"
+  },
+  "Worldraid_854/WorldRaid854_Img_Replay_SliderFrame": {
+   "border": [
+    16,
+    18,
+    16,
+    18
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1006941425.bundle"
+  },
+  "Worldraid_854/WorldRaid854_Img_ReplayDeco_01": {
+   "border": [
+    0,
+    2,
+    0,
+    20
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_544277865.bundle"
+  },
+  "Worldraid_854/WorldRaid854_Img_ReplayDeco_05": {
+   "border": [
+    20,
+    0,
+    132,
+    0
+   ],
+   "type": "Advanced",
+   "source_prefab": null
+  },
+  "Worldraid_854/WorldRaid854_Img_ReplayDeco_12": {
+   "border": [
+    0,
+    6,
+    0,
+    6
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_544277865.bundle"
+  },
+  "Worldraid_854/WorldRaid854_Img_ReplayDeco_18": {
+   "border": [
+    4,
+    2,
+    16,
+    14
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1006941425.bundle"
+  },
+  "Worldraid_854/WorldRaid854_Img_StartDeco_01": {
+   "border": [
+    68,
+    18,
+    68,
+    18
+   ],
+   "type": "Sliced",
+   "source_prefab": null
+  },
+  "Worldraid_854/WorldRaid854_Img_StartDeco_02": {
+   "border": [
+    24,
+    8,
+    24,
+    22
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_2958376949.bundle"
+  },
+  "Worldraid_854/WorldRaid854_Img_ToolTip_01": {
+   "border": [
+    8,
+    0,
+    138,
+    0
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1984591082.bundle"
+  },
+  "Worldraid_854/WorldRaid854_Img_ToolTip_03": {
+   "border": [
+    18,
+    12,
+    18,
+    30
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1984591082.bundle"
+  },
+  "Worldraid_854/WorldRaid854_Img_UpgradeDeco_00": {
+   "border": [
+    54,
+    0,
+    4,
+    0
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1984591082.bundle"
+  },
+  "Worldraid_854/WorldRaid854_Img_UpgradeDeco_03": {
+   "border": [
+    580,
+    0,
+    4,
+    0
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1984591082.bundle"
+  },
+  "Worldraid_854/WorldRaid854_Img_UpgradeDeco_04": {
+   "border": [
+    24,
+    0,
+    3,
+    0
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1984591082.bundle"
+  },
+  "Worldraid_854/WorldRaid854_Img_UpgradeDeco_10": {
+   "border": [
+    0,
+    14,
+    0,
+    20
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1984591082.bundle"
+  },
+  "Worldraid_854/WorldRaid854_Img_ViewMode_01": {
+   "border": [
+    0,
+    6,
+    0,
+    6
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1984591082.bundle"
+  },
+  "Worldraid_854/WorldRaid854_Line_2px": {
+   "border": [
+    2,
+    0,
+    2,
+    0
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1006941425.bundle"
+  },
+  "Worldraid_854/WorldRaid854_Line_4px": {
+   "border": [
+    2,
+    0,
+    2,
+    0
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_2958376949.bundle"
+  },
+  "CardGame/CCG_Bg_22px": {
+   "border": [
+    10,
+    10,
+    10,
+    10
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_103874872.bundle"
+  },
+  "CardGame/CCG_Bg_8px": {
+   "border": [
+    2,
+    2,
+    2,
+    2
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1022382085.bundle"
+  },
+  "CardGame/CCG_Bg_BgLogEffect": {
+   "border": [
+    20,
+    0,
+    44,
+    0
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_3378756154.bundle"
+  },
+  "CardGame/CCG_Bg_Btn_Dim": {
+   "border": [
+    26,
+    26,
+    26,
+    26
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1979888087.bundle"
+  },
+  "CardGame/CCG_Bg_BtnAccept": {
+   "border": [
+    104,
+    0,
+    112,
+    0
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1979888087.bundle"
+  },
+  "CardGame/CCG_Bg_BtnBg": {
+   "border": [
+    48,
+    46,
+    48,
+    46
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_3831263655.bundle"
+  },
+  "CardGame/CCG_Bg_BtnDisable": {
+   "border": [
+    102,
+    0,
+    114,
+    0
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1979888087.bundle"
+  },
+  "CardGame/CCG_Bg_BtnDumpCards": {
+   "border": [
+    16,
+    16,
+    16,
+    16
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1979888087.bundle"
+  },
+  "CardGame/CCG_Bg_BtnFuntion": {
+   "border": [
+    26,
+    26,
+    26,
+    26
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1369119962.bundle"
+  },
+  "CardGame/CCG_Bg_BtnMenu": {
+   "border": [
+    32,
+    0,
+    14,
+    0
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1369119962.bundle"
+  },
+  "CardGame/CCG_Bg_BtnMenu_Worldrade": {
+   "border": [
+    30,
+    0,
+    30,
+    0
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_2493063994.bundle"
+  },
+  "CardGame/CCG_Bg_BtnMenuDeco": {
+   "border": [
+    0,
+    12,
+    0,
+    16
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1369119962.bundle"
+  },
+  "CardGame/CCG_Bg_BtnMove": {
+   "border": [
+    36,
+    30,
+    36,
+    44
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_3831263655.bundle"
+  },
+  "CardGame/CCG_Bg_BtnNext": {
+   "border": [
+    104,
+    0,
+    116,
+    0
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_3514820628.bundle"
+  },
+  "CardGame/CCG_Bg_BtnStand": {
+   "border": [
+    104,
+    0,
+    116,
+    0
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1979888087.bundle"
+  },
+  "CardGame/CCG_Bg_CardReward": {
+   "border": [
+    22,
+    44,
+    22,
+    44
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1979888087.bundle"
+  },
+  "CardGame/CCG_Bg_CardTooltip": {
+   "border": [
+    20,
+    124,
+    232,
+    15
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1566388823.bundle"
+  },
+  "CardGame/CCG_Bg_Condition": {
+   "border": [
+    20,
+    20,
+    20,
+    20
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1566388823.bundle"
+  },
+  "CardGame/CCG_Bg_DeckMyCardInfo": {
+   "border": [
+    22,
+    22,
+    22,
+    22
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1887593516.bundle"
+  },
+  "CardGame/CCG_Bg_Dialog": {
+   "border": [
+    152,
+    84,
+    54,
+    54
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1990632098.bundle"
+  },
+  "CardGame/CCG_Bg_DumpCards": {
+   "border": [
+    24,
+    24,
+    24,
+    24
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_3831263655.bundle"
+  },
+  "CardGame/CCG_Bg_DumpCardsFrame": {
+   "border": [
+    20,
+    20,
+    20,
+    20
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1979888087.bundle"
+  },
+  "CardGame/CCG_Bg_EffectTab": {
+   "border": [
+    32,
+    0,
+    32,
+    0
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_206225701.bundle"
+  },
+  "CardGame/CCG_Bg_Hediff": {
+   "border": [
+    14,
+    14,
+    14,
+    14
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_2304601574.bundle"
+  },
+  "CardGame/CCG_Bg_HediffTab": {
+   "border": [
+    26,
+    26,
+    26,
+    26
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1279766031.bundle"
+  },
+  "CardGame/CCG_Bg_HudReinforce": {
+   "border": [
+    26,
+    26,
+    26,
+    26
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_3753603633.bundle"
+  },
+  "CardGame/CCG_Bg_HudStage": {
+   "border": [
+    555,
+    34,
+    34,
+    54
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1369119962.bundle"
+  },
+  "CardGame/CCG_Bg_InfoLabel": {
+   "border": [
+    4,
+    0,
+    42,
+    0
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_307204876.bundle"
+  },
+  "CardGame/CCG_Bg_LogDefault": {
+   "border": [
+    12,
+    42,
+    32,
+    12
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_3378756154.bundle"
+  },
+  "CardGame/CCG_Bg_MapPerk_Off": {
+   "border": [
+    40,
+    0,
+    40,
+    0
+   ],
+   "type": "Sliced",
+   "source_prefab": null
+  },
+  "CardGame/CCG_Bg_MapPerk_On": {
+   "border": [
+    40,
+    0,
+    40,
+    0
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1369119962.bundle"
+  },
+  "CardGame/CCG_Bg_MyCardList": {
+   "border": [
+    20,
+    0,
+    48,
+    0
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_3396812812.bundle"
+  },
+  "CardGame/CCG_Bg_NamePlate": {
+   "border": [
+    16,
+    18,
+    60,
+    46
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_193775058.bundle"
+  },
+  "CardGame/CCG_Bg_RestStageNotice": {
+   "border": [
+    32,
+    0,
+    74,
+    0
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_92828945.bundle"
+  },
+  "CardGame/CCG_Bg_SkillPlate": {
+   "border": [
+    42,
+    42,
+    42,
+    42
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1566388823.bundle"
+  },
+  "CardGame/CCG_Bg_StageComplete": {
+   "border": [
+    44,
+    0,
+    44,
+    0
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_2707452571.bundle"
+  },
+  "CardGame/CCG_Bg_TabComplete": {
+   "border": [
+    28,
+    28,
+    28,
+    28
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_2707452571.bundle"
+  },
+  "CardGame/CCG_Bg_ToastLogAlly": {
+   "border": [
+    18,
+    44,
+    182,
+    16
+   ],
+   "type": "Sliced",
+   "source_prefab": null
+  },
+  "CardGame/CCG_Bg_ToastLogDefault": {
+   "border": [
+    18,
+    44,
+    182,
+    16
+   ],
+   "type": "Sliced",
+   "source_prefab": null
+  },
+  "CardGame/CCG_Bg_ToastLogEnemy": {
+   "border": [
+    18,
+    44,
+    182,
+    16
+   ],
+   "type": "Sliced",
+   "source_prefab": null
+  },
+  "CardGame/CCG_Bg_ToastMaster": {
+   "border": [
+    162,
+    0,
+    116,
+    0
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_689611688.bundle"
+  },
+  "CardGame/CCG_Bg_UseCost": {
+   "border": [
+    32,
+    0,
+    32,
+    0
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1566388823.bundle"
+  },
+  "CardGame/CCG_Btn_Active": {
+   "border": [
+    24,
+    18,
+    24,
+    32
+   ],
+   "type": "Sliced",
+   "source_prefab": null
+  },
+  "CardGame/CCG_Btn_Disable": {
+   "border": [
+    104,
+    0,
+    104,
+    0
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_3753603633.bundle"
+  },
+  "CardGame/CCG_Btn_Enable": {
+   "border": [
+    104,
+    0,
+    104,
+    0
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_3753603633.bundle"
+  },
+  "CardGame/CCG_Btn_SortMyCard": {
+   "border": [
+    28,
+    28,
+    28,
+    28
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_3396812812.bundle"
+  },
+  "CardGame/CCG_Btn_TurnEnd": {
+   "border": [
+    104,
+    0,
+    104,
+    0
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_3753603633.bundle"
+  },
+  "CardGame/CCG_Btn_TurnIn": {
+   "border": [
+    24,
+    18,
+    24,
+    32
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_3753603633.bundle"
+  },
+  "CardGame/CCG_Btn_TurnOut": {
+   "border": [
+    24,
+    18,
+    24,
+    32
+   ],
+   "type": "Sliced",
+   "source_prefab": null
+  },
+  "CardGame/CCG_Btn_TurnProgress": {
+   "border": [
+    104,
+    0,
+    104,
+    0
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_3753603633.bundle"
+  },
+  "CardGame/CCG_Img_16px": {
+   "border": [
+    6,
+    6,
+    6,
+    6
+   ],
+   "type": "Sliced",
+   "source_prefab": null
+  },
+  "CardGame/CCG_Img_32px": {
+   "border": [
+    14,
+    14,
+    14,
+    14
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_193775058.bundle"
+  },
+  "CardGame/CCG_Img_4px": {
+   "border": [
+    1,
+    1,
+    1,
+    1
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1022382085.bundle"
+  },
+  "CardGame/CCG_Img_BgLogAlly": {
+   "border": [
+    14,
+    14,
+    14,
+    14
+   ],
+   "type": "Sliced",
+   "source_prefab": null
+  },
+  "CardGame/CCG_Img_BgLogDefault": {
+   "border": [
+    14,
+    14,
+    14,
+    14
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_3378756154.bundle"
+  },
+  "CardGame/CCG_Img_BgLogEnemy": {
+   "border": [
+    14,
+    14,
+    14,
+    14
+   ],
+   "type": "Sliced",
+   "source_prefab": null
+  },
+  "CardGame/CCG_Img_BgLogExit": {
+   "border": [
+    47,
+    0,
+    4,
+    0
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_4054564840.bundle"
+  },
+  "CardGame/CCG_Img_BgLogTurn": {
+   "border": [
+    30,
+    0,
+    30,
+    0
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_3378756154.bundle"
+  },
+  "CardGame/CCG_Img_BgStagePopup": {
+   "border": [
+    16,
+    20,
+    228,
+    208
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_113711815.bundle"
+  },
+  "CardGame/CCG_Img_BtnRestSelect": {
+   "border": [
+    64,
+    0,
+    310,
+    0
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_92828945.bundle"
+  },
+  "CardGame/CCG_Img_BtnRestSelectDim": {
+   "border": [
+    64,
+    0,
+    310,
+    0
+   ],
+   "type": "Sliced",
+   "source_prefab": null
+  },
+  "CardGame/CCG_Img_DecoMainTab": {
+   "border": [
+    16,
+    0,
+    230,
+    0
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_206225701.bundle"
+  },
+  "CardGame/CCG_Img_DecoShadow": {
+   "border": [
+    16,
+    0,
+    16,
+    0
+   ],
+   "type": "Sliced",
+   "source_prefab": null
+  },
+  "CardGame/CCG_Img_DecoSubTab": {
+   "border": [
+    14,
+    0,
+    14,
+    0
+   ],
+   "type": "Sliced",
+   "source_prefab": null
+  },
+  "CardGame/CCG_Img_DimHudBtn": {
+   "border": [
+    24,
+    24,
+    24,
+    24
+   ],
+   "type": "Sliced",
+   "source_prefab": null
+  },
+  "CardGame/CCG_Img_DimHudStage": {
+   "border": [
+    2,
+    12,
+    36,
+    34
+   ],
+   "type": "Sliced",
+   "source_prefab": null
+  },
+  "CardGame/CCG_Img_DimStriker": {
+   "border": [
+    34,
+    34,
+    40,
+    40
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1369119962.bundle"
+  },
+  "CardGame/CCG_Img_GetPointPopup": {
+   "border": [
+    64,
+    64,
+    64,
+    106
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_113711815.bundle"
+  },
+  "CardGame/CCG_Img_Gradient": {
+   "border": [
+    3,
+    0,
+    3,
+    0
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1566388823.bundle"
+  },
+  "CardGame/CCG_Img_GradientFull": {
+   "border": [
+    22,
+    0,
+    22,
+    0
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_206225701.bundle"
+  },
+  "CardGame/CCG_Img_GradientReward": {
+   "border": [
+    0,
+    2,
+    0,
+    2
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_3514820628.bundle"
+  },
+  "CardGame/CCG_Img_GradientRoundFull": {
+   "border": [
+    40,
+    0,
+    8,
+    0
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_206225701.bundle"
+  },
+  "CardGame/CCG_Img_GradientRoundHalf": {
+   "border": [
+    40,
+    0,
+    10,
+    0
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_193775058.bundle"
+  },
+  "CardGame/CCG_Img_HudBattleFrame": {
+   "border": [
+    74,
+    0,
+    74,
+    0
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_3753603633.bundle"
+  },
+  "CardGame/CCG_Img_LabelTag": {
+   "border": [
+    78,
+    0,
+    78,
+    0
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_113711815.bundle"
+  },
+  "CardGame/CCG_Img_LogEffectDamage": {
+   "border": [
+    20,
+    0,
+    36,
+    0
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_3378756154.bundle"
+  },
+  "CardGame/CCG_Img_LogEffectHeal": {
+   "border": [
+    20,
+    0,
+    36,
+    0
+   ],
+   "type": "Sliced",
+   "source_prefab": null
+  },
+  "CardGame/CCG_Img_LogEffectShield": {
+   "border": [
+    20,
+    0,
+    36,
+    0
+   ],
+   "type": "Sliced",
+   "source_prefab": null
+  },
+  "CardGame/CCG_Img_LogGradient": {
+   "border": [
+    14,
+    0,
+    14,
+    0
+   ],
+   "type": "Sliced",
+   "source_prefab": null
+  },
+  "CardGame/CCG_Img_NodeArrow_Off_0": {
+   "border": [
+    2,
+    0,
+    46,
+    0
+   ],
+   "type": "Sliced",
+   "source_prefab": null
+  },
+  "CardGame/CCG_Img_NodeDim": {
+   "border": [
+    104,
+    0,
+    104,
+    0
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1369119962.bundle"
+  },
+  "CardGame/CCG_Img_NodeFrame": {
+   "border": [
+    24,
+    36,
+    24,
+    96
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1279766031.bundle"
+  },
+  "CardGame/CCG_Img_NodeLine": {
+   "border": [
+    40,
+    0,
+    40,
+    0
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1279766031.bundle"
+  },
+  "CardGame/CCG_Img_R22": {
+   "border": [
+    22,
+    22,
+    22,
+    22
+   ],
+   "type": "Sliced",
+   "source_prefab": null
+  },
+  "CardGame/CCG_Img_RewardBoxPopup": {
+   "border": [
+    18,
+    18,
+    18,
+    18
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_113711815.bundle"
+  },
+  "CardGame/CCG_Img_SelectEffect": {
+   "border": [
+    72,
+    68,
+    72,
+    68
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1279766031.bundle"
+  },
+  "CardGame/CCG_Img_SkillPlateGlow": {
+   "border": [
+    52,
+    52,
+    52,
+    52
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1566388823.bundle"
+  },
+  "CardGame/CCG_Img_SkillPlateStroke": {
+   "border": [
+    44,
+    44,
+    44,
+    44
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_206225701.bundle"
+  },
+  "CardGame/CCG_Img_Stroke32px": {
+   "border": [
+    18,
+    18,
+    18,
+    18
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_193775058.bundle"
+  },
+  "CardGame/CCG_Img_Stroke32px_Half": {
+   "border": [
+    18,
+    2,
+    18,
+    16
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1566388823.bundle"
+  },
+  "CardGame/CCG_Line_36px": {
+   "border": [
+    16,
+    16,
+    16,
+    16
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1979888087.bundle"
+  },
+  "CardGame/CCG_Line_Dots": {
+   "border": [
+    20,
+    0,
+    20,
+    0
+   ],
+   "type": "Sliced",
+   "source_prefab": null
+  },
+  "CardGame/CCG_Skill_Info": {
+   "border": [
+    0,
+    38,
+    0,
+    2
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_2304601574.bundle"
+  },
+  "Worldraid/Common_Btn_BG": {
+   "border": [
+    28,
+    20,
+    28,
+    35
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_100728233.bundle"
+  },
+  "Worldraid/Common_Line_Dot": {
+   "border": [
+    2,
+    2,
+    2,
+    2
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1013491542.bundle"
+  },
+  "Worldraid/Conquest_2nd_Eventlobby_Bg1": {
+   "border": [
+    10,
+    8,
+    10,
+    8
+   ],
+   "type": "Sliced",
+   "source_prefab": null
+  },
+  "Worldraid/Conquest_2nd_Eventlobby_Bg2": {
+   "border": [
+    4,
+    0,
+    4,
+    0
+   ],
+   "type": "Tiled",
+   "source_prefab": null
+  },
+  "Worldraid/Conquest_2nd_Eventlobby_Bg3_Corrosion": {
+   "border": [
+    46,
+    0,
+    46,
+    0
+   ],
+   "type": "Sliced",
+   "source_prefab": null
+  },
+  "Worldraid/Conquest_2nd_Eventlobby_Img_Cover_Corrosion": {
+   "border": [
+    134,
+    126,
+    134,
+    126
+   ],
+   "type": "Sliced",
+   "source_prefab": null
+  },
+  "Worldraid/Conquest_2nd_Eventlobby_PanelLine3": {
+   "border": [
+    30,
+    0,
+    30,
+    0
+   ],
+   "type": "Sliced",
+   "source_prefab": null
+  },
+  "Worldraid/Conquest_2nd_Eventlobby_Tab_Normal": {
+   "border": [
+    8,
+    18,
+    15,
+    8
+   ],
+   "type": "Sliced",
+   "source_prefab": null
+  },
+  "Worldraid/Conquest_2nd_Phase_Notice_Line": {
+   "border": [
+    1,
+    0,
+    1,
+    0
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1190080625.bundle"
+  },
+  "Worldraid/Conquest_2nd_Phase_Notice_Pt": {
+   "border": [
+    1,
+    0,
+    1,
+    0
+   ],
+   "type": "Tiled",
+   "source_prefab": null
+  },
+  "Common/Attendance_List_Bg": {
+   "border": [
+    60,
+    48,
+    58,
+    68
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_2564607161.bundle"
+  },
+  "Common/Cafe_Balloon_Text": {
+   "border": [
+    0,
+    35,
+    0,
+    85
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1191051902.bundle"
+  },
+  "Common/Cafe_Balloon_Text_Think": {
+   "border": [
+    0,
+    35,
+    0,
+    85
+   ],
+   "type": "Sliced",
+   "source_prefab": null
+  },
+  "Common/Cafe_Btn_Bg": {
+   "border": [
+    2,
+    20,
+    174,
+    124
+   ],
+   "type": "Sliced",
+   "source_prefab": null
+  },
+  "Common/Cafe_Location_Bg": {
+   "border": [
+    26,
+    22,
+    26,
+    30
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1123545989.bundle"
+  },
+  "Common/Campaign_Info_Bg": {
+   "border": [
+    24,
+    24,
+    24,
+    24
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1078662878.bundle"
+  },
+  "Common/Campaign_List_Normal": {
+   "border": [
+    25,
+    24,
+    24,
+    30
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_100728233.bundle"
+  },
+  "Common/Campaign_Stage_Select": {
+   "border": [
+    54,
+    54,
+    54,
+    54
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1183466686.bundle"
+  },
+  "Common/Campaign_Tab_Left": {
+   "border": [
+    20,
+    0,
+    28,
+    0
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1445696493.bundle"
+  },
+  "Common/Campaign_Tab_Right": {
+   "border": [
+    28,
+    0,
+    20,
+    0
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1445696493.bundle"
+  },
+  "Common/Card_Ability_Select_Line": {
+   "border": [
+    69,
+    40,
+    69,
+    40
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_100728233.bundle"
+  },
+  "Common/Card_Line_Char": {
+   "border": [
+    23,
+    28,
+    28,
+    35
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_100728233.bundle"
+  },
+  "Common/Card_Select_Line": {
+   "border": [
+    69,
+    42,
+    69,
+    42
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_100728233.bundle"
+  },
+  "Common/Card_Select_Line_Blue": {
+   "border": [
+    69,
+    42,
+    69,
+    42
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_100728233.bundle"
+  },
+  "Common/Card_Select_Line_Event": {
+   "border": [
+    35,
+    20,
+    36,
+    20
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1183466686.bundle"
+  },
+  "Common/Card_Select_Line_Type02": {
+   "border": [
+    48,
+    48,
+    48,
+    48
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_2774657511.bundle"
+  },
+  "Common/Common_AutoBg": {
+   "border": [
+    38,
+    0,
+    42,
+    0
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_4020631882.bundle"
+  },
+  "Common/Common_Balloon_LargeType": {
+   "border": [
+    110,
+    78,
+    54,
+    62
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_394524609.bundle"
+  },
+  "Common/Common_Balloon_Type2": {
+   "border": [
+    160,
+    0,
+    120,
+    0
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1013054326.bundle"
+  },
+  "Common/Common_Bg_Gradation_5px": {
+   "border": [
+    22,
+    20,
+    22,
+    0
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1444842477.bundle"
+  },
+  "Common/Common_Bg_Paper": {
+   "border": [
+    16,
+    58,
+    17,
+    22
+   ],
+   "type": "Advanced",
+   "source_prefab": null
+  },
+  "Common/Common_Bg_Pin_Detail_01": {
+   "border": [
+    34,
+    0,
+    34,
+    0
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1444842477.bundle"
+  },
+  "Common/Common_Bg_Pin_Detail_02": {
+   "border": [
+    32,
+    0,
+    32,
+    0
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1444842477.bundle"
+  },
+  "Common/Common_Bg_Raius10px": {
+   "border": [
+    10,
+    10,
+    10,
+    10
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_100728233.bundle"
+  },
+  "Common/Common_Bg_Raius10px_Select": {
+   "border": [
+    14,
+    14,
+    14,
+    14
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1033291452.bundle"
+  },
+  "Common/Common_Bg_Raius10px_Shadow": {
+   "border": [
+    16,
+    8,
+    16,
+    24
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1017843303.bundle"
+  },
+  "Common/Common_Bg_Raius20px": {
+   "border": [
+    22,
+    22,
+    22,
+    22
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_100728233.bundle"
+  },
+  "Common/Common_Bg_Raius20px_Shadow": {
+   "border": [
+    20,
+    20,
+    26,
+    26
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1033291452.bundle"
+  },
+  "Common/Common_Bg_Raius30px": {
+   "border": [
+    31,
+    31,
+    31,
+    31
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_100728233.bundle"
+  },
+  "Common/Common_Bg_Raius5px": {
+   "border": [
+    5,
+    5,
+    5,
+    5
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1006941425.bundle"
+  },
+  "Common/Common_Bg_Raius5px_Shadow": {
+   "border": [
+    20,
+    15,
+    20,
+    30
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1066677139.bundle"
+  },
+  "Common/Common_Bg_Tab": {
+   "border": [
+    50,
+    0,
+    54,
+    0
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_3598503932.bundle"
+  },
+  "Common/Common_Btn_BG": {
+   "border": [
+    30,
+    30,
+    30,
+    35
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_100728233.bundle"
+  },
+  "Common/Common_Card_Tag_BG": {
+   "border": [
+    20,
+    20,
+    20,
+    20
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_3346986210.bundle"
+  },
+  "Common/Common_Collect_Card_Tag": {
+   "border": [
+    9,
+    2,
+    18,
+    16
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1752830880.bundle"
+  },
+  "Common/Common_Collect_CardBG": {
+   "border": [
+    55,
+    55,
+    55,
+    55
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1444842477.bundle"
+  },
+  "Common/Common_Corner_Bg_Shadow": {
+   "border": [
+    10,
+    15,
+    25,
+    24
+   ],
+   "type": "Sliced",
+   "source_prefab": null
+  },
+  "Common/Common_Dotline": {
+   "border": [
+    9,
+    0,
+    0,
+    0
+   ],
+   "type": "Tiled",
+   "source_prefab": null
+  },
+  "Common/Common_Empty": {
+   "border": [
+    2,
+    2,
+    2,
+    2
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1000166740.bundle"
+  },
+  "Common/Common_Filter_Tab_Type1": {
+   "border": [
+    15,
+    11,
+    5,
+    17
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1069465594.bundle"
+  },
+  "Common/Common_Filter_Tab_Type1_Pressed": {
+   "border": [
+    13,
+    11,
+    1,
+    12
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1107711250.bundle"
+  },
+  "Common/Common_Filter_Tab_Type2": {
+   "border": [
+    6,
+    2,
+    6,
+    8
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1069465594.bundle"
+  },
+  "Common/Common_Formation_Cost_Balloon": {
+   "border": [
+    30,
+    30,
+    80,
+    55
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1107711250.bundle"
+  },
+  "Common/Common_Formation_FormMark_1": {
+   "border": [
+    35,
+    0,
+    7,
+    0
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1694735534.bundle"
+  },
+  "Common/Common_Formation_FormMark_2": {
+   "border": [
+    35,
+    0,
+    7,
+    0
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1694735534.bundle"
+  },
+  "Common/Common_Formation_Image_Using": {
+   "border": [
+    167,
+    0,
+    162,
+    0
+   ],
+   "type": "Simple",
+   "source_prefab": null
+  },
+  "Common/Common_Gacha_Bg": {
+   "border": [
+    12,
+    12,
+    12,
+    20
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1551147169.bundle"
+  },
+  "Common/Common_Gauge_Voiceroom": {
+   "border": [
+    0,
+    8,
+    0,
+    8
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_2016440783.bundle"
+  },
+  "Common/Common_Gradient": {
+   "border": [
+    1,
+    1,
+    200,
+    1
+   ],
+   "type": "Simple",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1382904969.bundle"
+  },
+  "Common/Common_Gradient_Both": {
+   "border": [
+    140,
+    2,
+    140,
+    2
+   ],
+   "type": "Simple",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1501718407.bundle"
+  },
+  "Common/Common_Gradient_Vertical": {
+   "border": [
+    1,
+    0,
+    1,
+    5
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1253969271.bundle"
+  },
+  "Common/Common_Graph": {
+   "border": [
+    9,
+    8,
+    9,
+    1
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1337831628.bundle"
+  },
+  "Common/Common_halfslash_W_Bg": {
+   "border": [
+    17,
+    0,
+    10,
+    0
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_29474055.bundle"
+  },
+  "Common/Common_Icon_Filter_02": {
+   "border": [
+    15,
+    0,
+    12,
+    0
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1551147169.bundle"
+  },
+  "Common/Common_Icon_NewbieBg": {
+   "border": [
+    72,
+    0,
+    18,
+    0
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_3639898325.bundle"
+  },
+  "Common/Common_line_10px": {
+   "border": [
+    12,
+    13,
+    12,
+    13
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1017843303.bundle"
+  },
+  "Common/Common_Line_CircleSquare": {
+   "border": [
+    30,
+    0,
+    30,
+    0
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_2022518488.bundle"
+  },
+  "Common/Common_Line_Dot": {
+   "border": [
+    2,
+    2,
+    2,
+    2
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1013491542.bundle"
+  },
+  "Common/Common_Line_Gradient_02": {
+   "border": [
+    500,
+    2,
+    15,
+    2
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1129108222.bundle"
+  },
+  "Common/Common_Line_Raius10px": {
+   "border": [
+    10,
+    10,
+    10,
+    10
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_100728233.bundle"
+  },
+  "Common/Common_Line_Raius10px_Type2": {
+   "border": [
+    10,
+    10,
+    4,
+    10
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1129108222.bundle"
+  },
+  "Common/Common_Line_Raius20px": {
+   "border": [
+    20,
+    20,
+    20,
+    20
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_100728233.bundle"
+  },
+  "Common/Common_Line_Raius30px": {
+   "border": [
+    30,
+    30,
+    30,
+    30
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1259423559.bundle"
+  },
+  "Common/Common_Line_Select_Y": {
+   "border": [
+    35,
+    35,
+    35,
+    35
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1289347097.bundle"
+  },
+  "Common/Common_Line_Slash": {
+   "border": [
+    0,
+    4,
+    0,
+    4
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1000166740.bundle"
+  },
+  "Common/Common_List_Inbox": {
+   "border": [
+    35,
+    8,
+    35,
+    30
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1167523603.bundle"
+  },
+  "Common/Common_Nonoutline_W_Bg": {
+   "border": [
+    12,
+    10,
+    12,
+    22
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1279755653.bundle"
+  },
+  "Common/Common_Outline_W_Bg": {
+   "border": [
+    20,
+    20,
+    20,
+    25
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1107711250.bundle"
+  },
+  "Common/Common_Popup_Bg": {
+   "border": [
+    48,
+    145,
+    48,
+    65
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1020701402.bundle"
+  },
+  "Common/Common_Reward_BackEffect": {
+   "border": [
+    35,
+    0,
+    35,
+    0
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1190080625.bundle"
+  },
+  "Common/Common_Reward_Outerglow": {
+   "border": [
+    65,
+    65,
+    65,
+    65
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1069465594.bundle"
+  },
+  "Common/Common_Shop_Tag_DayLimit": {
+   "border": [
+    60,
+    15,
+    25,
+    35
+   ],
+   "type": "Sliced",
+   "source_prefab": null
+  },
+  "Common/Common_Sound_SlideBg": {
+   "border": [
+    60,
+    0,
+    60,
+    0
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1983058757.bundle"
+  },
+  "Common/Common_Square_Bg": {
+   "border": [
+    1,
+    1,
+    1,
+    1
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1000166740.bundle"
+  },
+  "Common/Common_Square_Glow": {
+   "border": [
+    20,
+    20,
+    19,
+    19
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1190080625.bundle"
+  },
+  "Common/Common_Square_Line": {
+   "border": [
+    2,
+    2,
+    2,
+    2
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1711425729.bundle"
+  },
+  "Common/Common_Tab_Category": {
+   "border": [
+    30,
+    30,
+    30,
+    30
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_181819653.bundle"
+  },
+  "Common/Common_Tab_Normal_Btn": {
+   "border": [
+    35,
+    35,
+    35,
+    35
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_100728233.bundle"
+  },
+  "Common/Common_TextBg_Voiceroom": {
+   "border": [
+    20,
+    15,
+    20,
+    30
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_277894722.bundle"
+  },
+  "Common/Common_TextInBox_10px": {
+   "border": [
+    10,
+    10,
+    10,
+    1
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1017843303.bundle"
+  },
+  "Common/Common_TextSpace_Line": {
+   "border": [
+    2,
+    0,
+    2,
+    5
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1551147169.bundle"
+  },
+  "Common/Common_Title_Bg": {
+   "border": [
+    25,
+    25,
+    25,
+    25
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_100728233.bundle"
+  },
+  "Common/Common_Toast_Mission": {
+   "border": [
+    20,
+    20,
+    28,
+    28
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_273524269.bundle"
+  },
+  "Common/Common_Tooltip_Bg": {
+   "border": [
+    50,
+    35,
+    50,
+    65
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1444842477.bundle"
+  },
+  "Common/Common_Top_Menu_Bg": {
+   "border": [
+    310,
+    0,
+    20,
+    0
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1094777168.bundle"
+  },
+  "Common/Event_Popup_Bg": {
+   "border": [
+    20,
+    20,
+    80,
+    80
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1458701583.bundle"
+  },
+  "Common/Formation_SuffCharacter_CoverLine_Btn": {
+   "border": [
+    32,
+    32,
+    32,
+    37
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_100728233.bundle"
+  },
+  "Common/Formation_TextInfo_Bg": {
+   "border": [
+    25,
+    35,
+    25,
+    5
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_11146277.bundle"
+  },
+  "Common/Ingame_End_Popup_Bg": {
+   "border": [
+    0,
+    50,
+    0,
+    50
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1122348992.bundle"
+  },
+  "Common/Lobby_balloon": {
+   "border": [
+    80,
+    84,
+    50,
+    60
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1013054326.bundle"
+  },
+  "Common/Lobby_balloon2": {
+   "border": [
+    130,
+    85,
+    50,
+    55
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1013054326.bundle"
+  },
+  "Common/Lobby_Event_Date_Bg": {
+   "border": [
+    30,
+    0,
+    110,
+    0
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1263198857.bundle"
+  },
+  "Common/Lobby_Indicator_Bg": {
+   "border": [
+    16,
+    0,
+    16,
+    0
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_241958537.bundle"
+  },
+  "Common/Lobby_Stamina_ToolTip_Bg": {
+   "border": [
+    197,
+    0,
+    36,
+    0
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1000166740.bundle"
+  },
+  "Common/Lobby_UserLv_Bg": {
+   "border": [
+    17,
+    17,
+    17,
+    17
+   ],
+   "type": "Sliced",
+   "source_prefab": null
+  },
+  "Common/Resource_Bg_Radius10px": {
+   "border": [
+    30,
+    30,
+    30,
+    30
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1020701402.bundle"
+  },
+  "Common/RewardEvent_BG": {
+   "border": [
+    62,
+    38,
+    20,
+    20
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1259423559.bundle"
+  },
+  "Common/School_Chat_BG": {
+   "border": [
+    30,
+    42,
+    20,
+    20
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1820102330.bundle"
+  },
+  "Common/School_Chat_Image_Line": {
+   "border": [
+    21,
+    21,
+    21,
+    21
+   ],
+   "type": "Sliced",
+   "source_prefab": null
+  },
+  "Common/School_RankUp_Bg": {
+   "border": [
+    0,
+    65,
+    0,
+    66
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1629846189.bundle"
+  },
+  "Common/Seasonal_List_TitleBg": {
+   "border": [
+    11,
+    0,
+    26,
+    0
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1767969237.bundle"
+  },
+  "Common/Seasonal_Playguide_Btn": {
+   "border": [
+    128,
+    0,
+    60,
+    0
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1820102330.bundle"
+  },
+  "Common/Seasonal_Tab_Btn_1": {
+   "border": [
+    40,
+    0,
+    40,
+    0
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1820102330.bundle"
+  },
+  "Common/Seasonal_Tab_Btn_2": {
+   "border": [
+    40,
+    0,
+    40,
+    0
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1820102330.bundle"
+  },
+  "Common/Special_Operation_StageList_BG": {
+   "border": [
+    10,
+    4,
+    10,
+    20
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1131000598.bundle"
+  },
+  "Common/Tutorial_Arrow_Line": {
+   "border": [
+    0,
+    1,
+    0,
+    1
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_2056341723.bundle"
+  },
+  "Common/Tutorial_Border": {
+   "border": [
+    34,
+    34,
+    34,
+    34
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1129108222.bundle"
+  },
+  "Common/Tutorial_Message_BG": {
+   "border": [
+    51,
+    52,
+    28,
+    27
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_2056341723.bundle"
+  },
+  "SpecialOperation/Special_Operation_Collection_BG": {
+   "border": [
+    24,
+    24,
+    24,
+    104
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1634904855.bundle"
+  },
+  "SpecialOperation/Special_Operation_Collection_Deco_Side": {
+   "border": [
+    0,
+    9,
+    0,
+    9
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1634904855.bundle"
+  },
+  "SpecialOperation/Special_Operation_Collection_Deco_Top": {
+   "border": [
+    20,
+    0,
+    20,
+    0
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1634904855.bundle"
+  },
+  "SpecialOperation/Special_Operation_Collection_Innerglow": {
+   "border": [
+    40,
+    26,
+    40,
+    106
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1634904855.bundle"
+  },
+  "SpecialOperation/Special_Operation_Collection_Line": {
+   "border": [
+    24,
+    24,
+    24,
+    104
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1634904855.bundle"
+  },
+  "SpecialOperation/Special_Operation_Collection_Shadow": {
+   "border": [
+    40,
+    26,
+    40,
+    106
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1634904855.bundle"
+  },
+  "SpecialOperation/Special_Operation_Stripe": {
+   "border": [
+    1,
+    0,
+    1,
+    0
+   ],
+   "type": "Tiled",
+   "source_prefab": null
+  },
+  "Combat/Combat_Balloon_Sup": {
+   "border": [
+    46,
+    0,
+    20,
+    0
+   ],
+   "type": "Sliced",
+   "source_prefab": null
+  },
+  "Combat/Combat_Bg_Hp": {
+   "border": [
+    13,
+    10,
+    13,
+    14
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1648782197.bundle"
+  },
+  "Combat/Combat_BG_UICarrierSkillCard": {
+   "border": [
+    13,
+    13,
+    13,
+    15
+   ],
+   "type": "Sliced",
+   "source_prefab": null
+  },
+  "Combat/Combat_CardBg_EX_CostTag_Bg": {
+   "border": [
+    20,
+    0,
+    59,
+    0
+   ],
+   "type": "Simple",
+   "source_prefab": null
+  },
+  "Combat/Combat_CardBg_EX_CoverLine": {
+   "border": [
+    18,
+    15,
+    25,
+    28
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_728946028.bundle"
+  },
+  "Combat/Combat_CardBg_Tactice_Support_Bg": {
+   "border": [
+    15,
+    15,
+    30,
+    30
+   ],
+   "type": "Sliced",
+   "source_prefab": null
+  },
+  "Combat/Combat_Gauge_Hp": {
+   "border": [
+    2,
+    3,
+    2,
+    3
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_118903585.bundle"
+  },
+  "Combat/Combat_SubBtn": {
+   "border": [
+    25,
+    25,
+    25,
+    25
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_4250742881.bundle"
+  },
+  "Combat/Combat_SuffCharacter_CoverLine_Btn": {
+   "border": [
+    35,
+    35,
+    35,
+    35
+   ],
+   "type": "Sliced",
+   "source_prefab": null
+  },
+  "Combat/Combat_Textbg": {
+   "border": [
+    22,
+    22,
+    22,
+    22
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_215778135.bundle"
+  },
+  "Combat/Combat_Title_Bg": {
+   "border": [
+    28,
+    28,
+    28,
+    28
+   ],
+   "type": "Sliced",
+   "source_prefab": null
+  },
+  "Combat/Common_Bg_Raius5px": {
+   "border": [
+    5,
+    5,
+    5,
+    5
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1006941425.bundle"
+  },
+  "Combat/Common_Btn_BG": {
+   "border": [
+    29,
+    25,
+    29,
+    38
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_100728233.bundle"
+  },
+  "Combat/Common_Line_Dot": {
+   "border": [
+    2,
+    2,
+    2,
+    2
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1013491542.bundle"
+  },
+  "Combat/Common_Line_Raius20px": {
+   "border": [
+    20,
+    20,
+    20,
+    20
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_100728233.bundle"
+  },
+  "Combat/Common_Line_Slash": {
+   "border": [
+    0,
+    4,
+    0,
+    4
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1000166740.bundle"
+  },
+  "Combat/Common_Tab_Normal_Btn": {
+   "border": [
+    30,
+    30,
+    30,
+    30
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_100728233.bundle"
+  },
+  "Combat/DamageGauge_EN0015_Bg_EffectGauge": {
+   "border": [
+    16,
+    0,
+    16,
+    0
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_118903585.bundle"
+  },
+  "Combat/DamageGauge_EN0015_Bg_Gauge": {
+   "border": [
+    32,
+    0,
+    26,
+    0
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_118903585.bundle"
+  },
+  "Combat/DamageGauge_EN0015_Deco_05": {
+   "border": [
+    46,
+    0,
+    46,
+    0
+   ],
+   "type": "Simple",
+   "source_prefab": null
+  },
+  "Combat/DamageGauge_EN0015_Deco_09": {
+   "border": [
+    62,
+    6,
+    62,
+    10
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_118903585.bundle"
+  },
+  "Combat/DamageGauge_EN0015_Deco_10": {
+   "border": [
+    7,
+    7,
+    7,
+    7
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_118903585.bundle"
+  },
+  "Combat/DamageGauge_EN0015_Frame_Gauge": {
+   "border": [
+    12,
+    0,
+    12,
+    0
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_118903585.bundle"
+  },
+  "Combat/DamageGauge_EN0015_Gauge_Explosion": {
+   "border": [
+    16,
+    0,
+    12,
+    0
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_118903585.bundle"
+  },
+  "Combat/DamageGauge_EN0015_Gauge_Mystic": {
+   "border": [
+    16,
+    0,
+    12,
+    0
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_118903585.bundle"
+  },
+  "Combat/DamageGauge_EN0015_Gauge_Pierce": {
+   "border": [
+    12,
+    0,
+    16,
+    0
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_118903585.bundle"
+  },
+  "Combat/DamageGauge_EN0015_Gauge_Sonic": {
+   "border": [
+    12,
+    0,
+    16,
+    0
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_118903585.bundle"
+  },
+  "Combat/Ingame_Operater_Text_Bg": {
+   "border": [
+    50,
+    50,
+    40,
+    50
+   ],
+   "type": "Sliced",
+   "source_prefab": null
+  },
+  "Combat/SkillDeck_Decagram_Divide": {
+   "border": [
+    15,
+    0,
+    15,
+    0
+   ],
+   "type": "Simple",
+   "source_prefab": null
+  },
+  "Combat/SkillDeck_Decagram_Frame_00": {
+   "border": [
+    57,
+    0,
+    19,
+    0
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_728946028.bundle"
+  },
+  "Combat/SkillDeck_Decagram_Frame_01": {
+   "border": [
+    16,
+    0,
+    16,
+    0
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_728946028.bundle"
+  },
+  "Combat/SkillDeck_Decagram_Frame_04": {
+   "border": [
+    12,
+    9,
+    9,
+    17
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_728946028.bundle"
+  },
+  "Combat/SkillDeck_Decagram_Frame_05": {
+   "border": [
+    10,
+    0,
+    39,
+    0
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_728946028.bundle"
+  },
+  "Combat/StatusLevel_EN0013_Deco_01": {
+   "border": [
+    10,
+    10,
+    10,
+    10
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_118903585.bundle"
+  },
+  "Combat/StatusLevel_EN0013_Deco_02": {
+   "border": [
+    16,
+    0,
+    16,
+    0
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_2779540230.bundle"
+  },
+  "Combat/StatusLevel_EN0013_Deco_03": {
+   "border": [
+    6,
+    18,
+    42,
+    4
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_2779540230.bundle"
+  },
+  "Combat/StatusLevel_EN0013_Deco_04": {
+   "border": [
+    6,
+    6,
+    6,
+    6
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_2779540230.bundle"
+  },
+  "Combat/StatusLevel_EN0013_Lamp_Wall": {
+   "border": [
+    26,
+    11,
+    26,
+    10
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_2779540230.bundle"
+  }
+ }
+}

@@ -8,6 +8,11 @@ release/
 resources/
 viewer/
 data/*.json
+# 例外：解包出来的元数据体积小、重建成本高，入库方便下一个 agent 接手
+!data/ui_atlas.json
+!data/ui_nineslice.json
+!data/se_index.json
+!data/se_map.json
 
 # 本地存档与缓存
 *.db
