@@ -192,7 +192,8 @@ if (await goto('剧情')) {
 if (await goto('招募')) {
   await shot('09-gacha', 1200);
   const pull = page.getByRole('button', { name: '招募 10 次' });
-  if (await pull.count()) {
+  // 卡池列表为空（banners.json 缺失）时按钮 disabled={true}，直接点会卡 30s 崩掉整条链
+  if (await pull.count() && (await pull.isEnabled())) {
     await pull.click();
     await shot('10-gacha-result', 1700);
     await shot('nineslice-panel', 300);
