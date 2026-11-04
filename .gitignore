@@ -36,3 +36,4 @@ Thumbs.db
 # 外部工具与解包工作区（体积大，不入库）
 .vendor/
 .baad/
+__pycache__/

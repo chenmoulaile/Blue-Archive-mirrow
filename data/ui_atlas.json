@@ -1,6 +1,6 @@
 {
  "source": "assetbundle",
- "generated": "2026-10-29T20:49:19",
+ "generated": "2026-11-05T01:07:08",
  "sprites": {
   "Conquest/Common_Icon_Diamond": {
    "file": "/res/ui/Conquest/Common_Icon_Diamond.png",
@@ -252,15 +252,15 @@
   },
   "Event/ClueSearch_BoardDeco_02_857": {
    "file": "/res/ui/Event/ClueSearch_BoardDeco_02_857.png",
-   "w": 46,
-   "h": 34,
+   "w": 241,
+   "h": 146,
    "origin": "assetbundle",
    "atlas": "Event",
    "sprite": "ClueSearch_BoardDeco_02_857"
   },
   "Event/ClueSearch_ClueLine_857": {
    "file": "/res/ui/Event/ClueSearch_ClueLine_857.png",
-   "w": 16,
+   "w": 20,
    "h": 9,
    "origin": "assetbundle",
    "atlas": "Event",
@@ -284,8 +284,8 @@
   },
   "Event/ClueSearch_CluePin_857": {
    "file": "/res/ui/Event/ClueSearch_CluePin_857.png",
-   "w": 30,
-   "h": 30,
+   "w": 32,
+   "h": 32,
    "origin": "assetbundle",
    "atlas": "Event",
    "sprite": "ClueSearch_CluePin_857"
@@ -404,8 +404,8 @@
   },
   "Event/Common_Empty": {
    "file": "/res/ui/Event/Common_Empty.png",
-   "w": 14,
-   "h": 14,
+   "w": 4,
+   "h": 4,
    "origin": "assetbundle",
    "atlas": "Event",
    "sprite": "Common_Empty"
@@ -468,8 +468,8 @@
   },
   "Event/Common_Icon_Event_Item_1": {
    "file": "/res/ui/Event/Common_Icon_Event_Item_1.png",
-   "w": 69,
-   "h": 71,
+   "w": 60,
+   "h": 61,
    "origin": "assetbundle",
    "atlas": "Event",
    "sprite": "Common_Icon_Event_Item_1"
@@ -500,8 +500,8 @@
   },
   "Event/Common_Icon_Event_Token_0_60000_2": {
    "file": "/res/ui/Event/Common_Icon_Event_Token_0_60000_2.png",
-   "w": 69,
-   "h": 71,
+   "w": 57,
+   "h": 62,
    "origin": "assetbundle",
    "atlas": "Event",
    "sprite": "Common_Icon_Event_Token_0_60000_2"
@@ -517,7 +517,7 @@
   "Event/Common_Icon_Event_Token_0_80000": {
    "file": "/res/ui/Event/Common_Icon_Event_Token_0_80000.png",
    "w": 69,
-   "h": 71,
+   "h": 66,
    "origin": "assetbundle",
    "atlas": "Event",
    "sprite": "Common_Icon_Event_Token_0_80000"
@@ -684,8 +684,8 @@
   },
   "Event/Common_Icon_Event_Token_0_S33": {
    "file": "/res/ui/Event/Common_Icon_Event_Token_0_S33.png",
-   "w": 69,
-   "h": 71,
+   "w": 56,
+   "h": 65,
    "origin": "assetbundle",
    "atlas": "Event",
    "sprite": "Common_Icon_Event_Token_0_S33"
@@ -700,24 +700,24 @@
   },
   "Event/Common_Icon_Event_Token_0_S37": {
    "file": "/res/ui/Event/Common_Icon_Event_Token_0_S37.png",
-   "w": 69,
-   "h": 71,
+   "w": 63,
+   "h": 58,
    "origin": "assetbundle",
    "atlas": "Event",
    "sprite": "Common_Icon_Event_Token_0_S37"
   },
   "Event/Common_Icon_Event_Token_0_S38": {
    "file": "/res/ui/Event/Common_Icon_Event_Token_0_S38.png",
-   "w": 69,
-   "h": 71,
+   "w": 60,
+   "h": 63,
    "origin": "assetbundle",
    "atlas": "Event",
    "sprite": "Common_Icon_Event_Token_0_S38"
   },
   "Event/Common_Icon_Event_Token_0_S39": {
    "file": "/res/ui/Event/Common_Icon_Event_Token_0_S39.png",
-   "w": 69,
-   "h": 71,
+   "w": 62,
+   "h": 48,
    "origin": "assetbundle",
    "atlas": "Event",
    "sprite": "Common_Icon_Event_Token_0_S39"
@@ -756,16 +756,16 @@
   },
   "Event/Common_Icon_Event_Token_0_S44": {
    "file": "/res/ui/Event/Common_Icon_Event_Token_0_S44.png",
-   "w": 69,
-   "h": 71,
+   "w": 50,
+   "h": 65,
    "origin": "assetbundle",
    "atlas": "Event",
    "sprite": "Common_Icon_Event_Token_0_S44"
   },
   "Event/Common_Icon_Event_Token_0_S45": {
    "file": "/res/ui/Event/Common_Icon_Event_Token_0_S45.png",
-   "w": 69,
-   "h": 71,
+   "w": 68,
+   "h": 59,
    "origin": "assetbundle",
    "atlas": "Event",
    "sprite": "Common_Icon_Event_Token_0_S45"
@@ -780,7 +780,7 @@
   },
   "Event/Common_Icon_Event_Token_0_S48": {
    "file": "/res/ui/Event/Common_Icon_Event_Token_0_S48.png",
-   "w": 69,
+   "w": 61,
    "h": 71,
    "origin": "assetbundle",
    "atlas": "Event",
@@ -788,32 +788,32 @@
   },
   "Event/Common_Icon_Event_Token_0_S50": {
    "file": "/res/ui/Event/Common_Icon_Event_Token_0_S50.png",
-   "w": 69,
-   "h": 71,
+   "w": 53,
+   "h": 68,
    "origin": "assetbundle",
    "atlas": "Event",
    "sprite": "Common_Icon_Event_Token_0_S50"
   },
   "Event/Common_Icon_Event_Token_0_S51": {
    "file": "/res/ui/Event/Common_Icon_Event_Token_0_S51.png",
-   "w": 69,
-   "h": 71,
+   "w": 60,
+   "h": 69,
    "origin": "assetbundle",
    "atlas": "Event",
    "sprite": "Common_Icon_Event_Token_0_S51"
   },
   "Event/Common_Icon_Event_Token_0_S52": {
    "file": "/res/ui/Event/Common_Icon_Event_Token_0_S52.png",
-   "w": 69,
-   "h": 71,
+   "w": 67,
+   "h": 64,
    "origin": "assetbundle",
    "atlas": "Event",
    "sprite": "Common_Icon_Event_Token_0_S52"
   },
   "Event/Common_Icon_Event_Token_0_S53": {
    "file": "/res/ui/Event/Common_Icon_Event_Token_0_S53.png",
-   "w": 69,
-   "h": 71,
+   "w": 67,
+   "h": 55,
    "origin": "assetbundle",
    "atlas": "Event",
    "sprite": "Common_Icon_Event_Token_0_S53"
@@ -1013,23 +1013,23 @@
   "Event/Common_Icon_Event_Token_1_S32": {
    "file": "/res/ui/Event/Common_Icon_Event_Token_1_S32.png",
    "w": 69,
-   "h": 71,
+   "h": 62,
    "origin": "assetbundle",
    "atlas": "Event",
    "sprite": "Common_Icon_Event_Token_1_S32"
   },
   "Event/Common_Icon_Event_Token_1_S33": {
    "file": "/res/ui/Event/Common_Icon_Event_Token_1_S33.png",
-   "w": 69,
-   "h": 71,
+   "w": 48,
+   "h": 57,
    "origin": "assetbundle",
    "atlas": "Event",
    "sprite": "Common_Icon_Event_Token_1_S33"
   },
   "Event/Common_Icon_Event_Token_1_S34": {
    "file": "/res/ui/Event/Common_Icon_Event_Token_1_S34.png",
-   "w": 69,
-   "h": 71,
+   "w": 66,
+   "h": 59,
    "origin": "assetbundle",
    "atlas": "Event",
    "sprite": "Common_Icon_Event_Token_1_S34"
@@ -1052,24 +1052,24 @@
   },
   "Event/Common_Icon_Event_Token_1_S37": {
    "file": "/res/ui/Event/Common_Icon_Event_Token_1_S37.png",
-   "w": 69,
-   "h": 71,
+   "w": 66,
+   "h": 68,
    "origin": "assetbundle",
    "atlas": "Event",
    "sprite": "Common_Icon_Event_Token_1_S37"
   },
   "Event/Common_Icon_Event_Token_1_S38": {
    "file": "/res/ui/Event/Common_Icon_Event_Token_1_S38.png",
-   "w": 69,
-   "h": 71,
+   "w": 62,
+   "h": 65,
    "origin": "assetbundle",
    "atlas": "Event",
    "sprite": "Common_Icon_Event_Token_1_S38"
   },
   "Event/Common_Icon_Event_Token_1_S39": {
    "file": "/res/ui/Event/Common_Icon_Event_Token_1_S39.png",
-   "w": 69,
-   "h": 71,
+   "w": 67,
+   "h": 52,
    "origin": "assetbundle",
    "atlas": "Event",
    "sprite": "Common_Icon_Event_Token_1_S39"
@@ -1109,23 +1109,23 @@
   "Event/Common_Icon_Event_Token_1_S43": {
    "file": "/res/ui/Event/Common_Icon_Event_Token_1_S43.png",
    "w": 69,
-   "h": 71,
+   "h": 56,
    "origin": "assetbundle",
    "atlas": "Event",
    "sprite": "Common_Icon_Event_Token_1_S43"
   },
   "Event/Common_Icon_Event_Token_1_S44": {
    "file": "/res/ui/Event/Common_Icon_Event_Token_1_S44.png",
-   "w": 69,
-   "h": 71,
+   "w": 65,
+   "h": 62,
    "origin": "assetbundle",
    "atlas": "Event",
    "sprite": "Common_Icon_Event_Token_1_S44"
   },
   "Event/Common_Icon_Event_Token_1_S45": {
    "file": "/res/ui/Event/Common_Icon_Event_Token_1_S45.png",
-   "w": 69,
-   "h": 71,
+   "w": 67,
+   "h": 70,
    "origin": "assetbundle",
    "atlas": "Event",
    "sprite": "Common_Icon_Event_Token_1_S45"
@@ -1141,14 +1141,14 @@
   "Event/Common_Icon_Event_Token_1_S47": {
    "file": "/res/ui/Event/Common_Icon_Event_Token_1_S47.png",
    "w": 69,
-   "h": 71,
+   "h": 59,
    "origin": "assetbundle",
    "atlas": "Event",
    "sprite": "Common_Icon_Event_Token_1_S47"
   },
   "Event/Common_Icon_Event_Token_1_S48": {
    "file": "/res/ui/Event/Common_Icon_Event_Token_1_S48.png",
-   "w": 69,
+   "w": 62,
    "h": 71,
    "origin": "assetbundle",
    "atlas": "Event",
@@ -1156,56 +1156,56 @@
   },
   "Event/Common_Icon_Event_Token_1_S50": {
    "file": "/res/ui/Event/Common_Icon_Event_Token_1_S50.png",
-   "w": 69,
-   "h": 71,
+   "w": 55,
+   "h": 68,
    "origin": "assetbundle",
    "atlas": "Event",
    "sprite": "Common_Icon_Event_Token_1_S50"
   },
   "Event/Common_Icon_Event_Token_1_S51": {
    "file": "/res/ui/Event/Common_Icon_Event_Token_1_S51.png",
-   "w": 69,
-   "h": 71,
+   "w": 61,
+   "h": 70,
    "origin": "assetbundle",
    "atlas": "Event",
    "sprite": "Common_Icon_Event_Token_1_S51"
   },
   "Event/Common_Icon_Event_Token_1_S52": {
    "file": "/res/ui/Event/Common_Icon_Event_Token_1_S52.png",
-   "w": 69,
-   "h": 71,
+   "w": 65,
+   "h": 70,
    "origin": "assetbundle",
    "atlas": "Event",
    "sprite": "Common_Icon_Event_Token_1_S52"
   },
   "Event/Common_Icon_Event_Token_1_S53": {
    "file": "/res/ui/Event/Common_Icon_Event_Token_1_S53.png",
-   "w": 69,
-   "h": 71,
+   "w": 43,
+   "h": 69,
    "origin": "assetbundle",
    "atlas": "Event",
    "sprite": "Common_Icon_Event_Token_1_S53"
   },
   "Event/Common_Icon_Event_Token_1_S54": {
    "file": "/res/ui/Event/Common_Icon_Event_Token_1_S54.png",
-   "w": 69,
-   "h": 71,
+   "w": 67,
+   "h": 44,
    "origin": "assetbundle",
    "atlas": "Event",
    "sprite": "Common_Icon_Event_Token_1_S54"
   },
   "Event/Common_Icon_Event_Token_1_S55": {
    "file": "/res/ui/Event/Common_Icon_Event_Token_1_S55.png",
-   "w": 69,
-   "h": 71,
+   "w": 64,
+   "h": 69,
    "origin": "assetbundle",
    "atlas": "Event",
    "sprite": "Common_Icon_Event_Token_1_S55"
   },
   "Event/Common_Icon_Event_Token_1_S56": {
    "file": "/res/ui/Event/Common_Icon_Event_Token_1_S56.png",
-   "w": 69,
-   "h": 71,
+   "w": 55,
+   "h": 55,
    "origin": "assetbundle",
    "atlas": "Event",
    "sprite": "Common_Icon_Event_Token_1_S56"
@@ -1412,8 +1412,8 @@
   },
   "Event/Common_Icon_Event_Token_2_S33": {
    "file": "/res/ui/Event/Common_Icon_Event_Token_2_S33.png",
-   "w": 69,
-   "h": 71,
+   "w": 56,
+   "h": 65,
    "origin": "assetbundle",
    "atlas": "Event",
    "sprite": "Common_Icon_Event_Token_2_S33"
@@ -1421,7 +1421,7 @@
   "Event/Common_Icon_Event_Token_2_S34": {
    "file": "/res/ui/Event/Common_Icon_Event_Token_2_S34.png",
    "w": 69,
-   "h": 71,
+   "h": 48,
    "origin": "assetbundle",
    "atlas": "Event",
    "sprite": "Common_Icon_Event_Token_2_S34"
@@ -1444,7 +1444,7 @@
   },
   "Event/Common_Icon_Event_Token_2_S37": {
    "file": "/res/ui/Event/Common_Icon_Event_Token_2_S37.png",
-   "w": 69,
+   "w": 60,
    "h": 71,
    "origin": "assetbundle",
    "atlas": "Event",
@@ -1452,16 +1452,16 @@
   },
   "Event/Common_Icon_Event_Token_2_S38": {
    "file": "/res/ui/Event/Common_Icon_Event_Token_2_S38.png",
-   "w": 69,
-   "h": 71,
+   "w": 58,
+   "h": 61,
    "origin": "assetbundle",
    "atlas": "Event",
    "sprite": "Common_Icon_Event_Token_2_S38"
   },
   "Event/Common_Icon_Event_Token_2_S39": {
    "file": "/res/ui/Event/Common_Icon_Event_Token_2_S39.png",
-   "w": 69,
-   "h": 71,
+   "w": 66,
+   "h": 52,
    "origin": "assetbundle",
    "atlas": "Event",
    "sprite": "Common_Icon_Event_Token_2_S39"
@@ -1476,8 +1476,8 @@
   },
   "Event/Common_Icon_Event_Token_2_S40": {
    "file": "/res/ui/Event/Common_Icon_Event_Token_2_S40.png",
-   "w": 69,
-   "h": 71,
+   "w": 66,
+   "h": 53,
    "origin": "assetbundle",
    "atlas": "Event",
    "sprite": "Common_Icon_Event_Token_2_S40"
@@ -1508,8 +1508,8 @@
   },
   "Event/Common_Icon_Event_Token_2_S44": {
    "file": "/res/ui/Event/Common_Icon_Event_Token_2_S44.png",
-   "w": 69,
-   "h": 71,
+   "w": 61,
+   "h": 67,
    "origin": "assetbundle",
    "atlas": "Event",
    "sprite": "Common_Icon_Event_Token_2_S44"
@@ -1524,7 +1524,7 @@
   },
   "Event/Common_Icon_Event_Token_2_S47": {
    "file": "/res/ui/Event/Common_Icon_Event_Token_2_S47.png",
-   "w": 69,
+   "w": 65,
    "h": 71,
    "origin": "assetbundle",
    "atlas": "Event",
@@ -1533,14 +1533,14 @@
   "Event/Common_Icon_Event_Token_2_S48": {
    "file": "/res/ui/Event/Common_Icon_Event_Token_2_S48.png",
    "w": 69,
-   "h": 71,
+   "h": 60,
    "origin": "assetbundle",
    "atlas": "Event",
    "sprite": "Common_Icon_Event_Token_2_S48"
   },
   "Event/Common_Icon_Event_Token_2_S50": {
    "file": "/res/ui/Event/Common_Icon_Event_Token_2_S50.png",
-   "w": 69,
+   "w": 54,
    "h": 71,
    "origin": "assetbundle",
    "atlas": "Event",
@@ -1548,40 +1548,40 @@
   },
   "Event/Common_Icon_Event_Token_2_S51": {
    "file": "/res/ui/Event/Common_Icon_Event_Token_2_S51.png",
-   "w": 69,
-   "h": 71,
+   "w": 64,
+   "h": 58,
    "origin": "assetbundle",
    "atlas": "Event",
    "sprite": "Common_Icon_Event_Token_2_S51"
   },
   "Event/Common_Icon_Event_Token_2_S52": {
    "file": "/res/ui/Event/Common_Icon_Event_Token_2_S52.png",
-   "w": 69,
-   "h": 71,
+   "w": 65,
+   "h": 69,
    "origin": "assetbundle",
    "atlas": "Event",
    "sprite": "Common_Icon_Event_Token_2_S52"
   },
   "Event/Common_Icon_Event_Token_2_S53": {
    "file": "/res/ui/Event/Common_Icon_Event_Token_2_S53.png",
-   "w": 69,
-   "h": 71,
+   "w": 59,
+   "h": 55,
    "origin": "assetbundle",
    "atlas": "Event",
    "sprite": "Common_Icon_Event_Token_2_S53"
   },
   "Event/Common_Icon_Event_Token_2_S54": {
    "file": "/res/ui/Event/Common_Icon_Event_Token_2_S54.png",
-   "w": 69,
-   "h": 71,
+   "w": 68,
+   "h": 65,
    "origin": "assetbundle",
    "atlas": "Event",
    "sprite": "Common_Icon_Event_Token_2_S54"
   },
   "Event/Common_Icon_Event_Token_2_S55": {
    "file": "/res/ui/Event/Common_Icon_Event_Token_2_S55.png",
-   "w": 69,
-   "h": 71,
+   "w": 56,
+   "h": 68,
    "origin": "assetbundle",
    "atlas": "Event",
    "sprite": "Common_Icon_Event_Token_2_S55"
@@ -1589,7 +1589,7 @@
   "Event/Common_Icon_Event_Token_2_S56": {
    "file": "/res/ui/Event/Common_Icon_Event_Token_2_S56.png",
    "w": 69,
-   "h": 71,
+   "h": 58,
    "origin": "assetbundle",
    "atlas": "Event",
    "sprite": "Common_Icon_Event_Token_2_S56"
@@ -1733,7 +1733,7 @@
   "Event/Common_Icon_Event_Token_3_S33": {
    "file": "/res/ui/Event/Common_Icon_Event_Token_3_S33.png",
    "w": 69,
-   "h": 71,
+   "h": 50,
    "origin": "assetbundle",
    "atlas": "Event",
    "sprite": "Common_Icon_Event_Token_3_S33"
@@ -1764,24 +1764,24 @@
   },
   "Event/Common_Icon_Event_Token_3_S37": {
    "file": "/res/ui/Event/Common_Icon_Event_Token_3_S37.png",
-   "w": 69,
-   "h": 71,
+   "w": 62,
+   "h": 53,
    "origin": "assetbundle",
    "atlas": "Event",
    "sprite": "Common_Icon_Event_Token_3_S37"
   },
   "Event/Common_Icon_Event_Token_3_S38": {
    "file": "/res/ui/Event/Common_Icon_Event_Token_3_S38.png",
-   "w": 69,
-   "h": 71,
+   "w": 64,
+   "h": 58,
    "origin": "assetbundle",
    "atlas": "Event",
    "sprite": "Common_Icon_Event_Token_3_S38"
   },
   "Event/Common_Icon_Event_Token_3_S39": {
    "file": "/res/ui/Event/Common_Icon_Event_Token_3_S39.png",
-   "w": 69,
-   "h": 71,
+   "w": 58,
+   "h": 61,
    "origin": "assetbundle",
    "atlas": "Event",
    "sprite": "Common_Icon_Event_Token_3_S39"
@@ -1828,8 +1828,8 @@
   },
   "Event/Common_Icon_Event_Token_3_S44": {
    "file": "/res/ui/Event/Common_Icon_Event_Token_3_S44.png",
-   "w": 69,
-   "h": 71,
+   "w": 67,
+   "h": 66,
    "origin": "assetbundle",
    "atlas": "Event",
    "sprite": "Common_Icon_Event_Token_3_S44"
@@ -1845,14 +1845,14 @@
   "Event/Common_Icon_Event_Token_3_S47": {
    "file": "/res/ui/Event/Common_Icon_Event_Token_3_S47.png",
    "w": 69,
-   "h": 71,
+   "h": 47,
    "origin": "assetbundle",
    "atlas": "Event",
    "sprite": "Common_Icon_Event_Token_3_S47"
   },
   "Event/Common_Icon_Event_Token_3_S48": {
    "file": "/res/ui/Event/Common_Icon_Event_Token_3_S48.png",
-   "w": 69,
+   "w": 67,
    "h": 71,
    "origin": "assetbundle",
    "atlas": "Event",
@@ -1860,48 +1860,48 @@
   },
   "Event/Common_Icon_Event_Token_3_S50": {
    "file": "/res/ui/Event/Common_Icon_Event_Token_3_S50.png",
-   "w": 69,
-   "h": 71,
+   "w": 47,
+   "h": 70,
    "origin": "assetbundle",
    "atlas": "Event",
    "sprite": "Common_Icon_Event_Token_3_S50"
   },
   "Event/Common_Icon_Event_Token_3_S51": {
    "file": "/res/ui/Event/Common_Icon_Event_Token_3_S51.png",
-   "w": 69,
-   "h": 71,
+   "w": 65,
+   "h": 68,
    "origin": "assetbundle",
    "atlas": "Event",
    "sprite": "Common_Icon_Event_Token_3_S51"
   },
   "Event/Common_Icon_Event_Token_3_S52": {
    "file": "/res/ui/Event/Common_Icon_Event_Token_3_S52.png",
-   "w": 69,
-   "h": 71,
+   "w": 53,
+   "h": 70,
    "origin": "assetbundle",
    "atlas": "Event",
    "sprite": "Common_Icon_Event_Token_3_S52"
   },
   "Event/Common_Icon_Event_Token_3_S53": {
    "file": "/res/ui/Event/Common_Icon_Event_Token_3_S53.png",
-   "w": 69,
-   "h": 71,
+   "w": 68,
+   "h": 63,
    "origin": "assetbundle",
    "atlas": "Event",
    "sprite": "Common_Icon_Event_Token_3_S53"
   },
   "Event/Common_Icon_Event_Token_3_S54": {
    "file": "/res/ui/Event/Common_Icon_Event_Token_3_S54.png",
-   "w": 69,
-   "h": 71,
+   "w": 65,
+   "h": 64,
    "origin": "assetbundle",
    "atlas": "Event",
    "sprite": "Common_Icon_Event_Token_3_S54"
   },
   "Event/Common_Icon_Event_Token_3_S55": {
    "file": "/res/ui/Event/Common_Icon_Event_Token_3_S55.png",
-   "w": 69,
-   "h": 71,
+   "w": 65,
+   "h": 70,
    "origin": "assetbundle",
    "atlas": "Event",
    "sprite": "Common_Icon_Event_Token_3_S55"
@@ -1909,7 +1909,7 @@
   "Event/Common_Icon_Event_Token_3_S56": {
    "file": "/res/ui/Event/Common_Icon_Event_Token_3_S56.png",
    "w": 69,
-   "h": 71,
+   "h": 50,
    "origin": "assetbundle",
    "atlas": "Event",
    "sprite": "Common_Icon_Event_Token_3_S56"
@@ -1948,8 +1948,8 @@
   },
   "Event/Common_Icon_Event_Token_4_S51": {
    "file": "/res/ui/Event/Common_Icon_Event_Token_4_S51.png",
-   "w": 69,
-   "h": 71,
+   "w": 67,
+   "h": 52,
    "origin": "assetbundle",
    "atlas": "Event",
    "sprite": "Common_Icon_Event_Token_4_S51"
@@ -2068,7 +2068,7 @@
   },
   "Event/Currency_Icon_CafeStudentInvite_1": {
    "file": "/res/ui/Event/Currency_Icon_CafeStudentInvite_1.png",
-   "w": 150,
+   "w": 147,
    "h": 77,
    "origin": "assetbundle",
    "atlas": "Event",
@@ -2076,7 +2076,7 @@
   },
   "Event/Currency_Icon_CafeStudentInvite_2": {
    "file": "/res/ui/Event/Currency_Icon_CafeStudentInvite_2.png",
-   "w": 150,
+   "w": 147,
    "h": 77,
    "origin": "assetbundle",
    "atlas": "Event",
@@ -2140,7 +2140,7 @@
   },
   "Event/Currency_Icon_EliminateRaidTicketD": {
    "file": "/res/ui/Event/Currency_Icon_EliminateRaidTicketD.png",
-   "w": 150,
+   "w": 147,
    "h": 77,
    "origin": "assetbundle",
    "atlas": "Event",
@@ -2212,7 +2212,7 @@
   },
   "Event/Currency_Icon_RecruitTicket_Property_3Star_1": {
    "file": "/res/ui/Event/Currency_Icon_RecruitTicket_Property_3Star_1.png",
-   "w": 150,
+   "w": 146,
    "h": 77,
    "origin": "assetbundle",
    "atlas": "Event",
@@ -2220,7 +2220,7 @@
   },
   "Event/Currency_Icon_RecruitTicket_Property_3Star_1_Type_1": {
    "file": "/res/ui/Event/Currency_Icon_RecruitTicket_Property_3Star_1_Type_1.png",
-   "w": 150,
+   "w": 147,
    "h": 77,
    "origin": "assetbundle",
    "atlas": "Event",
@@ -2228,7 +2228,7 @@
   },
   "Event/Currency_Icon_RecruitTicket_Property_3Star_1_Type_2": {
    "file": "/res/ui/Event/Currency_Icon_RecruitTicket_Property_3Star_1_Type_2.png",
-   "w": 150,
+   "w": 147,
    "h": 77,
    "origin": "assetbundle",
    "atlas": "Event",
@@ -2236,7 +2236,7 @@
   },
   "Event/Currency_Icon_RecruitTicket_Property_3Star_1_Type_3": {
    "file": "/res/ui/Event/Currency_Icon_RecruitTicket_Property_3Star_1_Type_3.png",
-   "w": 150,
+   "w": 147,
    "h": 77,
    "origin": "assetbundle",
    "atlas": "Event",
@@ -2244,7 +2244,7 @@
   },
   "Event/Currency_Icon_RecruitTicket_Property_3Star_1_Type_4": {
    "file": "/res/ui/Event/Currency_Icon_RecruitTicket_Property_3Star_1_Type_4.png",
-   "w": 150,
+   "w": 147,
    "h": 77,
    "origin": "assetbundle",
    "atlas": "Event",
@@ -2268,7 +2268,7 @@
   },
   "Event/Currency_Icon_RecruitTicket_SelectPickup_1": {
    "file": "/res/ui/Event/Currency_Icon_RecruitTicket_SelectPickup_1.png",
-   "w": 150,
+   "w": 147,
    "h": 77,
    "origin": "assetbundle",
    "atlas": "Event",
@@ -2276,7 +2276,7 @@
   },
   "Event/Currency_Icon_RecruitTicket_SelectPickup_10": {
    "file": "/res/ui/Event/Currency_Icon_RecruitTicket_SelectPickup_10.png",
-   "w": 150,
+   "w": 147,
    "h": 77,
    "origin": "assetbundle",
    "atlas": "Event",
@@ -2284,7 +2284,7 @@
   },
   "Event/Currency_Icon_RecruitTicket_SelectPickup_Selection": {
    "file": "/res/ui/Event/Currency_Icon_RecruitTicket_SelectPickup_Selection.png",
-   "w": 150,
+   "w": 146,
    "h": 77,
    "origin": "assetbundle",
    "atlas": "Event",
@@ -2292,7 +2292,7 @@
   },
   "Event/Currency_Icon_RecruitTicket_StartDash_1": {
    "file": "/res/ui/Event/Currency_Icon_RecruitTicket_StartDash_1.png",
-   "w": 150,
+   "w": 147,
    "h": 77,
    "origin": "assetbundle",
    "atlas": "Event",
@@ -2364,7 +2364,7 @@
   },
   "Event/Event_Icon_CCGPerk_848": {
    "file": "/res/ui/Event/Event_Icon_CCGPerk_848.png",
-   "w": 116,
+   "w": 110,
    "h": 102,
    "origin": "assetbundle",
    "atlas": "Event",
@@ -2372,8 +2372,8 @@
   },
   "Event/Event_Icon_Concentration": {
    "file": "/res/ui/Event/Event_Icon_Concentration.png",
-   "w": 114,
-   "h": 111,
+   "w": 105,
+   "h": 103,
    "origin": "assetbundle",
    "atlas": "Event",
    "sprite": "Event_Icon_Concentration"
@@ -2413,7 +2413,7 @@
   "Event/Event_Icon_FortuneGachaShop_853": {
    "file": "/res/ui/Event/Event_Icon_FortuneGachaShop_853.png",
    "w": 113,
-   "h": 116,
+   "h": 109,
    "origin": "assetbundle",
    "atlas": "Event",
    "sprite": "Event_Icon_FortuneGachaShop_853"
@@ -2469,7 +2469,7 @@
   "Event/Event_Icon_Location_836": {
    "file": "/res/ui/Event/Event_Icon_Location_836.png",
    "w": 116,
-   "h": 102,
+   "h": 90,
    "origin": "assetbundle",
    "atlas": "Event",
    "sprite": "Event_Icon_Location_836"
@@ -2484,8 +2484,8 @@
   },
   "Event/Event_Icon_Location_855": {
    "file": "/res/ui/Event/Event_Icon_Location_855.png",
-   "w": 131,
-   "h": 130,
+   "w": 118,
+   "h": 113,
    "origin": "assetbundle",
    "atlas": "Event",
    "sprite": "Event_Icon_Location_855"
@@ -2525,7 +2525,7 @@
   "Event/Event_Icon_Replay": {
    "file": "/res/ui/Event/Event_Icon_Replay.png",
    "w": 116,
-   "h": 102,
+   "h": 99,
    "origin": "assetbundle",
    "atlas": "Event",
    "sprite": "Event_Icon_Replay"
@@ -2592,13 +2592,7 @@
    "h": 71,
    "origin": "assetbundle",
    "atlas": "Event",
-   "sprite": "ShiftingCraftItem_1",
-   "border": [
-    0,
-    0,
-    12,
-    0
-   ]
+   "sprite": "ShiftingCraftItem_1"
   },
   "Event/ShiftingCraftItem_2": {
    "file": "/res/ui/Event/ShiftingCraftItem_2.png",
@@ -2618,7 +2612,7 @@
   },
   "TBG/Card_Ability_Select_Line_Icon 1": {
    "file": "/res/ui/TBG/Card_Ability_Select_Line_Icon_1.png",
-   "w": 65,
+   "w": 66,
    "h": 65,
    "origin": "assetbundle",
    "atlas": "TBG",
@@ -2641,7 +2635,7 @@
   "TBG/Common_Bg_Raius10px_Shadow": {
    "file": "/res/ui/TBG/Common_Bg_Raius10px_Shadow.png",
    "w": 34,
-   "h": 35,
+   "h": 38,
    "origin": "assetbundle",
    "atlas": "TBG",
    "sprite": "Common_Bg_Raius10px_Shadow",
@@ -2684,7 +2678,7 @@
   },
   "TBG/Common_Btn_BG": {
    "file": "/res/ui/TBG/Common_Btn_BG.png",
-   "w": 67,
+   "w": 68,
    "h": 70,
    "origin": "assetbundle",
    "atlas": "TBG",
@@ -2698,24 +2692,24 @@
   },
   "TBG/Common_Btn_Normal_B_C_Pt": {
    "file": "/res/ui/TBG/Common_Btn_Normal_B_C_Pt.png",
-   "w": 205,
-   "h": 138,
+   "w": 251,
+   "h": 140,
    "origin": "assetbundle",
    "atlas": "TBG",
    "sprite": "Common_Btn_Normal_B_C_Pt"
   },
   "TBG/Common_Btn_Normal_B_S_Pt": {
    "file": "/res/ui/TBG/Common_Btn_Normal_B_S_Pt.png",
-   "w": 214,
-   "h": 139,
+   "w": 251,
+   "h": 140,
    "origin": "assetbundle",
    "atlas": "TBG",
    "sprite": "Common_Btn_Normal_B_S_Pt"
   },
   "TBG/Common_Btn_Normal_Y_S_Pt": {
    "file": "/res/ui/TBG/Common_Btn_Normal_Y_S_Pt.png",
-   "w": 210,
-   "h": 139,
+   "w": 251,
+   "h": 140,
    "origin": "assetbundle",
    "atlas": "TBG",
    "sprite": "Common_Btn_Normal_Y_S_Pt"
@@ -2731,7 +2725,7 @@
   "TBG/Common_Gradient_Vertical": {
    "file": "/res/ui/TBG/Common_Gradient_Vertical.png",
    "w": 16,
-   "h": 229,
+   "h": 256,
    "origin": "assetbundle",
    "atlas": "TBG",
    "sprite": "Common_Gradient_Vertical"
@@ -2878,7 +2872,7 @@
   },
   "TBG/Tbg_Btn_Bg_Y": {
    "file": "/res/ui/TBG/Tbg_Btn_Bg_Y.png",
-   "w": 64,
+   "w": 66,
    "h": 65,
    "origin": "assetbundle",
    "atlas": "TBG",
@@ -2973,23 +2967,23 @@
   "TBG/TBG_Icon_Dice10": {
    "file": "/res/ui/TBG/TBG_Icon_Dice10.png",
    "w": 300,
-   "h": 302,
+   "h": 303,
    "origin": "assetbundle",
    "atlas": "TBG",
    "sprite": "TBG_Icon_Dice10"
   },
   "TBG/TBG_Icon_Dice6": {
    "file": "/res/ui/TBG/TBG_Icon_Dice6.png",
-   "w": 277,
-   "h": 291,
+   "w": 300,
+   "h": 303,
    "origin": "assetbundle",
    "atlas": "TBG",
    "sprite": "TBG_Icon_Dice6"
   },
   "TBG/TBG_Icon_Dice8": {
    "file": "/res/ui/TBG/TBG_Icon_Dice8.png",
-   "w": 272,
-   "h": 287,
+   "w": 300,
+   "h": 303,
    "origin": "assetbundle",
    "atlas": "TBG",
    "sprite": "TBG_Icon_Dice8"
@@ -3036,7 +3030,7 @@
   },
   "TBG/TBG_Icon_Ingame_Enermy": {
    "file": "/res/ui/TBG/TBG_Icon_Ingame_Enermy.png",
-   "w": 117,
+   "w": 119,
    "h": 139,
    "origin": "assetbundle",
    "atlas": "TBG",
@@ -3044,7 +3038,7 @@
   },
   "TBG/TBG_Icon_Ingame_EnermyBoss": {
    "file": "/res/ui/TBG/TBG_Icon_Ingame_EnermyBoss.png",
-   "w": 117,
+   "w": 119,
    "h": 139,
    "origin": "assetbundle",
    "atlas": "TBG",
@@ -3052,7 +3046,7 @@
   },
   "TBG/TBG_Icon_Ingame_Random": {
    "file": "/res/ui/TBG/TBG_Icon_Ingame_Random.png",
-   "w": 117,
+   "w": 119,
    "h": 139,
    "origin": "assetbundle",
    "atlas": "TBG",
@@ -3060,7 +3054,7 @@
   },
   "TBG/TBG_Icon_Ingame_Recover": {
    "file": "/res/ui/TBG/TBG_Icon_Ingame_Recover.png",
-   "w": 117,
+   "w": 119,
    "h": 139,
    "origin": "assetbundle",
    "atlas": "TBG",
@@ -3084,7 +3078,7 @@
   },
   "TBG/TBG_Icon_lobbyDeco_1": {
    "file": "/res/ui/TBG/TBG_Icon_lobbyDeco_1.png",
-   "w": 43,
+   "w": 44,
    "h": 22,
    "origin": "assetbundle",
    "atlas": "TBG",
@@ -3101,7 +3095,7 @@
   "TBG/TBG_Icon_MapLocation": {
    "file": "/res/ui/TBG/TBG_Icon_MapLocation.png",
    "w": 30,
-   "h": 46,
+   "h": 47,
    "origin": "assetbundle",
    "atlas": "TBG",
    "sprite": "TBG_Icon_MapLocation"
@@ -3109,7 +3103,7 @@
   "TBG/TBG_Icon_MapLocationDeco": {
    "file": "/res/ui/TBG/TBG_Icon_MapLocationDeco.png",
    "w": 35,
-   "h": 67,
+   "h": 68,
    "origin": "assetbundle",
    "atlas": "TBG",
    "sprite": "TBG_Icon_MapLocationDeco"
@@ -3124,7 +3118,7 @@
   },
   "TBG/Tbg_ImgFont_Free": {
    "file": "/res/ui/TBG/Tbg_ImgFont_Free.png",
-   "w": 50,
+   "w": 94,
    "h": 28,
    "origin": "assetbundle",
    "atlas": "TBG",
@@ -3154,16 +3148,16 @@
   },
   "TBG/TBG_ItemBg": {
    "file": "/res/ui/TBG/TBG_ItemBg.png",
-   "w": 345,
-   "h": 324,
+   "w": 399,
+   "h": 328,
    "origin": "assetbundle",
    "atlas": "TBG",
    "sprite": "TBG_ItemBg"
   },
   "TBG/TBG_ItemBg_10": {
    "file": "/res/ui/TBG/TBG_ItemBg_10.png",
-   "w": 392,
-   "h": 323,
+   "w": 399,
+   "h": 328,
    "origin": "assetbundle",
    "atlas": "TBG",
    "sprite": "TBG_ItemBg_10"
@@ -3220,8 +3214,8 @@
   },
   "Concentration/Concentration_Btn_Gray": {
    "file": "/res/ui/Concentration/Concentration_Btn_Gray.png",
-   "w": 132,
-   "h": 178,
+   "w": 130,
+   "h": 176,
    "origin": "assetbundle",
    "atlas": "Concentration",
    "sprite": "Concentration_Btn_Gray",
@@ -3332,7 +3326,7 @@
   },
   "Concentration/Concentration_Deco_DotLine": {
    "file": "/res/ui/Concentration/Concentration_Deco_DotLine.png",
-   "w": 23,
+   "w": 15,
    "h": 5,
    "origin": "assetbundle",
    "atlas": "Concentration",
@@ -3392,23 +3386,23 @@
   },
   "Concentration/Concentration_ImgFont_Rarity_N": {
    "file": "/res/ui/Concentration/Concentration_ImgFont_Rarity_N.png",
-   "w": 78,
-   "h": 38,
+   "w": 35,
+   "h": 36,
    "origin": "assetbundle",
    "atlas": "Concentration",
    "sprite": "Concentration_ImgFont_Rarity_N"
   },
   "Concentration/Concentration_ImgFont_Rarity_R": {
    "file": "/res/ui/Concentration/Concentration_ImgFont_Rarity_R.png",
-   "w": 78,
-   "h": 38,
+   "w": 30,
+   "h": 37,
    "origin": "assetbundle",
    "atlas": "Concentration",
    "sprite": "Concentration_ImgFont_Rarity_R"
   },
   "Concentration/Concentration_ImgFont_Rarity_SR": {
    "file": "/res/ui/Concentration/Concentration_ImgFont_Rarity_SR.png",
-   "w": 78,
+   "w": 54,
    "h": 38,
    "origin": "assetbundle",
    "atlas": "Concentration",
@@ -3416,8 +3410,8 @@
   },
   "Concentration/Concentration_ImgFont_Rarity_SSR": {
    "file": "/res/ui/Concentration/Concentration_ImgFont_Rarity_SSR.png",
-   "w": 78,
-   "h": 38,
+   "w": 77,
+   "h": 37,
    "origin": "assetbundle",
    "atlas": "Concentration",
    "sprite": "Concentration_ImgFont_Rarity_SSR"
@@ -3626,8 +3620,8 @@
   },
   "Dreammaker/Common_Bg_Raius10px_Shadow": {
    "file": "/res/ui/Dreammaker/Common_Bg_Raius10px_Shadow.png",
-   "w": 34,
-   "h": 38,
+   "w": 33,
+   "h": 36,
    "origin": "assetbundle",
    "atlas": "Dreammaker",
    "sprite": "Common_Bg_Raius10px_Shadow",
@@ -3668,7 +3662,7 @@
   },
   "Dreammaker/Common_Btn_BG": {
    "file": "/res/ui/Dreammaker/Common_Btn_BG.png",
-   "w": 68,
+   "w": 67,
    "h": 70,
    "origin": "assetbundle",
    "atlas": "Dreammaker",
@@ -3682,23 +3676,23 @@
   },
   "Dreammaker/Common_Btn_Normal_B_C_Pt": {
    "file": "/res/ui/Dreammaker/Common_Btn_Normal_B_C_Pt.png",
-   "w": 251,
-   "h": 140,
+   "w": 206,
+   "h": 138,
    "origin": "assetbundle",
    "atlas": "Dreammaker",
    "sprite": "Common_Btn_Normal_B_C_Pt"
   },
   "Dreammaker/Common_Btn_Normal_B_S_Pt": {
    "file": "/res/ui/Dreammaker/Common_Btn_Normal_B_S_Pt.png",
-   "w": 251,
-   "h": 140,
+   "w": 214,
+   "h": 139,
    "origin": "assetbundle",
    "atlas": "Dreammaker",
    "sprite": "Common_Btn_Normal_B_S_Pt"
   },
   "Dreammaker/Common_Btn_Normal_Y_S_Pt": {
    "file": "/res/ui/Dreammaker/Common_Btn_Normal_Y_S_Pt.png",
-   "w": 251,
+   "w": 214,
    "h": 140,
    "origin": "assetbundle",
    "atlas": "Dreammaker",
@@ -3728,7 +3722,7 @@
   },
   "Dreammaker/Common_Icon_Time": {
    "file": "/res/ui/Dreammaker/Common_Icon_Time.png",
-   "w": 41,
+   "w": 40,
    "h": 45,
    "origin": "assetbundle",
    "atlas": "Dreammaker",
@@ -3782,7 +3776,7 @@
   },
   "Dreammaker/Dreammaker_Btn_Back": {
    "file": "/res/ui/Dreammaker/Dreammaker_Btn_Back.png",
-   "w": 150,
+   "w": 148,
    "h": 154,
    "origin": "assetbundle",
    "atlas": "Dreammaker",
@@ -3790,7 +3784,7 @@
   },
   "Dreammaker/Dreammaker_ImgFont_Max": {
    "file": "/res/ui/Dreammaker/Dreammaker_ImgFont_Max.png",
-   "w": 108,
+   "w": 107,
    "h": 50,
    "origin": "assetbundle",
    "atlas": "Dreammaker",
@@ -3859,7 +3853,7 @@
   "Dreammaker/Dreammaker_Schedule_Bonus_Minus_01": {
    "file": "/res/ui/Dreammaker/Dreammaker_Schedule_Bonus_Minus_01.png",
    "w": 34,
-   "h": 34,
+   "h": 33,
    "origin": "assetbundle",
    "atlas": "Dreammaker",
    "sprite": "Dreammaker_Schedule_Bonus_Minus_01"
@@ -3867,7 +3861,7 @@
   "Dreammaker/Dreammaker_Schedule_Bonus_Minus_02": {
    "file": "/res/ui/Dreammaker/Dreammaker_Schedule_Bonus_Minus_02.png",
    "w": 34,
-   "h": 34,
+   "h": 22,
    "origin": "assetbundle",
    "atlas": "Dreammaker",
    "sprite": "Dreammaker_Schedule_Bonus_Minus_02"
@@ -3875,7 +3869,7 @@
   "Dreammaker/Dreammaker_Schedule_Bonus_Plus_01": {
    "file": "/res/ui/Dreammaker/Dreammaker_Schedule_Bonus_Plus_01.png",
    "w": 34,
-   "h": 34,
+   "h": 33,
    "origin": "assetbundle",
    "atlas": "Dreammaker",
    "sprite": "Dreammaker_Schedule_Bonus_Plus_01"
@@ -3883,7 +3877,7 @@
   "Dreammaker/Dreammaker_Schedule_Bonus_Plus_02": {
    "file": "/res/ui/Dreammaker/Dreammaker_Schedule_Bonus_Plus_02.png",
    "w": 34,
-   "h": 34,
+   "h": 20,
    "origin": "assetbundle",
    "atlas": "Dreammaker",
    "sprite": "Dreammaker_Schedule_Bonus_Plus_02"
@@ -4548,13 +4542,7 @@
    "h": 73,
    "origin": "assetbundle",
    "atlas": "BattlePass",
-   "sprite": "BattlePass_MissionIcon_RewardBg",
-   "border": [
-    50,
-    0,
-    50,
-    0
-   ]
+   "sprite": "BattlePass_MissionIcon_RewardBg"
   },
   "BattlePass/BattlePass_MissionIcon_Weekly": {
    "file": "/res/ui/BattlePass/BattlePass_MissionIcon_Weekly.png",
@@ -4685,7 +4673,7 @@
   "MinigameRhythm/Cafe_Icon_ItemInfo": {
    "file": "/res/ui/MinigameRhythm/Cafe_Icon_ItemInfo.png",
    "w": 14,
-   "h": 50,
+   "h": 49,
    "origin": "assetbundle",
    "atlas": "MinigameRhythm",
    "sprite": "Cafe_Icon_ItemInfo"
@@ -4834,15 +4822,15 @@
   },
   "MinigameRhythm/Imagefont_Cri_Bg": {
    "file": "/res/ui/MinigameRhythm/Imagefont_Cri_Bg.png",
-   "w": 247,
-   "h": 112,
+   "w": 230,
+   "h": 104,
    "origin": "assetbundle",
    "atlas": "MinigameRhythm",
    "sprite": "Imagefont_Cri_Bg"
   },
   "MinigameRhythm/Imagefont_Miss_Unit": {
    "file": "/res/ui/MinigameRhythm/Imagefont_Miss_Unit.png",
-   "w": 154,
+   "w": 113,
    "h": 44,
    "origin": "assetbundle",
    "atlas": "MinigameRhythm",
@@ -4866,7 +4854,7 @@
   },
   "MinigameRhythm/ImgFont_MinigameRhythm_Attack": {
    "file": "/res/ui/MinigameRhythm/ImgFont_MinigameRhythm_Attack.png",
-   "w": 289,
+   "w": 288,
    "h": 69,
    "origin": "assetbundle",
    "atlas": "MinigameRhythm",
@@ -4890,48 +4878,48 @@
   },
   "MinigameRhythm/UINote_Guide": {
    "file": "/res/ui/MinigameRhythm/UINote_Guide.png",
-   "w": 256,
-   "h": 256,
+   "w": 162,
+   "h": 162,
    "origin": "assetbundle",
    "atlas": "MinigameRhythm",
    "sprite": "UINote_Guide"
   },
   "MinigameRhythm/UINote_L": {
    "file": "/res/ui/MinigameRhythm/UINote_L.png",
-   "w": 256,
-   "h": 256,
+   "w": 119,
+   "h": 119,
    "origin": "assetbundle",
    "atlas": "MinigameRhythm",
    "sprite": "UINote_L"
   },
   "MinigameRhythm/UINote_LR": {
    "file": "/res/ui/MinigameRhythm/UINote_LR.png",
-   "w": 256,
-   "h": 256,
+   "w": 120,
+   "h": 119,
    "origin": "assetbundle",
    "atlas": "MinigameRhythm",
    "sprite": "UINote_LR"
   },
   "MinigameRhythm/UINote_LS": {
    "file": "/res/ui/MinigameRhythm/UINote_LS.png",
-   "w": 256,
-   "h": 256,
+   "w": 122,
+   "h": 167,
    "origin": "assetbundle",
    "atlas": "MinigameRhythm",
    "sprite": "UINote_LS"
   },
   "MinigameRhythm/UINote_R": {
    "file": "/res/ui/MinigameRhythm/UINote_R.png",
-   "w": 256,
-   "h": 256,
+   "w": 119,
+   "h": 122,
    "origin": "assetbundle",
    "atlas": "MinigameRhythm",
    "sprite": "UINote_R"
   },
   "MinigameRhythm/UINote_RS": {
    "file": "/res/ui/MinigameRhythm/UINote_RS.png",
-   "w": 256,
-   "h": 256,
+   "w": 122,
+   "h": 167,
    "origin": "assetbundle",
    "atlas": "MinigameRhythm",
    "sprite": "UINote_RS"
@@ -5310,8 +5298,8 @@
   },
   "Worldraid_854/Currency_Icon_WorldRaidCommonTicket": {
    "file": "/res/ui/Worldraid_854/Currency_Icon_WorldRaidCommonTicket.png",
-   "w": 72,
-   "h": 72,
+   "w": 65,
+   "h": 36,
    "origin": "assetbundle",
    "atlas": "Worldraid_854",
    "sprite": "Currency_Icon_WorldRaidCommonTicket"
@@ -5566,7 +5554,7 @@
   },
   "Worldraid_854/WorldRaid854_Bg_PopupBtnIcon": {
    "file": "/res/ui/Worldraid_854/WorldRaid854_Bg_PopupBtnIcon.png",
-   "w": 80,
+   "w": 79,
    "h": 80,
    "origin": "assetbundle",
    "atlas": "Worldraid_854",
@@ -5652,7 +5640,7 @@
   },
   "Worldraid_854/WorldRaid854_Bg_TabWhite": {
    "file": "/res/ui/Worldraid_854/WorldRaid854_Bg_TabWhite.png",
-   "w": 436,
+   "w": 433,
    "h": 20,
    "origin": "assetbundle",
    "atlas": "Worldraid_854",
@@ -5694,8 +5682,8 @@
   },
   "Worldraid_854/WorldRaid854_Bg_UpgradeSkill_Deco": {
    "file": "/res/ui/Worldraid_854/WorldRaid854_Bg_UpgradeSkill_Deco.png",
-   "w": 270,
-   "h": 270,
+   "w": 264,
+   "h": 260,
    "origin": "assetbundle",
    "atlas": "Worldraid_854",
    "sprite": "WorldRaid854_Bg_UpgradeSkill_Deco"
@@ -5816,24 +5804,24 @@
   },
   "Worldraid_854/WorldRaid854_Camera_View01": {
    "file": "/res/ui/Worldraid_854/WorldRaid854_Camera_View01.png",
-   "w": 117,
-   "h": 33,
+   "w": 112,
+   "h": 31,
    "origin": "assetbundle",
    "atlas": "Worldraid_854",
    "sprite": "WorldRaid854_Camera_View01"
   },
   "Worldraid_854/WorldRaid854_Camera_View02": {
    "file": "/res/ui/Worldraid_854/WorldRaid854_Camera_View02.png",
-   "w": 117,
-   "h": 33,
+   "w": 112,
+   "h": 31,
    "origin": "assetbundle",
    "atlas": "Worldraid_854",
    "sprite": "WorldRaid854_Camera_View02"
   },
   "Worldraid_854/WorldRaid854_Camera_View03": {
    "file": "/res/ui/Worldraid_854/WorldRaid854_Camera_View03.png",
-   "w": 117,
-   "h": 33,
+   "w": 112,
+   "h": 31,
    "origin": "assetbundle",
    "atlas": "Worldraid_854",
    "sprite": "WorldRaid854_Camera_View03"
@@ -6028,7 +6016,7 @@
   },
   "Worldraid_854/WorldRaid854_Gradient_BridgeMenu": {
    "file": "/res/ui/Worldraid_854/WorldRaid854_Gradient_BridgeMenu.png",
-   "w": 752,
+   "w": 720,
    "h": 80,
    "origin": "assetbundle",
    "atlas": "Worldraid_854",
@@ -6073,15 +6061,15 @@
   "Worldraid_854/WorldRaid854_Icon_Attack": {
    "file": "/res/ui/Worldraid_854/WorldRaid854_Icon_Attack.png",
    "w": 64,
-   "h": 64,
+   "h": 54,
    "origin": "assetbundle",
    "atlas": "Worldraid_854",
    "sprite": "WorldRaid854_Icon_Attack"
   },
   "Worldraid_854/WorldRaid854_Icon_Back_00": {
    "file": "/res/ui/Worldraid_854/WorldRaid854_Icon_Back_00.png",
-   "w": 99,
-   "h": 75,
+   "w": 98,
+   "h": 74,
    "origin": "assetbundle",
    "atlas": "Worldraid_854",
    "sprite": "WorldRaid854_Icon_Back_00"
@@ -6096,31 +6084,31 @@
   },
   "Worldraid_854/WorldRaid854_Icon_Back_02": {
    "file": "/res/ui/Worldraid_854/WorldRaid854_Icon_Back_02.png",
-   "w": 64,
-   "h": 64,
+   "w": 55,
+   "h": 39,
    "origin": "assetbundle",
    "atlas": "Worldraid_854",
    "sprite": "WorldRaid854_Icon_Back_02"
   },
   "Worldraid_854/WorldRaid854_Icon_BattleClear": {
    "file": "/res/ui/Worldraid_854/WorldRaid854_Icon_BattleClear.png",
-   "w": 54,
-   "h": 54,
+   "w": 41,
+   "h": 34,
    "origin": "assetbundle",
    "atlas": "Worldraid_854",
    "sprite": "WorldRaid854_Icon_BattleClear"
   },
   "Worldraid_854/WorldRaid854_Icon_Check": {
    "file": "/res/ui/Worldraid_854/WorldRaid854_Icon_Check.png",
-   "w": 64,
-   "h": 64,
+   "w": 52,
+   "h": 37,
    "origin": "assetbundle",
    "atlas": "Worldraid_854",
    "sprite": "WorldRaid854_Icon_Check"
   },
   "Worldraid_854/WorldRaid854_Icon_Core_00": {
    "file": "/res/ui/Worldraid_854/WorldRaid854_Icon_Core_00.png",
-   "w": 55,
+   "w": 54,
    "h": 75,
    "origin": "assetbundle",
    "atlas": "Worldraid_854",
@@ -6129,7 +6117,7 @@
   "Worldraid_854/WorldRaid854_Icon_Core_01": {
    "file": "/res/ui/Worldraid_854/WorldRaid854_Icon_Core_01.png",
    "w": 104,
-   "h": 80,
+   "h": 79,
    "origin": "assetbundle",
    "atlas": "Worldraid_854",
    "sprite": "WorldRaid854_Icon_Core_01"
@@ -6137,15 +6125,15 @@
   "Worldraid_854/WorldRaid854_Icon_Defense": {
    "file": "/res/ui/Worldraid_854/WorldRaid854_Icon_Defense.png",
    "w": 64,
-   "h": 64,
+   "h": 39,
    "origin": "assetbundle",
    "atlas": "Worldraid_854",
    "sprite": "WorldRaid854_Icon_Defense"
   },
   "Worldraid_854/WorldRaid854_Icon_Diamond": {
    "file": "/res/ui/Worldraid_854/WorldRaid854_Icon_Diamond.png",
-   "w": 64,
-   "h": 64,
+   "w": 54,
+   "h": 61,
    "origin": "assetbundle",
    "atlas": "Worldraid_854",
    "sprite": "WorldRaid854_Icon_Diamond"
@@ -6160,7 +6148,7 @@
   },
   "Worldraid_854/WorldRaid854_Icon_DotYellow": {
    "file": "/res/ui/Worldraid_854/WorldRaid854_Icon_DotYellow.png",
-   "w": 72,
+   "w": 70,
    "h": 59,
    "origin": "assetbundle",
    "atlas": "Worldraid_854",
@@ -6176,16 +6164,16 @@
   },
   "Worldraid_854/WorldRaid854_Icon_Enemy": {
    "file": "/res/ui/Worldraid_854/WorldRaid854_Icon_Enemy.png",
-   "w": 64,
-   "h": 64,
+   "w": 51,
+   "h": 50,
    "origin": "assetbundle",
    "atlas": "Worldraid_854",
    "sprite": "WorldRaid854_Icon_Enemy"
   },
   "Worldraid_854/WorldRaid854_Icon_Fierce": {
    "file": "/res/ui/Worldraid_854/WorldRaid854_Icon_Fierce.png",
-   "w": 54,
-   "h": 54,
+   "w": 41,
+   "h": 52,
    "origin": "assetbundle",
    "atlas": "Worldraid_854",
    "sprite": "WorldRaid854_Icon_Fierce"
@@ -6248,16 +6236,16 @@
   },
   "Worldraid_854/WorldRaid854_Icon_Max": {
    "file": "/res/ui/Worldraid_854/WorldRaid854_Icon_Max.png",
-   "w": 64,
-   "h": 64,
+   "w": 32,
+   "h": 46,
    "origin": "assetbundle",
    "atlas": "Worldraid_854",
    "sprite": "WorldRaid854_Icon_Max"
   },
   "Worldraid_854/WorldRaid854_Icon_Minus": {
    "file": "/res/ui/Worldraid_854/WorldRaid854_Icon_Minus.png",
-   "w": 64,
-   "h": 64,
+   "w": 46,
+   "h": 6,
    "origin": "assetbundle",
    "atlas": "Worldraid_854",
    "sprite": "WorldRaid854_Icon_Minus"
@@ -6272,8 +6260,8 @@
   },
   "Worldraid_854/WorldRaid854_Icon_MockBattle": {
    "file": "/res/ui/Worldraid_854/WorldRaid854_Icon_MockBattle.png",
-   "w": 64,
-   "h": 64,
+   "w": 44,
+   "h": 43,
    "origin": "assetbundle",
    "atlas": "Worldraid_854",
    "sprite": "WorldRaid854_Icon_MockBattle"
@@ -6296,8 +6284,8 @@
   },
   "Worldraid_854/WorldRaid854_Icon_Party": {
    "file": "/res/ui/Worldraid_854/WorldRaid854_Icon_Party.png",
-   "w": 64,
-   "h": 64,
+   "w": 44,
+   "h": 47,
    "origin": "assetbundle",
    "atlas": "Worldraid_854",
    "sprite": "WorldRaid854_Icon_Party"
@@ -6312,8 +6300,8 @@
   },
   "Worldraid_854/WorldRaid854_Icon_Plus2": {
    "file": "/res/ui/Worldraid_854/WorldRaid854_Icon_Plus2.png",
-   "w": 64,
-   "h": 64,
+   "w": 46,
+   "h": 46,
    "origin": "assetbundle",
    "atlas": "Worldraid_854",
    "sprite": "WorldRaid854_Icon_Plus2"
@@ -6328,7 +6316,7 @@
   },
   "Worldraid_854/WorldRaid854_Icon_Rage": {
    "file": "/res/ui/Worldraid_854/WorldRaid854_Icon_Rage.png",
-   "w": 54,
+   "w": 50,
    "h": 54,
    "origin": "assetbundle",
    "atlas": "Worldraid_854",
@@ -6336,8 +6324,8 @@
   },
   "Worldraid_854/WorldRaid854_Icon_RaidInfo": {
    "file": "/res/ui/Worldraid_854/WorldRaid854_Icon_RaidInfo.png",
-   "w": 64,
-   "h": 64,
+   "w": 50,
+   "h": 48,
    "origin": "assetbundle",
    "atlas": "Worldraid_854",
    "sprite": "WorldRaid854_Icon_RaidInfo"
@@ -6360,8 +6348,8 @@
   },
   "Worldraid_854/WorldRaid854_Icon_Shop": {
    "file": "/res/ui/Worldraid_854/WorldRaid854_Icon_Shop.png",
-   "w": 103,
-   "h": 103,
+   "w": 100,
+   "h": 100,
    "origin": "assetbundle",
    "atlas": "Worldraid_854",
    "sprite": "WorldRaid854_Icon_Shop"
@@ -6376,8 +6364,8 @@
   },
   "Worldraid_854/WorldRaid854_Icon_Skip": {
    "file": "/res/ui/Worldraid_854/WorldRaid854_Icon_Skip.png",
-   "w": 64,
-   "h": 64,
+   "w": 37,
+   "h": 42,
    "origin": "assetbundle",
    "atlas": "Worldraid_854",
    "sprite": "WorldRaid854_Icon_Skip"
@@ -6400,15 +6388,15 @@
   },
   "Worldraid_854/WorldRaid854_Icon_Ticket": {
    "file": "/res/ui/Worldraid_854/WorldRaid854_Icon_Ticket.png",
-   "w": 72,
-   "h": 72,
+   "w": 65,
+   "h": 36,
    "origin": "assetbundle",
    "atlas": "Worldraid_854",
    "sprite": "WorldRaid854_Icon_Ticket"
   },
   "Worldraid_854/WorldRaid854_Icon_Time": {
    "file": "/res/ui/Worldraid_854/WorldRaid854_Icon_Time.png",
-   "w": 41,
+   "w": 40,
    "h": 45,
    "origin": "assetbundle",
    "atlas": "Worldraid_854",
@@ -6416,16 +6404,16 @@
   },
   "Worldraid_854/WorldRaid854_Icon_Upgrade_Active": {
    "file": "/res/ui/Worldraid_854/WorldRaid854_Icon_Upgrade_Active.png",
-   "w": 56,
-   "h": 56,
+   "w": 36,
+   "h": 41,
    "origin": "assetbundle",
    "atlas": "Worldraid_854",
    "sprite": "WorldRaid854_Icon_Upgrade_Active"
   },
   "Worldraid_854/WorldRaid854_Icon_Upgrade_Passive": {
    "file": "/res/ui/Worldraid_854/WorldRaid854_Icon_Upgrade_Passive.png",
-   "w": 56,
-   "h": 56,
+   "w": 36,
+   "h": 42,
    "origin": "assetbundle",
    "atlas": "Worldraid_854",
    "sprite": "WorldRaid854_Icon_Upgrade_Passive"
@@ -6506,32 +6494,32 @@
   },
   "Worldraid_854/WorldRaid854_Img_BattlePopup_Diff_A": {
    "file": "/res/ui/Worldraid_854/WorldRaid854_Img_BattlePopup_Diff_A.png",
-   "w": 38,
-   "h": 38,
+   "w": 32,
+   "h": 35,
    "origin": "assetbundle",
    "atlas": "Worldraid_854",
    "sprite": "WorldRaid854_Img_BattlePopup_Diff_A"
   },
   "Worldraid_854/WorldRaid854_Img_BattlePopup_Diff_B": {
    "file": "/res/ui/Worldraid_854/WorldRaid854_Img_BattlePopup_Diff_B.png",
-   "w": 38,
-   "h": 38,
+   "w": 34,
+   "h": 35,
    "origin": "assetbundle",
    "atlas": "Worldraid_854",
    "sprite": "WorldRaid854_Img_BattlePopup_Diff_B"
   },
   "Worldraid_854/WorldRaid854_Img_BattlePopup_Diff_C": {
    "file": "/res/ui/Worldraid_854/WorldRaid854_Img_BattlePopup_Diff_C.png",
-   "w": 38,
-   "h": 38,
+   "w": 34,
+   "h": 36,
    "origin": "assetbundle",
    "atlas": "Worldraid_854",
    "sprite": "WorldRaid854_Img_BattlePopup_Diff_C"
   },
   "Worldraid_854/WorldRaid854_Img_BattlePopup_Diff_D": {
    "file": "/res/ui/Worldraid_854/WorldRaid854_Img_BattlePopup_Diff_D.png",
-   "w": 38,
-   "h": 38,
+   "w": 35,
+   "h": 35,
    "origin": "assetbundle",
    "atlas": "Worldraid_854",
    "sprite": "WorldRaid854_Img_BattlePopup_Diff_D"
@@ -6539,7 +6527,7 @@
   "Worldraid_854/WorldRaid854_Img_BattlePopup_Frame_GlobalSkill": {
    "file": "/res/ui/Worldraid_854/WorldRaid854_Img_BattlePopup_Frame_GlobalSkill.png",
    "w": 266,
-   "h": 242,
+   "h": 240,
    "origin": "assetbundle",
    "atlas": "Worldraid_854",
    "sprite": "WorldRaid854_Img_BattlePopup_Frame_GlobalSkill",
@@ -6640,8 +6628,8 @@
   },
   "Worldraid_854/WorldRaid854_Img_BridgeDeco_02": {
    "file": "/res/ui/Worldraid_854/WorldRaid854_Img_BridgeDeco_02.png",
-   "w": 117,
-   "h": 16,
+   "w": 91,
+   "h": 12,
    "origin": "assetbundle",
    "atlas": "Worldraid_854",
    "sprite": "WorldRaid854_Img_BridgeDeco_02"
@@ -6702,8 +6690,8 @@
   },
   "Worldraid_854/WorldRaid854_Img_BridgeDeco_09": {
    "file": "/res/ui/Worldraid_854/WorldRaid854_Img_BridgeDeco_09.png",
-   "w": 6,
-   "h": 48,
+   "w": 4,
+   "h": 36,
    "origin": "assetbundle",
    "atlas": "Worldraid_854",
    "sprite": "WorldRaid854_Img_BridgeDeco_09",
@@ -6794,8 +6782,8 @@
   },
   "Worldraid_854/WorldRaid854_Img_BridgeDeco_19": {
    "file": "/res/ui/Worldraid_854/WorldRaid854_Img_BridgeDeco_19.png",
-   "w": 28,
-   "h": 28,
+   "w": 18,
+   "h": 18,
    "origin": "assetbundle",
    "atlas": "Worldraid_854",
    "sprite": "WorldRaid854_Img_BridgeDeco_19",
@@ -6938,7 +6926,7 @@
   },
   "Worldraid_854/WorldRaid854_Img_FinalClear": {
    "file": "/res/ui/Worldraid_854/WorldRaid854_Img_FinalClear.png",
-   "w": 341,
+   "w": 339,
    "h": 46,
    "origin": "assetbundle",
    "atlas": "Worldraid_854",
@@ -6992,7 +6980,7 @@
   },
   "Worldraid_854/WorldRaid854_Img_MapViewArrow": {
    "file": "/res/ui/Worldraid_854/WorldRaid854_Img_MapViewArrow.png",
-   "w": 142,
+   "w": 141,
    "h": 149,
    "origin": "assetbundle",
    "atlas": "Worldraid_854",
@@ -7015,7 +7003,7 @@
   "Worldraid_854/WorldRaid854_Img_Menu": {
    "file": "/res/ui/Worldraid_854/WorldRaid854_Img_Menu.png",
    "w": 475,
-   "h": 107,
+   "h": 106,
    "origin": "assetbundle",
    "atlas": "Worldraid_854",
    "sprite": "WorldRaid854_Img_Menu"
@@ -7238,7 +7226,7 @@
   },
   "Worldraid_854/WorldRaid854_Img_NodeDeco_22": {
    "file": "/res/ui/Worldraid_854/WorldRaid854_Img_NodeDeco_22.png",
-   "w": 161,
+   "w": 160,
    "h": 178,
    "origin": "assetbundle",
    "atlas": "Worldraid_854",
@@ -7246,8 +7234,8 @@
   },
   "Worldraid_854/WorldRaid854_Img_NodeDeco_23": {
    "file": "/res/ui/Worldraid_854/WorldRaid854_Img_NodeDeco_23.png",
-   "w": 42,
-   "h": 42,
+   "w": 40,
+   "h": 40,
    "origin": "assetbundle",
    "atlas": "Worldraid_854",
    "sprite": "WorldRaid854_Img_NodeDeco_23"
@@ -7295,7 +7283,7 @@
   "Worldraid_854/WorldRaid854_Img_NodeViewArrow_01": {
    "file": "/res/ui/Worldraid_854/WorldRaid854_Img_NodeViewArrow_01.png",
    "w": 49,
-   "h": 99,
+   "h": 98,
    "origin": "assetbundle",
    "atlas": "Worldraid_854",
    "sprite": "WorldRaid854_Img_NodeViewArrow_01"
@@ -7496,7 +7484,7 @@
   },
   "Worldraid_854/WorldRaid854_Img_ReplayDeco_03": {
    "file": "/res/ui/Worldraid_854/WorldRaid854_Img_ReplayDeco_03.png",
-   "w": 46,
+   "w": 45,
    "h": 24,
    "origin": "assetbundle",
    "atlas": "Worldraid_854",
@@ -7526,7 +7514,7 @@
   },
   "Worldraid_854/WorldRaid854_Img_ReplayDeco_06": {
    "file": "/res/ui/Worldraid_854/WorldRaid854_Img_ReplayDeco_06.png",
-   "w": 168,
+   "w": 167,
    "h": 18,
    "origin": "assetbundle",
    "atlas": "Worldraid_854",
@@ -7534,7 +7522,7 @@
   },
   "Worldraid_854/WorldRaid854_Img_ReplayDeco_07": {
    "file": "/res/ui/Worldraid_854/WorldRaid854_Img_ReplayDeco_07.png",
-   "w": 219,
+   "w": 218,
    "h": 18,
    "origin": "assetbundle",
    "atlas": "Worldraid_854",
@@ -7542,7 +7530,7 @@
   },
   "Worldraid_854/WorldRaid854_Img_ReplayDeco_08": {
    "file": "/res/ui/Worldraid_854/WorldRaid854_Img_ReplayDeco_08.png",
-   "w": 405,
+   "w": 404,
    "h": 18,
    "origin": "assetbundle",
    "atlas": "Worldraid_854",
@@ -7550,7 +7538,7 @@
   },
   "Worldraid_854/WorldRaid854_Img_ReplayDeco_09": {
    "file": "/res/ui/Worldraid_854/WorldRaid854_Img_ReplayDeco_09.png",
-   "w": 470,
+   "w": 469,
    "h": 18,
    "origin": "assetbundle",
    "atlas": "Worldraid_854",
@@ -7558,7 +7546,7 @@
   },
   "Worldraid_854/WorldRaid854_Img_ReplayDeco_10": {
    "file": "/res/ui/Worldraid_854/WorldRaid854_Img_ReplayDeco_10.png",
-   "w": 446,
+   "w": 445,
    "h": 18,
    "origin": "assetbundle",
    "atlas": "Worldraid_854",
@@ -7566,7 +7554,7 @@
   },
   "Worldraid_854/WorldRaid854_Img_ReplayDeco_11": {
    "file": "/res/ui/Worldraid_854/WorldRaid854_Img_ReplayDeco_11.png",
-   "w": 206,
+   "w": 205,
    "h": 18,
    "origin": "assetbundle",
    "atlas": "Worldraid_854",
@@ -7658,8 +7646,8 @@
   },
   "Worldraid_854/WorldRaid854_Img_ReplayNum_01": {
    "file": "/res/ui/Worldraid_854/WorldRaid854_Img_ReplayNum_01.png",
-   "w": 26,
-   "h": 26,
+   "w": 24,
+   "h": 25,
    "origin": "assetbundle",
    "atlas": "Worldraid_854",
    "sprite": "WorldRaid854_Img_ReplayNum_01"
@@ -7667,7 +7655,7 @@
   "Worldraid_854/WorldRaid854_Img_ReplayNum_02": {
    "file": "/res/ui/Worldraid_854/WorldRaid854_Img_ReplayNum_02.png",
    "w": 26,
-   "h": 26,
+   "h": 25,
    "origin": "assetbundle",
    "atlas": "Worldraid_854",
    "sprite": "WorldRaid854_Img_ReplayNum_02"
@@ -7675,7 +7663,7 @@
   "Worldraid_854/WorldRaid854_Img_ReplayNum_03": {
    "file": "/res/ui/Worldraid_854/WorldRaid854_Img_ReplayNum_03.png",
    "w": 26,
-   "h": 26,
+   "h": 25,
    "origin": "assetbundle",
    "atlas": "Worldraid_854",
    "sprite": "WorldRaid854_Img_ReplayNum_03"
@@ -7683,7 +7671,7 @@
   "Worldraid_854/WorldRaid854_Img_ReplayNum_04": {
    "file": "/res/ui/Worldraid_854/WorldRaid854_Img_ReplayNum_04.png",
    "w": 26,
-   "h": 26,
+   "h": 25,
    "origin": "assetbundle",
    "atlas": "Worldraid_854",
    "sprite": "WorldRaid854_Img_ReplayNum_04"
@@ -7691,15 +7679,15 @@
   "Worldraid_854/WorldRaid854_Img_ReplayNum_05": {
    "file": "/res/ui/Worldraid_854/WorldRaid854_Img_ReplayNum_05.png",
    "w": 26,
-   "h": 26,
+   "h": 25,
    "origin": "assetbundle",
    "atlas": "Worldraid_854",
    "sprite": "WorldRaid854_Img_ReplayNum_05"
   },
   "Worldraid_854/WorldRaid854_Img_ReplayNum_06": {
    "file": "/res/ui/Worldraid_854/WorldRaid854_Img_ReplayNum_06.png",
-   "w": 26,
-   "h": 26,
+   "w": 25,
+   "h": 25,
    "origin": "assetbundle",
    "atlas": "Worldraid_854",
    "sprite": "WorldRaid854_Img_ReplayNum_06"
@@ -7780,8 +7768,8 @@
   },
   "Worldraid_854/WorldRaid854_Img_ToolTip_02": {
    "file": "/res/ui/Worldraid_854/WorldRaid854_Img_ToolTip_02.png",
-   "w": 54,
-   "h": 9,
+   "w": 51,
+   "h": 7,
    "origin": "assetbundle",
    "atlas": "Worldraid_854",
    "sprite": "WorldRaid854_Img_ToolTip_02"
@@ -7986,32 +7974,32 @@
   },
   "Worldraid_854/WorldRaid854_Img_UpgradePortrait_Ex01": {
    "file": "/res/ui/Worldraid_854/WorldRaid854_Img_UpgradePortrait_Ex01.png",
-   "w": 224,
-   "h": 224,
+   "w": 150,
+   "h": 153,
    "origin": "assetbundle",
    "atlas": "Worldraid_854",
    "sprite": "WorldRaid854_Img_UpgradePortrait_Ex01"
   },
   "Worldraid_854/WorldRaid854_Img_UpgradePortrait_Ex02": {
    "file": "/res/ui/Worldraid_854/WorldRaid854_Img_UpgradePortrait_Ex02.png",
-   "w": 224,
-   "h": 224,
+   "w": 214,
+   "h": 181,
    "origin": "assetbundle",
    "atlas": "Worldraid_854",
    "sprite": "WorldRaid854_Img_UpgradePortrait_Ex02"
   },
   "Worldraid_854/WorldRaid854_Img_UpgradePortrait_Ex03": {
    "file": "/res/ui/Worldraid_854/WorldRaid854_Img_UpgradePortrait_Ex03.png",
-   "w": 224,
-   "h": 224,
+   "w": 192,
+   "h": 206,
    "origin": "assetbundle",
    "atlas": "Worldraid_854",
    "sprite": "WorldRaid854_Img_UpgradePortrait_Ex03"
   },
   "Worldraid_854/WorldRaid854_Img_UpgradePortrait_Ps01": {
    "file": "/res/ui/Worldraid_854/WorldRaid854_Img_UpgradePortrait_Ps01.png",
-   "w": 224,
-   "h": 224,
+   "w": 205,
+   "h": 168,
    "origin": "assetbundle",
    "atlas": "Worldraid_854",
    "sprite": "WorldRaid854_Img_UpgradePortrait_Ps01"
@@ -8088,7 +8076,7 @@
   },
   "Worldraid_854/WorldRaid854_Img_ViewMode_05": {
    "file": "/res/ui/Worldraid_854/WorldRaid854_Img_ViewMode_05.png",
-   "w": 44,
+   "w": 41,
    "h": 62,
    "origin": "assetbundle",
    "atlas": "Worldraid_854",
@@ -10943,7 +10931,7 @@
   "Common/Cafe_Icon_Arrow": {
    "file": "/res/ui/Common/Cafe_Icon_Arrow.png",
    "w": 69,
-   "h": 106,
+   "h": 102,
    "origin": "assetbundle",
    "atlas": "Common",
    "sprite": "Cafe_Icon_Arrow"
@@ -10959,7 +10947,7 @@
   "Common/Cafe_Icon_CafeRank": {
    "file": "/res/ui/Common/Cafe_Icon_CafeRank.png",
    "w": 114,
-   "h": 100,
+   "h": 88,
    "origin": "assetbundle",
    "atlas": "Common",
    "sprite": "Cafe_Icon_CafeRank"
@@ -10974,7 +10962,7 @@
   },
   "Common/Cafe_Icon_Comfort": {
    "file": "/res/ui/Common/Cafe_Icon_Comfort.png",
-   "w": 114,
+   "w": 83,
    "h": 100,
    "origin": "assetbundle",
    "atlas": "Common",
@@ -10983,7 +10971,7 @@
   "Common/Cafe_Icon_Confirm": {
    "file": "/res/ui/Common/Cafe_Icon_Confirm.png",
    "w": 90,
-   "h": 90,
+   "h": 73,
    "origin": "assetbundle",
    "atlas": "Common",
    "sprite": "Cafe_Icon_Confirm"
@@ -10998,8 +10986,8 @@
   },
   "Common/Cafe_Icon_Gift": {
    "file": "/res/ui/Common/Cafe_Icon_Gift.png",
-   "w": 90,
-   "h": 90,
+   "w": 88,
+   "h": 87,
    "origin": "assetbundle",
    "atlas": "Common",
    "sprite": "Cafe_Icon_Gift"
@@ -11014,8 +11002,8 @@
   },
   "Common/Cafe_Icon_Info": {
    "file": "/res/ui/Common/Cafe_Icon_Info.png",
-   "w": 90,
-   "h": 90,
+   "w": 88,
+   "h": 88,
    "origin": "assetbundle",
    "atlas": "Common",
    "sprite": "Cafe_Icon_Info"
@@ -11126,7 +11114,7 @@
   },
   "Common/Cafe_Interaction_Gift_01": {
    "file": "/res/ui/Common/Cafe_Interaction_Gift_01.png",
-   "w": 68,
+   "w": 65,
    "h": 62,
    "origin": "assetbundle",
    "atlas": "Common",
@@ -11134,7 +11122,7 @@
   },
   "Common/Cafe_Interaction_Gift_02": {
    "file": "/res/ui/Common/Cafe_Interaction_Gift_02.png",
-   "w": 68,
+   "w": 65,
    "h": 62,
    "origin": "assetbundle",
    "atlas": "Common",
@@ -11142,7 +11130,7 @@
   },
   "Common/Cafe_Interaction_Gift_03": {
    "file": "/res/ui/Common/Cafe_Interaction_Gift_03.png",
-   "w": 68,
+   "w": 65,
    "h": 62,
    "origin": "assetbundle",
    "atlas": "Common",
@@ -11150,7 +11138,7 @@
   },
   "Common/Cafe_Interaction_Gift_04": {
    "file": "/res/ui/Common/Cafe_Interaction_Gift_04.png",
-   "w": 68,
+   "w": 65,
    "h": 62,
    "origin": "assetbundle",
    "atlas": "Common",
@@ -11338,8 +11326,8 @@
   },
   "Common/Card_Ability_Select_circle": {
    "file": "/res/ui/Common/Card_Ability_Select_circle.png",
-   "w": 78,
-   "h": 78,
+   "w": 76,
+   "h": 77,
    "origin": "assetbundle",
    "atlas": "Common",
    "sprite": "Card_Ability_Select_circle"
@@ -11376,8 +11364,8 @@
   },
   "Common/Card_Bg_N": {
    "file": "/res/ui/Common/Card_Bg_N.png",
-   "w": 200,
-   "h": 162,
+   "w": 185,
+   "h": 156,
    "origin": "assetbundle",
    "atlas": "Common",
    "sprite": "Card_Bg_N"
@@ -11767,7 +11755,7 @@
   "Common/Common_Btn_Arrow": {
    "file": "/res/ui/Common/Common_Btn_Arrow.png",
    "w": 69,
-   "h": 106,
+   "h": 103,
    "origin": "assetbundle",
    "atlas": "Common",
    "sprite": "Common_Btn_Arrow"
@@ -11804,7 +11792,7 @@
   },
   "Common/Common_Btn_Normal_B_C_Pt": {
    "file": "/res/ui/Common/Common_Btn_Normal_B_C_Pt.png",
-   "w": 251,
+   "w": 209,
    "h": 140,
    "origin": "assetbundle",
    "atlas": "Common",
@@ -11812,7 +11800,7 @@
   },
   "Common/Common_Btn_Normal_B_S_Pt": {
    "file": "/res/ui/Common/Common_Btn_Normal_B_S_Pt.png",
-   "w": 251,
+   "w": 217,
    "h": 140,
    "origin": "assetbundle",
    "atlas": "Common",
@@ -11820,7 +11808,7 @@
   },
   "Common/Common_Btn_Normal_P_S_Pt": {
    "file": "/res/ui/Common/Common_Btn_Normal_P_S_Pt.png",
-   "w": 251,
+   "w": 241,
    "h": 140,
    "origin": "assetbundle",
    "atlas": "Common",
@@ -11828,7 +11816,7 @@
   },
   "Common/Common_Btn_Normal_R_S_Pt": {
    "file": "/res/ui/Common/Common_Btn_Normal_R_S_Pt.png",
-   "w": 251,
+   "w": 217,
    "h": 140,
    "origin": "assetbundle",
    "atlas": "Common",
@@ -11836,7 +11824,7 @@
   },
   "Common/Common_Btn_Normal_Y_S_Pt": {
    "file": "/res/ui/Common/Common_Btn_Normal_Y_S_Pt.png",
-   "w": 251,
+   "w": 217,
    "h": 140,
    "origin": "assetbundle",
    "atlas": "Common",
@@ -11845,15 +11833,15 @@
   "Common/Common_Btn_Pin_01": {
    "file": "/res/ui/Common/Common_Btn_Pin_01.png",
    "w": 106,
-   "h": 106,
+   "h": 103,
    "origin": "assetbundle",
    "atlas": "Common",
    "sprite": "Common_Btn_Pin_01"
   },
   "Common/Common_Btn_Pin_02": {
    "file": "/res/ui/Common/Common_Btn_Pin_02.png",
-   "w": 106,
-   "h": 106,
+   "w": 100,
+   "h": 100,
    "origin": "assetbundle",
    "atlas": "Common",
    "sprite": "Common_Btn_Pin_02"
@@ -11868,8 +11856,8 @@
   },
   "Common/Common_Btn_Radio_On": {
    "file": "/res/ui/Common/Common_Btn_Radio_On.png",
-   "w": 60,
-   "h": 60,
+   "w": 50,
+   "h": 52,
    "origin": "assetbundle",
    "atlas": "Common",
    "sprite": "Common_Btn_Radio_On"
@@ -11980,8 +11968,8 @@
   },
   "Common/Common_Deco_Gacha_Icon_Pickup": {
    "file": "/res/ui/Common/Common_Deco_Gacha_Icon_Pickup.png",
-   "w": 60,
-   "h": 57,
+   "w": 52,
+   "h": 55,
    "origin": "assetbundle",
    "atlas": "Common",
    "sprite": "Common_Deco_Gacha_Icon_Pickup"
@@ -12116,7 +12104,7 @@
   },
   "Common/Common_Formation_Image_Ready": {
    "file": "/res/ui/Common/Common_Formation_Image_Ready.png",
-   "w": 397,
+   "w": 393,
    "h": 67,
    "origin": "assetbundle",
    "atlas": "Common",
@@ -12124,7 +12112,7 @@
   },
   "Common/Common_Formation_Image_Using": {
    "file": "/res/ui/Common/Common_Formation_Image_Using.png",
-   "w": 397,
+   "w": 393,
    "h": 67,
    "origin": "assetbundle",
    "atlas": "Common",
@@ -12277,7 +12265,7 @@
   "Common/Common_Icon_ArenaCoin": {
    "file": "/res/ui/Common/Common_Icon_ArenaCoin.png",
    "w": 69,
-   "h": 71,
+   "h": 69,
    "origin": "assetbundle",
    "atlas": "Common",
    "sprite": "Common_Icon_ArenaCoin"
@@ -12364,8 +12352,8 @@
   },
   "Common/Common_Icon_Change": {
    "file": "/res/ui/Common/Common_Icon_Change.png",
-   "w": 80,
-   "h": 80,
+   "w": 67,
+   "h": 54,
    "origin": "assetbundle",
    "atlas": "Common",
    "sprite": "Common_Icon_Change"
@@ -12397,7 +12385,7 @@
   "Common/Common_Icon_ChaserCoin": {
    "file": "/res/ui/Common/Common_Icon_ChaserCoin.png",
    "w": 69,
-   "h": 71,
+   "h": 69,
    "origin": "assetbundle",
    "atlas": "Common",
    "sprite": "Common_Icon_ChaserCoin"
@@ -12484,8 +12472,8 @@
   },
   "Common/Common_Icon_CraftSkipItem": {
    "file": "/res/ui/Common/Common_Icon_CraftSkipItem.png",
-   "w": 150,
-   "h": 77,
+   "w": 143,
+   "h": 75,
    "origin": "assetbundle",
    "atlas": "Common",
    "sprite": "Common_Icon_CraftSkipItem"
@@ -12500,8 +12488,8 @@
   },
   "Common/Common_Icon_DamageDealer": {
    "file": "/res/ui/Common/Common_Icon_DamageDealer.png",
-   "w": 67,
-   "h": 66,
+   "w": 54,
+   "h": 54,
    "origin": "assetbundle",
    "atlas": "Common",
    "sprite": "Common_Icon_DamageDealer"
@@ -12524,8 +12512,8 @@
   },
   "Common/Common_Icon_Diamond": {
    "file": "/res/ui/Common/Common_Icon_Diamond.png",
-   "w": 69,
-   "h": 71,
+   "w": 53,
+   "h": 66,
    "origin": "assetbundle",
    "atlas": "Common",
    "sprite": "Common_Icon_Diamond"
@@ -12541,7 +12529,7 @@
   "Common/Common_Icon_EliminateRaidCoin": {
    "file": "/res/ui/Common/Common_Icon_EliminateRaidCoin.png",
    "w": 69,
-   "h": 71,
+   "h": 70,
    "origin": "assetbundle",
    "atlas": "Common",
    "sprite": "Common_Icon_EliminateRaidCoin"
@@ -12549,7 +12537,7 @@
   "Common/Common_Icon_EliminateRaidCoin_High": {
    "file": "/res/ui/Common/Common_Icon_EliminateRaidCoin_High.png",
    "w": 69,
-   "h": 71,
+   "h": 70,
    "origin": "assetbundle",
    "atlas": "Common",
    "sprite": "Common_Icon_EliminateRaidCoin_High"
@@ -12596,8 +12584,8 @@
   },
   "Common/Common_Icon_Event_Token_Special_0": {
    "file": "/res/ui/Common/Common_Icon_Event_Token_Special_0.png",
-   "w": 69,
-   "h": 71,
+   "w": 68,
+   "h": 68,
    "origin": "assetbundle",
    "atlas": "Common",
    "sprite": "Common_Icon_Event_Token_Special_0"
@@ -12605,7 +12593,7 @@
   "Common/Common_Icon_Event_Token_Special_1": {
    "file": "/res/ui/Common/Common_Icon_Event_Token_Special_1.png",
    "w": 69,
-   "h": 71,
+   "h": 67,
    "origin": "assetbundle",
    "atlas": "Common",
    "sprite": "Common_Icon_Event_Token_Special_1"
@@ -12658,7 +12646,7 @@
   },
   "Common/Common_Icon_FlatNotice": {
    "file": "/res/ui/Common/Common_Icon_FlatNotice.png",
-   "w": 100,
+   "w": 98,
    "h": 100,
    "origin": "assetbundle",
    "atlas": "Common",
@@ -12674,7 +12662,7 @@
   },
   "Common/Common_Icon_Formation_Buff": {
    "file": "/res/ui/Common/Common_Icon_Formation_Buff.png",
-   "w": 48,
+   "w": 46,
    "h": 52,
    "origin": "assetbundle",
    "atlas": "Common",
@@ -12707,7 +12695,7 @@
   "Common/Common_Icon_Formation_Preset": {
    "file": "/res/ui/Common/Common_Icon_Formation_Preset.png",
    "w": 97,
-   "h": 90,
+   "h": 89,
    "origin": "assetbundle",
    "atlas": "Common",
    "sprite": "Common_Icon_Formation_Preset"
@@ -12747,7 +12735,7 @@
   "Common/Common_Icon_Gacha": {
    "file": "/res/ui/Common/Common_Icon_Gacha.png",
    "w": 127,
-   "h": 163,
+   "h": 160,
    "origin": "assetbundle",
    "atlas": "Common",
    "sprite": "Common_Icon_Gacha"
@@ -12763,23 +12751,23 @@
   "Common/Common_Icon_Gold": {
    "file": "/res/ui/Common/Common_Icon_Gold.png",
    "w": 69,
-   "h": 71,
+   "h": 64,
    "origin": "assetbundle",
    "atlas": "Common",
    "sprite": "Common_Icon_Gold"
   },
   "Common/Common_Icon_Healer": {
    "file": "/res/ui/Common/Common_Icon_Healer.png",
-   "w": 67,
-   "h": 66,
+   "w": 53,
+   "h": 47,
    "origin": "assetbundle",
    "atlas": "Common",
    "sprite": "Common_Icon_Healer"
   },
   "Common/Common_Icon_Heart": {
    "file": "/res/ui/Common/Common_Icon_Heart.png",
-   "w": 90,
-   "h": 83,
+   "w": 81,
+   "h": 70,
    "origin": "assetbundle",
    "atlas": "Common",
    "sprite": "Common_Icon_Heart"
@@ -12802,8 +12790,8 @@
   },
   "Common/Common_Icon_Info": {
    "file": "/res/ui/Common/Common_Icon_Info.png",
-   "w": 90,
-   "h": 90,
+   "w": 88,
+   "h": 88,
    "origin": "assetbundle",
    "atlas": "Common",
    "sprite": "Common_Icon_Info"
@@ -12834,8 +12822,8 @@
   },
   "Common/Common_Icon_JPMoney": {
    "file": "/res/ui/Common/Common_Icon_JPMoney.png",
-   "w": 69,
-   "h": 71,
+   "w": 46,
+   "h": 54,
    "origin": "assetbundle",
    "atlas": "Common",
    "sprite": "Common_Icon_JPMoney"
@@ -12866,8 +12854,8 @@
   },
   "Common/Common_Icon_Mail": {
    "file": "/res/ui/Common/Common_Icon_Mail.png",
-   "w": 80,
-   "h": 80,
+   "w": 70,
+   "h": 49,
    "origin": "assetbundle",
    "atlas": "Common",
    "sprite": "Common_Icon_Mail"
@@ -12907,7 +12895,7 @@
   "Common/Common_Icon_Minus": {
    "file": "/res/ui/Common/Common_Icon_Minus.png",
    "w": 50,
-   "h": 50,
+   "h": 15,
    "origin": "assetbundle",
    "atlas": "Common",
    "sprite": "Common_Icon_Minus"
@@ -12947,7 +12935,7 @@
   "Common/Common_Icon_NewbieBg": {
    "file": "/res/ui/Common/Common_Icon_NewbieBg.png",
    "w": 96,
-   "h": 66,
+   "h": 65,
    "origin": "assetbundle",
    "atlas": "Common",
    "sprite": "Common_Icon_NewbieBg",
@@ -12960,8 +12948,8 @@
   },
   "Common/Common_Icon_Option": {
    "file": "/res/ui/Common/Common_Icon_Option.png",
-   "w": 80,
-   "h": 80,
+   "w": 63,
+   "h": 67,
    "origin": "assetbundle",
    "atlas": "Common",
    "sprite": "Common_Icon_Option"
@@ -13033,7 +13021,7 @@
   "Common/Common_Icon_RaidCoin": {
    "file": "/res/ui/Common/Common_Icon_RaidCoin.png",
    "w": 69,
-   "h": 71,
+   "h": 69,
    "origin": "assetbundle",
    "atlas": "Common",
    "sprite": "Common_Icon_RaidCoin"
@@ -13144,7 +13132,7 @@
   },
   "Common/Common_Icon_SocialCircle": {
    "file": "/res/ui/Common/Common_Icon_SocialCircle.png",
-   "w": 100,
+   "w": 99,
    "h": 110,
    "origin": "assetbundle",
    "atlas": "Common",
@@ -13153,14 +13141,14 @@
   "Common/Common_Icon_SpecialLobby": {
    "file": "/res/ui/Common/Common_Icon_SpecialLobby.png",
    "w": 80,
-   "h": 80,
+   "h": 59,
    "origin": "assetbundle",
    "atlas": "Common",
    "sprite": "Common_Icon_SpecialLobby"
   },
   "Common/Common_Icon_Stamina": {
    "file": "/res/ui/Common/Common_Icon_Stamina.png",
-   "w": 69,
+   "w": 46,
    "h": 71,
    "origin": "assetbundle",
    "atlas": "Common",
@@ -13192,16 +13180,16 @@
   },
   "Common/Common_Icon_Supporter": {
    "file": "/res/ui/Common/Common_Icon_Supporter.png",
-   "w": 67,
-   "h": 66,
+   "w": 56,
+   "h": 51,
    "origin": "assetbundle",
    "atlas": "Common",
    "sprite": "Common_Icon_Supporter"
   },
   "Common/Common_Icon_Tanker": {
    "file": "/res/ui/Common/Common_Icon_Tanker.png",
-   "w": 67,
-   "h": 66,
+   "w": 39,
+   "h": 46,
    "origin": "assetbundle",
    "atlas": "Common",
    "sprite": "Common_Icon_Tanker"
@@ -13217,7 +13205,7 @@
   "Common/Common_Icon_TimeAttackCoin": {
    "file": "/res/ui/Common/Common_Icon_TimeAttackCoin.png",
    "w": 69,
-   "h": 71,
+   "h": 70,
    "origin": "assetbundle",
    "atlas": "Common",
    "sprite": "Common_Icon_TimeAttackCoin"
@@ -13240,8 +13228,8 @@
   },
   "Common/Common_Icon_Vehicle": {
    "file": "/res/ui/Common/Common_Icon_Vehicle.png",
-   "w": 67,
-   "h": 66,
+   "w": 59,
+   "h": 48,
    "origin": "assetbundle",
    "atlas": "Common",
    "sprite": "Common_Icon_Vehicle"
@@ -13450,8 +13438,8 @@
   },
   "Common/Common_Navi_Gauge_Icon": {
    "file": "/res/ui/Common/Common_Navi_Gauge_Icon.png",
-   "w": 85,
-   "h": 82,
+   "w": 66,
+   "h": 64,
    "origin": "assetbundle",
    "atlas": "Common",
    "sprite": "Common_Navi_Gauge_Icon"
@@ -13459,7 +13447,7 @@
   "Common/Common_Navi_Gauge_Icon_Disable": {
    "file": "/res/ui/Common/Common_Navi_Gauge_Icon_Disable.png",
    "w": 85,
-   "h": 82,
+   "h": 74,
    "origin": "assetbundle",
    "atlas": "Common",
    "sprite": "Common_Navi_Gauge_Icon_Disable"
@@ -13587,7 +13575,7 @@
   "Common/Common_Reward_Deco": {
    "file": "/res/ui/Common/Common_Reward_Deco.png",
    "w": 335,
-   "h": 320,
+   "h": 316,
    "origin": "assetbundle",
    "atlas": "Common",
    "sprite": "Common_Reward_Deco"
@@ -13608,8 +13596,8 @@
   },
   "Common/Common_Shop_Deco": {
    "file": "/res/ui/Common/Common_Shop_Deco.png",
-   "w": 359,
-   "h": 387,
+   "w": 346,
+   "h": 377,
    "origin": "assetbundle",
    "atlas": "Common",
    "sprite": "Common_Shop_Deco"
@@ -13839,7 +13827,7 @@
   "Common/Common_Top_Menu_Bg": {
    "file": "/res/ui/Common/Common_Top_Menu_Bg.png",
    "w": 343,
-   "h": 166,
+   "h": 120,
    "origin": "assetbundle",
    "atlas": "Common",
    "sprite": "Common_Top_Menu_Bg",
@@ -13916,7 +13904,7 @@
   },
   "Common/Currency_Icon_ChaserTotalTicket": {
    "file": "/res/ui/Common/Currency_Icon_ChaserTotalTicket.png",
-   "w": 150,
+   "w": 149,
    "h": 77,
    "origin": "assetbundle",
    "atlas": "Common",
@@ -13948,7 +13936,7 @@
   },
   "Common/Currency_Icon_EliminateRaidTicketD": {
    "file": "/res/ui/Common/Currency_Icon_EliminateRaidTicketD.png",
-   "w": 150,
+   "w": 149,
    "h": 77,
    "origin": "assetbundle",
    "atlas": "Common",
@@ -13957,7 +13945,7 @@
   "Common/Currency_Icon_MasterCoin": {
    "file": "/res/ui/Common/Currency_Icon_MasterCoin.png",
    "w": 69,
-   "h": 71,
+   "h": 49,
    "origin": "assetbundle",
    "atlas": "Common",
    "sprite": "Currency_Icon_MasterCoin"
@@ -13972,7 +13960,7 @@
   },
   "Common/Currency_Icon_RecruitTicket_2Star_10": {
    "file": "/res/ui/Common/Currency_Icon_RecruitTicket_2Star_10.png",
-   "w": 150,
+   "w": 146,
    "h": 77,
    "origin": "assetbundle",
    "atlas": "Common",
@@ -13980,7 +13968,7 @@
   },
   "Common/Currency_Icon_RecruitTicket_3Star_10": {
    "file": "/res/ui/Common/Currency_Icon_RecruitTicket_3Star_10.png",
-   "w": 150,
+   "w": 146,
    "h": 77,
    "origin": "assetbundle",
    "atlas": "Common",
@@ -13988,7 +13976,7 @@
   },
   "Common/Currency_Icon_RecruitTicket_Academy_3Star_10": {
    "file": "/res/ui/Common/Currency_Icon_RecruitTicket_Academy_3Star_10.png",
-   "w": 150,
+   "w": 149,
    "h": 77,
    "origin": "assetbundle",
    "atlas": "Common",
@@ -14012,7 +14000,7 @@
   },
   "Common/Currency_Icon_RecruitTicket_Normal_10": {
    "file": "/res/ui/Common/Currency_Icon_RecruitTicket_Normal_10.png",
-   "w": 150,
+   "w": 149,
    "h": 77,
    "origin": "assetbundle",
    "atlas": "Common",
@@ -14020,7 +14008,7 @@
   },
   "Common/Currency_Icon_RecruitTicket_Property_3Star_10": {
    "file": "/res/ui/Common/Currency_Icon_RecruitTicket_Property_3Star_10.png",
-   "w": 150,
+   "w": 146,
    "h": 77,
    "origin": "assetbundle",
    "atlas": "Common",
@@ -14028,7 +14016,7 @@
   },
   "Common/Currency_Icon_RecruitTicket_Selection_0": {
    "file": "/res/ui/Common/Currency_Icon_RecruitTicket_Selection_0.png",
-   "w": 150,
+   "w": 149,
    "h": 77,
    "origin": "assetbundle",
    "atlas": "Common",
@@ -14036,7 +14024,7 @@
   },
   "Common/Currency_Icon_RecruitTicket_SelectPickup_1": {
    "file": "/res/ui/Common/Currency_Icon_RecruitTicket_SelectPickup_1.png",
-   "w": 150,
+   "w": 149,
    "h": 77,
    "origin": "assetbundle",
    "atlas": "Common",
@@ -14044,7 +14032,7 @@
   },
   "Common/Currency_Icon_RecruitTicket_SelectPickup_10": {
    "file": "/res/ui/Common/Currency_Icon_RecruitTicket_SelectPickup_10.png",
-   "w": 150,
+   "w": 149,
    "h": 77,
    "origin": "assetbundle",
    "atlas": "Common",
@@ -14076,7 +14064,7 @@
   },
   "Common/Currency_Icon_SchoolTotalTicket": {
    "file": "/res/ui/Common/Currency_Icon_SchoolTotalTicket.png",
-   "w": 150,
+   "w": 149,
    "h": 77,
    "origin": "assetbundle",
    "atlas": "Common",
@@ -14084,7 +14072,7 @@
   },
   "Common/Currency_Icon_TimeAttackTicket": {
    "file": "/res/ui/Common/Currency_Icon_TimeAttackTicket.png",
-   "w": 150,
+   "w": 148,
    "h": 77,
    "origin": "assetbundle",
    "atlas": "Common",
@@ -14092,7 +14080,7 @@
   },
   "Common/Currency_Icon_WorldRaidCommonTicket": {
    "file": "/res/ui/Common/Currency_Icon_WorldRaidCommonTicket.png",
-   "w": 150,
+   "w": 149,
    "h": 77,
    "origin": "assetbundle",
    "atlas": "Common",
@@ -14144,7 +14132,7 @@
   },
   "Common/Formation_TextInfo_Bg": {
    "file": "/res/ui/Common/Formation_TextInfo_Bg.png",
-   "w": 63,
+   "w": 61,
    "h": 42,
    "origin": "assetbundle",
    "atlas": "Common",
@@ -14166,7 +14154,7 @@
   },
   "Common/ImgFont_Back": {
    "file": "/res/ui/Common/ImgFont_Back.png",
-   "w": 142,
+   "w": 103,
    "h": 32,
    "origin": "assetbundle",
    "atlas": "Common",
@@ -14174,7 +14162,7 @@
   },
   "Common/ImgFont_Front": {
    "file": "/res/ui/Common/ImgFont_Front.png",
-   "w": 142,
+   "w": 127,
    "h": 32,
    "origin": "assetbundle",
    "atlas": "Common",
@@ -14260,16 +14248,16 @@
   },
   "Common/Loading_Arona": {
    "file": "/res/ui/Common/Loading_Arona.png",
-   "w": 116,
-   "h": 136,
+   "w": 107,
+   "h": 132,
    "origin": "assetbundle",
    "atlas": "Common",
    "sprite": "Loading_Arona"
   },
   "Common/Loading_dot": {
    "file": "/res/ui/Common/Loading_dot.png",
-   "w": 33,
-   "h": 37,
+   "w": 29,
+   "h": 27,
    "origin": "assetbundle",
    "atlas": "Common",
    "sprite": "Loading_dot"
@@ -14481,15 +14469,15 @@
   "Common/School_Icon_Chat": {
    "file": "/res/ui/Common/School_Icon_Chat.png",
    "w": 92,
-   "h": 92,
+   "h": 76,
    "origin": "assetbundle",
    "atlas": "Common",
    "sprite": "School_Icon_Chat"
   },
   "Common/School_Icon_Favor": {
    "file": "/res/ui/Common/School_Icon_Favor.png",
-   "w": 100,
-   "h": 100,
+   "w": 67,
+   "h": 94,
    "origin": "assetbundle",
    "atlas": "Common",
    "sprite": "School_Icon_Favor"
@@ -14505,7 +14493,7 @@
   "Common/School_Icon_Normal": {
    "file": "/res/ui/Common/School_Icon_Normal.png",
    "w": 100,
-   "h": 100,
+   "h": 88,
    "origin": "assetbundle",
    "atlas": "Common",
    "sprite": "School_Icon_Normal"
@@ -14521,14 +14509,14 @@
   "Common/School_Icon_Schedule_Favor": {
    "file": "/res/ui/Common/School_Icon_Schedule_Favor.png",
    "w": 64,
-   "h": 64,
+   "h": 59,
    "origin": "assetbundle",
    "atlas": "Common",
    "sprite": "School_Icon_Schedule_Favor"
   },
   "Common/School_Icon_Student": {
    "file": "/res/ui/Common/School_Icon_Student.png",
-   "w": 92,
+   "w": 84,
    "h": 92,
    "origin": "assetbundle",
    "atlas": "Common",
@@ -14622,7 +14610,7 @@
   },
   "Common/ShiftingCraftItem_0": {
    "file": "/res/ui/Common/ShiftingCraftItem_0.png",
-   "w": 69,
+   "w": 64,
    "h": 71,
    "origin": "assetbundle",
    "atlas": "Common",
@@ -14630,7 +14618,7 @@
   },
   "Common/ShiftingCraftItem_1": {
    "file": "/res/ui/Common/ShiftingCraftItem_1.png",
-   "w": 69,
+   "w": 64,
    "h": 71,
    "origin": "assetbundle",
    "atlas": "Common",
@@ -14638,7 +14626,7 @@
   },
   "Common/ShiftingCraftItem_2": {
    "file": "/res/ui/Common/ShiftingCraftItem_2.png",
-   "w": 69,
+   "w": 64,
    "h": 71,
    "origin": "assetbundle",
    "atlas": "Common",
@@ -14646,7 +14634,7 @@
   },
   "Common/ShiftingCraftItem_3": {
    "file": "/res/ui/Common/ShiftingCraftItem_3.png",
-   "w": 69,
+   "w": 64,
    "h": 71,
    "origin": "assetbundle",
    "atlas": "Common",
@@ -18588,8 +18576,8 @@
   },
   "icon_mail": {
    "file": "/res/ui/Common/Common_Icon_Mail.png",
-   "w": 80,
-   "h": 80,
+   "w": 70,
+   "h": 49,
    "origin": "assetbundle",
    "atlas": "Common",
    "sprite": "Common_Icon_Mail"
@@ -18621,7 +18609,7 @@
   "icon_gacha": {
    "file": "/res/ui/Common/Common_Icon_Gacha.png",
    "w": 127,
-   "h": 163,
+   "h": 160,
    "origin": "assetbundle",
    "atlas": "Common",
    "sprite": "Common_Icon_Gacha"
@@ -18661,7 +18649,7 @@
   "nav_gacha": {
    "file": "/res/ui/Common/Common_Icon_Gacha.png",
    "w": 127,
-   "h": 163,
+   "h": 160,
    "origin": "assetbundle",
    "atlas": "Common",
    "sprite": "Common_Icon_Gacha"
@@ -18676,16 +18664,16 @@
   },
   "icon_pyroxene": {
    "file": "/res/ui/Common/Common_Icon_Diamond.png",
-   "w": 69,
-   "h": 71,
+   "w": 53,
+   "h": 66,
    "origin": "assetbundle",
    "atlas": "Common",
    "sprite": "Common_Icon_Diamond"
   },
   "menu_option": {
    "file": "/res/ui/Common/Common_Icon_Option.png",
-   "w": 80,
-   "h": 80,
+   "w": 63,
+   "h": 67,
    "origin": "assetbundle",
    "atlas": "Common",
    "sprite": "Common_Icon_Option"
@@ -18713,6 +18701,3078 @@
    "origin": "assetbundle",
    "atlas": "Common",
    "sprite": "Common_Icon_Inventory_NonEquip"
+  },
+  "BattlePass/BattlePass_PopupDeco_Tag_En": {
+   "file": "/res/ui/BattlePass/BattlePass_PopupDeco_Tag_En.png",
+   "w": 162,
+   "h": 162,
+   "origin": "assetbundle",
+   "atlas": "BattlePass",
+   "sprite": "BattlePass_PopupDeco_Tag_En"
+  },
+  "BattlePass/BattlePass_PopupDeco_Tag_Th": {
+   "file": "/res/ui/BattlePass/BattlePass_PopupDeco_Tag_Th.png",
+   "w": 162,
+   "h": 162,
+   "origin": "assetbundle",
+   "atlas": "BattlePass",
+   "sprite": "BattlePass_PopupDeco_Tag_Th"
+  },
+  "BattlePass/BattlePass_PopupDeco_Tag_Tw": {
+   "file": "/res/ui/BattlePass/BattlePass_PopupDeco_Tag_Tw.png",
+   "w": 162,
+   "h": 162,
+   "origin": "assetbundle",
+   "atlas": "BattlePass",
+   "sprite": "BattlePass_PopupDeco_Tag_Tw"
+  },
+  "Event/ClueSearch_BoardDeco_00_857": {
+   "file": "/res/ui/Event/ClueSearch_BoardDeco_00_857.png",
+   "w": 50,
+   "h": 30,
+   "origin": "assetbundle",
+   "atlas": "Event",
+   "sprite": "ClueSearch_BoardDeco_00_857",
+   "border": [
+    16,
+    0,
+    16,
+    0
+   ]
+  },
+  "Event/ClueSearch_BoardDeco_01_857": {
+   "file": "/res/ui/Event/ClueSearch_BoardDeco_01_857.png",
+   "w": 245,
+   "h": 169,
+   "origin": "assetbundle",
+   "atlas": "Event",
+   "sprite": "ClueSearch_BoardDeco_01_857"
+  },
+  "Event/ClueSearch_BoardDeco_03_857": {
+   "file": "/res/ui/Event/ClueSearch_BoardDeco_03_857.png",
+   "w": 50,
+   "h": 50,
+   "origin": "assetbundle",
+   "atlas": "Event",
+   "sprite": "ClueSearch_BoardDeco_03_857",
+   "border": [
+    18,
+    18,
+    18,
+    24
+   ]
+  },
+  "Event/ClueSearch_BoardDeco_04_857": {
+   "file": "/res/ui/Event/ClueSearch_BoardDeco_04_857.png",
+   "w": 85,
+   "h": 34,
+   "origin": "assetbundle",
+   "atlas": "Event",
+   "sprite": "ClueSearch_BoardDeco_04_857"
+  },
+  "Event/ClueSearch_BoardDeco_05_857": {
+   "file": "/res/ui/Event/ClueSearch_BoardDeco_05_857.png",
+   "w": 67,
+   "h": 62,
+   "origin": "assetbundle",
+   "atlas": "Event",
+   "sprite": "ClueSearch_BoardDeco_05_857"
+  },
+  "Event/ClueSearch_BoardDeco_06_857": {
+   "file": "/res/ui/Event/ClueSearch_BoardDeco_06_857.png",
+   "w": 29,
+   "h": 58,
+   "origin": "assetbundle",
+   "atlas": "Event",
+   "sprite": "ClueSearch_BoardDeco_06_857"
+  },
+  "Event/ClueSearch_BoardDeco_07_857": {
+   "file": "/res/ui/Event/ClueSearch_BoardDeco_07_857.png",
+   "w": 76,
+   "h": 52,
+   "origin": "assetbundle",
+   "atlas": "Event",
+   "sprite": "ClueSearch_BoardDeco_07_857"
+  },
+  "Event/ClueSearch_BoardDeco_08_857": {
+   "file": "/res/ui/Event/ClueSearch_BoardDeco_08_857.png",
+   "w": 76,
+   "h": 52,
+   "origin": "assetbundle",
+   "atlas": "Event",
+   "sprite": "ClueSearch_BoardDeco_08_857"
+  },
+  "Event/ClueSearch_Emoji_00_857": {
+   "file": "/res/ui/Event/ClueSearch_Emoji_00_857.png",
+   "w": 170,
+   "h": 181,
+   "origin": "assetbundle",
+   "atlas": "Event",
+   "sprite": "ClueSearch_Emoji_00_857"
+  },
+  "Event/ClueSearch_Emoji_01_857": {
+   "file": "/res/ui/Event/ClueSearch_Emoji_01_857.png",
+   "w": 52,
+   "h": 71,
+   "origin": "assetbundle",
+   "atlas": "Event",
+   "sprite": "ClueSearch_Emoji_01_857"
+  },
+  "Event/ClueSearch_Emoji_02_857": {
+   "file": "/res/ui/Event/ClueSearch_Emoji_02_857.png",
+   "w": 83,
+   "h": 72,
+   "origin": "assetbundle",
+   "atlas": "Event",
+   "sprite": "ClueSearch_Emoji_02_857"
+  },
+  "Event/ClueSearch_Emoji_03_857": {
+   "file": "/res/ui/Event/ClueSearch_Emoji_03_857.png",
+   "w": 62,
+   "h": 112,
+   "origin": "assetbundle",
+   "atlas": "Event",
+   "sprite": "ClueSearch_Emoji_03_857"
+  },
+  "Event/ClueSearch_Emoji_04_857": {
+   "file": "/res/ui/Event/ClueSearch_Emoji_04_857.png",
+   "w": 66,
+   "h": 71,
+   "origin": "assetbundle",
+   "atlas": "Event",
+   "sprite": "ClueSearch_Emoji_04_857"
+  },
+  "Event/ClueSearch_Emoji_05_857": {
+   "file": "/res/ui/Event/ClueSearch_Emoji_05_857.png",
+   "w": 13,
+   "h": 25,
+   "origin": "assetbundle",
+   "atlas": "Event",
+   "sprite": "ClueSearch_Emoji_05_857"
+  },
+  "Event/ClueSearch_HintDeco_00_857": {
+   "file": "/res/ui/Event/ClueSearch_HintDeco_00_857.png",
+   "w": 176,
+   "h": 64,
+   "origin": "assetbundle",
+   "atlas": "Event",
+   "sprite": "ClueSearch_HintDeco_00_857",
+   "border": [
+    6,
+    0,
+    158,
+    0
+   ]
+  },
+  "Event/ClueSearch_HintDeco_01_857": {
+   "file": "/res/ui/Event/ClueSearch_HintDeco_01_857.png",
+   "w": 23,
+   "h": 43,
+   "origin": "assetbundle",
+   "atlas": "Event",
+   "sprite": "ClueSearch_HintDeco_01_857"
+  },
+  "Event/ClueSearch_HintDeco_02_857": {
+   "file": "/res/ui/Event/ClueSearch_HintDeco_02_857.png",
+   "w": 40,
+   "h": 61,
+   "origin": "assetbundle",
+   "atlas": "Event",
+   "sprite": "ClueSearch_HintDeco_02_857"
+  },
+  "Event/ClueSearch_HintDeco_03_857": {
+   "file": "/res/ui/Event/ClueSearch_HintDeco_03_857.png",
+   "w": 38,
+   "h": 46,
+   "origin": "assetbundle",
+   "atlas": "Event",
+   "sprite": "ClueSearch_HintDeco_03_857"
+  },
+  "Event/Common_Icon_Event_Object_0_S60": {
+   "file": "/res/ui/Event/Common_Icon_Event_Object_0_S60.png",
+   "w": 63,
+   "h": 69,
+   "origin": "assetbundle",
+   "atlas": "Event",
+   "sprite": "Common_Icon_Event_Object_0_S60"
+  },
+  "Event/Common_Icon_Event_Object_1_S60": {
+   "file": "/res/ui/Event/Common_Icon_Event_Object_1_S60.png",
+   "w": 63,
+   "h": 70,
+   "origin": "assetbundle",
+   "atlas": "Event",
+   "sprite": "Common_Icon_Event_Object_1_S60"
+  },
+  "Event/Common_Icon_Event_Object_2_S60": {
+   "file": "/res/ui/Event/Common_Icon_Event_Object_2_S60.png",
+   "w": 68,
+   "h": 56,
+   "origin": "assetbundle",
+   "atlas": "Event",
+   "sprite": "Common_Icon_Event_Object_2_S60"
+  },
+  "Event/Common_Icon_Event_Object_3_S60": {
+   "file": "/res/ui/Event/Common_Icon_Event_Object_3_S60.png",
+   "w": 60,
+   "h": 70,
+   "origin": "assetbundle",
+   "atlas": "Event",
+   "sprite": "Common_Icon_Event_Object_3_S60"
+  },
+  "Event/Common_Icon_Event_Object_4_S60": {
+   "file": "/res/ui/Event/Common_Icon_Event_Object_4_S60.png",
+   "w": 68,
+   "h": 54,
+   "origin": "assetbundle",
+   "atlas": "Event",
+   "sprite": "Common_Icon_Event_Object_4_S60"
+  },
+  "Event/Common_Icon_Event_Object_5_S60": {
+   "file": "/res/ui/Event/Common_Icon_Event_Object_5_S60.png",
+   "w": 67,
+   "h": 71,
+   "origin": "assetbundle",
+   "atlas": "Event",
+   "sprite": "Common_Icon_Event_Object_5_S60"
+  },
+  "Event/Common_Icon_Event_Object_6_S60": {
+   "file": "/res/ui/Event/Common_Icon_Event_Object_6_S60.png",
+   "w": 67,
+   "h": 38,
+   "origin": "assetbundle",
+   "atlas": "Event",
+   "sprite": "Common_Icon_Event_Object_6_S60"
+  },
+  "Event/Common_Icon_Event_Token_0_S59": {
+   "file": "/res/ui/Event/Common_Icon_Event_Token_0_S59.png",
+   "w": 69,
+   "h": 71,
+   "origin": "assetbundle",
+   "atlas": "Event",
+   "sprite": "Common_Icon_Event_Token_0_S59"
+  },
+  "Event/Common_Icon_Event_Token_0_S62": {
+   "file": "/res/ui/Event/Common_Icon_Event_Token_0_S62.png",
+   "w": 68,
+   "h": 53,
+   "origin": "assetbundle",
+   "atlas": "Event",
+   "sprite": "Common_Icon_Event_Token_0_S62"
+  },
+  "Event/Common_Icon_Event_Token_1_S59": {
+   "file": "/res/ui/Event/Common_Icon_Event_Token_1_S59.png",
+   "w": 69,
+   "h": 71,
+   "origin": "assetbundle",
+   "atlas": "Event",
+   "sprite": "Common_Icon_Event_Token_1_S59"
+  },
+  "Event/Common_Icon_Event_Token_1_S60": {
+   "file": "/res/ui/Event/Common_Icon_Event_Token_1_S60.png",
+   "w": 66,
+   "h": 70,
+   "origin": "assetbundle",
+   "atlas": "Event",
+   "sprite": "Common_Icon_Event_Token_1_S60"
+  },
+  "Event/Common_Icon_Event_Token_1_S62": {
+   "file": "/res/ui/Event/Common_Icon_Event_Token_1_S62.png",
+   "w": 60,
+   "h": 71,
+   "origin": "assetbundle",
+   "atlas": "Event",
+   "sprite": "Common_Icon_Event_Token_1_S62"
+  },
+  "Event/Common_Icon_Event_Token_2_S59": {
+   "file": "/res/ui/Event/Common_Icon_Event_Token_2_S59.png",
+   "w": 69,
+   "h": 71,
+   "origin": "assetbundle",
+   "atlas": "Event",
+   "sprite": "Common_Icon_Event_Token_2_S59"
+  },
+  "Event/Common_Icon_Event_Token_2_S60": {
+   "file": "/res/ui/Event/Common_Icon_Event_Token_2_S60.png",
+   "w": 68,
+   "h": 65,
+   "origin": "assetbundle",
+   "atlas": "Event",
+   "sprite": "Common_Icon_Event_Token_2_S60"
+  },
+  "Event/Common_Icon_Event_Token_2_S62": {
+   "file": "/res/ui/Event/Common_Icon_Event_Token_2_S62.png",
+   "w": 69,
+   "h": 50,
+   "origin": "assetbundle",
+   "atlas": "Event",
+   "sprite": "Common_Icon_Event_Token_2_S62"
+  },
+  "Event/Common_Icon_Event_Token_3_S59": {
+   "file": "/res/ui/Event/Common_Icon_Event_Token_3_S59.png",
+   "w": 69,
+   "h": 71,
+   "origin": "assetbundle",
+   "atlas": "Event",
+   "sprite": "Common_Icon_Event_Token_3_S59"
+  },
+  "Event/Common_Icon_Event_Token_3_S60": {
+   "file": "/res/ui/Event/Common_Icon_Event_Token_3_S60.png",
+   "w": 57,
+   "h": 71,
+   "origin": "assetbundle",
+   "atlas": "Event",
+   "sprite": "Common_Icon_Event_Token_3_S60"
+  },
+  "Event/Common_Icon_Event_Token_3_S62": {
+   "file": "/res/ui/Event/Common_Icon_Event_Token_3_S62.png",
+   "w": 68,
+   "h": 68,
+   "origin": "assetbundle",
+   "atlas": "Event",
+   "sprite": "Common_Icon_Event_Token_3_S62"
+  },
+  "Event/Currency_Icon_RecruitTicket_3Star_10_2": {
+   "file": "/res/ui/Event/Currency_Icon_RecruitTicket_3Star_10_2.png",
+   "w": 138,
+   "h": 68,
+   "origin": "assetbundle",
+   "atlas": "Event",
+   "sprite": "Currency_Icon_RecruitTicket_3Star_10_2"
+  },
+  "Event/Currency_Icon_RecruitTicket_3Star_10_gbpc": {
+   "file": "/res/ui/Event/Currency_Icon_RecruitTicket_3Star_10_gbpc.png",
+   "w": 147,
+   "h": 77,
+   "origin": "assetbundle",
+   "atlas": "Event",
+   "sprite": "Currency_Icon_RecruitTicket_3Star_10_gbpc"
+  },
+  "Event/Currency_Icon_RecruitTicket_Newbie_10": {
+   "file": "/res/ui/Event/Currency_Icon_RecruitTicket_Newbie_10.png",
+   "w": 150,
+   "h": 77,
+   "origin": "assetbundle",
+   "atlas": "Event",
+   "sprite": "Currency_Icon_RecruitTicket_Newbie_10"
+  },
+  "Event/Currency_Icon_RecruitTicket_Selection_0_2": {
+   "file": "/res/ui/Event/Currency_Icon_RecruitTicket_Selection_0_2.png",
+   "w": 147,
+   "h": 77,
+   "origin": "assetbundle",
+   "atlas": "Event",
+   "sprite": "Currency_Icon_RecruitTicket_Selection_0_2"
+  },
+  "Event/Event_Icon_ClueSearch_857": {
+   "file": "/res/ui/Event/Event_Icon_ClueSearch_857.png",
+   "w": 110,
+   "h": 101,
+   "origin": "assetbundle",
+   "atlas": "Event",
+   "sprite": "Event_Icon_ClueSearch_857"
+  },
+  "Field_90101000/common_Exit": {
+   "file": "/res/ui/Field_90101000/common_Exit.png",
+   "w": 50,
+   "h": 50,
+   "origin": "assetbundle",
+   "atlas": "Field_90101000",
+   "sprite": "common_Exit"
+  },
+  "Field_90101000/common_Glow": {
+   "file": "/res/ui/Field_90101000/common_Glow.png",
+   "w": 63,
+   "h": 63,
+   "origin": "assetbundle",
+   "atlas": "Field_90101000",
+   "sprite": "common_Glow"
+  },
+  "Field_90101000/common_Square_Bg": {
+   "file": "/res/ui/Field_90101000/common_Square_Bg.png",
+   "w": 4,
+   "h": 4,
+   "origin": "assetbundle",
+   "atlas": "Field_90101000",
+   "sprite": "common_Square_Bg",
+   "border": [
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  "Field_90101000/Field858_Common_Btn": {
+   "file": "/res/ui/Field_90101000/Field858_Common_Btn.png",
+   "w": 20,
+   "h": 20,
+   "origin": "assetbundle",
+   "atlas": "Field_90101000",
+   "sprite": "Field858_Common_Btn",
+   "border": [
+    9,
+    9,
+    9,
+    9
+   ]
+  },
+  "Field_90101000/Field858_Common_Btn_02": {
+   "file": "/res/ui/Field_90101000/Field858_Common_Btn_02.png",
+   "w": 28,
+   "h": 26,
+   "origin": "assetbundle",
+   "atlas": "Field_90101000",
+   "sprite": "Field858_Common_Btn_02",
+   "border": [
+    15,
+    11,
+    15,
+    16
+   ]
+  },
+  "Field_90101000/Field858_Common_Deco_01": {
+   "file": "/res/ui/Field_90101000/Field858_Common_Deco_01.png",
+   "w": 16,
+   "h": 21,
+   "origin": "assetbundle",
+   "atlas": "Field_90101000",
+   "sprite": "Field858_Common_Deco_01"
+  },
+  "Field_90101000/Field858_Common_Deco_02": {
+   "file": "/res/ui/Field_90101000/Field858_Common_Deco_02.png",
+   "w": 50,
+   "h": 50,
+   "origin": "assetbundle",
+   "atlas": "Field_90101000",
+   "sprite": "Field858_Common_Deco_02"
+  },
+  "Field_90101000/Field858_Common_Deco_03": {
+   "file": "/res/ui/Field_90101000/Field858_Common_Deco_03.png",
+   "w": 13,
+   "h": 13,
+   "origin": "assetbundle",
+   "atlas": "Field_90101000",
+   "sprite": "Field858_Common_Deco_03"
+  },
+  "Field_90101000/Field858_Common_Deco_04": {
+   "file": "/res/ui/Field_90101000/Field858_Common_Deco_04.png",
+   "w": 24,
+   "h": 24,
+   "origin": "assetbundle",
+   "atlas": "Field_90101000",
+   "sprite": "Field858_Common_Deco_04"
+  },
+  "Field_90101000/Field858_Common_Deco_05": {
+   "file": "/res/ui/Field_90101000/Field858_Common_Deco_05.png",
+   "w": 38,
+   "h": 38,
+   "origin": "assetbundle",
+   "atlas": "Field_90101000",
+   "sprite": "Field858_Common_Deco_05"
+  },
+  "RoadPuzzle/Roadpuzzle_Popup_TitleBar": {
+   "file": "/res/ui/RoadPuzzle/Roadpuzzle_Popup_TitleBar.png",
+   "w": 1591,
+   "h": 115,
+   "origin": "assetbundle",
+   "atlas": "RoadPuzzle",
+   "sprite": "Roadpuzzle_Popup_TitleBar"
+  },
+  "SNS/SNS_Bg_PostInfo": {
+   "file": "/res/ui/SNS/SNS_Bg_PostInfo.png",
+   "w": 546,
+   "h": 216,
+   "origin": "assetbundle",
+   "atlas": "SNS",
+   "sprite": "SNS_Bg_PostInfo",
+   "border": [
+    486,
+    0,
+    56,
+    0
+   ]
+  },
+  "SNS/SNS_Box_Raius": {
+   "file": "/res/ui/SNS/SNS_Box_Raius.png",
+   "w": 92,
+   "h": 92,
+   "origin": "assetbundle",
+   "atlas": "SNS",
+   "sprite": "SNS_Box_Raius",
+   "border": [
+    44,
+    44,
+    44,
+    44
+   ]
+  },
+  "SNS/SNS_Deco_Icon_1": {
+   "file": "/res/ui/SNS/SNS_Deco_Icon_1.png",
+   "w": 77,
+   "h": 67,
+   "origin": "assetbundle",
+   "atlas": "SNS",
+   "sprite": "SNS_Deco_Icon_1"
+  },
+  "SNS/SNS_Deco_Icon_2": {
+   "file": "/res/ui/SNS/SNS_Deco_Icon_2.png",
+   "w": 136,
+   "h": 108,
+   "origin": "assetbundle",
+   "atlas": "SNS",
+   "sprite": "SNS_Deco_Icon_2"
+  },
+  "SNS/SNS_Deco_Icon_3": {
+   "file": "/res/ui/SNS/SNS_Deco_Icon_3.png",
+   "w": 157,
+   "h": 127,
+   "origin": "assetbundle",
+   "atlas": "SNS",
+   "sprite": "SNS_Deco_Icon_3"
+  },
+  "SNS/SNS_Deco_Line": {
+   "file": "/res/ui/SNS/SNS_Deco_Line.png",
+   "w": 12,
+   "h": 4,
+   "origin": "assetbundle",
+   "atlas": "SNS",
+   "sprite": "SNS_Deco_Line",
+   "border": [
+    4,
+    0,
+    4,
+    0
+   ]
+  },
+  "SNS/SNS_Icon_Admin": {
+   "file": "/res/ui/SNS/SNS_Icon_Admin.png",
+   "w": 41,
+   "h": 40,
+   "origin": "assetbundle",
+   "atlas": "SNS",
+   "sprite": "SNS_Icon_Admin"
+  },
+  "SNS/SNS_Icon_Arrow": {
+   "file": "/res/ui/SNS/SNS_Icon_Arrow.png",
+   "w": 52,
+   "h": 246,
+   "origin": "assetbundle",
+   "atlas": "SNS",
+   "sprite": "SNS_Icon_Arrow",
+   "border": [
+    45,
+    37,
+    5,
+    208
+   ]
+  },
+  "SNS/SNS_Icon_Bg": {
+   "file": "/res/ui/SNS/SNS_Icon_Bg.png",
+   "w": 465,
+   "h": 370,
+   "origin": "assetbundle",
+   "atlas": "SNS",
+   "sprite": "SNS_Icon_Bg",
+   "border": [
+    2,
+    0,
+    446,
+    0
+   ]
+  },
+  "SNS/SNS_Icon_Bookmark": {
+   "file": "/res/ui/SNS/SNS_Icon_Bookmark.png",
+   "w": 35,
+   "h": 52,
+   "origin": "assetbundle",
+   "atlas": "SNS",
+   "sprite": "SNS_Icon_Bookmark"
+  },
+  "SNS/SNS_Icon_InfoStatus_False": {
+   "file": "/res/ui/SNS/SNS_Icon_InfoStatus_False.png",
+   "w": 117,
+   "h": 66,
+   "origin": "assetbundle",
+   "atlas": "SNS",
+   "sprite": "SNS_Icon_InfoStatus_False",
+   "border": [
+    64,
+    0,
+    46,
+    0
+   ]
+  },
+  "SNS/SNS_Icon_InfoStatus_True": {
+   "file": "/res/ui/SNS/SNS_Icon_InfoStatus_True.png",
+   "w": 117,
+   "h": 66,
+   "origin": "assetbundle",
+   "atlas": "SNS",
+   "sprite": "SNS_Icon_InfoStatus_True",
+   "border": [
+    72,
+    0,
+    41,
+    0
+   ]
+  },
+  "SNS/SNS_Icon_None": {
+   "file": "/res/ui/SNS/SNS_Icon_None.png",
+   "w": 236,
+   "h": 36,
+   "origin": "assetbundle",
+   "atlas": "SNS",
+   "sprite": "SNS_Icon_None"
+  },
+  "SNS/SNS_Icon_PostInfo": {
+   "file": "/res/ui/SNS/SNS_Icon_PostInfo.png",
+   "w": 41,
+   "h": 41,
+   "origin": "assetbundle",
+   "atlas": "SNS",
+   "sprite": "SNS_Icon_PostInfo"
+  },
+  "SNS/SNS_Icon_RoadBg_1": {
+   "file": "/res/ui/SNS/SNS_Icon_RoadBg_1.png",
+   "w": 192,
+   "h": 192,
+   "origin": "assetbundle",
+   "atlas": "SNS",
+   "sprite": "SNS_Icon_RoadBg_1"
+  },
+  "SNS/SNS_Icon_RoadBG_2": {
+   "file": "/res/ui/SNS/SNS_Icon_RoadBG_2.png",
+   "w": 108,
+   "h": 108,
+   "origin": "assetbundle",
+   "atlas": "SNS",
+   "sprite": "SNS_Icon_RoadBG_2"
+  },
+  "SNS/SNS_Icon_Title": {
+   "file": "/res/ui/SNS/SNS_Icon_Title.png",
+   "w": 100,
+   "h": 127,
+   "origin": "assetbundle",
+   "atlas": "SNS",
+   "sprite": "SNS_Icon_Title"
+  },
+  "SNS/SNS_ImgFont_Title": {
+   "file": "/res/ui/SNS/SNS_ImgFont_Title.png",
+   "w": 498,
+   "h": 107,
+   "origin": "assetbundle",
+   "atlas": "SNS",
+   "sprite": "SNS_ImgFont_Title"
+  },
+  "SNS/SNS_MainStory_00": {
+   "file": "/res/ui/SNS/SNS_MainStory_00.png",
+   "w": 210,
+   "h": 210,
+   "origin": "assetbundle",
+   "atlas": "SNS",
+   "sprite": "SNS_MainStory_00"
+  },
+  "SNS/SNS_MainStory_01": {
+   "file": "/res/ui/SNS/SNS_MainStory_01.png",
+   "w": 210,
+   "h": 210,
+   "origin": "assetbundle",
+   "atlas": "SNS",
+   "sprite": "SNS_MainStory_01"
+  },
+  "SNS/SNS_PopupBG": {
+   "file": "/res/ui/SNS/SNS_PopupBG.png",
+   "w": 102,
+   "h": 108,
+   "origin": "assetbundle",
+   "atlas": "SNS",
+   "sprite": "SNS_PopupBG",
+   "border": [
+    48,
+    52,
+    48,
+    52
+   ]
+  },
+  "SNS/SNS_PopupDeco_1": {
+   "file": "/res/ui/SNS/SNS_PopupDeco_1.png",
+   "w": 924,
+   "h": 426,
+   "origin": "assetbundle",
+   "atlas": "SNS",
+   "sprite": "SNS_PopupDeco_1"
+  },
+  "SNS/SNS_PopupDeco_2": {
+   "file": "/res/ui/SNS/SNS_PopupDeco_2.png",
+   "w": 924,
+   "h": 416,
+   "origin": "assetbundle",
+   "atlas": "SNS",
+   "sprite": "SNS_PopupDeco_2"
+  },
+  "SNS/SNS_PostBg": {
+   "file": "/res/ui/SNS/SNS_PostBg.png",
+   "w": 52,
+   "h": 52,
+   "origin": "assetbundle",
+   "atlas": "SNS",
+   "sprite": "SNS_PostBg",
+   "border": [
+    25,
+    25,
+    25,
+    25
+   ]
+  },
+  "SNS/SNS_ScrollBarBg": {
+   "file": "/res/ui/SNS/SNS_ScrollBarBg.png",
+   "w": 36,
+   "h": 19,
+   "origin": "assetbundle",
+   "atlas": "SNS",
+   "sprite": "SNS_ScrollBarBg",
+   "border": [
+    0,
+    9,
+    0,
+    9
+   ]
+  },
+  "SNS/SNSPost_Icon_Favor": {
+   "file": "/res/ui/SNS/SNSPost_Icon_Favor.png",
+   "w": 45,
+   "h": 39,
+   "origin": "assetbundle",
+   "atlas": "SNS",
+   "sprite": "SNSPost_Icon_Favor"
+  },
+  "SNS/SNSPost_Icon_FavorFill": {
+   "file": "/res/ui/SNS/SNSPost_Icon_FavorFill.png",
+   "w": 45,
+   "h": 39,
+   "origin": "assetbundle",
+   "atlas": "SNS",
+   "sprite": "SNSPost_Icon_FavorFill"
+  },
+  "SNS/SNSPost_Icon_Repost": {
+   "file": "/res/ui/SNS/SNSPost_Icon_Repost.png",
+   "w": 40,
+   "h": 53,
+   "origin": "assetbundle",
+   "atlas": "SNS",
+   "sprite": "SNSPost_Icon_Repost"
+  },
+  "Worldraid_854/WorldRaid854_Img_UpgradeDeco_08": {
+   "file": "/res/ui/Worldraid_854/WorldRaid854_Img_UpgradeDeco_08.png",
+   "w": 256,
+   "h": 257,
+   "origin": "assetbundle",
+   "atlas": "Worldraid_854",
+   "sprite": "WorldRaid854_Img_UpgradeDeco_08"
+  },
+  "Common/PermanentRaid_Icon_Outdoor": {
+   "file": "/res/ui/Common/PermanentRaid_Icon_Outdoor.png",
+   "w": 62,
+   "h": 46,
+   "origin": "assetbundle",
+   "atlas": "Common",
+   "sprite": "PermanentRaid_Icon_Outdoor"
+  },
+  "Common/PermanentRaid_Img_SelectBg": {
+   "file": "/res/ui/Common/PermanentRaid_Img_SelectBg.png",
+   "w": 22,
+   "h": 22,
+   "origin": "assetbundle",
+   "atlas": "Common",
+   "sprite": "PermanentRaid_Img_SelectBg",
+   "border": [
+    10,
+    12,
+    10,
+    4
+   ]
+  },
+  "Common/PermanentRaid_Icon_Street": {
+   "file": "/res/ui/Common/PermanentRaid_Icon_Street.png",
+   "w": 59,
+   "h": 43,
+   "origin": "assetbundle",
+   "atlas": "Common",
+   "sprite": "PermanentRaid_Icon_Street"
+  },
+  "Common/Loading_d": {
+   "file": "/res/ui/Common/Loading_d.png",
+   "w": 48,
+   "h": 68,
+   "origin": "assetbundle",
+   "atlas": "Common",
+   "sprite": "Loading_d"
+  },
+  "Common/Loading_l": {
+   "file": "/res/ui/Common/Loading_l.png",
+   "w": 49,
+   "h": 70,
+   "origin": "assetbundle",
+   "atlas": "Common",
+   "sprite": "Loading_l"
+  },
+  "Common/Loading_a": {
+   "file": "/res/ui/Common/Loading_a.png",
+   "w": 48,
+   "h": 52,
+   "origin": "assetbundle",
+   "atlas": "Common",
+   "sprite": "Loading_a"
+  },
+  "Common/PermanentRaid_Img_SlotBg": {
+   "file": "/res/ui/Common/PermanentRaid_Img_SlotBg.png",
+   "w": 48,
+   "h": 48,
+   "origin": "assetbundle",
+   "atlas": "Common",
+   "sprite": "PermanentRaid_Img_SlotBg",
+   "border": [
+    18,
+    18,
+    18,
+    24
+   ]
+  },
+  "Common/Loading_w": {
+   "file": "/res/ui/Common/Loading_w.png",
+   "w": 71,
+   "h": 52,
+   "origin": "assetbundle",
+   "atlas": "Common",
+   "sprite": "Loading_w"
+  },
+  "Common/Loading_n1": {
+   "file": "/res/ui/Common/Loading_n1.png",
+   "w": 54,
+   "h": 67,
+   "origin": "assetbundle",
+   "atlas": "Common",
+   "sprite": "Loading_n1"
+  },
+  "Common/PermanentRaid_Img_PersonalRankBg": {
+   "file": "/res/ui/Common/PermanentRaid_Img_PersonalRankBg.png",
+   "w": 115,
+   "h": 28,
+   "origin": "assetbundle",
+   "atlas": "Common",
+   "sprite": "PermanentRaid_Img_PersonalRankBg",
+   "border": [
+    8,
+    10,
+    106,
+    10
+   ]
+  },
+  "Common/PermanentRaid_Img_SlotFrame": {
+   "file": "/res/ui/Common/PermanentRaid_Img_SlotFrame.png",
+   "w": 212,
+   "h": 32,
+   "origin": "assetbundle",
+   "atlas": "Common",
+   "sprite": "PermanentRaid_Img_SlotFrame",
+   "border": [
+    186,
+    12,
+    22,
+    12
+   ]
+  },
+  "Common/PermanentRaid_Img_SelectDeco": {
+   "file": "/res/ui/Common/PermanentRaid_Img_SelectDeco.png",
+   "w": 85,
+   "h": 90,
+   "origin": "assetbundle",
+   "atlas": "Common",
+   "sprite": "PermanentRaid_Img_SelectDeco"
+  },
+  "Common/Loading_i": {
+   "file": "/res/ui/Common/Loading_i.png",
+   "w": 28,
+   "h": 68,
+   "origin": "assetbundle",
+   "atlas": "Common",
+   "sprite": "Loading_i"
+  },
+  "Common/Loading_g": {
+   "file": "/res/ui/Common/Loading_g.png",
+   "w": 47,
+   "h": 69,
+   "origin": "assetbundle",
+   "atlas": "Common",
+   "sprite": "Loading_g"
+  },
+  "Common/PermanentRaid_Icon_PersonalRank": {
+   "file": "/res/ui/Common/PermanentRaid_Icon_PersonalRank.png",
+   "w": 49,
+   "h": 46,
+   "origin": "assetbundle",
+   "atlas": "Common",
+   "sprite": "PermanentRaid_Icon_PersonalRank"
+  },
+  "Checkmark/Checkmark": {
+   "file": "/res/ui/Checkmark/Checkmark_2.png",
+   "w": 24,
+   "h": 22,
+   "origin": "assetbundle",
+   "atlas": "Checkmark",
+   "sprite": "Checkmark"
+  },
+  "UISprite/UISprite": {
+   "file": "/res/ui/UISprite/UISprite.png",
+   "w": 32,
+   "h": 32,
+   "origin": "assetbundle",
+   "atlas": "UISprite",
+   "sprite": "UISprite",
+   "border": [
+    10,
+    10,
+    10,
+    10
+   ]
+  },
+  "Background/Background": {
+   "file": "/res/ui/Background/Background.png",
+   "w": 32,
+   "h": 32,
+   "origin": "assetbundle",
+   "atlas": "Background",
+   "sprite": "Background",
+   "border": [
+    10,
+    10,
+    10,
+    10
+   ]
+  },
+  "InputFieldBackground/InputFieldBackground": {
+   "file": "/res/ui/InputFieldBackground/InputFieldBackground.png",
+   "w": 32,
+   "h": 32,
+   "origin": "assetbundle",
+   "atlas": "InputFieldBackground",
+   "sprite": "InputFieldBackground",
+   "border": [
+    10,
+    10,
+    10,
+    10
+   ]
+  },
+  "UIMask/UIMask": {
+   "file": "/res/ui/UIMask/UIMask.png",
+   "w": 28,
+   "h": 28,
+   "origin": "assetbundle",
+   "atlas": "UIMask",
+   "sprite": "UIMask",
+   "border": [
+    10,
+    10,
+    10,
+    10
+   ]
+  },
+  "icon arrow_hover/icon arrow_hover": {
+   "file": "/res/ui/icon_arrow_hover/icon_arrow_hover.png",
+   "w": 12,
+   "h": 12,
+   "origin": "assetbundle",
+   "atlas": "icon arrow_hover",
+   "sprite": "icon arrow_hover"
+  },
+  "icon_hover_21/icon_hover_21": {
+   "file": "/res/ui/icon_hover_21/icon_hover_21.png",
+   "w": 34,
+   "h": 33,
+   "origin": "assetbundle",
+   "atlas": "icon_hover_21",
+   "sprite": "icon_hover_21"
+  },
+  "icon_hover_19/icon_hover_19": {
+   "file": "/res/ui/icon_hover_19/icon_hover_19.png",
+   "w": 34,
+   "h": 32,
+   "origin": "assetbundle",
+   "atlas": "icon_hover_19",
+   "sprite": "icon_hover_19"
+  },
+  "icon_hover_09/icon_hover_09": {
+   "file": "/res/ui/icon_hover_09/icon_hover_09.png",
+   "w": 34,
+   "h": 33,
+   "origin": "assetbundle",
+   "atlas": "icon_hover_09",
+   "sprite": "icon_hover_09"
+  },
+  "AccountSettings_Icon/AccountSettings_Icon": {
+   "file": "/res/ui/AccountSettings_Icon/AccountSettings_Icon.png",
+   "w": 28,
+   "h": 26,
+   "origin": "assetbundle",
+   "atlas": "AccountSettings_Icon",
+   "sprite": "AccountSettings_Icon"
+  },
+  "indicator16/indicator16": {
+   "file": "/res/ui/indicator16/indicator16.png",
+   "w": 90,
+   "h": 90,
+   "origin": "assetbundle",
+   "atlas": "indicator16",
+   "sprite": "indicator16"
+  },
+  "icon_default_10/icon_default_10": {
+   "file": "/res/ui/icon_default_10/icon_default_10.png",
+   "w": 34,
+   "h": 32,
+   "origin": "assetbundle",
+   "atlas": "icon_default_10",
+   "sprite": "icon_default_10"
+  },
+  "icon_delete_hoverpressed/icon_delete_hoverpressed": {
+   "file": "/res/ui/icon_delete_hoverpressed/icon_delete_hoverpressed.png",
+   "w": 30,
+   "h": 30,
+   "origin": "assetbundle",
+   "atlas": "icon_delete_hoverpressed",
+   "sprite": "icon_delete_hoverpressed"
+  },
+  "@ popup btn close_black_02/@ popup btn close_black_02": {
+   "file": "/res/ui/popup_btn_close_black_02/popup_btn_close_black_02.png",
+   "w": 24,
+   "h": 24,
+   "origin": "assetbundle",
+   "atlas": "@ popup btn close_black_02",
+   "sprite": "@ popup btn close_black_02"
+  },
+  "btn_account_guest/btn_account_guest": {
+   "file": "/res/ui/btn_account_guest/btn_account_guest.png",
+   "w": 76,
+   "h": 80,
+   "origin": "assetbundle",
+   "atlas": "btn_account_guest",
+   "sprite": "btn_account_guest"
+  },
+  "nexon_symbol/nexon_symbol": {
+   "file": "/res/ui/nexon_symbol/nexon_symbol.png",
+   "w": 77,
+   "h": 76,
+   "origin": "assetbundle",
+   "atlas": "nexon_symbol",
+   "sprite": "nexon_symbol"
+  },
+  "icon_check_disabled/icon_check_disabled": {
+   "file": "/res/ui/icon_check_disabled/icon_check_disabled.png",
+   "w": 24,
+   "h": 24,
+   "origin": "assetbundle",
+   "atlas": "icon_check_disabled",
+   "sprite": "icon_check_disabled"
+  },
+  "White1px/White1px": {
+   "file": "/res/ui/White1px/White1px.png",
+   "w": 1,
+   "h": 1,
+   "origin": "assetbundle",
+   "atlas": "White1px",
+   "sprite": "White1px"
+  },
+  "icon_ial_psn/icon_ial_psn": {
+   "file": "/res/ui/icon_ial_psn/icon_ial_psn.png",
+   "w": 176,
+   "h": 177,
+   "origin": "assetbundle",
+   "atlas": "icon_ial_psn",
+   "sprite": "icon_ial_psn"
+  },
+  "Icon_baseplate_mobile/Icon_baseplate_mobile": {
+   "file": "/res/ui/Icon_baseplate_mobile/Icon_baseplate_mobile.png",
+   "w": 20,
+   "h": 20,
+   "origin": "assetbundle",
+   "atlas": "Icon_baseplate_mobile",
+   "sprite": "Icon_baseplate_mobile"
+  },
+  "icon arrow back_black_press_02/icon arrow back_black_press_02": {
+   "file": "/res/ui/icon_arrow_back_black_press_02/icon_arrow_back_black_press_02.png",
+   "w": 34,
+   "h": 34,
+   "origin": "assetbundle",
+   "atlas": "icon arrow back_black_press_02",
+   "sprite": "icon arrow back_black_press_02"
+  },
+  "icon_default_17/icon_default_17": {
+   "file": "/res/ui/icon_default_17/icon_default_17.png",
+   "w": 30,
+   "h": 34,
+   "origin": "assetbundle",
+   "atlas": "icon_default_17",
+   "sprite": "icon_default_17"
+  },
+  "indicator50/indicator50": {
+   "file": "/res/ui/indicator50/indicator50.png",
+   "w": 90,
+   "h": 90,
+   "origin": "assetbundle",
+   "atlas": "indicator50",
+   "sprite": "indicator50"
+  },
+  "icon arrow_press/icon arrow_press": {
+   "file": "/res/ui/icon_arrow_press/icon_arrow_press_2.png",
+   "w": 12,
+   "h": 12,
+   "origin": "assetbundle",
+   "atlas": "icon arrow_press",
+   "sprite": "icon arrow_press"
+  },
+  "icon_crime_72/icon_crime_72": {
+   "file": "/res/ui/icon_crime_72/icon_crime_72.png",
+   "w": 92,
+   "h": 102,
+   "origin": "assetbundle",
+   "atlas": "icon_crime_72",
+   "sprite": "icon_crime_72"
+  },
+  "indicator07/indicator07": {
+   "file": "/res/ui/indicator07/indicator07.png",
+   "w": 90,
+   "h": 90,
+   "origin": "assetbundle",
+   "atlas": "indicator07",
+   "sprite": "indicator07"
+  },
+  "icon_default_27/icon_default_27": {
+   "file": "/res/ui/icon_default_27/icon_default_27.png",
+   "w": 30,
+   "h": 35,
+   "origin": "assetbundle",
+   "atlas": "icon_default_27",
+   "sprite": "icon_default_27"
+  },
+  "indicator41/indicator41": {
+   "file": "/res/ui/indicator41/indicator41.png",
+   "w": 90,
+   "h": 90,
+   "origin": "assetbundle",
+   "atlas": "indicator41",
+   "sprite": "indicator41"
+  },
+  "indicator44/indicator44": {
+   "file": "/res/ui/indicator44/indicator44.png",
+   "w": 90,
+   "h": 90,
+   "origin": "assetbundle",
+   "atlas": "indicator44",
+   "sprite": "indicator44"
+  },
+  "indicator45/indicator45": {
+   "file": "/res/ui/indicator45/indicator45.png",
+   "w": 90,
+   "h": 90,
+   "origin": "assetbundle",
+   "atlas": "indicator45",
+   "sprite": "indicator45"
+  },
+  "icon_hover_06/icon_hover_06": {
+   "file": "/res/ui/icon_hover_06/icon_hover_06.png",
+   "w": 34,
+   "h": 34,
+   "origin": "assetbundle",
+   "atlas": "icon_hover_06",
+   "sprite": "icon_hover_06"
+  },
+  "InspectReferenceArrow/InspectReferenceArrow": {
+   "file": "/res/ui/InspectReferenceArrow/InspectReferenceArrow.png",
+   "w": 32,
+   "h": 30,
+   "origin": "assetbundle",
+   "atlas": "InspectReferenceArrow",
+   "sprite": "InspectReferenceArrow"
+  },
+  "ColorFieldTransparentBg/ColorFieldTransparentBg": {
+   "file": "/res/ui/ColorFieldTransparentBg/ColorFieldTransparentBg.png",
+   "w": 22,
+   "h": 22,
+   "origin": "assetbundle",
+   "atlas": "ColorFieldTransparentBg",
+   "sprite": "ColorFieldTransparentBg"
+  },
+  "icon_default_29/icon_default_29": {
+   "file": "/res/ui/icon_default_29/icon_default_29.png",
+   "w": 32,
+   "h": 34,
+   "origin": "assetbundle",
+   "atlas": "icon_default_29",
+   "sprite": "icon_default_29"
+  },
+  "icon_checked_hover/icon_checked_hover": {
+   "file": "/res/ui/icon_checked_hover/icon_checked_hover.png",
+   "w": 24,
+   "h": 24,
+   "origin": "assetbundle",
+   "atlas": "icon_checked_hover",
+   "sprite": "icon_checked_hover"
+  },
+  "indicator53/indicator53": {
+   "file": "/res/ui/indicator53/indicator53.png",
+   "w": 90,
+   "h": 90,
+   "origin": "assetbundle",
+   "atlas": "indicator53",
+   "sprite": "indicator53"
+  },
+  "indicator43/indicator43": {
+   "file": "/res/ui/indicator43/indicator43.png",
+   "w": 90,
+   "h": 90,
+   "origin": "assetbundle",
+   "atlas": "indicator43",
+   "sprite": "indicator43"
+  },
+  "NEXON_CI/NEXON_CI": {
+   "file": "/res/ui/NEXON_CI/NEXON_CI.png",
+   "w": 264,
+   "h": 80,
+   "origin": "assetbundle",
+   "atlas": "NEXON_CI",
+   "sprite": "NEXON_CI"
+  },
+  "icon_default_20/icon_default_20": {
+   "file": "/res/ui/icon_default_20/icon_default_20.png",
+   "w": 32,
+   "h": 32,
+   "origin": "assetbundle",
+   "atlas": "icon_default_20",
+   "sprite": "icon_default_20"
+  },
+  "icon arrow up_white_press_03/icon arrow up_white_press_03": {
+   "file": "/res/ui/icon_arrow_up_white_press_03/icon_arrow_up_white_press_03.png",
+   "w": 34,
+   "h": 34,
+   "origin": "assetbundle",
+   "atlas": "icon arrow up_white_press_03",
+   "sprite": "icon arrow up_white_press_03"
+  },
+  "indicator11/indicator11": {
+   "file": "/res/ui/indicator11/indicator11.png",
+   "w": 90,
+   "h": 90,
+   "origin": "assetbundle",
+   "atlas": "indicator11",
+   "sprite": "indicator11"
+  },
+  "indicator23/indicator23": {
+   "file": "/res/ui/indicator23/indicator23.png",
+   "w": 90,
+   "h": 90,
+   "origin": "assetbundle",
+   "atlas": "indicator23",
+   "sprite": "indicator23"
+  },
+  "btn_account_apple/btn_account_apple": {
+   "file": "/res/ui/btn_account_apple/btn_account_apple.png",
+   "w": 66,
+   "h": 80,
+   "origin": "assetbundle",
+   "atlas": "btn_account_apple",
+   "sprite": "btn_account_apple"
+  },
+  "icon_default_22/icon_default_22": {
+   "file": "/res/ui/icon_default_22/icon_default_22.png",
+   "w": 34,
+   "h": 35,
+   "origin": "assetbundle",
+   "atlas": "icon_default_22",
+   "sprite": "icon_default_22"
+  },
+  "indicator42/indicator42": {
+   "file": "/res/ui/indicator42/indicator42.png",
+   "w": 90,
+   "h": 90,
+   "origin": "assetbundle",
+   "atlas": "indicator42",
+   "sprite": "indicator42"
+  },
+  "indicator18/indicator18": {
+   "file": "/res/ui/indicator18/indicator18.png",
+   "w": 90,
+   "h": 90,
+   "origin": "assetbundle",
+   "atlas": "indicator18",
+   "sprite": "indicator18"
+  },
+  "icon_hover_22/icon_hover_22": {
+   "file": "/res/ui/icon_hover_22/icon_hover_22.png",
+   "w": 34,
+   "h": 35,
+   "origin": "assetbundle",
+   "atlas": "icon_hover_22",
+   "sprite": "icon_hover_22"
+  },
+  "icon_default_25/icon_default_25": {
+   "file": "/res/ui/icon_default_25/icon_default_25.png",
+   "w": 30,
+   "h": 34,
+   "origin": "assetbundle",
+   "atlas": "icon_default_25",
+   "sprite": "icon_default_25"
+  },
+  "icon_default_28/icon_default_28": {
+   "file": "/res/ui/icon_default_28/icon_default_28.png",
+   "w": 30,
+   "h": 34,
+   "origin": "assetbundle",
+   "atlas": "icon_default_28",
+   "sprite": "icon_default_28"
+  },
+  "common_titlebar_back_normal_gray/common_titlebar_back_normal_gray": {
+   "file": "/res/ui/common_titlebar_back_normal_gray/common_titlebar_back_normal_gray.png",
+   "w": 46,
+   "h": 42,
+   "origin": "assetbundle",
+   "atlas": "common_titlebar_back_normal_gray",
+   "sprite": "common_titlebar_back_normal_gray"
+  },
+  "icon_check_default/icon_check_default": {
+   "file": "/res/ui/icon_check_default/icon_check_default.png",
+   "w": 20,
+   "h": 20,
+   "origin": "assetbundle",
+   "atlas": "icon_check_default",
+   "sprite": "icon_check_default"
+  },
+  "scroll_bar_light/scroll_bar_light": {
+   "file": "/res/ui/scroll_bar_light/scroll_bar_light.png",
+   "w": 4,
+   "h": 50,
+   "origin": "assetbundle",
+   "atlas": "scroll_bar_light",
+   "sprite": "scroll_bar_light"
+  },
+  "indicator31/indicator31": {
+   "file": "/res/ui/indicator31/indicator31.png",
+   "w": 90,
+   "h": 90,
+   "origin": "assetbundle",
+   "atlas": "indicator31",
+   "sprite": "indicator31"
+  },
+  "indicator22/indicator22": {
+   "file": "/res/ui/indicator22/indicator22.png",
+   "w": 90,
+   "h": 90,
+   "origin": "assetbundle",
+   "atlas": "indicator22",
+   "sprite": "indicator22"
+  },
+  "indicator06/indicator06": {
+   "file": "/res/ui/indicator06/indicator06.png",
+   "w": 90,
+   "h": 90,
+   "origin": "assetbundle",
+   "atlas": "indicator06",
+   "sprite": "indicator06"
+  },
+  "indicator10/indicator10": {
+   "file": "/res/ui/indicator10/indicator10.png",
+   "w": 90,
+   "h": 90,
+   "origin": "assetbundle",
+   "atlas": "indicator10",
+   "sprite": "indicator10"
+  },
+  "icon_hover_16/icon_hover_16": {
+   "file": "/res/ui/icon_hover_16/icon_hover_16.png",
+   "w": 30,
+   "h": 34,
+   "origin": "assetbundle",
+   "atlas": "icon_hover_16",
+   "sprite": "icon_hover_16"
+  },
+  "icon_switch_h20_press/icon_switch_h20_press": {
+   "file": "/res/ui/icon_switch_h20_press/icon_switch_h20_press.png",
+   "w": 48,
+   "h": 24,
+   "origin": "assetbundle",
+   "atlas": "icon_switch_h20_press",
+   "sprite": "icon_switch_h20_press"
+  },
+  "indicator47/indicator47": {
+   "file": "/res/ui/indicator47/indicator47.png",
+   "w": 90,
+   "h": 90,
+   "origin": "assetbundle",
+   "atlas": "indicator47",
+   "sprite": "indicator47"
+  },
+  "icon_default_12/icon_default_12": {
+   "file": "/res/ui/icon_default_12/icon_default_12.png",
+   "w": 34,
+   "h": 34,
+   "origin": "assetbundle",
+   "atlas": "icon_default_12",
+   "sprite": "icon_default_12"
+  },
+  "icon arrow/icon arrow": {
+   "file": "/res/ui/icon_arrow/icon_arrow_2.png",
+   "w": 12,
+   "h": 12,
+   "origin": "assetbundle",
+   "atlas": "icon arrow",
+   "sprite": "icon arrow"
+  },
+  "icon_default_06/icon_default_06": {
+   "file": "/res/ui/icon_default_06/icon_default_06.png",
+   "w": 34,
+   "h": 34,
+   "origin": "assetbundle",
+   "atlas": "icon_default_06",
+   "sprite": "icon_default_06"
+  },
+  "AccountSettings_Timer/AccountSettings_Timer": {
+   "file": "/res/ui/AccountSettings_Timer/AccountSettings_Timer.png",
+   "w": 18,
+   "h": 18,
+   "origin": "assetbundle",
+   "atlas": "AccountSettings_Timer",
+   "sprite": "AccountSettings_Timer"
+  },
+  "common_bullet/common_bullet": {
+   "file": "/res/ui/common_bullet/common_bullet.png",
+   "w": 3,
+   "h": 4,
+   "origin": "assetbundle",
+   "atlas": "common_bullet",
+   "sprite": "common_bullet"
+  },
+  "icon_check_press/icon_check_press": {
+   "file": "/res/ui/icon_check_press/icon_check_press.png",
+   "w": 20,
+   "h": 20,
+   "origin": "assetbundle",
+   "atlas": "icon_check_press",
+   "sprite": "icon_check_press"
+  },
+  "icon_default_31/icon_default_31": {
+   "file": "/res/ui/icon_default_31/icon_default_31.png",
+   "w": 36,
+   "h": 32,
+   "origin": "assetbundle",
+   "atlas": "icon_default_31",
+   "sprite": "icon_default_31"
+  },
+  "indicator37/indicator37": {
+   "file": "/res/ui/indicator37/indicator37.png",
+   "w": 90,
+   "h": 90,
+   "origin": "assetbundle",
+   "atlas": "indicator37",
+   "sprite": "indicator37"
+  },
+  "btn_account_naver/btn_account_naver": {
+   "file": "/res/ui/btn_account_naver/btn_account_naver.png",
+   "w": 80,
+   "h": 80,
+   "origin": "assetbundle",
+   "atlas": "btn_account_naver",
+   "sprite": "btn_account_naver"
+  },
+  "icon_hover_29/icon_hover_29": {
+   "file": "/res/ui/icon_hover_29/icon_hover_29.png",
+   "w": 32,
+   "h": 34,
+   "origin": "assetbundle",
+   "atlas": "icon_hover_29",
+   "sprite": "icon_hover_29"
+  },
+  "indicator12/indicator12": {
+   "file": "/res/ui/indicator12/indicator12.png",
+   "w": 90,
+   "h": 90,
+   "origin": "assetbundle",
+   "atlas": "indicator12",
+   "sprite": "indicator12"
+  },
+  "icon_hover_11/icon_hover_11": {
+   "file": "/res/ui/icon_hover_11/icon_hover_11.png",
+   "w": 35,
+   "h": 35,
+   "origin": "assetbundle",
+   "atlas": "icon_hover_11",
+   "sprite": "icon_hover_11"
+  },
+  "icon_hover_31/icon_hover_31": {
+   "file": "/res/ui/icon_hover_31/icon_hover_31.png",
+   "w": 36,
+   "h": 32,
+   "origin": "assetbundle",
+   "atlas": "icon_hover_31",
+   "sprite": "icon_hover_31"
+  },
+  "indicator33/indicator33": {
+   "file": "/res/ui/indicator33/indicator33.png",
+   "w": 90,
+   "h": 90,
+   "origin": "assetbundle",
+   "atlas": "indicator33",
+   "sprite": "indicator33"
+  },
+  "icon_default_18/icon_default_18": {
+   "file": "/res/ui/icon_default_18/icon_default_18.png",
+   "w": 30,
+   "h": 34,
+   "origin": "assetbundle",
+   "atlas": "icon_default_18",
+   "sprite": "icon_default_18"
+  },
+  "indicator08/indicator08": {
+   "file": "/res/ui/indicator08/indicator08.png",
+   "w": 90,
+   "h": 90,
+   "origin": "assetbundle",
+   "atlas": "indicator08",
+   "sprite": "indicator08"
+  },
+  "icon_hover_03/icon_hover_03": {
+   "file": "/res/ui/icon_hover_03/icon_hover_03.png",
+   "w": 32,
+   "h": 34,
+   "origin": "assetbundle",
+   "atlas": "icon_hover_03",
+   "sprite": "icon_hover_03"
+  },
+  "icon_logo_apple/icon_logo_apple": {
+   "file": "/res/ui/icon_logo_apple/icon_logo_apple.png",
+   "w": 102,
+   "h": 102,
+   "origin": "assetbundle",
+   "atlas": "icon_logo_apple",
+   "sprite": "icon_logo_apple"
+  },
+  "@ popup btn close_white_press_01/@ popup btn close_white_press_01": {
+   "file": "/res/ui/popup_btn_close_white_press_01/popup_btn_close_white_press_01.png",
+   "w": 34,
+   "h": 34,
+   "origin": "assetbundle",
+   "atlas": "@ popup btn close_white_press_01",
+   "sprite": "@ popup btn close_white_press_01"
+  },
+  "ic_wait_dialog/ic_wait_dialog": {
+   "file": "/res/ui/ic_wait_dialog/ic_wait_dialog.png",
+   "w": 81,
+   "h": 81,
+   "origin": "assetbundle",
+   "atlas": "ic_wait_dialog",
+   "sprite": "ic_wait_dialog"
+  },
+  "indicator55/indicator55": {
+   "file": "/res/ui/indicator55/indicator55.png",
+   "w": 90,
+   "h": 90,
+   "origin": "assetbundle",
+   "atlas": "indicator55",
+   "sprite": "indicator55"
+  },
+  "icon_violence_72/icon_violence_72": {
+   "file": "/res/ui/icon_violence_72/icon_violence_72.png",
+   "w": 92,
+   "h": 102,
+   "origin": "assetbundle",
+   "atlas": "icon_violence_72",
+   "sprite": "icon_violence_72"
+  },
+  "icon_logo_facebook/icon_logo_facebook": {
+   "file": "/res/ui/icon_logo_facebook/icon_logo_facebook.png",
+   "w": 102,
+   "h": 102,
+   "origin": "assetbundle",
+   "atlas": "icon_logo_facebook",
+   "sprite": "icon_logo_facebook"
+  },
+  "bg_timer/bg_timer": {
+   "file": "/res/ui/bg_timer/bg_timer.png",
+   "w": 147,
+   "h": 48,
+   "origin": "assetbundle",
+   "atlas": "bg_timer",
+   "sprite": "bg_timer"
+  },
+  "icon_uncheck_pressed/icon_uncheck_pressed": {
+   "file": "/res/ui/icon_uncheck_pressed/icon_uncheck_pressed.png",
+   "w": 24,
+   "h": 24,
+   "origin": "assetbundle",
+   "atlas": "icon_uncheck_pressed",
+   "sprite": "icon_uncheck_pressed"
+  },
+  "indicator28/indicator28": {
+   "file": "/res/ui/indicator28/indicator28.png",
+   "w": 90,
+   "h": 90,
+   "origin": "assetbundle",
+   "atlas": "indicator28",
+   "sprite": "indicator28"
+  },
+  "image_corner/image_corner": {
+   "file": "/res/ui/image_corner/image_corner.png",
+   "w": 8,
+   "h": 8,
+   "origin": "assetbundle",
+   "atlas": "image_corner",
+   "sprite": "image_corner"
+  },
+  "icon arrow back_black_default_02/icon arrow back_black_default_02": {
+   "file": "/res/ui/icon_arrow_back_black_default_02/icon_arrow_back_black_default_02.png",
+   "w": 28,
+   "h": 24,
+   "origin": "assetbundle",
+   "atlas": "icon arrow back_black_default_02",
+   "sprite": "icon arrow back_black_default_02"
+  },
+  "indicator48/indicator48": {
+   "file": "/res/ui/indicator48/indicator48.png",
+   "w": 90,
+   "h": 90,
+   "origin": "assetbundle",
+   "atlas": "indicator48",
+   "sprite": "indicator48"
+  },
+  "icon_checked_default/icon_checked_default": {
+   "file": "/res/ui/icon_checked_default/icon_checked_default.png",
+   "w": 24,
+   "h": 24,
+   "origin": "assetbundle",
+   "atlas": "icon_checked_default",
+   "sprite": "icon_checked_default"
+  },
+  "@ popup btn close_white_01/@ popup btn close_white_01": {
+   "file": "/res/ui/popup_btn_close_white_01/popup_btn_close_white_01.png",
+   "w": 34,
+   "h": 34,
+   "origin": "assetbundle",
+   "atlas": "@ popup btn close_white_01",
+   "sprite": "@ popup btn close_white_01"
+  },
+  "icon_check_hover/icon_check_hover": {
+   "file": "/res/ui/icon_check_hover/icon_check_hover.png",
+   "w": 20,
+   "h": 20,
+   "origin": "assetbundle",
+   "atlas": "icon_check_hover",
+   "sprite": "icon_check_hover"
+  },
+  "icon_unchecked_hover/icon_unchecked_hover": {
+   "file": "/res/ui/icon_unchecked_hover/icon_unchecked_hover_2.png",
+   "w": 24,
+   "h": 24,
+   "origin": "assetbundle",
+   "atlas": "icon_unchecked_hover",
+   "sprite": "icon_unchecked_hover"
+  },
+  "icon_check_pressed/icon_check_pressed": {
+   "file": "/res/ui/icon_check_pressed/icon_check_pressed.png",
+   "w": 24,
+   "h": 24,
+   "origin": "assetbundle",
+   "atlas": "icon_check_pressed",
+   "sprite": "icon_check_pressed"
+  },
+  "indicator17/indicator17": {
+   "file": "/res/ui/indicator17/indicator17.png",
+   "w": 90,
+   "h": 90,
+   "origin": "assetbundle",
+   "atlas": "indicator17",
+   "sprite": "indicator17"
+  },
+  "icon arrow up_04/icon arrow up_04": {
+   "file": "/res/ui/icon_arrow_up_04/icon_arrow_up_04.png",
+   "w": 34,
+   "h": 34,
+   "origin": "assetbundle",
+   "atlas": "icon arrow up_04",
+   "sprite": "icon arrow up_04"
+  },
+  "icon arrow up_white_03/icon arrow up_white_03": {
+   "file": "/res/ui/icon_arrow_up_white_03/icon_arrow_up_white_03.png",
+   "w": 28,
+   "h": 24,
+   "origin": "assetbundle",
+   "atlas": "icon arrow up_white_03",
+   "sprite": "icon arrow up_white_03"
+  },
+  "icon_all_72/icon_all_72": {
+   "file": "/res/ui/icon_all_72/icon_all_72.png",
+   "w": 92,
+   "h": 102,
+   "origin": "assetbundle",
+   "atlas": "icon_all_72",
+   "sprite": "icon_all_72"
+  },
+  "indicator32/indicator32": {
+   "file": "/res/ui/indicator32/indicator32.png",
+   "w": 90,
+   "h": 90,
+   "origin": "assetbundle",
+   "atlas": "indicator32",
+   "sprite": "indicator32"
+  },
+  "ColorFieldBg/ColorFieldBg": {
+   "file": "/res/ui/ColorFieldBg/ColorFieldBg.png",
+   "w": 32,
+   "h": 32,
+   "origin": "assetbundle",
+   "atlas": "ColorFieldBg",
+   "sprite": "ColorFieldBg",
+   "border": [
+    10,
+    10,
+    10,
+    10
+   ]
+  },
+  "indicator21/indicator21": {
+   "file": "/res/ui/indicator21/indicator21.png",
+   "w": 90,
+   "h": 90,
+   "origin": "assetbundle",
+   "atlas": "indicator21",
+   "sprite": "indicator21"
+  },
+  "icon_ial_epic/icon_ial_epic": {
+   "file": "/res/ui/icon_ial_epic/icon_ial_epic.png",
+   "w": 176,
+   "h": 177,
+   "origin": "assetbundle",
+   "atlas": "icon_ial_epic",
+   "sprite": "icon_ial_epic"
+  },
+  "AccountSettings_Title/AccountSettings_Title": {
+   "file": "/res/ui/AccountSettings_Title/AccountSettings_Title.png",
+   "w": 92,
+   "h": 15,
+   "origin": "assetbundle",
+   "atlas": "AccountSettings_Title",
+   "sprite": "AccountSettings_Title"
+  },
+  "btn_account_playgame_white/btn_account_playgame_white": {
+   "file": "/res/ui/btn_account_playgame_white/btn_account_playgame_white.png",
+   "w": 80,
+   "h": 61,
+   "origin": "assetbundle",
+   "atlas": "btn_account_playgame_white",
+   "sprite": "btn_account_playgame_white"
+  },
+  "icon_unchecked_disabled/icon_unchecked_disabled": {
+   "file": "/res/ui/icon_unchecked_disabled/icon_unchecked_disabled.png",
+   "w": 24,
+   "h": 24,
+   "origin": "assetbundle",
+   "atlas": "icon_unchecked_disabled",
+   "sprite": "icon_unchecked_disabled"
+  },
+  "icon_ial_steam/icon_ial_steam": {
+   "file": "/res/ui/icon_ial_steam/icon_ial_steam.png",
+   "w": 176,
+   "h": 177,
+   "origin": "assetbundle",
+   "atlas": "icon_ial_steam",
+   "sprite": "icon_ial_steam"
+  },
+  "indicator34/indicator34": {
+   "file": "/res/ui/indicator34/indicator34.png",
+   "w": 90,
+   "h": 90,
+   "origin": "assetbundle",
+   "atlas": "indicator34",
+   "sprite": "indicator34"
+  },
+  "icon_switch_h20_default/icon_switch_h20_default": {
+   "file": "/res/ui/icon_switch_h20_default/icon_switch_h20_default.png",
+   "w": 48,
+   "h": 24,
+   "origin": "assetbundle",
+   "atlas": "icon_switch_h20_default",
+   "sprite": "icon_switch_h20_default"
+  },
+  "btn_account_facebook/btn_account_facebook": {
+   "file": "/res/ui/btn_account_facebook/btn_account_facebook.png",
+   "w": 80,
+   "h": 80,
+   "origin": "assetbundle",
+   "atlas": "btn_account_facebook",
+   "sprite": "btn_account_facebook"
+  },
+  "icon_hover_07/icon_hover_07": {
+   "file": "/res/ui/icon_hover_07/icon_hover_07.png",
+   "w": 32,
+   "h": 34,
+   "origin": "assetbundle",
+   "atlas": "icon_hover_07",
+   "sprite": "icon_hover_07"
+  },
+  "icon_hover_18/icon_hover_18": {
+   "file": "/res/ui/icon_hover_18/icon_hover_18.png",
+   "w": 30,
+   "h": 34,
+   "origin": "assetbundle",
+   "atlas": "icon_hover_18",
+   "sprite": "icon_hover_18"
+  },
+  "icon_ial_Refresh/icon_ial_Refresh": {
+   "file": "/res/ui/icon_ial_Refresh/icon_ial_Refresh.png",
+   "w": 64,
+   "h": 64,
+   "origin": "assetbundle",
+   "atlas": "icon_ial_Refresh",
+   "sprite": "icon_ial_Refresh"
+  },
+  "icon arrow up_hover_04/icon arrow up_hover_04": {
+   "file": "/res/ui/icon_arrow_up_hover_04/icon_arrow_up_hover_04.png",
+   "w": 34,
+   "h": 34,
+   "origin": "assetbundle",
+   "atlas": "icon arrow up_hover_04",
+   "sprite": "icon arrow up_hover_04"
+  },
+  "indicator14/indicator14": {
+   "file": "/res/ui/indicator14/indicator14.png",
+   "w": 90,
+   "h": 90,
+   "origin": "assetbundle",
+   "atlas": "indicator14",
+   "sprite": "indicator14"
+  },
+  "icon_logo_twitter/icon_logo_twitter": {
+   "file": "/res/ui/icon_logo_twitter/icon_logo_twitter.png",
+   "w": 102,
+   "h": 102,
+   "origin": "assetbundle",
+   "atlas": "icon_logo_twitter",
+   "sprite": "icon_logo_twitter"
+  },
+  "btn_account_nexon/btn_account_nexon": {
+   "file": "/res/ui/btn_account_nexon/btn_account_nexon.png",
+   "w": 79,
+   "h": 80,
+   "origin": "assetbundle",
+   "atlas": "btn_account_nexon",
+   "sprite": "btn_account_nexon"
+  },
+  "AccountSettings_CodeButton_Background/AccountSettings_CodeButton_Background": {
+   "file": "/res/ui/AccountSettings_CodeButton_Background/AccountSettings_CodeButton_Background.png",
+   "w": 410,
+   "h": 60,
+   "origin": "assetbundle",
+   "atlas": "AccountSettings_CodeButton_Background",
+   "sprite": "AccountSettings_CodeButton_Background"
+  },
+  "icon_checked_Press/icon_checked_Press": {
+   "file": "/res/ui/icon_checked_Press/icon_checked_Press.png",
+   "w": 24,
+   "h": 24,
+   "origin": "assetbundle",
+   "atlas": "icon_checked_Press",
+   "sprite": "icon_checked_Press"
+  },
+  "SliderThumb/SliderThumb": {
+   "file": "/res/ui/SliderThumb/SliderThumb.png",
+   "w": 32,
+   "h": 32,
+   "origin": "assetbundle",
+   "atlas": "SliderThumb",
+   "sprite": "SliderThumb"
+  },
+  "White/White": {
+   "file": "/res/ui/White/White.png",
+   "w": 32,
+   "h": 32,
+   "origin": "assetbundle",
+   "atlas": "White",
+   "sprite": "White"
+  },
+  "UIFoldoutClosed/UIFoldoutClosed": {
+   "file": "/res/ui/UIFoldoutClosed/UIFoldoutClosed.png",
+   "w": 11,
+   "h": 11,
+   "origin": "assetbundle",
+   "atlas": "UIFoldoutClosed",
+   "sprite": "UIFoldoutClosed"
+  },
+  "btn_account_google/btn_account_google": {
+   "file": "/res/ui/btn_account_google/btn_account_google.png",
+   "w": 79,
+   "h": 80,
+   "origin": "assetbundle",
+   "atlas": "btn_account_google",
+   "sprite": "btn_account_google"
+  },
+  "icon_logo_line/icon_logo_line": {
+   "file": "/res/ui/icon_logo_line/icon_logo_line.png",
+   "w": 102,
+   "h": 102,
+   "origin": "assetbundle",
+   "atlas": "icon_logo_line",
+   "sprite": "icon_logo_line"
+  },
+  "icon_hover_25/icon_hover_25": {
+   "file": "/res/ui/icon_hover_25/icon_hover_25.png",
+   "w": 30,
+   "h": 34,
+   "origin": "assetbundle",
+   "atlas": "icon_hover_25",
+   "sprite": "icon_hover_25"
+  },
+  "AccountSettings_Icon_Standard/AccountSettings_Icon_Standard": {
+   "file": "/res/ui/AccountSettings_Icon_Standard/AccountSettings_Icon_Standard.png",
+   "w": 305,
+   "h": 305,
+   "origin": "assetbundle",
+   "atlas": "AccountSettings_Icon_Standard",
+   "sprite": "AccountSettings_Icon_Standard"
+  },
+  "indicator54/indicator54": {
+   "file": "/res/ui/indicator54/indicator54.png",
+   "w": 90,
+   "h": 90,
+   "origin": "assetbundle",
+   "atlas": "indicator54",
+   "sprite": "indicator54"
+  },
+  "indicator29/indicator29": {
+   "file": "/res/ui/indicator29/indicator29.png",
+   "w": 90,
+   "h": 90,
+   "origin": "assetbundle",
+   "atlas": "indicator29",
+   "sprite": "indicator29"
+  },
+  "icon_unchecked_press/icon_unchecked_press": {
+   "file": "/res/ui/icon_unchecked_press/icon_unchecked_press_2.png",
+   "w": 24,
+   "h": 24,
+   "origin": "assetbundle",
+   "atlas": "icon_unchecked_press",
+   "sprite": "icon_unchecked_press"
+  },
+  "indicator26/indicator26": {
+   "file": "/res/ui/indicator26/indicator26.png",
+   "w": 90,
+   "h": 90,
+   "origin": "assetbundle",
+   "atlas": "indicator26",
+   "sprite": "indicator26"
+  },
+  "icon_hover_27/icon_hover_27": {
+   "file": "/res/ui/icon_hover_27/icon_hover_27.png",
+   "w": 30,
+   "h": 35,
+   "origin": "assetbundle",
+   "atlas": "icon_hover_27",
+   "sprite": "icon_hover_27"
+  },
+  "icon_hover_26/icon_hover_26": {
+   "file": "/res/ui/icon_hover_26/icon_hover_26.png",
+   "w": 36,
+   "h": 34,
+   "origin": "assetbundle",
+   "atlas": "icon_hover_26",
+   "sprite": "icon_hover_26"
+  },
+  "icon_hover_24/icon_hover_24": {
+   "file": "/res/ui/icon_hover_24/icon_hover_24.png",
+   "w": 32,
+   "h": 30,
+   "origin": "assetbundle",
+   "atlas": "icon_hover_24",
+   "sprite": "icon_hover_24"
+  },
+  "icon arrow up_white_hover_03/icon arrow up_white_hover_03": {
+   "file": "/res/ui/icon_arrow_up_white_hover_03/icon_arrow_up_white_hover_03.png",
+   "w": 34,
+   "h": 34,
+   "origin": "assetbundle",
+   "atlas": "icon arrow up_white_hover_03",
+   "sprite": "icon arrow up_white_hover_03"
+  },
+  "icon_hover_20/icon_hover_20": {
+   "file": "/res/ui/icon_hover_20/icon_hover_20.png",
+   "w": 32,
+   "h": 32,
+   "origin": "assetbundle",
+   "atlas": "icon_hover_20",
+   "sprite": "icon_hover_20"
+  },
+  "icon_sexuality_72/icon_sexuality_72": {
+   "file": "/res/ui/icon_sexuality_72/icon_sexuality_72.png",
+   "w": 92,
+   "h": 102,
+   "origin": "assetbundle",
+   "atlas": "icon_sexuality_72",
+   "sprite": "icon_sexuality_72"
+  },
+  "icon_question/icon_question": {
+   "file": "/res/ui/icon_question/icon_question.png",
+   "w": 24,
+   "h": 24,
+   "origin": "assetbundle",
+   "atlas": "icon_question",
+   "sprite": "icon_question"
+  },
+  "icon_default_26/icon_default_26": {
+   "file": "/res/ui/icon_default_26/icon_default_26.png",
+   "w": 36,
+   "h": 34,
+   "origin": "assetbundle",
+   "atlas": "icon_default_26",
+   "sprite": "icon_default_26"
+  },
+  "indicator38/indicator38": {
+   "file": "/res/ui/indicator38/indicator38.png",
+   "w": 90,
+   "h": 90,
+   "origin": "assetbundle",
+   "atlas": "indicator38",
+   "sprite": "indicator38"
+  },
+  "common_titlebar_close_normal_gray/common_titlebar_close_normal_gray": {
+   "file": "/res/ui/common_titlebar_close_normal_gray/common_titlebar_close_normal_gray.png",
+   "w": 40,
+   "h": 40,
+   "origin": "assetbundle",
+   "atlas": "common_titlebar_close_normal_gray",
+   "sprite": "common_titlebar_close_normal_gray"
+  },
+  "icon_language_72/icon_language_72": {
+   "file": "/res/ui/icon_language_72/icon_language_72.png",
+   "w": 92,
+   "h": 102,
+   "origin": "assetbundle",
+   "atlas": "icon_language_72",
+   "sprite": "icon_language_72"
+  },
+  "icon_default_16/icon_default_16": {
+   "file": "/res/ui/icon_default_16/icon_default_16.png",
+   "w": 30,
+   "h": 34,
+   "origin": "assetbundle",
+   "atlas": "icon_default_16",
+   "sprite": "icon_default_16"
+  },
+  "indicator39/indicator39": {
+   "file": "/res/ui/indicator39/indicator39.png",
+   "w": 90,
+   "h": 90,
+   "origin": "assetbundle",
+   "atlas": "indicator39",
+   "sprite": "indicator39"
+  },
+  "@ popup btn close/@ popup btn close": {
+   "file": "/res/ui/popup_btn_close/popup_btn_close.png",
+   "w": 24,
+   "h": 24,
+   "origin": "assetbundle",
+   "atlas": "@ popup btn close",
+   "sprite": "@ popup btn close"
+  },
+  "icon_default_24/icon_default_24": {
+   "file": "/res/ui/icon_default_24/icon_default_24.png",
+   "w": 32,
+   "h": 30,
+   "origin": "assetbundle",
+   "atlas": "icon_default_24",
+   "sprite": "icon_default_24"
+  },
+  "icon arrow up/icon arrow up 03": {
+   "file": "/res/ui/icon_arrow_up/icon_arrow_up_03.png",
+   "w": 28,
+   "h": 24,
+   "origin": "assetbundle",
+   "atlas": "icon arrow up",
+   "sprite": "icon arrow up 03"
+  },
+  "icon_hover_28/icon_hover_28": {
+   "file": "/res/ui/icon_hover_28/icon_hover_28.png",
+   "w": 30,
+   "h": 34,
+   "origin": "assetbundle",
+   "atlas": "icon_hover_28",
+   "sprite": "icon_hover_28"
+  },
+  "icon_logo_nexon/icon_logo_nexon": {
+   "file": "/res/ui/icon_logo_nexon/icon_logo_nexon.png",
+   "w": 102,
+   "h": 102,
+   "origin": "assetbundle",
+   "atlas": "icon_logo_nexon",
+   "sprite": "icon_logo_nexon"
+  },
+  "icon_default_15/icon_default_15": {
+   "file": "/res/ui/icon_default_15/icon_default_15.png",
+   "w": 30,
+   "h": 34,
+   "origin": "assetbundle",
+   "atlas": "icon_default_15",
+   "sprite": "icon_default_15"
+  },
+  "scroll_bar_dark/scroll_bar_dark": {
+   "file": "/res/ui/scroll_bar_dark/scroll_bar_dark.png",
+   "w": 4,
+   "h": 50,
+   "origin": "assetbundle",
+   "atlas": "scroll_bar_dark",
+   "sprite": "scroll_bar_dark"
+  },
+  "indicator49/indicator49": {
+   "file": "/res/ui/indicator49/indicator49.png",
+   "w": 90,
+   "h": 90,
+   "origin": "assetbundle",
+   "atlas": "indicator49",
+   "sprite": "indicator49"
+  },
+  "icon_hover_10/icon_hover_10": {
+   "file": "/res/ui/icon_hover_10/icon_hover_10.png",
+   "w": 34,
+   "h": 32,
+   "origin": "assetbundle",
+   "atlas": "icon_hover_10",
+   "sprite": "icon_hover_10"
+  },
+  "indicator24/indicator24": {
+   "file": "/res/ui/indicator24/indicator24.png",
+   "w": 90,
+   "h": 90,
+   "origin": "assetbundle",
+   "atlas": "indicator24",
+   "sprite": "indicator24"
+  },
+  "popup_btn_close_white_01/popup_btn_close_white_01": {
+   "file": "/res/ui/popup_btn_close_white_01/popup_btn_close_white_01.png",
+   "w": 24,
+   "h": 24,
+   "origin": "assetbundle",
+   "atlas": "popup_btn_close_white_01",
+   "sprite": "popup_btn_close_white_01"
+  },
+  "SliderBg/SliderBg": {
+   "file": "/res/ui/SliderBg/SliderBg.png",
+   "w": 32,
+   "h": 16,
+   "origin": "assetbundle",
+   "atlas": "SliderBg",
+   "sprite": "SliderBg",
+   "border": [
+    8,
+    5,
+    8,
+    5
+   ]
+  },
+  "@ popup btn close_black_hover_02/@ popup btn close_black_hover_02": {
+   "file": "/res/ui/popup_btn_close_black_hover_02/popup_btn_close_black_hover_02.png",
+   "w": 34,
+   "h": 34,
+   "origin": "assetbundle",
+   "atlas": "@ popup btn close_black_hover_02",
+   "sprite": "@ popup btn close_black_hover_02"
+  },
+  "indicator40/indicator40": {
+   "file": "/res/ui/indicator40/indicator40.png",
+   "w": 90,
+   "h": 90,
+   "origin": "assetbundle",
+   "atlas": "indicator40",
+   "sprite": "indicator40"
+  },
+  "ExpandArrow/ExpandArrow": {
+   "file": "/res/ui/ExpandArrow/ExpandArrow.png",
+   "w": 32,
+   "h": 32,
+   "origin": "assetbundle",
+   "atlas": "ExpandArrow",
+   "sprite": "ExpandArrow"
+  },
+  "icon_default_03/icon_default_03": {
+   "file": "/res/ui/icon_default_03/icon_default_03.png",
+   "w": 32,
+   "h": 34,
+   "origin": "assetbundle",
+   "atlas": "icon_default_03",
+   "sprite": "icon_default_03"
+  },
+  "indicator19/indicator19": {
+   "file": "/res/ui/indicator19/indicator19.png",
+   "w": 90,
+   "h": 90,
+   "origin": "assetbundle",
+   "atlas": "indicator19",
+   "sprite": "indicator19"
+  },
+  "indicator36/indicator36": {
+   "file": "/res/ui/indicator36/indicator36.png",
+   "w": 90,
+   "h": 90,
+   "origin": "assetbundle",
+   "atlas": "indicator36",
+   "sprite": "indicator36"
+  },
+  "indicator25/indicator25": {
+   "file": "/res/ui/indicator25/indicator25.png",
+   "w": 90,
+   "h": 90,
+   "origin": "assetbundle",
+   "atlas": "indicator25",
+   "sprite": "indicator25"
+  },
+  "indicator30/indicator30": {
+   "file": "/res/ui/indicator30/indicator30.png",
+   "w": 90,
+   "h": 90,
+   "origin": "assetbundle",
+   "atlas": "indicator30",
+   "sprite": "indicator30"
+  },
+  "UIFoldoutOpened/UIFoldoutOpened": {
+   "file": "/res/ui/UIFoldoutOpened/UIFoldoutOpened.png",
+   "w": 11,
+   "h": 11,
+   "origin": "assetbundle",
+   "atlas": "UIFoldoutOpened",
+   "sprite": "UIFoldoutOpened"
+  },
+  "DragAndDropBg/DragAndDropBg": {
+   "file": "/res/ui/DragAndDropBg/DragAndDropBg.png",
+   "w": 32,
+   "h": 32,
+   "origin": "assetbundle",
+   "atlas": "DragAndDropBg",
+   "sprite": "DragAndDropBg",
+   "border": [
+    3,
+    3,
+    3,
+    3
+   ]
+  },
+  "icon_12_72/icon_12_72": {
+   "file": "/res/ui/icon_12_72/icon_12_72.png",
+   "w": 92,
+   "h": 102,
+   "origin": "assetbundle",
+   "atlas": "icon_12_72",
+   "sprite": "icon_12_72"
+  },
+  "icon_hover_14/icon_hover_14": {
+   "file": "/res/ui/icon_hover_14/icon_hover_14.png",
+   "w": 30,
+   "h": 34,
+   "origin": "assetbundle",
+   "atlas": "icon_hover_14",
+   "sprite": "icon_hover_14"
+  },
+  "icon_logo_google_play_game/icon_logo_google_play_game": {
+   "file": "/res/ui/icon_logo_google_play_game/icon_logo_google_play_game.png",
+   "w": 102,
+   "h": 102,
+   "origin": "assetbundle",
+   "atlas": "icon_logo_google_play_game",
+   "sprite": "icon_logo_google_play_game"
+  },
+  "icon_default_13/icon_default_13": {
+   "file": "/res/ui/icon_default_13/icon_default_13.png",
+   "w": 36,
+   "h": 28,
+   "origin": "assetbundle",
+   "atlas": "icon_default_13",
+   "sprite": "icon_default_13"
+  },
+  "icon_hover_12/icon_hover_12": {
+   "file": "/res/ui/icon_hover_12/icon_hover_12.png",
+   "w": 34,
+   "h": 34,
+   "origin": "assetbundle",
+   "atlas": "icon_hover_12",
+   "sprite": "icon_hover_12"
+  },
+  "btn_account_email/btn_account_email": {
+   "file": "/res/ui/btn_account_email/btn_account_email.png",
+   "w": 80,
+   "h": 67,
+   "origin": "assetbundle",
+   "atlas": "btn_account_email",
+   "sprite": "btn_account_email"
+  },
+  "icon_default_08/icon_default_08": {
+   "file": "/res/ui/icon_default_08/icon_default_08.png",
+   "w": 36,
+   "h": 35,
+   "origin": "assetbundle",
+   "atlas": "icon_default_08",
+   "sprite": "icon_default_08"
+  },
+  "UICheckMark/UICheckMark": {
+   "file": "/res/ui/UICheckMark/UICheckMark.png",
+   "w": 11,
+   "h": 11,
+   "origin": "assetbundle",
+   "atlas": "UICheckMark",
+   "sprite": "UICheckMark"
+  },
+  "indicator52/indicator52": {
+   "file": "/res/ui/indicator52/indicator52.png",
+   "w": 90,
+   "h": 90,
+   "origin": "assetbundle",
+   "atlas": "indicator52",
+   "sprite": "indicator52"
+  },
+  "indicator13/indicator13": {
+   "file": "/res/ui/indicator13/indicator13.png",
+   "w": 90,
+   "h": 90,
+   "origin": "assetbundle",
+   "atlas": "indicator13",
+   "sprite": "indicator13"
+  },
+  "icon_unchecked_default/icon_unchecked_default": {
+   "file": "/res/ui/icon_unchecked_default/icon_unchecked_default_2.png",
+   "w": 20,
+   "h": 20,
+   "origin": "assetbundle",
+   "atlas": "icon_unchecked_default",
+   "sprite": "icon_unchecked_default"
+  },
+  "icon arrow up_press_04/icon arrow up_press_04": {
+   "file": "/res/ui/icon_arrow_up_press_04/icon_arrow_up_press_04.png",
+   "w": 34,
+   "h": 34,
+   "origin": "assetbundle",
+   "atlas": "icon arrow up_press_04",
+   "sprite": "icon arrow up_press_04"
+  },
+  "icon_ial_epicgames/icon_ial_epicgames": {
+   "file": "/res/ui/icon_ial_epicgames/icon_ial_epicgames.png",
+   "w": 176,
+   "h": 177,
+   "origin": "assetbundle",
+   "atlas": "icon_ial_epicgames",
+   "sprite": "icon_ial_epicgames"
+  },
+  "indicator56/indicator56": {
+   "file": "/res/ui/indicator56/indicator56.png",
+   "w": 90,
+   "h": 90,
+   "origin": "assetbundle",
+   "atlas": "indicator56",
+   "sprite": "indicator56"
+  },
+  "icon_hover_05/icon_hover_05": {
+   "file": "/res/ui/icon_hover_05/icon_hover_05.png",
+   "w": 28,
+   "h": 32,
+   "origin": "assetbundle",
+   "atlas": "icon_hover_05",
+   "sprite": "icon_hover_05"
+  },
+  "icon_default_14/icon_default_14": {
+   "file": "/res/ui/icon_default_14/icon_default_14.png",
+   "w": 30,
+   "h": 34,
+   "origin": "assetbundle",
+   "atlas": "icon_default_14",
+   "sprite": "icon_default_14"
+  },
+  "icon_hover_13/icon_hover_13": {
+   "file": "/res/ui/icon_hover_13/icon_hover_13.png",
+   "w": 36,
+   "h": 28,
+   "origin": "assetbundle",
+   "atlas": "icon_hover_13",
+   "sprite": "icon_hover_13"
+  },
+  "indicator09/indicator09": {
+   "file": "/res/ui/indicator09/indicator09.png",
+   "w": 90,
+   "h": 90,
+   "origin": "assetbundle",
+   "atlas": "indicator09",
+   "sprite": "indicator09"
+  },
+  "icon_ial_nintendo/icon_ial_nintendo": {
+   "file": "/res/ui/icon_ial_nintendo/icon_ial_nintendo.png",
+   "w": 176,
+   "h": 177,
+   "origin": "assetbundle",
+   "atlas": "icon_ial_nintendo",
+   "sprite": "icon_ial_nintendo"
+  },
+  "indicator51/indicator51": {
+   "file": "/res/ui/indicator51/indicator51.png",
+   "w": 90,
+   "h": 90,
+   "origin": "assetbundle",
+   "atlas": "indicator51",
+   "sprite": "indicator51"
+  },
+  "icon_default_04/icon_default_04": {
+   "file": "/res/ui/icon_default_04/icon_default_04.png",
+   "w": 28,
+   "h": 32,
+   "origin": "assetbundle",
+   "atlas": "icon_default_04",
+   "sprite": "icon_default_04"
+  },
+  "icon_hover_04/icon_hover_04": {
+   "file": "/res/ui/icon_hover_04/icon_hover_04.png",
+   "w": 28,
+   "h": 32,
+   "origin": "assetbundle",
+   "atlas": "icon_hover_04",
+   "sprite": "icon_hover_04"
+  },
+  "indicator27/indicator27": {
+   "file": "/res/ui/indicator27/indicator27.png",
+   "w": 90,
+   "h": 90,
+   "origin": "assetbundle",
+   "atlas": "indicator27",
+   "sprite": "indicator27"
+  },
+  "icon_ial_circle/icon_ial_circle": {
+   "file": "/res/ui/icon_ial_circle/icon_ial_circle.png",
+   "w": 128,
+   "h": 128,
+   "origin": "assetbundle",
+   "atlas": "icon_ial_circle",
+   "sprite": "icon_ial_circle"
+  },
+  "icon_drug_72/icon_drug_72": {
+   "file": "/res/ui/icon_drug_72/icon_drug_72.png",
+   "w": 92,
+   "h": 102,
+   "origin": "assetbundle",
+   "atlas": "icon_drug_72",
+   "sprite": "icon_drug_72"
+  },
+  "indicator15/indicator15": {
+   "file": "/res/ui/indicator15/indicator15.png",
+   "w": 90,
+   "h": 90,
+   "origin": "assetbundle",
+   "atlas": "indicator15",
+   "sprite": "indicator15"
+  },
+  "icon_default_07/icon_default_07": {
+   "file": "/res/ui/icon_default_07/icon_default_07.png",
+   "w": 32,
+   "h": 34,
+   "origin": "assetbundle",
+   "atlas": "icon_default_07",
+   "sprite": "icon_default_07"
+  },
+  "icon_15_72/icon_15_72": {
+   "file": "/res/ui/icon_15_72/icon_15_72.png",
+   "w": 92,
+   "h": 102,
+   "origin": "assetbundle",
+   "atlas": "icon_15_72",
+   "sprite": "icon_15_72"
+  },
+  "icon_default_30/icon_default_30": {
+   "file": "/res/ui/icon_default_30/icon_default_30.png",
+   "w": 34,
+   "h": 34,
+   "origin": "assetbundle",
+   "atlas": "icon_default_30",
+   "sprite": "icon_default_30"
+  },
+  "icon_hover_08/icon_hover_08": {
+   "file": "/res/ui/icon_hover_08/icon_hover_08.png",
+   "w": 36,
+   "h": 35,
+   "origin": "assetbundle",
+   "atlas": "icon_hover_08",
+   "sprite": "icon_hover_08"
+  },
+  "popup btn close_black_01/popup btn close_black_01": {
+   "file": "/res/ui/popup_btn_close_black_01/popup_btn_close_black_01.png",
+   "w": 34,
+   "h": 34,
+   "origin": "assetbundle",
+   "atlas": "popup btn close_black_01",
+   "sprite": "popup btn close_black_01"
+  },
+  "SearchIcon/SearchIcon": {
+   "file": "/res/ui/SearchIcon/SearchIcon.png",
+   "w": 30,
+   "h": 31,
+   "origin": "assetbundle",
+   "atlas": "SearchIcon",
+   "sprite": "SearchIcon"
+  },
+  "indicator59/indicator59": {
+   "file": "/res/ui/indicator59/indicator59.png",
+   "w": 90,
+   "h": 90,
+   "origin": "assetbundle",
+   "atlas": "indicator59",
+   "sprite": "indicator59"
+  },
+  "@ popup btn close_white_hover_01/@ popup btn close_white_hover_01": {
+   "file": "/res/ui/popup_btn_close_white_hover_01/popup_btn_close_white_hover_01.png",
+   "w": 34,
+   "h": 34,
+   "origin": "assetbundle",
+   "atlas": "@ popup btn close_white_hover_01",
+   "sprite": "@ popup btn close_white_hover_01"
+  },
+  "popup btn close_black_hover_01/popup btn close_black_hover_01": {
+   "file": "/res/ui/popup_btn_close_black_hover_01/popup_btn_close_black_hover_01.png",
+   "w": 34,
+   "h": 34,
+   "origin": "assetbundle",
+   "atlas": "popup btn close_black_hover_01",
+   "sprite": "popup btn close_black_hover_01"
+  },
+  "icon_default_01/icon_default_01": {
+   "file": "/res/ui/icon_default_01/icon_default_01.png",
+   "w": 34,
+   "h": 34,
+   "origin": "assetbundle",
+   "atlas": "icon_default_01",
+   "sprite": "icon_default_01"
+  },
+  "icon_default_05/icon_default_05": {
+   "file": "/res/ui/icon_default_05/icon_default_05.png",
+   "w": 28,
+   "h": 32,
+   "origin": "assetbundle",
+   "atlas": "icon_default_05",
+   "sprite": "icon_default_05"
+  },
+  "icon_logo_naver/icon_logo_naver": {
+   "file": "/res/ui/icon_logo_naver/icon_logo_naver.png",
+   "w": 102,
+   "h": 102,
+   "origin": "assetbundle",
+   "atlas": "icon_logo_naver",
+   "sprite": "icon_logo_naver"
+  },
+  "bg_toggle_rounded/bg_toggle_rounded": {
+   "file": "/res/ui/bg_toggle_rounded/bg_toggle_rounded.png",
+   "w": 132,
+   "h": 40,
+   "origin": "assetbundle",
+   "atlas": "bg_toggle_rounded",
+   "sprite": "bg_toggle_rounded"
+  },
+  "icon_talk/icon_talk": {
+   "file": "/res/ui/icon_talk/icon_talk.png",
+   "w": 30,
+   "h": 30,
+   "origin": "assetbundle",
+   "atlas": "icon_talk",
+   "sprite": "icon_talk"
+  },
+  "indicator46/indicator46": {
+   "file": "/res/ui/indicator46/indicator46.png",
+   "w": 90,
+   "h": 90,
+   "origin": "assetbundle",
+   "atlas": "indicator46",
+   "sprite": "indicator46"
+  },
+  "icon_check_enabled/icon_check_enabled": {
+   "file": "/res/ui/icon_check_enabled/icon_check_enabled.png",
+   "w": 24,
+   "h": 24,
+   "origin": "assetbundle",
+   "atlas": "icon_check_enabled",
+   "sprite": "icon_check_enabled"
+  },
+  "popup btn close_black_press_01/popup btn close_black_press_01": {
+   "file": "/res/ui/popup_btn_close_black_press_01/popup_btn_close_black_press_01.png",
+   "w": 34,
+   "h": 34,
+   "origin": "assetbundle",
+   "atlas": "popup btn close_black_press_01",
+   "sprite": "popup btn close_black_press_01"
+  },
+  "btn_account_line/btn_account_line": {
+   "file": "/res/ui/btn_account_line/btn_account_line.png",
+   "w": 80,
+   "h": 80,
+   "origin": "assetbundle",
+   "atlas": "btn_account_line",
+   "sprite": "btn_account_line"
+  },
+  "UIElement8px/UIElement8px": {
+   "file": "/res/ui/UIElement8px/UIElement8px.png",
+   "w": 8,
+   "h": 8,
+   "origin": "assetbundle",
+   "atlas": "UIElement8px",
+   "sprite": "UIElement8px",
+   "border": [
+    0,
+    0,
+    0,
+    2
+   ]
+  },
+  "indicator58/indicator58": {
+   "file": "/res/ui/indicator58/indicator58.png",
+   "w": 90,
+   "h": 90,
+   "origin": "assetbundle",
+   "atlas": "indicator58",
+   "sprite": "indicator58"
+  },
+  "icon_default_19/icon_default_19": {
+   "file": "/res/ui/icon_default_19/icon_default_19.png",
+   "w": 34,
+   "h": 32,
+   "origin": "assetbundle",
+   "atlas": "icon_default_19",
+   "sprite": "icon_default_19"
+  },
+  "icon_default_09/icon_default_09": {
+   "file": "/res/ui/icon_default_09/icon_default_09.png",
+   "w": 34,
+   "h": 33,
+   "origin": "assetbundle",
+   "atlas": "icon_default_09",
+   "sprite": "icon_default_09"
+  },
+  "btn_account_twitter/btn_account_twitter": {
+   "file": "/res/ui/btn_account_twitter/btn_account_twitter.png",
+   "w": 64,
+   "h": 66,
+   "origin": "assetbundle",
+   "atlas": "btn_account_twitter",
+   "sprite": "btn_account_twitter"
+  },
+  "icon_uncheck_disabled/icon_uncheck_disabled": {
+   "file": "/res/ui/icon_uncheck_disabled/icon_uncheck_disabled.png",
+   "w": 24,
+   "h": 24,
+   "origin": "assetbundle",
+   "atlas": "icon_uncheck_disabled",
+   "sprite": "icon_uncheck_disabled"
+  },
+  "ui_border_20px_filled/ui_border_20px_filled": {
+   "file": "/res/ui/ui_border_20px_filled/ui_border_20px_filled.png",
+   "w": 128,
+   "h": 128,
+   "origin": "assetbundle",
+   "atlas": "ui_border_20px_filled",
+   "sprite": "ui_border_20px_filled",
+   "border": [
+    20,
+    20,
+    20,
+    20
+   ]
+  },
+  "indicator05/indicator05": {
+   "file": "/res/ui/indicator05/indicator05.png",
+   "w": 90,
+   "h": 90,
+   "origin": "assetbundle",
+   "atlas": "indicator05",
+   "sprite": "indicator05"
+  },
+  "icon_uncheck_enabled/icon_uncheck_enabled": {
+   "file": "/res/ui/icon_uncheck_enabled/icon_uncheck_enabled.png",
+   "w": 24,
+   "h": 24,
+   "origin": "assetbundle",
+   "atlas": "icon_uncheck_enabled",
+   "sprite": "icon_uncheck_enabled"
+  },
+  "ButtonBg/ButtonBg": {
+   "file": "/res/ui/ButtonBg/ButtonBg.png",
+   "w": 32,
+   "h": 32,
+   "origin": "assetbundle",
+   "atlas": "ButtonBg",
+   "sprite": "ButtonBg",
+   "border": [
+    10,
+    10,
+    10,
+    10
+   ]
+  },
+  "icon_gambling_72/icon_gambling_72": {
+   "file": "/res/ui/icon_gambling_72/icon_gambling_72.png",
+   "w": 92,
+   "h": 102,
+   "origin": "assetbundle",
+   "atlas": "icon_gambling_72",
+   "sprite": "icon_gambling_72"
+  },
+  "icon_delete_default/icon_delete_default": {
+   "file": "/res/ui/icon_delete_default/icon_delete_default.png",
+   "w": 30,
+   "h": 30,
+   "origin": "assetbundle",
+   "atlas": "icon_delete_default",
+   "sprite": "icon_delete_default"
+  },
+  "ui_border_20px/ui_border_20px": {
+   "file": "/res/ui/ui_border_20px/ui_border_20px.png",
+   "w": 128,
+   "h": 128,
+   "origin": "assetbundle",
+   "atlas": "ui_border_20px",
+   "sprite": "ui_border_20px",
+   "border": [
+    20,
+    20,
+    20,
+    20
+   ]
+  },
+  "indicator35/indicator35": {
+   "file": "/res/ui/indicator35/indicator35.png",
+   "w": 90,
+   "h": 90,
+   "origin": "assetbundle",
+   "atlas": "indicator35",
+   "sprite": "indicator35"
+  },
+  "icon_horror_72/icon_horror_72": {
+   "file": "/res/ui/icon_horror_72/icon_horror_72.png",
+   "w": 92,
+   "h": 102,
+   "origin": "assetbundle",
+   "atlas": "icon_horror_72",
+   "sprite": "icon_horror_72"
+  },
+  "icon_hover_01/icon_hover_01": {
+   "file": "/res/ui/icon_hover_01/icon_hover_01.png",
+   "w": 34,
+   "h": 34,
+   "origin": "assetbundle",
+   "atlas": "icon_hover_01",
+   "sprite": "icon_hover_01"
+  },
+  "icon_delete_disable/icon_delete_disable": {
+   "file": "/res/ui/icon_delete_disable/icon_delete_disable.png",
+   "w": 30,
+   "h": 30,
+   "origin": "assetbundle",
+   "atlas": "icon_delete_disable",
+   "sprite": "icon_delete_disable"
+  },
+  "icon_ial_xbox/icon_ial_xbox": {
+   "file": "/res/ui/icon_ial_xbox/icon_ial_xbox.png",
+   "w": 176,
+   "h": 177,
+   "origin": "assetbundle",
+   "atlas": "icon_ial_xbox",
+   "sprite": "icon_ial_xbox"
+  },
+  "icon_logo_google/icon_logo_google": {
+   "file": "/res/ui/icon_logo_google/icon_logo_google.png",
+   "w": 102,
+   "h": 102,
+   "origin": "assetbundle",
+   "atlas": "icon_logo_google",
+   "sprite": "icon_logo_google"
+  },
+  "indicator20/indicator20": {
+   "file": "/res/ui/indicator20/indicator20.png",
+   "w": 90,
+   "h": 90,
+   "origin": "assetbundle",
+   "atlas": "indicator20",
+   "sprite": "indicator20"
+  },
+  "icon_default_11/icon_default_11": {
+   "file": "/res/ui/icon_default_11/icon_default_11.png",
+   "w": 35,
+   "h": 35,
+   "origin": "assetbundle",
+   "atlas": "icon_default_11",
+   "sprite": "icon_default_11"
+  },
+  "AccountSettings_Icon_Warning/AccountSettings_Icon_Warning": {
+   "file": "/res/ui/AccountSettings_Icon_Warning/AccountSettings_Icon_Warning.png",
+   "w": 326,
+   "h": 297,
+   "origin": "assetbundle",
+   "atlas": "AccountSettings_Icon_Warning",
+   "sprite": "AccountSettings_Icon_Warning"
+  },
+  "common_blue_border/common_blue_border": {
+   "file": "/res/ui/common_blue_border/common_blue_border.png",
+   "w": 32,
+   "h": 32,
+   "origin": "assetbundle",
+   "atlas": "common_blue_border",
+   "sprite": "common_blue_border",
+   "border": [
+    4,
+    4,
+    4,
+    4
+   ]
+  },
+  "icon_19_72/icon_19_72": {
+   "file": "/res/ui/icon_19_72/icon_19_72.png",
+   "w": 92,
+   "h": 102,
+   "origin": "assetbundle",
+   "atlas": "icon_19_72",
+   "sprite": "icon_19_72"
+  },
+  "nexonCiWhite/nexonCiWhite": {
+   "file": "/res/ui/nexonCiWhite/nexonCiWhite.png",
+   "w": 363,
+   "h": 57,
+   "origin": "assetbundle",
+   "atlas": "nexonCiWhite",
+   "sprite": "nexonCiWhite"
+  },
+  "icon_default_21/icon_default_21": {
+   "file": "/res/ui/icon_default_21/icon_default_21.png",
+   "w": 34,
+   "h": 33,
+   "origin": "assetbundle",
+   "atlas": "icon_default_21",
+   "sprite": "icon_default_21"
+  },
+  "icon_logo_email/icon_logo_email": {
+   "file": "/res/ui/icon_logo_email/icon_logo_email.png",
+   "w": 102,
+   "h": 102,
+   "origin": "assetbundle",
+   "atlas": "icon_logo_email",
+   "sprite": "icon_logo_email"
+  },
+  "icon arrow back_black_hover_02/icon arrow back_black_hover_02": {
+   "file": "/res/ui/icon_arrow_back_black_hover_02/icon_arrow_back_black_hover_02.png",
+   "w": 34,
+   "h": 34,
+   "origin": "assetbundle",
+   "atlas": "icon arrow back_black_hover_02",
+   "sprite": "icon arrow back_black_hover_02"
+  },
+  "icon_logo_guest/icon_logo_guest": {
+   "file": "/res/ui/icon_logo_guest/icon_logo_guest.png",
+   "w": 102,
+   "h": 102,
+   "origin": "assetbundle",
+   "atlas": "icon_logo_guest",
+   "sprite": "icon_logo_guest"
+  },
+  "indicator57/indicator57": {
+   "file": "/res/ui/indicator57/indicator57.png",
+   "w": 90,
+   "h": 90,
+   "origin": "assetbundle",
+   "atlas": "indicator57",
+   "sprite": "indicator57"
+  },
+  "icon_default_23/icon_default_23": {
+   "file": "/res/ui/icon_default_23/icon_default_23.png",
+   "w": 34,
+   "h": 32,
+   "origin": "assetbundle",
+   "atlas": "icon_default_23",
+   "sprite": "icon_default_23"
+  },
+  "icon_ial_nexon/icon_ial_nexon": {
+   "file": "/res/ui/icon_ial_nexon/icon_ial_nexon.png",
+   "w": 176,
+   "h": 177,
+   "origin": "assetbundle",
+   "atlas": "icon_ial_nexon",
+   "sprite": "icon_ial_nexon"
+  },
+  "icon_test_72/icon_test_72": {
+   "file": "/res/ui/icon_test_72/icon_test_72.png",
+   "w": 92,
+   "h": 102,
+   "origin": "assetbundle",
+   "atlas": "icon_test_72",
+   "sprite": "icon_test_72"
+  },
+  "icon_hover_17/icon_hover_17": {
+   "file": "/res/ui/icon_hover_17/icon_hover_17.png",
+   "w": 31,
+   "h": 34,
+   "origin": "assetbundle",
+   "atlas": "icon_hover_17",
+   "sprite": "icon_hover_17"
+  },
+  "ColorSelector/ColorSelector": {
+   "file": "/res/ui/ColorSelector/ColorSelector.png",
+   "w": 32,
+   "h": 32,
+   "origin": "assetbundle",
+   "atlas": "ColorSelector",
+   "sprite": "ColorSelector"
+  },
+  "icon_hover_23/icon_hover_23": {
+   "file": "/res/ui/icon_hover_23/icon_hover_23.png",
+   "w": 34,
+   "h": 32,
+   "origin": "assetbundle",
+   "atlas": "icon_hover_23",
+   "sprite": "icon_hover_23"
+  },
+  "img-play-none/img-play-none": {
+   "file": "/res/ui/img-play-none/img-play-none.png",
+   "w": 73,
+   "h": 67,
+   "origin": "assetbundle",
+   "atlas": "img-play-none",
+   "sprite": "img-play-none"
+  },
+  "@ popup btn close_black_press_02/@ popup btn close_black_press_02": {
+   "file": "/res/ui/popup_btn_close_black_press_02/popup_btn_close_black_press_02.png",
+   "w": 34,
+   "h": 34,
+   "origin": "assetbundle",
+   "atlas": "@ popup btn close_black_press_02",
+   "sprite": "@ popup btn close_black_press_02"
+  },
+  "icon_hover_30/icon_hover_30": {
+   "file": "/res/ui/icon_hover_30/icon_hover_30.png",
+   "w": 34,
+   "h": 34,
+   "origin": "assetbundle",
+   "atlas": "icon_hover_30",
+   "sprite": "icon_hover_30"
+  },
+  "icon_switch_h20_disable/icon_switch_h20_disable": {
+   "file": "/res/ui/icon_switch_h20_disable/icon_switch_h20_disable.png",
+   "w": 48,
+   "h": 24,
+   "origin": "assetbundle",
+   "atlas": "icon_switch_h20_disable",
+   "sprite": "icon_switch_h20_disable"
+  },
+  "InputFieldBg/InputFieldBg": {
+   "file": "/res/ui/InputFieldBg/InputFieldBg.png",
+   "w": 32,
+   "h": 32,
+   "origin": "assetbundle",
+   "atlas": "InputFieldBg",
+   "sprite": "InputFieldBg",
+   "border": [
+    10,
+    10,
+    10,
+    10
+   ]
+  },
+  "btn_cancel/btn_cancel": {
+   "file": "/res/ui/btn_cancel/btn_cancel.png",
+   "w": 44,
+   "h": 44,
+   "origin": "assetbundle",
+   "atlas": "btn_cancel",
+   "sprite": "btn_cancel",
+   "border": [
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  "Icon_baseplate_pc/Icon_baseplate_pc": {
+   "file": "/res/ui/Icon_baseplate_pc/Icon_baseplate_pc.png",
+   "w": 20,
+   "h": 20,
+   "origin": "assetbundle",
+   "atlas": "Icon_baseplate_pc",
+   "sprite": "Icon_baseplate_pc"
+  },
+  "DownArrow/DownArrow": {
+   "file": "/res/ui/DownArrow/DownArrow.png",
+   "w": 30,
+   "h": 22,
+   "origin": "assetbundle",
+   "atlas": "DownArrow",
+   "sprite": "DownArrow"
+  },
+  "icon_hover_15/icon_hover_15": {
+   "file": "/res/ui/icon_hover_15/icon_hover_15.png",
+   "w": 30,
+   "h": 34,
+   "origin": "assetbundle",
+   "atlas": "icon_hover_15",
+   "sprite": "icon_hover_15"
+  },
+  "ui_border_20px_filled_top/ui_border_20px_filled_top": {
+   "file": "/res/ui/ui_border_20px_filled_top/ui_border_20px_filled_top.png",
+   "w": 128,
+   "h": 128,
+   "origin": "assetbundle",
+   "atlas": "ui_border_20px_filled_top",
+   "sprite": "ui_border_20px_filled_top",
+   "border": [
+    20,
+    20,
+    20,
+    20
+   ]
+  },
+  "Common/PermanentRaid_Icon_Indoor": {
+   "file": "/res/ui/Common/PermanentRaid_Icon_Indoor.png",
+   "w": 58,
+   "h": 48,
+   "origin": "assetbundle",
+   "atlas": "Common",
+   "sprite": "PermanentRaid_Icon_Indoor"
+  },
+  "Common/Loading_n": {
+   "file": "/res/ui/Common/Loading_n.png",
+   "w": 48,
+   "h": 52,
+   "origin": "assetbundle",
+   "atlas": "Common",
+   "sprite": "Loading_n"
+  },
+  "Common/PermanentRaid_Icon_BossSelect": {
+   "file": "/res/ui/Common/PermanentRaid_Icon_BossSelect.png",
+   "w": 52,
+   "h": 49,
+   "origin": "assetbundle",
+   "atlas": "Common",
+   "sprite": "PermanentRaid_Icon_BossSelect"
+  },
+  "Common/Loading_o": {
+   "file": "/res/ui/Common/Loading_o.png",
+   "w": 52,
+   "h": 57,
+   "origin": "assetbundle",
+   "atlas": "Common",
+   "sprite": "Loading_o"
+  },
+  "Common/PermanentRaid_Img_RankBg": {
+   "file": "/res/ui/Common/PermanentRaid_Img_RankBg.png",
+   "w": 48,
+   "h": 51,
+   "origin": "assetbundle",
+   "atlas": "Common",
+   "sprite": "PermanentRaid_Img_RankBg",
+   "border": [
+    20,
+    16,
+    20,
+    28
+   ]
   }
  },
  "fonts": {}

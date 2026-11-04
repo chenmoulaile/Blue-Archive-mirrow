@@ -1,6 +1,6 @@
 {
- "generated": "2026-10-29T20:50:14",
- "total": 440,
+ "generated": "2026-11-05T01:07:46",
+ "total": 474,
  "source": "NGUIAtlas.mSprites[i].borderLeft/Bottom/Right/Top",
  "sprites": {
   "Conquest/Conquest_Bg_Raius10px": {
@@ -11,7 +11,7 @@
     10
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_3962116668.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_2303306993.bundle"
   },
   "Conquest/Conquest_Bg_Raius20px": {
    "border": [
@@ -21,7 +21,7 @@
     22
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_3962116668.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_2303306993.bundle"
   },
   "Conquest/Conquest_Bg_Raius5px": {
    "border": [
@@ -31,7 +31,7 @@
     5
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_3962116668.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_2303306993.bundle"
   },
   "Conquest/Conquest_Top_Step_Bg": {
    "border": [
@@ -41,17 +41,7 @@
     190
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_3962116668.bundle"
-  },
-  "Event/ShiftingCraftItem_1": {
-   "border": [
-    0,
-    0,
-    12,
-    0
-   ],
-   "type": "Sliced",
-   "source_prefab": null
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_2303306993.bundle"
   },
   "TBG/Common_Bg_Raius10px": {
    "border": [
@@ -61,7 +51,7 @@
     10
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_100728233.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_1019844931.bundle"
   },
   "TBG/Common_Bg_Raius10px_Shadow": {
    "border": [
@@ -71,7 +61,7 @@
     24
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1017843303.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_1034770573.bundle"
   },
   "TBG/Common_Bg_Raius5px": {
    "border": [
@@ -81,7 +71,7 @@
     5
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1006941425.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_1026357097.bundle"
   },
   "TBG/Common_Btn_BG": {
    "border": [
@@ -91,7 +81,7 @@
     40
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_100728233.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_1019844931.bundle"
   },
   "TBG/Common_Line_Dot": {
    "border": [
@@ -101,7 +91,7 @@
     2
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1013491542.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_1019844931.bundle"
   },
   "TBG/Common_Line_Select_Y": {
    "border": [
@@ -111,7 +101,7 @@
     35
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1289347097.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_137534932.bundle"
   },
   "TBG/TBG_Bg_Ingame_Select_1": {
    "border": [
@@ -121,7 +111,7 @@
     56
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_321212961.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_1738420892.bundle"
   },
   "TBG/TBG_Bg_Ingame_Select_2": {
    "border": [
@@ -131,7 +121,7 @@
     54
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_321212961.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_2754022631.bundle"
   },
   "TBG/Tbg_Btn_Bg_B": {
    "border": [
@@ -141,7 +131,7 @@
     38
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_429126499.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_153801906.bundle"
   },
   "TBG/Tbg_Btn_Bg_Br": {
    "border": [
@@ -151,7 +141,7 @@
     40
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1289347097.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_137534932.bundle"
   },
   "TBG/Tbg_Btn_Bg_Y": {
    "border": [
@@ -161,7 +151,7 @@
     40
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_429126499.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_153801906.bundle"
   },
   "TBG/TBG_Inbox": {
    "border": [
@@ -181,7 +171,7 @@
     180
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_3668946546.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_1690959906.bundle"
   },
   "TBG/TBG_SelectLineBg": {
    "border": [
@@ -191,7 +181,7 @@
     46
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_321212961.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_1738420892.bundle"
   },
   "TBG/TBG_TitleBg": {
    "border": [
@@ -211,7 +201,7 @@
     1
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_3599226669.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-11-03_assets_all_1223026619.bundle"
   },
   "Concentration/Concentration_Btn_Skip": {
    "border": [
@@ -221,7 +211,7 @@
     0
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_3599226669.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-11-03_assets_all_1223026619.bundle"
   },
   "Concentration/Concentration_Btn_Yellow": {
    "border": [
@@ -231,7 +221,7 @@
     0
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_3599226669.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-11-03_assets_all_1223026619.bundle"
   },
   "Concentration/Concentration_BtnBG": {
    "border": [
@@ -241,7 +231,7 @@
     0
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_3599226669.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-11-03_assets_all_1223026619.bundle"
   },
   "Concentration/Concentration_CardInfoBg_1": {
    "border": [
@@ -251,7 +241,7 @@
     0
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_3599226669.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-11-03_assets_all_1223026619.bundle"
   },
   "Concentration/Concentration_CardInfoBg_2": {
    "border": [
@@ -281,7 +271,7 @@
     52
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_3599226669.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-11-03_assets_all_1223026619.bundle"
   },
   "Concentration/Concentration_Deco_Line": {
    "border": [
@@ -291,7 +281,7 @@
     0
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1251314301.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-11-03_assets_all_1223026619.bundle"
   },
   "Concentration/Concentration_Icon_Check": {
    "border": [
@@ -301,7 +291,7 @@
     44
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1251314301.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-11-03_assets_all_1223026619.bundle"
   },
   "Field_843/Common_Bg_10px": {
    "border": [
@@ -311,7 +301,7 @@
     12
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1529559926.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_2555886868.bundle"
   },
   "Field_843/Common_Bg_5px": {
    "border": [
@@ -321,7 +311,7 @@
     5
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1298323568.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_165153098.bundle"
   },
   "Field_843/Common_Bg_Glow_5px": {
    "border": [
@@ -331,7 +321,7 @@
     16
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1529559926.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_156143314.bundle"
   },
   "Field_843/Common_EffectLine_5px": {
    "border": [
@@ -341,7 +331,7 @@
     15
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1529559926.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_2555886868.bundle"
   },
   "Field_843/Common_EffectLine_Deco": {
    "border": [
@@ -351,7 +341,7 @@
     19
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1529559926.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_2555886868.bundle"
   },
   "Field_843/Common_EffectLine2_5px": {
    "border": [
@@ -361,7 +351,7 @@
     20
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_2783275285.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_3120950984.bundle"
   },
   "Field_843/Common_Line_10px": {
    "border": [
@@ -371,7 +361,7 @@
     12
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1529559926.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_2555886868.bundle"
   },
   "Field_843/Common_Line_15px": {
    "border": [
@@ -381,7 +371,7 @@
     19
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1529559926.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_2555886868.bundle"
   },
   "Field_843/Common_Line_5px": {
    "border": [
@@ -391,7 +381,7 @@
     8
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1529559926.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_156143314.bundle"
   },
   "Field_843/Common_Square_Bg": {
    "border": [
@@ -401,7 +391,7 @@
     1
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1000166740.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_1019844931.bundle"
   },
   "Dreammaker/Common_Bg_Raius10px": {
    "border": [
@@ -411,7 +401,7 @@
     10
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_100728233.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_1019844931.bundle"
   },
   "Dreammaker/Common_Bg_Raius10px_Shadow": {
    "border": [
@@ -421,7 +411,7 @@
     24
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1017843303.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_1034770573.bundle"
   },
   "Dreammaker/Common_Bg_Raius20px": {
    "border": [
@@ -431,7 +421,7 @@
     20
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_100728233.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_1026357097.bundle"
   },
   "Dreammaker/Common_Bg_Raius20px_Shadow": {
    "border": [
@@ -441,7 +431,7 @@
     28
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1033291452.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_1108509861.bundle"
   },
   "Dreammaker/Common_Btn_BG": {
    "border": [
@@ -451,7 +441,7 @@
     35
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_100728233.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_1019844931.bundle"
   },
   "Dreammaker/Common_Dotline": {
    "border": [
@@ -471,7 +461,7 @@
     1
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1000166740.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_1019844931.bundle"
   },
   "Dreammaker/Dreammaker_Lobby_Info_BG_01": {
    "border": [
@@ -481,7 +471,7 @@
     18
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_660847500.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_4024243238.bundle"
   },
   "Dreammaker/Dreammaker_Lobby_Info_BG_02": {
    "border": [
@@ -491,7 +481,7 @@
     0
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_660847500.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_4024243238.bundle"
   },
   "Treasure/Common_Line_Dot": {
    "border": [
@@ -501,7 +491,7 @@
     3
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1013491542.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_1019844931.bundle"
   },
   "Treasure/Treasure_Event_Numbg": {
    "border": [
@@ -511,7 +501,7 @@
     0
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1094777168.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_3477263724.bundle"
   },
   "BattlePass/BattlePass_Btn_B": {
    "border": [
@@ -521,7 +511,7 @@
     42
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_2292145205.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_2690001897.bundle"
   },
   "BattlePass/BattlePass_Btn_Buy": {
    "border": [
@@ -551,7 +541,7 @@
     0
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_2292145205.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_2690001897.bundle"
   },
   "BattlePass/BattlePass_Btn_Mission": {
    "border": [
@@ -561,7 +551,7 @@
     0
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_2292145205.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2026-04-06_assets_all_1815047220.bundle"
   },
   "BattlePass/BattlePass_Btn_Type1": {
    "border": [
@@ -571,7 +561,7 @@
     25
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_3065737299.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_2690001897.bundle"
   },
   "BattlePass/BattlePass_Btn_Type2": {
    "border": [
@@ -581,7 +571,7 @@
     0
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_4052036627.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_2690001897.bundle"
   },
   "BattlePass/BattlePass_Btn_Y": {
    "border": [
@@ -591,7 +581,7 @@
     35
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_2292145205.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2026-04-06_assets_all_1815047220.bundle"
   },
   "BattlePass/BattlePass_Common_Bg_Raius10px": {
    "border": [
@@ -601,7 +591,7 @@
     10
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_2292145205.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_2626843937.bundle"
   },
   "BattlePass/BattlePass_Common_Bg_Raius20px": {
    "border": [
@@ -611,7 +601,7 @@
     20
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_2292145205.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_2626843937.bundle"
   },
   "BattlePass/BattlePass_Common_Gradient": {
    "border": [
@@ -621,7 +611,7 @@
     2
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_2292145205.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_2626843937.bundle"
   },
   "BattlePass/BattlePass_Common_Gradient_Both": {
    "border": [
@@ -631,7 +621,7 @@
     1
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_2292145205.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_2690001897.bundle"
   },
   "BattlePass/BattlePass_Common_Gradient_Vertical": {
    "border": [
@@ -641,7 +631,7 @@
     1
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_2292145205.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_2690001897.bundle"
   },
   "BattlePass/BattlePass_Common_Line_Dot": {
    "border": [
@@ -651,7 +641,7 @@
     3
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_2292145205.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_2626843937.bundle"
   },
   "BattlePass/BattlePass_Gauge": {
    "border": [
@@ -661,7 +651,7 @@
     0
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_2292145205.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_2690001897.bundle"
   },
   "BattlePass/BattlePass_ListSlot_NormalBg": {
    "border": [
@@ -671,7 +661,7 @@
     55
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_2292145205.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_2690001897.bundle"
   },
   "BattlePass/BattlePass_ListSlot_Numtextbox": {
    "border": [
@@ -681,7 +671,7 @@
     0
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_2292145205.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_2690001897.bundle"
   },
   "BattlePass/BattlePass_ListSlot_PremiumBg": {
    "border": [
@@ -691,7 +681,7 @@
     43
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_2292145205.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_2690001897.bundle"
   },
   "BattlePass/BattlePass_ListTab_Bg": {
    "border": [
@@ -701,17 +691,7 @@
     15
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_2292145205.bundle"
-  },
-  "BattlePass/BattlePass_MissionIcon_RewardBg": {
-   "border": [
-    50,
-    0,
-    50,
-    0
-   ],
-   "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_2292145205.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_2690001897.bundle"
   },
   "BattlePass/BattlePass_Popup_ItemBg": {
    "border": [
@@ -721,7 +701,7 @@
     0
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_3996212013.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_2626843937.bundle"
   },
   "BattlePass/BattlePass_PopupBtn_Bg": {
    "border": [
@@ -731,7 +711,7 @@
     15
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_2612548292.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_3824140491.bundle"
   },
   "BattlePass/BattlePass_Tab_B": {
    "border": [
@@ -741,7 +721,7 @@
     15
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_2292145205.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_3824140491.bundle"
   },
   "BattlePass/BattlePass_Tab_Type1": {
    "border": [
@@ -751,7 +731,7 @@
     25
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_4052036627.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_2690001897.bundle"
   },
   "BattlePass/BattlePass_Tab_Y": {
    "border": [
@@ -761,7 +741,7 @@
     20
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_2292145205.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_2690001897.bundle"
   },
   "MinigameRhythm/Combat_Bg_Hp": {
    "border": [
@@ -771,7 +751,7 @@
     13
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1648782197.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_1074988485.bundle"
   },
   "MinigameRhythm/Combat_Gauge_Hp": {
    "border": [
@@ -781,7 +761,7 @@
     3
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_118903585.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_1074988485.bundle"
   },
   "MinigameRhythm/Common_Bg_Raius10px": {
    "border": [
@@ -791,7 +771,7 @@
     10
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_100728233.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_1019844931.bundle"
   },
   "MinigameRhythm/Common_Bg_Raius5px": {
    "border": [
@@ -801,7 +781,7 @@
     5
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1006941425.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_1026357097.bundle"
   },
   "MinigameRhythm/Common_Btn_BG": {
    "border": [
@@ -811,7 +791,7 @@
     40
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_100728233.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_1019844931.bundle"
   },
   "MinigameRhythm/Common_Gradient": {
    "border": [
@@ -821,7 +801,7 @@
     2
    ],
    "type": "Simple",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1382904969.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_1129970968.bundle"
   },
   "MinigameRhythm/Common_Line_Dot": {
    "border": [
@@ -831,7 +811,7 @@
     2
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1013491542.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_1019844931.bundle"
   },
   "MinigameRhythm/Common_Line_Gradient_02": {
    "border": [
@@ -841,7 +821,7 @@
     2
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1129108222.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_2254125985.bundle"
   },
   "MinigameRhythm/Common_Square_Bg": {
    "border": [
@@ -851,7 +831,7 @@
     2
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1000166740.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_1019844931.bundle"
   },
   "RoadPuzzle/Roadpuzzle_Bg_Text_1": {
    "border": [
@@ -861,7 +841,7 @@
     0
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_3503261584.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_676690625.bundle"
   },
   "RoadPuzzle/Roadpuzzle_Bg_Text_2": {
    "border": [
@@ -871,7 +851,7 @@
     0
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_3503261584.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_676690625.bundle"
   },
   "RoadPuzzle/Roadpuzzle_Bg_Text_3": {
    "border": [
@@ -881,7 +861,7 @@
     0
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_3503261584.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_676690625.bundle"
   },
   "RoadPuzzle/Roadpuzzle_Bg_TileLineDeco2": {
    "border": [
@@ -901,7 +881,7 @@
     0
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_3503261584.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_676690625.bundle"
   },
   "RoadPuzzle/Roadpuzzle_Btn_Skip": {
    "border": [
@@ -911,7 +891,7 @@
     0
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_4149453024.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_676690625.bundle"
   },
   "RoadPuzzle/Roadpuzzle_Btn_Text_Dark": {
    "border": [
@@ -921,7 +901,7 @@
     0
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_4149453024.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_676690625.bundle"
   },
   "RoadPuzzle/Roadpuzzle_Btn_Text_Dark_Worldraid": {
    "border": [
@@ -931,7 +911,7 @@
     0
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_3503261584.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2026-04-06_assets_all_1644308402.bundle"
   },
   "RoadPuzzle/Roadpuzzle_Popup_TabNormal": {
    "border": [
@@ -941,7 +921,7 @@
     0
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1066677139.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_1318406431.bundle"
   },
   "RoadPuzzle/Roadpuzzle_Popup_TabSelect": {
    "border": [
@@ -951,7 +931,7 @@
     0
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1066677139.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_1318406431.bundle"
   },
   "RoadPuzzle/Roadpuzzle_Popup_TextBg": {
    "border": [
@@ -961,7 +941,7 @@
     0
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1066677139.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_1318406431.bundle"
   },
   "RoadPuzzle/Roadpuzzle_Popup_TitleBg": {
    "border": [
@@ -971,7 +951,7 @@
     0
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1066677139.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_1318406431.bundle"
   },
   "RoadPuzzle/Roadpuzzle_StartBtn_Tag": {
    "border": [
@@ -981,7 +961,7 @@
     0
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_3503261584.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_676690625.bundle"
   },
   "RoadPuzzle/Roadpuzzle_TileReward_NumBg": {
    "border": [
@@ -1001,7 +981,7 @@
     10
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_3187605650.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2026-04-06_assets_all_1209025846.bundle"
   },
   "Worldraid_854/WorldRaid854_Bg_BridgeMenu": {
    "border": [
@@ -1011,7 +991,7 @@
     0
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1006941425.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2026-04-06_assets_all_4038542814.bundle"
   },
   "Worldraid_854/WorldRaid854_Bg_BtnCollection": {
    "border": [
@@ -1021,7 +1001,7 @@
     0
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1984591082.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2026-04-06_assets_all_4248346484.bundle"
   },
   "Worldraid_854/WorldRaid854_Bg_Cost": {
    "border": [
@@ -1031,7 +1011,7 @@
     68
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_891719027.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2026-04-06_assets_all_1586761152.bundle"
   },
   "Worldraid_854/WorldRaid854_Bg_HpGlow": {
    "border": [
@@ -1041,7 +1021,7 @@
     46
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_2958376949.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2026-04-06_assets_all_16118869.bundle"
   },
   "Worldraid_854/WorldRaid854_Bg_LightGlow": {
    "border": [
@@ -1051,7 +1031,7 @@
     124
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1984591082.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2026-04-06_assets_all_16118869.bundle"
   },
   "Worldraid_854/WorldRaid854_Bg_LobbyToast": {
    "border": [
@@ -1061,7 +1041,7 @@
     20
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1006941425.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2026-04-06_assets_all_4038542814.bundle"
   },
   "Worldraid_854/WorldRaid854_Bg_NodeHp_IDC": {
    "border": [
@@ -1071,7 +1051,7 @@
     20
    ],
    "type": "Simple",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_3540173252.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2026-04-06_assets_all_16118869.bundle"
   },
   "Worldraid_854/WorldRaid854_Bg_NodeHp_Small": {
    "border": [
@@ -1081,7 +1061,7 @@
     0
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_2958376949.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2026-04-06_assets_all_2502980773.bundle"
   },
   "Worldraid_854/WorldRaid854_Bg_NodeNameGlow": {
    "border": [
@@ -1091,7 +1071,7 @@
     0
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_544277865.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2026-04-06_assets_all_2470298486.bundle"
   },
   "Worldraid_854/WorldRaid854_Bg_NodeShape_00": {
    "border": [
@@ -1101,7 +1081,7 @@
     20
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_2958376949.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2026-04-06_assets_all_2502980773.bundle"
   },
   "Worldraid_854/WorldRaid854_Bg_NodeShape_01": {
    "border": [
@@ -1111,7 +1091,7 @@
     22
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_2958376949.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2026-04-06_assets_all_2502980773.bundle"
   },
   "Worldraid_854/WorldRaid854_Bg_NodeShape_02": {
    "border": [
@@ -1121,7 +1101,7 @@
     22
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_2958376949.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2026-04-06_assets_all_2502980773.bundle"
   },
   "Worldraid_854/WorldRaid854_Bg_NodeStatus": {
    "border": [
@@ -1131,7 +1111,7 @@
     8
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_2958376949.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2026-04-06_assets_all_16118869.bundle"
   },
   "Worldraid_854/WorldRaid854_Bg_PopupBanner": {
    "border": [
@@ -1141,7 +1121,7 @@
     18
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_3818452989.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2026-04-06_assets_all_1586761152.bundle"
   },
   "Worldraid_854/WorldRaid854_Bg_PopupBtn": {
    "border": [
@@ -1151,7 +1131,7 @@
     0
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_3540173252.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2026-04-06_assets_all_1586761152.bundle"
   },
   "Worldraid_854/WorldRaid854_Bg_ReplayBtn": {
    "border": [
@@ -1161,7 +1141,7 @@
     30
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1006941425.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2026-04-06_assets_all_4038542814.bundle"
   },
   "Worldraid_854/WorldRaid854_Bg_ReplayImg": {
    "border": [
@@ -1171,7 +1151,7 @@
     16
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_544277865.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2026-04-06_assets_all_2470298486.bundle"
   },
   "Worldraid_854/WorldRaid854_Bg_ReplayTag": {
    "border": [
@@ -1181,7 +1161,7 @@
     0
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_544277865.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2026-04-06_assets_all_2470298486.bundle"
   },
   "Worldraid_854/WorldRaid854_Bg_ReplayTag_Scroll": {
    "border": [
@@ -1191,7 +1171,7 @@
     0
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_544277865.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2026-04-06_assets_all_2470298486.bundle"
   },
   "Worldraid_854/WorldRaid854_Bg_SubBtn": {
    "border": [
@@ -1201,7 +1181,7 @@
     16
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_2958376949.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2026-04-06_assets_all_16118869.bundle"
   },
   "Worldraid_854/WorldRaid854_Bg_TabWhite": {
    "border": [
@@ -1211,7 +1191,7 @@
     6
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1006941425.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2026-04-06_assets_all_4038542814.bundle"
   },
   "Worldraid_854/WorldRaid854_Bg_TabWhite_Long": {
    "border": [
@@ -1221,7 +1201,7 @@
     6
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1984591082.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2026-04-06_assets_all_4248346484.bundle"
   },
   "Worldraid_854/WorldRaid854_Bg_TabWhite_Side": {
    "border": [
@@ -1231,7 +1211,7 @@
     8
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1006941425.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2026-04-06_assets_all_4038542814.bundle"
   },
   "Worldraid_854/WorldRaid854_Bg_UpgradeSkill_Off": {
    "border": [
@@ -1241,7 +1221,7 @@
     0
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1984591082.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2026-04-06_assets_all_4248346484.bundle"
   },
   "Worldraid_854/WorldRaid854_Bg_UpgradeSkill_On": {
    "border": [
@@ -1251,7 +1231,7 @@
     0
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1984591082.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2026-04-06_assets_all_4248346484.bundle"
   },
   "Worldraid_854/WorldRaid854_Box_8px": {
    "border": [
@@ -1261,7 +1241,7 @@
     2
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1006941425.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2026-04-06_assets_all_1209025846.bundle"
   },
   "Worldraid_854/WorldRaid854_Box_Blur3px": {
    "border": [
@@ -1271,7 +1251,7 @@
     20
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_2958376949.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2026-04-06_assets_all_16118869.bundle"
   },
   "Worldraid_854/WorldRaid854_Box_Round2px": {
    "border": [
@@ -1281,7 +1261,7 @@
     4
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_2958376949.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2026-04-06_assets_all_16118869.bundle"
   },
   "Worldraid_854/WorldRaid854_Box_Round4px": {
    "border": [
@@ -1291,7 +1271,7 @@
     6
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_3540173252.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2026-04-06_assets_all_16118869.bundle"
   },
   "Worldraid_854/WorldRaid854_Box_Shadow_8px": {
    "border": [
@@ -1301,7 +1281,7 @@
     4
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1006941425.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2026-04-06_assets_all_4038542814.bundle"
   },
   "Worldraid_854/WorldRaid854_Frame_00": {
    "border": [
@@ -1311,7 +1291,7 @@
     4
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1006941425.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2026-04-06_assets_all_1209025846.bundle"
   },
   "Worldraid_854/WorldRaid854_Frame_01": {
    "border": [
@@ -1321,7 +1301,7 @@
     0
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1006941425.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2026-04-06_assets_all_1586761152.bundle"
   },
   "Worldraid_854/WorldRaid854_Frame_02": {
    "border": [
@@ -1331,7 +1311,7 @@
     6
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_3540173252.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2026-04-06_assets_all_16118869.bundle"
   },
   "Worldraid_854/WorldRaid854_Frame_Replay_Select_Off": {
    "border": [
@@ -1341,7 +1321,7 @@
     0
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_544277865.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2026-04-06_assets_all_2470298486.bundle"
   },
   "Worldraid_854/WorldRaid854_Frame_Replay_Select_On": {
    "border": [
@@ -1351,7 +1331,7 @@
     0
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_544277865.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2026-04-06_assets_all_2470298486.bundle"
   },
   "Worldraid_854/WorldRaid854_Frame_Round4px": {
    "border": [
@@ -1371,7 +1351,7 @@
     22
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_3540173252.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2026-04-06_assets_all_16118869.bundle"
   },
   "Worldraid_854/WorldRaid854_Frame_SkillCondition_1": {
    "border": [
@@ -1381,7 +1361,7 @@
     22
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_3540173252.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2026-04-06_assets_all_16118869.bundle"
   },
   "Worldraid_854/WorldRaid854_Frame_USB_On_00": {
    "border": [
@@ -1391,7 +1371,7 @@
     22
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1984591082.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2026-04-06_assets_all_4248346484.bundle"
   },
   "Worldraid_854/WorldRaid854_Gradient_00": {
    "border": [
@@ -1401,7 +1381,7 @@
     8
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1006941425.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2026-04-06_assets_all_4038542814.bundle"
   },
   "Worldraid_854/WorldRaid854_Gradient_Outglow": {
    "border": [
@@ -1421,7 +1401,7 @@
     0
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1006941425.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2026-04-06_assets_all_1586761152.bundle"
   },
   "Worldraid_854/WorldRaid854_Img_AlertDeco_2": {
    "border": [
@@ -1431,7 +1411,7 @@
     20
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_4015470350.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2026-04-06_assets_all_2303890844.bundle"
   },
   "Worldraid_854/WorldRaid854_Img_BattlePopup_Deco_00": {
    "border": [
@@ -1441,7 +1421,7 @@
     2
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_3187605650.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2026-04-06_assets_all_1209025846.bundle"
   },
   "Worldraid_854/WorldRaid854_Img_BattlePopup_Deco_01": {
    "border": [
@@ -1451,7 +1431,7 @@
     0
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_3540173252.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2026-04-06_assets_all_16118869.bundle"
   },
   "Worldraid_854/WorldRaid854_Img_BattlePopup_Frame_GlobalSkill": {
    "border": [
@@ -1461,7 +1441,7 @@
     96
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_3540173252.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2026-04-06_assets_all_16118869.bundle"
   },
   "Worldraid_854/WorldRaid854_Img_BattlePopup_Frame_SkillList": {
    "border": [
@@ -1471,7 +1451,7 @@
     8
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_3540173252.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2026-04-06_assets_all_16118869.bundle"
   },
   "Worldraid_854/WorldRaid854_Img_BattlePopup_HpBar": {
    "border": [
@@ -1481,7 +1461,7 @@
     0
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_3540173252.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2026-04-06_assets_all_16118869.bundle"
   },
   "Worldraid_854/WorldRaid854_Img_BattlePopup_IDC": {
    "border": [
@@ -1491,7 +1471,7 @@
     24
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_3187605650.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2026-04-06_assets_all_1209025846.bundle"
   },
   "Worldraid_854/WorldRaid854_Img_BattlePopup_Select_00": {
    "border": [
@@ -1501,7 +1481,7 @@
     0
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_3187605650.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2026-04-06_assets_all_1209025846.bundle"
   },
   "Worldraid_854/WorldRaid854_Img_BridgeDeco_07": {
    "border": [
@@ -1511,7 +1491,7 @@
     0
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_2958376949.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2026-04-06_assets_all_2303890844.bundle"
   },
   "Worldraid_854/WorldRaid854_Img_BridgeDeco_09": {
    "border": [
@@ -1531,7 +1511,7 @@
     18
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1006941425.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2026-04-06_assets_all_4038542814.bundle"
   },
   "Worldraid_854/WorldRaid854_Img_BridgeDeco_19": {
    "border": [
@@ -1541,7 +1521,7 @@
     13
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_2958376949.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2026-04-06_assets_all_2502980773.bundle"
   },
   "Worldraid_854/WorldRaid854_Img_BridgeDeco_20": {
    "border": [
@@ -1551,7 +1531,7 @@
     0
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1006941425.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2026-04-06_assets_all_4038542814.bundle"
   },
   "Worldraid_854/WorldRaid854_Img_BridgeDeco_28": {
    "border": [
@@ -1561,7 +1541,7 @@
     14
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_2958376949.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2026-04-06_assets_all_2303890844.bundle"
   },
   "Worldraid_854/WorldRaid854_Img_Deco_USB": {
    "border": [
@@ -1571,7 +1551,7 @@
     36
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1984591082.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2026-04-06_assets_all_4248346484.bundle"
   },
   "Worldraid_854/WorldRaid854_Img_HpBar_Line": {
    "border": [
@@ -1591,7 +1571,7 @@
     0
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_2958376949.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2026-04-06_assets_all_2502980773.bundle"
   },
   "Worldraid_854/WorldRaid854_Img_NodeDeco_01": {
    "border": [
@@ -1601,7 +1581,7 @@
     8
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_2958376949.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2026-04-06_assets_all_16118869.bundle"
   },
   "Worldraid_854/WorldRaid854_Img_NodeDeco_02": {
    "border": [
@@ -1611,7 +1591,7 @@
     0
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_2958376949.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2026-04-06_assets_all_1209025846.bundle"
   },
   "Worldraid_854/WorldRaid854_Img_NodeDeco_06": {
    "border": [
@@ -1621,7 +1601,7 @@
     8
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_2958376949.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2026-04-06_assets_all_2502980773.bundle"
   },
   "Worldraid_854/WorldRaid854_Img_NodeDeco_14": {
    "border": [
@@ -1631,7 +1611,7 @@
     31
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_2958376949.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2026-04-06_assets_all_2470298486.bundle"
   },
   "Worldraid_854/WorldRaid854_Img_PopupDeco_02": {
    "border": [
@@ -1641,7 +1621,7 @@
     0
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_3818452989.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2026-04-06_assets_all_1586761152.bundle"
   },
   "Worldraid_854/WorldRaid854_Img_Replay_NodeLine": {
    "border": [
@@ -1651,7 +1631,7 @@
     0
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_544277865.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2026-04-06_assets_all_2470298486.bundle"
   },
   "Worldraid_854/WorldRaid854_Img_Replay_NodeLine_Add": {
    "border": [
@@ -1661,7 +1641,7 @@
     168
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_544277865.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2026-04-06_assets_all_2470298486.bundle"
   },
   "Worldraid_854/WorldRaid854_Img_Replay_NodeLine_Slide": {
    "border": [
@@ -1671,7 +1651,7 @@
     0
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_544277865.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2026-04-06_assets_all_2470298486.bundle"
   },
   "Worldraid_854/WorldRaid854_Img_Replay_SliderForeground": {
    "border": [
@@ -1681,7 +1661,7 @@
     14
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_544277865.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2026-04-06_assets_all_2470298486.bundle"
   },
   "Worldraid_854/WorldRaid854_Img_Replay_SliderFrame": {
    "border": [
@@ -1691,7 +1671,7 @@
     18
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1006941425.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2026-04-06_assets_all_2470298486.bundle"
   },
   "Worldraid_854/WorldRaid854_Img_ReplayDeco_01": {
    "border": [
@@ -1701,7 +1681,7 @@
     20
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_544277865.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2026-04-06_assets_all_2470298486.bundle"
   },
   "Worldraid_854/WorldRaid854_Img_ReplayDeco_05": {
    "border": [
@@ -1721,7 +1701,7 @@
     6
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_544277865.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2026-04-06_assets_all_2470298486.bundle"
   },
   "Worldraid_854/WorldRaid854_Img_ReplayDeco_18": {
    "border": [
@@ -1731,7 +1711,7 @@
     14
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1006941425.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2026-04-06_assets_all_4038542814.bundle"
   },
   "Worldraid_854/WorldRaid854_Img_StartDeco_01": {
    "border": [
@@ -1751,7 +1731,7 @@
     22
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_2958376949.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2026-04-06_assets_all_2502980773.bundle"
   },
   "Worldraid_854/WorldRaid854_Img_ToolTip_01": {
    "border": [
@@ -1761,7 +1741,7 @@
     0
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1984591082.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2026-04-06_assets_all_16118869.bundle"
   },
   "Worldraid_854/WorldRaid854_Img_ToolTip_03": {
    "border": [
@@ -1771,7 +1751,7 @@
     30
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1984591082.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2026-04-06_assets_all_16118869.bundle"
   },
   "Worldraid_854/WorldRaid854_Img_UpgradeDeco_00": {
    "border": [
@@ -1781,7 +1761,7 @@
     0
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1984591082.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2026-04-06_assets_all_4248346484.bundle"
   },
   "Worldraid_854/WorldRaid854_Img_UpgradeDeco_03": {
    "border": [
@@ -1791,7 +1771,7 @@
     0
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1984591082.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2026-04-06_assets_all_4248346484.bundle"
   },
   "Worldraid_854/WorldRaid854_Img_UpgradeDeco_04": {
    "border": [
@@ -1801,7 +1781,7 @@
     0
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1984591082.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2026-04-06_assets_all_4248346484.bundle"
   },
   "Worldraid_854/WorldRaid854_Img_UpgradeDeco_10": {
    "border": [
@@ -1811,7 +1791,7 @@
     20
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1984591082.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2026-04-06_assets_all_4248346484.bundle"
   },
   "Worldraid_854/WorldRaid854_Img_ViewMode_01": {
    "border": [
@@ -1821,7 +1801,7 @@
     6
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1984591082.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2026-04-06_assets_all_4248346484.bundle"
   },
   "Worldraid_854/WorldRaid854_Line_2px": {
    "border": [
@@ -1831,7 +1811,7 @@
     0
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1006941425.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2026-04-06_assets_all_2303890844.bundle"
   },
   "Worldraid_854/WorldRaid854_Line_4px": {
    "border": [
@@ -1841,7 +1821,7 @@
     0
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_2958376949.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2026-04-06_assets_all_2502980773.bundle"
   },
   "CardGame/CCG_Bg_22px": {
    "border": [
@@ -1851,7 +1831,7 @@
     10
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_103874872.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_1176083927.bundle"
   },
   "CardGame/CCG_Bg_8px": {
    "border": [
@@ -1861,7 +1841,7 @@
     2
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1022382085.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_2186070019.bundle"
   },
   "CardGame/CCG_Bg_BgLogEffect": {
    "border": [
@@ -1871,7 +1851,7 @@
     0
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_3378756154.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_2876657917.bundle"
   },
   "CardGame/CCG_Bg_Btn_Dim": {
    "border": [
@@ -1881,7 +1861,7 @@
     26
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1979888087.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_1641320948.bundle"
   },
   "CardGame/CCG_Bg_BtnAccept": {
    "border": [
@@ -1891,7 +1871,7 @@
     0
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1979888087.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_1641320948.bundle"
   },
   "CardGame/CCG_Bg_BtnBg": {
    "border": [
@@ -1901,7 +1881,7 @@
     46
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_3831263655.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_1433540865.bundle"
   },
   "CardGame/CCG_Bg_BtnDisable": {
    "border": [
@@ -1911,7 +1891,7 @@
     0
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1979888087.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_1433540865.bundle"
   },
   "CardGame/CCG_Bg_BtnDumpCards": {
    "border": [
@@ -1921,7 +1901,7 @@
     16
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1979888087.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_1433540865.bundle"
   },
   "CardGame/CCG_Bg_BtnFuntion": {
    "border": [
@@ -1931,7 +1911,7 @@
     26
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1369119962.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_1192855457.bundle"
   },
   "CardGame/CCG_Bg_BtnMenu": {
    "border": [
@@ -1941,7 +1921,7 @@
     0
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1369119962.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_3643156198.bundle"
   },
   "CardGame/CCG_Bg_BtnMenu_Worldrade": {
    "border": [
@@ -1951,7 +1931,7 @@
     0
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_2493063994.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2026-04-06_assets_all_1193242034.bundle"
   },
   "CardGame/CCG_Bg_BtnMenuDeco": {
    "border": [
@@ -1961,7 +1941,7 @@
     16
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1369119962.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_3643156198.bundle"
   },
   "CardGame/CCG_Bg_BtnMove": {
    "border": [
@@ -1971,7 +1951,7 @@
     44
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_3831263655.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_1192855457.bundle"
   },
   "CardGame/CCG_Bg_BtnNext": {
    "border": [
@@ -1981,7 +1961,7 @@
     0
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_3514820628.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_1433540865.bundle"
   },
   "CardGame/CCG_Bg_BtnStand": {
    "border": [
@@ -1991,7 +1971,7 @@
     0
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1979888087.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_1641320948.bundle"
   },
   "CardGame/CCG_Bg_CardReward": {
    "border": [
@@ -2001,7 +1981,7 @@
     44
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1979888087.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_1433540865.bundle"
   },
   "CardGame/CCG_Bg_CardTooltip": {
    "border": [
@@ -2011,7 +1991,7 @@
     15
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1566388823.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_1786300039.bundle"
   },
   "CardGame/CCG_Bg_Condition": {
    "border": [
@@ -2021,7 +2001,7 @@
     20
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1566388823.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_2954046187.bundle"
   },
   "CardGame/CCG_Bg_DeckMyCardInfo": {
    "border": [
@@ -2031,7 +2011,7 @@
     22
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1887593516.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_2538059858.bundle"
   },
   "CardGame/CCG_Bg_Dialog": {
    "border": [
@@ -2041,7 +2021,7 @@
     54
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1990632098.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_2201640673.bundle"
   },
   "CardGame/CCG_Bg_DumpCards": {
    "border": [
@@ -2051,7 +2031,7 @@
     24
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_3831263655.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_1433540865.bundle"
   },
   "CardGame/CCG_Bg_DumpCardsFrame": {
    "border": [
@@ -2061,7 +2041,7 @@
     20
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1979888087.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_1433540865.bundle"
   },
   "CardGame/CCG_Bg_EffectTab": {
    "border": [
@@ -2071,7 +2051,7 @@
     0
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_206225701.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_2086452726.bundle"
   },
   "CardGame/CCG_Bg_Hediff": {
    "border": [
@@ -2081,7 +2061,7 @@
     14
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_2304601574.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_2927919331.bundle"
   },
   "CardGame/CCG_Bg_HediffTab": {
    "border": [
@@ -2091,7 +2071,7 @@
     26
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1279766031.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_1176083927.bundle"
   },
   "CardGame/CCG_Bg_HudReinforce": {
    "border": [
@@ -2101,7 +2081,7 @@
     26
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_3753603633.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_3294262885.bundle"
   },
   "CardGame/CCG_Bg_HudStage": {
    "border": [
@@ -2111,7 +2091,7 @@
     54
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1369119962.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_1192855457.bundle"
   },
   "CardGame/CCG_Bg_InfoLabel": {
    "border": [
@@ -2121,7 +2101,7 @@
     0
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_307204876.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_104326842.bundle"
   },
   "CardGame/CCG_Bg_LogDefault": {
    "border": [
@@ -2131,7 +2111,7 @@
     12
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_3378756154.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_2876657917.bundle"
   },
   "CardGame/CCG_Bg_MapPerk_Off": {
    "border": [
@@ -2151,7 +2131,7 @@
     0
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1369119962.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_3643156198.bundle"
   },
   "CardGame/CCG_Bg_MyCardList": {
    "border": [
@@ -2161,7 +2141,7 @@
     0
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_3396812812.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_329736135.bundle"
   },
   "CardGame/CCG_Bg_NamePlate": {
    "border": [
@@ -2171,7 +2151,7 @@
     46
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_193775058.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_2610669112.bundle"
   },
   "CardGame/CCG_Bg_RestStageNotice": {
    "border": [
@@ -2181,7 +2161,7 @@
     0
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_92828945.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_1192855457.bundle"
   },
   "CardGame/CCG_Bg_SkillPlate": {
    "border": [
@@ -2191,7 +2171,7 @@
     42
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1566388823.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_1176083927.bundle"
   },
   "CardGame/CCG_Bg_StageComplete": {
    "border": [
@@ -2201,7 +2181,7 @@
     0
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_2707452571.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_4069745239.bundle"
   },
   "CardGame/CCG_Bg_TabComplete": {
    "border": [
@@ -2211,7 +2191,7 @@
     28
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_2707452571.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_4069745239.bundle"
   },
   "CardGame/CCG_Bg_ToastLogAlly": {
    "border": [
@@ -2251,7 +2231,7 @@
     0
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_689611688.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_4102104244.bundle"
   },
   "CardGame/CCG_Bg_UseCost": {
    "border": [
@@ -2261,7 +2241,7 @@
     0
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1566388823.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_1786300039.bundle"
   },
   "CardGame/CCG_Btn_Active": {
    "border": [
@@ -2281,7 +2261,7 @@
     0
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_3753603633.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_3294262885.bundle"
   },
   "CardGame/CCG_Btn_Enable": {
    "border": [
@@ -2291,7 +2271,7 @@
     0
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_3753603633.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_3294262885.bundle"
   },
   "CardGame/CCG_Btn_SortMyCard": {
    "border": [
@@ -2301,7 +2281,7 @@
     28
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_3396812812.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_329736135.bundle"
   },
   "CardGame/CCG_Btn_TurnEnd": {
    "border": [
@@ -2311,7 +2291,7 @@
     0
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_3753603633.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_3294262885.bundle"
   },
   "CardGame/CCG_Btn_TurnIn": {
    "border": [
@@ -2321,7 +2301,7 @@
     32
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_3753603633.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_3294262885.bundle"
   },
   "CardGame/CCG_Btn_TurnOut": {
    "border": [
@@ -2341,7 +2321,7 @@
     0
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_3753603633.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_3294262885.bundle"
   },
   "CardGame/CCG_Img_16px": {
    "border": [
@@ -2361,7 +2341,7 @@
     14
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_193775058.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_1176083927.bundle"
   },
   "CardGame/CCG_Img_4px": {
    "border": [
@@ -2371,7 +2351,7 @@
     1
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1022382085.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_1176083927.bundle"
   },
   "CardGame/CCG_Img_BgLogAlly": {
    "border": [
@@ -2391,7 +2371,7 @@
     14
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_3378756154.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_2876657917.bundle"
   },
   "CardGame/CCG_Img_BgLogEnemy": {
    "border": [
@@ -2411,7 +2391,7 @@
     0
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_4054564840.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_3358918813.bundle"
   },
   "CardGame/CCG_Img_BgLogTurn": {
    "border": [
@@ -2421,7 +2401,7 @@
     0
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_3378756154.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_2876657917.bundle"
   },
   "CardGame/CCG_Img_BgStagePopup": {
    "border": [
@@ -2431,7 +2411,7 @@
     208
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_113711815.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_3642247285.bundle"
   },
   "CardGame/CCG_Img_BtnRestSelect": {
    "border": [
@@ -2441,7 +2421,7 @@
     0
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_92828945.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_1192855457.bundle"
   },
   "CardGame/CCG_Img_BtnRestSelectDim": {
    "border": [
@@ -2461,7 +2441,7 @@
     0
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_206225701.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_2086452726.bundle"
   },
   "CardGame/CCG_Img_DecoShadow": {
    "border": [
@@ -2511,7 +2491,7 @@
     40
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1369119962.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_1433540865.bundle"
   },
   "CardGame/CCG_Img_GetPointPopup": {
    "border": [
@@ -2521,7 +2501,7 @@
     106
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_113711815.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_3642247285.bundle"
   },
   "CardGame/CCG_Img_Gradient": {
    "border": [
@@ -2531,7 +2511,7 @@
     0
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1566388823.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_1433540865.bundle"
   },
   "CardGame/CCG_Img_GradientFull": {
    "border": [
@@ -2541,7 +2521,7 @@
     0
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_206225701.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_2086452726.bundle"
   },
   "CardGame/CCG_Img_GradientReward": {
    "border": [
@@ -2551,7 +2531,7 @@
     2
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_3514820628.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_2815774641.bundle"
   },
   "CardGame/CCG_Img_GradientRoundFull": {
    "border": [
@@ -2561,7 +2541,7 @@
     0
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_206225701.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_1176083927.bundle"
   },
   "CardGame/CCG_Img_GradientRoundHalf": {
    "border": [
@@ -2571,7 +2551,7 @@
     0
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_193775058.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_2610669112.bundle"
   },
   "CardGame/CCG_Img_HudBattleFrame": {
    "border": [
@@ -2581,7 +2561,7 @@
     0
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_3753603633.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_3294262885.bundle"
   },
   "CardGame/CCG_Img_LabelTag": {
    "border": [
@@ -2591,7 +2571,7 @@
     0
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_113711815.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_3642247285.bundle"
   },
   "CardGame/CCG_Img_LogEffectDamage": {
    "border": [
@@ -2601,7 +2581,7 @@
     0
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_3378756154.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_2876657917.bundle"
   },
   "CardGame/CCG_Img_LogEffectHeal": {
    "border": [
@@ -2651,7 +2631,7 @@
     0
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1369119962.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_290636871.bundle"
   },
   "CardGame/CCG_Img_NodeFrame": {
    "border": [
@@ -2661,7 +2641,7 @@
     96
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1279766031.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_1176083927.bundle"
   },
   "CardGame/CCG_Img_NodeLine": {
    "border": [
@@ -2671,7 +2651,7 @@
     0
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1279766031.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_1176083927.bundle"
   },
   "CardGame/CCG_Img_R22": {
    "border": [
@@ -2691,7 +2671,7 @@
     18
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_113711815.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_3642247285.bundle"
   },
   "CardGame/CCG_Img_SelectEffect": {
    "border": [
@@ -2701,7 +2681,7 @@
     68
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1279766031.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_1176083927.bundle"
   },
   "CardGame/CCG_Img_SkillPlateGlow": {
    "border": [
@@ -2711,7 +2691,7 @@
     52
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1566388823.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_2538059858.bundle"
   },
   "CardGame/CCG_Img_SkillPlateStroke": {
    "border": [
@@ -2721,7 +2701,7 @@
     44
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_206225701.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_2086452726.bundle"
   },
   "CardGame/CCG_Img_Stroke32px": {
    "border": [
@@ -2731,7 +2711,7 @@
     18
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_193775058.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_2086452726.bundle"
   },
   "CardGame/CCG_Img_Stroke32px_Half": {
    "border": [
@@ -2741,7 +2721,7 @@
     16
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1566388823.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_1786300039.bundle"
   },
   "CardGame/CCG_Line_36px": {
    "border": [
@@ -2751,7 +2731,7 @@
     16
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1979888087.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_1433540865.bundle"
   },
   "CardGame/CCG_Line_Dots": {
    "border": [
@@ -2771,7 +2751,7 @@
     2
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_2304601574.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_2927919331.bundle"
   },
   "Worldraid/Common_Btn_BG": {
    "border": [
@@ -2781,7 +2761,7 @@
     35
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_100728233.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_1019844931.bundle"
   },
   "Worldraid/Common_Line_Dot": {
    "border": [
@@ -2791,7 +2771,7 @@
     2
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1013491542.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_1019844931.bundle"
   },
   "Worldraid/Conquest_2nd_Eventlobby_Bg1": {
    "border": [
@@ -2861,7 +2841,7 @@
     0
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1190080625.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_198615372.bundle"
   },
   "Worldraid/Conquest_2nd_Phase_Notice_Pt": {
    "border": [
@@ -2881,7 +2861,7 @@
     68
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_2564607161.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_1192779823.bundle"
   },
   "Common/Cafe_Balloon_Text": {
    "border": [
@@ -2891,7 +2871,7 @@
     85
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1191051902.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_1272383844.bundle"
   },
   "Common/Cafe_Balloon_Text_Think": {
    "border": [
@@ -2921,7 +2901,7 @@
     30
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1123545989.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_3061850548.bundle"
   },
   "Common/Campaign_Info_Bg": {
    "border": [
@@ -2931,7 +2911,7 @@
     24
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1078662878.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_1078907623.bundle"
   },
   "Common/Campaign_List_Normal": {
    "border": [
@@ -2941,7 +2921,7 @@
     30
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_100728233.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_1028935740.bundle"
   },
   "Common/Campaign_Stage_Select": {
    "border": [
@@ -2951,7 +2931,7 @@
     54
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1183466686.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_2523169794.bundle"
   },
   "Common/Campaign_Tab_Left": {
    "border": [
@@ -2961,7 +2941,7 @@
     0
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1445696493.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_1108509861.bundle"
   },
   "Common/Campaign_Tab_Right": {
    "border": [
@@ -2971,7 +2951,7 @@
     0
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1445696493.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_1108509861.bundle"
   },
   "Common/Card_Ability_Select_Line": {
    "border": [
@@ -2981,7 +2961,7 @@
     40
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_100728233.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_1026357097.bundle"
   },
   "Common/Card_Line_Char": {
    "border": [
@@ -2991,7 +2971,7 @@
     35
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_100728233.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_1026357097.bundle"
   },
   "Common/Card_Select_Line": {
    "border": [
@@ -3001,7 +2981,7 @@
     42
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_100728233.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_1026357097.bundle"
   },
   "Common/Card_Select_Line_Blue": {
    "border": [
@@ -3011,7 +2991,7 @@
     42
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_100728233.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_1067751193.bundle"
   },
   "Common/Card_Select_Line_Event": {
    "border": [
@@ -3021,7 +3001,7 @@
     20
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1183466686.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_1583238141.bundle"
   },
   "Common/Card_Select_Line_Type02": {
    "border": [
@@ -3031,7 +3011,7 @@
     48
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_2774657511.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_2855977649.bundle"
   },
   "Common/Common_AutoBg": {
    "border": [
@@ -3041,7 +3021,7 @@
     0
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_4020631882.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-11-03_assets_all_488578687.bundle"
   },
   "Common/Common_Balloon_LargeType": {
    "border": [
@@ -3051,7 +3031,7 @@
     62
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_394524609.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_365419414.bundle"
   },
   "Common/Common_Balloon_Type2": {
    "border": [
@@ -3061,7 +3041,7 @@
     0
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1013054326.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_1221031595.bundle"
   },
   "Common/Common_Bg_Gradation_5px": {
    "border": [
@@ -3071,7 +3051,7 @@
     0
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1444842477.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_1221031595.bundle"
   },
   "Common/Common_Bg_Paper": {
    "border": [
@@ -3091,7 +3071,7 @@
     0
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1444842477.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_2968814143.bundle"
   },
   "Common/Common_Bg_Pin_Detail_02": {
    "border": [
@@ -3101,7 +3081,7 @@
     0
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1444842477.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_2968814143.bundle"
   },
   "Common/Common_Bg_Raius10px": {
    "border": [
@@ -3111,7 +3091,7 @@
     10
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_100728233.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_1019844931.bundle"
   },
   "Common/Common_Bg_Raius10px_Select": {
    "border": [
@@ -3121,7 +3101,7 @@
     14
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1033291452.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_1133661873.bundle"
   },
   "Common/Common_Bg_Raius10px_Shadow": {
    "border": [
@@ -3131,7 +3111,7 @@
     24
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1017843303.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_1034770573.bundle"
   },
   "Common/Common_Bg_Raius20px": {
    "border": [
@@ -3141,7 +3121,7 @@
     22
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_100728233.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_1026357097.bundle"
   },
   "Common/Common_Bg_Raius20px_Shadow": {
    "border": [
@@ -3151,7 +3131,7 @@
     26
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1033291452.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_1108509861.bundle"
   },
   "Common/Common_Bg_Raius30px": {
    "border": [
@@ -3161,7 +3141,7 @@
     31
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_100728233.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_1028935740.bundle"
   },
   "Common/Common_Bg_Raius5px": {
    "border": [
@@ -3171,7 +3151,7 @@
     5
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1006941425.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_1026357097.bundle"
   },
   "Common/Common_Bg_Raius5px_Shadow": {
    "border": [
@@ -3181,7 +3161,7 @@
     30
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1066677139.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_1072500611.bundle"
   },
   "Common/Common_Bg_Tab": {
    "border": [
@@ -3191,7 +3171,7 @@
     0
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_3598503932.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_342005241.bundle"
   },
   "Common/Common_Btn_BG": {
    "border": [
@@ -3201,7 +3181,7 @@
     35
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_100728233.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_1019844931.bundle"
   },
   "Common/Common_Card_Tag_BG": {
    "border": [
@@ -3211,7 +3191,7 @@
     20
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_3346986210.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_3077987237.bundle"
   },
   "Common/Common_Collect_Card_Tag": {
    "border": [
@@ -3221,7 +3201,7 @@
     16
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1752830880.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_1028935740.bundle"
   },
   "Common/Common_Collect_CardBG": {
    "border": [
@@ -3231,7 +3211,7 @@
     55
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1444842477.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_1028935740.bundle"
   },
   "Common/Common_Corner_Bg_Shadow": {
    "border": [
@@ -3261,7 +3241,7 @@
     2
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1000166740.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_1028935740.bundle"
   },
   "Common/Common_Filter_Tab_Type1": {
    "border": [
@@ -3271,7 +3251,7 @@
     17
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1069465594.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_1072500611.bundle"
   },
   "Common/Common_Filter_Tab_Type1_Pressed": {
    "border": [
@@ -3281,7 +3261,7 @@
     12
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1107711250.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_1072500611.bundle"
   },
   "Common/Common_Filter_Tab_Type2": {
    "border": [
@@ -3291,7 +3271,7 @@
     8
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1069465594.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_1072500611.bundle"
   },
   "Common/Common_Formation_Cost_Balloon": {
    "border": [
@@ -3301,7 +3281,7 @@
     55
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1107711250.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_1072500611.bundle"
   },
   "Common/Common_Formation_FormMark_1": {
    "border": [
@@ -3311,7 +3291,7 @@
     0
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1694735534.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_1045012672.bundle"
   },
   "Common/Common_Formation_FormMark_2": {
    "border": [
@@ -3321,7 +3301,7 @@
     0
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1694735534.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_1045012672.bundle"
   },
   "Common/Common_Formation_Image_Using": {
    "border": [
@@ -3341,7 +3321,7 @@
     20
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1551147169.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_2091843531.bundle"
   },
   "Common/Common_Gauge_Voiceroom": {
    "border": [
@@ -3351,7 +3331,7 @@
     8
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_2016440783.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_1590441412.bundle"
   },
   "Common/Common_Gradient": {
    "border": [
@@ -3361,7 +3341,7 @@
     1
    ],
    "type": "Simple",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1382904969.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_1129970968.bundle"
   },
   "Common/Common_Gradient_Both": {
    "border": [
@@ -3371,7 +3351,7 @@
     2
    ],
    "type": "Simple",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1501718407.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_2083731457.bundle"
   },
   "Common/Common_Gradient_Vertical": {
    "border": [
@@ -3381,7 +3361,7 @@
     5
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1253969271.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_1034770573.bundle"
   },
   "Common/Common_Graph": {
    "border": [
@@ -3391,7 +3371,7 @@
     1
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1337831628.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_1078907623.bundle"
   },
   "Common/Common_halfslash_W_Bg": {
    "border": [
@@ -3401,7 +3381,7 @@
     0
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_29474055.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_173367328.bundle"
   },
   "Common/Common_Icon_Filter_02": {
    "border": [
@@ -3411,7 +3391,7 @@
     0
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1551147169.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_1108509861.bundle"
   },
   "Common/Common_Icon_NewbieBg": {
    "border": [
@@ -3421,7 +3401,7 @@
     0
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_3639898325.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_156946435.bundle"
   },
   "Common/Common_line_10px": {
    "border": [
@@ -3431,7 +3411,7 @@
     13
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1017843303.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_1019844931.bundle"
   },
   "Common/Common_Line_CircleSquare": {
    "border": [
@@ -3441,7 +3421,7 @@
     0
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_2022518488.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_581387123.bundle"
   },
   "Common/Common_Line_Dot": {
    "border": [
@@ -3451,7 +3431,7 @@
     2
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1013491542.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_1019844931.bundle"
   },
   "Common/Common_Line_Gradient_02": {
    "border": [
@@ -3461,7 +3441,7 @@
     2
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1129108222.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_2254125985.bundle"
   },
   "Common/Common_Line_Raius10px": {
    "border": [
@@ -3471,7 +3451,7 @@
     10
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_100728233.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_1026357097.bundle"
   },
   "Common/Common_Line_Raius10px_Type2": {
    "border": [
@@ -3481,7 +3461,7 @@
     10
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1129108222.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_1488022844.bundle"
   },
   "Common/Common_Line_Raius20px": {
    "border": [
@@ -3491,7 +3471,7 @@
     20
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_100728233.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_1026357097.bundle"
   },
   "Common/Common_Line_Raius30px": {
    "border": [
@@ -3501,7 +3481,7 @@
     30
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1259423559.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_1329898353.bundle"
   },
   "Common/Common_Line_Select_Y": {
    "border": [
@@ -3511,7 +3491,7 @@
     35
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1289347097.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_137534932.bundle"
   },
   "Common/Common_Line_Slash": {
    "border": [
@@ -3521,7 +3501,7 @@
     4
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1000166740.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_1028935740.bundle"
   },
   "Common/Common_List_Inbox": {
    "border": [
@@ -3531,7 +3511,7 @@
     30
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1167523603.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_1335612797.bundle"
   },
   "Common/Common_Nonoutline_W_Bg": {
    "border": [
@@ -3541,7 +3521,7 @@
     22
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1279755653.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_1182315449.bundle"
   },
   "Common/Common_Outline_W_Bg": {
    "border": [
@@ -3551,7 +3531,7 @@
     25
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1107711250.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_1026357097.bundle"
   },
   "Common/Common_Popup_Bg": {
    "border": [
@@ -3561,7 +3541,7 @@
     65
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1020701402.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_1019844931.bundle"
   },
   "Common/Common_Reward_BackEffect": {
    "border": [
@@ -3571,7 +3551,7 @@
     0
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1190080625.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_2049980619.bundle"
   },
   "Common/Common_Reward_Outerglow": {
    "border": [
@@ -3581,7 +3561,7 @@
     65
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1069465594.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_1139928065.bundle"
   },
   "Common/Common_Shop_Tag_DayLimit": {
    "border": [
@@ -3601,7 +3581,7 @@
     0
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1983058757.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_3103703188.bundle"
   },
   "Common/Common_Square_Bg": {
    "border": [
@@ -3611,7 +3591,7 @@
     1
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1000166740.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_1019844931.bundle"
   },
   "Common/Common_Square_Glow": {
    "border": [
@@ -3621,7 +3601,7 @@
     19
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1190080625.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_2049980619.bundle"
   },
   "Common/Common_Square_Line": {
    "border": [
@@ -3631,7 +3611,7 @@
     2
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1711425729.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_1555243018.bundle"
   },
   "Common/Common_Tab_Category": {
    "border": [
@@ -3641,7 +3621,7 @@
     30
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_181819653.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_3793200088.bundle"
   },
   "Common/Common_Tab_Normal_Btn": {
    "border": [
@@ -3651,7 +3631,7 @@
     35
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_100728233.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_1026357097.bundle"
   },
   "Common/Common_TextBg_Voiceroom": {
    "border": [
@@ -3661,7 +3641,7 @@
     30
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_277894722.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_1991358357.bundle"
   },
   "Common/Common_TextInBox_10px": {
    "border": [
@@ -3671,7 +3651,7 @@
     1
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1017843303.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_1026357097.bundle"
   },
   "Common/Common_TextSpace_Line": {
    "border": [
@@ -3681,7 +3661,7 @@
     5
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1551147169.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_3213779825.bundle"
   },
   "Common/Common_Title_Bg": {
    "border": [
@@ -3691,7 +3671,7 @@
     25
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_100728233.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_1067751193.bundle"
   },
   "Common/Common_Toast_Mission": {
    "border": [
@@ -3701,7 +3681,7 @@
     28
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_273524269.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_1434968296.bundle"
   },
   "Common/Common_Tooltip_Bg": {
    "border": [
@@ -3711,7 +3691,7 @@
     65
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1444842477.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_1139928065.bundle"
   },
   "Common/Common_Top_Menu_Bg": {
    "border": [
@@ -3721,7 +3701,7 @@
     0
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1094777168.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_1028935740.bundle"
   },
   "Common/Event_Popup_Bg": {
    "border": [
@@ -3731,7 +3711,7 @@
     80
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1458701583.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_138046030.bundle"
   },
   "Common/Formation_SuffCharacter_CoverLine_Btn": {
    "border": [
@@ -3741,7 +3721,7 @@
     37
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_100728233.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_1026357097.bundle"
   },
   "Common/Formation_TextInfo_Bg": {
    "border": [
@@ -3751,7 +3731,7 @@
     5
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_11146277.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_1026357097.bundle"
   },
   "Common/Ingame_End_Popup_Bg": {
    "border": [
@@ -3761,7 +3741,7 @@
     50
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1122348992.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_1221031595.bundle"
   },
   "Common/Lobby_balloon": {
    "border": [
@@ -3771,7 +3751,7 @@
     60
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1013054326.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_1034770573.bundle"
   },
   "Common/Lobby_balloon2": {
    "border": [
@@ -3781,7 +3761,7 @@
     55
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1013054326.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_1221031595.bundle"
   },
   "Common/Lobby_Event_Date_Bg": {
    "border": [
@@ -3791,7 +3771,7 @@
     0
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1263198857.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_1314701899.bundle"
   },
   "Common/Lobby_Indicator_Bg": {
    "border": [
@@ -3801,7 +3781,7 @@
     0
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_241958537.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_1025704619.bundle"
   },
   "Common/Lobby_Stamina_ToolTip_Bg": {
    "border": [
@@ -3811,7 +3791,7 @@
     0
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1000166740.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_1028935740.bundle"
   },
   "Common/Lobby_UserLv_Bg": {
    "border": [
@@ -3831,7 +3811,7 @@
     30
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1020701402.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_111516159.bundle"
   },
   "Common/RewardEvent_BG": {
    "border": [
@@ -3841,7 +3821,7 @@
     20
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1259423559.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_2005133204.bundle"
   },
   "Common/School_Chat_BG": {
    "border": [
@@ -3851,7 +3831,7 @@
     20
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1820102330.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_1606259250.bundle"
   },
   "Common/School_Chat_Image_Line": {
    "border": [
@@ -3871,7 +3851,7 @@
     66
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1629846189.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_1884820944.bundle"
   },
   "Common/Seasonal_List_TitleBg": {
    "border": [
@@ -3881,7 +3861,7 @@
     0
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1767969237.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_1606259250.bundle"
   },
   "Common/Seasonal_Playguide_Btn": {
    "border": [
@@ -3891,7 +3871,7 @@
     0
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1820102330.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_1606259250.bundle"
   },
   "Common/Seasonal_Tab_Btn_1": {
    "border": [
@@ -3901,7 +3881,7 @@
     0
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1820102330.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_1606259250.bundle"
   },
   "Common/Seasonal_Tab_Btn_2": {
    "border": [
@@ -3911,7 +3891,7 @@
     0
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1820102330.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_1606259250.bundle"
   },
   "Common/Special_Operation_StageList_BG": {
    "border": [
@@ -3921,7 +3901,7 @@
     20
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1131000598.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_2090926830.bundle"
   },
   "Common/Tutorial_Arrow_Line": {
    "border": [
@@ -3931,7 +3911,7 @@
     1
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_2056341723.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_2091843531.bundle"
   },
   "Common/Tutorial_Border": {
    "border": [
@@ -3941,7 +3921,7 @@
     34
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1129108222.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_1034770573.bundle"
   },
   "Common/Tutorial_Message_BG": {
    "border": [
@@ -3951,7 +3931,7 @@
     27
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_2056341723.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_2091843531.bundle"
   },
   "SpecialOperation/Special_Operation_Collection_BG": {
    "border": [
@@ -3961,7 +3941,7 @@
     104
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1634904855.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_713111685.bundle"
   },
   "SpecialOperation/Special_Operation_Collection_Deco_Side": {
    "border": [
@@ -3971,7 +3951,7 @@
     9
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1634904855.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_713111685.bundle"
   },
   "SpecialOperation/Special_Operation_Collection_Deco_Top": {
    "border": [
@@ -3981,7 +3961,7 @@
     0
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1634904855.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_713111685.bundle"
   },
   "SpecialOperation/Special_Operation_Collection_Innerglow": {
    "border": [
@@ -3991,7 +3971,7 @@
     106
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1634904855.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_713111685.bundle"
   },
   "SpecialOperation/Special_Operation_Collection_Line": {
    "border": [
@@ -4001,7 +3981,7 @@
     104
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1634904855.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_713111685.bundle"
   },
   "SpecialOperation/Special_Operation_Collection_Shadow": {
    "border": [
@@ -4011,7 +3991,7 @@
     106
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1634904855.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_713111685.bundle"
   },
   "SpecialOperation/Special_Operation_Stripe": {
    "border": [
@@ -4041,7 +4021,7 @@
     14
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1648782197.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_1074988485.bundle"
   },
   "Combat/Combat_BG_UICarrierSkillCard": {
    "border": [
@@ -4071,7 +4051,7 @@
     28
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_728946028.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2026-04-06_assets_all_3689301033.bundle"
   },
   "Combat/Combat_CardBg_Tactice_Support_Bg": {
    "border": [
@@ -4091,7 +4071,7 @@
     3
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_118903585.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_1074988485.bundle"
   },
   "Combat/Combat_SubBtn": {
    "border": [
@@ -4101,7 +4081,7 @@
     25
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_4250742881.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_2034243998.bundle"
   },
   "Combat/Combat_SuffCharacter_CoverLine_Btn": {
    "border": [
@@ -4121,7 +4101,7 @@
     22
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_215778135.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_289710008.bundle"
   },
   "Combat/Combat_Title_Bg": {
    "border": [
@@ -4141,7 +4121,7 @@
     5
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1006941425.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_1026357097.bundle"
   },
   "Combat/Common_Btn_BG": {
    "border": [
@@ -4151,7 +4131,7 @@
     38
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_100728233.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_1019844931.bundle"
   },
   "Combat/Common_Line_Dot": {
    "border": [
@@ -4161,7 +4141,7 @@
     2
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1013491542.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_1019844931.bundle"
   },
   "Combat/Common_Line_Raius20px": {
    "border": [
@@ -4171,7 +4151,7 @@
     20
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_100728233.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_1026357097.bundle"
   },
   "Combat/Common_Line_Slash": {
    "border": [
@@ -4181,7 +4161,7 @@
     4
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_1000166740.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_1028935740.bundle"
   },
   "Combat/Common_Tab_Normal_Btn": {
    "border": [
@@ -4191,7 +4171,7 @@
     30
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_100728233.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-07-02_assets_all_1026357097.bundle"
   },
   "Combat/DamageGauge_EN0015_Bg_EffectGauge": {
    "border": [
@@ -4201,7 +4181,7 @@
     0
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_118903585.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2026-04-06_assets_all_278885783.bundle"
   },
   "Combat/DamageGauge_EN0015_Bg_Gauge": {
    "border": [
@@ -4211,7 +4191,7 @@
     0
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_118903585.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2026-04-06_assets_all_278885783.bundle"
   },
   "Combat/DamageGauge_EN0015_Deco_05": {
    "border": [
@@ -4231,7 +4211,7 @@
     10
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_118903585.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2026-04-06_assets_all_278885783.bundle"
   },
   "Combat/DamageGauge_EN0015_Deco_10": {
    "border": [
@@ -4241,7 +4221,7 @@
     7
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_118903585.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2026-04-06_assets_all_278885783.bundle"
   },
   "Combat/DamageGauge_EN0015_Frame_Gauge": {
    "border": [
@@ -4251,7 +4231,7 @@
     0
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_118903585.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2026-04-06_assets_all_278885783.bundle"
   },
   "Combat/DamageGauge_EN0015_Gauge_Explosion": {
    "border": [
@@ -4261,7 +4241,7 @@
     0
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_118903585.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2026-04-06_assets_all_278885783.bundle"
   },
   "Combat/DamageGauge_EN0015_Gauge_Mystic": {
    "border": [
@@ -4271,7 +4251,7 @@
     0
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_118903585.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2026-04-06_assets_all_278885783.bundle"
   },
   "Combat/DamageGauge_EN0015_Gauge_Pierce": {
    "border": [
@@ -4281,7 +4261,7 @@
     0
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_118903585.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2026-04-06_assets_all_278885783.bundle"
   },
   "Combat/DamageGauge_EN0015_Gauge_Sonic": {
    "border": [
@@ -4291,7 +4271,7 @@
     0
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_118903585.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2026-04-06_assets_all_278885783.bundle"
   },
   "Combat/Ingame_Operater_Text_Bg": {
    "border": [
@@ -4321,7 +4301,7 @@
     0
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_728946028.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2026-04-06_assets_all_3689301033.bundle"
   },
   "Combat/SkillDeck_Decagram_Frame_01": {
    "border": [
@@ -4331,7 +4311,7 @@
     0
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_728946028.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2026-04-06_assets_all_3689301033.bundle"
   },
   "Combat/SkillDeck_Decagram_Frame_04": {
    "border": [
@@ -4341,7 +4321,7 @@
     17
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_728946028.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2026-04-06_assets_all_3689301033.bundle"
   },
   "Combat/SkillDeck_Decagram_Frame_05": {
    "border": [
@@ -4351,7 +4331,7 @@
     0
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_728946028.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2026-04-06_assets_all_3689301033.bundle"
   },
   "Combat/StatusLevel_EN0013_Deco_01": {
    "border": [
@@ -4361,7 +4341,7 @@
     10
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_118903585.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-09-26_assets_all_1734609374.bundle"
   },
   "Combat/StatusLevel_EN0013_Deco_02": {
    "border": [
@@ -4371,7 +4351,7 @@
     0
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_2779540230.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-09-26_assets_all_1734609374.bundle"
   },
   "Combat/StatusLevel_EN0013_Deco_03": {
    "border": [
@@ -4381,7 +4361,7 @@
     4
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_2779540230.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-09-26_assets_all_1734609374.bundle"
   },
   "Combat/StatusLevel_EN0013_Deco_04": {
    "border": [
@@ -4391,7 +4371,7 @@
     6
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_2779540230.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-09-26_assets_all_1734609374.bundle"
   },
   "Combat/StatusLevel_EN0013_Lamp_Wall": {
    "border": [
@@ -4401,7 +4381,367 @@
     10
    ],
    "type": "Sliced",
-   "source_prefab": "ui-_mxload-prefabs-2026-06-04_assets_all_2779540230.bundle"
+   "source_prefab": "ui-_mxload-prefabs-2025-09-26_assets_all_1734609374.bundle"
+  },
+  "Event/ClueSearch_BoardDeco_00_857": {
+   "border": [
+    16,
+    0,
+    16,
+    0
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-07-02_assets_all_4003482070.bundle"
+  },
+  "Event/ClueSearch_BoardDeco_03_857": {
+   "border": [
+    18,
+    18,
+    18,
+    24
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-07-02_assets_all_2389302838.bundle"
+  },
+  "Event/ClueSearch_HintDeco_00_857": {
+   "border": [
+    6,
+    0,
+    158,
+    0
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-07-02_assets_all_4003482070.bundle"
+  },
+  "Field_90101000/common_Square_Bg": {
+   "border": [
+    1,
+    1,
+    1,
+    1
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-07-02_assets_all_1527330098.bundle"
+  },
+  "Field_90101000/Field858_Common_Btn": {
+   "border": [
+    9,
+    9,
+    9,
+    9
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-07-02_assets_all_781366305.bundle"
+  },
+  "Field_90101000/Field858_Common_Btn_02": {
+   "border": [
+    15,
+    11,
+    15,
+    16
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-07-02_assets_all_781366305.bundle"
+  },
+  "SNS/SNS_Bg_PostInfo": {
+   "border": [
+    486,
+    0,
+    56,
+    0
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-07-02_assets_all_3797018432.bundle"
+  },
+  "SNS/SNS_Box_Raius": {
+   "border": [
+    44,
+    44,
+    44,
+    44
+   ],
+   "type": "Sliced",
+   "source_prefab": null
+  },
+  "SNS/SNS_Deco_Line": {
+   "border": [
+    4,
+    0,
+    4,
+    0
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-07-02_assets_all_3346280545.bundle"
+  },
+  "SNS/SNS_Icon_Arrow": {
+   "border": [
+    45,
+    37,
+    5,
+    208
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-07-02_assets_all_3346280545.bundle"
+  },
+  "SNS/SNS_Icon_Bg": {
+   "border": [
+    2,
+    0,
+    446,
+    0
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-07-02_assets_all_1586893580.bundle"
+  },
+  "SNS/SNS_Icon_InfoStatus_False": {
+   "border": [
+    64,
+    0,
+    46,
+    0
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-07-02_assets_all_3797018432.bundle"
+  },
+  "SNS/SNS_Icon_InfoStatus_True": {
+   "border": [
+    72,
+    0,
+    41,
+    0
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-07-02_assets_all_3797018432.bundle"
+  },
+  "SNS/SNS_PopupBG": {
+   "border": [
+    48,
+    52,
+    48,
+    52
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-07-02_assets_all_3797018432.bundle"
+  },
+  "SNS/SNS_PostBg": {
+   "border": [
+    25,
+    25,
+    25,
+    25
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-07-02_assets_all_3346280545.bundle"
+  },
+  "SNS/SNS_ScrollBarBg": {
+   "border": [
+    0,
+    9,
+    0,
+    9
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-07-02_assets_all_3797018432.bundle"
+  },
+  "Common/PermanentRaid_Img_SelectBg": {
+   "border": [
+    10,
+    12,
+    10,
+    4
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-07-02_assets_all_1120420146.bundle"
+  },
+  "Common/PermanentRaid_Img_SlotBg": {
+   "border": [
+    18,
+    18,
+    18,
+    24
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-07-02_assets_all_1120420146.bundle"
+  },
+  "Common/PermanentRaid_Img_PersonalRankBg": {
+   "border": [
+    8,
+    10,
+    106,
+    10
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-07-02_assets_all_1120420146.bundle"
+  },
+  "Common/PermanentRaid_Img_SlotFrame": {
+   "border": [
+    186,
+    12,
+    22,
+    12
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-07-02_assets_all_1120420146.bundle"
+  },
+  "UISprite/UISprite": {
+   "border": [
+    10,
+    10,
+    10,
+    10
+   ],
+   "type": "Sliced",
+   "source_prefab": null
+  },
+  "Background/Background": {
+   "border": [
+    10,
+    10,
+    10,
+    10
+   ],
+   "type": "Sliced",
+   "source_prefab": null
+  },
+  "InputFieldBackground/InputFieldBackground": {
+   "border": [
+    10,
+    10,
+    10,
+    10
+   ],
+   "type": "Sliced",
+   "source_prefab": null
+  },
+  "UIMask/UIMask": {
+   "border": [
+    10,
+    10,
+    10,
+    10
+   ],
+   "type": "Sliced",
+   "source_prefab": null
+  },
+  "ColorFieldBg/ColorFieldBg": {
+   "border": [
+    10,
+    10,
+    10,
+    10
+   ],
+   "type": "Sliced",
+   "source_prefab": null
+  },
+  "SliderBg/SliderBg": {
+   "border": [
+    8,
+    5,
+    8,
+    5
+   ],
+   "type": "Sliced",
+   "source_prefab": null
+  },
+  "DragAndDropBg/DragAndDropBg": {
+   "border": [
+    3,
+    3,
+    3,
+    3
+   ],
+   "type": "Sliced",
+   "source_prefab": null
+  },
+  "UIElement8px/UIElement8px": {
+   "border": [
+    0,
+    0,
+    0,
+    2
+   ],
+   "type": "Sliced",
+   "source_prefab": null
+  },
+  "ui_border_20px_filled/ui_border_20px_filled": {
+   "border": [
+    20,
+    20,
+    20,
+    20
+   ],
+   "type": "Sliced",
+   "source_prefab": null
+  },
+  "ButtonBg/ButtonBg": {
+   "border": [
+    10,
+    10,
+    10,
+    10
+   ],
+   "type": "Sliced",
+   "source_prefab": null
+  },
+  "ui_border_20px/ui_border_20px": {
+   "border": [
+    20,
+    20,
+    20,
+    20
+   ],
+   "type": "Sliced",
+   "source_prefab": null
+  },
+  "common_blue_border/common_blue_border": {
+   "border": [
+    4,
+    4,
+    4,
+    4
+   ],
+   "type": "Sliced",
+   "source_prefab": null
+  },
+  "InputFieldBg/InputFieldBg": {
+   "border": [
+    10,
+    10,
+    10,
+    10
+   ],
+   "type": "Sliced",
+   "source_prefab": null
+  },
+  "btn_cancel/btn_cancel": {
+   "border": [
+    1,
+    1,
+    1,
+    1
+   ],
+   "type": "Sliced",
+   "source_prefab": null
+  },
+  "ui_border_20px_filled_top/ui_border_20px_filled_top": {
+   "border": [
+    20,
+    20,
+    20,
+    20
+   ],
+   "type": "Sliced",
+   "source_prefab": null
+  },
+  "Common/PermanentRaid_Img_RankBg": {
+   "border": [
+    20,
+    16,
+    20,
+    28
+   ],
+   "type": "Sliced",
+   "source_prefab": "ui-_mxload-prefabs-2026-07-02_assets_all_1120420146.bundle"
   }
  }
 }

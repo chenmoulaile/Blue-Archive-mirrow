@@ -81,7 +81,7 @@ def main() -> None:
     args = ap.parse_args()
 
     if not Path(args.index).exists():
-        print("缺 data/se_index.json，先跑 probe_se.py --export")
+        print("缺 data/se_index.json，先跑 tools/fetch/extract_local_se.py")
         return
     targets = list((json.loads(Path(args.index).read_text(encoding="utf-8")).get("files") or {}).keys())
     if not targets:
