@@ -16,6 +16,21 @@ async function getJson<T>(url: string): Promise<T> {
   return p;
 }
 
+/**
+ * 生成数据（tools/fetch 产物，git 忽略）缺失时回退为空值。
+ *
+ * AGENTS.md §1 的约定是「没有素材时软件仍能启动，界面走兜底样式，不会崩」，
+ * 所以这些 404 不算致命：缺学生表就显示空列表，缺剧情索引就进不了剧情，
+ * 但 setup 向导 / 启动页 / 主界面必须照常起来。
+ */
+async function getJsonOr<T>(url: string, fallback: T): Promise<T> {
+  try {
+    return await getJson<T>(url);
+  } catch {
+    return fallback;
+  }
+}
+
 /** asset_map 里存的是 "resources/images/..."，转成 http 路径 "/res/images/..." */
 function toUrl(p: string): string {
   return '/' + p.replace(/^resources\//, 'res/').replace(/\\/g, '/');
@@ -51,16 +66,24 @@ export interface AssetBundle {
 
 let bundle: AssetBundle | null = null;
 
+/** asset_map.json 缺失时的空映射（干净检出、还没跑 build_asset_map.py 的情况） */
+const EMPTY_MAP: AssetMap = {
+  images: {},
+  spines: {},
+  character_spine: {},
+  counts: { images: 0, image_dupes: 0, spines: 0, characters_mapped: 0 },
+};
+
 export async function loadAssets(): Promise<AssetBundle> {
   if (bundle) return bundle;
 
   const [map, students, storyIndex, banners, furniture, rawEvents] = await Promise.all([
-    getJson<AssetMap>('/data/asset_map.json'),
-    getJson<Student[]>('/data/students_slim.json'),
-    getJson<StoryEntry[]>('/data/story_index.json'),
-    getJson<Banner[]>('/data/banners.json'),
-    getJson<Furniture[]>('/data/furniture.json'),
-    getJson<Record<string, unknown>[]>('/data/event_timeline.json'),
+    getJsonOr<AssetMap>('/data/asset_map.json', EMPTY_MAP),
+    getJsonOr<Student[]>('/data/students_slim.json', []),
+    getJsonOr<StoryEntry[]>('/data/story_index.json', []),
+    getJsonOr<Banner[]>('/data/banners.json', []),
+    getJsonOr<Furniture[]>('/data/furniture.json', []),
+    getJsonOr<Record<string, unknown>[]>('/data/event_timeline.json', []),
   ]);
 
   const events: EventEntry[] = rawEvents.map((e) => ({

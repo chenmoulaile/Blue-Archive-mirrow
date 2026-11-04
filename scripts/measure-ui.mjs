@@ -12,12 +12,20 @@
  * 产物：控制台 JSON + tools/recon/out/layout-<宽>x<高>.json
  */
 import { _electron as electron } from 'playwright-core';
-import { mkdirSync, writeFileSync } from 'node:fs';
+import { existsSync, mkdirSync, writeFileSync } from 'node:fs';
 import path from 'node:path';
 import { childEnv } from './env.mjs';
 
 const OUT = 'tools/recon/out';
 mkdirSync(OUT, { recursive: true });
+
+// dist/（渲染层构建产物）不入库，干净检出后直接跑本脚本会白屏直到超时。
+// 缺失就现场构建一次，保证测试自洽；构建失败按失败退出，不吞错误。
+if (!existsSync('dist/index.html')) {
+  console.log('dist/index.html 缺失，先执行 vite build …');
+  const { build } = await import('vite');
+  await build({ logLevel: 'info' });
+}
 
 const W = Number(process.argv[2] ?? 1920);
 const H = Number(process.argv[3] ?? 1080);
