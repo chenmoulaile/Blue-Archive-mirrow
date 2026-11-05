@@ -1,8 +1,4212 @@
 {
- "generated": "2026-11-05T00:51:33",
+ "generated": "2026-11-06T01:48:24",
  "rule": "strip SE_/SFX_/FX_ prefix + trailing digits, lowercase; exact=high, editdist<=2=medium",
- "total_story_se": 0,
- "matched": 0,
- "map": {},
- "unmatched": []
+ "total_story_se": 846,
+ "matched": 811,
+ "map": {
+  "SE_Cartoon_01": {
+   "target": "SE_CarHorn_01",
+   "confidence": "medium",
+   "used": 5176,
+   "distance": 2
+  },
+  "SE_Gear_02": {
+   "target": "SE_Gear_01",
+   "confidence": "high",
+   "used": 3943
+  },
+  "SE_Cartoon_02": {
+   "target": "SE_CarHorn_01",
+   "confidence": "medium",
+   "used": 2930,
+   "distance": 2
+  },
+  "SE_FootStep_03a": {
+   "target": "SE_FootStep_03a",
+   "confidence": "high",
+   "used": 2456
+  },
+  "SE_FootStep_02": {
+   "target": "SE_FootStep_01",
+   "confidence": "high",
+   "used": 2437
+  },
+  "SE_FootStep_01": {
+   "target": "SE_FootStep_01",
+   "confidence": "high",
+   "used": 2265
+  },
+  "SE_Run_04": {
+   "target": "SE_Run_01",
+   "confidence": "high",
+   "used": 1345
+  },
+  "SE_Radio_01": {
+   "target": "SE_Rain_01",
+   "confidence": "medium",
+   "used": 1331,
+   "distance": 2
+  },
+  "SE_Shot_01": {
+   "target": "SE_Shot_01",
+   "confidence": "high",
+   "used": 1205
+  },
+  "SE_Run_03": {
+   "target": "SE_Run_01",
+   "confidence": "high",
+   "used": 1186
+  },
+  "SE_FootStep_03b": {
+   "target": "SE_FootStep_03b",
+   "confidence": "high",
+   "used": 1093
+  },
+  "SE_Crowd_02": {
+   "target": "SE_Crowd_01",
+   "confidence": "high",
+   "used": 744
+  },
+  "SE_FootStep_07a": {
+   "target": "SE_FootStep_07a",
+   "confidence": "high",
+   "used": 649
+  },
+  "SE_Close_01": {
+   "target": "SE_Close_02",
+   "confidence": "high",
+   "used": 622
+  },
+  "SE_Book_02": {
+   "target": "SE_Book_01",
+   "confidence": "high",
+   "used": 607
+  },
+  "SE_BoomEffect_01": {
+   "target": "SE_BoomEffect_01",
+   "confidence": "high",
+   "used": 601
+  },
+  "SE_Run_05": {
+   "target": "SE_Run_01",
+   "confidence": "high",
+   "used": 572
+  },
+  "SE_Run_02": {
+   "target": "SE_Run_01",
+   "confidence": "high",
+   "used": 536
+  },
+  "SE_FootStep_03c": {
+   "target": "SE_FootStep_03c",
+   "confidence": "high",
+   "used": 509
+  },
+  "SE_SandFootStep_01": {
+   "target": "SE_SandFootStep_01",
+   "confidence": "high",
+   "used": 499
+  },
+  "SE_Boom_01": {
+   "target": "SE_Boom_01",
+   "confidence": "high",
+   "used": 495
+  },
+  "SE_Clothes_01": {
+   "target": "SE_Clothes_01",
+   "confidence": "high",
+   "used": 458
+  },
+  "SE_Boom_02": {
+   "target": "SE_Boom_01",
+   "confidence": "high",
+   "used": 454
+  },
+  "SE_Gear_01": {
+   "target": "SE_Gear_01",
+   "confidence": "high",
+   "used": 424
+  },
+  "SE_Fall_02": {
+   "target": "SE_Fall_01",
+   "confidence": "high",
+   "used": 419
+  },
+  "SE_SandFootStep_03a": {
+   "target": "SE_SandFootStep_03a",
+   "confidence": "high",
+   "used": 397
+  },
+  "SE_DoorOpen_01": {
+   "target": "SE_DoorOpen_01",
+   "confidence": "high",
+   "used": 367
+  },
+  "SE_Rapid_01": {
+   "target": "SE_Rapid_01",
+   "confidence": "high",
+   "used": 349
+  },
+  "SE_Tampe_01": {
+   "target": "SE_Tampe_01",
+   "confidence": "high",
+   "used": 335
+  },
+  "SE_Tampe_02": {
+   "target": "SE_Tampe_01",
+   "confidence": "high",
+   "used": 326
+  },
+  "SE_Clock_03a": {
+   "target": "SE_Clock_03a",
+   "confidence": "high",
+   "used": 323
+  },
+  "SE_Wind_01": {
+   "target": "SE_Wind_02",
+   "confidence": "high",
+   "used": 315
+  },
+  "SE_FootStep_07b": {
+   "target": "SE_FootStep_07b",
+   "confidence": "high",
+   "used": 314
+  },
+  "SE_Clothes_02": {
+   "target": "SE_Clothes_01",
+   "confidence": "high",
+   "used": 302
+  },
+  "SE_Reload_02": {
+   "target": "SE_Reload_01",
+   "confidence": "high",
+   "used": 298
+  },
+  "SE_Beep_02": {
+   "target": "SE_Bear_01",
+   "confidence": "medium",
+   "used": 297,
+   "distance": 2
+  },
+  "SE_Fall_01": {
+   "target": "SE_Fall_01",
+   "confidence": "high",
+   "used": 282
+  },
+  "SE_Hit_02": {
+   "target": "SE_Hit_01",
+   "confidence": "high",
+   "used": 281
+  },
+  "SE_Fall_03": {
+   "target": "SE_Fall_01",
+   "confidence": "high",
+   "used": 276
+  },
+  "SE_FootStep_03d": {
+   "target": "SE_FootStep_03d",
+   "confidence": "high",
+   "used": 271
+  },
+  "SE_FootStep_07c": {
+   "target": "SE_FootStep_07c",
+   "confidence": "high",
+   "used": 255
+  },
+  "SE_Blow_01": {
+   "target": "SE_Blow_01",
+   "confidence": "high",
+   "used": 237
+  },
+  "SE_SandFootStep_02": {
+   "target": "SE_SandFootStep_01",
+   "confidence": "high",
+   "used": 234
+  },
+  "SE_Write_01": {
+   "target": "SE_Write_01",
+   "confidence": "high",
+   "used": 233
+  },
+  "SE_Run_01": {
+   "target": "SE_Run_01",
+   "confidence": "high",
+   "used": 224
+  },
+  "SE_Hit_01": {
+   "target": "SE_Hit_01",
+   "confidence": "high",
+   "used": 204
+  },
+  "SE_SeaWave_01": {
+   "target": "SE_SeaWave_01",
+   "confidence": "high",
+   "used": 202
+  },
+  "SE_Typing_02": {
+   "target": "SE_Typing_01",
+   "confidence": "high",
+   "used": 194
+  },
+  "SE_Beep_01": {
+   "target": "SE_Bear_01",
+   "confidence": "medium",
+   "used": 190,
+   "distance": 2
+  },
+  "SE_SandFootStep_03b": {
+   "target": "SE_SandFootStep_03b",
+   "confidence": "high",
+   "used": 189
+  },
+  "SE_Clock_03b": {
+   "target": "SE_Clock_03b",
+   "confidence": "high",
+   "used": 180
+  },
+  "SE_Taiko_01": {
+   "target": "SE_Taiko_01",
+   "confidence": "high",
+   "used": 174
+  },
+  "SE_Flick_01": {
+   "target": "SE_Flick_01",
+   "confidence": "high",
+   "used": 172
+  },
+  "SE_DoorOpen_02": {
+   "target": "SE_DoorOpen_01",
+   "confidence": "high",
+   "used": 168
+  },
+  "SE_Vanish_01": {
+   "target": "SE_Vanish_01",
+   "confidence": "high",
+   "used": 156
+  },
+  "SE_Reload_03": {
+   "target": "SE_Reload_01",
+   "confidence": "high",
+   "used": 151
+  },
+  "SE_Equip_01": {
+   "target": "SE_Equip_01",
+   "confidence": "high",
+   "used": 135
+  },
+  "SE_Army_01": {
+   "target": "SE_Army_01",
+   "confidence": "high",
+   "used": 133
+  },
+  "SE_Crowd_03": {
+   "target": "SE_Crowd_01",
+   "confidence": "high",
+   "used": 132
+  },
+  "SE_Ring_03": {
+   "target": "SE_Ring_01",
+   "confidence": "high",
+   "used": 131
+  },
+  "SE_Typing_04a": {
+   "target": "SE_Typing_04a",
+   "confidence": "high",
+   "used": 129
+  },
+  "SE_SandRun_01": {
+   "target": "SE_SandRun_01",
+   "confidence": "high",
+   "used": 126
+  },
+  "SE_SandFootStep_03c": {
+   "target": "SE_SandFootStep_03c",
+   "confidence": "high",
+   "used": 125
+  },
+  "SE_Appear_01a": {
+   "target": "SE_Appear_01a",
+   "confidence": "high",
+   "used": 122
+  },
+  "SE_Snap_02": {
+   "target": "SE_Snap_01",
+   "confidence": "high",
+   "used": 121
+  },
+  "SE_Clink_01": {
+   "target": "SE_Clink_01",
+   "confidence": "high",
+   "used": 120
+  },
+  "SE_Bell_02": {
+   "target": "SE_Bell_01",
+   "confidence": "high",
+   "used": 119
+  },
+  "SE_Drink_02": {
+   "target": "SE_Drink_01",
+   "confidence": "high",
+   "used": 117
+  },
+  "SE_Serving_01": {
+   "target": "SE_Serving_01",
+   "confidence": "high",
+   "used": 117
+  },
+  "SE_Boom_05": {
+   "target": "SE_Boom_01",
+   "confidence": "high",
+   "used": 117
+  },
+  "SE_Electric_01": {
+   "target": "SE_Electric_01",
+   "confidence": "high",
+   "used": 116
+  },
+  "SE_Eat_02": {
+   "target": "SE_Eat_01",
+   "confidence": "high",
+   "used": 113
+  },
+  "SE_RetroHit_01": {
+   "target": "SE_RetroHit_01",
+   "confidence": "high",
+   "used": 112
+  },
+  "SE_Book_01": {
+   "target": "SE_Book_01",
+   "confidence": "high",
+   "used": 105
+  },
+  "SE_RetroSuccess_01": {
+   "target": "SE_RetroSuccess_01",
+   "confidence": "high",
+   "used": 105
+  },
+  "SE_Clap_02": {
+   "target": "SE_Clap_01",
+   "confidence": "high",
+   "used": 105
+  },
+  "SE_FootStep_07d": {
+   "target": "SE_FootStep_07d",
+   "confidence": "high",
+   "used": 105
+  },
+  "SE_RetroShot_01": {
+   "target": "SE_RetroShot_01",
+   "confidence": "high",
+   "used": 103
+  },
+  "SE_Work_01": {
+   "target": "SE_Book_01",
+   "confidence": "medium",
+   "used": 102,
+   "distance": 2
+  },
+  "SE_Fear_01": {
+   "target": "SE_Fear_01",
+   "confidence": "high",
+   "used": 102
+  },
+  "SE_Drink_01": {
+   "target": "SE_Drink_01",
+   "confidence": "high",
+   "used": 101
+  },
+  "SE_Seagull_01": {
+   "target": "SE_Seagull_01",
+   "confidence": "high",
+   "used": 100
+  },
+  "SE_Glitch_02": {
+   "target": "SE_Glitch_01",
+   "confidence": "high",
+   "used": 98
+  },
+  "SE_DoorClose_01": {
+   "target": "SE_DoorClose_01",
+   "confidence": "high",
+   "used": 97
+  },
+  "SE_Fall_04": {
+   "target": "SE_Fall_01",
+   "confidence": "high",
+   "used": 95
+  },
+  "SE_Knock_01": {
+   "target": "SE_Knock_01",
+   "confidence": "high",
+   "used": 93
+  },
+  "SE_Eat_01": {
+   "target": "SE_Eat_01",
+   "confidence": "high",
+   "used": 93
+  },
+  "SE_Bird_01": {
+   "target": "SE_Bird_01",
+   "confidence": "high",
+   "used": 89
+  },
+  "SE_Crowd_01": {
+   "target": "SE_Crowd_01",
+   "confidence": "high",
+   "used": 89
+  },
+  "SE_Water_In_01": {
+   "target": "SE_Water_In_01",
+   "confidence": "high",
+   "used": 88
+  },
+  "SE_Book_04": {
+   "target": "SE_Book_01",
+   "confidence": "high",
+   "used": 87
+  },
+  "SE_REC_02": {
+   "target": "SE_REC_01",
+   "confidence": "high",
+   "used": 87
+  },
+  "SE_Cup_01": {
+   "target": "SE_Cup_01",
+   "confidence": "high",
+   "used": 86
+  },
+  "SE_REC_01": {
+   "target": "SE_REC_01",
+   "confidence": "high",
+   "used": 85
+  },
+  "SE_SnowFootStep_01": {
+   "target": "SE_SnowFootStep_01",
+   "confidence": "high",
+   "used": 84
+  },
+  "SE_Denied_01": {
+   "target": "SE_Denied_01",
+   "confidence": "high",
+   "used": 83
+  },
+  "SE_Crowd_04": {
+   "target": "SE_Crowd_01",
+   "confidence": "high",
+   "used": 83
+  },
+  "SE_SeaWave_02": {
+   "target": "SE_SeaWave_01",
+   "confidence": "high",
+   "used": 82
+  },
+  "SE_FootStep_04": {
+   "target": "SE_FootStep_01",
+   "confidence": "high",
+   "used": 82
+  },
+  "SE_Serving_02": {
+   "target": "SE_Serving_01",
+   "confidence": "high",
+   "used": 81
+  },
+  "SE_DoorSlowOpen_01": {
+   "target": "SE_DoorSlowOpen_01",
+   "confidence": "high",
+   "used": 80
+  },
+  "SE_Snap_01": {
+   "target": "SE_Snap_01",
+   "confidence": "high",
+   "used": 78
+  },
+  "SE_DoorBell_01": {
+   "target": "SE_DoorBell_01",
+   "confidence": "high",
+   "used": 76
+  },
+  "SE_MomoTalk_01": {
+   "target": "SE_MomoTalk_01",
+   "confidence": "high",
+   "used": 75
+  },
+  "SE_Bird_02": {
+   "target": "SE_Bird_01",
+   "confidence": "high",
+   "used": 75
+  },
+  "SE_WaterRun_01": {
+   "target": "SE_WaterRun_01",
+   "confidence": "high",
+   "used": 73
+  },
+  "SE_WaterShot_01": {
+   "target": "SE_WaterShot_01",
+   "confidence": "high",
+   "used": 72
+  },
+  "SE_Hungry_01": {
+   "target": "SE_Hungry_01",
+   "confidence": "high",
+   "used": 71
+  },
+  "SE_Cook_01": {
+   "target": "SE_Cook_01",
+   "confidence": "high",
+   "used": 70
+  },
+  "SE_SandRun_02": {
+   "target": "SE_SandRun_01",
+   "confidence": "high",
+   "used": 70
+  },
+  "SE_Shot_02a": {
+   "target": "SE_Shot_02a",
+   "confidence": "high",
+   "used": 70
+  },
+  "SE_Earthquake_01": {
+   "target": "SE_Earthquake_01",
+   "confidence": "high",
+   "used": 70
+  },
+  "SE_Magic_01": {
+   "target": "SE_Magic_01",
+   "confidence": "high",
+   "used": 68
+  },
+  "SE_Clothes_03": {
+   "target": "SE_Clothes_01",
+   "confidence": "high",
+   "used": 66
+  },
+  "SE_Whip_01": {
+   "target": "SE_Whip_01",
+   "confidence": "high",
+   "used": 66
+  },
+  "SE_Cricket_02": {
+   "target": "SE_Cricket_01",
+   "confidence": "high",
+   "used": 65
+  },
+  "SE_Whistle_01": {
+   "target": "SE_Whistle_01",
+   "confidence": "high",
+   "used": 63
+  },
+  "SE_Clap_01": {
+   "target": "SE_Clap_01",
+   "confidence": "high",
+   "used": 62
+  },
+  "SE_Cat_01": {
+   "target": "SE_Cat_01",
+   "confidence": "high",
+   "used": 62
+  },
+  "SE_Beat_01": {
+   "target": "SE_Beat_01",
+   "confidence": "high",
+   "used": 62
+  },
+  "SE_Ring_02": {
+   "target": "SE_Ring_01",
+   "confidence": "high",
+   "used": 61
+  },
+  "SE_DoorClose_02": {
+   "target": "SE_DoorClose_01",
+   "confidence": "high",
+   "used": 60
+  },
+  "SE_Wind_03": {
+   "target": "SE_Wind_02",
+   "confidence": "high",
+   "used": 60
+  },
+  "SE_Typing_01": {
+   "target": "SE_Typing_01",
+   "confidence": "high",
+   "used": 60
+  },
+  "SE_FootStep_11": {
+   "target": "SE_FootStep_01",
+   "confidence": "high",
+   "used": 60
+  },
+  "SE_SlideOpen_01": {
+   "target": "SE_SlideOpen_01",
+   "confidence": "high",
+   "used": 58
+  },
+  "SE_WaterFootStep_01": {
+   "target": "SE_WaterFootStep_01",
+   "confidence": "high",
+   "used": 58
+  },
+  "SE_FootStep_04a": {
+   "target": "SE_FootStep_04a",
+   "confidence": "high",
+   "used": 58
+  },
+  "SE_Hit_06": {
+   "target": "SE_Hit_01",
+   "confidence": "high",
+   "used": 58
+  },
+  "SE_Book_03": {
+   "target": "SE_Book_01",
+   "confidence": "high",
+   "used": 57
+  },
+  "SE_Taiko_02": {
+   "target": "SE_Taiko_01",
+   "confidence": "high",
+   "used": 57
+  },
+  "SE_Drill_01": {
+   "target": "SE_Drill_01",
+   "confidence": "high",
+   "used": 57
+  },
+  "SE_Bird_04": {
+   "target": "SE_Bird_01",
+   "confidence": "high",
+   "used": 56
+  },
+  "SE_Spotlight_02": {
+   "target": "SE_Spotlight_01",
+   "confidence": "high",
+   "used": 56
+  },
+  "SE_FootStep_10": {
+   "target": "SE_FootStep_01",
+   "confidence": "high",
+   "used": 55
+  },
+  "SE_Boom_03_c": {
+   "target": "SE_Boom_03_c",
+   "confidence": "high",
+   "used": 55
+  },
+  "SE_RetroBoom_01": {
+   "target": "SE_RetroBoom_01",
+   "confidence": "high",
+   "used": 54
+  },
+  "SE_Hit_03": {
+   "target": "SE_Hit_01",
+   "confidence": "high",
+   "used": 54
+  },
+  "SE_Spotlight_01": {
+   "target": "SE_Spotlight_01",
+   "confidence": "high",
+   "used": 54
+  },
+  "SE_Cook_03": {
+   "target": "SE_Cook_01",
+   "confidence": "high",
+   "used": 53
+  },
+  "SE_WaterShot_02": {
+   "target": "SE_WaterShot_01",
+   "confidence": "high",
+   "used": 51
+  },
+  "SE_FootStep_11a": {
+   "target": "SE_FootStep_11a",
+   "confidence": "high",
+   "used": 51
+  },
+  "SE_Salute_02": {
+   "target": "SE_Salute_01",
+   "confidence": "high",
+   "used": 51
+  },
+  "SE_Rapid_02": {
+   "target": "SE_Rapid_01",
+   "confidence": "high",
+   "used": 50
+  },
+  "SE_VehicleStop_01": {
+   "target": "SE_VehicleStop_01",
+   "confidence": "high",
+   "used": 50
+  },
+  "SE_Wind_02": {
+   "target": "SE_Wind_02",
+   "confidence": "high",
+   "used": 48
+  },
+  "SE_BroomSweep_03": {
+   "target": "SE_BroomSweep_01",
+   "confidence": "high",
+   "used": 48
+  },
+  "SE_Bell_01": {
+   "target": "SE_Bell_01",
+   "confidence": "high",
+   "used": 48
+  },
+  "SE_SnowFootStep_03a": {
+   "target": "SE_SnowFootStep_03a",
+   "confidence": "high",
+   "used": 47
+  },
+  "SE_StrongWind_01": {
+   "target": "SE_StrongWind_01",
+   "confidence": "high",
+   "used": 46
+  },
+  "SE_Reload_01": {
+   "target": "SE_Reload_01",
+   "confidence": "high",
+   "used": 46
+  },
+  "SE_Knock_02": {
+   "target": "SE_Knock_01",
+   "confidence": "high",
+   "used": 46
+  },
+  "SE_Button_01": {
+   "target": "SE_Button_01",
+   "confidence": "high",
+   "used": 46
+  },
+  "SE_SandRun_03": {
+   "target": "SE_SandRun_01",
+   "confidence": "high",
+   "used": 45
+  },
+  "SE_FireWorks_02": {
+   "target": "SE_FireWorks_01",
+   "confidence": "high",
+   "used": 44
+  },
+  "SE_Cup_02": {
+   "target": "SE_Cup_01",
+   "confidence": "high",
+   "used": 43
+  },
+  "SE_Train_01": {
+   "target": "SE_Train_01",
+   "confidence": "high",
+   "used": 43
+  },
+  "SE_Mic_01": {
+   "target": "SE_Mic_01",
+   "confidence": "high",
+   "used": 43
+  },
+  "SE_BoomEffect_02": {
+   "target": "SE_BoomEffect_01",
+   "confidence": "high",
+   "used": 43
+  },
+  "SE_RetroMiss_01": {
+   "target": "SE_RetroMiss_01",
+   "confidence": "high",
+   "used": 42
+  },
+  "SE_VehicleOpen_01": {
+   "target": "SE_VehicleOpen_01",
+   "confidence": "high",
+   "used": 42
+  },
+  "SE_ShovelSand_01": {
+   "target": "SE_ShovelSand_01",
+   "confidence": "high",
+   "used": 41
+  },
+  "SE_SandFootStep_03d": {
+   "target": "SE_SandFootStep_03d",
+   "confidence": "high",
+   "used": 41
+  },
+  "SE_PrisonDoor_01_Open": {
+   "target": "SE_PrisonDoor_01_Open",
+   "confidence": "high",
+   "used": 41
+  },
+  "SE_FootStep_06a": {
+   "target": "SE_FootStep_06a",
+   "confidence": "high",
+   "used": 41
+  },
+  "SE_FootStep_06b": {
+   "target": "SE_FootStep_06b",
+   "confidence": "high",
+   "used": 40
+  },
+  "SE_FootStep_08a": {
+   "target": "SE_FootStep_08a",
+   "confidence": "high",
+   "used": 40
+  },
+  "SE_FireWorks_03b": {
+   "target": "SE_FireWorks_03b",
+   "confidence": "high",
+   "used": 39
+  },
+  "SE_FootStep_10a": {
+   "target": "SE_FootStep_10a",
+   "confidence": "high",
+   "used": 38
+  },
+  "SE_BushRusting_01a": {
+   "target": "SE_BushRusting_01a",
+   "confidence": "high",
+   "used": 38
+  },
+  "SE_Cricket_01": {
+   "target": "SE_Cricket_01",
+   "confidence": "high",
+   "used": 38
+  },
+  "SE_Fade_02": {
+   "target": "SE_Fade_01",
+   "confidence": "high",
+   "used": 38
+  },
+  "SE_Fear_03": {
+   "target": "SE_Fear_01",
+   "confidence": "high",
+   "used": 38
+  },
+  "SE_Boom_04": {
+   "target": "SE_Boom_01",
+   "confidence": "high",
+   "used": 38
+  },
+  "SE_SMG_01": {
+   "target": "SE_SMG_01",
+   "confidence": "high",
+   "used": 38
+  },
+  "SE_Knock_Soft_02": {
+   "target": "SE_Knock_Soft_01",
+   "confidence": "high",
+   "used": 37
+  },
+  "SE_DoorClose_03": {
+   "target": "SE_DoorClose_01",
+   "confidence": "high",
+   "used": 37
+  },
+  "SE_Zipper_01": {
+   "target": "SE_Zipper_01",
+   "confidence": "high",
+   "used": 37
+  },
+  "SE_Rain_03": {
+   "target": "SE_Rain_01",
+   "confidence": "high",
+   "used": 37
+  },
+  "SE_EatNoodle_01": {
+   "target": "SE_EatNoodle_01",
+   "confidence": "high",
+   "used": 36
+  },
+  "SE_Gear_03": {
+   "target": "SE_Gear_01",
+   "confidence": "high",
+   "used": 36
+  },
+  "SE_Hit_07": {
+   "target": "SE_Hit_01",
+   "confidence": "high",
+   "used": 36
+  },
+  "SE_Appear_02a": {
+   "target": "SE_Appear_02a",
+   "confidence": "high",
+   "used": 36
+  },
+  "SE_Subway_02": {
+   "target": "SE_Subway_01",
+   "confidence": "high",
+   "used": 36
+  },
+  "SE_Drone_02": {
+   "target": "SE_Drone_01",
+   "confidence": "high",
+   "used": 35
+  },
+  "SE_Reload_04": {
+   "target": "SE_Reload_01",
+   "confidence": "high",
+   "used": 35
+  },
+  "SE_Fall_05": {
+   "target": "SE_Fall_01",
+   "confidence": "high",
+   "used": 35
+  },
+  "SE_BusDoor_01": {
+   "target": "SE_BusDoor_01",
+   "confidence": "high",
+   "used": 35
+  },
+  "SE_Heartbeat_01": {
+   "target": "SE_Heartbeat_01",
+   "confidence": "high",
+   "used": 35
+  },
+  "SE_WaterOut_01": {
+   "target": "SE_WaterOut_01",
+   "confidence": "high",
+   "used": 35
+  },
+  "SE_Water_Pour_01": {
+   "target": "SE_Water_Pour_01",
+   "confidence": "high",
+   "used": 35
+  },
+  "SE_StrongWind_02": {
+   "target": "SE_StrongWind_01",
+   "confidence": "high",
+   "used": 35
+  },
+  "SE_Alarm_02": {
+   "target": "SE_Alarm_01",
+   "confidence": "high",
+   "used": 34
+  },
+  "SE_Loading_01": {
+   "target": "SE_Loading_01",
+   "confidence": "high",
+   "used": 34
+  },
+  "SE_Omikuji_01": {
+   "target": "SE_Omikuji_01",
+   "confidence": "high",
+   "used": 34
+  },
+  "SE_FootStep_05": {
+   "target": "SE_FootStep_01",
+   "confidence": "high",
+   "used": 34
+  },
+  "SE_Appear_01b": {
+   "target": "SE_Appear_01b",
+   "confidence": "high",
+   "used": 34
+  },
+  "SE_GloveHandling_01": {
+   "target": "SE_GloveHandling_01",
+   "confidence": "high",
+   "used": 34
+  },
+  "SE_SnowFootStep_03b": {
+   "target": "SE_SnowFootStep_03b",
+   "confidence": "high",
+   "used": 34
+  },
+  "SE_Alarm_01": {
+   "target": "SE_Alarm_01",
+   "confidence": "high",
+   "used": 34
+  },
+  "SE_FootStep_09a": {
+   "target": "SE_FootStep_09a",
+   "confidence": "high",
+   "used": 33
+  },
+  "SE_DoorOpen_03": {
+   "target": "SE_DoorOpen_01",
+   "confidence": "high",
+   "used": 33
+  },
+  "SE_BroomSweep_05": {
+   "target": "SE_BroomSweep_01",
+   "confidence": "high",
+   "used": 33
+  },
+  "SE_Noise_01": {
+   "target": "SE_Noise_01",
+   "confidence": "high",
+   "used": 33
+  },
+  "SE_Shaking_02": {
+   "target": "SE_Shaking_02",
+   "confidence": "high",
+   "used": 33
+  },
+  "SE_DoorBell_02": {
+   "target": "SE_DoorBell_01",
+   "confidence": "high",
+   "used": 32
+  },
+  "SE_BroomSweep_01": {
+   "target": "SE_BroomSweep_01",
+   "confidence": "high",
+   "used": 32
+  },
+  "SE_SnowFootStep_02": {
+   "target": "SE_SnowFootStep_01",
+   "confidence": "high",
+   "used": 32
+  },
+  "SE_WaterFootStep_01a": {
+   "target": "SE_WaterFootStep_01a",
+   "confidence": "high",
+   "used": 32
+  },
+  "SE_Salute_01": {
+   "target": "SE_Salute_01",
+   "confidence": "high",
+   "used": 32
+  },
+  "SE_BroomSweep_04": {
+   "target": "SE_BroomSweep_01",
+   "confidence": "high",
+   "used": 31
+  },
+  "SE_Run_05a": {
+   "target": "SE_Run_05a",
+   "confidence": "high",
+   "used": 31
+  },
+  "SE_Cook_02": {
+   "target": "SE_Cook_01",
+   "confidence": "high",
+   "used": 31
+  },
+  "SE_SitChair_01a": {
+   "target": "SE_SitChair_01a",
+   "confidence": "high",
+   "used": 31
+  },
+  "SE_FireWorks_01": {
+   "target": "SE_FireWorks_01",
+   "confidence": "high",
+   "used": 31
+  },
+  "SE_SlipperFootStep_01": {
+   "target": "SE_SlipperFootStep_01",
+   "confidence": "high",
+   "used": 31
+  },
+  "SE_VehicleClose_01": {
+   "target": "SE_VehicleClose_01",
+   "confidence": "high",
+   "used": 30
+  },
+  "SE_Helicopter_02": {
+   "target": "SE_Helicopter_01",
+   "confidence": "high",
+   "used": 30
+  },
+  "SE_Knock_Soft_01": {
+   "target": "SE_Knock_Soft_01",
+   "confidence": "high",
+   "used": 29
+  },
+  "SE_Gear_04": {
+   "target": "SE_Gear_01",
+   "confidence": "high",
+   "used": 29
+  },
+  "SE_BigLaser_02": {
+   "target": "SE_BigLaser_01",
+   "confidence": "high",
+   "used": 29
+  },
+  "SE_SnowRun_01": {
+   "target": "SE_SnowRun_01",
+   "confidence": "high",
+   "used": 29
+  },
+  "SE_Water_01": {
+   "target": "SE_Water_01",
+   "confidence": "high",
+   "used": 29
+  },
+  "SE_FireWorks_03a": {
+   "target": "SE_FireWorks_03a",
+   "confidence": "high",
+   "used": 29
+  },
+  "SE_Wind_04": {
+   "target": "SE_Wind_02",
+   "confidence": "high",
+   "used": 29
+  },
+  "SE_PrisonDoor_01_Close": {
+   "target": "SE_PrisonDoor_01_Close",
+   "confidence": "high",
+   "used": 29
+  },
+  "SE_SlapFace_01": {
+   "target": "SE_SlapFace_01",
+   "confidence": "high",
+   "used": 29
+  },
+  "SE_ShovelSand_02": {
+   "target": "SE_ShovelSand_01",
+   "confidence": "high",
+   "used": 28
+  },
+  "SE_EatNoodle_02": {
+   "target": "SE_EatNoodle_01",
+   "confidence": "high",
+   "used": 28
+  },
+  "SE_Rain_02": {
+   "target": "SE_Rain_01",
+   "confidence": "high",
+   "used": 28
+  },
+  "SE_Fear_02": {
+   "target": "SE_Fear_01",
+   "confidence": "high",
+   "used": 28
+  },
+  "SE_Clatter_01": {
+   "target": "SE_Clatter_01",
+   "confidence": "high",
+   "used": 28
+  },
+  "SE_BigLaser_03": {
+   "target": "SE_BigLaser_01",
+   "confidence": "high",
+   "used": 27
+  },
+  "SE_Crowd_06a": {
+   "target": "SE_Crowd_06a",
+   "confidence": "high",
+   "used": 27
+  },
+  "SE_Crowd_07": {
+   "target": "SE_Crowd_01",
+   "confidence": "high",
+   "used": 27
+  },
+  "SE_Gear_05": {
+   "target": "SE_Gear_01",
+   "confidence": "high",
+   "used": 27
+  },
+  "SE_Clock_02": {
+   "target": "SE_Clock_01",
+   "confidence": "high",
+   "used": 26
+  },
+  "SE_Dice_01": {
+   "target": "SE_Dice_01",
+   "confidence": "high",
+   "used": 26
+  },
+  "SE_DustWind_01": {
+   "target": "SE_DustWind_01",
+   "confidence": "high",
+   "used": 26
+  },
+  "SE_VehicleStart_01": {
+   "target": "SE_VehicleStart_01",
+   "confidence": "high",
+   "used": 26
+  },
+  "SE_FootStep_06c": {
+   "target": "SE_FootStep_06c",
+   "confidence": "high",
+   "used": 26
+  },
+  "SE_Roar_01": {
+   "target": "SE_Roar_01",
+   "confidence": "high",
+   "used": 26
+  },
+  "SE_Ladder_01": {
+   "target": "SE_Ladder_01",
+   "confidence": "high",
+   "used": 25
+  },
+  "SE_RetroOver_01": {
+   "target": "SE_RetroOver_01",
+   "confidence": "high",
+   "used": 25
+  },
+  "SE_Seawave_01": {
+   "target": "SE_SeaWave_01",
+   "confidence": "high",
+   "used": 25
+  },
+  "SE_DropGun_02": {
+   "target": "SE_DropGun_01",
+   "confidence": "high",
+   "used": 25
+  },
+  "SE_CardDraw_01": {
+   "target": "SE_CardDraw_01",
+   "confidence": "high",
+   "used": 25
+  },
+  "SE_WaterFootStep_01b": {
+   "target": "SE_WaterFootStep_01b",
+   "confidence": "high",
+   "used": 25
+  },
+  "SE_Drone_01": {
+   "target": "SE_Drone_01",
+   "confidence": "high",
+   "used": 25
+  },
+  "SE_Clatter_02": {
+   "target": "SE_Clatter_01",
+   "confidence": "high",
+   "used": 25
+  },
+  "SE_Ratchet_01": {
+   "target": "SE_Ratchet_01",
+   "confidence": "high",
+   "used": 24
+  },
+  "SE_FootStep_10b": {
+   "target": "SE_FootStep_10b",
+   "confidence": "high",
+   "used": 24
+  },
+  "SE_DoorOpen_06": {
+   "target": "SE_DoorOpen_01",
+   "confidence": "high",
+   "used": 24
+  },
+  "SE_Fade_01": {
+   "target": "SE_Fade_01",
+   "confidence": "high",
+   "used": 24
+  },
+  "SE_SlipperFootStep_01b": {
+   "target": "SE_SlipperFootStep_01b",
+   "confidence": "high",
+   "used": 24
+  },
+  "SE_Tank_02": {
+   "target": "SE_Tank_01",
+   "confidence": "high",
+   "used": 24
+  },
+  "SE_SlideOpen_02": {
+   "target": "SE_SlideOpen_01",
+   "confidence": "high",
+   "used": 23
+  },
+  "SE_DoorClose_04": {
+   "target": "SE_DoorClose_01",
+   "confidence": "high",
+   "used": 23
+  },
+  "SE_DropGun_01": {
+   "target": "SE_DropGun_01",
+   "confidence": "high",
+   "used": 23
+  },
+  "SE_Run_05b": {
+   "target": "SE_Run_05b",
+   "confidence": "high",
+   "used": 23
+  },
+  "SE_Run_05c": {
+   "target": "SE_Run_05c",
+   "confidence": "high",
+   "used": 23
+  },
+  "SE_TapeDuct_01": {
+   "target": "SE_TapeDuct_01",
+   "confidence": "high",
+   "used": 23
+  },
+  "SE_Cherryblossom_01": {
+   "target": "SE_Cherryblossom_01",
+   "confidence": "high",
+   "used": 23
+  },
+  "SE_Electric_02": {
+   "target": "SE_Electric_01",
+   "confidence": "high",
+   "used": 23
+  },
+  "SE_PanPan": {
+   "target": "SE_PanPan",
+   "confidence": "high",
+   "used": 23
+  },
+  "SE_MGShot_03": {
+   "target": "SE_MGShot_01",
+   "confidence": "high",
+   "used": 23
+  },
+  "SE_Ladder_01d": {
+   "target": "SE_Ladder_01d",
+   "confidence": "high",
+   "used": 23
+  },
+  "SE_Fall_06": {
+   "target": "SE_Fall_01",
+   "confidence": "high",
+   "used": 23
+  },
+  "SE_FootStep_09b": {
+   "target": "SE_FootStep_09b",
+   "confidence": "high",
+   "used": 22
+  },
+  "SE_ClockAlarm_01": {
+   "target": "SE_ClockAlarm_01",
+   "confidence": "high",
+   "used": 22
+  },
+  "SE_DragChair_01": {
+   "target": "SE_DragChair_01",
+   "confidence": "high",
+   "used": 22
+  },
+  "SE_Rapid_03": {
+   "target": "SE_Rapid_01",
+   "confidence": "high",
+   "used": 22
+  },
+  "SE_BoomEffect_01b": {
+   "target": "SE_BoomEffect_01b",
+   "confidence": "high",
+   "used": 22
+  },
+  "SE_SandBlow_03": {
+   "target": "SE_SandBlow_01",
+   "confidence": "high",
+   "used": 21
+  },
+  "SE_HideBush_01": {
+   "target": "SE_HideBush_01",
+   "confidence": "high",
+   "used": 21
+  },
+  "SE_Helicopter_01": {
+   "target": "SE_Helicopter_01",
+   "confidence": "high",
+   "used": 21
+  },
+  "SE_Drill_02": {
+   "target": "SE_Drill_01",
+   "confidence": "high",
+   "used": 21
+  },
+  "SE_DoorOpen_08": {
+   "target": "SE_DoorOpen_01",
+   "confidence": "high",
+   "used": 21
+  },
+  "SE_Switch_02": {
+   "target": "SE_Switch_01",
+   "confidence": "high",
+   "used": 21
+  },
+  "SE_HangUp_01": {
+   "target": "SE_HangUp_02",
+   "confidence": "high",
+   "used": 21
+  },
+  "SE_SpreadFan_01": {
+   "target": "SE_SpreadFan_01",
+   "confidence": "high",
+   "used": 21
+  },
+  "SE_FootStep_08b": {
+   "target": "SE_FootStep_08b",
+   "confidence": "high",
+   "used": 21
+  },
+  "SE_Typing_03": {
+   "target": "SE_Typing_01",
+   "confidence": "high",
+   "used": 21
+  },
+  "SE_MGShot_01": {
+   "target": "SE_MGShot_01",
+   "confidence": "high",
+   "used": 20
+  },
+  "SE_AirRelease_01": {
+   "target": "SE_AirRelease_01",
+   "confidence": "high",
+   "used": 20
+  },
+  "SE_Burning_01": {
+   "target": "SE_Burning_01",
+   "confidence": "high",
+   "used": 20
+  },
+  "SE_TearPaper_01": {
+   "target": "SE_TearPaper_01",
+   "confidence": "high",
+   "used": 20
+  },
+  "SE_BushRusting_02a": {
+   "target": "SE_BushRusting_02a",
+   "confidence": "high",
+   "used": 20
+  },
+  "SE_FootStep_04b": {
+   "target": "SE_FootStep_04b",
+   "confidence": "high",
+   "used": 20
+  },
+  "SE_BatSwing_04": {
+   "target": "SE_BatSwing_01",
+   "confidence": "high",
+   "used": 20
+  },
+  "SE_TransportMove_01": {
+   "target": "SE_TransportMove_01",
+   "confidence": "high",
+   "used": 20
+  },
+  "SE_Knock_Heavy_02": {
+   "target": "SE_Knock_Heavy_01",
+   "confidence": "high",
+   "used": 20
+  },
+  "SE_Typing_04b": {
+   "target": "SE_Typing_04b",
+   "confidence": "high",
+   "used": 20
+  },
+  "SE_Phone_01": {
+   "target": "SE_Phone_01",
+   "confidence": "high",
+   "used": 19
+  },
+  "SE_Bird_05": {
+   "target": "SE_Bird_01",
+   "confidence": "high",
+   "used": 19
+  },
+  "SE_Loading_03": {
+   "target": "SE_Loading_01",
+   "confidence": "high",
+   "used": 19
+  },
+  "SE_DragDrum_02": {
+   "target": "SE_DragDrum_01",
+   "confidence": "high",
+   "used": 19
+  },
+  "SE_Vibration_02": {
+   "target": "SE_Vibration_01",
+   "confidence": "high",
+   "used": 19
+  },
+  "SE_FootStep_09": {
+   "target": "SE_FootStep_01",
+   "confidence": "high",
+   "used": 19
+  },
+  "SE_Glitch_03": {
+   "target": "SE_Glitch_01",
+   "confidence": "high",
+   "used": 19
+  },
+  "SE_SnowFootStep_03c": {
+   "target": "SE_SnowFootStep_03c",
+   "confidence": "high",
+   "used": 19
+  },
+  "SE_Vehicle_02": {
+   "target": "SE_Vehicle_01",
+   "confidence": "high",
+   "used": 19
+  },
+  "SE_FootStep_06d": {
+   "target": "SE_FootStep_06d",
+   "confidence": "high",
+   "used": 19
+  },
+  "SE_MGShot_02": {
+   "target": "SE_MGShot_01",
+   "confidence": "high",
+   "used": 19
+  },
+  "SE_Booting_02": {
+   "target": "SE_Booting_02",
+   "confidence": "high",
+   "used": 18
+  },
+  "SE_Horn_01": {
+   "target": "SE_Horn_01",
+   "confidence": "high",
+   "used": 18
+  },
+  "SE_DragDrum_01": {
+   "target": "SE_DragDrum_01",
+   "confidence": "high",
+   "used": 18
+  },
+  "SE_DoorClose_05": {
+   "target": "SE_DoorClose_01",
+   "confidence": "high",
+   "used": 18
+  },
+  "SE_Phone_02a": {
+   "target": "SE_Phone_02a",
+   "confidence": "high",
+   "used": 18
+  },
+  "SE_Crowd_06": {
+   "target": "SE_Crowd_01",
+   "confidence": "high",
+   "used": 18
+  },
+  "SE_Bus_01": {
+   "target": "SE_Bus_01",
+   "confidence": "high",
+   "used": 18
+  },
+  "SE_SnapPrepare_02": {
+   "target": "SE_SnapPrepare_01",
+   "confidence": "high",
+   "used": 18
+  },
+  "SE_Typing_04c": {
+   "target": "SE_Typing_04c",
+   "confidence": "high",
+   "used": 18
+  },
+  "SE_SandBlow_01": {
+   "target": "SE_SandBlow_01",
+   "confidence": "high",
+   "used": 18
+  },
+  "SE_BicycleCrash_01": {
+   "target": "SE_BicycleCrash_01",
+   "confidence": "high",
+   "used": 18
+  },
+  "SE_Boom_03_b": {
+   "target": "SE_Boom_03_b",
+   "confidence": "high",
+   "used": 18
+  },
+  "SE_SlipperFootStep_01a": {
+   "target": "SE_SlipperFootStep_01a",
+   "confidence": "high",
+   "used": 18
+  },
+  "SE_Teleport_01": {
+   "target": "SE_Teleport_01",
+   "confidence": "high",
+   "used": 18
+  },
+  "SE_FootStep_11c": {
+   "target": "SE_FootStep_11c",
+   "confidence": "high",
+   "used": 18
+  },
+  "SE_Alarm_01a": {
+   "target": "SE_Alarm_01a",
+   "confidence": "high",
+   "used": 18
+  },
+  "SE_Laser_01": {
+   "target": "SE_Laser_01",
+   "confidence": "high",
+   "used": 17
+  },
+  "SE_Hit_04": {
+   "target": "SE_Hit_01",
+   "confidence": "high",
+   "used": 17
+  },
+  "SE_FootStep_10c": {
+   "target": "SE_FootStep_10c",
+   "confidence": "high",
+   "used": 17
+  },
+  "SE_Arcade_01": {
+   "target": "SE_Arcade_01",
+   "confidence": "high",
+   "used": 17
+  },
+  "SE_Footstep_10a": {
+   "target": "SE_FootStep_10a",
+   "confidence": "high",
+   "used": 17
+  },
+  "SE_FireWood_01": {
+   "target": "SE_FireWood_01",
+   "confidence": "high",
+   "used": 17
+  },
+  "SE_VehicleEngine_10": {
+   "target": "SE_VehicleEngine_01",
+   "confidence": "high",
+   "used": 17
+  },
+  "SE_Boom_07": {
+   "target": "SE_Boom_01",
+   "confidence": "high",
+   "used": 17
+  },
+  "SE_FootStep_11b": {
+   "target": "SE_FootStep_11b",
+   "confidence": "high",
+   "used": 17
+  },
+  "SE_BushRusting_01b": {
+   "target": "SE_BushRusting_01b",
+   "confidence": "high",
+   "used": 17
+  },
+  "SE_VehicleEngine_01": {
+   "target": "SE_VehicleEngine_01",
+   "confidence": "high",
+   "used": 17
+  },
+  "SE_Thunder_02": {
+   "target": "SE_Thunder_01",
+   "confidence": "high",
+   "used": 16
+  },
+  "SE_Bell_03": {
+   "target": "SE_Bell_01",
+   "confidence": "high",
+   "used": 16
+  },
+  "SE_DoorSlowOpen_02": {
+   "target": "SE_DoorSlowOpen_01",
+   "confidence": "high",
+   "used": 16
+  },
+  "SE_Subway_01": {
+   "target": "SE_Subway_01",
+   "confidence": "high",
+   "used": 16
+  },
+  "SE_Run_05d": {
+   "target": "SE_Run_05d",
+   "confidence": "high",
+   "used": 16
+  },
+  "SE_EatMagic_01": {
+   "target": "SE_EatMagic_01",
+   "confidence": "high",
+   "used": 16
+  },
+  "SE_Vehicle_01": {
+   "target": "SE_Vehicle_01",
+   "confidence": "high",
+   "used": 16
+  },
+  "SE_Footstep_10b": {
+   "target": "SE_FootStep_10b",
+   "confidence": "high",
+   "used": 16
+  },
+  "SE_Cicada_01": {
+   "target": "SE_Cicada_01",
+   "confidence": "high",
+   "used": 16
+  },
+  "SE_Vibration_03": {
+   "target": "SE_Vibration_01",
+   "confidence": "high",
+   "used": 16
+  },
+  "SE_DustWind_02": {
+   "target": "SE_DustWind_01",
+   "confidence": "high",
+   "used": 16
+  },
+  "SE_BeepScreen_01": {
+   "target": "SE_BeepScreen_01",
+   "confidence": "high",
+   "used": 16
+  },
+  "SE_Bedding_01": {
+   "target": "SE_Bedding_01",
+   "confidence": "high",
+   "used": 16
+  },
+  "SE_WaterSoft_01": {
+   "target": "SE_WaterSoft_01",
+   "confidence": "high",
+   "used": 16
+  },
+  "SE_DoorOpen_07": {
+   "target": "SE_DoorOpen_01",
+   "confidence": "high",
+   "used": 16
+  },
+  "SE_Ladder_01a": {
+   "target": "SE_Ladder_01a",
+   "confidence": "high",
+   "used": 16
+  },
+  "SE_TearDrop_01": {
+   "target": "SE_TearDrop_01",
+   "confidence": "high",
+   "used": 16
+  },
+  "SE_MissileFly_01": {
+   "target": "SE_MissileFly_01",
+   "confidence": "high",
+   "used": 16
+  },
+  "SE_Fade_01a": {
+   "target": "SE_Fade_01a",
+   "confidence": "high",
+   "used": 16
+  },
+  "SE_Clock_01": {
+   "target": "SE_Clock_01",
+   "confidence": "high",
+   "used": 15
+  },
+  "SE_DropGrenade_01": {
+   "target": "SE_DropGrenade_01",
+   "confidence": "high",
+   "used": 15
+  },
+  "SE_Throttle_01": {
+   "target": "SE_Throttle_01",
+   "confidence": "high",
+   "used": 15
+  },
+  "SE_BeachVolley_02": {
+   "target": "SE_BeachVolley_01",
+   "confidence": "high",
+   "used": 15
+  },
+  "SE_49mm_01": {
+   "target": "SE_49mm_01",
+   "confidence": "high",
+   "used": 15
+  },
+  "SE_Granted_01": {
+   "target": "SE_Granted_01",
+   "confidence": "high",
+   "used": 15
+  },
+  "SE_Throw_01": {
+   "target": "SE_Throw_01",
+   "confidence": "high",
+   "used": 14
+  },
+  "SE_HideBush_02": {
+   "target": "SE_HideBush_01",
+   "confidence": "high",
+   "used": 14
+  },
+  "SE_VendingMachine_01": {
+   "target": "SE_VendingMachine_01",
+   "confidence": "high",
+   "used": 14
+  },
+  "SE_VehicleEngine_08": {
+   "target": "SE_VehicleEngine_01",
+   "confidence": "high",
+   "used": 14
+  },
+  "SE_Shot_02": {
+   "target": "SE_Shot_01",
+   "confidence": "high",
+   "used": 14
+  },
+  "SE_VehicleStop_02": {
+   "target": "SE_VehicleStop_01",
+   "confidence": "high",
+   "used": 14
+  },
+  "SE_DoorClose_06": {
+   "target": "SE_DoorClose_01",
+   "confidence": "high",
+   "used": 14
+  },
+  "SE_Hit_09": {
+   "target": "SE_Hit_01",
+   "confidence": "high",
+   "used": 14
+  },
+  "SE_Water_Pour_02": {
+   "target": "SE_Water_Pour_01",
+   "confidence": "high",
+   "used": 14
+  },
+  "SE_FootStep_09c": {
+   "target": "SE_FootStep_09c",
+   "confidence": "high",
+   "used": 14
+  },
+  "SE_BeachVolley_03": {
+   "target": "SE_BeachVolley_01",
+   "confidence": "high",
+   "used": 14
+  },
+  "SE_SlipperFootStep_01d": {
+   "target": "SE_SlipperFootStep_01d",
+   "confidence": "high",
+   "used": 14
+  },
+  "SE_AngelHorn_01": {
+   "target": "SE_AngelHorn_01",
+   "confidence": "high",
+   "used": 14
+  },
+  "SE_Despair_01": {
+   "target": "SE_Despair_01",
+   "confidence": "high",
+   "used": 13
+  },
+  "SE_Footstep_02": {
+   "target": "SE_FootStep_01",
+   "confidence": "high",
+   "used": 13
+  },
+  "SE_Electric_03": {
+   "target": "SE_Electric_01",
+   "confidence": "high",
+   "used": 13
+  },
+  "SE_SpotLight_01": {
+   "target": "SE_Spotlight_01",
+   "confidence": "high",
+   "used": 13
+  },
+  "SE_Gear_06": {
+   "target": "SE_Gear_01",
+   "confidence": "high",
+   "used": 13
+  },
+  "SE_WaterSoft_02": {
+   "target": "SE_WaterSoft_01",
+   "confidence": "high",
+   "used": 13
+  },
+  "SE_WaterFootStep_01c": {
+   "target": "SE_WaterFootStep_01c",
+   "confidence": "high",
+   "used": 13
+  },
+  "SE_Tank_01": {
+   "target": "SE_Tank_01",
+   "confidence": "high",
+   "used": 13
+  },
+  "SE_HeartBeat_01": {
+   "target": "SE_Heartbeat_01",
+   "confidence": "high",
+   "used": 13
+  },
+  "SE_Henshin_01": {
+   "target": "SE_Henshin_01",
+   "confidence": "high",
+   "used": 13
+  },
+  "SE_Portal_01": {
+   "target": "SE_Portal_01",
+   "confidence": "high",
+   "used": 13
+  },
+  "SE_Roar_03": {
+   "target": "SE_Roar_01",
+   "confidence": "high",
+   "used": 13
+  },
+  "SE_FootStep_08c": {
+   "target": "SE_FootStep_08c",
+   "confidence": "high",
+   "used": 13
+  },
+  "SE_Henshin_04": {
+   "target": "SE_Henshin_01",
+   "confidence": "high",
+   "used": 13
+  },
+  "SE_BikeStop_01": {
+   "target": "SE_BikeStop_01",
+   "confidence": "high",
+   "used": 12
+  },
+  "SE_Dog_01a": {
+   "target": "SE_Dog_01a",
+   "confidence": "high",
+   "used": 12
+  },
+  "SE_Rappel_01": {
+   "target": "SE_Rappel_01",
+   "confidence": "high",
+   "used": 12
+  },
+  "SE_ShovelSand_03": {
+   "target": "SE_ShovelSand_01",
+   "confidence": "high",
+   "used": 12
+  },
+  "SE_Footstep_01": {
+   "target": "SE_FootStep_01",
+   "confidence": "high",
+   "used": 12
+  },
+  "SE_TearDoll_01": {
+   "target": "SE_TearDoll_01",
+   "confidence": "high",
+   "used": 12
+  },
+  "SE_VehicleEngine_09": {
+   "target": "SE_VehicleEngine_01",
+   "confidence": "high",
+   "used": 12
+  },
+  "SE_WaterBomb_01": {
+   "target": "SE_WaterBomb_01",
+   "confidence": "high",
+   "used": 12
+  },
+  "SE_Bird_03": {
+   "target": "SE_Bird_01",
+   "confidence": "high",
+   "used": 12
+  },
+  "SE_Hit_05": {
+   "target": "SE_Hit_01",
+   "confidence": "high",
+   "used": 12
+  },
+  "SE_CardShuffle_01": {
+   "target": "SE_CardShuffle_01",
+   "confidence": "high",
+   "used": 12
+  },
+  "SE_Break_01": {
+   "target": "SE_Break_01",
+   "confidence": "high",
+   "used": 12
+  },
+  "SE_SlipperFootStep_01c": {
+   "target": "SE_SlipperFootStep_01c",
+   "confidence": "high",
+   "used": 12
+  },
+  "SE_Appear_02b": {
+   "target": "SE_Appear_02b",
+   "confidence": "high",
+   "used": 12
+  },
+  "SE_Water_Pour_03": {
+   "target": "SE_Water_Pour_01",
+   "confidence": "high",
+   "used": 12
+  },
+  "SE_Henshin_02": {
+   "target": "SE_Henshin_01",
+   "confidence": "high",
+   "used": 12
+  },
+  "SE_Fade_03": {
+   "target": "SE_Fade_01",
+   "confidence": "high",
+   "used": 12
+  },
+  "SE_Booting_01": {
+   "target": "SE_Booting_02",
+   "confidence": "high",
+   "used": 12
+  },
+  "SE_Magic_02": {
+   "target": "SE_Magic_01",
+   "confidence": "high",
+   "used": 11
+  },
+  "SE_Break_02": {
+   "target": "SE_Break_01",
+   "confidence": "high",
+   "used": 11
+  },
+  "SE_DroneAttack_01a": {
+   "target": "SE_DroneAttack_01a",
+   "confidence": "high",
+   "used": 11
+  },
+  "SE_Ring_01": {
+   "target": "SE_Ring_01",
+   "confidence": "high",
+   "used": 11
+  },
+  "SE_Water_02": {
+   "target": "SE_Water_01",
+   "confidence": "high",
+   "used": 11
+  },
+  "SE_Tank_04": {
+   "target": "SE_Tank_01",
+   "confidence": "high",
+   "used": 11
+  },
+  "SE_Creaking_01": {
+   "target": "SE_Creaking_01",
+   "confidence": "high",
+   "used": 11
+  },
+  "SE_HangUp_02": {
+   "target": "SE_HangUp_02",
+   "confidence": "high",
+   "used": 11
+  },
+  "SE_SitChair_01c": {
+   "target": "SE_SitChair_01c",
+   "confidence": "high",
+   "used": 11
+  },
+  "SE_Cat_04": {
+   "target": "SE_Cat_01",
+   "confidence": "high",
+   "used": 11
+  },
+  "SE_SnapPrepare_01": {
+   "target": "SE_SnapPrepare_01",
+   "confidence": "high",
+   "used": 11
+  },
+  "SE_SMG_01a": {
+   "target": "SE_SMG_01a",
+   "confidence": "high",
+   "used": 11
+  },
+  "SE_Clink_04b": {
+   "target": "SE_Clink_04b",
+   "confidence": "high",
+   "used": 11
+  },
+  "SE_WaterSoft_03": {
+   "target": "SE_WaterSoft_01",
+   "confidence": "high",
+   "used": 11
+  },
+  "SE_BoxShake_02": {
+   "target": "SE_BoxShake_01",
+   "confidence": "high",
+   "used": 11
+  },
+  "SE_HeavyFootStep_01": {
+   "target": "SE_HeavyFootStep_01",
+   "confidence": "high",
+   "used": 11
+  },
+  "SE_Chain_01": {
+   "target": "SE_Chain_01",
+   "confidence": "high",
+   "used": 11
+  },
+  "SE_Loading_02": {
+   "target": "SE_Loading_01",
+   "confidence": "high",
+   "used": 11
+  },
+  "SE_SchoolBell_04": {
+   "target": "SE_SchoolBell_01",
+   "confidence": "high",
+   "used": 10
+  },
+  "SE_Spray_01": {
+   "target": "SE_Spray_01",
+   "confidence": "high",
+   "used": 10
+  },
+  "SE_FootStep_10d": {
+   "target": "SE_FootStep_10d",
+   "confidence": "high",
+   "used": 10
+  },
+  "SE_Sandblow_03": {
+   "target": "SE_SandBlow_01",
+   "confidence": "high",
+   "used": 10
+  },
+  "SE_SandBlow_02": {
+   "target": "SE_SandBlow_01",
+   "confidence": "high",
+   "used": 10
+  },
+  "SE_Thunder_01": {
+   "target": "SE_Thunder_01",
+   "confidence": "high",
+   "used": 10
+  },
+  "SE_WaterFall_01": {
+   "target": "SE_WaterFall_01",
+   "confidence": "high",
+   "used": 10
+  },
+  "SE_KaitenRobotWalk_02": {
+   "target": "SE_KaitenRobotWalk_01",
+   "confidence": "high",
+   "used": 10
+  },
+  "SE_SitChair_01b": {
+   "target": "SE_SitChair_01b",
+   "confidence": "high",
+   "used": 10
+  },
+  "SE_BoxShake_01": {
+   "target": "SE_BoxShake_01",
+   "confidence": "high",
+   "used": 10
+  },
+  "SE_Close_02": {
+   "target": "SE_Close_02",
+   "confidence": "high",
+   "used": 10
+  },
+  "SE_DoorOpen_05": {
+   "target": "SE_DoorOpen_01",
+   "confidence": "high",
+   "used": 10
+  },
+  "SE_Screw_01": {
+   "target": "SE_Screw_01",
+   "confidence": "high",
+   "used": 10
+  },
+  "SE_Cherryblossom_02": {
+   "target": "SE_Cherryblossom_01",
+   "confidence": "high",
+   "used": 10
+  },
+  "SE_Knock_Heavy_03": {
+   "target": "SE_Knock_Heavy_01",
+   "confidence": "high",
+   "used": 10
+  },
+  "SE_Water_In_02": {
+   "target": "SE_Water_In_01",
+   "confidence": "high",
+   "used": 10
+  },
+  "SE_Switch_01": {
+   "target": "SE_Switch_01",
+   "confidence": "high",
+   "used": 10
+  },
+  "SE_Ladder_01c": {
+   "target": "SE_Ladder_01c",
+   "confidence": "high",
+   "used": 10
+  },
+  "SE_SchoolBell_02": {
+   "target": "SE_SchoolBell_01",
+   "confidence": "high",
+   "used": 10
+  },
+  "SE_Wheelchair_01": {
+   "target": "SE_Wheelchair_01",
+   "confidence": "high",
+   "used": 10
+  },
+  "SE_Wind_05": {
+   "target": "SE_Wind_02",
+   "confidence": "high",
+   "used": 10
+  },
+  "SE_Vanish_02": {
+   "target": "SE_Vanish_01",
+   "confidence": "high",
+   "used": 10
+  },
+  "SE_Spray_02": {
+   "target": "SE_Spray_01",
+   "confidence": "high",
+   "used": 9
+  },
+  "SE_BroomSweep_02": {
+   "target": "SE_BroomSweep_01",
+   "confidence": "high",
+   "used": 9
+  },
+  "SE_HeavyFootStep_02": {
+   "target": "SE_HeavyFootStep_01",
+   "confidence": "high",
+   "used": 9
+  },
+  "SE_Horn_02": {
+   "target": "SE_Horn_01",
+   "confidence": "high",
+   "used": 9
+  },
+  "SE_VehicleEngine_06": {
+   "target": "SE_VehicleEngine_01",
+   "confidence": "high",
+   "used": 9
+  },
+  "SE_Fade_02a": {
+   "target": "SE_Fade_02a",
+   "confidence": "high",
+   "used": 9
+  },
+  "SE_BoxCover_01": {
+   "target": "SE_BoxCover_01",
+   "confidence": "high",
+   "used": 9
+  },
+  "SE_Clink_02": {
+   "target": "SE_Clink_01",
+   "confidence": "high",
+   "used": 9
+  },
+  "SE_Ladder_01b": {
+   "target": "SE_Ladder_01b",
+   "confidence": "high",
+   "used": 9
+  },
+  "SE_Onsen_01": {
+   "target": "SE_Onsen_01",
+   "confidence": "high",
+   "used": 9
+  },
+  "SE_Drone_02_On": {
+   "target": "SE_Drone_02_On",
+   "confidence": "high",
+   "used": 9
+  },
+  "SE_Ricochet_01": {
+   "target": "SE_Ricochet_01",
+   "confidence": "high",
+   "used": 9
+  },
+  "SE_ElectricEngine_01": {
+   "target": "SE_ElectricEngine_01",
+   "confidence": "high",
+   "used": 9
+  },
+  "SE_Rappel_02": {
+   "target": "SE_Rappel_01",
+   "confidence": "high",
+   "used": 9
+  },
+  "SE_Earthquake_01a": {
+   "target": "SE_Earthquake_01a",
+   "confidence": "high",
+   "used": 9
+  },
+  "SE_FootStep_11d": {
+   "target": "SE_FootStep_11d",
+   "confidence": "high",
+   "used": 9
+  },
+  "SE_Clink_05a": {
+   "target": "SE_Clink_05a",
+   "confidence": "high",
+   "used": 9
+  },
+  "SE_Glitch_05": {
+   "target": "SE_Glitch_01",
+   "confidence": "high",
+   "used": 9
+  },
+  "SE_Roar_02": {
+   "target": "SE_Roar_01",
+   "confidence": "high",
+   "used": 9
+  },
+  "SE_RobotWalk_01": {
+   "target": "SE_RobotWalk_01",
+   "confidence": "high",
+   "used": 9
+  },
+  "SE_Ricochet_02": {
+   "target": "SE_Ricochet_01",
+   "confidence": "high",
+   "used": 9
+  },
+  "SE_Siren_01": {
+   "target": "SE_Siren_01",
+   "confidence": "high",
+   "used": 8
+  },
+  "SE_Dog_01b": {
+   "target": "SE_Dog_01b",
+   "confidence": "high",
+   "used": 8
+  },
+  "SE_WaterShot_03": {
+   "target": "SE_WaterShot_01",
+   "confidence": "high",
+   "used": 8
+  },
+  "SE_Umbrella_01": {
+   "target": "SE_Umbrella_01",
+   "confidence": "high",
+   "used": 8
+  },
+  "SE_WipingGlasses_01": {
+   "target": "SE_WipingGlasses_01",
+   "confidence": "high",
+   "used": 8
+  },
+  "SE_Boatengine_01": {
+   "target": "SE_Boatengine_01",
+   "confidence": "high",
+   "used": 8
+  },
+  "SE_Earthquake_01c": {
+   "target": "SE_Earthquake_01c",
+   "confidence": "high",
+   "used": 8
+  },
+  "SE_VehicleEngine_02": {
+   "target": "SE_VehicleEngine_01",
+   "confidence": "high",
+   "used": 8
+  },
+  "SE_BatSwing_02": {
+   "target": "SE_BatSwing_01",
+   "confidence": "high",
+   "used": 8
+  },
+  "SE_Glove_02": {
+   "target": "SE_Glove_01",
+   "confidence": "high",
+   "used": 8
+  },
+  "SE_TrainBreaking_01": {
+   "target": "SE_TrainBreaking_01",
+   "confidence": "high",
+   "used": 8
+  },
+  "SE_Footstep_03a": {
+   "target": "SE_FootStep_03a",
+   "confidence": "high",
+   "used": 8
+  },
+  "SE_Cat_02": {
+   "target": "SE_Cat_01",
+   "confidence": "high",
+   "used": 8
+  },
+  "SE_SnowFootStep_03d": {
+   "target": "SE_SnowFootStep_03d",
+   "confidence": "high",
+   "used": 8
+  },
+  "SE_TransportMove_02": {
+   "target": "SE_TransportMove_01",
+   "confidence": "high",
+   "used": 8
+  },
+  "SE_ShotShothgun_01": {
+   "target": "SE_ShotShothgun_01",
+   "confidence": "high",
+   "used": 8
+  },
+  "SE_ShotShothgun_02": {
+   "target": "SE_ShotShothgun_01",
+   "confidence": "high",
+   "used": 8
+  },
+  "SE_Hit_10": {
+   "target": "SE_Hit_01",
+   "confidence": "high",
+   "used": 8
+  },
+  "SE_TearPaper_02": {
+   "target": "SE_TearPaper_01",
+   "confidence": "high",
+   "used": 8
+  },
+  "SE_Typing_04d": {
+   "target": "SE_Typing_04d",
+   "confidence": "high",
+   "used": 8
+  },
+  "SE_Typing_04e": {
+   "target": "SE_Typing_04e",
+   "confidence": "high",
+   "used": 8
+  },
+  "SE_Clap_03": {
+   "target": "SE_Clap_01",
+   "confidence": "high",
+   "used": 8
+  },
+  "SE_RobotWalk_02": {
+   "target": "SE_RobotWalk_01",
+   "confidence": "high",
+   "used": 8
+  },
+  "SE_BoomEffect_01a": {
+   "target": "SE_BoomEffect_01a",
+   "confidence": "high",
+   "used": 8
+  },
+  "SE_WoodBreak_05": {
+   "target": "SE_WoodBreak_01",
+   "confidence": "high",
+   "used": 7
+  },
+  "SE_Flick_02": {
+   "target": "SE_Flick_01",
+   "confidence": "high",
+   "used": 7
+  },
+  "SE_Sliding_01": {
+   "target": "SE_Sliding_01",
+   "confidence": "high",
+   "used": 7
+  },
+  "SE_SchoolBell_06a_1": {
+   "target": "SE_SchoolBell_06a",
+   "confidence": "high",
+   "used": 7
+  },
+  "SE_BoxMove_01": {
+   "target": "SE_BoxMove_01",
+   "confidence": "high",
+   "used": 7
+  },
+  "SE_PourPaper_01": {
+   "target": "SE_PourPaper_01",
+   "confidence": "high",
+   "used": 7
+  },
+  "SE_Boom_06": {
+   "target": "SE_Boom_01",
+   "confidence": "high",
+   "used": 7
+  },
+  "SE_Water_03": {
+   "target": "SE_Water_01",
+   "confidence": "high",
+   "used": 7
+  },
+  "SE_TrainBreaking_02": {
+   "target": "SE_TrainBreaking_01",
+   "confidence": "high",
+   "used": 7
+  },
+  "SE_TrainAlarm_02": {
+   "target": "SE_TrainAlarm_01",
+   "confidence": "high",
+   "used": 7
+  },
+  "SE_VendingMachine_04": {
+   "target": "SE_VendingMachine_01",
+   "confidence": "high",
+   "used": 7
+  },
+  "SE_FootStep_09d": {
+   "target": "SE_FootStep_09d",
+   "confidence": "high",
+   "used": 7
+  },
+  "SE_ElectricEngine_02a": {
+   "target": "SE_ElectricEngine_02a",
+   "confidence": "high",
+   "used": 7
+  },
+  "SE_AirRelease_02": {
+   "target": "SE_AirRelease_01",
+   "confidence": "high",
+   "used": 7
+  },
+  "SE_Cicada_02": {
+   "target": "SE_Cicada_01",
+   "confidence": "high",
+   "used": 7
+  },
+  "SE_Hit_08": {
+   "target": "SE_Hit_01",
+   "confidence": "high",
+   "used": 7
+  },
+  "SE_Boom_03_a": {
+   "target": "SE_Boom_03_a",
+   "confidence": "high",
+   "used": 7
+  },
+  "SE_FootStep_04c": {
+   "target": "SE_FootStep_04c",
+   "confidence": "high",
+   "used": 7
+  },
+  "SE_Breathing_01": {
+   "target": "SE_Breathing_01",
+   "confidence": "high",
+   "used": 7
+  },
+  "SE_PanHit_01": {
+   "target": "SE_PanHit_01",
+   "confidence": "high",
+   "used": 7
+  },
+  "SE_Sandblow_01": {
+   "target": "SE_SandBlow_01",
+   "confidence": "high",
+   "used": 7
+  },
+  "SE_YesodRoar_01": {
+   "target": "SE_YesodRoar_01",
+   "confidence": "high",
+   "used": 7
+  },
+  "SE_Laser_03": {
+   "target": "SE_Laser_01",
+   "confidence": "high",
+   "used": 7
+  },
+  "SE_Henshin_03": {
+   "target": "SE_Henshin_01",
+   "confidence": "high",
+   "used": 7
+  },
+  "SE_Laser_02": {
+   "target": "SE_Laser_01",
+   "confidence": "high",
+   "used": 7
+  },
+  "SE_DroneAttack_01b": {
+   "target": "SE_DroneAttack_01b",
+   "confidence": "high",
+   "used": 6
+  },
+  "SE_Shower_01": {
+   "target": "SE_Shower_01",
+   "confidence": "high",
+   "used": 6
+  },
+  "SE_HangUp_03": {
+   "target": "SE_HangUp_02",
+   "confidence": "high",
+   "used": 6
+  },
+  "SE_Shake_01": {
+   "target": "SE_Shake_01",
+   "confidence": "high",
+   "used": 6
+  },
+  "SE_Rain_01": {
+   "target": "SE_Rain_01",
+   "confidence": "high",
+   "used": 6
+  },
+  "SE_Noire_02": {
+   "target": "SE_Noire_01",
+   "confidence": "high",
+   "used": 6
+  },
+  "SE_Footstep_10c": {
+   "target": "SE_FootStep_10c",
+   "confidence": "high",
+   "used": 6
+  },
+  "SE_SlideClose_01": {
+   "target": "SE_SlideClose_01",
+   "confidence": "high",
+   "used": 6
+  },
+  "SE_BatSwing_03": {
+   "target": "SE_BatSwing_01",
+   "confidence": "high",
+   "used": 6
+  },
+  "SE_Broomsweep_05": {
+   "target": "SE_BroomSweep_01",
+   "confidence": "high",
+   "used": 6
+  },
+  "SE_Knock_03c": {
+   "target": "SE_Knock_03c",
+   "confidence": "high",
+   "used": 6
+  },
+  "SE_Gear_03a": {
+   "target": "SE_Gear_03a",
+   "confidence": "high",
+   "used": 6
+  },
+  "SE_BeachVolley_01": {
+   "target": "SE_BeachVolley_01",
+   "confidence": "high",
+   "used": 6
+  },
+  "SE_Crash_01": {
+   "target": "SE_Crash_01",
+   "confidence": "high",
+   "used": 6
+  },
+  "SE_HangUp_04": {
+   "target": "SE_HangUp_02",
+   "confidence": "high",
+   "used": 6
+  },
+  "SE_MoMoTalk_01": {
+   "target": "SE_MomoTalk_01",
+   "confidence": "high",
+   "used": 6
+  },
+  "SE_BushRusting_02b": {
+   "target": "SE_BushRusting_02b",
+   "confidence": "high",
+   "used": 6
+  },
+  "SE_Color_01": {
+   "target": "SE_Color_01",
+   "confidence": "high",
+   "used": 6
+  },
+  "SE_DanceFootStep_01b": {
+   "target": "SE_DanceFootStep_01b",
+   "confidence": "high",
+   "used": 6
+  },
+  "SE_Flashback_02": {
+   "target": "SE_Flashback_01",
+   "confidence": "high",
+   "used": 6
+  },
+  "SE_Glitch_07a": {
+   "target": "SE_Glitch_07a",
+   "confidence": "high",
+   "used": 6
+  },
+  "SE_Henshin_05": {
+   "target": "SE_Henshin_01",
+   "confidence": "high",
+   "used": 6
+  },
+  "SE_Granted_02": {
+   "target": "SE_Granted_01",
+   "confidence": "high",
+   "used": 5
+  },
+  "SE_WaterBomb_02": {
+   "target": "SE_WaterBomb_01",
+   "confidence": "high",
+   "used": 5
+  },
+  "SE_Dog_02": {
+   "target": "SE_Dog_02",
+   "confidence": "high",
+   "used": 5
+  },
+  "SE_Clink_04a": {
+   "target": "SE_Clink_04a",
+   "confidence": "high",
+   "used": 5
+  },
+  "SE_BushRusting_Short_02a": {
+   "target": "SE_BushRusting_Short_02a",
+   "confidence": "high",
+   "used": 5
+  },
+  "SE_BushRusting_Short_02b": {
+   "target": "SE_BushRusting_Short_02b",
+   "confidence": "high",
+   "used": 5
+  },
+  "SE_GloveHandling_01b": {
+   "target": "SE_GloveHandling_01b",
+   "confidence": "high",
+   "used": 5
+  },
+  "SE_HoshinoShield_02": {
+   "target": "SE_HoshinoShield_01",
+   "confidence": "high",
+   "used": 5
+  },
+  "SE_CarHorn_01": {
+   "target": "SE_CarHorn_01",
+   "confidence": "high",
+   "used": 5
+  },
+  "SE_FaceShake_03": {
+   "target": "SE_FaceShake_01",
+   "confidence": "high",
+   "used": 5
+  },
+  "SE_Typing_05a": {
+   "target": "SE_Typing_05a",
+   "confidence": "high",
+   "used": 5
+  },
+  "SE_BirdFlapping_01": {
+   "target": "SE_BirdFlapping_01",
+   "confidence": "high",
+   "used": 5
+  },
+  "SE_PotOpen_01": {
+   "target": "SE_PotOpen_01",
+   "confidence": "high",
+   "used": 5
+  },
+  "SE_Bento_Open_01": {
+   "target": "SE_Bento_Open_01",
+   "confidence": "high",
+   "used": 5
+  },
+  "SE_Ambulance_02": {
+   "target": "SE_Ambulance_01",
+   "confidence": "high",
+   "used": 5
+  },
+  "SE_News_04": {
+   "target": "SE_News_01",
+   "confidence": "high",
+   "used": 5
+  },
+  "SE_Book_05": {
+   "target": "SE_Book_01",
+   "confidence": "high",
+   "used": 5
+  },
+  "SE_Cat_03": {
+   "target": "SE_Cat_01",
+   "confidence": "high",
+   "used": 5
+  },
+  "SE_BinahRoar_01": {
+   "target": "SE_BinahRoar_01",
+   "confidence": "high",
+   "used": 5
+  },
+  "SE_TrainAlarm_01": {
+   "target": "SE_TrainAlarm_01",
+   "confidence": "high",
+   "used": 5
+  },
+  "SE_Rewind_01": {
+   "target": "SE_Rewind_01",
+   "confidence": "high",
+   "used": 5
+  },
+  "SE_ShotSilencer_01": {
+   "target": "SE_ShotSilencer_01",
+   "confidence": "high",
+   "used": 5
+  },
+  "SE_DropGrenade_02": {
+   "target": "SE_DropGrenade_01",
+   "confidence": "high",
+   "used": 5
+  },
+  "SE_Run_06": {
+   "target": "SE_Run_01",
+   "confidence": "high",
+   "used": 5
+  },
+  "SE_Fall_07": {
+   "target": "SE_Fall_01",
+   "confidence": "high",
+   "used": 5
+  },
+  "SE_TrainSteamWhistle_01": {
+   "target": "SE_TrainSteamWhistle_01",
+   "confidence": "high",
+   "used": 5
+  },
+  "SE_VehicleEngine_07": {
+   "target": "SE_VehicleEngine_01",
+   "confidence": "high",
+   "used": 5
+  },
+  "SE_Crowd_08": {
+   "target": "SE_Crowd_01",
+   "confidence": "high",
+   "used": 5
+  },
+  "SE_SchoolBell_06a": {
+   "target": "SE_SchoolBell_06a",
+   "confidence": "high",
+   "used": 5
+  },
+  "SE_Clink_03": {
+   "target": "SE_Clink_01",
+   "confidence": "high",
+   "used": 5
+  },
+  "SE_Gear_03b": {
+   "target": "SE_Gear_03b",
+   "confidence": "high",
+   "used": 5
+  },
+  "SE_Laser_04": {
+   "target": "SE_Laser_01",
+   "confidence": "high",
+   "used": 5
+  },
+  "SE_Altar_02": {
+   "target": "SE_Altar_01",
+   "confidence": "high",
+   "used": 5
+  },
+  "SE_Electric_04": {
+   "target": "SE_Electric_01",
+   "confidence": "high",
+   "used": 5
+  },
+  "SE_Bell_04": {
+   "target": "SE_Bell_01",
+   "confidence": "high",
+   "used": 5
+  },
+  "SE_Chess_01": {
+   "target": "SE_Chess_01",
+   "confidence": "high",
+   "used": 5
+  },
+  "SE_Throw_02": {
+   "target": "SE_Throw_01",
+   "confidence": "high",
+   "used": 4
+  },
+  "Se_Gear_02": {
+   "target": "SE_Gear_01",
+   "confidence": "high",
+   "used": 4
+  },
+  "SE_Shot_02b": {
+   "target": "SE_Shot_02b",
+   "confidence": "high",
+   "used": 4
+  },
+  "SE_Boatengineoff_02": {
+   "target": "SE_Boatengineoff_01",
+   "confidence": "high",
+   "used": 4
+  },
+  "SE_Noire_01": {
+   "target": "SE_Noire_01",
+   "confidence": "high",
+   "used": 4
+  },
+  "SE_Guitar_01b": {
+   "target": "SE_Guitar_01b",
+   "confidence": "high",
+   "used": 4
+  },
+  "SE_WipingGlasses_02": {
+   "target": "SE_WipingGlasses_01",
+   "confidence": "high",
+   "used": 4
+  },
+  "SE_PotClose_01": {
+   "target": "SE_PotClose_01",
+   "confidence": "high",
+   "used": 4
+  },
+  "SE_Bug_01": {
+   "target": "SE_Bug_01",
+   "confidence": "high",
+   "used": 4
+  },
+  "SE_Motor_01": {
+   "target": "SE_Motor_01",
+   "confidence": "high",
+   "used": 4
+  },
+  "SE_Eat_03": {
+   "target": "SE_Eat_01",
+   "confidence": "high",
+   "used": 4
+  },
+  "SE_Glove_01": {
+   "target": "SE_Glove_01",
+   "confidence": "high",
+   "used": 4
+  },
+  "SE_TapeDuct_02": {
+   "target": "SE_TapeDuct_01",
+   "confidence": "high",
+   "used": 4
+  },
+  "SE_Water_04": {
+   "target": "SE_Water_01",
+   "confidence": "high",
+   "used": 4
+  },
+  "SE_TrainMove_01": {
+   "target": "SE_TrainMove_01",
+   "confidence": "high",
+   "used": 4
+  },
+  "SE_BendMetal_01": {
+   "target": "SE_BendMetal_01",
+   "confidence": "high",
+   "used": 4
+  },
+  "SE_Faucet_02": {
+   "target": "SE_Faucet_01",
+   "confidence": "high",
+   "used": 4
+  },
+  "SE_FireWorks_04": {
+   "target": "SE_FireWorks_01",
+   "confidence": "high",
+   "used": 4
+  },
+  "SE_PourPaper_02": {
+   "target": "SE_PourPaper_01",
+   "confidence": "high",
+   "used": 4
+  },
+  "SE_Drone_02_Off": {
+   "target": "SE_Drone_02_Off",
+   "confidence": "high",
+   "used": 4
+  },
+  "SE_Knock_03": {
+   "target": "SE_Knock_01",
+   "confidence": "high",
+   "used": 4
+  },
+  "SE_Drone_02a": {
+   "target": "SE_Drone_02a",
+   "confidence": "high",
+   "used": 4
+  },
+  "SE_Phone_02b": {
+   "target": "SE_Phone_02b",
+   "confidence": "high",
+   "used": 4
+  },
+  "SE_ElectricEngine_03": {
+   "target": "SE_ElectricEngine_01",
+   "confidence": "high",
+   "used": 4
+  },
+  "SE_Reload_05": {
+   "target": "SE_Reload_01",
+   "confidence": "high",
+   "used": 4
+  },
+  "SE_WaterFootStep_01d": {
+   "target": "SE_WaterFootStep_01d",
+   "confidence": "high",
+   "used": 4
+  },
+  "SE_Footstep_03c": {
+   "target": "SE_FootStep_03c",
+   "confidence": "high",
+   "used": 4
+  },
+  "SE_Dropgun_01": {
+   "target": "SE_DropGun_01",
+   "confidence": "high",
+   "used": 4
+  },
+  "SE_HoseWater_01": {
+   "target": "SE_HoseWater_01",
+   "confidence": "high",
+   "used": 4
+  },
+  "SE_OhrAnimalAttack_01": {
+   "target": "SE_OhrAnimalAttack_01",
+   "confidence": "high",
+   "used": 4
+  },
+  "SE_Write_02": {
+   "target": "SE_Write_01",
+   "confidence": "high",
+   "used": 4
+  },
+  "SE_Toy_01": {
+   "target": "SE_Toy_01",
+   "confidence": "high",
+   "used": 4
+  },
+  "SE_HeavyFootStep_03": {
+   "target": "SE_HeavyFootStep_01",
+   "confidence": "high",
+   "used": 4
+  },
+  "SE_Clink_05b": {
+   "target": "SE_Clink_05b",
+   "confidence": "high",
+   "used": 4
+  },
+  "SE_MissileFly_02": {
+   "target": "SE_MissileFly_01",
+   "confidence": "high",
+   "used": 4
+  },
+  "SE_Shower_02": {
+   "target": "SE_Shower_01",
+   "confidence": "high",
+   "used": 3
+  },
+  "SE_Noire_03": {
+   "target": "SE_Noire_01",
+   "confidence": "high",
+   "used": 3
+  },
+  "SE_PotStiff_01": {
+   "target": "SE_PotStiff_01",
+   "confidence": "high",
+   "used": 3
+  },
+  "SE_Train_01a": {
+   "target": "SE_Train_01a",
+   "confidence": "high",
+   "used": 3
+  },
+  "SE_FaceShake_04": {
+   "target": "SE_FaceShake_01",
+   "confidence": "high",
+   "used": 3
+  },
+  "SE_BigLaser_01": {
+   "target": "SE_BigLaser_01",
+   "confidence": "high",
+   "used": 3
+  },
+  "SE_Knock_03a": {
+   "target": "SE_Knock_03a",
+   "confidence": "high",
+   "used": 3
+  },
+  "SE_BatSwing_01": {
+   "target": "SE_BatSwing_01",
+   "confidence": "high",
+   "used": 3
+  },
+  "SE_Footstep_10": {
+   "target": "SE_FootStep_01",
+   "confidence": "high",
+   "used": 3
+  },
+  "SE_ShishiOdoshi_01": {
+   "target": "SE_ShishiOdoshi_01",
+   "confidence": "high",
+   "used": 3
+  },
+  "SE_CarHorn_02": {
+   "target": "SE_CarHorn_01",
+   "confidence": "high",
+   "used": 3
+  },
+  "SE_Clock_04": {
+   "target": "SE_Clock_01",
+   "confidence": "high",
+   "used": 3
+  },
+  "SE_Bento_Close_01": {
+   "target": "SE_Bento_Close_01",
+   "confidence": "high",
+   "used": 3
+  },
+  "SE_SandFootstep_01": {
+   "target": "SE_SandFootStep_01",
+   "confidence": "high",
+   "used": 3
+  },
+  "SE_CrumblePaper_01": {
+   "target": "SE_CrumblePaper_01",
+   "confidence": "high",
+   "used": 3
+  },
+  "SE_SnapPrepare_03": {
+   "target": "SE_SnapPrepare_01",
+   "confidence": "high",
+   "used": 3
+  },
+  "SE_Rec_02": {
+   "target": "SE_REC_01",
+   "confidence": "high",
+   "used": 3
+  },
+  "SE_Rolling_01": {
+   "target": "SE_Rolling_01",
+   "confidence": "high",
+   "used": 3
+  },
+  "SE_Tank_03": {
+   "target": "SE_Tank_01",
+   "confidence": "high",
+   "used": 3
+  },
+  "SE_BoatEngine_02": {
+   "target": "SE_Boatengine_01",
+   "confidence": "high",
+   "used": 3
+  },
+  "SE_CrumblePaper_02": {
+   "target": "SE_CrumblePaper_01",
+   "confidence": "high",
+   "used": 3
+  },
+  "SE_Footstep_03b": {
+   "target": "SE_FootStep_03b",
+   "confidence": "high",
+   "used": 3
+  },
+  "SE_PerorozillaWalk_01": {
+   "target": "SE_PerorozillaWalk_01",
+   "confidence": "high",
+   "used": 3
+  },
+  "SE_Start_01": {
+   "target": "SE_Start_01",
+   "confidence": "high",
+   "used": 3
+  },
+  "SE_KaitenRobotHit_01": {
+   "target": "SE_KaitenRobotHit_01",
+   "confidence": "high",
+   "used": 3
+  },
+  "SE_Phone_02": {
+   "target": "SE_Phone_01",
+   "confidence": "high",
+   "used": 3
+  },
+  "SE_Trainbreak_01": {
+   "target": "SE_Trainbreak_01",
+   "confidence": "high",
+   "used": 3
+  },
+  "SE_VehicleEngine_04": {
+   "target": "SE_VehicleEngine_01",
+   "confidence": "high",
+   "used": 3
+  },
+  "SE_Bird_06a": {
+   "target": "SE_Bird_06a",
+   "confidence": "high",
+   "used": 3
+  },
+  "SE_RobotWalk_03a": {
+   "target": "SE_RobotWalk_03a",
+   "confidence": "high",
+   "used": 3
+  },
+  "SE_RobotWalk_03b": {
+   "target": "SE_RobotWalk_03b",
+   "confidence": "high",
+   "used": 3
+  },
+  "SE_Knock_Heavy_01": {
+   "target": "SE_Knock_Heavy_01",
+   "confidence": "high",
+   "used": 3
+  },
+  "SE_VehicleEngine_05": {
+   "target": "SE_VehicleEngine_01",
+   "confidence": "high",
+   "used": 3
+  },
+  "SE_DanceFootStep_01a": {
+   "target": "SE_DanceFootStep_01a",
+   "confidence": "high",
+   "used": 3
+  },
+  "SE_DropPod_01": {
+   "target": "SE_DropPod_01",
+   "confidence": "high",
+   "used": 3
+  },
+  "SE_VehicleEngine_11": {
+   "target": "SE_VehicleEngine_01",
+   "confidence": "high",
+   "used": 3
+  },
+  "SE_TransportMove_02a": {
+   "target": "SE_TransportMove_02a",
+   "confidence": "high",
+   "used": 3
+  },
+  "SE_Chokmah_01": {
+   "target": "SE_Chokmah_01",
+   "confidence": "high",
+   "used": 3
+  },
+  "SE_Chess_03": {
+   "target": "SE_Chess_01",
+   "confidence": "high",
+   "used": 3
+  },
+  "SE_Frequency_01": {
+   "target": "SE_Frequency_01",
+   "confidence": "high",
+   "used": 3
+  },
+  "SE_Glitch_06": {
+   "target": "SE_Glitch_01",
+   "confidence": "high",
+   "used": 3
+  },
+  "SE_Crab_02": {
+   "target": "SE_Crab_01",
+   "confidence": "high",
+   "used": 3
+  },
+  "SE_DrumbarkaRoar_01": {
+   "target": "SE_DrumbarkaRoar_01",
+   "confidence": "high",
+   "used": 3
+  },
+  "SE_BooK_02": {
+   "target": "SE_Book_01",
+   "confidence": "high",
+   "used": 3
+  },
+  "SE_ShishiOdoshi_02": {
+   "target": "SE_ShishiOdoshi_01",
+   "confidence": "high",
+   "used": 3
+  },
+  "SE_Altar_01": {
+   "target": "SE_Altar_01",
+   "confidence": "high",
+   "used": 3
+  },
+  "SE_GlitchSword_01": {
+   "target": "SE_GlitchSword_01",
+   "confidence": "high",
+   "used": 3
+  },
+  "SE_Glitch_01": {
+   "target": "SE_Glitch_01",
+   "confidence": "high",
+   "used": 3
+  },
+  "SE_Dog_04b": {
+   "target": "SE_Dog_04b",
+   "confidence": "high",
+   "used": 2
+  },
+  "SE_Pourpaper_02": {
+   "target": "SE_PourPaper_01",
+   "confidence": "high",
+   "used": 2
+  },
+  "SE_TrainBell_01a": {
+   "target": "SE_TrainBell_01a",
+   "confidence": "high",
+   "used": 2
+  },
+  "SE_Guitar_01a": {
+   "target": "SE_Guitar_01a",
+   "confidence": "high",
+   "used": 2
+  },
+  "SE_WoodBreak_07": {
+   "target": "SE_WoodBreak_01",
+   "confidence": "high",
+   "used": 2
+  },
+  "SE_SchoolBell_05": {
+   "target": "SE_SchoolBell_01",
+   "confidence": "high",
+   "used": 2
+  },
+  "SE_WaterfootStep_01a": {
+   "target": "SE_WaterFootStep_01a",
+   "confidence": "high",
+   "used": 2
+  },
+  "SE_BoomFuse_02b": {
+   "target": "SE_BoomFuse_02b",
+   "confidence": "high",
+   "used": 2
+  },
+  "SE_wind_04": {
+   "target": "SE_Wind_02",
+   "confidence": "high",
+   "used": 2
+  },
+  "SE_WoodBreak_03": {
+   "target": "SE_WoodBreak_01",
+   "confidence": "high",
+   "used": 2
+  },
+  "SE_TrainMove_02": {
+   "target": "SE_TrainMove_01",
+   "confidence": "high",
+   "used": 2
+  },
+  "SE_PomPom_03": {
+   "target": "SE_PomPom_01",
+   "confidence": "high",
+   "used": 2
+  },
+  "SE_Blow_02": {
+   "target": "SE_Blow_01",
+   "confidence": "high",
+   "used": 2
+  },
+  "SE_Rain_04": {
+   "target": "SE_Rain_01",
+   "confidence": "high",
+   "used": 2
+  },
+  "SE_Knitting_01a": {
+   "target": "SE_Knitting_01a",
+   "confidence": "high",
+   "used": 2
+  },
+  "SE_Glasses_01": {
+   "target": "SE_Glasses_01",
+   "confidence": "high",
+   "used": 2
+  },
+  "SE_Guitar_03a": {
+   "target": "SE_Guitar_03a",
+   "confidence": "high",
+   "used": 2
+  },
+  "SE_Guitar_02a": {
+   "target": "SE_Guitar_02a",
+   "confidence": "high",
+   "used": 2
+  },
+  "SE_Fire_Dying_01": {
+   "target": "SE_Fire_Dying_01",
+   "confidence": "high",
+   "used": 2
+  },
+  "SE_FooTStep_03a": {
+   "target": "SE_FootStep_03a",
+   "confidence": "high",
+   "used": 2
+  },
+  "SE_book_02": {
+   "target": "SE_Book_01",
+   "confidence": "high",
+   "used": 2
+  },
+  "SE_TrainStart_01": {
+   "target": "SE_TrainStart_01",
+   "confidence": "high",
+   "used": 2
+  },
+  "SE_Blow_04": {
+   "target": "SE_Blow_01",
+   "confidence": "high",
+   "used": 2
+  },
+  "SE_Drum_01": {
+   "target": "SE_Drum_01",
+   "confidence": "high",
+   "used": 2
+  },
+  "SE_Drum_03": {
+   "target": "SE_Drum_01",
+   "confidence": "high",
+   "used": 2
+  },
+  "SE_Keyboard_01": {
+   "target": "SE_Keyboard_01",
+   "confidence": "high",
+   "used": 2
+  },
+  "SE_SchoolBell_01": {
+   "target": "SE_SchoolBell_01",
+   "confidence": "high",
+   "used": 2
+  },
+  "SE_Tram_01": {
+   "target": "SE_Tram_01",
+   "confidence": "high",
+   "used": 2
+  },
+  "SE_PomPom_01": {
+   "target": "SE_PomPom_01",
+   "confidence": "high",
+   "used": 2
+  },
+  "SE_BushRusting_Short_01a": {
+   "target": "SE_BushRusting_Short_01a",
+   "confidence": "high",
+   "used": 2
+  },
+  "SE_Coin_01": {
+   "target": "SE_Coin_01",
+   "confidence": "high",
+   "used": 2
+  },
+  "SE_LockOn_02": {
+   "target": "SE_LockOn_01",
+   "confidence": "high",
+   "used": 2
+  },
+  "SE_SchoolBell_06_1": {
+   "target": "SE_SchoolBell_06_1",
+   "confidence": "high",
+   "used": 2
+  },
+  "SE_BinahLaser_01": {
+   "target": "SE_BinahLaser_01",
+   "confidence": "high",
+   "used": 2
+  },
+  "SE_PerorozillaRoar_01": {
+   "target": "SE_PerorozillaRoar_01",
+   "confidence": "high",
+   "used": 2
+  },
+  "SE_Trainbreak_02": {
+   "target": "SE_Trainbreak_01",
+   "confidence": "high",
+   "used": 2
+  },
+  "SE_Hangup_03": {
+   "target": "SE_HangUp_02",
+   "confidence": "high",
+   "used": 2
+  },
+  "SE_RobotWalk_03d": {
+   "target": "SE_RobotWalk_03d",
+   "confidence": "high",
+   "used": 2
+  },
+  "SE_Rattle_01": {
+   "target": "SE_Rattle_01",
+   "confidence": "high",
+   "used": 2
+  },
+  "SE_ricochet_01": {
+   "target": "SE_Ricochet_01",
+   "confidence": "high",
+   "used": 2
+  },
+  "SE_FootStep_04d": {
+   "target": "SE_FootStep_04d",
+   "confidence": "high",
+   "used": 2
+  },
+  "SE_DanceFootStep_01c": {
+   "target": "SE_DanceFootStep_01c",
+   "confidence": "high",
+   "used": 2
+  },
+  "SE_Typing_05b": {
+   "target": "SE_Typing_05b",
+   "confidence": "high",
+   "used": 2
+  },
+  "SE_Scratch_01": {
+   "target": "SE_Scratch_01",
+   "confidence": "high",
+   "used": 2
+  },
+  "SE_MissileFly_03": {
+   "target": "SE_MissileFly_01",
+   "confidence": "high",
+   "used": 2
+  },
+  "SE_VehicleStop_03": {
+   "target": "SE_VehicleStop_01",
+   "confidence": "high",
+   "used": 2
+  },
+  "SE_write_01": {
+   "target": "SE_Write_01",
+   "confidence": "high",
+   "used": 2
+  },
+  "SE_Glitch_04": {
+   "target": "SE_Glitch_01",
+   "confidence": "high",
+   "used": 2
+  },
+  "SE_Chess_02": {
+   "target": "SE_Chess_01",
+   "confidence": "high",
+   "used": 2
+  },
+  "SE_Warp_01": {
+   "target": "SE_Warp_01",
+   "confidence": "high",
+   "used": 2
+  },
+  "SE_Crab_01": {
+   "target": "SE_Crab_01",
+   "confidence": "high",
+   "used": 2
+  },
+  "SE_Toy_01a": {
+   "target": "SE_Toy_01a",
+   "confidence": "high",
+   "used": 2
+  },
+  "SE_FireWood_02": {
+   "target": "SE_FireWood_01",
+   "confidence": "high",
+   "used": 2
+  },
+  "SE_Portal_01a": {
+   "target": "SE_Portal_01a",
+   "confidence": "high",
+   "used": 2
+  },
+  "SE_Portal_01b": {
+   "target": "SE_Portal_01b",
+   "confidence": "high",
+   "used": 2
+  },
+  "SE_WoodBreaK_05": {
+   "target": "SE_WoodBreak_01",
+   "confidence": "high",
+   "used": 2
+  },
+  "SE_Warp_01a": {
+   "target": "SE_Warp_01a",
+   "confidence": "high",
+   "used": 2
+  },
+  "SE_EarthQuake_01": {
+   "target": "SE_Earthquake_01",
+   "confidence": "high",
+   "used": 2
+  },
+  "SE_Chokmah_02": {
+   "target": "SE_Chokmah_01",
+   "confidence": "high",
+   "used": 2
+  },
+  "SE_FireWood_03": {
+   "target": "SE_FireWood_01",
+   "confidence": "high",
+   "used": 2
+  },
+  "SE_Artillery_02": {
+   "target": "SE_Artillery_02",
+   "confidence": "high",
+   "used": 2
+  },
+  "Se_Close_01": {
+   "target": "SE_Close_02",
+   "confidence": "high",
+   "used": 1
+  },
+  "SE_Bird_06b": {
+   "target": "SE_Bird_06b",
+   "confidence": "high",
+   "used": 1
+  },
+  "SE_TrainBell_01b": {
+   "target": "SE_TrainBell_01b",
+   "confidence": "high",
+   "used": 1
+  },
+  "SE_BoatEngine_01": {
+   "target": "SE_Boatengine_01",
+   "confidence": "high",
+   "used": 1
+  },
+  "SE_Whale_01": {
+   "target": "SE_Shake_01",
+   "confidence": "medium",
+   "used": 1,
+   "distance": 2
+  },
+  "SE_Guitar_03b": {
+   "target": "SE_Guitar_03b",
+   "confidence": "high",
+   "used": 1
+  },
+  "SE_CanOpen_01": {
+   "target": "SE_CanOpen_01",
+   "confidence": "high",
+   "used": 1
+  },
+  "SE_CanOpen_01b": {
+   "target": "SE_CanOpen_01b",
+   "confidence": "high",
+   "used": 1
+  },
+  "SE_SandFootstep_02": {
+   "target": "SE_SandFootStep_01",
+   "confidence": "high",
+   "used": 1
+  },
+  "SE_SandFootstep_03b": {
+   "target": "SE_SandFootStep_03b",
+   "confidence": "high",
+   "used": 1
+  },
+  "SE_SandFootstep_03a": {
+   "target": "SE_SandFootStep_03a",
+   "confidence": "high",
+   "used": 1
+  },
+  "SE_GuitarBand_01": {
+   "target": "SE_GuitarBand_01",
+   "confidence": "high",
+   "used": 1
+  },
+  "SE_Drum_02": {
+   "target": "SE_Drum_01",
+   "confidence": "high",
+   "used": 1
+  },
+  "SE_CherryBlossom_01": {
+   "target": "SE_Cherryblossom_01",
+   "confidence": "high",
+   "used": 1
+  },
+  "SE_CherryBlossom_02": {
+   "target": "SE_Cherryblossom_01",
+   "confidence": "high",
+   "used": 1
+  },
+  "SE_Classic_01": {
+   "target": "SE_Classic_01",
+   "confidence": "high",
+   "used": 1
+  },
+  "SE_Vibration_01": {
+   "target": "SE_Vibration_01",
+   "confidence": "high",
+   "used": 1
+  },
+  "SE_Dropgun_02": {
+   "target": "SE_DropGun_01",
+   "confidence": "high",
+   "used": 1
+  },
+  "SE_run_04": {
+   "target": "SE_Run_01",
+   "confidence": "high",
+   "used": 1
+  },
+  "SE_ShotFire_01a": {
+   "target": "SE_ShotFire_01a",
+   "confidence": "high",
+   "used": 1
+  },
+  "SE_WoodBreak_01": {
+   "target": "SE_WoodBreak_01",
+   "confidence": "high",
+   "used": 1
+  },
+  "SE_BushRusting_Short_01b": {
+   "target": "SE_BushRusting_Short_01b",
+   "confidence": "high",
+   "used": 1
+  },
+  "SE_WaterBomb_03": {
+   "target": "SE_WaterBomb_01",
+   "confidence": "high",
+   "used": 1
+  },
+  "SE_HoseWater_02": {
+   "target": "SE_HoseWater_01",
+   "confidence": "high",
+   "used": 1
+  },
+  "SE_fall_03": {
+   "target": "SE_Fall_01",
+   "confidence": "high",
+   "used": 1
+  },
+  "SE_fall_01": {
+   "target": "SE_Fall_01",
+   "confidence": "high",
+   "used": 1
+  },
+  "SE_LockOn_01": {
+   "target": "SE_LockOn_01",
+   "confidence": "high",
+   "used": 1
+  },
+  "SE_Reload_06": {
+   "target": "SE_Reload_01",
+   "confidence": "high",
+   "used": 1
+  },
+  "SE_ShotGrenade_01": {
+   "target": "SE_ShotGrenade_01",
+   "confidence": "high",
+   "used": 1
+  },
+  "SE_ShotGrenade_02": {
+   "target": "SE_ShotGrenade_01",
+   "confidence": "high",
+   "used": 1
+  },
+  "SE_CanOpen_01a": {
+   "target": "SE_CanOpen_01a",
+   "confidence": "high",
+   "used": 1
+  },
+  "SE_BinahLaser_02": {
+   "target": "SE_BinahLaser_01",
+   "confidence": "high",
+   "used": 1
+  },
+  "SE_Hieronymus_02": {
+   "target": "SE_Hieronymus_01",
+   "confidence": "high",
+   "used": 1
+  },
+  "SE_Hieronymus_01": {
+   "target": "SE_Hieronymus_01",
+   "confidence": "high",
+   "used": 1
+  },
+  "SE_Hieronymus_03": {
+   "target": "SE_Hieronymus_01",
+   "confidence": "high",
+   "used": 1
+  },
+  "SE_HODLaser_01": {
+   "target": "SE_HODLaser_01",
+   "confidence": "high",
+   "used": 1
+  },
+  "SE_HODLaser_02": {
+   "target": "SE_HODLaser_01",
+   "confidence": "high",
+   "used": 1
+  },
+  "SE_PerorozillaLaser_01": {
+   "target": "SE_PerorozillaLaser_01",
+   "confidence": "high",
+   "used": 1
+  },
+  "SE_KaitenRobotWalk_01": {
+   "target": "SE_KaitenRobotWalk_01",
+   "confidence": "high",
+   "used": 1
+  },
+  "SE_gear_02": {
+   "target": "SE_Gear_01",
+   "confidence": "high",
+   "used": 1
+  },
+  "SE_Noogie_01": {
+   "target": "SE_Noogie_01",
+   "confidence": "high",
+   "used": 1
+  },
+  "SE_Fire_02": {
+   "target": "SE_Fire_02",
+   "confidence": "high",
+   "used": 1
+  },
+  "SE_RobotWalk_03c": {
+   "target": "SE_RobotWalk_03c",
+   "confidence": "high",
+   "used": 1
+  },
+  "SE_Bird_06": {
+   "target": "SE_Bird_01",
+   "confidence": "high",
+   "used": 1
+  },
+  "SE_BushRusting_03a": {
+   "target": "SE_BushRusting_03a",
+   "confidence": "high",
+   "used": 1
+  },
+  "SE_FaceShake_01": {
+   "target": "SE_FaceShake_01",
+   "confidence": "high",
+   "used": 1
+  },
+  "SE_Clink_05": {
+   "target": "SE_Clink_01",
+   "confidence": "high",
+   "used": 1
+  },
+  "SE_Scream_01": {
+   "target": "SE_Scream_01",
+   "confidence": "high",
+   "used": 1
+  },
+  "SE_SpotLight_02": {
+   "target": "SE_Spotlight_01",
+   "confidence": "high",
+   "used": 1
+  },
+  "SE_Hangup_04": {
+   "target": "SE_HangUp_02",
+   "confidence": "high",
+   "used": 1
+  },
+  "SE_DanceFootStep_01": {
+   "target": "SE_DanceFootStep_01",
+   "confidence": "high",
+   "used": 1
+  },
+  "SE_DanceFootStep_01d": {
+   "target": "SE_DanceFootStep_01d",
+   "confidence": "high",
+   "used": 1
+  },
+  "SE_Typing_05c": {
+   "target": "SE_Typing_05c",
+   "confidence": "high",
+   "used": 1
+  },
+  "SE_wind_01": {
+   "target": "SE_Wind_02",
+   "confidence": "high",
+   "used": 1
+  },
+  "SE_Footstep_10d": {
+   "target": "SE_FootStep_10d",
+   "confidence": "high",
+   "used": 1
+  },
+  "SE_DropPod_02": {
+   "target": "SE_DropPod_01",
+   "confidence": "high",
+   "used": 1
+  },
+  "SE_Giantization_01a": {
+   "target": "SE_Giantization_01a",
+   "confidence": "high",
+   "used": 1
+  },
+  "SE_Giantization_01b": {
+   "target": "SE_Giantization_01b",
+   "confidence": "high",
+   "used": 1
+  },
+  "SE_Giantization_01c": {
+   "target": "SE_Giantization_01c",
+   "confidence": "high",
+   "used": 1
+  },
+  "SE_DoorClose_07": {
+   "target": "SE_DoorClose_01",
+   "confidence": "high",
+   "used": 1
+  },
+  "SE_RobotLanding_01": {
+   "target": "SE_RobotLanding_01",
+   "confidence": "high",
+   "used": 1
+  },
+  "SE_Grab_01": {
+   "target": "SE_Grab_01",
+   "confidence": "high",
+   "used": 1
+  },
+  "SE_Laser_05": {
+   "target": "SE_Laser_01",
+   "confidence": "high",
+   "used": 1
+  },
+  "SE_VehicleStop_04": {
+   "target": "SE_VehicleStop_01",
+   "confidence": "high",
+   "used": 1
+  },
+  "SE_OhrAnimal_01": {
+   "target": "SE_OhrAnimal_01",
+   "confidence": "high",
+   "used": 1
+  },
+  "SE_OhrAnimalAttack_02": {
+   "target": "SE_OhrAnimalAttack_01",
+   "confidence": "high",
+   "used": 1
+  },
+  "SE_Guitar_02b": {
+   "target": "SE_Guitar_02b",
+   "confidence": "high",
+   "used": 1
+  },
+  "SE_Doorclose_01": {
+   "target": "SE_DoorClose_01",
+   "confidence": "high",
+   "used": 1
+  },
+  "SE_SchoolBell_03": {
+   "target": "SE_SchoolBell_01",
+   "confidence": "high",
+   "used": 1
+  },
+  "SE_BoxOpen_01": {
+   "target": "SE_BoxOpen_01",
+   "confidence": "high",
+   "used": 1
+  },
+  "SE_Sliding_02": {
+   "target": "SE_Sliding_01",
+   "confidence": "high",
+   "used": 1
+  },
+  "SE_Rec_01": {
+   "target": "SE_REC_01",
+   "confidence": "high",
+   "used": 1
+  },
+  "SE_Whistle_02": {
+   "target": "SE_Whistle_01",
+   "confidence": "high",
+   "used": 1
+  },
+  "fade1": {
+   "target": "SE_Fade_01",
+   "confidence": "high",
+   "used": 1
+  },
+  "SE_FireBomb": {
+   "target": "SE_FireBomb",
+   "confidence": "high",
+   "used": 1
+  },
+  "SE_HoshinoShield_01": {
+   "target": "SE_HoshinoShield_01",
+   "confidence": "high",
+   "used": 1
+  },
+  "SE_BoomFuse_01c": {
+   "target": "SE_BoomFuse_01c",
+   "confidence": "high",
+   "used": 1
+  },
+  "SE_Crowd_05": {
+   "target": "SE_Crowd_01",
+   "confidence": "high",
+   "used": 1
+  },
+  "SE_Slideopen_02": {
+   "target": "SE_SlideOpen_01",
+   "confidence": "high",
+   "used": 1
+  },
+  "SE_Ambulance_01": {
+   "target": "SE_Ambulance_01",
+   "confidence": "high",
+   "used": 1
+  },
+  "SE_Momotalk_01": {
+   "target": "SE_MomoTalk_01",
+   "confidence": "high",
+   "used": 1
+  },
+  "SE_Warp_01b": {
+   "target": "SE_Warp_01b",
+   "confidence": "high",
+   "used": 1
+  },
+  "SE_BikeBell_01": {
+   "target": "SE_BikeBell_01",
+   "confidence": "high",
+   "used": 1
+  },
+  "SE_WoodBreak_04": {
+   "target": "SE_WoodBreak_01",
+   "confidence": "high",
+   "used": 1
+  },
+  "SE_WheelChair_01": {
+   "target": "SE_Wheelchair_01",
+   "confidence": "high",
+   "used": 1
+  },
+  "SE_Glitch_06a": {
+   "target": "SE_Glitch_06a",
+   "confidence": "high",
+   "used": 1
+  },
+  "SE_Snow_01": {
+   "target": "SE_Snow_01",
+   "confidence": "high",
+   "used": 1
+  },
+  "SE_Ricochet_04": {
+   "target": "SE_Ricochet_01",
+   "confidence": "high",
+   "used": 1
+  },
+  "SE_YesodRoar_02": {
+   "target": "SE_YesodRoar_01",
+   "confidence": "high",
+   "used": 1
+  },
+  "SE_PlaneFall_01": {
+   "target": "SE_PlaneFall_01",
+   "confidence": "high",
+   "used": 1
+  },
+  "SE_Crash_01a": {
+   "target": "SE_Crash_01a",
+   "confidence": "high",
+   "used": 1
+  },
+  "SE_Knock_03b": {
+   "target": "SE_Knock_03b",
+   "confidence": "high",
+   "used": 1
+  },
+  "SE_ShotFire_01c": {
+   "target": "SE_ShotFire_01c",
+   "confidence": "high",
+   "used": 1
+  },
+  "SE_close_01": {
+   "target": "SE_Close_02",
+   "confidence": "high",
+   "used": 1
+  },
+  "SE_reload_01": {
+   "target": "SE_Reload_01",
+   "confidence": "high",
+   "used": 1
+  },
+  "SE_Snow_02": {
+   "target": "SE_Snow_01",
+   "confidence": "high",
+   "used": 1
+  },
+  "SE_ElectricEngine_02b": {
+   "target": "SE_ElectricEngine_02b",
+   "confidence": "high",
+   "used": 1
+  },
+  "SE_Clink_04": {
+   "target": "SE_Clink_01",
+   "confidence": "high",
+   "used": 1
+  }
+ },
+ "unmatched": [
+  {
+   "se": "SFX_Emoticon_Motion_Dot",
+   "used": 1564
+  },
+  {
+   "se": "SFX_Emoticon_Motion_Respond",
+   "used": 1205
+  },
+  {
+   "se": "SFX_Emoticon_Motion_Question",
+   "used": 590
+  },
+  {
+   "se": "SE_Confirm_01",
+   "used": 557
+  },
+  {
+   "se": "SFX_Emoticon_Motion_Chat",
+   "used": 538
+  },
+  {
+   "se": "SFX_Emoticon_Motion_Exclaim",
+   "used": 505
+  },
+  {
+   "se": "SFX_Emoticon_Motion_Surprise",
+   "used": 483
+  },
+  {
+   "se": "SFX_Emoticon_Motion_Sweat",
+   "used": 369
+  },
+  {
+   "se": "SE_Confirm_02",
+   "used": 354
+  },
+  {
+   "se": "SFX_Emoticon_Motion_Twinkle",
+   "used": 316
+  },
+  {
+   "se": "SFX_Emoticon_Motion_Upset",
+   "used": 269
+  },
+  {
+   "se": "SE_Answer_01",
+   "used": 263
+  },
+  {
+   "se": "SFX_Emoticon_Motion_Music",
+   "used": 232
+  },
+  {
+   "se": "SFX_Emoticon_Motion_Angry",
+   "used": 132
+  },
+  {
+   "se": "SFX_Emoticon_Motion_Sigh",
+   "used": 90
+  },
+  {
+   "se": "SFX_Emoticon_Motion_Shy",
+   "used": 87
+  },
+  {
+   "se": "SFX_Emoticon_Motion_Heart",
+   "used": 60
+  },
+  {
+   "se": "SFX_Emoticon_Motion_Tear",
+   "used": 59
+  },
+  {
+   "se": "SFX_Emoticon_Motion_Think",
+   "used": 52
+  },
+  {
+   "se": "SFX_Emoticon_Motion_Sad",
+   "used": 40
+  },
+  {
+   "se": "SFX_Emoticon_Motion_Steam",
+   "used": 35
+  },
+  {
+   "se": "SFX_Emoticon_Motion_Zzz",
+   "used": 12
+  },
+  {
+   "se": "SFX_Emoticon_Motion_Bulb",
+   "used": 9
+  },
+  {
+   "se": "SE_Arona_Touch",
+   "used": 5
+  },
+  {
+   "se": "SE_confirm_01",
+   "used": 4
+  },
+  {
+   "se": "SFX_emoticon_Motion_Dot",
+   "used": 2
+  },
+  {
+   "se": "SFX_Emoticon_Motion_dot",
+   "used": 2
+  },
+  {
+   "se": " ",
+   "used": 1
+  },
+  {
+   "se": "SE_Hatch_01",
+   "used": 1
+  },
+  {
+   "se": "SFX_Emoticon_Motion_shy",
+   "used": 1
+  },
+  {
+   "se": "SFX_Emoticon_Motion_surprise",
+   "used": 1
+  },
+  {
+   "se": "SFX_Emoticon_Motion_sigh",
+   "used": 1
+  },
+  {
+   "se": "SFX_Emoticon_Motion_sad",
+   "used": 1
+  },
+  {
+   "se": "SFX_Emoticon_Motion_angry",
+   "used": 1
+  },
+  {
+   "se": "SFX_Emoticon_Motion_respond",
+   "used": 1
+  }
+ ]
 }
