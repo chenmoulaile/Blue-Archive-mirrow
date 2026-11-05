@@ -7,12 +7,21 @@
   新式: assets-_mx-spinelobbies-<char>_home-_mxdependency-<类型>-<日期>_assets_all_<crc>.bundle
         （类型 ∈ assets/textassets/textures/materials/timelines/prefabs/...，2026 起的新族）
 
-版本判定（测绘结论 + 本轮实测）：
-  catalog_Windows.bytes（CCDB "AddressablesMainContentCatalog"）中每个 bundle 文件名
-  恰好出现 2 次（keys + internalIds，25961 唯一名 × 2 = 51922 处），次数无法区分
-  新旧版本；磁盘冗余旧版仅是未清理存量。因此本脚本对族内每个逻辑分片（数字分片
-  号或类型名）要求「磁盘上只有唯一日期版本」才提取；存在多日期版本的族一律跳过
-  并记入 problems，绝不凭猜测选版本。
+版本判定（2026-11-05 全量实测，含 8 个多日期族逐 bundle 内容清点）：
+  1. catalog 守卫：bundle 文件名出现在 catalog_Windows.bytes（CCDB
+     "AddressablesMainContentCatalog"，正则可提取 25961 唯一名）= 生效/存活；
+     不在 = 孤儿，剔除并记 problem。实测 1369 个 *_home bundle 全部在 catalog（孤儿 0）。
+  2. 多日期族并集规则：族内出现多个日期集时（实测恰 8 族，每族 2 个日期），
+     两个日期集不是互斥版本而是同一现行模型的互补部分——
+       - skel/atlas 在最早的 2024-11-18 数字分片集里（新版日期集实测 0 个 TextAsset，
+         只有 MonoBehaviour/Material/贴图）；
+       - 但旧 atlas 的 page 名直接引用新版日期集里的贴图
+         （ch0164/cherino/hihumi: *_home_2.png 只在 2025-07 集内；
+          ch0232: *_home_2/_3.png 只在 2026-03-23 集内），
+         缺了新版贴图 atlas 页就残缺。这正是两套都在 catalog 的原因：
+         它们是同一现行模型的依赖。
+     因此对多日期族提取「全部日期集的在 catalog bundle 之并集」；
+     atlas page 解析不出贴图时脚本照常记 problem 兜底。
 
 产物：
   resources/spine/<fam>/*.skel|*.atlas|*.png   客户端契约位置（SpineView 用
@@ -21,13 +30,13 @@
   data/asset_map.json                          schema 对齐 build_asset_map.py：
                                                images / spines / character_spine / counts
                                                （另加 spine_meta 段存 bundle 溯源，
-                                               前端不读）
+                                               前端不读；每族提取完即增量落盘）
 
 用法（venv：D:/Bluearchive/.venv/Scripts/python.exe）：
   python tools/fetch/extract_local_spine.py                 # 提取默认 15 族
   python tools/fetch/extract_local_spine.py --families airi_home,fuuka_home
   python tools/fetch/extract_local_spine.py --list          # 只列族分类，不提取
-  python tools/fetch/extract_local_spine.py --all-safe      # 提取全部无歧义族
+  python tools/fetch/extract_local_spine.py --all-safe      # 提取全部 266 族（含多日期并集族）
 """
 from __future__ import annotations
 
@@ -65,32 +74,53 @@ RX_NEW = re.compile(
 
 PAGE_EXT = (".png", ".webp", ".pvr", ".etc1", ".ktx", ".astc")
 
+RX_CAT_BUNDLE = re.compile(rb"[A-Za-z0-9_.\-]*_assets_all_\d+\.bundle")
+
+
+def load_catalog_names(catalog: Path) -> set[str]:
+    """catalog_Windows.bytes 里出现过的 bundle 文件名（= 客户端认定的存活集）。"""
+    return {m.group().decode() for m in RX_CAT_BUNDLE.finditer(catalog.read_bytes())}
+
 
 def scan_families(gamedir: Path) -> dict[str, dict]:
-    """返回 {fam: {"old": {shard: {date: name}}, "new": {type: {date: name}}}}"""
-    fams: dict[str, dict] = defaultdict(lambda: {"old": defaultdict(dict), "new": defaultdict(dict)})
+    """返回 {fam: {"dates": {date: [bundle 名,...]}}}，日期集 = 该日期的全部分片。"""
+    fams: dict[str, dict] = defaultdict(lambda: {"dates": defaultdict(list)})
     for p in gamedir.glob("assets-_mx-spinelobbies-*_home-*.bundle"):
-        m = RX_OLD.match(p.name)
+        m = RX_OLD.match(p.name) or RX_NEW.match(p.name)
         if m:
-            fams[m["fam"]]["old"][m["shard"] or "000"][m["date"]] = p.name
-            continue
-        m = RX_NEW.match(p.name)
-        if m:
-            fams[m["fam"]]["new"][m["type"]][m["date"]] = p.name
+            fams[m["fam"]]["dates"][m["date"]].append(p.name)
     return dict(fams)
 
 
-def pick_bundles(fam: str, info: dict) -> tuple[list[str] | None, str]:
-    """每逻辑分片取唯一日期版本；有歧义返回 None + 原因。"""
-    picked: list[str] = []
-    for layout in ("old", "new"):
-        for key, dates in sorted(info[layout].items()):
-            if len(dates) > 1:
-                return None, f"shard '{layout}/{key}' has {len(dates)} date versions: {sorted(dates)}"
-            picked.append(next(iter(dates.values())))
+def pick_bundles(fam: str, info: dict, cat_names: set[str]) -> tuple[list[str] | None, str, dict]:
+    """族级选版：catalog 孤儿剔除 + 多日期族并集规则。
+
+    返回 (bundles, 原因, meta)；bundles=None 表示该族不可提取。
+    """
+    dates: dict[str, list[str]] = {d: sorted(ns) for d, ns in info["dates"].items()}
+    if not dates:
+        return None, "no bundles matched", {}
+    all_names = [n for d in sorted(dates) for n in dates[d]]
+    excluded = [n for n in all_names if n not in cat_names]
+    picked = [n for n in all_names if n in cat_names]
+    meta: dict = {
+        "dates": sorted(dates),
+        "multi_date": len(dates) > 1,
+        "bundles_all": len(all_names),
+        "catalog_excluded": excluded,
+    }
+    if excluded:
+        meta["reason"] = f"{len(excluded)} bundle(s) not in catalog_Windows.bytes excluded as orphan"
+    if len(dates) > 1:
+        meta["resolution"] = (
+            "multi-date union: every date-set is live in catalog and they are complementary, "
+            "not alternatives (skel/atlas live in the earliest set, newer date-sets carry extra "
+            "atlas pages and/or prefab patches with zero TextAssets; measured 2026-11-05 on all "
+            "8 multi-date families)"
+        )
     if not picked:
-        return None, "no bundles matched"
-    return picked, ""
+        return None, "no in-catalog bundles", meta
+    return picked, "", meta
 
 
 def atlas_pages(atlas_text: str) -> list[str]:
@@ -118,9 +148,11 @@ def extract_family(fam: str, bundles: list[str], gamedir: Path, out_dir: Path,
 
     # UnityPy 坑规避：把同批 bundle 复制进同一临时目录再 load(目录)，
     # 保证 MonoScript/引用解析一致（TextAsset/Texture2D 本身是内置类型）。
+    # bundles 已按文件名排序（ISO 日期字典序=时间序），同名 Texture2D 冲突时
+    # 后载入者（更新日期）胜出，行为确定。
     for f in work_dir.glob("*"):
         f.unlink()
-    srcs = [gamedir / b for b in bundles]
+    srcs = [gamedir / b for b in sorted(bundles)]
     for src in srcs:
         shutil.copy2(src, work_dir / src.name)
 
@@ -128,6 +160,7 @@ def extract_family(fam: str, bundles: list[str], gamedir: Path, out_dir: Path,
     skels: dict[str, bytes] = {}
     atlases: dict[str, bytes] = {}
     textures: dict[str, object] = {}
+    dup_tex: list[str] = []
     type_count: dict[str, int] = defaultdict(int)
     for obj in env.objects:
         type_count[obj.type.name] += 1
@@ -144,7 +177,12 @@ def extract_family(fam: str, bundles: list[str], gamedir: Path, out_dir: Path,
                 atlases[name] = data
         elif obj.type.name == "Texture2D":
             d = obj.read()
+            if d.m_Name in textures:
+                dup_tex.append(d.m_Name)
             textures[d.m_Name] = d
+    if dup_tex:
+        problems.append(f"{fam}: duplicate Texture2D name(s) across bundles, newest-date wins "
+                        f"(copy order sorted): {sorted(set(dup_tex))}")
 
     # atlas 落盘：字节原样（内含 CRLF 与 page 名，spine-webgl 相对 atlas 解析 page）
     written_atlas: dict[str, Path] = {}
@@ -195,10 +233,13 @@ def extract_family(fam: str, bundles: list[str], gamedir: Path, out_dir: Path,
     #   <char>_home  -> fam            （主模型，客户端演示用）
     #   <char>_Scene -> fam_scene
     #   其他后缀      -> fam_<后缀>     （如 Hoshino_home_background -> hoshino_home_background）
+    # 主模型名缺失回退时（见下），回退 skel 直接用 fam 作 key。
     char = fam[: -len("_home")]
     home_low = f"{char}_home"
 
-    def key_for(skel_name: str) -> str:
+    def key_for(skel_name: str, fallback_main: bool = False) -> str:
+        if fallback_main:
+            return fam
         stem = Path(skel_name).stem.lower()
         if stem == home_low:
             return fam
@@ -213,38 +254,64 @@ def extract_family(fam: str, bundles: list[str], gamedir: Path, out_dir: Path,
         problems.append(f"{fam}: no .skel TextAsset found")
         return {"entries": {}, "meta": meta}, problems
 
-    def build_entry(skel_name: str) -> dict | None:
+    def build_entry(skel_name: str) -> tuple[dict | None, str]:
+        """返回 (entry|None, 失败原因)；成功原因=''。"""
         stem = Path(skel_name).stem.lower()
         a_name = next((a for a in atlases if Path(a).stem.lower() == stem), None)
         if a_name is None:
-            problems.append(f"{fam}: no .atlas named like skel '{skel_name}' (have: {sorted(atlases)})")
-            return None
+            # 唯一性回退配对：族内恰 1 skel + 1 atlas 且 stem 对不上时，
+            # 按唯一性配对（实测 ch9996_home：skel=CH9996_home.skel、
+            # atlas=CH0996_home.atlas，名字错位是游戏数据本身的拼写差）。
+            if len(atlases) == 1 and len(skels) == 1:
+                a_name = next(iter(atlases))
+                problems.append(
+                    f"{fam}: skel '{skel_name}' paired with the family's single atlas "
+                    f"'{a_name}' despite stem mismatch (naming typo in game data)")
+            else:
+                return None, f"no .atlas named like skel '{skel_name}' (have: {sorted(atlases)})"
         texs = []
         for page in page_map.get(a_name, []):
             p = written_png.get(page.lower())
             if p is None:
-                return None  # problem already recorded
+                return None, "page texture missing (problem already recorded)"
             texs.append(str(p.relative_to(REPO)).replace("\\", "/"))
         if not texs:
-            return None
+            return None, "atlas has no usable page"
         return {
             "skel": str((out_dir / skel_name).relative_to(REPO)).replace("\\", "/"),
             "atlas": str((out_dir / a_name).relative_to(REPO)).replace("\\", "/"),
             "textures": texs,
-        }
+        }, ""
 
-    # 主模型缺失时回退到最大的 skel（主模型远大于变体）
-    if home_low not in {Path(s).stem.lower() for s in skels}:
+    # 主模型缺失时回退到最大的 skel（主模型远大于变体）。
+    # 注意 main 必须是 skels 的真实键名（stem 反查），不能用 home_low 伪名——
+    # 否则会对同一 skel 建两次条目/记两次 problem（上轮遗留 bug，2026-11-06 修复）。
+    stem_to_skel = {Path(s).stem.lower(): s for s in skels}
+    fallback_main = home_low not in stem_to_skel
+    if fallback_main:
         problems.append(f"{fam}: no skel named like '{char}_home'; "
                         f"using largest of {sorted(skels)} as main")
     out_entries: dict[str, dict] = {}
-    main = (home_low if home_low in {Path(s).stem.lower() for s in skels}
-            else max(skels, key=lambda n: len(skels[n])))
+    main = stem_to_skel.get(home_low) or max(skels, key=lambda n: len(skels[n]))
     order = [main] + sorted(s for s in skels if s != main)
+    unpairable: list[str] = []
     for s_name in order:
-        e = build_entry(s_name)
+        e, why = build_entry(s_name)
         if e:
-            out_entries[key_for(s_name)] = e
+            out_entries[key_for(s_name, fallback_main=(fallback_main and s_name == main))] = e
+        elif why.startswith("no .atlas"):
+            unpairable.append(s_name)
+        # 其余失败原因（贴图缺失等）已记 problem，skel 保留在盘上供排查
+    for s_name in unpairable:
+        # 族内无任何可配 atlas 的 skel = 源 bundle 的开发残留
+        # （实测 hare_home：分片 _002 同时含 Hare_home.skel 与 Hanako_home.skel，
+        #   Hanako 模型在 hanako_home 族有自己的完整 atlas 集）。
+        # 不跨族配对（避免拼接出错误模型），落盘文件删除并记录。
+        stray = out_dir / s_name
+        if stray.is_file():
+            stray.unlink()
+        problems.append(f"{fam}: stray skel '{s_name}' removed — no atlas in this family "
+                        f"(cross-family pairing would fabricate a model; have: {sorted(atlases)})")
     if not out_entries:
         problems.append(f"{fam}: no (skel, atlas, textures) triple complete")
     meta["skels"] = sorted(skels)
@@ -253,88 +320,139 @@ def extract_family(fam: str, bundles: list[str], gamedir: Path, out_dir: Path,
     return {"entries": out_entries, "meta": meta}, problems
 
 
+def load_asset_map(path: Path) -> dict:
+    if path.exists():
+        try:
+            return json.loads(path.read_text(encoding="utf-8"))
+        except Exception:
+            pass
+    return {}
+
+
+def write_asset_map(path: Path, amap: dict) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(json.dumps(amap, ensure_ascii=False, indent=1), encoding="utf-8")
+
+
+def spine_files_on_disk() -> int:
+    return sum(1 for _ in (REPO / "resources" / "spine").rglob("*") if _.is_file())
+
+
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__.splitlines()[1])
     ap.add_argument("--gamedir", type=Path, default=GAME_DIR)
     ap.add_argument("--catalog", type=Path, default=CATALOG)
     ap.add_argument("--families", default="", help="逗号分隔的族名；空=默认 15 族")
-    ap.add_argument("--all-safe", action="store_true", help="提取全部无版本歧义族")
+    ap.add_argument("--all-safe", action="store_true", help="提取全部族（catalog 守卫 + 多日期并集）")
     ap.add_argument("--list", action="store_true", help="只列族分类")
     ap.add_argument("--dry-run", action="store_true")
     args = ap.parse_args()
 
     gamedir: Path = args.gamedir
-    fams = scan_families(gamedir)
+    catalog: Path = args.catalog
+    if not catalog.is_file():
+        print(f"FATAL catalog not found: {catalog}", file=sys.stderr)
+        return 2
+    cat_names = load_catalog_names(catalog)
+    print(f"catalog={catalog} unique bundle names={len(cat_names)}")
 
-    ambiguous: dict[str, str] = {}
-    safe: dict[str, list[str]] = {}
+    fams = scan_families(gamedir)
+    targets: dict[str, list[str]] = {}
+    unresolvable: dict[str, str] = {}
+    fam_meta_pick: dict[str, dict] = {}
     for fam, info in sorted(fams.items()):
-        picked, why = pick_bundles(fam, info)
+        picked, why, meta = pick_bundles(fam, info, cat_names)
         if picked is None:
-            ambiguous[fam] = why
+            unresolvable[fam] = why
+            fam_meta_pick[fam] = meta
         else:
-            safe[fam] = picked
+            targets[fam] = picked
+            fam_meta_pick[fam] = meta
+
+    multi = {f: m for f, m in fam_meta_pick.items() if m.get("multi_date")}
 
     if args.list:
-        named = {f: b for f, b in safe.items() if not re.match(r"^ch\d{4}_", f)}
-        print(f"families={len(fams)} safe={len(safe)} ambiguous={len(ambiguous)}")
-        print(f"named-safe={len(named)}")
+        named = {f: b for f, b in targets.items() if not re.match(r"^ch\d{4}_", f)}
+        print(f"families={len(fams)} extractable={len(targets)} "
+              f"unresolvable={len(unresolvable)} multi-date={len(multi)}")
+        print(f"named-extractable={len(named)}")
         for f in sorted(named):
-            print(f"  {f}: {len(named[f])} bundles")
-        print("ambiguous:")
-        for f, why in sorted(ambiguous.items()):
-            print(f"  {f}: {why}")
+            tag = " multi-date" if f in multi else ""
+            print(f"  {f}: {len(named[f])} bundles{tag}")
+        if unresolvable:
+            print("unresolvable:")
+            for f, why in sorted(unresolvable.items()):
+                print(f"  {f}: {why}")
+        print("multi-date resolution:")
+        for f, m in sorted(multi.items()):
+            print(f"  {f}: dates={m['dates']} excluded={len(m['catalog_excluded'])}")
         return 0
 
     if args.all_safe:
-        targets = dict(safe)
+        pass  # targets 已是全部可提取族
     else:
         want = [s.strip() for s in args.families.split(",") if s.strip()] or DEFAULT_FAMILIES
-        unknown = [w for w in want if w not in safe]
+        unknown = [w for w in want if w not in targets]
         for u in unknown:
-            print(f"SKIP {u}: {'ambiguous: ' + ambiguous[u] if u in ambiguous else 'not found on disk'}",
+            print(f"SKIP {u}: {'unresolvable: ' + unresolvable[u] if u in unresolvable else 'not found on disk'}",
                   file=sys.stderr)
-        targets = {w: safe[w] for w in want if w in safe}
-    print(f"targets={len(targets)} safe_total={len(safe)} ambiguous={len(ambiguous)}")
+        targets = {w: targets[w] for w in want if w in targets}
+    print(f"targets={len(targets)} families_total={len(fams)} unresolvable={len(unresolvable)} "
+          f"multi-date={len(multi)}")
 
-    spines: dict[str, dict] = {}
-    spine_meta: dict[str, dict] = {}
+    amap_path = REPO / "data" / "asset_map.json"
+    amap = load_asset_map(amap_path)
+    amap.setdefault("images", {})
+    amap.setdefault("character_spine", {})
+    amap.setdefault("spines", {})
+    amap.setdefault("spine_meta", {})
+
     problems: list[str] = []
-    file_count = 0
+    done = 0
     for fam, bundles in sorted(targets.items()):
         if args.dry_run:
             print(f"DRY {fam}: {len(bundles)} bundles -> {bundles[:2]} ...")
             continue
         out_dir = REPO / "resources" / "spine" / fam
         res, probs = extract_family(fam, bundles, gamedir, out_dir, WORK / fam)
-        spines.update(res["entries"])
-        spine_meta[fam] = res["meta"]
+        # 清掉该族旧键（条目 key 形如 fam 或 fam_<suffix>），防改名/删除后残留
+        for k in [k for k in amap["spines"] if k == fam or k.startswith(fam + "_")]:
+            del amap["spines"][k]
+        amap["spines"].update(res["entries"])
+        m = dict(fam_meta_pick[fam])
+        m.update(res["meta"])
+        amap["spine_meta"][fam] = m
         problems.extend(probs)
+        done += 1
         n = len(list(out_dir.iterdir())) if out_dir.exists() else 0
-        file_count += n
         keys = ",".join(res["entries"]) or "-"
-        print(f"OK {fam}: files={n} entries=[{keys}] problems={len(probs)}")
+        print(f"OK {fam}: files={n} entries=[{keys}] problems={len(probs)}", flush=True)
+        # 每族增量落盘：中途被杀也不丢进度
+        if done % 5 == 0 or done == len(targets):
+            amap["counts"] = {
+                "images": len(amap.get("images", {})),
+                "spines": len(amap["spines"]),
+                "spine_families_extracted": len(amap["spine_meta"]),
+                "spine_files_written": spine_files_on_disk(),
+                "character_spine": len(amap.get("character_spine", {})),
+            }
+            amap["generated"] = {
+                "by": "tools/fetch/extract_local_spine.py",
+                "date": date.today().isoformat(),
+                "game_dir": str(gamedir).replace("\\", "/"),
+                "source": "assetbundle",
+            }
+            write_asset_map(amap_path, amap)
 
     if args.dry_run:
         print("dry-run: asset_map.json not written")
         return 0
 
-    amap_path = REPO / "data" / "asset_map.json"
-    amap = {}
-    if amap_path.exists():
-        try:
-            amap = json.loads(amap_path.read_text(encoding="utf-8"))
-        except Exception:
-            amap = {}
-    amap.setdefault("images", {})
-    amap.setdefault("character_spine", {})
-    amap["spines"] = {**amap.get("spines", {}), **spines}
-    amap["spine_meta"] = {**amap.get("spine_meta", {}), **spine_meta}
     amap["counts"] = {
         "images": len(amap.get("images", {})),
         "spines": len(amap["spines"]),
-        "spine_families_extracted": len(spine_meta),
-        "spine_files_written": file_count,
+        "spine_families_extracted": len(amap["spine_meta"]),
+        "spine_files_written": spine_files_on_disk(),
         "character_spine": len(amap.get("character_spine", {})),
     }
     amap["generated"] = {
@@ -343,10 +461,10 @@ def main() -> int:
         "game_dir": str(gamedir).replace("\\", "/"),
         "source": "assetbundle",
     }
-    amap_path.parent.mkdir(parents=True, exist_ok=True)
-    amap_path.write_text(json.dumps(amap, ensure_ascii=False, indent=1), encoding="utf-8")
-    print(f"asset_map.json: spines={len(amap['spines'])} -> {amap_path}")
-    print(f"files written={file_count} problems={len(problems)}")
+    write_asset_map(amap_path, amap)
+    print(f"asset_map.json: spines={len(amap['spines'])} "
+          f"spine_meta={len(amap['spine_meta'])} -> {amap_path}")
+    print(f"families extracted this run={done} problems={len(problems)}")
     for p in problems:
         print(f"  PROBLEM: {p}")
     return 0
