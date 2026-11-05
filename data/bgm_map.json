@@ -1,0 +1,1940 @@
+{
+ "_comment": "playBgm 契约 id 表 (来自 MediaCatalog.bytes audio/bgm 组)。369/386 已从 BGM.molru 物理拆分(resources/molru_unnamed/bgm/seg_XXXX.ogg), 但段名映射需 molru 尾部表解密(见 tools/fetch/decrypt_molru.py 头注释), 未能命名前 extracted=false。剧情引用的 Theme_*/AMB_* id 都在此表。",
+ "_stats": {
+  "catalog_ids": 386,
+  "split_segments": 369,
+  "named": 0
+ },
+ "ids": {
+  "AMB_Fire": {
+   "key": "audio/bgm/amb_fire",
+   "source": "Audio/BGM/AMB_Fire.ogg",
+   "extracted": false
+  },
+  "AMB_Helicopter": {
+   "key": "audio/bgm/amb_helicopter",
+   "source": "Audio/BGM/AMB_Helicopter.ogg",
+   "extracted": false
+  },
+  "AMB_Rain": {
+   "key": "audio/bgm/amb_rain",
+   "source": "Audio/BGM/AMB_Rain.ogg",
+   "extracted": false
+  },
+  "AMB_Subway": {
+   "key": "audio/bgm/amb_subway",
+   "source": "Audio/BGM/AMB_Subway.ogg",
+   "extracted": false
+  },
+  "AMB_Train_L": {
+   "key": "audio/bgm/amb_train_l",
+   "source": "Audio/BGM/AMB_Train_L.ogg",
+   "extracted": false
+  },
+  "BGM_Mikumikuni": {
+   "key": "audio/bgm/bgm_mikumikuni",
+   "source": "Audio/BGM/BGM_Mikumikuni.ogg",
+   "extracted": false
+  },
+  "BGM_TellYourWorld_Short": {
+   "key": "audio/bgm/bgm_tellyourworld_short",
+   "source": "Audio/BGM/BGM_TellYourWorld_Short.ogg",
+   "extracted": false
+  },
+  "BGM_TenchikaibyakuShinwa_Short": {
+   "key": "audio/bgm/bgm_tenchikaibyakushinwa_short",
+   "source": "Audio/BGM/BGM_TenchikaibyakuShinwa_Short.ogg",
+   "extracted": false
+  },
+  "BlueNewWorld_Lobby": {
+   "key": "audio/bgm/bluenewworld_lobby",
+   "source": "Audio/BGM/BlueNewWorld_Lobby.ogg",
+   "extracted": false
+  },
+  "BlueNewWorld_Short": {
+   "key": "audio/bgm/bluenewworld_short",
+   "source": "Audio/BGM/BlueNewWorld_Short.ogg",
+   "extracted": false
+  },
+  "ClearMorning_Short": {
+   "key": "audio/bgm/clearmorning_short",
+   "source": "Audio/BGM/ClearMorning_Short.ogg",
+   "extracted": false
+  },
+  "EN0005_Skill_01": {
+   "key": "audio/bgm/en0005_skill_01",
+   "source": "Audio/BGM/EN0005_Skill_01.ogg",
+   "extracted": false
+  },
+  "EN0005_Skill_02": {
+   "key": "audio/bgm/en0005_skill_02",
+   "source": "Audio/BGM/EN0005_Skill_02.ogg",
+   "extracted": false
+  },
+  "EN0005_Skill_03": {
+   "key": "audio/bgm/en0005_skill_03",
+   "source": "Audio/BGM/EN0005_Skill_03.ogg",
+   "extracted": false
+  },
+  "EN0005_Skill_04": {
+   "key": "audio/bgm/en0005_skill_04",
+   "source": "Audio/BGM/EN0005_Skill_04.ogg",
+   "extracted": false
+  },
+  "Mute": {
+   "key": "audio/bgm/mute",
+   "source": "Audio/BGM/Mute.ogg",
+   "extracted": false
+  },
+  "TargetForLove_Short_en": {
+   "key": "audio/bgm/targetforlove_short_en",
+   "source": "Audio/BGM/TargetForLove_Short_en.ogg",
+   "extracted": false
+  },
+  "TargetForLove_Short_kr": {
+   "key": "audio/bgm/targetforlove_short_kr",
+   "source": "Audio/BGM/TargetForLove_Short_kr.ogg",
+   "extracted": false
+  },
+  "Theme_01": {
+   "key": "audio/bgm/theme_01",
+   "source": "Audio/BGM/Theme_01.ogg",
+   "extracted": false
+  },
+  "Theme_02": {
+   "key": "audio/bgm/theme_02",
+   "source": "Audio/BGM/Theme_02.ogg",
+   "extracted": false
+  },
+  "Theme_03": {
+   "key": "audio/bgm/theme_03",
+   "source": "Audio/BGM/Theme_03.ogg",
+   "extracted": false
+  },
+  "Theme_04": {
+   "key": "audio/bgm/theme_04",
+   "source": "Audio/BGM/Theme_04.ogg",
+   "extracted": false
+  },
+  "Theme_05": {
+   "key": "audio/bgm/theme_05",
+   "source": "Audio/BGM/Theme_05.ogg",
+   "extracted": false
+  },
+  "Theme_06": {
+   "key": "audio/bgm/theme_06",
+   "source": "Audio/BGM/Theme_06.ogg",
+   "extracted": false
+  },
+  "Theme_07": {
+   "key": "audio/bgm/theme_07",
+   "source": "Audio/BGM/Theme_07.ogg",
+   "extracted": false
+  },
+  "Theme_08": {
+   "key": "audio/bgm/theme_08",
+   "source": "Audio/BGM/Theme_08.ogg",
+   "extracted": false
+  },
+  "Theme_09": {
+   "key": "audio/bgm/theme_09",
+   "source": "Audio/BGM/Theme_09.ogg",
+   "extracted": false
+  },
+  "Theme_10": {
+   "key": "audio/bgm/theme_10",
+   "source": "Audio/BGM/Theme_10.ogg",
+   "extracted": false
+  },
+  "Theme_100": {
+   "key": "audio/bgm/theme_100",
+   "source": "Audio/BGM/Theme_100.ogg",
+   "extracted": false
+  },
+  "Theme_101": {
+   "key": "audio/bgm/theme_101",
+   "source": "Audio/BGM/Theme_101.ogg",
+   "extracted": false
+  },
+  "Theme_102": {
+   "key": "audio/bgm/theme_102",
+   "source": "Audio/BGM/Theme_102.ogg",
+   "extracted": false
+  },
+  "Theme_103": {
+   "key": "audio/bgm/theme_103",
+   "source": "Audio/BGM/Theme_103.ogg",
+   "extracted": false
+  },
+  "Theme_104": {
+   "key": "audio/bgm/theme_104",
+   "source": "Audio/BGM/Theme_104.ogg",
+   "extracted": false
+  },
+  "Theme_105": {
+   "key": "audio/bgm/theme_105",
+   "source": "Audio/BGM/Theme_105.ogg",
+   "extracted": false
+  },
+  "Theme_106": {
+   "key": "audio/bgm/theme_106",
+   "source": "Audio/BGM/Theme_106.ogg",
+   "extracted": false
+  },
+  "Theme_107": {
+   "key": "audio/bgm/theme_107",
+   "source": "Audio/BGM/Theme_107.ogg",
+   "extracted": false
+  },
+  "Theme_108": {
+   "key": "audio/bgm/theme_108",
+   "source": "Audio/BGM/Theme_108.ogg",
+   "extracted": false
+  },
+  "Theme_109": {
+   "key": "audio/bgm/theme_109",
+   "source": "Audio/BGM/Theme_109.ogg",
+   "extracted": false
+  },
+  "Theme_11": {
+   "key": "audio/bgm/theme_11",
+   "source": "Audio/BGM/Theme_11.ogg",
+   "extracted": false
+  },
+  "Theme_110": {
+   "key": "audio/bgm/theme_110",
+   "source": "Audio/BGM/Theme_110.ogg",
+   "extracted": false
+  },
+  "Theme_113": {
+   "key": "audio/bgm/theme_113",
+   "source": "Audio/BGM/Theme_113.ogg",
+   "extracted": false
+  },
+  "Theme_114": {
+   "key": "audio/bgm/theme_114",
+   "source": "Audio/BGM/Theme_114.ogg",
+   "extracted": false
+  },
+  "Theme_114_8bit": {
+   "key": "audio/bgm/theme_114_8bit",
+   "source": "Audio/BGM/Theme_114_8bit.ogg",
+   "extracted": false
+  },
+  "Theme_115": {
+   "key": "audio/bgm/theme_115",
+   "source": "Audio/BGM/Theme_115.ogg",
+   "extracted": false
+  },
+  "Theme_116": {
+   "key": "audio/bgm/theme_116",
+   "source": "Audio/BGM/Theme_116.ogg",
+   "extracted": false
+  },
+  "Theme_117": {
+   "key": "audio/bgm/theme_117",
+   "source": "Audio/BGM/Theme_117.ogg",
+   "extracted": false
+  },
+  "Theme_118": {
+   "key": "audio/bgm/theme_118",
+   "source": "Audio/BGM/Theme_118.ogg",
+   "extracted": false
+  },
+  "Theme_119": {
+   "key": "audio/bgm/theme_119",
+   "source": "Audio/BGM/Theme_119.ogg",
+   "extracted": false
+  },
+  "Theme_12": {
+   "key": "audio/bgm/theme_12",
+   "source": "Audio/BGM/Theme_12.ogg",
+   "extracted": false
+  },
+  "Theme_120": {
+   "key": "audio/bgm/theme_120",
+   "source": "Audio/BGM/Theme_120.ogg",
+   "extracted": false
+  },
+  "Theme_121": {
+   "key": "audio/bgm/theme_121",
+   "source": "Audio/BGM/Theme_121.ogg",
+   "extracted": false
+  },
+  "Theme_122": {
+   "key": "audio/bgm/theme_122",
+   "source": "Audio/BGM/Theme_122.ogg",
+   "extracted": false
+  },
+  "Theme_123": {
+   "key": "audio/bgm/theme_123",
+   "source": "Audio/BGM/Theme_123.ogg",
+   "extracted": false
+  },
+  "Theme_124": {
+   "key": "audio/bgm/theme_124",
+   "source": "Audio/BGM/Theme_124.ogg",
+   "extracted": false
+  },
+  "Theme_125": {
+   "key": "audio/bgm/theme_125",
+   "source": "Audio/BGM/Theme_125.ogg",
+   "extracted": false
+  },
+  "Theme_125_Blank": {
+   "key": "audio/bgm/theme_125_blank",
+   "source": "Audio/BGM/Theme_125_Blank.ogg",
+   "extracted": false
+  },
+  "Theme_127": {
+   "key": "audio/bgm/theme_127",
+   "source": "Audio/BGM/Theme_127.ogg",
+   "extracted": false
+  },
+  "Theme_128": {
+   "key": "audio/bgm/theme_128",
+   "source": "Audio/BGM/Theme_128.ogg",
+   "extracted": false
+  },
+  "Theme_129": {
+   "key": "audio/bgm/theme_129",
+   "source": "Audio/BGM/Theme_129.ogg",
+   "extracted": false
+  },
+  "Theme_13": {
+   "key": "audio/bgm/theme_13",
+   "source": "Audio/BGM/Theme_13.ogg",
+   "extracted": false
+  },
+  "Theme_130": {
+   "key": "audio/bgm/theme_130",
+   "source": "Audio/BGM/Theme_130.ogg",
+   "extracted": false
+  },
+  "Theme_131": {
+   "key": "audio/bgm/theme_131",
+   "source": "Audio/BGM/Theme_131.ogg",
+   "extracted": false
+  },
+  "Theme_132": {
+   "key": "audio/bgm/theme_132",
+   "source": "Audio/BGM/Theme_132.ogg",
+   "extracted": false
+  },
+  "Theme_133": {
+   "key": "audio/bgm/theme_133",
+   "source": "Audio/BGM/Theme_133.ogg",
+   "extracted": false
+  },
+  "Theme_134": {
+   "key": "audio/bgm/theme_134",
+   "source": "Audio/BGM/Theme_134.ogg",
+   "extracted": false
+  },
+  "Theme_135": {
+   "key": "audio/bgm/theme_135",
+   "source": "Audio/BGM/Theme_135.ogg",
+   "extracted": false
+  },
+  "Theme_136": {
+   "key": "audio/bgm/theme_136",
+   "source": "Audio/BGM/Theme_136.ogg",
+   "extracted": false
+  },
+  "Theme_136_Short": {
+   "key": "audio/bgm/theme_136_short",
+   "source": "Audio/BGM/Theme_136_Short.ogg",
+   "extracted": false
+  },
+  "Theme_136_Song": {
+   "key": "audio/bgm/theme_136_song",
+   "source": "Audio/BGM/Theme_136_Song.ogg",
+   "extracted": false
+  },
+  "Theme_136_Song_kr": {
+   "key": "audio/bgm/theme_136_song_kr",
+   "source": "Audio/BGM/Theme_136_Song_kr.ogg",
+   "extracted": false
+  },
+  "Theme_137": {
+   "key": "audio/bgm/theme_137",
+   "source": "Audio/BGM/Theme_137.ogg",
+   "extracted": false
+  },
+  "Theme_138": {
+   "key": "audio/bgm/theme_138",
+   "source": "Audio/BGM/Theme_138.ogg",
+   "extracted": false
+  },
+  "Theme_139": {
+   "key": "audio/bgm/theme_139",
+   "source": "Audio/BGM/Theme_139.ogg",
+   "extracted": false
+  },
+  "Theme_14": {
+   "key": "audio/bgm/theme_14",
+   "source": "Audio/BGM/Theme_14.ogg",
+   "extracted": false
+  },
+  "Theme_140": {
+   "key": "audio/bgm/theme_140",
+   "source": "Audio/BGM/Theme_140.ogg",
+   "extracted": false
+  },
+  "Theme_141": {
+   "key": "audio/bgm/theme_141",
+   "source": "Audio/BGM/Theme_141.ogg",
+   "extracted": false
+  },
+  "Theme_142": {
+   "key": "audio/bgm/theme_142",
+   "source": "Audio/BGM/Theme_142.ogg",
+   "extracted": false
+  },
+  "Theme_142_Short": {
+   "key": "audio/bgm/theme_142_short",
+   "source": "Audio/BGM/Theme_142_Short.ogg",
+   "extracted": false
+  },
+  "Theme_143": {
+   "key": "audio/bgm/theme_143",
+   "source": "Audio/BGM/Theme_143.ogg",
+   "extracted": false
+  },
+  "Theme_144": {
+   "key": "audio/bgm/theme_144",
+   "source": "Audio/BGM/Theme_144.ogg",
+   "extracted": false
+  },
+  "Theme_145": {
+   "key": "audio/bgm/theme_145",
+   "source": "Audio/BGM/Theme_145.ogg",
+   "extracted": false
+  },
+  "Theme_148": {
+   "key": "audio/bgm/theme_148",
+   "source": "Audio/BGM/Theme_148.ogg",
+   "extracted": false
+  },
+  "Theme_149": {
+   "key": "audio/bgm/theme_149",
+   "source": "Audio/BGM/Theme_149.ogg",
+   "extracted": false
+  },
+  "Theme_15": {
+   "key": "audio/bgm/theme_15",
+   "source": "Audio/BGM/Theme_15.ogg",
+   "extracted": false
+  },
+  "Theme_150": {
+   "key": "audio/bgm/theme_150",
+   "source": "Audio/BGM/Theme_150.ogg",
+   "extracted": false
+  },
+  "Theme_151": {
+   "key": "audio/bgm/theme_151",
+   "source": "Audio/BGM/Theme_151.ogg",
+   "extracted": false
+  },
+  "Theme_151_Short": {
+   "key": "audio/bgm/theme_151_short",
+   "source": "Audio/BGM/Theme_151_Short.ogg",
+   "extracted": false
+  },
+  "Theme_151_VeryShort": {
+   "key": "audio/bgm/theme_151_veryshort",
+   "source": "Audio/BGM/Theme_151_VeryShort.ogg",
+   "extracted": false
+  },
+  "Theme_152": {
+   "key": "audio/bgm/theme_152",
+   "source": "Audio/BGM/Theme_152.ogg",
+   "extracted": false
+  },
+  "Theme_152_Title": {
+   "key": "audio/bgm/theme_152_title",
+   "source": "Audio/BGM/Theme_152_Title.ogg",
+   "extracted": false
+  },
+  "Theme_153": {
+   "key": "audio/bgm/theme_153",
+   "source": "Audio/BGM/Theme_153.ogg",
+   "extracted": false
+  },
+  "Theme_154_Title": {
+   "key": "audio/bgm/theme_154_title",
+   "source": "Audio/BGM/Theme_154_Title.ogg",
+   "extracted": false
+  },
+  "Theme_155": {
+   "key": "audio/bgm/theme_155",
+   "source": "Audio/BGM/Theme_155.ogg",
+   "extracted": false
+  },
+  "Theme_156": {
+   "key": "audio/bgm/theme_156",
+   "source": "Audio/BGM/Theme_156.ogg",
+   "extracted": false
+  },
+  "Theme_157": {
+   "key": "audio/bgm/theme_157",
+   "source": "Audio/BGM/Theme_157.ogg",
+   "extracted": false
+  },
+  "Theme_158": {
+   "key": "audio/bgm/theme_158",
+   "source": "Audio/BGM/Theme_158.ogg",
+   "extracted": false
+  },
+  "Theme_158_Chorus": {
+   "key": "audio/bgm/theme_158_chorus",
+   "source": "Audio/BGM/Theme_158_Chorus.ogg",
+   "extracted": false
+  },
+  "Theme_158_Intro": {
+   "key": "audio/bgm/theme_158_intro",
+   "source": "Audio/BGM/Theme_158_Intro.ogg",
+   "extracted": false
+  },
+  "Theme_158_Verse": {
+   "key": "audio/bgm/theme_158_verse",
+   "source": "Audio/BGM/Theme_158_Verse.ogg",
+   "extracted": false
+  },
+  "Theme_159": {
+   "key": "audio/bgm/theme_159",
+   "source": "Audio/BGM/Theme_159.ogg",
+   "extracted": false
+  },
+  "Theme_16": {
+   "key": "audio/bgm/theme_16",
+   "source": "Audio/BGM/Theme_16.ogg",
+   "extracted": false
+  },
+  "Theme_160": {
+   "key": "audio/bgm/theme_160",
+   "source": "Audio/BGM/Theme_160.ogg",
+   "extracted": false
+  },
+  "Theme_161": {
+   "key": "audio/bgm/theme_161",
+   "source": "Audio/BGM/Theme_161.ogg",
+   "extracted": false
+  },
+  "Theme_162": {
+   "key": "audio/bgm/theme_162",
+   "source": "Audio/BGM/Theme_162.ogg",
+   "extracted": false
+  },
+  "Theme_163": {
+   "key": "audio/bgm/theme_163",
+   "source": "Audio/BGM/Theme_163.ogg",
+   "extracted": false
+  },
+  "Theme_164": {
+   "key": "audio/bgm/theme_164",
+   "source": "Audio/BGM/Theme_164.ogg",
+   "extracted": false
+  },
+  "Theme_165": {
+   "key": "audio/bgm/theme_165",
+   "source": "Audio/BGM/Theme_165.ogg",
+   "extracted": false
+  },
+  "Theme_167": {
+   "key": "audio/bgm/theme_167",
+   "source": "Audio/BGM/Theme_167.ogg",
+   "extracted": false
+  },
+  "Theme_168": {
+   "key": "audio/bgm/theme_168",
+   "source": "Audio/BGM/Theme_168.ogg",
+   "extracted": false
+  },
+  "Theme_169": {
+   "key": "audio/bgm/theme_169",
+   "source": "Audio/BGM/Theme_169.ogg",
+   "extracted": false
+  },
+  "Theme_17": {
+   "key": "audio/bgm/theme_17",
+   "source": "Audio/BGM/Theme_17.ogg",
+   "extracted": false
+  },
+  "Theme_170": {
+   "key": "audio/bgm/theme_170",
+   "source": "Audio/BGM/Theme_170.ogg",
+   "extracted": false
+  },
+  "Theme_171": {
+   "key": "audio/bgm/theme_171",
+   "source": "Audio/BGM/Theme_171.ogg",
+   "extracted": false
+  },
+  "Theme_172": {
+   "key": "audio/bgm/theme_172",
+   "source": "Audio/BGM/Theme_172.ogg",
+   "extracted": false
+  },
+  "Theme_173": {
+   "key": "audio/bgm/theme_173",
+   "source": "Audio/BGM/Theme_173.ogg",
+   "extracted": false
+  },
+  "Theme_174": {
+   "key": "audio/bgm/theme_174",
+   "source": "Audio/BGM/Theme_174.ogg",
+   "extracted": false
+  },
+  "Theme_175": {
+   "key": "audio/bgm/theme_175",
+   "source": "Audio/BGM/Theme_175.ogg",
+   "extracted": false
+  },
+  "Theme_176": {
+   "key": "audio/bgm/theme_176",
+   "source": "Audio/BGM/Theme_176.ogg",
+   "extracted": false
+  },
+  "Theme_177": {
+   "key": "audio/bgm/theme_177",
+   "source": "Audio/BGM/Theme_177.ogg",
+   "extracted": false
+  },
+  "Theme_178": {
+   "key": "audio/bgm/theme_178",
+   "source": "Audio/BGM/Theme_178.ogg",
+   "extracted": false
+  },
+  "Theme_179": {
+   "key": "audio/bgm/theme_179",
+   "source": "Audio/BGM/Theme_179.ogg",
+   "extracted": false
+  },
+  "Theme_179_Inst": {
+   "key": "audio/bgm/theme_179_inst",
+   "source": "Audio/BGM/Theme_179_Inst.ogg",
+   "extracted": false
+  },
+  "Theme_179_Inst2": {
+   "key": "audio/bgm/theme_179_inst2",
+   "source": "Audio/BGM/Theme_179_Inst2.ogg",
+   "extracted": false
+  },
+  "Theme_179_Short": {
+   "key": "audio/bgm/theme_179_short",
+   "source": "Audio/BGM/Theme_179_Short.ogg",
+   "extracted": false
+  },
+  "Theme_179_Short_Inst": {
+   "key": "audio/bgm/theme_179_short_inst",
+   "source": "Audio/BGM/Theme_179_Short_Inst.ogg",
+   "extracted": false
+  },
+  "Theme_18": {
+   "key": "audio/bgm/theme_18",
+   "source": "Audio/BGM/Theme_18.ogg",
+   "extracted": false
+  },
+  "Theme_180": {
+   "key": "audio/bgm/theme_180",
+   "source": "Audio/BGM/Theme_180.ogg",
+   "extracted": false
+  },
+  "Theme_180_Inst": {
+   "key": "audio/bgm/theme_180_inst",
+   "source": "Audio/BGM/Theme_180_Inst.ogg",
+   "extracted": false
+  },
+  "Theme_181": {
+   "key": "audio/bgm/theme_181",
+   "source": "Audio/BGM/Theme_181.ogg",
+   "extracted": false
+  },
+  "Theme_181_Chorus": {
+   "key": "audio/bgm/theme_181_chorus",
+   "source": "Audio/BGM/Theme_181_Chorus.ogg",
+   "extracted": false
+  },
+  "Theme_181_Verse": {
+   "key": "audio/bgm/theme_181_verse",
+   "source": "Audio/BGM/Theme_181_Verse.ogg",
+   "extracted": false
+  },
+  "Theme_182": {
+   "key": "audio/bgm/theme_182",
+   "source": "Audio/BGM/Theme_182.ogg",
+   "extracted": false
+  },
+  "Theme_183": {
+   "key": "audio/bgm/theme_183",
+   "source": "Audio/BGM/Theme_183.ogg",
+   "extracted": false
+  },
+  "Theme_185_Short_Inst": {
+   "key": "audio/bgm/theme_185_short_inst",
+   "source": "Audio/BGM/Theme_185_Short_Inst.ogg",
+   "extracted": false
+  },
+  "Theme_186": {
+   "key": "audio/bgm/theme_186",
+   "source": "Audio/BGM/Theme_186.ogg",
+   "extracted": false
+  },
+  "Theme_187": {
+   "key": "audio/bgm/theme_187",
+   "source": "Audio/BGM/Theme_187.ogg",
+   "extracted": false
+  },
+  "Theme_188": {
+   "key": "audio/bgm/theme_188",
+   "source": "Audio/BGM/Theme_188.ogg",
+   "extracted": false
+  },
+  "Theme_189": {
+   "key": "audio/bgm/theme_189",
+   "source": "Audio/BGM/Theme_189.ogg",
+   "extracted": false
+  },
+  "Theme_19": {
+   "key": "audio/bgm/theme_19",
+   "source": "Audio/BGM/Theme_19.ogg",
+   "extracted": false
+  },
+  "Theme_190": {
+   "key": "audio/bgm/theme_190",
+   "source": "Audio/BGM/Theme_190.ogg",
+   "extracted": false
+  },
+  "Theme_191": {
+   "key": "audio/bgm/theme_191",
+   "source": "Audio/BGM/Theme_191.ogg",
+   "extracted": false
+  },
+  "Theme_192": {
+   "key": "audio/bgm/theme_192",
+   "source": "Audio/BGM/Theme_192.ogg",
+   "extracted": false
+  },
+  "Theme_193": {
+   "key": "audio/bgm/theme_193",
+   "source": "Audio/BGM/Theme_193.ogg",
+   "extracted": false
+  },
+  "Theme_194": {
+   "key": "audio/bgm/theme_194",
+   "source": "Audio/BGM/Theme_194.ogg",
+   "extracted": false
+  },
+  "Theme_195": {
+   "key": "audio/bgm/theme_195",
+   "source": "Audio/BGM/Theme_195.ogg",
+   "extracted": false
+  },
+  "Theme_196": {
+   "key": "audio/bgm/theme_196",
+   "source": "Audio/BGM/Theme_196.ogg",
+   "extracted": false
+  },
+  "Theme_197": {
+   "key": "audio/bgm/theme_197",
+   "source": "Audio/BGM/Theme_197.ogg",
+   "extracted": false
+  },
+  "Theme_198": {
+   "key": "audio/bgm/theme_198",
+   "source": "Audio/BGM/Theme_198.ogg",
+   "extracted": false
+  },
+  "Theme_199": {
+   "key": "audio/bgm/theme_199",
+   "source": "Audio/BGM/Theme_199.ogg",
+   "extracted": false
+  },
+  "Theme_20": {
+   "key": "audio/bgm/theme_20",
+   "source": "Audio/BGM/Theme_20.ogg",
+   "extracted": false
+  },
+  "Theme_201": {
+   "key": "audio/bgm/theme_201",
+   "source": "Audio/BGM/Theme_201.ogg",
+   "extracted": false
+  },
+  "Theme_202": {
+   "key": "audio/bgm/theme_202",
+   "source": "Audio/BGM/Theme_202.ogg",
+   "extracted": false
+  },
+  "Theme_203": {
+   "key": "audio/bgm/theme_203",
+   "source": "Audio/BGM/Theme_203.ogg",
+   "extracted": false
+  },
+  "Theme_204": {
+   "key": "audio/bgm/theme_204",
+   "source": "Audio/BGM/Theme_204.ogg",
+   "extracted": false
+  },
+  "Theme_205": {
+   "key": "audio/bgm/theme_205",
+   "source": "Audio/BGM/Theme_205.ogg",
+   "extracted": false
+  },
+  "Theme_206": {
+   "key": "audio/bgm/theme_206",
+   "source": "Audio/BGM/Theme_206.ogg",
+   "extracted": false
+  },
+  "Theme_207": {
+   "key": "audio/bgm/theme_207",
+   "source": "Audio/BGM/Theme_207.ogg",
+   "extracted": false
+  },
+  "Theme_208": {
+   "key": "audio/bgm/theme_208",
+   "source": "Audio/BGM/Theme_208.ogg",
+   "extracted": false
+  },
+  "Theme_209": {
+   "key": "audio/bgm/theme_209",
+   "source": "Audio/BGM/Theme_209.ogg",
+   "extracted": false
+  },
+  "Theme_21": {
+   "key": "audio/bgm/theme_21",
+   "source": "Audio/BGM/Theme_21.ogg",
+   "extracted": false
+  },
+  "Theme_210": {
+   "key": "audio/bgm/theme_210",
+   "source": "Audio/BGM/Theme_210.ogg",
+   "extracted": false
+  },
+  "Theme_212": {
+   "key": "audio/bgm/theme_212",
+   "source": "Audio/BGM/Theme_212.ogg",
+   "extracted": false
+  },
+  "Theme_214": {
+   "key": "audio/bgm/theme_214",
+   "source": "Audio/BGM/Theme_214.ogg",
+   "extracted": false
+  },
+  "Theme_215": {
+   "key": "audio/bgm/theme_215",
+   "source": "Audio/BGM/Theme_215.ogg",
+   "extracted": false
+  },
+  "Theme_216": {
+   "key": "audio/bgm/theme_216",
+   "source": "Audio/BGM/Theme_216.ogg",
+   "extracted": false
+  },
+  "Theme_217": {
+   "key": "audio/bgm/theme_217",
+   "source": "Audio/BGM/Theme_217.ogg",
+   "extracted": false
+  },
+  "Theme_218": {
+   "key": "audio/bgm/theme_218",
+   "source": "Audio/BGM/Theme_218.ogg",
+   "extracted": false
+  },
+  "Theme_219": {
+   "key": "audio/bgm/theme_219",
+   "source": "Audio/BGM/Theme_219.ogg",
+   "extracted": false
+  },
+  "Theme_21_Blank": {
+   "key": "audio/bgm/theme_21_blank",
+   "source": "Audio/BGM/Theme_21_Blank.ogg",
+   "extracted": false
+  },
+  "Theme_22": {
+   "key": "audio/bgm/theme_22",
+   "source": "Audio/BGM/Theme_22.ogg",
+   "extracted": false
+  },
+  "Theme_220": {
+   "key": "audio/bgm/theme_220",
+   "source": "Audio/BGM/Theme_220.ogg",
+   "extracted": false
+  },
+  "Theme_221": {
+   "key": "audio/bgm/theme_221",
+   "source": "Audio/BGM/Theme_221.ogg",
+   "extracted": false
+  },
+  "Theme_222": {
+   "key": "audio/bgm/theme_222",
+   "source": "Audio/BGM/Theme_222.ogg",
+   "extracted": false
+  },
+  "Theme_223": {
+   "key": "audio/bgm/theme_223",
+   "source": "Audio/BGM/Theme_223.ogg",
+   "extracted": false
+  },
+  "Theme_224": {
+   "key": "audio/bgm/theme_224",
+   "source": "Audio/BGM/Theme_224.ogg",
+   "extracted": false
+  },
+  "Theme_225": {
+   "key": "audio/bgm/theme_225",
+   "source": "Audio/BGM/Theme_225.ogg",
+   "extracted": false
+  },
+  "Theme_226": {
+   "key": "audio/bgm/theme_226",
+   "source": "Audio/BGM/Theme_226.ogg",
+   "extracted": false
+  },
+  "Theme_227": {
+   "key": "audio/bgm/theme_227",
+   "source": "Audio/BGM/Theme_227.ogg",
+   "extracted": false
+  },
+  "Theme_227_Title": {
+   "key": "audio/bgm/theme_227_title",
+   "source": "Audio/BGM/Theme_227_Title.ogg",
+   "extracted": false
+  },
+  "Theme_228": {
+   "key": "audio/bgm/theme_228",
+   "source": "Audio/BGM/Theme_228.ogg",
+   "extracted": false
+  },
+  "Theme_229": {
+   "key": "audio/bgm/theme_229",
+   "source": "Audio/BGM/Theme_229.ogg",
+   "extracted": false
+  },
+  "Theme_23": {
+   "key": "audio/bgm/theme_23",
+   "source": "Audio/BGM/Theme_23.ogg",
+   "extracted": false
+  },
+  "Theme_230": {
+   "key": "audio/bgm/theme_230",
+   "source": "Audio/BGM/Theme_230.ogg",
+   "extracted": false
+  },
+  "Theme_231": {
+   "key": "audio/bgm/theme_231",
+   "source": "Audio/BGM/Theme_231.ogg",
+   "extracted": false
+  },
+  "Theme_232": {
+   "key": "audio/bgm/theme_232",
+   "source": "Audio/BGM/Theme_232.ogg",
+   "extracted": false
+  },
+  "Theme_233": {
+   "key": "audio/bgm/theme_233",
+   "source": "Audio/BGM/Theme_233.ogg",
+   "extracted": false
+  },
+  "Theme_234": {
+   "key": "audio/bgm/theme_234",
+   "source": "Audio/BGM/Theme_234.ogg",
+   "extracted": false
+  },
+  "Theme_235": {
+   "key": "audio/bgm/theme_235",
+   "source": "Audio/BGM/Theme_235.ogg",
+   "extracted": false
+  },
+  "Theme_236": {
+   "key": "audio/bgm/theme_236",
+   "source": "Audio/BGM/Theme_236.ogg",
+   "extracted": false
+  },
+  "Theme_237": {
+   "key": "audio/bgm/theme_237",
+   "source": "Audio/BGM/Theme_237.ogg",
+   "extracted": false
+  },
+  "Theme_239": {
+   "key": "audio/bgm/theme_239",
+   "source": "Audio/BGM/Theme_239.ogg",
+   "extracted": false
+  },
+  "Theme_24": {
+   "key": "audio/bgm/theme_24",
+   "source": "Audio/BGM/Theme_24.ogg",
+   "extracted": false
+  },
+  "Theme_240": {
+   "key": "audio/bgm/theme_240",
+   "source": "Audio/BGM/Theme_240.ogg",
+   "extracted": false
+  },
+  "Theme_241": {
+   "key": "audio/bgm/theme_241",
+   "source": "Audio/BGM/Theme_241.ogg",
+   "extracted": false
+  },
+  "Theme_242": {
+   "key": "audio/bgm/theme_242",
+   "source": "Audio/BGM/Theme_242.ogg",
+   "extracted": false
+  },
+  "Theme_243": {
+   "key": "audio/bgm/theme_243",
+   "source": "Audio/BGM/Theme_243.ogg",
+   "extracted": false
+  },
+  "Theme_244": {
+   "key": "audio/bgm/theme_244",
+   "source": "Audio/BGM/Theme_244.ogg",
+   "extracted": false
+  },
+  "Theme_245": {
+   "key": "audio/bgm/theme_245",
+   "source": "Audio/BGM/Theme_245.ogg",
+   "extracted": false
+  },
+  "Theme_246": {
+   "key": "audio/bgm/theme_246",
+   "source": "Audio/BGM/Theme_246.ogg",
+   "extracted": false
+  },
+  "Theme_247": {
+   "key": "audio/bgm/theme_247",
+   "source": "Audio/BGM/Theme_247.ogg",
+   "extracted": false
+  },
+  "Theme_248": {
+   "key": "audio/bgm/theme_248",
+   "source": "Audio/BGM/Theme_248.ogg",
+   "extracted": false
+  },
+  "Theme_249": {
+   "key": "audio/bgm/theme_249",
+   "source": "Audio/BGM/Theme_249.ogg",
+   "extracted": false
+  },
+  "Theme_24_8bit": {
+   "key": "audio/bgm/theme_24_8bit",
+   "source": "Audio/BGM/Theme_24_8bit.ogg",
+   "extracted": false
+  },
+  "Theme_24_Chorus": {
+   "key": "audio/bgm/theme_24_chorus",
+   "source": "Audio/BGM/Theme_24_Chorus.ogg",
+   "extracted": false
+  },
+  "Theme_24_Intro": {
+   "key": "audio/bgm/theme_24_intro",
+   "source": "Audio/BGM/Theme_24_Intro.ogg",
+   "extracted": false
+  },
+  "Theme_24_Verse": {
+   "key": "audio/bgm/theme_24_verse",
+   "source": "Audio/BGM/Theme_24_Verse.ogg",
+   "extracted": false
+  },
+  "Theme_25": {
+   "key": "audio/bgm/theme_25",
+   "source": "Audio/BGM/Theme_25.ogg",
+   "extracted": false
+  },
+  "Theme_250": {
+   "key": "audio/bgm/theme_250",
+   "source": "Audio/BGM/Theme_250.ogg",
+   "extracted": false
+  },
+  "Theme_251": {
+   "key": "audio/bgm/theme_251",
+   "source": "Audio/BGM/Theme_251.ogg",
+   "extracted": false
+  },
+  "Theme_252": {
+   "key": "audio/bgm/theme_252",
+   "source": "Audio/BGM/Theme_252.ogg",
+   "extracted": false
+  },
+  "Theme_253": {
+   "key": "audio/bgm/theme_253",
+   "source": "Audio/BGM/Theme_253.ogg",
+   "extracted": false
+  },
+  "Theme_254": {
+   "key": "audio/bgm/theme_254",
+   "source": "Audio/BGM/Theme_254.ogg",
+   "extracted": false
+  },
+  "Theme_255": {
+   "key": "audio/bgm/theme_255",
+   "source": "Audio/BGM/Theme_255.ogg",
+   "extracted": false
+  },
+  "Theme_256": {
+   "key": "audio/bgm/theme_256",
+   "source": "Audio/BGM/Theme_256.ogg",
+   "extracted": false
+  },
+  "Theme_257": {
+   "key": "audio/bgm/theme_257",
+   "source": "Audio/BGM/Theme_257.ogg",
+   "extracted": false
+  },
+  "Theme_258": {
+   "key": "audio/bgm/theme_258",
+   "source": "Audio/BGM/Theme_258.ogg",
+   "extracted": false
+  },
+  "Theme_26": {
+   "key": "audio/bgm/theme_26",
+   "source": "Audio/BGM/Theme_26.ogg",
+   "extracted": false
+  },
+  "Theme_261": {
+   "key": "audio/bgm/theme_261",
+   "source": "Audio/BGM/Theme_261.ogg",
+   "extracted": false
+  },
+  "Theme_262": {
+   "key": "audio/bgm/theme_262",
+   "source": "Audio/BGM/Theme_262.ogg",
+   "extracted": false
+  },
+  "Theme_263": {
+   "key": "audio/bgm/theme_263",
+   "source": "Audio/BGM/Theme_263.ogg",
+   "extracted": false
+  },
+  "Theme_264": {
+   "key": "audio/bgm/theme_264",
+   "source": "Audio/BGM/Theme_264.ogg",
+   "extracted": false
+  },
+  "Theme_265": {
+   "key": "audio/bgm/theme_265",
+   "source": "Audio/BGM/Theme_265.ogg",
+   "extracted": false
+  },
+  "Theme_266": {
+   "key": "audio/bgm/theme_266",
+   "source": "Audio/BGM/Theme_266.ogg",
+   "extracted": false
+  },
+  "Theme_267": {
+   "key": "audio/bgm/theme_267",
+   "source": "Audio/BGM/Theme_267.ogg",
+   "extracted": false
+  },
+  "Theme_268": {
+   "key": "audio/bgm/theme_268",
+   "source": "Audio/BGM/Theme_268.ogg",
+   "extracted": false
+  },
+  "Theme_269_Title": {
+   "key": "audio/bgm/theme_269_title",
+   "source": "Audio/BGM/Theme_269_Title.ogg",
+   "extracted": false
+  },
+  "Theme_27": {
+   "key": "audio/bgm/theme_27",
+   "source": "Audio/BGM/Theme_27.ogg",
+   "extracted": false
+  },
+  "Theme_271_Title": {
+   "key": "audio/bgm/theme_271_title",
+   "source": "Audio/BGM/Theme_271_Title.ogg",
+   "extracted": false
+  },
+  "Theme_274": {
+   "key": "audio/bgm/theme_274",
+   "source": "Audio/BGM/Theme_274.ogg",
+   "extracted": false
+  },
+  "Theme_275": {
+   "key": "audio/bgm/theme_275",
+   "source": "Audio/BGM/Theme_275.ogg",
+   "extracted": false
+  },
+  "Theme_276": {
+   "key": "audio/bgm/theme_276",
+   "source": "Audio/BGM/Theme_276.ogg",
+   "extracted": false
+  },
+  "Theme_279": {
+   "key": "audio/bgm/theme_279",
+   "source": "Audio/BGM/Theme_279.ogg",
+   "extracted": false
+  },
+  "Theme_28": {
+   "key": "audio/bgm/theme_28",
+   "source": "Audio/BGM/Theme_28.ogg",
+   "extracted": false
+  },
+  "Theme_280": {
+   "key": "audio/bgm/theme_280",
+   "source": "Audio/BGM/Theme_280.ogg",
+   "extracted": false
+  },
+  "Theme_281": {
+   "key": "audio/bgm/theme_281",
+   "source": "Audio/BGM/Theme_281.ogg",
+   "extracted": false
+  },
+  "Theme_282": {
+   "key": "audio/bgm/theme_282",
+   "source": "Audio/BGM/Theme_282.ogg",
+   "extracted": false
+  },
+  "Theme_283": {
+   "key": "audio/bgm/theme_283",
+   "source": "Audio/BGM/Theme_283.ogg",
+   "extracted": false
+  },
+  "Theme_284": {
+   "key": "audio/bgm/theme_284",
+   "source": "Audio/BGM/Theme_284.ogg",
+   "extracted": false
+  },
+  "Theme_285": {
+   "key": "audio/bgm/theme_285",
+   "source": "Audio/BGM/Theme_285.ogg",
+   "extracted": false
+  },
+  "Theme_286": {
+   "key": "audio/bgm/theme_286",
+   "source": "Audio/BGM/Theme_286.ogg",
+   "extracted": false
+  },
+  "Theme_287": {
+   "key": "audio/bgm/theme_287",
+   "source": "Audio/BGM/Theme_287.ogg",
+   "extracted": false
+  },
+  "Theme_288": {
+   "key": "audio/bgm/theme_288",
+   "source": "Audio/BGM/Theme_288.ogg",
+   "extracted": false
+  },
+  "Theme_289": {
+   "key": "audio/bgm/theme_289",
+   "source": "Audio/BGM/Theme_289.ogg",
+   "extracted": false
+  },
+  "Theme_29": {
+   "key": "audio/bgm/theme_29",
+   "source": "Audio/BGM/Theme_29.ogg",
+   "extracted": false
+  },
+  "Theme_291": {
+   "key": "audio/bgm/theme_291",
+   "source": "Audio/BGM/Theme_291.ogg",
+   "extracted": false
+  },
+  "Theme_292": {
+   "key": "audio/bgm/theme_292",
+   "source": "Audio/BGM/Theme_292.ogg",
+   "extracted": false
+  },
+  "Theme_293": {
+   "key": "audio/bgm/theme_293",
+   "source": "Audio/BGM/Theme_293.ogg",
+   "extracted": false
+  },
+  "Theme_294": {
+   "key": "audio/bgm/theme_294",
+   "source": "Audio/BGM/Theme_294.ogg",
+   "extracted": false
+  },
+  "Theme_295": {
+   "key": "audio/bgm/theme_295",
+   "source": "Audio/BGM/Theme_295.ogg",
+   "extracted": false
+  },
+  "Theme_296": {
+   "key": "audio/bgm/theme_296",
+   "source": "Audio/BGM/Theme_296.ogg",
+   "extracted": false
+  },
+  "Theme_297": {
+   "key": "audio/bgm/theme_297",
+   "source": "Audio/BGM/Theme_297.ogg",
+   "extracted": false
+  },
+  "Theme_297_Inst2": {
+   "key": "audio/bgm/theme_297_inst2",
+   "source": "Audio/BGM/Theme_297_Inst2.ogg",
+   "extracted": false
+  },
+  "Theme_298": {
+   "key": "audio/bgm/theme_298",
+   "source": "Audio/BGM/Theme_298.ogg",
+   "extracted": false
+  },
+  "Theme_299": {
+   "key": "audio/bgm/theme_299",
+   "source": "Audio/BGM/Theme_299.ogg",
+   "extracted": false
+  },
+  "Theme_30": {
+   "key": "audio/bgm/theme_30",
+   "source": "Audio/BGM/Theme_30.ogg",
+   "extracted": false
+  },
+  "Theme_300": {
+   "key": "audio/bgm/theme_300",
+   "source": "Audio/BGM/Theme_300.ogg",
+   "extracted": false
+  },
+  "Theme_302": {
+   "key": "audio/bgm/theme_302",
+   "source": "Audio/BGM/Theme_302.ogg",
+   "extracted": false
+  },
+  "Theme_303": {
+   "key": "audio/bgm/theme_303",
+   "source": "Audio/BGM/Theme_303.ogg",
+   "extracted": false
+  },
+  "Theme_304": {
+   "key": "audio/bgm/theme_304",
+   "source": "Audio/BGM/Theme_304.ogg",
+   "extracted": false
+  },
+  "Theme_305": {
+   "key": "audio/bgm/theme_305",
+   "source": "Audio/BGM/Theme_305.ogg",
+   "extracted": false
+  },
+  "Theme_306": {
+   "key": "audio/bgm/theme_306",
+   "source": "Audio/BGM/Theme_306.ogg",
+   "extracted": false
+  },
+  "Theme_307": {
+   "key": "audio/bgm/theme_307",
+   "source": "Audio/BGM/Theme_307.ogg",
+   "extracted": false
+  },
+  "Theme_308": {
+   "key": "audio/bgm/theme_308",
+   "source": "Audio/BGM/Theme_308.ogg",
+   "extracted": false
+  },
+  "Theme_309": {
+   "key": "audio/bgm/theme_309",
+   "source": "Audio/BGM/Theme_309.ogg",
+   "extracted": false
+  },
+  "Theme_31": {
+   "key": "audio/bgm/theme_31",
+   "source": "Audio/BGM/Theme_31.ogg",
+   "extracted": false
+  },
+  "Theme_310": {
+   "key": "audio/bgm/theme_310",
+   "source": "Audio/BGM/Theme_310.ogg",
+   "extracted": false
+  },
+  "Theme_311": {
+   "key": "audio/bgm/theme_311",
+   "source": "Audio/BGM/Theme_311.ogg",
+   "extracted": false
+  },
+  "Theme_312": {
+   "key": "audio/bgm/theme_312",
+   "source": "Audio/BGM/Theme_312.ogg",
+   "extracted": false
+  },
+  "Theme_313": {
+   "key": "audio/bgm/theme_313",
+   "source": "Audio/BGM/Theme_313.ogg",
+   "extracted": false
+  },
+  "Theme_314_Short": {
+   "key": "audio/bgm/theme_314_short",
+   "source": "Audio/BGM/Theme_314_Short.ogg",
+   "extracted": false
+  },
+  "Theme_314_Short2": {
+   "key": "audio/bgm/theme_314_short2",
+   "source": "Audio/BGM/Theme_314_Short2.ogg",
+   "extracted": false
+  },
+  "Theme_316": {
+   "key": "audio/bgm/theme_316",
+   "source": "Audio/BGM/Theme_316.ogg",
+   "extracted": false
+  },
+  "Theme_316_Light": {
+   "key": "audio/bgm/theme_316_light",
+   "source": "Audio/BGM/Theme_316_Light.ogg",
+   "extracted": false
+  },
+  "Theme_316_Short": {
+   "key": "audio/bgm/theme_316_short",
+   "source": "Audio/BGM/Theme_316_Short.ogg",
+   "extracted": false
+  },
+  "Theme_317": {
+   "key": "audio/bgm/theme_317",
+   "source": "Audio/BGM/Theme_317.ogg",
+   "extracted": false
+  },
+  "Theme_318": {
+   "key": "audio/bgm/theme_318",
+   "source": "Audio/BGM/Theme_318.ogg",
+   "extracted": false
+  },
+  "Theme_319": {
+   "key": "audio/bgm/theme_319",
+   "source": "Audio/BGM/Theme_319.ogg",
+   "extracted": false
+  },
+  "Theme_32": {
+   "key": "audio/bgm/theme_32",
+   "source": "Audio/BGM/Theme_32.ogg",
+   "extracted": false
+  },
+  "Theme_320": {
+   "key": "audio/bgm/theme_320",
+   "source": "Audio/BGM/Theme_320.ogg",
+   "extracted": false
+  },
+  "Theme_321": {
+   "key": "audio/bgm/theme_321",
+   "source": "Audio/BGM/Theme_321.ogg",
+   "extracted": false
+  },
+  "Theme_322": {
+   "key": "audio/bgm/theme_322",
+   "source": "Audio/BGM/Theme_322.ogg",
+   "extracted": false
+  },
+  "Theme_323": {
+   "key": "audio/bgm/theme_323",
+   "source": "Audio/BGM/Theme_323.ogg",
+   "extracted": false
+  },
+  "Theme_324": {
+   "key": "audio/bgm/theme_324",
+   "source": "Audio/BGM/Theme_324.ogg",
+   "extracted": false
+  },
+  "Theme_326": {
+   "key": "audio/bgm/theme_326",
+   "source": "Audio/BGM/Theme_326.ogg",
+   "extracted": false
+  },
+  "Theme_327": {
+   "key": "audio/bgm/theme_327",
+   "source": "Audio/BGM/Theme_327.ogg",
+   "extracted": false
+  },
+  "Theme_328": {
+   "key": "audio/bgm/theme_328",
+   "source": "Audio/BGM/Theme_328.ogg",
+   "extracted": false
+  },
+  "Theme_329": {
+   "key": "audio/bgm/theme_329",
+   "source": "Audio/BGM/Theme_329.ogg",
+   "extracted": false
+  },
+  "Theme_33": {
+   "key": "audio/bgm/theme_33",
+   "source": "Audio/BGM/Theme_33.ogg",
+   "extracted": false
+  },
+  "Theme_330": {
+   "key": "audio/bgm/theme_330",
+   "source": "Audio/BGM/Theme_330.ogg",
+   "extracted": false
+  },
+  "Theme_331": {
+   "key": "audio/bgm/theme_331",
+   "source": "Audio/BGM/Theme_331.ogg",
+   "extracted": false
+  },
+  "Theme_332": {
+   "key": "audio/bgm/theme_332",
+   "source": "Audio/BGM/Theme_332.ogg",
+   "extracted": false
+  },
+  "Theme_333": {
+   "key": "audio/bgm/theme_333",
+   "source": "Audio/BGM/Theme_333.ogg",
+   "extracted": false
+  },
+  "Theme_334": {
+   "key": "audio/bgm/theme_334",
+   "source": "Audio/BGM/Theme_334.ogg",
+   "extracted": false
+  },
+  "Theme_337": {
+   "key": "audio/bgm/theme_337",
+   "source": "Audio/BGM/Theme_337.ogg",
+   "extracted": false
+  },
+  "Theme_338": {
+   "key": "audio/bgm/theme_338",
+   "source": "Audio/BGM/Theme_338.ogg",
+   "extracted": false
+  },
+  "Theme_339": {
+   "key": "audio/bgm/theme_339",
+   "source": "Audio/BGM/Theme_339.ogg",
+   "extracted": false
+  },
+  "Theme_34": {
+   "key": "audio/bgm/theme_34",
+   "source": "Audio/BGM/Theme_34.ogg",
+   "extracted": false
+  },
+  "Theme_340": {
+   "key": "audio/bgm/theme_340",
+   "source": "Audio/BGM/Theme_340.ogg",
+   "extracted": false
+  },
+  "Theme_341": {
+   "key": "audio/bgm/theme_341",
+   "source": "Audio/BGM/Theme_341.ogg",
+   "extracted": false
+  },
+  "Theme_342": {
+   "key": "audio/bgm/theme_342",
+   "source": "Audio/BGM/Theme_342.ogg",
+   "extracted": false
+  },
+  "Theme_343": {
+   "key": "audio/bgm/theme_343",
+   "source": "Audio/BGM/Theme_343.ogg",
+   "extracted": false
+  },
+  "Theme_343_Chorus": {
+   "key": "audio/bgm/theme_343_chorus",
+   "source": "Audio/BGM/Theme_343_Chorus.ogg",
+   "extracted": false
+  },
+  "Theme_343_Verse": {
+   "key": "audio/bgm/theme_343_verse",
+   "source": "Audio/BGM/Theme_343_Verse.ogg",
+   "extracted": false
+  },
+  "Theme_347": {
+   "key": "audio/bgm/theme_347",
+   "source": "Audio/BGM/Theme_347.ogg",
+   "extracted": false
+  },
+  "Theme_34_Short": {
+   "key": "audio/bgm/theme_34_short",
+   "source": "Audio/BGM/Theme_34_Short.ogg",
+   "extracted": false
+  },
+  "Theme_35": {
+   "key": "audio/bgm/theme_35",
+   "source": "Audio/BGM/Theme_35.ogg",
+   "extracted": false
+  },
+  "Theme_352": {
+   "key": "audio/bgm/theme_352",
+   "source": "Audio/BGM/Theme_352.ogg",
+   "extracted": false
+  },
+  "Theme_353": {
+   "key": "audio/bgm/theme_353",
+   "source": "Audio/BGM/Theme_353.ogg",
+   "extracted": false
+  },
+  "Theme_354": {
+   "key": "audio/bgm/theme_354",
+   "source": "Audio/BGM/Theme_354.ogg",
+   "extracted": false
+  },
+  "Theme_355": {
+   "key": "audio/bgm/theme_355",
+   "source": "Audio/BGM/Theme_355.ogg",
+   "extracted": false
+  },
+  "Theme_36": {
+   "key": "audio/bgm/theme_36",
+   "source": "Audio/BGM/Theme_36.ogg",
+   "extracted": false
+  },
+  "Theme_37": {
+   "key": "audio/bgm/theme_37",
+   "source": "Audio/BGM/Theme_37.ogg",
+   "extracted": false
+  },
+  "Theme_38": {
+   "key": "audio/bgm/theme_38",
+   "source": "Audio/BGM/Theme_38.ogg",
+   "extracted": false
+  },
+  "Theme_39": {
+   "key": "audio/bgm/theme_39",
+   "source": "Audio/BGM/Theme_39.ogg",
+   "extracted": false
+  },
+  "Theme_40": {
+   "key": "audio/bgm/theme_40",
+   "source": "Audio/BGM/Theme_40.ogg",
+   "extracted": false
+  },
+  "Theme_41": {
+   "key": "audio/bgm/theme_41",
+   "source": "Audio/BGM/Theme_41.ogg",
+   "extracted": false
+  },
+  "Theme_42": {
+   "key": "audio/bgm/theme_42",
+   "source": "Audio/BGM/Theme_42.ogg",
+   "extracted": false
+  },
+  "Theme_42_Short": {
+   "key": "audio/bgm/theme_42_short",
+   "source": "Audio/BGM/Theme_42_Short.ogg",
+   "extracted": false
+  },
+  "Theme_42_Title": {
+   "key": "audio/bgm/theme_42_title",
+   "source": "Audio/BGM/Theme_42_Title.ogg",
+   "extracted": false
+  },
+  "Theme_43": {
+   "key": "audio/bgm/theme_43",
+   "source": "Audio/BGM/Theme_43.ogg",
+   "extracted": false
+  },
+  "Theme_44": {
+   "key": "audio/bgm/theme_44",
+   "source": "Audio/BGM/Theme_44.ogg",
+   "extracted": false
+  },
+  "Theme_45": {
+   "key": "audio/bgm/theme_45",
+   "source": "Audio/BGM/Theme_45.ogg",
+   "extracted": false
+  },
+  "Theme_46": {
+   "key": "audio/bgm/theme_46",
+   "source": "Audio/BGM/Theme_46.ogg",
+   "extracted": false
+  },
+  "Theme_47": {
+   "key": "audio/bgm/theme_47",
+   "source": "Audio/BGM/Theme_47.ogg",
+   "extracted": false
+  },
+  "Theme_48": {
+   "key": "audio/bgm/theme_48",
+   "source": "Audio/BGM/Theme_48.ogg",
+   "extracted": false
+  },
+  "Theme_48_Chorus": {
+   "key": "audio/bgm/theme_48_chorus",
+   "source": "Audio/BGM/Theme_48_Chorus.ogg",
+   "extracted": false
+  },
+  "Theme_48_Intro": {
+   "key": "audio/bgm/theme_48_intro",
+   "source": "Audio/BGM/Theme_48_Intro.ogg",
+   "extracted": false
+  },
+  "Theme_48_Verse": {
+   "key": "audio/bgm/theme_48_verse",
+   "source": "Audio/BGM/Theme_48_Verse.ogg",
+   "extracted": false
+  },
+  "Theme_49": {
+   "key": "audio/bgm/theme_49",
+   "source": "Audio/BGM/Theme_49.ogg",
+   "extracted": false
+  },
+  "Theme_50": {
+   "key": "audio/bgm/theme_50",
+   "source": "Audio/BGM/Theme_50.ogg",
+   "extracted": false
+  },
+  "Theme_51": {
+   "key": "audio/bgm/theme_51",
+   "source": "Audio/BGM/Theme_51.ogg",
+   "extracted": false
+  },
+  "Theme_52": {
+   "key": "audio/bgm/theme_52",
+   "source": "Audio/BGM/Theme_52.ogg",
+   "extracted": false
+  },
+  "Theme_53": {
+   "key": "audio/bgm/theme_53",
+   "source": "Audio/BGM/Theme_53.ogg",
+   "extracted": false
+  },
+  "Theme_54": {
+   "key": "audio/bgm/theme_54",
+   "source": "Audio/BGM/Theme_54.ogg",
+   "extracted": false
+  },
+  "Theme_55": {
+   "key": "audio/bgm/theme_55",
+   "source": "Audio/BGM/Theme_55.ogg",
+   "extracted": false
+  },
+  "Theme_56": {
+   "key": "audio/bgm/theme_56",
+   "source": "Audio/BGM/Theme_56.ogg",
+   "extracted": false
+  },
+  "Theme_57": {
+   "key": "audio/bgm/theme_57",
+   "source": "Audio/BGM/Theme_57.ogg",
+   "extracted": false
+  },
+  "Theme_58": {
+   "key": "audio/bgm/theme_58",
+   "source": "Audio/BGM/Theme_58.ogg",
+   "extracted": false
+  },
+  "Theme_59": {
+   "key": "audio/bgm/theme_59",
+   "source": "Audio/BGM/Theme_59.ogg",
+   "extracted": false
+  },
+  "Theme_59_Short": {
+   "key": "audio/bgm/theme_59_short",
+   "source": "Audio/BGM/Theme_59_Short.ogg",
+   "extracted": false
+  },
+  "Theme_59_Title": {
+   "key": "audio/bgm/theme_59_title",
+   "source": "Audio/BGM/Theme_59_Title.ogg",
+   "extracted": false
+  },
+  "Theme_60": {
+   "key": "audio/bgm/theme_60",
+   "source": "Audio/BGM/Theme_60.ogg",
+   "extracted": false
+  },
+  "Theme_61": {
+   "key": "audio/bgm/theme_61",
+   "source": "Audio/BGM/Theme_61.ogg",
+   "extracted": false
+  },
+  "Theme_62": {
+   "key": "audio/bgm/theme_62",
+   "source": "Audio/BGM/Theme_62.ogg",
+   "extracted": false
+  },
+  "Theme_63": {
+   "key": "audio/bgm/theme_63",
+   "source": "Audio/BGM/Theme_63.ogg",
+   "extracted": false
+  },
+  "Theme_64": {
+   "key": "audio/bgm/theme_64",
+   "source": "Audio/BGM/Theme_64.ogg",
+   "extracted": false
+  },
+  "Theme_65": {
+   "key": "audio/bgm/theme_65",
+   "source": "Audio/BGM/Theme_65.ogg",
+   "extracted": false
+  },
+  "Theme_66": {
+   "key": "audio/bgm/theme_66",
+   "source": "Audio/BGM/Theme_66.ogg",
+   "extracted": false
+  },
+  "Theme_67": {
+   "key": "audio/bgm/theme_67",
+   "source": "Audio/BGM/Theme_67.ogg",
+   "extracted": false
+  },
+  "Theme_68": {
+   "key": "audio/bgm/theme_68",
+   "source": "Audio/BGM/Theme_68.ogg",
+   "extracted": false
+  },
+  "Theme_69": {
+   "key": "audio/bgm/theme_69",
+   "source": "Audio/BGM/Theme_69.ogg",
+   "extracted": false
+  },
+  "Theme_70": {
+   "key": "audio/bgm/theme_70",
+   "source": "Audio/BGM/Theme_70.ogg",
+   "extracted": false
+  },
+  "Theme_71": {
+   "key": "audio/bgm/theme_71",
+   "source": "Audio/BGM/Theme_71.ogg",
+   "extracted": false
+  },
+  "Theme_72": {
+   "key": "audio/bgm/theme_72",
+   "source": "Audio/BGM/Theme_72.ogg",
+   "extracted": false
+  },
+  "Theme_72_8bit": {
+   "key": "audio/bgm/theme_72_8bit",
+   "source": "Audio/BGM/Theme_72_8bit.ogg",
+   "extracted": false
+  },
+  "Theme_73": {
+   "key": "audio/bgm/theme_73",
+   "source": "Audio/BGM/Theme_73.ogg",
+   "extracted": false
+  },
+  "Theme_74": {
+   "key": "audio/bgm/theme_74",
+   "source": "Audio/BGM/Theme_74.ogg",
+   "extracted": false
+  },
+  "Theme_75": {
+   "key": "audio/bgm/theme_75",
+   "source": "Audio/BGM/Theme_75.ogg",
+   "extracted": false
+  },
+  "Theme_76": {
+   "key": "audio/bgm/theme_76",
+   "source": "Audio/BGM/Theme_76.ogg",
+   "extracted": false
+  },
+  "Theme_77": {
+   "key": "audio/bgm/theme_77",
+   "source": "Audio/BGM/Theme_77.ogg",
+   "extracted": false
+  },
+  "Theme_78": {
+   "key": "audio/bgm/theme_78",
+   "source": "Audio/BGM/Theme_78.ogg",
+   "extracted": false
+  },
+  "Theme_79": {
+   "key": "audio/bgm/theme_79",
+   "source": "Audio/BGM/Theme_79.ogg",
+   "extracted": false
+  },
+  "Theme_80": {
+   "key": "audio/bgm/theme_80",
+   "source": "Audio/BGM/Theme_80.ogg",
+   "extracted": false
+  },
+  "Theme_81": {
+   "key": "audio/bgm/theme_81",
+   "source": "Audio/BGM/Theme_81.ogg",
+   "extracted": false
+  },
+  "Theme_82": {
+   "key": "audio/bgm/theme_82",
+   "source": "Audio/BGM/Theme_82.ogg",
+   "extracted": false
+  },
+  "Theme_83": {
+   "key": "audio/bgm/theme_83",
+   "source": "Audio/BGM/Theme_83.ogg",
+   "extracted": false
+  },
+  "Theme_83_8bit": {
+   "key": "audio/bgm/theme_83_8bit",
+   "source": "Audio/BGM/Theme_83_8bit.ogg",
+   "extracted": false
+  },
+  "Theme_84": {
+   "key": "audio/bgm/theme_84",
+   "source": "Audio/BGM/Theme_84.ogg",
+   "extracted": false
+  },
+  "Theme_85": {
+   "key": "audio/bgm/theme_85",
+   "source": "Audio/BGM/Theme_85.ogg",
+   "extracted": false
+  },
+  "Theme_85_8bit": {
+   "key": "audio/bgm/theme_85_8bit",
+   "source": "Audio/BGM/Theme_85_8bit.ogg",
+   "extracted": false
+  },
+  "Theme_85_Chorus": {
+   "key": "audio/bgm/theme_85_chorus",
+   "source": "Audio/BGM/Theme_85_Chorus.ogg",
+   "extracted": false
+  },
+  "Theme_85_Verse": {
+   "key": "audio/bgm/theme_85_verse",
+   "source": "Audio/BGM/Theme_85_Verse.ogg",
+   "extracted": false
+  },
+  "Theme_86": {
+   "key": "audio/bgm/theme_86",
+   "source": "Audio/BGM/Theme_86.ogg",
+   "extracted": false
+  },
+  "Theme_87": {
+   "key": "audio/bgm/theme_87",
+   "source": "Audio/BGM/Theme_87.ogg",
+   "extracted": false
+  },
+  "Theme_88": {
+   "key": "audio/bgm/theme_88",
+   "source": "Audio/BGM/Theme_88.ogg",
+   "extracted": false
+  },
+  "Theme_89": {
+   "key": "audio/bgm/theme_89",
+   "source": "Audio/BGM/Theme_89.ogg",
+   "extracted": false
+  },
+  "Theme_91": {
+   "key": "audio/bgm/theme_91",
+   "source": "Audio/BGM/Theme_91.ogg",
+   "extracted": false
+  },
+  "Theme_92": {
+   "key": "audio/bgm/theme_92",
+   "source": "Audio/BGM/Theme_92.ogg",
+   "extracted": false
+  },
+  "Theme_93": {
+   "key": "audio/bgm/theme_93",
+   "source": "Audio/BGM/Theme_93.ogg",
+   "extracted": false
+  },
+  "Theme_94": {
+   "key": "audio/bgm/theme_94",
+   "source": "Audio/BGM/Theme_94.ogg",
+   "extracted": false
+  },
+  "Theme_95": {
+   "key": "audio/bgm/theme_95",
+   "source": "Audio/BGM/Theme_95.ogg",
+   "extracted": false
+  },
+  "Theme_96": {
+   "key": "audio/bgm/theme_96",
+   "source": "Audio/BGM/Theme_96.ogg",
+   "extracted": false
+  },
+  "Theme_97": {
+   "key": "audio/bgm/theme_97",
+   "source": "Audio/BGM/Theme_97.ogg",
+   "extracted": false
+  },
+  "Theme_98": {
+   "key": "audio/bgm/theme_98",
+   "source": "Audio/BGM/Theme_98.ogg",
+   "extracted": false
+  },
+  "Theme_99": {
+   "key": "audio/bgm/theme_99",
+   "source": "Audio/BGM/Theme_99.ogg",
+   "extracted": false
+  },
+  "WatashitachiNoQuest_Inst": {
+   "key": "audio/bgm/watashitachinoquest_inst",
+   "source": "Audio/BGM/WatashitachiNoQuest_Inst.ogg",
+   "extracted": false
+  }
+ }
+}

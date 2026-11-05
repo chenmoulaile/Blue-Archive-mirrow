@@ -13,6 +13,7 @@ data/*.json
 !data/ui_nineslice.json
 !data/se_index.json
 !data/se_map.json
+!data/bgm_map.json
 
 # 本地存档与缓存
 *.db
