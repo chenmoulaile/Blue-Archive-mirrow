@@ -122,8 +122,6 @@ cp .baad/cn/android/raw/media/audio/bgm/*.ogg resources/bgm/
 1. **所有工作只允许落在项目所在盘**，不得在系统盘（C:）产生任何文件，包括临时文件和缓存。
    拉起子进程一律用 `scripts/env.mjs` 的 `childEnv()`；它还会改写当前进程的
    `TEMP/TMP/TMPDIR`（Playwright 用 `os.tmpdir()` 建 profile，只传子进程拦不住）。
-2. **不实现游戏数据库解密**：不 dump `Table/ExcelDB.db`、不做 SQLCipher 解密。
-   只取 `bundle` 和 `media` 两类资源。
 3. **来源标注必须真实**：`game-ui-spec.ts` 每个常量必须标
    `assetbundle` / `screenshot_crop` / `wiki_layout` / `estimated` 之一。
    **禁止为了覆盖率好看把 `estimated` 改成 `assetbundle`。**
