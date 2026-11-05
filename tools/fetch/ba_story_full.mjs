@@ -12,9 +12,11 @@
 import { chromium } from 'playwright-core';
 import fs from 'node:fs';
 import path from 'node:path';
+import { fileURLToPath } from 'node:url';
 
 const CHROME = 'C:/Program Files/Google/Chrome/Application/chrome.exe';
-const ROOT = 'E:/Blue archive';
+// 仓库根（tools/fetch/ -> repo/），产物落 data/ 与 resources/story/，与 normalize_story.py 一致
+const ROOT = path.resolve(fileURLToPath(new URL('../..', import.meta.url)));
 const DATA = path.join(ROOT, 'data');
 const OUT = path.join(ROOT, 'resources', 'story');
 const SITE = 'https://bluearchive.wiki';
@@ -231,7 +233,11 @@ try {
       offset = d.continue.sroffset;
       await sleep(200);
     }
-    titles = [...new Set(titles)].sort();
+    titles = [...new Set(titles)].sort((a, b) => {
+      // 主线优先（镜像 dump 已覆盖 bond/event，wiki 主补 main/group）
+      const rank = (t) => (t.startsWith('Main Story/') ? 0 : t.startsWith('Group Story/') ? 1 : 2);
+      return rank(a) - rank(b) || a.localeCompare(b);
+    });
     fs.writeFileSync(idxPath, JSON.stringify(titles, null, 1), 'utf8');
     console.log(`✓ 枚举完成 ${titles.length} 页`);
   }
