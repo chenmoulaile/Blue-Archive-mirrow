@@ -2,24 +2,12 @@
  "generated": "2026-11-06T01:48:24",
  "rule": "strip SE_/SFX_/FX_ prefix + trailing digits, lowercase; exact=high, editdist<=2=medium",
  "total_story_se": 846,
- "matched": 811,
+ "matched": 804,
  "map": {
-  "SE_Cartoon_01": {
-   "target": "SE_CarHorn_01",
-   "confidence": "medium",
-   "used": 5176,
-   "distance": 2
-  },
   "SE_Gear_02": {
    "target": "SE_Gear_01",
    "confidence": "high",
    "used": 3943
-  },
-  "SE_Cartoon_02": {
-   "target": "SE_CarHorn_01",
-   "confidence": "medium",
-   "used": 2930,
-   "distance": 2
   },
   "SE_FootStep_03a": {
    "target": "SE_FootStep_03a",
@@ -40,12 +28,6 @@
    "target": "SE_Run_01",
    "confidence": "high",
    "used": 1345
-  },
-  "SE_Radio_01": {
-   "target": "SE_Rain_01",
-   "confidence": "medium",
-   "used": 1331,
-   "distance": 2
   },
   "SE_Shot_01": {
    "target": "SE_Shot_01",
@@ -182,12 +164,6 @@
    "confidence": "high",
    "used": 298
   },
-  "SE_Beep_02": {
-   "target": "SE_Bear_01",
-   "confidence": "medium",
-   "used": 297,
-   "distance": 2
-  },
   "SE_Fall_01": {
    "target": "SE_Fall_01",
    "confidence": "high",
@@ -247,12 +223,6 @@
    "target": "SE_Typing_01",
    "confidence": "high",
    "used": 194
-  },
-  "SE_Beep_01": {
-   "target": "SE_Bear_01",
-   "confidence": "medium",
-   "used": 190,
-   "distance": 2
   },
   "SE_SandFootStep_03b": {
    "target": "SE_SandFootStep_03b",
@@ -398,12 +368,6 @@
    "target": "SE_RetroShot_01",
    "confidence": "high",
    "used": 103
-  },
-  "SE_Work_01": {
-   "target": "SE_Book_01",
-   "confidence": "medium",
-   "used": 102,
-   "distance": 2
   },
   "SE_Fear_01": {
    "target": "SE_Fear_01",
@@ -3594,12 +3558,6 @@
    "target": "SE_Boatengine_01",
    "confidence": "high",
    "used": 1
-  },
-  "SE_Whale_01": {
-   "target": "SE_Shake_01",
-   "confidence": "medium",
-   "used": 1,
-   "distance": 2
   },
   "SE_Guitar_03b": {
    "target": "SE_Guitar_03b",

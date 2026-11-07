@@ -21,6 +21,15 @@
   python tools/fetch/extract_local_spr.py --list          # 族分类统计
   python tools/fetch/extract_local_spr.py --families a,b  # 指定族
   python tools/fetch/extract_local_spr.py --all-safe      # 全部无歧义族（默认行为即此）
+
+歧义族并集模式（--force，实测 2026-11-07：12 族两日期集全在 catalog 且互补——
+旧日期多分片含完整 skel/atlas/纹理，新日期单 bundle 只含 MonoBehaviour 引用壳、
+无任何 TextAsset/Texture2D，故并集=旧集提取，无同名覆盖冲突）：
+  python tools/fetch/extract_local_spr.py --families ch0109_spr,... --force \
+      --incremental --out asset_map.spr2.json
+  --force        歧义族不再跳过：取磁盘上该族全部 bundle 做并集提取
+  --incremental  side-file 只写本轮提取的增量段（images 恒为 {}，不扫 avatar/furniture）
+  --out NAME     side-file 文件名（默认 asset_map.spr.json）
 """
 from __future__ import annotations
 
@@ -248,11 +257,26 @@ def build_character_spine(spines: dict) -> dict[str, str]:
     return out
 
 
+def collect_family_bundles(fam: str, cat: set[str]) -> list[str]:
+    """磁盘上该族全部 bundle（不分日期/分片），供 --force 并集提取；逐个校验 catalog。"""
+    names = sorted(p.name for p in GAME_DIR.glob(f"assets-_mx-spinecharacters-{fam}-*.bundle"))
+    missing = [n for n in names if n not in cat]
+    if missing:
+        print(f"WARN {fam}: {len(missing)} bundle not in catalog: {missing}", file=sys.stderr)
+    return names
+
+
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--families", default="", help="逗号分隔族名；空=全部 safe 族")
     ap.add_argument("--list", action="store_true")
     ap.add_argument("--dry-run", action="store_true")
+    ap.add_argument("--force", action="store_true",
+                    help="歧义族并集提取：取该族磁盘全部 bundle（需 --families 指名）")
+    ap.add_argument("--incremental", action="store_true",
+                    help="side-file 只写本轮提取增量段（images={}，不扫 avatar/furniture）")
+    ap.add_argument("--out", default="asset_map.spr.json",
+                    help="side-file 文件名（data/ 下，默认 asset_map.spr.json）")
     ap.add_argument("--reindex-only", action="store_true",
                     help="不重提取，只重建 data/asset_map.spr.json")
     args = ap.parse_args()
@@ -312,8 +336,15 @@ def main() -> int:
         want = [s.strip() for s in args.families.split(",") if s.strip()]
         missing = [w for w in want if w not in safe]
         for u in missing:
+            if args.force and u in amb:
+                continue  # --force：歧义族由下方并集收集
             print(f"SKIP {u}: {'ambiguous' if u in amb else 'not found'}", file=sys.stderr)
         targets = {w: safe[w] for w in want if w in safe}
+        if args.force:
+            for w in want:
+                if w not in targets:
+                    targets[w] = collect_family_bundles(w, cat)
+            targets = {w: b for w, b in targets.items() if b}
     else:
         targets = dict(safe)
     print(f"targets={len(targets)}")
@@ -341,59 +372,80 @@ def main() -> int:
         return 0
 
     # ---- side-file 索引（不动 asset_map.json 本体）
-    images: dict[str, str] = {}
-    dupes = 0
-    IMG_EXT = {".png", ".jpg", ".jpeg", ".webp", ".gif"}
-    for sub, dest_prefix in (("avatar", "avatar/"), ("avatar/game", "avatar/game/"),
-                             ("furniture/game", "furniture/game/")):
-        d = REPO / "resources" / sub
-        if not d.exists():
-            continue
-        for f in sorted(d.iterdir()):
-            if f.is_file() and f.suffix.lower() in IMG_EXT:
-                key = f.stem
-                if key in images:
-                    dupes += 1
-                    continue
-                images[key] = f"resources/{sub}/{f.name}"
+    if args.incremental:
+        # 纯增量段：只含本轮提取结果，images 恒为空（spr 提取不产 avatar/furniture 图）
+        amap = {
+            "images": {},
+            "spines": spines,
+            "spine_meta": spine_meta,
+            "counts": {
+                "images": 0,
+                "spines": len(spines),
+                "spr_families": len(spine_meta),
+                "spr_files": file_count,
+            },
+            "generated": {
+                "by": "tools/fetch/extract_local_spr.py --force --incremental",
+                "date": date.today().isoformat(),
+                "game_dir": str(GAME_DIR).replace("\\", "/"),
+                "source": "assetbundle",
+                "note": "增量段：spines 仅含本轮 --families 提取的歧义族并集结果",
+            },
+        }
+    else:
+        images: dict[str, str] = {}
+        dupes = 0
+        IMG_EXT = {".png", ".jpg", ".jpeg", ".webp", ".gif"}
+        for sub, dest_prefix in (("avatar", "avatar/"), ("avatar/game", "avatar/game/"),
+                                 ("furniture/game", "furniture/game/")):
+            d = REPO / "resources" / sub
+            if not d.exists():
+                continue
+            for f in sorted(d.iterdir()):
+                if f.is_file() and f.suffix.lower() in IMG_EXT:
+                    key = f.stem
+                    if key in images:
+                        dupes += 1
+                        continue
+                    images[key] = f"resources/{sub}/{f.name}"
 
-    # 家具桥接 <kivo_id>.png：key 与头像数字冲突时加 furniture/ 前缀
-    furn_main = REPO / "resources" / "furniture"
-    av_keys = set(images)
-    bridged = {}
-    if furn_main.exists():
-        for f in sorted(furn_main.iterdir()):
-            if f.is_file() and f.suffix.lower() in IMG_EXT and f.name[0].isdigit():
-                key = f.stem
-                if key in av_keys:
-                    images[f"furniture/{key}"] = f"resources/furniture/{f.name}"
-                    bridged[key] = f"furniture/{key}"
-                else:
-                    images[key] = f"resources/furniture/{f.name}"
+        # 家具桥接 <kivo_id>.png：key 与头像数字冲突时加 furniture/ 前缀
+        furn_main = REPO / "resources" / "furniture"
+        av_keys = set(images)
+        bridged = {}
+        if furn_main.exists():
+            for f in sorted(furn_main.iterdir()):
+                if f.is_file() and f.suffix.lower() in IMG_EXT and f.name[0].isdigit():
+                    key = f.stem
+                    if key in av_keys:
+                        images[f"furniture/{key}"] = f"resources/furniture/{f.name}"
+                        bridged[key] = f"furniture/{key}"
+                    else:
+                        images[key] = f"resources/furniture/{f.name}"
 
-    amap = {
-        "images": images,
-        "spines": spines,
-        "character_spine": {},
-        "spine_meta": spine_meta,
-        "counts": {
-            "images": len(images),
-            "image_dupes": dupes,
-            "spines": len(spines),
-            "spr_families": len(spine_meta),
-            "spr_files": file_count,
-            "furniture_bridged_prefixed": bridged,
-        },
-        "generated": {
-            "by": "tools/fetch/extract_local_spr.py",
-            "date": date.today().isoformat(),
-            "game_dir": str(GAME_DIR).replace("\\", "/"),
-            "source": "assetbundle",
-        },
-    }
-    out = REPO / "data" / "asset_map.spr.json"
+        amap = {
+            "images": images,
+            "spines": spines,
+            "character_spine": {},
+            "spine_meta": spine_meta,
+            "counts": {
+                "images": len(images),
+                "image_dupes": dupes,
+                "spines": len(spines),
+                "spr_families": len(spine_meta),
+                "spr_files": file_count,
+                "furniture_bridged_prefixed": bridged,
+            },
+            "generated": {
+                "by": "tools/fetch/extract_local_spr.py",
+                "date": date.today().isoformat(),
+                "game_dir": str(GAME_DIR).replace("\\", "/"),
+                "source": "assetbundle",
+            },
+        }
+    out = REPO / "data" / args.out
     out.write_text(json.dumps(amap, ensure_ascii=False, indent=1), encoding="utf-8")
-    print(f"asset_map.spr.json: images={len(images)} spines={len(spines)} -> {out}")
+    print(f"{out.name}: images={len(amap['images'])} spines={len(spines)} -> {out}")
     print(f"files written={file_count} problems={len(problems)}")
     for p in problems[:30]:
         print(f"  PROBLEM: {p}")
