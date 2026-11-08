@@ -18,8 +18,9 @@
   bond/event 镜像集原位重建（路径 /res/story/<gid>.json 不变）
 
 event_story_map：EventContentScenarioDBSchema（plana slot 序，984 行实测 0 err）给
-  event_content_id → 有序剧集组；活动名/周期由剧集标题与 kivo event_timeline.json 模糊匹配
-  （最长公共子串 ≥4，命中标注 mode/score，未命中如实 null）。
+  event_content_id → 有序剧集组；主线桶（10/11）剧集组排除在外（主线卷不进活动分组，
+  2026-11-08 走查①），排除后 0 章的 EventContent 整体不列出；活动名/周期由剧集标题与
+  kivo event_timeline.json 模糊匹配（最长公共子串 ≥4，命中标注 mode/score，未命中如实 null）。
 """
 from __future__ import annotations
 
@@ -467,14 +468,16 @@ def build_event_map(conv: ExcelConverter, timeline: list[dict]) -> tuple[dict, l
             if not gids:
                 continue
             g = gids[0]
-            title = group_title(conv, g)
             in_index_bucket = g // 1000000
             if in_index_bucket in (10, 11):
-                path = f"/res/story/main/{g}.json"
-                idx_type = "main"
-            else:
-                path = f"/res/story/event/{g}.json"
-                idx_type = "event"
+                # 主线桶（10/11）= 主线卷剧集组，不进活动 map（2026-11-08 走查①：
+                # EventContent 801 的 13 章全是主线 Vol.1（10000005 序幕…），曾被 kivo
+                # 模糊命名贴成「活动【樱花烂漫庆典大骚动】」——主线卷归主线 tab，
+                # 活动 tab 只列真活动章节（还原标准②）。主线剧集的 events 回填同步排除。
+                continue
+            title = group_title(conv, g)
+            path = f"/res/story/event/{g}.json"
+            idx_type = "event"
             ch = {
                 "storyId": str(g), "title": title, "order": r["order"],
                 "isRecollection": bool(r["is_recollection"]),
@@ -482,6 +485,10 @@ def build_event_map(conv: ExcelConverter, timeline: list[dict]) -> tuple[dict, l
             }
             chapters.append(ch)
             refs_by_group.setdefault(str(g), []).append({"eventId": ec, "order": r["order"]})
+        # 排除主线桶后 0 章的 EventContent（多为纯主线卷条目）整体不列出，
+        # 与前端 StoryPage.eventSections 的 items.length>0 过滤一致
+        if not chapters:
+            continue
         # 名称匹配：剧集 token vs timeline 候选名（LCS/短边 ≥0.6），全长 LCS 保底
         toks: set[str] = set()
         for ch in chapters:

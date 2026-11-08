@@ -702,6 +702,7 @@ select {
   left: 0;
   right: 0;
   bottom: 0;
+  z-index: 5; /* 对话框盖住立绘下沿（.story-actor z:2/3），低于选项层（.choice-overlay z:6）——走查② */
   min-height: 148px;
   padding: 18px 30px 22px;
   background: linear-gradient(180deg, rgba(6, 16, 26, 0), rgba(6, 16, 26, 0.9) 32%);

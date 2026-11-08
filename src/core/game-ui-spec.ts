@@ -170,8 +170,13 @@ export const INTRO_TIMING = {
     enterMs: v(700, 'estimated'),
   },
   loading: {
-    /** 游戏内没有独立进度条，用转圈/角色小动画 */
-    minShowMs: v(600, 'estimated'),
+    /**
+     * 游戏内没有独立进度条，用转圈/角色小动画。
+     * 2026-11-08 走查⑤：0.6s 的过场一闪而过（e2e 在 +2s 拍到的已是主界面），
+     * 提到 2s 让阿罗娜立绘/提示轮换/进度条可感知；等真实资源预载（ui_atlas/BGM
+     * HEAD 探测）完成后可替换成资源就绪放行。
+     */
+    minShowMs: v(2000, 'estimated'),
     fadeOutMs: v(500, 'estimated'),
   },
   lobby: {
@@ -272,10 +277,14 @@ export const LOBBY_UI = {
 export const HOME_STAGE = {
   /** 模型水平锚点（视口宽度比例）；真实游戏人物略偏左中 */
   anchorX: v(0.5, 'wiki_layout'),
-  /** 模型底边锚点（视口高度比例）；贴着画面底边 */
+  /** 模型底边锚点（视口高度比例，0=上 1=下）；贴着画面底边 */
   anchorY: v(1, 'wiki_layout'),
-  /** 初始缩放：相对「整只模型装进画面」的倍数（见 SpineView zoom 语义） */
-  initialZoom: v(1.35, 'estimated'),
+  /**
+   * 初始缩放：cover 取景下的倍数，1 = 按场景纵横比恰好铺满画面
+   * （2026-11-08 走查③：原 contain 语义下的固定 1.35 让竖幅场景两侧露底，
+   * 改为 SpineView fit="cover" 按画幅宽高比自适应取景，模糊底图只留作加载兜底）
+   */
+  initialZoom: v(1, 'estimated'),
   minZoom: v(0.5, 'estimated'),
   maxZoom: v(6, 'estimated'),
   /** 每次滚轮的缩放步进 */

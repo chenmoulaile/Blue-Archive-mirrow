@@ -102,6 +102,8 @@ export default function StoryPage() {
     const q = query.trim().toLowerCase();
     return assets.storyIndex
       .filter((s) => tab === 'all' || s.type === tab)
+      // 空集（0 句，实测 31 个：10000000、1901702…）不可播，真实游戏不列出——走查⑥
+      .filter((s) => s.lines > 0)
       .filter((s) => !q || s.title.toLowerCase().includes(q) || s.id.toLowerCase().includes(q))
       .slice(0, 400);
   }, [assets.storyIndex, tab, query]);
@@ -136,7 +138,8 @@ export default function StoryPage() {
           .map((ch: EventChapter): SectionItem | null => {
             used.add(ch.storyId);
             const e = byId.get(ch.storyId);
-            return e ? { entry: e, chapter: ch } : null;
+            // 0 句的空章节同样不列出（与平铺列表一致）——走查⑥
+            return e && e.lines > 0 ? { entry: e, chapter: ch } : null;
           })
           .filter((x): x is SectionItem => x !== null);
         const period = g.period
@@ -151,7 +154,7 @@ export default function StoryPage() {
       })
       .filter((s) => s.items.length > 0);
     const rest = assets.storyIndex.filter(
-      (s) => s.type === 'event' && !used.has(s.id) && !(s.events && s.events.length > 0)
+      (s) => s.type === 'event' && s.lines > 0 && !used.has(s.id) && !(s.events && s.events.length > 0)
     );
     if (rest.length > 0) {
       sections.push({
@@ -519,7 +522,7 @@ export default function StoryPage() {
           }}
         />
         <div className="muted" style={{ fontSize: 11.5 }}>
-          共 {assets.storyIndex.filter((s) => tab === 'all' || s.type === tab).length} 集
+          共 {assets.storyIndex.filter((s) => (tab === 'all' || s.type === tab) && s.lines > 0).length} 集
         </div>
         <div className="story-list" data-testid="story-list">
           {tab === 'event' && eventSections
@@ -758,8 +761,13 @@ function StoryListItem({
   recollection?: boolean;
   onOpen: () => void;
 }) {
-  // 活动章节标题是剧本行格式（"第1话;欢迎莅临百夜堂"），分号转空格便于阅读
-  const title = chapterTitle ? chapterTitle.replace(';', ' ') : entry.title;
+  // 活动章节标题是剧本行格式（"第1话;欢迎莅临百夜堂"），分号转空格便于阅读；
+  // 无名剧集（数据轨 title 以 ID 顶替，如 1901702）兜底成「剧情 #id」——走查⑥
+  const title = chapterTitle
+    ? chapterTitle.replace(';', ' ')
+    : !entry.title || entry.title === entry.id
+      ? `剧情 #${entry.id}`
+      : entry.title;
   return (
     <button className={`story-item${active ? ' on' : ''}`} onClick={onOpen}>
       <b>

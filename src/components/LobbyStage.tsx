@@ -11,8 +11,9 @@
  *     模型没有交互动画时用 CSS 微动效兜底）
  *   - 连点在 rapidWindowMs 内累计，好感度反馈浮出 ❤（写 save.momotalk.favor）
  *
- * 语音族名实测：students_slim.json voices[].desc 如 Hoshino_Lobby_1.ogg，
- * 205/513 名学生有 *_Lobby_* 族；没有该族时回退任意语音，再没有就文字提示。
+ * 语音族名实测：students_slim.json voices[].desc 如 Hoshino_Lobby_1.ogg 或
+ * 无后缀的 CH0139_Lobby_1，280/513 名学生有 *lobby* 族（/lobby/i 匹配）；
+ * 没有该族时回退任意语音，再没有就文字提示。
  */
 import { useCallback, useEffect, useRef, useState } from 'react';
 import { SpineView } from './SpineView';
@@ -36,11 +37,20 @@ export interface LobbyStageProps {
   className?: string;
 }
 
-/** 生成语音字幕：Hoshino_Lobby_1.ogg → 「大厅语音 #1」 */
+/**
+ * 生成语音字幕：Hoshino_Lobby_1.ogg / CH0139_Lobby_2_1 → 「大厅语音 #2」。
+ * desc 两种实测形态：带 .ogg 的 `Name_Lobby_N.ogg` 和无后缀的 `CHxxxx_Lobby_N_M`
+ * （students_slim 8068 条 desc 里 4799 条含 lobby，其中 3716 条无后缀——
+ * 2026-11-08 走查④：旧正则要求 .ogg 结尾导致后者全部漏配，回退池把
+ * season_birthday 之类的片段名当字幕）。真实台词文本数据还没有，
+ * 先用序号占位，拿到台词数据后整体替换。
+ */
 function lineOf(desc: string): string {
-  const m = /_Lobby(?:_(\d+))?\.ogg$/i.exec(desc);
+  const stem = desc.replace(/\.ogg$/i, '');
+  const m = /lobby(?:[_-](\d+))?/i.exec(stem);
   if (m) return m[1] ? `♪ 大厅语音 #${m[1]}` : '♪ 大厅语音';
-  return `♪ ${desc.replace(/\.ogg$/i, '').replace(/^[A-Za-z0-9]+_/, '').replace(/_/g, ' ')}`;
+  // 回退池里的非大厅族（活动/生日语音等）：不把片段名当字幕，给中性占位
+  return '♪ 语音片段';
 }
 
 export function LobbyStage({ student, favorKey, onLine, onTouch, className }: LobbyStageProps) {
@@ -99,7 +109,9 @@ export function LobbyStage({ student, favorKey, onLine, onTouch, className }: Lo
         now - lastTouchRef.current <= HOME_STAGE.rapidWindowMs.value ? touchCountRef.current + 1 : 1;
       lastTouchRef.current = now;
 
-      const pool = student.voices.filter((v) => /_Lobby(?:_\d+)?\.ogg$/i.test(v.desc));
+      // 大厅语音池：/lobby/i 且不要求 .ogg 后缀（CHxxxx_Lobby_N 无后缀形态，
+      // 513 名学生里 280 名有该族）——2026-11-08 走查④
+      const pool = student.voices.filter((v) => /lobby/i.test(v.desc));
       const all = pool.length > 0 ? pool : student.voices;
       if (all.length === 0) {
         onLine?.('……（这名学生没有大厅语音）');
@@ -187,6 +199,9 @@ export function LobbyStage({ student, favorKey, onLine, onTouch, className }: Lo
           zoom={view.zoom}
           panX={view.panX}
           panY={view.panY}
+          fit="cover"
+          anchorX={HOME_STAGE.anchorX.value}
+          anchorY={HOME_STAGE.anchorY.value}
           touchSignal={touchSignal}
           onError={(m) => {
             setSpineError(true);

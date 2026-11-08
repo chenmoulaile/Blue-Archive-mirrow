@@ -26,11 +26,26 @@ import {
 export interface SpineViewProps {
   skelUrl: string;
   atlasUrl: string;
-  /** 相对「完整显示模型」的缩放倍数，1 = 整只模型装进画面 */
+  /** 相对基准取景的缩放倍数：contain 下 1 = 整只模型装进画面，cover 下 1 = 恰好铺满画面 */
   zoom?: number;
   /** 画面偏移，单位是模型宽/高的比例 */
   panX?: number;
   panY?: number;
+  /**
+   * 取景语义（2026-11-08 走查③）：
+   * - contain（默认，旧行为）：整模型装进画面（两边取大），竖幅模型在横幅画布
+   *   上会两侧露底，像贴图拼贴；
+   * - cover：按画幅宽高比铺满画面（两边取小），溢出部分裁掉——回忆大厅场景
+   *   的满屏构图（对照 cafe_ui_steam.jpg）。
+   */
+  fit?: 'contain' | 'cover';
+  /**
+   * 模型锚点（0..1，CSS 语义：0=左/上，1=右/下）。cover 裁切时决定保留哪一带
+   * （如 anchorY=1 = 模型底边贴画面底边）；contain 时决定模型在画面中的位置。
+   * 默认 0.5 居中，保持旧行为。
+   */
+  anchorX?: number;
+  anchorY?: number;
   loop?: boolean;
   /**
    * 点击时额外播放一次的动画（用正则挑，找不到就只触发 onTap）。
@@ -58,6 +73,9 @@ export function SpineView({
   zoom = 1,
   panX = 0,
   panY = 0,
+  fit = 'contain',
+  anchorX = 0.5,
+  anchorY = 0.5,
   loop = true,
   touchAnimation,
   touchSignal,
@@ -158,16 +176,29 @@ export function SpineView({
           };
 
           const cam = c.renderer.camera;
+          // 锚点夹到 0..1（CSS 语义：0=左/上，1=右/下）
+          const ax = Math.min(1, Math.max(0, anchorX));
+          const ay = Math.min(1, Math.max(0, anchorY));
           const apply = (z: number, px: number, py: number) => {
             cur = { z, px, py };
             const vw = Math.max(canvas.width, 1);
             const vh = Math.max(canvas.height, 1);
             cam.setViewport(vw, vh);
-            // 完整装下模型：zoom = 世界单位 / 像素
-            let fit = Math.max(base.h / vh, base.w / vw);
-            if (!Number.isFinite(fit) || fit <= 0) fit = 1;
-            cam.zoom = fit / Math.max(z, 0.05);
-            cam.position.set(base.cx + px * base.w, base.cy + py * base.h, 0);
+            // zoom = 世界单位 / 像素：contain 两边取大（整模型装下），
+            // cover 两边取小（铺满画面、裁掉溢出）
+            let fitPx = fit === 'cover'
+              ? Math.min(base.h / vh, base.w / vw)
+              : Math.max(base.h / vh, base.w / vw);
+            if (!Number.isFinite(fitPx) || fitPx <= 0) fitPx = 1;
+            cam.zoom = fitPx / Math.max(z, 0.05);
+            // 锚点对位：模型 (ax,ay) 点落在视口同比例位置——
+            // cover 裁切时决定保留哪一带（anchorY=1 = 模型底边贴画面底边），
+            // contain 时决定模型贴哪条边；pan 叠加在其上（语义不变）
+            const wv = vw * cam.zoom;
+            const hv = vh * cam.zoom;
+            const cx = base.cx + (ax - 0.5) * base.w + (0.5 - ax) * wv;
+            const cy = base.cy + (0.5 - ay) * base.h + (ay - 0.5) * hv;
+            cam.position.set(cx + px * base.w, cy + py * base.h, 0);
             cam.update();
           };
           camRef.current = apply;
