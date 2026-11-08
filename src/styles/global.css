@@ -2244,6 +2244,35 @@ select {
   backdrop-filter: blur(6px);
 }
 
+/* 2026-11-09 走查⑦：extra2 官方素材命中时（StoryDialog 挂 .official +
+   inline background-image），底板变白蓝系，文字/光标/名牌配套换深字色。
+   上面深板规则保持作素材缺失时的 CSS 兜底。 */
+.player-dialog.official {
+  border: none;
+  box-shadow: 0 14px 40px rgba(20, 45, 75, 0.35);
+}
+.player-dialog.official .text {
+  color: #33465e;
+  text-shadow: none;
+}
+.player-dialog.official .speaker {
+  color: #9d5f74; /* Dialogue_Event_Background 浅粉底上的玫瑰深字 */
+  text-shadow: none;
+}
+.player-dialog.official .speaker.info {
+  background: none; /* 名牌底已由 inline plate 图接管 */
+}
+.player-dialog.official .next {
+  color: #7b93a5;
+}
+.player-dialog.official .type-cursor {
+  color: #5b9fc9;
+}
+.player-dialog.official .ctrl-glyph {
+  color: #4a627a; /* LOG/▶▶ 兜底字在白板上换深色 */
+  text-shadow: none;
+}
+
 /* ----------------------------------------------------------------
    剧情还原轨（story）追加样式
    立绘舞台 / 活动分组列表 / 对话框控制按钮 / 选项分支

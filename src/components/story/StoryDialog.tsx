@@ -1,11 +1,13 @@
 /**
  * StoryDialog — 剧情对话框
  *
- * 素材实测（2026-11-08，data/ui_atlas.json 2497 条全量检索）：
- * uis-03_scenario 家族的对话框底板 / 名字牌原件打在 .molru 容器里
- * （GameData/MediaResources/UIs/03_Scenario/01_Background.molru），现有
- * tools/fetch/decrypt_molru.py 只支持音频 Ogg 流，无 PNG 提取路径，
- * 因此底板 / 名字牌走 CSS 兜底并打 data-ui-source="css-fallback" 如实标注。
+ * 2026-11-09 走查⑦：extra2 已有官方真素材（ui_atlas 键 ChatArchive/*）——
+ *   ChatArchive/Scenario_Mode_Bg_3.png（1292x437 主线对话大底板，左端蓝竖条为名字区）
+ *   ChatArchive/Dialogue_Event_Background.png（1056x288 活动气泡底板，用作名字牌底）
+ * 底板/名字牌命中即挂 background-image（两张图在 ui_nineslice 无 border 记录，
+ * 九宫格映射缺失，按走查约定用 background-image 而非 border-image），文字配色
+ * 随之切换（.player-dialog.official 深字系）；任一素材缺失时整体退回 CSS 兜底
+ * （旧深板白字），data-ui-source 如实标注。
  *
  * 右下控制按钮用已提取的通用真素材：
  *   Common/Common_Log_Icon（86x62）Common/Common_AutoBg（82x71 九宫格）
@@ -75,17 +77,44 @@ export function StoryDialog({
   const kindLabel = kind === 'mark' ? '提示' : kind === 'choice' ? '选项' : '旁白';
   const logSprite = uiAtlas.sprites['Common/Common_Log_Icon'];
   const skipSprite = uiAtlas.sprites['Common/Common_Skip_Icon'];
+  // 走查⑦：官方底板/名字牌（ChatArchive/*，extra2 提取件）
+  const bgSprite = uiAtlas.sprites['ChatArchive/Scenario_Mode_Bg_3.png'];
+  const plateSprite = uiAtlas.sprites['ChatArchive/Dialogue_Event_Background.png'];
+  const official = Boolean(bgSprite && plateSprite);
+  const bgStyle: CSSProperties | undefined = official
+    ? {
+        backgroundImage: `url(${bgSprite!.file})`,
+        backgroundSize: '100% 100%',
+        backgroundRepeat: 'no-repeat',
+      }
+    : undefined;
+  const plateStyle: CSSProperties | undefined = official
+    ? {
+        backgroundImage: `url(${plateSprite!.file})`,
+        backgroundSize: 'auto 100%',
+        backgroundPosition: 'left center',
+        backgroundRepeat: 'no-repeat',
+        backgroundColor: '#fdf0f1', // 图缩放宽不足长名时右侧补同色底
+      }
+    : undefined;
+  // LOG/SKIP 遮罩图标的上色：官方白底板用深字色，CSS 兜底深板用白字色
+  const ctrlColor = official ? 'rgba(63, 88, 112, 0.88)' : 'rgba(226, 242, 252, 0.92)';
 
   return (
     <div
-      className="player-dialog"
-      data-ui-source="css-fallback"
+      className={`player-dialog${official ? ' official' : ''}`}
+      style={bgStyle}
+      data-ui-source={official ? 'assetbundle' : 'css-fallback'}
       data-testid="story-dialog"
     >
       {kind === 'say' ? (
-        <span className="speaker">{speaker}</span>
+        <span className="speaker" style={plateStyle}>
+          {speaker}
+        </span>
       ) : (
-        <span className="speaker info">{kindLabel}</span>
+        <span className="speaker info" style={plateStyle}>
+          {kindLabel}
+        </span>
       )}
       <div className="text">
         {shown}
@@ -116,7 +145,7 @@ export function StoryDialog({
         >
           {logSprite ? (
             <span className="ctrl-img">
-              <MaskedIcon file={logSprite.file} color="rgba(226,242,252,0.92)" />
+              <MaskedIcon file={logSprite.file} color={ctrlColor} />
             </span>
           ) : (
             <span className="ctrl-img ctrl-fallback">
@@ -157,7 +186,7 @@ export function StoryDialog({
         >
           {skipSprite ? (
             <span className="ctrl-img">
-              <MaskedIcon file={skipSprite.file} color="rgba(226,242,252,0.92)" />
+              <MaskedIcon file={skipSprite.file} color={ctrlColor} />
             </span>
           ) : (
             <span className="ctrl-img ctrl-fallback">

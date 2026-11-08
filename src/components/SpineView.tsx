@@ -29,15 +29,19 @@ import {
 const FX_LAYER_RE = /fx|fog|light|glow|shadow/i;
 
 /**
- * cover/contain 取景用的「场景」包围盒（2026-11-08 走查②）。
+ * cover/contain 取景用的「场景」包围盒（2026-11-08 走查②，2026-11-09 走查⑤补）。
  *
  * skeleton.getBounds() 的全量 union 会把横跨全场的雾效大四边形算进来——
  * 实测 CH0356_home 单块 Fx_Fog mesh 就有 3010×2429，把 union 撑到 7033×5410，
  * cover 取景按这个基准缩放后，真场景（3834×3382）只占画布中央约一半，
- * 边缘露出硬边矩形。这里逐 attachment 计算世界包围盒，剔除 FX/Fog/Light/
- * Glow/Shadow 命名的槽位与附件后取并集；渲染不剔除（雾效照画）。
- * 离线对账（tools/recon/spine-fit-lab.mjs）：ch0356_home 7033×5410 → 3834×3382；
- * airi_home 3460×2568 → 完全不变，/lobby 现有取景不受影响。
+ * 边缘露出硬边矩形。这里逐 attachment 计算世界包围盒，剔除后取并集：
+ *   1) FX/Fog/Light/Glow/Shadow 命名的槽位与附件（走查②，渲染不剔除，雾效照画）；
+ *   2) 不可见附件：attachment.color.a=0 或 slot.color.a=0（编辑器 render 关闭的
+ *      附件在 4.2 runtime 的形态就是 alpha=0；渲染管线同样画出 0 alpha = 不可见，
+ *      取景以「实际能看到的内容」为准）。2026-11-09 全库实测
+ *      （scripts/scan-spine-hidden.mjs，266 个 home 族）：45 个模型 A→C 有缩小，
+ *      极端如 ch0251_home 有 34 个 slot.color.a=0 的整槽隐藏件。
+ *      airi_home 3460×2568、ch0139_home 4867×4456 三口径全不变，不回归。
  * 剔除后没有可用几何时退回全量 getBounds。
  */
 function fitBoundsOf(
@@ -53,16 +57,23 @@ function fitBoundsOf(
     const at = slot.getAttachment();
     if (!at) continue;
     if (FX_LAYER_RE.test(slot.data.name) || FX_LAYER_RE.test(at.name)) continue;
+    // 走查⑤：编辑器 render 关闭的附件在 4.2 runtime 里是 attachment/slot alpha=0，
+    // 渲染管线画出来也不可见（乘 0），取景基准一并剔除
+    const slotAlpha = slot.color?.a ?? 1;
+    if (slotAlpha <= 0.001) continue;
     let vs: number[] | null = null;
+    let alpha = 1;
     if (at instanceof RegionAttachment) {
+      alpha = at.color.a;
       vs = new Array(8).fill(0);
       at.computeWorldVertices(slot, vs, 0, 2);
     } else if (at instanceof MeshAttachment) {
+      alpha = at.color.a;
       const n = at.worldVerticesLength;
       vs = new Array(n).fill(0);
       at.computeWorldVertices(slot, 0, n, vs, 0, 2);
     }
-    if (!vs) continue;
+    if (!vs || alpha <= 0.001) continue;
     for (let k = 0; k < vs.length; k += 2) {
       mnx = Math.min(mnx, vs[k]);
       mxx = Math.max(mxx, vs[k]);
@@ -228,14 +239,12 @@ export function SpineView({
           const offset = new Vector2();
           const size = new Vector2();
           skeleton.getBounds(offset, size, []);
-          // 取景基准（2026-11-08 走查②）：setup 态全量 union 会被横跨全场的
-          // 雾效/光效层（CH0356_home 的 Fx_Fog_* 单块 mesh 3010×2429）撑大，
-          // cover 取景因此把真场景缩成中央一块带硬边矩形。这里逐 attachment
-          // 计算世界包围盒，排除 FX/Fog/Light/Glow/Shadow 层后作为取景基准；
-          // 渲染仍画全部层（雾效在场景边缘只是淡出，不影响构图）。
-          // 已离线验证（tools/recon/spine-fit-lab.mjs）：
-          //   ch0356_home 7033×5410 → 3834×3382；airi_home 3460×2568 → 不变，
-          //   即 /lobby 现有正常取景不受影响。
+          // 取景基准（2026-11-08 走查② + 2026-11-09 走查⑤）：setup 态全量 union
+          // 会被横跨全场的雾效/光效层与 alpha=0 隐藏附件撑大，cover 取景因此把
+          // 真场景缩成中央一块。这里逐 attachment 计算世界包围盒，排除 FX 层与
+          // 不可见附件后作为取景基准；渲染仍画全部层（雾效/隐藏件画了也不可见）。
+          // 已离线验证（tools/recon/spine-fit-lab.mjs + scripts/scan-spine-hidden.mjs，
+          // 后者扫全库 266 个 home：45 个有缩小、airi/ch0139 三口径全不变）。
           base = fitBoundsOf(skeleton, offset, size);
 
           const cam = c.renderer.camera;

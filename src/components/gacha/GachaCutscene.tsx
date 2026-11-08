@@ -42,6 +42,8 @@ export interface GachaCutsceneProps {
   plana: boolean;
   /** 本批新获得的 ★3 学生（没有则跳过揭示幕） */
   newStar3: Student | null;
+  /** 本批「首次获得」的学生名（NEW 徽标，2026-11-09 走查②） */
+  newNames?: string[];
   studentOf: (r: PullResult) => Student | null;
   bannerTitle: string;
   onAgain: () => void;
@@ -53,6 +55,7 @@ export function GachaCutscene({
   times,
   plana,
   newStar3,
+  newNames,
   studentOf,
   bannerTitle,
   onAgain,
@@ -197,6 +200,7 @@ export function GachaCutscene({
           times={times}
           bannerTitle={bannerTitle}
           studentOf={studentOf}
+          newNames={newNames}
           onAgain={onAgain}
           onClose={onClose}
         />

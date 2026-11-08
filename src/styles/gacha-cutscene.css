@@ -677,6 +677,64 @@
   grid-template-columns: minmax(200px, 240px);
 }
 
+/* 2026-11-09 走查②：卡面立绘（data/card_art.json，网络轨产出；未就位回退头像）。
+   立绘是竖版卡面，铺满整卡；star/name 叠到底部渐变条上保证可读。 */
+.gcs-r-card .gcs-r-art {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center top;
+}
+
+.gcs-r-card.has-art::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 40%;
+  background: linear-gradient(180deg, rgba(10, 22, 36, 0), rgba(10, 22, 36, 0.78));
+  pointer-events: none;
+}
+
+.gcs-r-card.has-art .gcs-card-star {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 26px;
+  margin: 0;
+  z-index: 1;
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
+}
+
+.gcs-r-card.has-art .gcs-card-name {
+  position: absolute;
+  left: 6%;
+  right: 6%;
+  bottom: 7px;
+  margin: 0;
+  z-index: 1;
+  color: #fff;
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.65);
+}
+
+.gcs-card-new {
+  position: absolute;
+  top: 7px;
+  left: 7px;
+  z-index: 2;
+  padding: 2px 9px;
+  border-radius: 999px;
+  background: #3f9fe0;
+  color: #fff;
+  font-size: 10.5px;
+  font-weight: 800;
+  letter-spacing: 1.5px;
+  box-shadow: 0 1px 6px rgba(0, 30, 60, 0.4);
+}
+
 .gcs-r-card {
   position: relative;
   aspect-ratio: 3 / 4;
@@ -774,6 +832,15 @@
   border-radius: 14px;
 }
 
+/* 走查②：详情大图用卡面立绘（竖版 3:4），头像回退走上面的方形样式 */
+.gcs-zoom-art {
+  width: 240px;
+  aspect-ratio: 3 / 4;
+  object-fit: cover;
+  object-position: center top;
+  border-radius: 14px;
+}
+
 .gcs-zoom-info {
   display: flex;
   flex-direction: column;
@@ -808,6 +875,12 @@
 .gcs-zoom-badge.up {
   background: #2c3e52;
   color: #ffe9a8;
+}
+
+.gcs-zoom-badge.new {
+  background: #3f9fe0;
+  color: #fff;
+  letter-spacing: 1.5px;
 }
 
 .gcs-zoom-sub {

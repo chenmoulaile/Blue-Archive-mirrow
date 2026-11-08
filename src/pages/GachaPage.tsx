@@ -26,6 +26,8 @@ interface Cutscene {
   times: 1 | 10;
   plana: boolean;
   newStar3: Student | null;
+  /** 本批「首次获得」的学生名（对照抽取前 owned 快照），结果页 NEW 徽标用 */
+  newNames: string[];
   bannerTitle: string;
 }
 
@@ -154,6 +156,10 @@ export default function GachaPage() {
       });
 
       const fresh = out.find((r) => r.star === 3 && !(ownedBefore[r.name] > 0));
+      // NEW 徽标名单（2026-11-09 走查②）：抽取前 owned 里没有的就是首次获得
+      const newNames = out
+        .filter((r) => !(ownedBefore[r.name] > 0))
+        .map((r) => r.name);
       setResults(out);
       setNeedSupply(null);
       setCut({
@@ -161,6 +167,7 @@ export default function GachaPage() {
         times,
         plana: limited,
         newStar3: fresh ? studentById.get(fresh.studentId ?? -1) ?? null : null,
+        newNames,
         bannerTitle: banner.title,
       });
       setCutSeq((n) => n + 1);
