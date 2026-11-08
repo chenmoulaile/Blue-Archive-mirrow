@@ -592,6 +592,7 @@ export default function GachaPage() {
           times={cut.times}
           plana={cut.plana}
           newStar3={cut.newStar3}
+          newNames={cut.newNames}
           studentOf={studentOf}
           bannerTitle={cut.bannerTitle}
           onAgain={() => doPull(10)}
