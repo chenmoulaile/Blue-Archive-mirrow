@@ -76,6 +76,14 @@ export interface StoryEntry {
   nodes: number;
   lines: number;
   chars: string[];
+  /** 数据轨 event_story_map 回填：本集属于哪个活动章节（955 条有值） */
+  events?: { eventId: number; order: number }[];
+}
+
+/** 选项分支：nextGroup 指向 choice 之后 branch === nextGroup 的连续节点段；'' = 单选项直接继续 */
+export interface StoryChoiceOption {
+  text: string;
+  nextGroup: string;
 }
 
 export type StoryOp =
@@ -83,13 +91,35 @@ export type StoryOp =
   | { op: 'bgm'; id: string; name?: string; volume?: string }
   | { op: 'bgmStop' }
   | { op: 'se'; id: string; name?: string }
-  | { op: 'script'; speaker: string; text: string; spine?: string; sequence?: string; affiliation?: string }
+  | { op: 'script'; speaker: string; text: string; spine?: string; sequence?: string; affiliation?: string; branch?: string }
   | { op: 'info'; text: string }
-  | { op: 'choice'; group?: string }
+  | { op: 'choice'; group?: string; options?: StoryChoiceOption[] }
   | { op: 'popup' }
   | { op: 'memlobby' }
   | { op: 'screen' }
   | { op: string; [k: string]: unknown };
+
+// ---------------------------------------------------------------- 活动剧情分组（data/event_story_map.json）
+
+export interface EventChapter {
+  storyId: string;
+  title: string;
+  order: number;
+  isRecollection: boolean;
+  path: string;
+  indexType: 'main' | 'event';
+}
+
+export interface EventStoryGroup {
+  eventId: number;
+  timelineId?: number;
+  name?: string;
+  nameSource?: string;
+  matchScore?: number;
+  period?: { start: number; end: number };
+  chapters: EventChapter[];
+  recollectionCount?: number;
+}
 
 export interface StoryFile {
   story_id: string;
@@ -154,7 +184,17 @@ export interface SaveData {
   lastSeen: number;
   /** 老师信息；新账号用游戏内初始状态 */
   teacher: { name: string; level: number; exp: number };
-  currency: { pyroxene: number; tickets: number };
+  currency: {
+    pyroxene: number;
+    tickets: number;
+    /** 信用点；老存档缺省时由 store 补默认值 */
+    credit?: number;
+  };
+  /**
+   * 体力（AP）。可选字段以兼容旧存档；store.init 按时间差恢复
+   * （恢复参数见 game-ui-spec.ts 的 AP_REGEN）。
+   */
+  ap?: { value: number; updatedAt: number };
   signIn: { lastDate: string; streak: number; total: number };
   story: {
     read: Record<string, number[]>;

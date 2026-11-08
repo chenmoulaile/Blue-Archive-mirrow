@@ -38,6 +38,12 @@ export interface SpineViewProps {
    * 所以这里按优先级给一串候选，而不是写死一个名字。
    */
   touchAnimation?: RegExp;
+  /**
+   * 外部触摸信号：数值变化时在 track 1 播一次反应动画。
+   * 大厅中央舞台（LobbyStage）的点击层不在 canvas 上，用它触发；
+   * 不传时保持旧行为（canvas 自己的 onClick 触发）。
+   */
+  touchSignal?: number;
   /** 骨架加载完成后回调动画名列表，便于调试「这个模型到底有哪些动画」 */
   onAnimations?: (names: string[]) => void;
   onTap?: () => void;
@@ -54,6 +60,7 @@ export function SpineView({
   panY = 0,
   loop = true,
   touchAnimation,
+  touchSignal,
   onAnimations,
   onTap,
   onReady,
@@ -86,6 +93,13 @@ export function SpineView({
   useEffect(() => {
     camRef.current?.(zoom, panX, panY);
   }, [zoom, panX, panY]);
+
+  // 外部触摸信号：播一次反应动画（模型没有交互动画时静默跳过，由宿主 CSS 兜底）
+  useEffect(() => {
+    if (touchSignal === undefined || touchSignal === 0) return;
+    playTouch();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [touchSignal]);
 
   useEffect(() => {
     const canvas = canvasRef.current;

@@ -1,0 +1,193 @@
+/** 全局类型定义 */
+
+import type { Settings } from './core/config';
+
+/** .userdata/config.json 的形状（主进程写、渲染层读） */
+export interface AppConfig {
+  /** 素材根目录，默认仓库里的 resources/ */
+  resourceDir: string;
+  /** 游戏解包目录（含 assets-_mx-uisprite 的那层），没有则 null */
+  gameDir: string | null;
+  /** 额外素材目录，一般等于 resourceDir，留作多目录扩展 */
+  wikiDir: string | null;
+  /** 首次启动向导是否已完成；false 时进主界面前弹向导 */
+  setupDone: boolean;
+}
+
+export interface BaApi {
+  info(): Promise<AppInfo>;
+  setResourceDir(): Promise<string | null>;
+  getConfig(): Promise<AppConfig>;
+  patchConfig(patch: Partial<AppConfig>): Promise<AppConfig>;
+  pickDir(title?: string): Promise<string | null>;
+  loadSave(): Promise<unknown>;
+  writeSave(data: unknown): Promise<boolean>;
+  resetSave(): Promise<boolean>;
+  openResourceDir(): Promise<void>;
+}
+
+export interface AppInfo {
+  resourceDir: string;
+  defaultResourceDir: string;
+  dataDir: string;
+  userData: string;
+  version: string;
+  setupDone: boolean;
+  config: AppConfig;
+}
+
+declare global {
+  interface Window {
+    baApi: BaApi;
+  }
+}
+
+// ---------------------------------------------------------------- 数据
+
+export interface Student {
+  id: number;
+  name: string;
+  name_en: string;
+  given: string;
+  given_en: string;
+  skin: string;
+  avatar: string;
+  lobby: string;
+  spine: number[];
+  home_spine: string;
+  spr_spine: string;
+  rarity: number;
+  limited: boolean;
+  voices: { file: string; desc: string; path: string }[];
+  school: number | null;
+  signature: string;
+  intro: string;
+  is_npc: boolean;
+  /** 生日，格式 MM-DD */
+  birthday: string;
+}
+
+export interface StoryEntry {
+  id: string;
+  type: 'main' | 'bond' | 'event' | 'group';
+  title: string;
+  summary: string;
+  path: string;
+  nodes: number;
+  lines: number;
+  chars: string[];
+}
+
+export type StoryOp =
+  | { op: 'background'; bg: string }
+  | { op: 'bgm'; id: string; name?: string; volume?: string }
+  | { op: 'bgmStop' }
+  | { op: 'se'; id: string; name?: string }
+  | { op: 'script'; speaker: string; text: string; spine?: string; sequence?: string; affiliation?: string }
+  | { op: 'info'; text: string }
+  | { op: 'choice'; group?: string }
+  | { op: 'popup' }
+  | { op: 'memlobby' }
+  | { op: 'screen' }
+  | { op: string; [k: string]: unknown };
+
+export interface StoryFile {
+  story_id: string;
+  type: string;
+  title: string;
+  summary: string;
+  prev?: string;
+  next?: string;
+  source_url: string;
+  nodes: StoryOp[];
+}
+
+export type BannerType = 'normal' | 'limited' | 'rerun' | 'fes' | 'starter';
+
+export interface Banner {
+  id: number;
+  server: string;
+  title: string;
+  type: BannerType;
+  up: string;
+  start: number;
+  end: number;
+  image: string;
+  summary: string;
+  source_url: string;
+}
+
+export interface Furniture {
+  id: number;
+  name: string;
+  icon: string;
+  rarity: number;
+  description: string;
+  comfort: number;
+  liked_by: number[];
+}
+
+export interface AssetMap {
+  images: Record<string, string>;
+  spines: Record<string, { skel: string; atlas: string; textures: string[] }>;
+  character_spine: Record<string, string>;
+  counts: { images: number; image_dupes: number; spines: number; characters_mapped: number };
+}
+
+// ---------------------------------------------------------------- 存档
+
+export type PityMode = 'classic' | 'charge';
+
+export interface GachaRecord {
+  at: number;
+  bannerId: number;
+  bannerTitle: string;
+  star: 1 | 2 | 3;
+  name: string;
+  isUp: boolean;
+  pity: number;
+}
+
+export interface SaveData {
+  version: number;
+  createdAt: number;
+  lastSeen: number;
+  /** 老师信息；新账号用游戏内初始状态 */
+  teacher: { name: string; level: number; exp: number };
+  currency: {
+    pyroxene: number;
+    tickets: number;
+    /** 信用点；老存档缺省时由 store 补默认值 */
+    credit?: number;
+  };
+  /**
+   * 体力（AP）。可选字段以兼容旧存档；store.init 按时间差恢复
+   * （恢复参数见 game-ui-spec.ts 的 AP_REGEN）。
+   */
+  ap?: { value: number; updatedAt: number };
+  signIn: { lastDate: string; streak: number; total: number };
+  story: {
+    read: Record<string, number[]>;
+    progress: Record<string, number>;
+    cleared: string[];
+  };
+  gacha: {
+    mode: PityMode;
+    classicPoints: number;
+    chargeNormal: number;
+    chargeLimited: number;
+    history: GachaRecord[];
+    owned: Record<string, number>;
+  };
+  cafe: {
+    placed: number[];
+    lastCollect: number;
+    visits: { id: number; at: number }[];
+  };
+  momotalk: {
+    read: string[];
+    favor: Record<string, number>;
+  };
+  /** 见 src/core/config.ts，默认 zh-CN + ja */
+  settings: Settings;
+}

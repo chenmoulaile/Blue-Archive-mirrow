@@ -1,0 +1,853 @@
+/*
+ * 招募演出（GachaCutscene）专用样式 —— 仅 gcs-* 前缀，不与 global.css 冲突。
+ * 素材来源见 src/components/gacha/gachaData.ts；无真素材的形状（普拉娜剪影、
+ * 光环、闪光、签名笔迹）用 CSS 兜底，对应 DOM 上有 data-ui-source="css-fallback"。
+ */
+
+.gcs-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 60;
+  background: #0b0e14;
+  overflow: hidden;
+  user-select: none;
+  animation: gcs-fade-in 0.28s both;
+}
+
+@keyframes gcs-fade-in {
+  from {
+    opacity: 0;
+  }
+}
+
+/* ------------------------------------------------ 第一幕：系统室登场 */
+
+.gcs-stage {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+}
+
+.gcs-room {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 32%;
+  animation: gcs-room-in 1.4s both;
+  filter: saturate(1.05);
+}
+
+@keyframes gcs-room-in {
+  from {
+    opacity: 0;
+    transform: scale(1.07);
+  }
+}
+
+/* 压暗四周，突出角色 */
+.gcs-room-dim {
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(ellipse 62% 72% at 50% 46%, transparent 42%, rgba(8, 12, 22, 0.72) 100%),
+    linear-gradient(180deg, rgba(8, 12, 22, 0.35), transparent 30% 70%, rgba(8, 12, 22, 0.5));
+  pointer-events: none;
+}
+
+.gcs-char {
+  position: absolute;
+  left: 12%;
+  bottom: 0;
+  height: 72%;
+  aspect-ratio: 246 / 290;
+  animation: gcs-char-in 0.9s cubic-bezier(0.22, 1.4, 0.4, 1) both;
+}
+
+.gcs-char-pull {
+  animation: gcs-char-hop 0.5s ease both;
+}
+
+@keyframes gcs-char-in {
+  from {
+    transform: translateX(-56vw) scale(0.9);
+    opacity: 0;
+  }
+}
+
+@keyframes gcs-char-hop {
+  30% {
+    transform: translateY(-16px) rotate(-2deg);
+  }
+  60% {
+    transform: translateY(0);
+  }
+  80% {
+    transform: translateY(-5px);
+  }
+}
+
+.gcs-arona {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  filter: drop-shadow(0 18px 30px rgba(0, 10, 25, 0.5));
+  animation: gcs-idle-bob 2.6s ease-in-out infinite;
+}
+
+@keyframes gcs-idle-bob {
+  50% {
+    transform: translateY(-7px);
+  }
+}
+
+/* ---- 普拉娜 CSS 剪影兜底（无预合成真素材）---- */
+
+.gcs-plana {
+  position: relative;
+  width: 62%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.gcs-plana-body {
+  position: absolute;
+  inset: 12% 6% 0;
+  background: linear-gradient(175deg, #2b3346 8%, #1d2432 46%, #141a27 100%);
+  border-radius: 46% 46% 12% 12% / 34% 34% 6% 6%;
+  box-shadow:
+    0 0 34px rgba(120, 170, 255, 0.16),
+    inset 0 1px 0 rgba(150, 190, 255, 0.28);
+}
+
+.gcs-plana-halo {
+  position: absolute;
+  left: 50%;
+  top: 5.5%;
+  width: 42%;
+  aspect-ratio: 2.4;
+  transform: translateX(-50%);
+  border-radius: 50%;
+  border: 3px solid rgba(150, 205, 255, 0.85);
+  box-shadow:
+    0 0 18px rgba(120, 190, 255, 0.75),
+    inset 0 0 12px rgba(120, 190, 255, 0.5);
+  animation: gcs-halo-spin 3.2s linear infinite;
+}
+
+@keyframes gcs-halo-spin {
+  50% {
+    transform: translateX(-50%) scale(1.06);
+    opacity: 0.85;
+  }
+}
+
+.gcs-plana-eye {
+  position: absolute;
+  top: 26%;
+  width: 9%;
+  height: 4.5%;
+  border-radius: 50%;
+  animation: gcs-eye-glow 1.8s ease-in-out infinite;
+}
+
+.gcs-plana-eye-l {
+  left: 33%;
+  background: #9fdcff;
+  box-shadow: 0 0 14px 3px rgba(130, 200, 255, 0.8);
+}
+
+.gcs-plana-eye-r {
+  right: 33%;
+  background: #ff8fa3;
+  box-shadow: 0 0 14px 3px rgba(255, 120, 150, 0.8);
+}
+
+@keyframes gcs-eye-glow {
+  50% {
+    opacity: 0.75;
+  }
+}
+
+/* ---- 爆发 ---- */
+
+.gcs-burst-wrap {
+  position: absolute;
+  left: calc(12% + 12%);
+  bottom: 38%;
+  width: 340px;
+  height: 340px;
+  transform: translate(-50%, 50%);
+  pointer-events: none;
+}
+
+.gcs-burst {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  mix-blend-mode: screen;
+  animation: gcs-burst 0.85s 0.62s both;
+}
+
+@keyframes gcs-burst {
+  0% {
+    opacity: 0;
+    transform: scale(0.12);
+  }
+  45% {
+    opacity: 1;
+    transform: scale(1.5);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(2.6);
+  }
+}
+
+.gcs-flash {
+  position: absolute;
+  inset: -60%;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(255, 255, 255, 0.95), rgba(200, 230, 255, 0) 62%);
+  animation: gcs-flash 0.7s 0.72s both;
+}
+
+.gcs-flash.ssr {
+  background: radial-gradient(circle, rgba(255, 250, 225, 0.98), rgba(255, 214, 120, 0.25) 45%, rgba(255, 214, 120, 0) 70%);
+}
+
+@keyframes gcs-flash {
+  0% {
+    opacity: 0;
+  }
+  35% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+/* SSR 时刻：眼部辉光贴图脉冲 */
+.gcs-eye-fx {
+  position: absolute;
+  left: 8%;
+  top: 6%;
+  width: 84%;
+  mix-blend-mode: screen;
+  pointer-events: none;
+  animation: gcs-eye-fx 0.9s 0.9s both;
+}
+
+@keyframes gcs-eye-fx {
+  0% {
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.9;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+/* ------------------------------------------------ 跳过按钮 */
+
+.gcs-skip {
+  position: absolute;
+  right: 22px;
+  bottom: 20px;
+  z-index: 5;
+  padding: 8px 18px;
+  border-radius: 999px;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  background: rgba(10, 14, 22, 0.55);
+  color: #fff;
+  font-size: 13px;
+  cursor: pointer;
+  backdrop-filter: blur(4px);
+}
+
+.gcs-skip:hover {
+  background: rgba(30, 40, 60, 0.75);
+}
+
+/* ------------------------------------------------ 第二幕：翻卡 */
+
+.gcs-flip {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  background:
+    radial-gradient(ellipse 70% 60% at 50% 40%, rgba(38, 52, 84, 0.5), transparent 70%),
+    linear-gradient(160deg, #101624, #0b0e14 70%);
+  animation: gcs-fade-in 0.3s both;
+}
+
+.gcs-flip-grid {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(120px, 168px));
+  gap: 18px 16px;
+  perspective: 1200px;
+}
+
+.gcs-flip.single .gcs-flip-grid {
+  grid-template-columns: minmax(190px, 250px);
+}
+
+.gcs-card-wrap {
+  animation: gcs-card-drop 0.4s both;
+  animation-delay: calc(var(--i) * 40ms);
+}
+
+@keyframes gcs-card-drop {
+  from {
+    opacity: 0;
+    transform: translateY(26px) scale(0.9);
+  }
+}
+
+.gcs-card {
+  position: relative;
+  aspect-ratio: 3 / 4;
+  transform-style: preserve-3d;
+  animation: gcs-card-flip 0.52s both;
+  animation-delay: calc(var(--i) * 240ms);
+}
+
+@keyframes gcs-card-flip {
+  from {
+    transform: rotateY(0);
+  }
+  to {
+    transform: rotateY(180deg);
+  }
+}
+
+.gcs-face {
+  position: absolute;
+  inset: 0;
+  border-radius: 12px;
+  backface-visibility: hidden;
+  overflow: hidden;
+  box-shadow: 0 10px 26px rgba(0, 0, 0, 0.45);
+}
+
+/* 背面：稀有度剪影卡（真素材）+ 稀有度色 aura */
+.gcs-back {
+  display: grid;
+  place-items: center;
+  background: #10141d;
+}
+
+.gcs-back img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.92;
+}
+
+.gcs-back .gcs-card-q {
+  position: absolute;
+  font-size: 42px;
+  font-weight: 800;
+  color: rgba(255, 255, 255, 0.85);
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.6);
+}
+
+.gcs-card-wrap.s1 .gcs-back {
+  box-shadow: 0 0 16px rgba(141, 157, 171, 0.35), 0 10px 26px rgba(0, 0, 0, 0.45);
+}
+
+.gcs-card-wrap.s2 .gcs-back {
+  box-shadow: 0 0 18px rgba(155, 116, 216, 0.55), 0 10px 26px rgba(0, 0, 0, 0.45);
+}
+
+.gcs-card-wrap.s3 .gcs-back {
+  box-shadow: 0 0 22px rgba(255, 199, 90, 0.75), 0 0 60px rgba(255, 199, 90, 0.3), 0 10px 26px rgba(0, 0, 0, 0.45);
+  animation:
+    gcs-card-flip 0.52s both,
+    gcs-gold-pulse 1.1s ease-in-out infinite;
+  animation-delay: calc(var(--i) * 240ms), calc(var(--i) * 240ms);
+}
+
+@keyframes gcs-gold-pulse {
+  50% {
+    box-shadow: 0 0 30px rgba(255, 214, 120, 0.95), 0 0 80px rgba(255, 199, 90, 0.45), 0 10px 26px rgba(0, 0, 0, 0.45);
+  }
+}
+
+/* 正面：头像卡 */
+.gcs-front {
+  transform: rotateY(180deg);
+  background: linear-gradient(165deg, #f4f8fb, #dfe9f1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.gcs-front .gcs-card-avatar {
+  width: 74%;
+  aspect-ratio: 1;
+  margin-top: 8%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.gcs-card-star {
+  font-size: 14px;
+  letter-spacing: 2px;
+  margin-top: 4%;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.18);
+}
+
+.gcs-card-name {
+  font-size: 12px;
+  font-weight: 700;
+  color: #23303c;
+  max-width: 88%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-bottom: 6%;
+}
+
+.gcs-card-up {
+  position: absolute;
+  top: 6px;
+  right: 6px;
+  padding: 1px 8px;
+  border-radius: 999px;
+  background: rgba(0, 0, 0, 0.55);
+  color: #ffe9a8;
+  font-size: 10.5px;
+  font-weight: 700;
+}
+
+.gcs-card-initial {
+  display: grid;
+  place-items: center;
+  width: 74%;
+  aspect-ratio: 1;
+  margin-top: 8%;
+  border-radius: 10px;
+  background: #e3ecf3;
+  color: #7f93a4;
+  font-size: 44px;
+  font-weight: 800;
+}
+
+.gcs-card-initial.big {
+  font-size: 90px;
+  margin: 0;
+}
+
+/* ------------------------------------------------ 第三幕：新学生揭示 */
+
+.gcs-reveal {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-items: center;
+  background: linear-gradient(150deg, #dfeaf5, #c9dcee);
+  animation: gcs-fade-in 0.35s both;
+}
+
+.gcs-reveal-bg {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.5;
+}
+
+.gcs-reveal-show {
+  position: relative;
+  width: min(34vw, 380px);
+  aspect-ratio: 1;
+  display: grid;
+  place-items: center;
+  animation: gcs-show-in 0.8s 0.15s cubic-bezier(0.2, 1.3, 0.4, 1) both;
+}
+
+@keyframes gcs-show-in {
+  from {
+    opacity: 0;
+    transform: scale(0.72);
+  }
+}
+
+.gcs-reveal-burst {
+  position: absolute;
+  inset: -28%;
+  mix-blend-mode: screen;
+  animation: gcs-reveal-burst 1.5s 0.25s both;
+  pointer-events: none;
+}
+
+@keyframes gcs-reveal-burst {
+  0% {
+    opacity: 0;
+    transform: scale(0.3) rotate(-12deg);
+  }
+  35% {
+    opacity: 0.95;
+  }
+  100% {
+    opacity: 0;
+    transform: scale(1.7) rotate(8deg);
+  }
+}
+
+.gcs-reveal-avatar {
+  position: relative;
+  width: 88%;
+  aspect-ratio: 1;
+  object-fit: cover;
+  border-radius: 18px;
+  box-shadow: 0 18px 44px rgba(30, 60, 100, 0.35);
+}
+
+.gcs-paper-wrap {
+  position: relative;
+  width: min(30vw, 340px);
+  aspect-ratio: 830 / 1064;
+  transform: rotate(-2.4deg);
+  animation: gcs-paper-in 0.7s 0.1s cubic-bezier(0.2, 1.2, 0.4, 1) both;
+}
+
+@keyframes gcs-paper-in {
+  from {
+    opacity: 0;
+    transform: rotate(-2.4deg) translateY(60px);
+  }
+}
+
+.gcs-paper {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  filter: drop-shadow(0 16px 30px rgba(20, 40, 70, 0.3));
+}
+
+.gcs-paper-inner {
+  position: absolute;
+  inset: 9% 12% 12% 12%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+}
+
+.gcs-paper-title {
+  font-size: 12px;
+  letter-spacing: 4px;
+  color: #7d8ea0;
+  font-weight: 700;
+}
+
+.gcs-paper-avatar {
+  width: 56%;
+  aspect-ratio: 1;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-top: 4px;
+}
+
+.gcs-paper-name {
+  font-size: 22px;
+  color: #1f2c3a;
+  margin-top: 4px;
+}
+
+.gcs-paper-stars {
+  color: #f0a11a;
+  font-size: 18px;
+  letter-spacing: 3px;
+}
+
+.gcs-paper-sign {
+  margin-top: 8px;
+  font-family: 'Segoe Script', '楷体', KaiTi, cursive;
+  font-style: italic;
+  font-size: 15px;
+  color: #2c4a6e;
+  animation: gcs-sign-in 1s 0.8s both;
+}
+
+@keyframes gcs-sign-in {
+  from {
+    opacity: 0;
+    clip-path: inset(0 100% 0 0);
+  }
+  to {
+    opacity: 1;
+    clip-path: inset(0 0 0 0);
+  }
+}
+
+/* ------------------------------------------------ 终幕：结果页 */
+
+.gcs-result {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  animation: gcs-fade-in 0.35s both;
+}
+
+.gcs-result-bg {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  animation: gcs-result-bg-in 1.6s both;
+}
+
+@keyframes gcs-result-bg-in {
+  from {
+    transform: scale(1.08);
+  }
+}
+
+.gcs-result-dim {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(10, 16, 28, 0.55), rgba(10, 16, 28, 0.25) 30% 65%, rgba(10, 16, 28, 0.6));
+}
+
+.gcs-result-head {
+  position: relative;
+  width: min(920px, 92vw);
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin: 26px 0 14px;
+  color: #fff;
+}
+
+.gcs-result-kicker {
+  display: block;
+  font-size: 12.5px;
+  letter-spacing: 3px;
+  opacity: 0.85;
+}
+
+.gcs-result-title {
+  font-size: 19px;
+  text-shadow: 0 2px 10px rgba(0, 20, 45, 0.5);
+}
+
+.gcs-result-best {
+  font-size: 13px;
+  text-shadow: 0 2px 8px rgba(0, 20, 45, 0.5);
+}
+
+.gcs-result-grid {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(5, minmax(140px, 176px));
+  gap: 14px 12px;
+}
+
+.gcs-result-grid.single {
+  grid-template-columns: minmax(200px, 240px);
+}
+
+.gcs-r-card {
+  position: relative;
+  aspect-ratio: 3 / 4;
+  border-radius: 12px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  background: #fff;
+  animation: gcs-r-card-in 0.45s both;
+  animation-delay: calc(var(--i) * 45ms);
+  transition: transform 0.15s;
+}
+
+.gcs-r-card:hover {
+  transform: translateY(-4px) scale(1.03);
+}
+
+@keyframes gcs-r-card-in {
+  from {
+    opacity: 0;
+    transform: translateY(20px) scale(0.92);
+  }
+}
+
+.gcs-r-card .gcs-r-avatar {
+  width: 74%;
+  aspect-ratio: 1;
+  margin-top: 8%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.gcs-r-card.s3 {
+  box-shadow: 0 0 18px rgba(255, 199, 90, 0.65), 0 0 46px rgba(255, 199, 90, 0.25);
+}
+
+.gcs-r-card.s2 {
+  box-shadow: 0 0 14px rgba(155, 116, 216, 0.5);
+}
+
+.gcs-result-foot {
+  position: relative;
+  margin: 18px 0 22px;
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.gcs-again {
+  min-width: 150px;
+}
+
+.gcs-result-hint {
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.75);
+  margin-left: 8px;
+}
+
+/* 单卡大图 */
+
+.gcs-zoom {
+  position: absolute;
+  inset: 0;
+  z-index: 8;
+  display: grid;
+  place-items: center;
+  background: rgba(6, 10, 18, 0.72);
+  animation: gcs-fade-in 0.2s both;
+}
+
+.gcs-zoom-card {
+  display: flex;
+  gap: 22px;
+  align-items: center;
+  padding: 26px 30px;
+  border-radius: 16px;
+  background: linear-gradient(160deg, #f6fafd, #e2ecf4);
+  box-shadow: 0 24px 70px rgba(0, 0, 0, 0.55);
+  animation: gcs-zoom-in 0.24s cubic-bezier(0.2, 1.3, 0.4, 1) both;
+}
+
+@keyframes gcs-zoom-in {
+  from {
+    opacity: 0;
+    transform: scale(0.86);
+  }
+}
+
+.gcs-zoom-avatar {
+  width: 200px;
+  aspect-ratio: 1;
+  object-fit: cover;
+  border-radius: 14px;
+}
+
+.gcs-zoom-info {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  min-width: 170px;
+}
+
+.gcs-zoom-name {
+  font-size: 24px;
+}
+
+.gcs-zoom-stars {
+  font-size: 19px;
+  color: #f0a11a;
+  letter-spacing: 2px;
+}
+
+.gcs-zoom-dim2 {
+  color: #c4cfda;
+}
+
+.gcs-zoom-badge {
+  align-self: flex-start;
+  padding: 2px 10px;
+  border-radius: 999px;
+  background: #e6eef5;
+  color: #43566a;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.gcs-zoom-badge.up {
+  background: #2c3e52;
+  color: #ffe9a8;
+}
+
+.gcs-zoom-sub {
+  font-size: 12.5px;
+  color: #66788c;
+}
+
+.gcs-zoom-close {
+  position: absolute;
+  right: 24px;
+  bottom: 22px;
+}
+
+/* ------------------------------------------------ 降级：减弱动态 */
+
+@media (prefers-reduced-motion: reduce) {
+  .gcs-overlay *,
+  .gcs-overlay *::before,
+  .gcs-overlay *::after {
+    animation-duration: 0.01ms !important;
+    animation-delay: 0ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* 窄窗口：结果网格从 5 列收缩 */
+@media (max-width: 900px) {
+  .gcs-flip-grid,
+  .gcs-result-grid {
+    grid-template-columns: repeat(5, minmax(84px, 120px));
+    gap: 10px 8px;
+  }
+
+  .gcs-char {
+    height: 58%;
+  }
+
+  .gcs-burst-wrap {
+    width: 220px;
+    height: 220px;
+  }
+
+  .gcs-reveal {
+    grid-template-columns: 1fr;
+    gap: 8px;
+  }
+
+  .gcs-reveal-show,
+  .gcs-paper-wrap {
+    width: min(42vw, 260px);
+  }
+
+  .gcs-zoom-card {
+    flex-direction: column;
+  }
+}

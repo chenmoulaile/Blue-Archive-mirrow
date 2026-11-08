@@ -7,9 +7,27 @@ import { DEFAULT_SETTINGS, resetSettings } from './config';
 const SAVE_VERSION = 1;
 
 export const DAILY_PYROXENE = 120;
+export const DAILY_CREDIT = 50_000;
 export const WEEKLY_BONUS = 360;
 export const STORY_CLEAR_REWARD = 40;
 export const PULL_COST = 120;
+
+/** 体力（AP）恢复参数，与 game-ui-spec.ts 的 AP_REGEN 一致 */
+export const AP_MAX = 240;
+export const AP_REGEN_MS = 6 * 60 * 1000;
+
+/** 按时间差结算 AP 恢复（纯函数，不落盘；gained>0 时由调用方写 store） */
+export function apRecharge(
+  ap: { value: number; updatedAt: number },
+  now: number
+): { value: number; updatedAt: number } {
+  const gained = Math.floor((now - ap.updatedAt) / AP_REGEN_MS);
+  if (gained <= 0) return ap;
+  return {
+    value: Math.min(AP_MAX, ap.value + gained),
+    updatedAt: ap.updatedAt + gained * AP_REGEN_MS,
+  };
+}
 
 export function todayStr(d = new Date()): string {
   const p = (n: number) => String(n).padStart(2, '0');
@@ -23,7 +41,8 @@ export function createDefaultSave(): SaveData {
     lastSeen: Date.now(),
     // 新账号的初始状态：Lv.1 / 0 经验 / 名称「老师」
     teacher: { name: '老师', level: 1, exp: 0 },
-    currency: { pyroxene: 1200, tickets: 0 },
+    currency: { pyroxene: 1200, tickets: 0, credit: 1_000_000 },
+    ap: { value: AP_MAX, updatedAt: Date.now() },
     signIn: { lastDate: '', streak: 0, total: 0 },
     story: { read: {}, progress: {}, cleared: [] },
     gacha: {
@@ -79,6 +98,11 @@ class SaveStore {
         this.data.currency = { ...createDefaultSave().currency, ...(raw.currency ?? {}) };
         // 老存档没有新字段时用默认值补齐；locale/voice 缺省即 zh-CN + ja
         this.data.settings = { ...DEFAULT_SETTINGS, ...(raw.settings ?? {}) };
+        // 体力：老存档没有 ap 字段就从满值起算，再按离线时长恢复
+        this.data.ap = apRecharge(
+          raw.ap ?? { value: AP_MAX, updatedAt: Date.now() },
+          Date.now()
+        );
       }
     } catch {
       /* 首次运行没有存档 */
@@ -103,6 +127,7 @@ class SaveStore {
       total: this.data.signIn.total + 1,
     };
     this.data.currency.pyroxene += DAILY_PYROXENE + bonus;
+    this.data.currency.credit = (this.data.currency.credit ?? 0) + DAILY_CREDIT;
     this.data.cafe.lastCollect = this.data.cafe.lastCollect || Date.now();
     this.scheduleSave();
   }

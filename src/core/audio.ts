@@ -107,6 +107,22 @@ class AudioManager {
     el.play().catch(() => {});
   }
 
+  /**
+   * 立刻停掉所有在播/排队中的 SE（招募演出跳过用）。
+   * 只动 sePool，不影响 BGM 与语音。
+   */
+  stopSeAll(): void {
+    for (const el of this.sePool) {
+      try {
+        el.pause();
+        el.removeAttribute('src');
+      } catch {
+        /* 元素可能已释放 */
+      }
+    }
+    this.sePool.length = 0;
+  }
+
   /** 音频缺失统计，设置页展示用 */
   get missingCount(): number {
     return this.missing.size;

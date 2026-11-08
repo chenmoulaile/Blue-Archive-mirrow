@@ -262,6 +262,157 @@ export const LOBBY_UI = {
   touchCooldownMs: v(800, 'estimated'),
 };
 
+// ---------------------------------------------------------------- 大厅：中央学生舞台
+
+/**
+ * 大厅中央的回忆大厅 Spine 模型。
+ * 锚点/占比按 Wiki ロビー页「看板娘居中偏左、给右侧图标列让位」的分区说明，
+ * 冷却与连点参数按观感估算待校准。
+ */
+export const HOME_STAGE = {
+  /** 模型水平锚点（视口宽度比例）；真实游戏人物略偏左中 */
+  anchorX: v(0.5, 'wiki_layout'),
+  /** 模型底边锚点（视口高度比例）；贴着画面底边 */
+  anchorY: v(1, 'wiki_layout'),
+  /** 初始缩放：相对「整只模型装进画面」的倍数（见 SpineView zoom 语义） */
+  initialZoom: v(1.35, 'estimated'),
+  minZoom: v(0.5, 'estimated'),
+  maxZoom: v(6, 'estimated'),
+  /** 每次滚轮的缩放步进 */
+  zoomStep: v(1.08, 'estimated'),
+  /** 点击学生触发语音/动画/好感度的冷却 */
+  touchCooldownMs: v(700, 'estimated'),
+  /** 连点判定窗口：窗口内再点算连点（真实游戏连点有专属语音节奏） */
+  rapidWindowMs: v(2600, 'estimated'),
+  /** 每次触摸好感度增量（同人设定：桃信 favor 同字段） */
+  favorPerTouch: v(2, 'estimated'),
+};
+
+// ---------------------------------------------------------------- 大厅：右侧功能菜单（真实版）
+
+/**
+ * 真实游戏大厅右侧竖排功能菜单（自上而下）。
+ * 顺序按 Wiki ロビー页右侧功能区说明 + Steam 简中客户端菜单命名
+ * （日程表/作战/咖啡厅/商店/社团/制造/招募/邮件/菜单），图标全部用
+ * 提取到的 UI 图集原件（key 实测存在于 data/ui_atlas.json）。
+ * sprite 名与图标尺寸来自图集，属 assetbundle；排列顺序为 wiki_layout。
+ */
+export const SIDE_MENU_REAL = [
+  { key: 'schedule', label: '日程表', icon: 'Common/Common_Icon_Map', zone: '①' },
+  { key: 'mission', label: '作战', icon: 'Common/Common_Icon_Mission', zone: '②' },
+  { key: 'cafe', label: '咖啡厅', icon: 'Common/Common_Icon_Cafe', zone: '③' },
+  { key: 'shop', label: '商店', icon: 'Common/Common_Icon_Shop', zone: '④' },
+  { key: 'club', label: '社团', icon: 'Common/Common_Icon_Social', zone: '⑤' },
+  { key: 'craft', label: '制造', icon: 'Common/Common_Icon_Craft', zone: '⑥' },
+  { key: 'gacha', label: '招募', icon: 'Common/Common_Icon_Gacha', zone: '⑦' },
+  { key: 'mail', label: '邮件', icon: 'Common/Common_Icon_Mail', zone: '⑧' },
+  { key: 'menu', label: '菜单', icon: 'Common/Common_Icon_Option', zone: '⑨' },
+] as const;
+
+export const SIDE_MENU_REAL_SPEC = {
+  /** 圆形按钮底板（Common_Btn_Circle_W 实测 140×142） */
+  plate: v('Common/Common_Btn_Circle_W', 'assetbundle'),
+  iconSize: v(76, 'estimated'),
+  gap: v(10, 'estimated'),
+  rightMargin: v(24, 'estimated'),
+  bottomOffset: v(150, 'estimated'),
+};
+
+/** 左下编队/任务入口按钮底板（实测存在于图集） */
+export const LOBBY_QUICK_BTN = {
+  plateY: v('Common/Common_Btn_Normal_Y_S_Pt', 'assetbundle', '黄色按钮底板 217×140'),
+  plateB: v('Common/Common_Btn_Normal_B_S_Pt', 'assetbundle', '蓝色按钮底板 217×140'),
+  formationIcon: v('Common/Common_Icon_Formation_Circle', 'assetbundle'),
+  missionIcon: v('Common/Common_Icon_Mission', 'assetbundle'),
+  width: v(150, 'estimated'),
+  height: v(64, 'estimated'),
+  gap: v(12, 'estimated'),
+  left: v(24, 'estimated'),
+  bottom: v(120, 'estimated'),
+};
+
+/** 右下 MomoTalk 大入口 */
+export const MOMOTALT_ENTRY = {
+  icon: v('Common/Common_Icon_MoMoTalk', 'assetbundle', '实测 92×129'),
+  /** 红点角标原件 */
+  reddot: v('Common/Common_Icon_Reddot', 'assetbundle', '实测 39×35'),
+  width: v(120, 'estimated'),
+  height: v(120, 'estimated'),
+  right: v(28, 'estimated'),
+  bottom: v(24, 'estimated'),
+};
+
+// ---------------------------------------------------------------- 顶栏货币（真实图标）
+
+/** 顶栏货币图标：体力 / 信用点 / 青辉石，全部实测存在于图集 */
+export const TOP_CURRENCY_ICONS = {
+  stamina: v('Common/Common_Icon_Stamina', 'assetbundle', '实测 46×71'),
+  credit: v('Common/Common_Icon_Gold', 'assetbundle', '实测 69×64'),
+  pyroxene: v('Conquest/Common_Icon_Diamond', 'assetbundle', '实测 69×71'),
+};
+
+/**
+ * 体力（AP）恢复。真实游戏上限随老师等级提升、每 6~7 分钟回 1 点；
+ * 这里取低等级段的常见值，均标 estimated 待按等级曲线校准。
+ */
+export const AP_REGEN = {
+  max: v(240, 'estimated', 'AP 上限（低等级段）'),
+  minutesPerPoint: v(6, 'estimated', '每几点恢复 1 AP'),
+  /** 顶栏显示刷新间隔 */
+  tickMs: v(30_000, 'estimated'),
+};
+
+// ---------------------------------------------------------------- 启动流程：标题 / 加载过场
+
+/** 标题画面。BA 标题 logo 是艺术字（图集无原件），文字版式为 typography-fallback */
+export const TITLE_SCREEN = {
+  /** 游戏内标题按钮原文 */
+  promptEn: v('TOUCH TO START', 'wiki_layout', 'Steam 简中客户端标题页按钮原文'),
+  promptZh: v('点击开始', 'wiki_layout'),
+  /** 标题 BGM：Constant Moderato。物理缺失时按序取最小的可用 Theme_* */
+  bgmPrimary: v('Theme_01', 'wiki_layout', '标题曲 Constant Moderato'),
+  bgmFallbackOrder: v(['Theme_02', 'Theme_03', 'Theme_04'] as const, 'estimated',
+    'Theme_01 在 bgm_map.json extracted=false（BGM.molru 尾表未解出，物理缺失），按序号取第一个可用曲'),
+  /** 提示闪烁周期 */
+  promptBlinkMs: v(2200, 'estimated'),
+};
+
+/**
+ * 加载过场（阿罗娜）。任务指定的 resources/npc_portrait 里实测没有 Arona
+ * （grep 无命中），改用 UI 图集原件：
+ *   - 立绘：/res/ui/extra/Image_Char_Arona.png（UGUI Sprite，assetbundle）
+ *   - 加载框角标（兔头）：/res/ui/Common/Loading_Arona.png
+ * 提示文案为同人自撰（游戏内是本地化提示语，无提取文本），标 estimated。
+ */
+export const LOADING_ARONA = {
+  portrait: v('/res/ui/extra/Image_Char_Arona.png', 'assetbundle', '阿罗娜半身立绘'),
+  badge: v('/res/ui/Common/Loading_Arona.png', 'assetbundle', '加载提示框兔头角标'),
+  tipSwitchMs: v(2400, 'estimated'),
+  seOpen: v('SE_Loading_01', 'assetbundle', '实测存在于 se_index.json 与 resources/se'),
+};
+
+/** 加载过场轮换提示文案（同人自撰，待替换为游戏原文提取） */
+export const LOADING_TIPS = v(
+  [
+    '提示：点击大厅的学生可以和她打招呼',
+    '提示：滚轮缩放、拖拽平移，可以凑近看看',
+    '提示：右下角 MomoTalk 有新消息时不要错过',
+    '提示：剧情首通可以领取青辉石',
+    '提示：咖啡厅会随舒适度持续产生收益',
+    '提示：每日签到第 7 天有额外奖励',
+  ],
+  'estimated',
+  '同人自撰加载提示，非游戏原文'
+);
+
+/** 大厅通用按钮 SE（全部实测存在于 se_index.json 且物理 wav 在 resources/se） */
+export const LOBBY_SE = {
+  click: v('SE_Button_01', 'assetbundle'),
+  popupOpen: v('SE_SlideOpen_01', 'assetbundle'),
+  popupClose: v('SE_SlideClose_01', 'assetbundle'),
+  bell: v('SE_Bell_01', 'assetbundle'),
+};
+
 // ---------------------------------------------------------------- 缩放
 
 /** 把 1920×1080 基准下的像素值换算到当前窗口 */
@@ -287,6 +438,6 @@ export function countEstimates(): { total: number; estimate: number } {
     }
     for (const child of Object.values(node as Record<string, unknown>)) walk(child);
   };
-  walk({ TOP_BAR, SIDE_MENU_SPEC, BOTTOM_NAV, EVENT_BANNER, KANBAN, MENU_POPUP, INTRO_TIMING, STORY_UI, MOMOTALK_UI, GACHA_UI, LOBBY_UI });
+  walk({ TOP_BAR, SIDE_MENU_SPEC, BOTTOM_NAV, EVENT_BANNER, KANBAN, MENU_POPUP, INTRO_TIMING, STORY_UI, MOMOTALK_UI, GACHA_UI, LOBBY_UI, HOME_STAGE, SIDE_MENU_REAL, SIDE_MENU_REAL_SPEC, LOBBY_QUICK_BTN, MOMOTALT_ENTRY, TOP_CURRENCY_ICONS, AP_REGEN, TITLE_SCREEN, LOADING_ARONA, LOADING_TIPS, LOBBY_SE });
   return { total, estimate };
 }

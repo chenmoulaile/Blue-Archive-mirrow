@@ -1,5 +1,6 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { NineSlice } from '../components/NineSlice';
+import { GachaCutscene } from '../components/gacha/GachaCutscene';
 import { useApp, navState } from '../core/AppContext';
 import { store, useSave, PULL_COST } from '../core/store';
 import {
@@ -10,7 +11,17 @@ import {
   PITY,
   type PullResult,
 } from '../core/gacha/engine';
-import type { Banner } from '../types';
+import type { Banner, Student } from '../types';
+import '../styles/gacha-cutscene.css';
+
+/** 演出覆盖层的状态（一次抽取一份） */
+interface Cutscene {
+  results: PullResult[];
+  times: 1 | 10;
+  plana: boolean;
+  newStar3: Student | null;
+  bannerTitle: string;
+}
 
 const TYPE_LABEL: Record<string, string> = {
   normal: '常驻',
@@ -32,8 +43,15 @@ export default function GachaPage() {
   const [typeFilter, setTypeFilter] = useState<string>('');
   const [selected, setSelected] = useState<Banner | null>(null);
   const [results, setResults] = useState<PullResult[]>([]);
-  const [revealAll, setRevealAll] = useState(true);
+  const [cut, setCut] = useState<Cutscene | null>(null);
+  const [cutSeq, setCutSeq] = useState(0);
   const resultsRef = useRef<HTMLDivElement>(null);
+
+  const studentById = useMemo(() => new Map(assets.students.map((s) => [s.id, s])), [assets.students]);
+  const studentOf = useCallback(
+    (r: PullResult): Student | null => (r.studentId != null ? studentById.get(r.studentId) ?? null : null),
+    [studentById]
+  );
 
   const banners = useMemo(() => {
     const q = query.trim().toLowerCase();
@@ -88,6 +106,8 @@ export default function GachaPage() {
       }
 
       const stamp = Date.now();
+      // 抽取前的持有表快照，用于判断「新获得的 ★3」（进揭示幕）；只读，不影响保底逻辑
+      const ownedBefore = save.gacha.owned;
       store.update((d) => {
         d.currency.pyroxene -= cost;
         d.gacha.classicPoints = state.classicPoints;
@@ -108,11 +128,18 @@ export default function GachaPage() {
         if (d.gacha.history.length > 800) d.gacha.history.length = 800;
       });
 
+      const fresh = out.find((r) => r.star === 3 && !(ownedBefore[r.name] > 0));
       setResults(out);
-      setRevealAll(times === 1);
-      window.setTimeout(() => resultsRef.current?.scrollIntoView({ behavior: 'smooth', block: 'nearest' }), 60);
+      setCut({
+        results: out,
+        times,
+        plana: limited,
+        newStar3: fresh ? studentById.get(fresh.studentId ?? -1) ?? null : null,
+        bannerTitle: banner.title,
+      });
+      setCutSeq((n) => n + 1);
     },
-    [banner, limited, mode, pool, save.currency.pyroxene, save.gacha, toast]
+    [banner, limited, mode, pool, save.currency.pyroxene, save.gacha, studentById, toast]
   );
 
   const exportHistory = () => {
@@ -257,32 +284,34 @@ export default function GachaPage() {
                 }}
               >
                 <b style={{ fontSize: 13.5 }}>本次结果</b>
-                <div style={{ display: 'flex', gap: 8 }}>
-                  {!revealAll && (
-                    <button className="btn ghost sm" onClick={() => setRevealAll(true)}>
-                      全部翻开
-                    </button>
-                  )}
-                  <button className="btn ghost sm" onClick={() => setResults([])}>
-                    清空
-                  </button>
-                </div>
+                <button className="btn ghost sm" onClick={() => setResults([])}>
+                  清空
+                </button>
               </div>
               <div className="result-grid">
-                {results.map((r, i) => (
-                  <NineSlice
-                    key={i}
-                    name="Dreammaker/Common_Bg_Raius10px"
-                    className={`result-card s${r.star}`}
-                    style={{ animationDelay: revealAll ? `${i * 60}ms` : '0ms' }}
-                  >
-                    <div className="frame">{r.star}★</div>
-                    {r.isUp && <span className="badge">UP</span>}
-                    <div className="info" title={r.name}>
-                      {r.name}
-                    </div>
-                  </NineSlice>
-                ))}
+                {results.map((r, i) => {
+                  const st = studentOf(r);
+                  return (
+                    <NineSlice
+                      key={i}
+                      name="Dreammaker/Common_Bg_Raius10px"
+                      className={`result-card s${r.star}`}
+                      style={{ animationDelay: `${i * 60}ms` }}
+                    >
+                      <div className="frame">
+                        {st?.avatar ? (
+                          <img src={st.avatar} alt={r.name} style={{ width: 74, height: 74, borderRadius: 9, objectFit: 'cover' }} />
+                        ) : (
+                          `${r.star}★`
+                        )}
+                      </div>
+                      {r.isUp && <span className="badge">UP</span>}
+                      <div className="info" title={r.name}>
+                        {r.name}
+                      </div>
+                    </NineSlice>
+                  );
+                })}
               </div>
             </div>
           )}
@@ -340,6 +369,20 @@ export default function GachaPage() {
           </div>
         </div>
       </div>
+
+      {cut && (
+        <GachaCutscene
+          key={cutSeq}
+          results={cut.results}
+          times={cut.times}
+          plana={cut.plana}
+          newStar3={cut.newStar3}
+          studentOf={studentOf}
+          bannerTitle={cut.bannerTitle}
+          onAgain={() => doPull(10)}
+          onClose={() => setCut(null)}
+        />
+      )}
     </div>
   );
 }
