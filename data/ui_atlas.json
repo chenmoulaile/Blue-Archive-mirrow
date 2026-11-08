@@ -21773,6 +21773,1054 @@
     20,
     28
    ]
+  },
+  "FX_TEX_GT_SCHALE": {
+   "file": "/res/ui/extra/FX_TEX_GT_SCHALE.png",
+   "w": 469,
+   "h": 470,
+   "origin": "assetbundle",
+   "atlas": null,
+   "sprite": "FX_TEX_GT_SCHALE"
+  },
+  "AronaPlana_Original_Tablet": {
+   "file": "/res/ui/extra/AronaPlana_Original_Tablet.png",
+   "w": 1024,
+   "h": 1024,
+   "origin": "assetbundle",
+   "atlas": null,
+   "sprite": "AronaPlana_Original_Tablet"
+  },
+  "Arona_Original_Body": {
+   "file": "/res/ui/extra/Arona_Original_Body.png",
+   "w": 1024,
+   "h": 1024,
+   "origin": "assetbundle",
+   "atlas": null,
+   "sprite": "Arona_Original_Body"
+  },
+  "Arona_Original_Body_Mask": {
+   "file": "/res/ui/extra/Arona_Original_Body_Mask.png",
+   "w": 1024,
+   "h": 1024,
+   "origin": "assetbundle",
+   "atlas": null,
+   "sprite": "Arona_Original_Body_Mask"
+  },
+  "Arona_Original_Eye": {
+   "file": "/res/ui/extra/Arona_Original_Eye.png",
+   "w": 512,
+   "h": 512,
+   "origin": "assetbundle",
+   "atlas": null,
+   "sprite": "Arona_Original_Eye"
+  },
+  "Arona_Original_Eye_FX": {
+   "file": "/res/ui/extra/Arona_Original_Eye_FX.png",
+   "w": 512,
+   "h": 512,
+   "origin": "assetbundle",
+   "atlas": null,
+   "sprite": "Arona_Original_Eye_FX"
+  },
+  "Arona_Original_Eyebrow": {
+   "file": "/res/ui/extra/Arona_Original_Eyebrow.png",
+   "w": 16,
+   "h": 16,
+   "origin": "assetbundle",
+   "atlas": null,
+   "sprite": "Arona_Original_Eyebrow"
+  },
+  "Arona_Original_Face": {
+   "file": "/res/ui/extra/Arona_Original_Face.png",
+   "w": 1024,
+   "h": 1024,
+   "origin": "assetbundle",
+   "atlas": null,
+   "sprite": "Arona_Original_Face"
+  },
+  "Arona_Original_Face_Emo": {
+   "file": "/res/ui/extra/Arona_Original_Face_Emo.png",
+   "w": 1024,
+   "h": 1024,
+   "origin": "assetbundle",
+   "atlas": null,
+   "sprite": "Arona_Original_Face_Emo"
+  },
+  "Arona_Original_Face_Mask": {
+   "file": "/res/ui/extra/Arona_Original_Face_Mask.png",
+   "w": 1024,
+   "h": 1024,
+   "origin": "assetbundle",
+   "atlas": null,
+   "sprite": "Arona_Original_Face_Mask"
+  },
+  "Arona_Original_Hair": {
+   "file": "/res/ui/extra/Arona_Original_Hair.png",
+   "w": 1024,
+   "h": 1024,
+   "origin": "assetbundle",
+   "atlas": null,
+   "sprite": "Arona_Original_Hair"
+  },
+  "Arona_Original_Hair_Mask": {
+   "file": "/res/ui/extra/Arona_Original_Hair_Mask.png",
+   "w": 1024,
+   "h": 1024,
+   "origin": "assetbundle",
+   "atlas": null,
+   "sprite": "Arona_Original_Hair_Mask"
+  },
+  "Arona_Original_Hair_Spec": {
+   "file": "/res/ui/extra/Arona_Original_Hair_Spec.png",
+   "w": 1024,
+   "h": 1024,
+   "origin": "assetbundle",
+   "atlas": null,
+   "sprite": "Arona_Original_Hair_Spec"
+  },
+  "Arona_Original_Halo": {
+   "file": "/res/ui/extra/Arona_Original_Halo.png",
+   "w": 128,
+   "h": 128,
+   "origin": "assetbundle",
+   "atlas": null,
+   "sprite": "Arona_Original_Halo"
+  },
+  "Arona_Original_Tablet": {
+   "file": "/res/ui/extra/Arona_Original_Tablet.png",
+   "w": 512,
+   "h": 512,
+   "origin": "assetbundle",
+   "atlas": null,
+   "sprite": "Arona_Original_Tablet"
+  },
+  "Bg_Public_Star_Night": {
+   "file": "/res/ui/extra/Bg_Public_Star_Night.png",
+   "w": 1255,
+   "h": 864,
+   "origin": "assetbundle",
+   "atlas": null,
+   "sprite": "Bg_Public_Star_Night"
+  },
+  "Common_Icon_MoveTitleScene": {
+   "file": "/res/ui/extra/Common_Icon_MoveTitleScene.png",
+   "w": 113,
+   "h": 102,
+   "origin": "assetbundle",
+   "atlas": null,
+   "sprite": "Common_Icon_MoveTitleScene"
+  },
+  "Common_ImgBtn_EventTitleBg": {
+   "file": "/res/ui/extra/Common_ImgBtn_EventTitleBg.png",
+   "w": 251,
+   "h": 254,
+   "origin": "assetbundle",
+   "atlas": null,
+   "sprite": "Common_ImgBtn_EventTitleBg"
+  },
+  "Deco_GachaItemBg": {
+   "file": "/res/ui/extra/Deco_GachaItemBg.png",
+   "w": 300,
+   "h": 249,
+   "origin": "assetbundle",
+   "atlas": null,
+   "sprite": "Deco_GachaItemBg"
+  },
+  "Event_CardShop_BG": {
+   "file": "/res/ui/extra/Event_CardShop_BG.png",
+   "w": 242,
+   "h": 272,
+   "origin": "assetbundle",
+   "atlas": null,
+   "sprite": "Event_CardShop_BG"
+  },
+  "Event_CardShop_Deco_01": {
+   "file": "/res/ui/extra/Event_CardShop_Deco_01.png",
+   "w": 28,
+   "h": 28,
+   "origin": "assetbundle",
+   "atlas": null,
+   "sprite": "Event_CardShop_Deco_01"
+  },
+  "Event_CardShop_Line": {
+   "file": "/res/ui/extra/Event_CardShop_Line.png",
+   "w": 10,
+   "h": 10,
+   "origin": "assetbundle",
+   "atlas": null,
+   "sprite": "Event_CardShop_Line"
+  },
+  "Event_CardShop_Pin": {
+   "file": "/res/ui/extra/Event_CardShop_Pin.png",
+   "w": 44,
+   "h": 44,
+   "origin": "assetbundle",
+   "atlas": null,
+   "sprite": "Event_CardShop_Pin"
+  },
+  "Event_CgCollection_836_Deco_Sparkle": {
+   "file": "/res/ui/extra/Event_CgCollection_836_Deco_Sparkle.png",
+   "w": 78,
+   "h": 78,
+   "origin": "assetbundle",
+   "atlas": null,
+   "sprite": "Event_CgCollection_836_Deco_Sparkle"
+  },
+  "Event_Deco_Ticket_810": {
+   "file": "/res/ui/extra/Event_Deco_Ticket_810.png",
+   "w": 114,
+   "h": 88,
+   "origin": "assetbundle",
+   "atlas": null,
+   "sprite": "Event_Deco_Ticket_810"
+  },
+  "Event_Gacha_Btn_Icon": {
+   "file": "/res/ui/extra/Event_Gacha_Btn_Icon.png",
+   "w": 182,
+   "h": 182,
+   "origin": "assetbundle",
+   "atlas": null,
+   "sprite": "Event_Gacha_Btn_Icon"
+  },
+  "Event_Gacha_Frame": {
+   "file": "/res/ui/extra/Event_Gacha_Frame.png",
+   "w": 108,
+   "h": 264,
+   "origin": "assetbundle",
+   "atlas": null,
+   "sprite": "Event_Gacha_Frame"
+  },
+  "Event_Gacha_Frame_Shadow": {
+   "file": "/res/ui/extra/Event_Gacha_Frame_Shadow.png",
+   "w": 42,
+   "h": 44,
+   "origin": "assetbundle",
+   "atlas": null,
+   "sprite": "Event_Gacha_Frame_Shadow"
+  },
+  "Event_Gacha_ItemBG_Glow": {
+   "file": "/res/ui/extra/Event_Gacha_ItemBG_Glow.png",
+   "w": 118,
+   "h": 118,
+   "origin": "assetbundle",
+   "atlas": null,
+   "sprite": "Event_Gacha_ItemBG_Glow"
+  },
+  "Event_Gacha_ItemBG_Normal": {
+   "file": "/res/ui/extra/Event_Gacha_ItemBG_Normal.png",
+   "w": 252,
+   "h": 246,
+   "origin": "assetbundle",
+   "atlas": null,
+   "sprite": "Event_Gacha_ItemBG_Normal"
+  },
+  "Event_Gacha_ItemBG_Special": {
+   "file": "/res/ui/extra/Event_Gacha_ItemBG_Special.png",
+   "w": 252,
+   "h": 246,
+   "origin": "assetbundle",
+   "atlas": null,
+   "sprite": "Event_Gacha_ItemBG_Special"
+  },
+  "Event_Gacha_Shelf": {
+   "file": "/res/ui/extra/Event_Gacha_Shelf.png",
+   "w": 108,
+   "h": 50,
+   "origin": "assetbundle",
+   "atlas": null,
+   "sprite": "Event_Gacha_Shelf"
+  },
+  "Event_Gacha_Shelf_Shadow": {
+   "file": "/res/ui/extra/Event_Gacha_Shelf_Shadow.png",
+   "w": 158,
+   "h": 18,
+   "origin": "assetbundle",
+   "atlas": null,
+   "sprite": "Event_Gacha_Shelf_Shadow"
+  },
+  "Event_Gacha_Ticket_Normal": {
+   "file": "/res/ui/extra/Event_Gacha_Ticket_Normal.png",
+   "w": 234,
+   "h": 194,
+   "origin": "assetbundle",
+   "atlas": null,
+   "sprite": "Event_Gacha_Ticket_Normal"
+  },
+  "Event_Gacha_Ticket_Special": {
+   "file": "/res/ui/extra/Event_Gacha_Ticket_Special.png",
+   "w": 234,
+   "h": 194,
+   "origin": "assetbundle",
+   "atlas": null,
+   "sprite": "Event_Gacha_Ticket_Special"
+  },
+  "FX_TEX_Blk_A_Shape_01": {
+   "file": "/res/ui/extra/FX_TEX_Blk_A_Shape_01.png",
+   "w": 2048,
+   "h": 2048,
+   "origin": "assetbundle",
+   "atlas": null,
+   "sprite": "FX_TEX_Blk_A_Shape_01"
+  },
+  "FX_TEX_Blk_A_Shape_02": {
+   "file": "/res/ui/extra/FX_TEX_Blk_A_Shape_02.png",
+   "w": 256,
+   "h": 512,
+   "origin": "assetbundle",
+   "atlas": null,
+   "sprite": "FX_TEX_Blk_A_Shape_02"
+  },
+  "FX_TEX_Blk_A_Shape_03": {
+   "file": "/res/ui/extra/FX_TEX_Blk_A_Shape_03.png",
+   "w": 512,
+   "h": 512,
+   "origin": "assetbundle",
+   "atlas": null,
+   "sprite": "FX_TEX_Blk_A_Shape_03"
+  },
+  "FX_TEX_GT_Aronaeye1": {
+   "file": "/res/ui/extra/FX_TEX_GT_Aronaeye1.png",
+   "w": 512,
+   "h": 512,
+   "origin": "assetbundle",
+   "atlas": null,
+   "sprite": "FX_TEX_GT_Aronaeye1"
+  },
+  "FX_TEX_GT_Ball10": {
+   "file": "/res/ui/extra/FX_TEX_GT_Ball10.png",
+   "w": 512,
+   "h": 512,
+   "origin": "assetbundle",
+   "atlas": null,
+   "sprite": "FX_TEX_GT_Ball10"
+  },
+  "FX_TEX_GT_Ball10A": {
+   "file": "/res/ui/extra/FX_TEX_GT_Ball10A.png",
+   "w": 512,
+   "h": 512,
+   "origin": "assetbundle",
+   "atlas": null,
+   "sprite": "FX_TEX_GT_Ball10A"
+  },
+  "FX_TEX_GT_Ball10_A": {
+   "file": "/res/ui/extra/FX_TEX_GT_Ball10_A.png",
+   "w": 512,
+   "h": 512,
+   "origin": "assetbundle",
+   "atlas": null,
+   "sprite": "FX_TEX_GT_Ball10_A"
+  },
+  "FX_TEX_GT_Box": {
+   "file": "/res/ui/extra/FX_TEX_GT_Box.png",
+   "w": 512,
+   "h": 512,
+   "origin": "assetbundle",
+   "atlas": null,
+   "sprite": "FX_TEX_GT_Box"
+  },
+  "FX_TEX_GT_Circle_Blur": {
+   "file": "/res/ui/extra/FX_TEX_GT_Circle_Blur.png",
+   "w": 128,
+   "h": 128,
+   "origin": "assetbundle",
+   "atlas": null,
+   "sprite": "FX_TEX_GT_Circle_Blur"
+  },
+  "FX_TEX_GT_Circle_Blur_inv": {
+   "file": "/res/ui/extra/FX_TEX_GT_Circle_Blur_inv.png",
+   "w": 128,
+   "h": 128,
+   "origin": "assetbundle",
+   "atlas": null,
+   "sprite": "FX_TEX_GT_Circle_Blur_inv"
+  },
+  "FX_TEX_GT_Circle_Blur_invert": {
+   "file": "/res/ui/extra/FX_TEX_GT_Circle_Blur_invert.png",
+   "w": 256,
+   "h": 256,
+   "origin": "assetbundle",
+   "atlas": null,
+   "sprite": "FX_TEX_GT_Circle_Blur_invert"
+  },
+  "FX_TEX_GT_Cross": {
+   "file": "/res/ui/extra/FX_TEX_GT_Cross.png",
+   "w": 512,
+   "h": 512,
+   "origin": "assetbundle",
+   "atlas": null,
+   "sprite": "FX_TEX_GT_Cross"
+  },
+  "FX_TEX_GT_Gra_pattern_Stripe_01": {
+   "file": "/res/ui/extra/FX_TEX_GT_Gra_pattern_Stripe_01.png",
+   "w": 512,
+   "h": 512,
+   "origin": "assetbundle",
+   "atlas": null,
+   "sprite": "FX_TEX_GT_Gra_pattern_Stripe_01"
+  },
+  "FX_TEX_GT_GradBar": {
+   "file": "/res/ui/extra/FX_TEX_GT_GradBar.png",
+   "w": 512,
+   "h": 32,
+   "origin": "assetbundle",
+   "atlas": null,
+   "sprite": "FX_TEX_GT_GradBar"
+  },
+  "FX_TEX_GT_GradBar 1": {
+   "file": "/res/ui/extra/FX_TEX_GT_GradBar 1.png",
+   "w": 512,
+   "h": 32,
+   "origin": "assetbundle",
+   "atlas": null,
+   "sprite": "FX_TEX_GT_GradBar 1"
+  },
+  "FX_TEX_GT_GradBar2": {
+   "file": "/res/ui/extra/FX_TEX_GT_GradBar2.png",
+   "w": 512,
+   "h": 32,
+   "origin": "assetbundle",
+   "atlas": null,
+   "sprite": "FX_TEX_GT_GradBar2"
+  },
+  "FX_TEX_GT_GradBar3": {
+   "file": "/res/ui/extra/FX_TEX_GT_GradBar3.png",
+   "w": 512,
+   "h": 32,
+   "origin": "assetbundle",
+   "atlas": null,
+   "sprite": "FX_TEX_GT_GradBar3"
+  },
+  "FX_TEX_GT_GradBar4": {
+   "file": "/res/ui/extra/FX_TEX_GT_GradBar4.png",
+   "w": 512,
+   "h": 32,
+   "origin": "assetbundle",
+   "atlas": null,
+   "sprite": "FX_TEX_GT_GradBar4"
+  },
+  "FX_TEX_GT_GradBar5": {
+   "file": "/res/ui/extra/FX_TEX_GT_GradBar5.png",
+   "w": 512,
+   "h": 32,
+   "origin": "assetbundle",
+   "atlas": null,
+   "sprite": "FX_TEX_GT_GradBar5"
+  },
+  "FX_TEX_GT_GradBar_Clamp": {
+   "file": "/res/ui/extra/FX_TEX_GT_GradBar_Clamp.png",
+   "w": 512,
+   "h": 32,
+   "origin": "assetbundle",
+   "atlas": null,
+   "sprite": "FX_TEX_GT_GradBar_Clamp"
+  },
+  "FX_TEX_GT_Grad_02": {
+   "file": "/res/ui/extra/FX_TEX_GT_Grad_02.png",
+   "w": 256,
+   "h": 256,
+   "origin": "assetbundle",
+   "atlas": null,
+   "sprite": "FX_TEX_GT_Grad_02"
+  },
+  "FX_TEX_GT_Open": {
+   "file": "/res/ui/extra/FX_TEX_GT_Open.png",
+   "w": 512,
+   "h": 512,
+   "origin": "assetbundle",
+   "atlas": null,
+   "sprite": "FX_TEX_GT_Open"
+  },
+  "FX_TEX_GT_RCard": {
+   "file": "/res/ui/extra/FX_TEX_GT_RCard.png",
+   "w": 1024,
+   "h": 1024,
+   "origin": "assetbundle",
+   "atlas": null,
+   "sprite": "FX_TEX_GT_RCard"
+  },
+  "FX_TEX_GT_RCard_1": {
+   "file": "/res/ui/extra/FX_TEX_GT_RCard_1.png",
+   "w": 1024,
+   "h": 1024,
+   "origin": "assetbundle",
+   "atlas": null,
+   "sprite": "FX_TEX_GT_RCard_1"
+  },
+  "FX_TEX_GT_Rectangle_Rounded": {
+   "file": "/res/ui/extra/FX_TEX_GT_Rectangle_Rounded.png",
+   "w": 512,
+   "h": 512,
+   "origin": "assetbundle",
+   "atlas": null,
+   "sprite": "FX_TEX_GT_Rectangle_Rounded"
+  },
+  "FX_TEX_GT_SRCard": {
+   "file": "/res/ui/extra/FX_TEX_GT_SRCard.png",
+   "w": 1024,
+   "h": 1024,
+   "origin": "assetbundle",
+   "atlas": null,
+   "sprite": "FX_TEX_GT_SRCard"
+  },
+  "FX_TEX_GT_SSRCard": {
+   "file": "/res/ui/extra/FX_TEX_GT_SSRCard.png",
+   "w": 1024,
+   "h": 1024,
+   "origin": "assetbundle",
+   "atlas": null,
+   "sprite": "FX_TEX_GT_SSRCard"
+  },
+  "FX_TEX_GT_SignHere": {
+   "file": "/res/ui/extra/FX_TEX_GT_SignHere.png",
+   "w": 512,
+   "h": 256,
+   "origin": "assetbundle",
+   "atlas": null,
+   "sprite": "FX_TEX_GT_SignHere"
+  },
+  "FX_TEX_GT_Stripe_45": {
+   "file": "/res/ui/extra/FX_TEX_GT_Stripe_45.png",
+   "w": 512,
+   "h": 512,
+   "origin": "assetbundle",
+   "atlas": null,
+   "sprite": "FX_TEX_GT_Stripe_45"
+  },
+  "FX_TEX_GT_Trail": {
+   "file": "/res/ui/extra/FX_TEX_GT_Trail.png",
+   "w": 512,
+   "h": 512,
+   "origin": "assetbundle",
+   "atlas": null,
+   "sprite": "FX_TEX_GT_Trail"
+  },
+  "FX_TEX_GT_Tran_Shitim_Icon": {
+   "file": "/res/ui/extra/FX_TEX_GT_Tran_Shitim_Icon.png",
+   "w": 731,
+   "h": 676,
+   "origin": "assetbundle",
+   "atlas": null,
+   "sprite": "FX_TEX_GT_Tran_Shitim_Icon"
+  },
+  "FX_TEX_GT_Tran_Shitim_Icon2": {
+   "file": "/res/ui/extra/FX_TEX_GT_Tran_Shitim_Icon2.png",
+   "w": 512,
+   "h": 512,
+   "origin": "assetbundle",
+   "atlas": null,
+   "sprite": "FX_TEX_GT_Tran_Shitim_Icon2"
+  },
+  "FX_TEX_GT_Tran_Shitim_Icon2_temp": {
+   "file": "/res/ui/extra/FX_TEX_GT_Tran_Shitim_Icon2_temp.png",
+   "w": 512,
+   "h": 512,
+   "origin": "assetbundle",
+   "atlas": null,
+   "sprite": "FX_TEX_GT_Tran_Shitim_Icon2_temp"
+  },
+  "FX_TEX_GT_Tran_Shitim_Icon_Ball": {
+   "file": "/res/ui/extra/FX_TEX_GT_Tran_Shitim_Icon_Ball.png",
+   "w": 256,
+   "h": 256,
+   "origin": "assetbundle",
+   "atlas": null,
+   "sprite": "FX_TEX_GT_Tran_Shitim_Icon_Ball"
+  },
+  "FX_TEX_GT_Tran_Shitim_Icon_Grad": {
+   "file": "/res/ui/extra/FX_TEX_GT_Tran_Shitim_Icon_Grad.png",
+   "w": 512,
+   "h": 512,
+   "origin": "assetbundle",
+   "atlas": null,
+   "sprite": "FX_TEX_GT_Tran_Shitim_Icon_Grad"
+  },
+  "FX_TEX_GT_Triangle": {
+   "file": "/res/ui/extra/FX_TEX_GT_Triangle.png",
+   "w": 512,
+   "h": 512,
+   "origin": "assetbundle",
+   "atlas": null,
+   "sprite": "FX_TEX_GT_Triangle"
+  },
+  "FX_TEX_GT_Triangle_Pattern": {
+   "file": "/res/ui/extra/FX_TEX_GT_Triangle_Pattern.png",
+   "w": 512,
+   "h": 512,
+   "origin": "assetbundle",
+   "atlas": null,
+   "sprite": "FX_TEX_GT_Triangle_Pattern"
+  },
+  "FX_TEX_GT_Triangle_Rounded": {
+   "file": "/res/ui/extra/FX_TEX_GT_Triangle_Rounded.png",
+   "w": 512,
+   "h": 512,
+   "origin": "assetbundle",
+   "atlas": null,
+   "sprite": "FX_TEX_GT_Triangle_Rounded"
+  },
+  "FX_TEX_GT_UITex_BGPoliLight_1": {
+   "file": "/res/ui/extra/FX_TEX_GT_UITex_BGPoliLight_1.png",
+   "w": 1024,
+   "h": 1024,
+   "origin": "assetbundle",
+   "atlas": null,
+   "sprite": "FX_TEX_GT_UITex_BGPoliLight_1"
+  },
+  "FX_TEX_GachaBall9": {
+   "file": "/res/ui/extra/FX_TEX_GachaBall9.png",
+   "w": 512,
+   "h": 512,
+   "origin": "assetbundle",
+   "atlas": null,
+   "sprite": "FX_TEX_GachaBall9"
+  },
+  "FX_TEX_GachaLogo": {
+   "file": "/res/ui/extra/FX_TEX_GachaLogo.png",
+   "w": 64,
+   "h": 64,
+   "origin": "assetbundle",
+   "atlas": null,
+   "sprite": "FX_TEX_GachaLogo"
+  },
+  "FX_TEX_Latter_Paper0_Img_01": {
+   "file": "/res/ui/extra/FX_TEX_Latter_Paper0_Img_01.png",
+   "w": 1024,
+   "h": 1024,
+   "origin": "assetbundle",
+   "atlas": null,
+   "sprite": "FX_TEX_Latter_Paper0_Img_01"
+  },
+  "FX_TEX_Latter_Paper_Img_01": {
+   "file": "/res/ui/extra/FX_TEX_Latter_Paper_Img_01.png",
+   "w": 1024,
+   "h": 1024,
+   "origin": "assetbundle",
+   "atlas": null,
+   "sprite": "FX_TEX_Latter_Paper_Img_01"
+  },
+  "FX_TEX_Leaf_Flower_01": {
+   "file": "/res/ui/extra/FX_TEX_Leaf_Flower_01.png",
+   "w": 512,
+   "h": 512,
+   "origin": "assetbundle",
+   "atlas": null,
+   "sprite": "FX_TEX_Leaf_Flower_01"
+  },
+  "FX_TEX_Smoke_Scroll_03": {
+   "file": "/res/ui/extra/FX_TEX_Smoke_Scroll_03.png",
+   "w": 256,
+   "h": 256,
+   "origin": "assetbundle",
+   "atlas": null,
+   "sprite": "FX_TEX_Smoke_Scroll_03"
+  },
+  "FX_TEX_Smoke_Scroll_04": {
+   "file": "/res/ui/extra/FX_TEX_Smoke_Scroll_04.png",
+   "w": 256,
+   "h": 256,
+   "origin": "assetbundle",
+   "atlas": null,
+   "sprite": "FX_TEX_Smoke_Scroll_04"
+  },
+  "Gacha_BG_R": {
+   "file": "/res/ui/extra/Gacha_BG_R.png",
+   "w": 2048,
+   "h": 1024,
+   "origin": "assetbundle",
+   "atlas": null,
+   "sprite": "Gacha_BG_R"
+  },
+  "Gacha_BG_SR": {
+   "file": "/res/ui/extra/Gacha_BG_SR.png",
+   "w": 2048,
+   "h": 1024,
+   "origin": "assetbundle",
+   "atlas": null,
+   "sprite": "Gacha_BG_SR"
+  },
+  "Gacha_BG_SSR": {
+   "file": "/res/ui/extra/Gacha_BG_SSR.png",
+   "w": 2048,
+   "h": 1024,
+   "origin": "assetbundle",
+   "atlas": null,
+   "sprite": "Gacha_BG_SSR"
+  },
+  "Gacha_Banner_Dummy_Kr": {
+   "file": "/res/ui/extra/Gacha_Banner_Dummy_Kr.png",
+   "w": 701,
+   "h": 351,
+   "origin": "assetbundle",
+   "atlas": null,
+   "sprite": "Gacha_Banner_Dummy_Kr"
+  },
+  "Gacha_Icon_Mail_1": {
+   "file": "/res/ui/extra/Gacha_Icon_Mail_1.png",
+   "w": 167,
+   "h": 179,
+   "origin": "assetbundle",
+   "atlas": null,
+   "sprite": "Gacha_Icon_Mail_1"
+  },
+  "Gacha_Icon_Mail_10": {
+   "file": "/res/ui/extra/Gacha_Icon_Mail_10.png",
+   "w": 198,
+   "h": 188,
+   "origin": "assetbundle",
+   "atlas": null,
+   "sprite": "Gacha_Icon_Mail_10"
+  },
+  "Gacha_SubInfo": {
+   "file": "/res/ui/extra/Gacha_SubInfo.png",
+   "w": 830,
+   "h": 1064,
+   "origin": "assetbundle",
+   "atlas": null,
+   "sprite": "Gacha_SubInfo"
+  },
+  "Gacha_SubInfo_2": {
+   "file": "/res/ui/extra/Gacha_SubInfo_2.png",
+   "w": 826,
+   "h": 1063,
+   "origin": "assetbundle",
+   "atlas": null,
+   "sprite": "Gacha_SubInfo_2"
+  },
+  "Gacha_SubInfo_3": {
+   "file": "/res/ui/extra/Gacha_SubInfo_3.png",
+   "w": 1404,
+   "h": 1072,
+   "origin": "assetbundle",
+   "atlas": null,
+   "sprite": "Gacha_SubInfo_3"
+  },
+  "Gacha_SubInfo_BG": {
+   "file": "/res/ui/extra/Gacha_SubInfo_BG.png",
+   "w": 920,
+   "h": 1150,
+   "origin": "assetbundle",
+   "atlas": null,
+   "sprite": "Gacha_SubInfo_BG"
+  },
+  "Gacha_Text_Bg": {
+   "file": "/res/ui/extra/Gacha_Text_Bg.png",
+   "w": 246,
+   "h": 118,
+   "origin": "assetbundle",
+   "atlas": null,
+   "sprite": "Gacha_Text_Bg"
+  },
+  "IDCard_Deco": {
+   "file": "/res/ui/extra/IDCard_Deco.png",
+   "w": 1728,
+   "h": 1354,
+   "origin": "assetbundle",
+   "atlas": null,
+   "sprite": "IDCard_Deco"
+  },
+  "Icon_CardBack_Mark": {
+   "file": "/res/ui/extra/Icon_CardBack_Mark.png",
+   "w": 60,
+   "h": 100,
+   "origin": "assetbundle",
+   "atlas": null,
+   "sprite": "Icon_CardBack_Mark"
+  },
+  "Icon_Logo_Yostar": {
+   "file": "/res/ui/extra/Icon_Logo_Yostar.png",
+   "w": 85,
+   "h": 91,
+   "origin": "assetbundle",
+   "atlas": null,
+   "sprite": "Icon_Logo_Yostar"
+  },
+  "Icon_Momotalk_Star": {
+   "file": "/res/ui/extra/Icon_Momotalk_Star.png",
+   "w": 27,
+   "h": 27,
+   "origin": "assetbundle",
+   "atlas": null,
+   "sprite": "Icon_Momotalk_Star"
+  },
+  "Image_Char_Arona": {
+   "file": "/res/ui/extra/Image_Char_Arona.png",
+   "w": 246,
+   "h": 290,
+   "origin": "assetbundle",
+   "atlas": null,
+   "sprite": "Image_Char_Arona"
+  },
+  "Image_Char_Arona2": {
+   "file": "/res/ui/extra/Image_Char_Arona2.png",
+   "w": 304,
+   "h": 321,
+   "origin": "assetbundle",
+   "atlas": null,
+   "sprite": "Image_Char_Arona2"
+  },
+  "Img_Gacha_BG_Resume": {
+   "file": "/res/ui/extra/Img_Gacha_BG_Resume.png",
+   "w": 512,
+   "h": 512,
+   "origin": "assetbundle",
+   "atlas": null,
+   "sprite": "Img_Gacha_BG_Resume"
+  },
+  "Img_Gacha_Char_R_Resume": {
+   "file": "/res/ui/extra/Img_Gacha_Char_R_Resume.png",
+   "w": 512,
+   "h": 512,
+   "origin": "assetbundle",
+   "atlas": null,
+   "sprite": "Img_Gacha_Char_R_Resume"
+  },
+  "Img_Gacha_Char_SR_Resume": {
+   "file": "/res/ui/extra/Img_Gacha_Char_SR_Resume.png",
+   "w": 512,
+   "h": 512,
+   "origin": "assetbundle",
+   "atlas": null,
+   "sprite": "Img_Gacha_Char_SR_Resume"
+  },
+  "Img_Gacha_Char_SSR_Resume": {
+   "file": "/res/ui/extra/Img_Gacha_Char_SSR_Resume.png",
+   "w": 512,
+   "h": 512,
+   "origin": "assetbundle",
+   "atlas": null,
+   "sprite": "Img_Gacha_Char_SSR_Resume"
+  },
+  "Img_Growth_Effect_StarIcon": {
+   "file": "/res/ui/extra/Img_Growth_Effect_StarIcon.png",
+   "w": 146,
+   "h": 141,
+   "origin": "assetbundle",
+   "atlas": null,
+   "sprite": "Img_Growth_Effect_StarIcon"
+  },
+  "Img_Growth_Effect_StarIcon2": {
+   "file": "/res/ui/extra/Img_Growth_Effect_StarIcon2.png",
+   "w": 146,
+   "h": 141,
+   "origin": "assetbundle",
+   "atlas": null,
+   "sprite": "Img_Growth_Effect_StarIcon2"
+  },
+  "Img_Stage_Start_Deco": {
+   "file": "/res/ui/extra/Img_Stage_Start_Deco.png",
+   "w": 619,
+   "h": 247,
+   "origin": "assetbundle",
+   "atlas": null,
+   "sprite": "Img_Stage_Start_Deco"
+  },
+  "Ingame_Image_Start_Bg": {
+   "file": "/res/ui/extra/Ingame_Image_Start_Bg.png",
+   "w": 124,
+   "h": 96,
+   "origin": "assetbundle",
+   "atlas": null,
+   "sprite": "Ingame_Image_Start_Bg"
+  },
+  "Lobby_Gacha_Banner_210204_1": {
+   "file": "/res/ui/extra/Lobby_Gacha_Banner_210204_1.png",
+   "w": 701,
+   "h": 351,
+   "origin": "assetbundle",
+   "atlas": null,
+   "sprite": "Lobby_Gacha_Banner_210204_1"
+  },
+  "Plana_Original_Body": {
+   "file": "/res/ui/extra/Plana_Original_Body.png",
+   "w": 1024,
+   "h": 1024,
+   "origin": "assetbundle",
+   "atlas": null,
+   "sprite": "Plana_Original_Body"
+  },
+  "Plana_Original_Body_Mask": {
+   "file": "/res/ui/extra/Plana_Original_Body_Mask.png",
+   "w": 1024,
+   "h": 1024,
+   "origin": "assetbundle",
+   "atlas": null,
+   "sprite": "Plana_Original_Body_Mask"
+  },
+  "Plana_Original_Eyes": {
+   "file": "/res/ui/extra/Plana_Original_Eyes.png",
+   "w": 512,
+   "h": 512,
+   "origin": "assetbundle",
+   "atlas": null,
+   "sprite": "Plana_Original_Eyes"
+  },
+  "Plana_Original_FX": {
+   "file": "/res/ui/extra/Plana_Original_FX.png",
+   "w": 256,
+   "h": 256,
+   "origin": "assetbundle",
+   "atlas": null,
+   "sprite": "Plana_Original_FX"
+  },
+  "Plana_Original_Face": {
+   "file": "/res/ui/extra/Plana_Original_Face.png",
+   "w": 512,
+   "h": 512,
+   "origin": "assetbundle",
+   "atlas": null,
+   "sprite": "Plana_Original_Face"
+  },
+  "Plana_Original_FaceEmo": {
+   "file": "/res/ui/extra/Plana_Original_FaceEmo.png",
+   "w": 512,
+   "h": 512,
+   "origin": "assetbundle",
+   "atlas": null,
+   "sprite": "Plana_Original_FaceEmo"
+  },
+  "Plana_Original_Face_Mask": {
+   "file": "/res/ui/extra/Plana_Original_Face_Mask.png",
+   "w": 512,
+   "h": 512,
+   "origin": "assetbundle",
+   "atlas": null,
+   "sprite": "Plana_Original_Face_Mask"
+  },
+  "Plana_Original_Hair": {
+   "file": "/res/ui/extra/Plana_Original_Hair.png",
+   "w": 1024,
+   "h": 1024,
+   "origin": "assetbundle",
+   "atlas": null,
+   "sprite": "Plana_Original_Hair"
+  },
+  "Plana_Original_Hair_Mask": {
+   "file": "/res/ui/extra/Plana_Original_Hair_Mask.png",
+   "w": 1024,
+   "h": 1024,
+   "origin": "assetbundle",
+   "atlas": null,
+   "sprite": "Plana_Original_Hair_Mask"
+  },
+  "Plana_Original_Hair_Spec": {
+   "file": "/res/ui/extra/Plana_Original_Hair_Spec.png",
+   "w": 1024,
+   "h": 1024,
+   "origin": "assetbundle",
+   "atlas": null,
+   "sprite": "Plana_Original_Hair_Spec"
+  },
+  "Plana_Original_Halo": {
+   "file": "/res/ui/extra/Plana_Original_Halo.png",
+   "w": 128,
+   "h": 128,
+   "origin": "assetbundle",
+   "atlas": null,
+   "sprite": "Plana_Original_Halo"
+  },
+  "Plana_Original_Tablet": {
+   "file": "/res/ui/extra/Plana_Original_Tablet.png",
+   "w": 512,
+   "h": 512,
+   "origin": "assetbundle",
+   "atlas": null,
+   "sprite": "Plana_Original_Tablet"
+  },
+  "Plana_Original_Umbrella": {
+   "file": "/res/ui/extra/Plana_Original_Umbrella.png",
+   "w": 512,
+   "h": 512,
+   "origin": "assetbundle",
+   "atlas": null,
+   "sprite": "Plana_Original_Umbrella"
+  },
+  "Plana_Original_Umbrella_Mask": {
+   "file": "/res/ui/extra/Plana_Original_Umbrella_Mask.png",
+   "w": 512,
+   "h": 512,
+   "origin": "assetbundle",
+   "atlas": null,
+   "sprite": "Plana_Original_Umbrella_Mask"
+  },
+  "Scenario_Title_01_1": {
+   "file": "/res/ui/extra/Scenario_Title_01_1.png",
+   "w": 782,
+   "h": 788,
+   "origin": "assetbundle",
+   "atlas": null,
+   "sprite": "Scenario_Title_01_1"
+  },
+  "Scenario_Title_01_2": {
+   "file": "/res/ui/extra/Scenario_Title_01_2.png",
+   "w": 782,
+   "h": 788,
+   "origin": "assetbundle",
+   "atlas": null,
+   "sprite": "Scenario_Title_01_2"
+  },
+  "Scenario_Title_02": {
+   "file": "/res/ui/extra/Scenario_Title_02.png",
+   "w": 484,
+   "h": 484,
+   "origin": "assetbundle",
+   "atlas": null,
+   "sprite": "Scenario_Title_02"
+  },
+  "Scenario_Title_03": {
+   "file": "/res/ui/extra/Scenario_Title_03.png",
+   "w": 484,
+   "h": 484,
+   "origin": "assetbundle",
+   "atlas": null,
+   "sprite": "Scenario_Title_03"
+  },
+  "Scenario_Title_04": {
+   "file": "/res/ui/extra/Scenario_Title_04.png",
+   "w": 607,
+   "h": 352,
+   "origin": "assetbundle",
+   "atlas": null,
+   "sprite": "Scenario_Title_04"
+  },
+  "TexCrystals1": {
+   "file": "/res/ui/extra/TexCrystals1.png",
+   "w": 512,
+   "h": 512,
+   "origin": "assetbundle",
+   "atlas": null,
+   "sprite": "TexCrystals1"
+  },
+  "UIWorkAronaSceneBG_Day": {
+   "file": "/res/ui/extra/UIWorkAronaSceneBG_Day.png",
+   "w": 1806,
+   "h": 2048,
+   "origin": "assetbundle",
+   "atlas": null,
+   "sprite": "UIWorkAronaSceneBG_Day"
+  },
+  "UIWorkAronaSceneBG_Deco": {
+   "file": "/res/ui/extra/UIWorkAronaSceneBG_Deco.png",
+   "w": 99,
+   "h": 20,
+   "origin": "assetbundle",
+   "atlas": null,
+   "sprite": "UIWorkAronaSceneBG_Deco"
+  },
+  "UIWorkAronaSceneBG_DecoColor": {
+   "file": "/res/ui/extra/UIWorkAronaSceneBG_DecoColor.png",
+   "w": 98,
+   "h": 19,
+   "origin": "assetbundle",
+   "atlas": null,
+   "sprite": "UIWorkAronaSceneBG_DecoColor"
+  },
+  "UIWorkAronaSceneBG_Night": {
+   "file": "/res/ui/extra/UIWorkAronaSceneBG_Night.png",
+   "w": 1806,
+   "h": 2048,
+   "origin": "assetbundle",
+   "atlas": null,
+   "sprite": "UIWorkAronaSceneBG_Night"
   }
  },
  "fonts": {}
