@@ -53,7 +53,7 @@ export function ChatBubble({ msg, avatar, mine, cont, onClick }: ChatBubbleProps
       ) : (
         <NineSlice
           name={MOMO_SPRITES.bubble}
-          className={`mt-bubble mt-them`}
+          className="mt-bubble mt-them"
           fillCenter
           onClick={onClick}
         >
