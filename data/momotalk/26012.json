@@ -88,7 +88,7 @@
      "story": {
       "favorRank": 2,
       "scenarioGroup": 2601202,
-      "path": "/res/story/2601202.json"
+      "path": "/res/story/event/2601202.json"
      }
     }
    ]
@@ -163,7 +163,7 @@
      "story": {
       "favorRank": 3,
       "scenarioGroup": 2601203,
-      "path": "/res/story/2601203.json"
+      "path": "/res/story/event/2601203.json"
      }
     },
     {
@@ -288,7 +288,7 @@
      "story": {
       "favorRank": 5,
       "scenarioGroup": 2601205,
-      "path": "/res/story/2601205.json"
+      "path": "/res/story/event/2601205.json"
      }
     }
    ]

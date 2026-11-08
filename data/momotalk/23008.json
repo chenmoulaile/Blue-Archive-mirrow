@@ -78,7 +78,7 @@
      "story": {
       "favorRank": 2,
       "scenarioGroup": 2300802,
-      "path": "/res/story/2300802.json"
+      "path": "/res/story/event/2300802.json"
      }
     },
     {
@@ -199,7 +199,7 @@
      "story": {
       "favorRank": 3,
       "scenarioGroup": 2300803,
-      "path": "/res/story/2300803.json"
+      "path": "/res/story/event/2300803.json"
      }
     },
     {
@@ -346,7 +346,7 @@
      "story": {
       "favorRank": 5,
       "scenarioGroup": 2300805,
-      "path": "/res/story/2300805.json"
+      "path": "/res/story/event/2300805.json"
      }
     },
     {
@@ -453,7 +453,7 @@
      "story": {
       "favorRank": 6,
       "scenarioGroup": 2300806,
-      "path": "/res/story/2300806.json"
+      "path": "/res/story/event/2300806.json"
      }
     },
     {
@@ -568,7 +568,7 @@
      "story": {
       "favorRank": 15,
       "scenarioGroup": 2300815,
-      "path": "/res/story/2300815.json"
+      "path": "/res/story/event/2300815.json"
      }
     },
     {

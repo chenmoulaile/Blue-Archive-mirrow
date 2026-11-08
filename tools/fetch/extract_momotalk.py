@@ -91,8 +91,20 @@ def pick(rec) -> str:
     return (kr or "").strip()
 
 
+STORY_ROOT = Path(__file__).resolve().parents[2] / "resources" / "story"
+
+
 def story_path(gid: int) -> str:
-    return f"/res/story/{gid}.json"
+    """按实际落盘位置（extract_story_branches.py 方案）：
+    先镜像位 /res/story/<gid>.json（bond 全部 + 镜像覆盖的 event），
+    再 ExcelDB 位 /res/story/event/<gid>.json（bucket 2 未覆盖 + bucket 80/90）。
+    两处都缺时给 canonical 路径并由校验报告缺数。"""
+    rel = f"{gid}.json"
+    if (STORY_ROOT / rel).exists():
+        return f"/res/story/{rel}"
+    if (STORY_ROOT / "main" / rel).exists():
+        return f"/res/story/main/{rel}"
+    return f"/res/story/event/{rel}"
 
 
 def main() -> None:

@@ -553,13 +553,18 @@ def main() -> None:
                 targets.append((gid, "event"))
         elif b == 90:
             targets.append((gid, "event"))  # 大型活动剧情（第N话 全域/大决戦），event_scenario 之外的独立活动剧情
+        elif b == 1:
+            mirror_has = (MIRROR / f"{gid}.json").exists()
+            if not mirror_has:
+                targets.append((gid, "bond"))  # ExcelDB 羁绊组，镜像缺（CN dump 未覆盖，实测 19+ 个）
     print(f"ExcelDB 目标：{Counter(t for _, t in targets)}")
 
     stats_total: Counter = Counter()
     excel_eps = []
     for gid, etype in targets:
         rec, st = conv.convert_group(gid, etype)
-        out_dir = STORY_OUT / etype if etype in ("main", "group") else STORY_OUT / "event"
+        # bond 与镜像同方案落 resources/story/ 根目录；main/group 在子目录；ExcelDB 独有活动进 event/
+        out_dir = STORY_OUT if etype == "bond" else (STORY_OUT / etype if etype in ("main", "group") else STORY_OUT / "event")
         out_dir.mkdir(parents=True, exist_ok=True)
         (out_dir / f"{gid}.json").write_text(
             json.dumps(rec, ensure_ascii=False, indent=1), encoding="utf-8")
@@ -571,7 +576,7 @@ def main() -> None:
                 lines += 1
                 if nd["speaker"] not in chars:
                     chars.append(nd["speaker"])
-        sub = f"{etype}/{gid}.json" if etype in ("main", "group") else f"event/{gid}.json"
+        sub = f"{etype}/{gid}.json" if etype in ("main", "group") else (f"event/{gid}.json" if etype == "event" else f"{gid}.json")
         excel_eps.append({
             "id": str(gid), "type": etype, "title": rec["title"], "summary": "",
             "path": f"/res/story/{sub}",

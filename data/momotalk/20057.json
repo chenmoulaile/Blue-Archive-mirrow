@@ -161,7 +161,7 @@
      "story": {
       "favorRank": 3,
       "scenarioGroup": 2005703,
-      "path": "/res/story/2005703.json"
+      "path": "/res/story/event/2005703.json"
      }
     }
    ]
@@ -386,7 +386,7 @@
      "story": {
       "favorRank": 6,
       "scenarioGroup": 2005706,
-      "path": "/res/story/2005706.json"
+      "path": "/res/story/event/2005706.json"
      }
     },
     {
