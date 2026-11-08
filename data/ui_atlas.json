@@ -22821,6 +22821,318 @@
    "origin": "assetbundle",
    "atlas": null,
    "sprite": "UIWorkAronaSceneBG_Night"
+  },
+  "ChatArchive/Dialogue_Event_Background.png": {
+   "file": "/res/ui/extra2/Dialogue_Event_Background.png",
+   "w": 1056,
+   "h": 288,
+   "origin": "assetbundle-via-ChatArchive",
+   "atlas": null,
+   "sprite": "Dialogue_Event_Background.png"
+  },
+  "ChatArchive/Scenario_Mode_Bg_3.png": {
+   "file": "/res/ui/extra2/Scenario_Mode_Bg_3.png",
+   "w": 1292,
+   "h": 437,
+   "origin": "assetbundle-via-ChatArchive",
+   "atlas": null,
+   "sprite": "Scenario_Mode_Bg_3.png"
+  },
+  "ChatArchive/Scenario_Title_Frame.png": {
+   "file": "/res/ui/extra2/Scenario_Title_Frame.png",
+   "w": 172,
+   "h": 172,
+   "origin": "assetbundle-via-ChatArchive",
+   "atlas": null,
+   "sprite": "Scenario_Title_Frame.png"
+  },
+  "ChatArchive/Scenario_Title_Deco.png": {
+   "file": "/res/ui/extra2/Scenario_Title_Deco.png",
+   "w": 1024,
+   "h": 256,
+   "origin": "assetbundle-via-ChatArchive",
+   "atlas": null,
+   "sprite": "Scenario_Title_Deco.png"
+  },
+  "ChatArchive/Common_MailBox_NormalBg.png": {
+   "file": "/res/ui/extra2/Common_MailBox_NormalBg.png",
+   "w": 906,
+   "h": 315,
+   "origin": "assetbundle-via-ChatArchive",
+   "atlas": null,
+   "sprite": "Common_MailBox_NormalBg.png"
+  },
+  "ChatArchive/Student_Portrait_Shiroko.png": {
+   "file": "/res/ui/extra2/Student_Portrait_Shiroko.png",
+   "w": 252,
+   "h": 204,
+   "origin": "assetbundle-via-ChatArchive",
+   "atlas": null,
+   "sprite": "Student_Portrait_Shiroko.png"
+  },
+  "ChatArchive/Student_Portrait_Shiroko_Collection.png": {
+   "file": "/res/ui/extra2/Student_Portrait_Shiroko_Collection.png",
+   "w": 404,
+   "h": 456,
+   "origin": "assetbundle-via-ChatArchive",
+   "atlas": null,
+   "sprite": "Student_Portrait_Shiroko_Collection.png"
+  },
+  "ChatArchive/Student_Portrait_Airi.png": {
+   "file": "/res/ui/extra2/Student_Portrait_Airi.png",
+   "w": 252,
+   "h": 204,
+   "origin": "assetbundle-via-ChatArchive",
+   "atlas": null,
+   "sprite": "Student_Portrait_Airi.png"
+  },
+  "ChatArchive/Student_Portrait_Airi_Collection.png": {
+   "file": "/res/ui/extra2/Student_Portrait_Airi_Collection.png",
+   "w": 404,
+   "h": 456,
+   "origin": "assetbundle-via-ChatArchive",
+   "atlas": null,
+   "sprite": "Student_Portrait_Airi_Collection.png"
+  },
+  "ChatArchive/Student_Portrait_Hoshino.png": {
+   "file": "/res/ui/extra2/Student_Portrait_Hoshino.png",
+   "w": 252,
+   "h": 204,
+   "origin": "assetbundle-via-ChatArchive",
+   "atlas": null,
+   "sprite": "Student_Portrait_Hoshino.png"
+  },
+  "ChatArchive/Student_Portrait_Yuuka.png": {
+   "file": "/res/ui/extra2/Student_Portrait_Yuuka.png",
+   "w": 252,
+   "h": 204,
+   "origin": "assetbundle-via-ChatArchive",
+   "atlas": null,
+   "sprite": "Student_Portrait_Yuuka.png"
+  },
+  "ChatArchive/NPC_Portrait_Arona.png": {
+   "file": "/res/ui/extra2/NPC_Portrait_Arona.png",
+   "w": 252,
+   "h": 204,
+   "origin": "assetbundle-via-ChatArchive",
+   "atlas": null,
+   "sprite": "NPC_Portrait_Arona.png"
+  },
+  "ChatArchive/NPC_Portrait_Arona_Collection.png": {
+   "file": "/res/ui/extra2/NPC_Portrait_Arona_Collection.png",
+   "w": 404,
+   "h": 456,
+   "origin": "assetbundle-via-ChatArchive",
+   "atlas": null,
+   "sprite": "NPC_Portrait_Arona_Collection.png"
+  },
+  "ChatArchive/School_Icon_ABYDOS.png": {
+   "file": "/res/ui/extra2/School_Icon_ABYDOS.png",
+   "w": 688,
+   "h": 624,
+   "origin": "assetbundle-via-ChatArchive",
+   "atlas": null,
+   "sprite": "School_Icon_ABYDOS.png"
+  },
+  "ChatArchive/School_Icon_GEHENNA.png": {
+   "file": "/res/ui/extra2/School_Icon_GEHENNA.png",
+   "w": 688,
+   "h": 624,
+   "origin": "assetbundle-via-ChatArchive",
+   "atlas": null,
+   "sprite": "School_Icon_GEHENNA.png"
+  },
+  "ChatArchive/School_Icon_TRINITY.png": {
+   "file": "/res/ui/extra2/School_Icon_TRINITY.png",
+   "w": 688,
+   "h": 624,
+   "origin": "assetbundle-via-ChatArchive",
+   "atlas": null,
+   "sprite": "School_Icon_TRINITY.png"
+  },
+  "ChatArchive/School_Icon_MILLENNIUM.png": {
+   "file": "/res/ui/extra2/School_Icon_MILLENNIUM.png",
+   "w": 688,
+   "h": 624,
+   "origin": "assetbundle-via-ChatArchive",
+   "atlas": null,
+   "sprite": "School_Icon_MILLENNIUM.png"
+  },
+  "ChatArchive/Common.png": {
+   "file": "/res/ui/extra2/Common.png",
+   "w": 4096,
+   "h": 2048,
+   "origin": "assetbundle-via-ChatArchive",
+   "atlas": null,
+   "sprite": "Common.png"
+  },
+  "ChatArchive/Studio.png": {
+   "file": "/res/ui/extra2/Studio.png",
+   "w": 1024,
+   "h": 512,
+   "origin": "assetbundle-via-ChatArchive",
+   "atlas": null,
+   "sprite": "Studio.png"
+  },
+  "ChatArchive/Emoji.png": {
+   "file": "/res/ui/extra2/Emoji.png",
+   "w": 1024,
+   "h": 1024,
+   "origin": "assetbundle-via-ChatArchive",
+   "atlas": null,
+   "sprite": "Emoji.png"
+  },
+  "ChatArchive/Maidkey.png": {
+   "file": "/res/ui/extra2/Maidkey.png",
+   "w": 2048,
+   "h": 912,
+   "origin": "assetbundle-via-ChatArchive",
+   "atlas": null,
+   "sprite": "Maidkey.png"
+  },
+  "ChatArchive/00.png": {
+   "file": "/res/ui/extra2/00.png",
+   "w": 256,
+   "h": 256,
+   "origin": "assetbundle-via-ChatArchive",
+   "atlas": null,
+   "sprite": "00.png"
+  },
+  "ChatArchive/01.png": {
+   "file": "/res/ui/extra2/01.png",
+   "w": 256,
+   "h": 256,
+   "origin": "assetbundle-via-ChatArchive",
+   "atlas": null,
+   "sprite": "01.png"
+  },
+  "ChatArchive/02.png": {
+   "file": "/res/ui/extra2/02.png",
+   "w": 256,
+   "h": 256,
+   "origin": "assetbundle-via-ChatArchive",
+   "atlas": null,
+   "sprite": "02.png"
+  },
+  "ChatArchive/BG_MainOffice.png": {
+   "file": "/res/ui/extra2/BG_MainOffice.png",
+   "w": 1280,
+   "h": 900,
+   "origin": "assetbundle-via-ChatArchive",
+   "atlas": null,
+   "sprite": "BG_MainOffice.png"
+  },
+  "ChatArchive/BG_SchoolGround.png": {
+   "file": "/res/ui/extra2/BG_SchoolGround.png",
+   "w": 1280,
+   "h": 900,
+   "origin": "assetbundle-via-ChatArchive",
+   "atlas": null,
+   "sprite": "BG_SchoolGround.png"
+  },
+  "ChatArchive/BG_AronaRoom.png": {
+   "file": "/res/ui/extra2/BG_AronaRoom.png",
+   "w": 1600,
+   "h": 1124,
+   "origin": "assetbundle-via-ChatArchive",
+   "atlas": null,
+   "sprite": "BG_AronaRoom.png"
+  },
+  "ChatArchive/BG_Beachside.png": {
+   "file": "/res/ui/extra2/BG_Beachside.png",
+   "w": 1280,
+   "h": 900,
+   "origin": "assetbundle-via-ChatArchive",
+   "atlas": null,
+   "sprite": "BG_Beachside.png"
+  },
+  "ChatArchive/BG_TrinityStreet.png": {
+   "file": "/res/ui/extra2/BG_TrinityStreet.png",
+   "w": 1280,
+   "h": 900,
+   "origin": "assetbundle-via-ChatArchive",
+   "atlas": null,
+   "sprite": "BG_TrinityStreet.png"
+  },
+  "ChatArchive/Gem_Blue_1.png": {
+   "file": "/res/ui/extra2/Gem_Blue_1.png",
+   "w": 48,
+   "h": 62,
+   "origin": "assetbundle-via-ChatArchive",
+   "atlas": null,
+   "sprite": "Gem_Blue_1.png"
+  },
+  "ChatArchive/Gem_Blue_2.png": {
+   "file": "/res/ui/extra2/Gem_Blue_2.png",
+   "w": 122,
+   "h": 115,
+   "origin": "assetbundle-via-ChatArchive",
+   "atlas": null,
+   "sprite": "Gem_Blue_2.png"
+  },
+  "ChatArchive/Gem_Purple_1.png": {
+   "file": "/res/ui/extra2/Gem_Purple_1.png",
+   "w": 60,
+   "h": 71,
+   "origin": "assetbundle-via-ChatArchive",
+   "atlas": null,
+   "sprite": "Gem_Purple_1.png"
+  },
+  "ChatArchive/Gem_Purple_2.png": {
+   "file": "/res/ui/extra2/Gem_Purple_2.png",
+   "w": 64,
+   "h": 69,
+   "origin": "assetbundle-via-ChatArchive",
+   "atlas": null,
+   "sprite": "Gem_Purple_2.png"
+  },
+  "ChatArchive/Currency_Yen_1.png": {
+   "file": "/res/ui/extra2/Currency_Yen_1.png",
+   "w": 42,
+   "h": 50,
+   "origin": "assetbundle-via-ChatArchive",
+   "atlas": null,
+   "sprite": "Currency_Yen_1.png"
+  },
+  "ChatArchive/Ticket_1.png": {
+   "file": "/res/ui/extra2/Ticket_1.png",
+   "w": 143,
+   "h": 72,
+   "origin": "assetbundle-via-ChatArchive",
+   "atlas": null,
+   "sprite": "Ticket_1.png"
+  },
+  "ChatArchive/Ticket_2.png": {
+   "file": "/res/ui/extra2/Ticket_2.png",
+   "w": 143,
+   "h": 73,
+   "origin": "assetbundle-via-ChatArchive",
+   "atlas": null,
+   "sprite": "Ticket_2.png"
+  },
+  "ChatArchive/Ticket_3.png": {
+   "file": "/res/ui/extra2/Ticket_3.png",
+   "w": 143,
+   "h": 73,
+   "origin": "assetbundle-via-ChatArchive",
+   "atlas": null,
+   "sprite": "Ticket_3.png"
+  },
+  "ChatArchive/SpeechBubble_1.png": {
+   "file": "/res/ui/extra2/SpeechBubble_1.png",
+   "w": 112,
+   "h": 86,
+   "origin": "assetbundle-via-ChatArchive",
+   "atlas": null,
+   "sprite": "SpeechBubble_1.png"
+  },
+  "ChatArchive/SpeechBubble_2.png": {
+   "file": "/res/ui/extra2/SpeechBubble_2.png",
+   "w": 118,
+   "h": 138,
+   "origin": "assetbundle-via-ChatArchive",
+   "atlas": null,
+   "sprite": "SpeechBubble_2.png"
   }
  },
  "fonts": {}
