@@ -1,0 +1,1210 @@
+{
+ "source": "ExcelDB EventContentScenarioDBSchema (plana-flatbuffers slot, 984 rows) + fix-w1: 主线桶(10/11)章节排除出活动分组",
+ "generated": "2026-11-08T10:35:24",
+ "timelineSource": "data/event_timeline.json (kivo.wiki)",
+ "events": [
+  {
+   "eventId": 810,
+   "timelineId": 5109,
+   "name": "限时活动【情人节的特别约定】",
+   "nameSource": "kivo_timeline",
+   "matchScore": 6,
+   "period": {
+    "start": 1771048800,
+    "end": 1772258399
+   },
+   "chapters": [
+    {
+     "storyId": "80000001",
+     "title": "桃香的挑战",
+     "order": 1,
+     "isRecollection": false,
+     "path": "/res/story/event/80000001.json",
+     "indexType": "event"
+    },
+    {
+     "storyId": "80000002",
+     "title": "订货失误",
+     "order": 2,
+     "isRecollection": false,
+     "path": "/res/story/event/80000002.json",
+     "indexType": "event"
+    },
+    {
+     "storyId": "80000003",
+     "title": "行政官的零食",
+     "order": 3,
+     "isRecollection": false,
+     "path": "/res/story/event/80000003.json",
+     "indexType": "event"
+    },
+    {
+     "storyId": "80000004",
+     "title": "彩奈的情人节礼物！",
+     "order": 4,
+     "isRecollection": false,
+     "path": "/res/story/event/80000004.json",
+     "indexType": "event"
+    },
+    {
+     "storyId": "80000005",
+     "title": "新的巧克力产品！",
+     "order": 5,
+     "isRecollection": false,
+     "path": "/res/story/event/80000005.json",
+     "indexType": "event"
+    },
+    {
+     "storyId": "80000006",
+     "title": "狙击手的巧克力",
+     "order": 6,
+     "isRecollection": false,
+     "path": "/res/story/event/80000006.json",
+     "indexType": "event"
+    },
+    {
+     "storyId": "80000007",
+     "title": "最强疲劳恢复剂",
+     "order": 7,
+     "isRecollection": false,
+     "path": "/res/story/event/80000007.json",
+     "indexType": "event"
+    },
+    {
+     "storyId": "80000008",
+     "title": "鞋油与巧克力",
+     "order": 8,
+     "isRecollection": false,
+     "path": "/res/story/event/80000008.json",
+     "indexType": "event"
+    },
+    {
+     "storyId": "80000009",
+     "title": "巧克力大胃王比赛",
+     "order": 9,
+     "isRecollection": false,
+     "path": "/res/story/event/80000009.json",
+     "indexType": "event"
+    },
+    {
+     "storyId": "80000010",
+     "title": "不幸的美食家",
+     "order": 10,
+     "isRecollection": false,
+     "path": "/res/story/event/80000010.json",
+     "indexType": "event"
+    },
+    {
+     "storyId": "80000011",
+     "title": "摇滚歌手的情歌",
+     "order": 11,
+     "isRecollection": false,
+     "path": "/res/story/event/80000011.json",
+     "indexType": "event"
+    },
+    {
+     "storyId": "80000012",
+     "title": "在街上迷路",
+     "order": 12,
+     "isRecollection": false,
+     "path": "/res/story/event/80000012.json",
+     "indexType": "event"
+    },
+    {
+     "storyId": "80000013",
+     "title": "巧克力之海",
+     "order": 13,
+     "isRecollection": false,
+     "path": "/res/story/event/80000013.json",
+     "indexType": "event"
+    },
+    {
+     "storyId": "80000014",
+     "title": "意外的礼物",
+     "order": 14,
+     "isRecollection": false,
+     "path": "/res/story/event/80000014.json",
+     "indexType": "event"
+    },
+    {
+     "storyId": "80000015",
+     "title": "效率主义者的零食",
+     "order": 15,
+     "isRecollection": false,
+     "path": "/res/story/event/80000015.json",
+     "indexType": "event"
+    },
+    {
+     "storyId": "80000016",
+     "title": "把你的胃",
+     "order": 16,
+     "isRecollection": false,
+     "path": "/res/story/event/80000016.json",
+     "indexType": "event"
+    },
+    {
+     "storyId": "80000017",
+     "title": "甜蜜的加班",
+     "order": 17,
+     "isRecollection": false,
+     "path": "/res/story/event/80000017.json",
+     "indexType": "event"
+    },
+    {
+     "storyId": "80000018",
+     "title": "会计的极限",
+     "order": 18,
+     "isRecollection": false,
+     "path": "/res/story/event/80000018.json",
+     "indexType": "event"
+    },
+    {
+     "storyId": "80000019",
+     "title": "活动道具",
+     "order": 19,
+     "isRecollection": false,
+     "path": "/res/story/event/80000019.json",
+     "indexType": "event"
+    },
+    {
+     "storyId": "80000020",
+     "title": "爱丽丝的巧克力",
+     "order": 20,
+     "isRecollection": false,
+     "path": "/res/story/event/80000020.json",
+     "indexType": "event"
+    },
+    {
+     "storyId": "80000021",
+     "title": "特别的能量饮料",
+     "order": 21,
+     "isRecollection": false,
+     "path": "/res/story/event/80000021.json",
+     "indexType": "event"
+    },
+    {
+     "storyId": "80000022",
+     "title": "让世界变得更甜！",
+     "order": 22,
+     "isRecollection": false,
+     "path": "/res/story/event/80000022.json",
+     "indexType": "event"
+    },
+    {
+     "storyId": "80000023",
+     "title": "浪漫的炮击",
+     "order": 23,
+     "isRecollection": false,
+     "path": "/res/story/event/80000023.json",
+     "indexType": "event"
+    },
+    {
+     "storyId": "80000024",
+     "title": "伪装螺丝",
+     "order": 24,
+     "isRecollection": false,
+     "path": "/res/story/event/80000024.json",
+     "indexType": "event"
+    },
+    {
+     "storyId": "80000025",
+     "title": "胡子巧克力",
+     "order": 25,
+     "isRecollection": false,
+     "path": "/res/story/event/80000025.json",
+     "indexType": "event"
+    },
+    {
+     "storyId": "80000026",
+     "title": "赤冬联邦学园的特产",
+     "order": 26,
+     "isRecollection": false,
+     "path": "/res/story/event/80000026.json",
+     "indexType": "event"
+    },
+    {
+     "storyId": "80000027",
+     "title": "穷人的巧克力",
+     "order": 27,
+     "isRecollection": false,
+     "path": "/res/story/event/80000027.json",
+     "indexType": "event"
+    },
+    {
+     "storyId": "80000028",
+     "title": "巧克力口味的秘药",
+     "order": 28,
+     "isRecollection": false,
+     "path": "/res/story/event/80000028.json",
+     "indexType": "event"
+    },
+    {
+     "storyId": "80000029",
+     "title": "大人的巧克力",
+     "order": 29,
+     "isRecollection": false,
+     "path": "/res/story/event/80000029.json",
+     "indexType": "event"
+    },
+    {
+     "storyId": "80000030",
+     "title": "伪装手铐",
+     "order": 30,
+     "isRecollection": false,
+     "path": "/res/story/event/80000030.json",
+     "indexType": "event"
+    },
+    {
+     "storyId": "80000031",
+     "title": "整整一年的等待",
+     "order": 31,
+     "isRecollection": false,
+     "path": "/res/story/event/80000031.json",
+     "indexType": "event"
+    },
+    {
+     "storyId": "80000032",
+     "title": "多情多感的女孩",
+     "order": 32,
+     "isRecollection": false,
+     "path": "/res/story/event/80000032.json",
+     "indexType": "event"
+    },
+    {
+     "storyId": "80000033",
+     "title": "微小而甜蜜的一步",
+     "order": 33,
+     "isRecollection": false,
+     "path": "/res/story/event/80000033.json",
+     "indexType": "event"
+    },
+    {
+     "storyId": "80000034",
+     "title": "尽管如此也想传达",
+     "order": 34,
+     "isRecollection": false,
+     "path": "/res/story/event/80000034.json",
+     "indexType": "event"
+    },
+    {
+     "storyId": "80000035",
+     "title": "总之我有准备了！",
+     "order": 35,
+     "isRecollection": false,
+     "path": "/res/story/event/80000035.json",
+     "indexType": "event"
+    },
+    {
+     "storyId": "80000036",
+     "title": "制作最强巧克力的方法",
+     "order": 36,
+     "isRecollection": false,
+     "path": "/res/story/event/80000036.json",
+     "indexType": "event"
+    },
+    {
+     "storyId": "80000037",
+     "title": "满怀心意的奖励",
+     "order": 37,
+     "isRecollection": false,
+     "path": "/res/story/event/80000037.json",
+     "indexType": "event"
+    },
+    {
+     "storyId": "80000038",
+     "title": "俄罗斯轮盘巧克力！",
+     "order": 38,
+     "isRecollection": false,
+     "path": "/res/story/event/80000038.json",
+     "indexType": "event"
+    },
+    {
+     "storyId": "80000039",
+     "title": "在特别的日子里献上特别的心意",
+     "order": 39,
+     "isRecollection": false,
+     "path": "/res/story/event/80000039.json",
+     "indexType": "event"
+    },
+    {
+     "storyId": "80000040",
+     "title": "少女的真心不会褪色",
+     "order": 40,
+     "isRecollection": false,
+     "path": "/res/story/event/80000040.json",
+     "indexType": "event"
+    },
+    {
+     "storyId": "80000041",
+     "title": "只属于两人的庆功宴",
+     "order": 41,
+     "isRecollection": false,
+     "path": "/res/story/event/80000041.json",
+     "indexType": "event"
+    },
+    {
+     "storyId": "80000042",
+     "title": "零食负责人的甜美心意",
+     "order": 42,
+     "isRecollection": false,
+     "path": "/res/story/event/80000042.json",
+     "indexType": "event"
+    },
+    {
+     "storyId": "80000043",
+     "title": "Record it again",
+     "order": 43,
+     "isRecollection": false,
+     "path": "/res/story/event/80000043.json",
+     "indexType": "event"
+    },
+    {
+     "storyId": "80000044",
+     "title": "永不放弃的玩家",
+     "order": 44,
+     "isRecollection": false,
+     "path": "/res/story/event/80000044.json",
+     "indexType": "event"
+    },
+    {
+     "storyId": "80000045",
+     "title": "我喜欢第一个，老师",
+     "order": 45,
+     "isRecollection": false,
+     "path": "/res/story/event/80000045.json",
+     "indexType": "event"
+    },
+    {
+     "storyId": "80000046",
+     "title": "为你献上一句话",
+     "order": 46,
+     "isRecollection": false,
+     "path": "/res/story/event/80000046.json",
+     "indexType": "event"
+    },
+    {
+     "storyId": "80000047",
+     "title": "特别的试吃大会",
+     "order": 47,
+     "isRecollection": false,
+     "path": "/res/story/event/80000047.json",
+     "indexType": "event"
+    },
+    {
+     "storyId": "80000048",
+     "title": "主公和忍者的滋味",
+     "order": 48,
+     "isRecollection": false,
+     "path": "/res/story/event/80000048.json",
+     "indexType": "event"
+    },
+    {
+     "storyId": "80000049",
+     "title": "在柔软甜美的梦中",
+     "order": 49,
+     "isRecollection": false,
+     "path": "/res/story/event/80000049.json",
+     "indexType": "event"
+    },
+    {
+     "storyId": "80000050",
+     "title": "为您献上我的一切",
+     "order": 50,
+     "isRecollection": false,
+     "path": "/res/story/event/80000050.json",
+     "indexType": "event"
+    },
+    {
+     "storyId": "80000051",
+     "title": "更加苦涩，更加甜蜜",
+     "order": 51,
+     "isRecollection": false,
+     "path": "/res/story/event/80000051.json",
+     "indexType": "event"
+    },
+    {
+     "storyId": "80000052",
+     "title": "骷髅人，变身！",
+     "order": 52,
+     "isRecollection": false,
+     "path": "/res/story/event/80000052.json",
+     "indexType": "event"
+    },
+    {
+     "storyId": "80000053",
+     "title": "不要那样吃！",
+     "order": 53,
+     "isRecollection": false,
+     "path": "/res/story/event/80000053.json",
+     "indexType": "event"
+    },
+    {
+     "storyId": "80000054",
+     "title": "一如既往",
+     "order": 54,
+     "isRecollection": false,
+     "path": "/res/story/event/80000054.json",
+     "indexType": "event"
+    },
+    {
+     "storyId": "80000055",
+     "title": "该从何吃起……？",
+     "order": 55,
+     "isRecollection": false,
+     "path": "/res/story/event/80000055.json",
+     "indexType": "event"
+    },
+    {
+     "storyId": "80000056",
+     "title": "能一起吃的东西",
+     "order": 56,
+     "isRecollection": false,
+     "path": "/res/story/event/80000056.json",
+     "indexType": "event"
+    },
+    {
+     "storyId": "80000057",
+     "title": "逐渐熟悉",
+     "order": 57,
+     "isRecollection": false,
+     "path": "/res/story/event/80000057.json",
+     "indexType": "event"
+    },
+    {
+     "storyId": "80000058",
+     "title": "经过深思熟虑的结论",
+     "order": 58,
+     "isRecollection": false,
+     "path": "/res/story/event/80000058.json",
+     "indexType": "event"
+    },
+    {
+     "storyId": "80000059",
+     "title": "最贵重的限量版",
+     "order": 59,
+     "isRecollection": false,
+     "path": "/res/story/event/80000059.json",
+     "indexType": "event"
+    },
+    {
+     "storyId": "80000060",
+     "title": "补充教材：巧克力",
+     "order": 60,
+     "isRecollection": false,
+     "path": "/res/story/event/80000060.json",
+     "indexType": "event"
+    },
+    {
+     "storyId": "80000061",
+     "title": "重要的时刻，重要的地点",
+     "order": 61,
+     "isRecollection": false,
+     "path": "/res/story/event/80000061.json",
+     "indexType": "event"
+    },
+    {
+     "storyId": "80000062",
+     "title": "未经包装如实呈现",
+     "order": 62,
+     "isRecollection": false,
+     "path": "/res/story/event/80000062.json",
+     "indexType": "event"
+    },
+    {
+     "storyId": "80000063",
+     "title": "在那之前，在那之后",
+     "order": 63,
+     "isRecollection": false,
+     "path": "/res/story/event/80000063.json",
+     "indexType": "event"
+    },
+    {
+     "storyId": "80000064",
+     "title": "情人节也快乐地",
+     "order": 64,
+     "isRecollection": false,
+     "path": "/res/story/event/80000064.json",
+     "indexType": "event"
+    },
+    {
+     "storyId": "80000065",
+     "title": "像个女仆",
+     "order": 65,
+     "isRecollection": false,
+     "path": "/res/story/event/80000065.json",
+     "indexType": "event"
+    },
+    {
+     "storyId": "80000066",
+     "title": "变好吃吧",
+     "order": 66,
+     "isRecollection": false,
+     "path": "/res/story/event/80000066.json",
+     "indexType": "event"
+    },
+    {
+     "storyId": "80000067",
+     "title": "认真就输了",
+     "order": 67,
+     "isRecollection": false,
+     "path": "/res/story/event/80000067.json",
+     "indexType": "event"
+    },
+    {
+     "storyId": "80000068",
+     "title": "情人节巧克力的起源",
+     "order": 68,
+     "isRecollection": false,
+     "path": "/res/story/event/80000068.json",
+     "indexType": "event"
+    },
+    {
+     "storyId": "80000069",
+     "title": "风味和风情",
+     "order": 69,
+     "isRecollection": false,
+     "path": "/res/story/event/80000069.json",
+     "indexType": "event"
+    },
+    {
+     "storyId": "80000070",
+     "title": "某天读到的浪漫",
+     "order": 70,
+     "isRecollection": false,
+     "path": "/res/story/event/80000070.json",
+     "indexType": "event"
+    },
+    {
+     "storyId": "80000071",
+     "title": "包装粗糙的情人节巧克力",
+     "order": 71,
+     "isRecollection": false,
+     "path": "/res/story/event/80000071.json",
+     "indexType": "event"
+    },
+    {
+     "storyId": "80000072",
+     "title": "温暖的心",
+     "order": 72,
+     "isRecollection": false,
+     "path": "/res/story/event/80000072.json",
+     "indexType": "event"
+    },
+    {
+     "storyId": "80000073",
+     "title": "仅有彼此",
+     "order": 73,
+     "isRecollection": false,
+     "path": "/res/story/event/80000073.json",
+     "indexType": "event"
+    },
+    {
+     "storyId": "80000074",
+     "title": "不曾做过的事",
+     "order": 74,
+     "isRecollection": false,
+     "path": "/res/story/event/80000074.json",
+     "indexType": "event"
+    },
+    {
+     "storyId": "80000075",
+     "title": "用一切来交换？",
+     "order": 75,
+     "isRecollection": false,
+     "path": "/res/story/event/80000075.json",
+     "indexType": "event"
+    },
+    {
+     "storyId": "80000076",
+     "title": "责任与活动的相关性",
+     "order": 76,
+     "isRecollection": false,
+     "path": "/res/story/event/80000076.json",
+     "indexType": "event"
+    },
+    {
+     "storyId": "80000077",
+     "title": "青蔷薇与巧克力",
+     "order": 77,
+     "isRecollection": false,
+     "path": "/res/story/event/80000077.json",
+     "indexType": "event"
+    },
+    {
+     "storyId": "80000078",
+     "title": "奇帝梵巧克力",
+     "order": 78,
+     "isRecollection": false,
+     "path": "/res/story/event/80000078.json",
+     "indexType": "event"
+    },
+    {
+     "storyId": "80000079",
+     "title": "隐藏真心的巧克力",
+     "order": 79,
+     "isRecollection": false,
+     "path": "/res/story/event/80000079.json",
+     "indexType": "event"
+    },
+    {
+     "storyId": "80000080",
+     "title": "最强巧克力恐龙！",
+     "order": 80,
+     "isRecollection": false,
+     "path": "/res/story/event/80000080.json",
+     "indexType": "event"
+    },
+    {
+     "storyId": "80000081",
+     "title": "情人节也要，以忍者的，精神来……！",
+     "order": 81,
+     "isRecollection": false,
+     "path": "/res/story/event/80000081.json",
+     "indexType": "event"
+    },
+    {
+     "storyId": "80000082",
+     "title": "超天才清楚系病弱美少女骇客的分身",
+     "order": 82,
+     "isRecollection": false,
+     "path": "/res/story/event/80000082.json",
+     "indexType": "event"
+    },
+    {
+     "storyId": "80000083",
+     "title": "毫无破绽的中阶管理者",
+     "order": 83,
+     "isRecollection": false,
+     "path": "/res/story/event/80000083.json",
+     "indexType": "event"
+    },
+    {
+     "storyId": "80000084",
+     "title": "简直就像恋爱喜剧一样",
+     "order": 84,
+     "isRecollection": false,
+     "path": "/res/story/event/80000084.json",
+     "indexType": "event"
+    },
+    {
+     "storyId": "80000085",
+     "title": "SRT，补给！",
+     "order": 85,
+     "isRecollection": false,
+     "path": "/res/story/event/80000085.json",
+     "indexType": "event"
+    },
+    {
+     "storyId": "80000086",
+     "title": "Sweet Logistics",
+     "order": 86,
+     "isRecollection": false,
+     "path": "/res/story/event/80000086.json",
+     "indexType": "event"
+    },
+    {
+     "storyId": "80000087",
+     "title": "瞌睡虫对策？",
+     "order": 87,
+     "isRecollection": false,
+     "path": "/res/story/event/80000087.json",
+     "indexType": "event"
+    },
+    {
+     "storyId": "80000088",
+     "title": "RABBIT4，要送礼了",
+     "order": 88,
+     "isRecollection": false,
+     "path": "/res/story/event/80000088.json",
+     "indexType": "event"
+    },
+    {
+     "storyId": "80000089",
+     "title": "研讨会书记乃爱的甜蜜恶作剧",
+     "order": 89,
+     "isRecollection": false,
+     "path": "/res/story/event/80000089.json",
+     "indexType": "event"
+    },
+    {
+     "storyId": "80000090",
+     "title": "保安委员长的勋章",
+     "order": 90,
+     "isRecollection": false,
+     "path": "/res/story/event/80000090.json",
+     "indexType": "event"
+    },
+    {
+     "storyId": "80000091",
+     "title": "甜蜜一点",
+     "order": 91,
+     "isRecollection": false,
+     "path": "/res/story/event/80000091.json",
+     "indexType": "event"
+    },
+    {
+     "storyId": "80000092",
+     "title": "有点特别的救护用品",
+     "order": 92,
+     "isRecollection": false,
+     "path": "/res/story/event/80000092.json",
+     "indexType": "event"
+    },
+    {
+     "storyId": "80000093",
+     "title": "无穷无尽的",
+     "order": 93,
+     "isRecollection": false,
+     "path": "/res/story/event/80000093.json",
+     "indexType": "event"
+    }
+   ],
+   "recollectionCount": 0
+  },
+  {
+   "eventId": 834,
+   "timelineId": 5543,
+   "name": "活动【圣堂的圣夜祝福 ~救护骑士团的礼物~】常驻化更新",
+   "nameSource": "kivo_timeline",
+   "matchScore": 5,
+   "period": {
+    "start": 1781178192,
+    "end": 1781178192
+   },
+   "chapters": [
+    {
+     "storyId": "80000094",
+     "title": "正值花样年华的女孩",
+     "order": 94,
+     "isRecollection": false,
+     "path": "/res/story/event/80000094.json",
+     "indexType": "event"
+    },
+    {
+     "storyId": "80000095",
+     "title": "真相就在另一侧",
+     "order": 95,
+     "isRecollection": false,
+     "path": "/res/story/event/80000095.json",
+     "indexType": "event"
+    },
+    {
+     "storyId": "80000096",
+     "title": "总能找到出路的少女",
+     "order": 96,
+     "isRecollection": false,
+     "path": "/res/story/event/80000096.json",
+     "indexType": "event"
+    },
+    {
+     "storyId": "80000097",
+     "title": "樱子限定版",
+     "order": 97,
+     "isRecollection": false,
+     "path": "/res/story/event/80000097.json",
+     "indexType": "event"
+    },
+    {
+     "storyId": "80000098",
+     "title": "情人节挑战书",
+     "order": 98,
+     "isRecollection": false,
+     "path": "/res/story/event/80000098.json",
+     "indexType": "event"
+    },
+    {
+     "storyId": "80000099",
+     "title": "温泉蛋",
+     "order": 99,
+     "isRecollection": false,
+     "path": "/res/story/event/80000099.json",
+     "indexType": "event"
+    },
+    {
+     "storyId": "80000100",
+     "title": "三种心意",
+     "order": 100,
+     "isRecollection": false,
+     "path": "/res/story/event/80000100.json",
+     "indexType": "event"
+    },
+    {
+     "storyId": "80000101",
+     "title": "最重要的东西",
+     "order": 101,
+     "isRecollection": false,
+     "path": "/res/story/event/80000101.json",
+     "indexType": "event"
+    },
+    {
+     "storyId": "80000102",
+     "title": "想一起做的事",
+     "order": 102,
+     "isRecollection": false,
+     "path": "/res/story/event/80000102.json",
+     "indexType": "event"
+    },
+    {
+     "storyId": "80000103",
+     "title": "因此，反而",
+     "order": 103,
+     "isRecollection": false,
+     "path": "/res/story/event/80000103.json",
+     "indexType": "event"
+    },
+    {
+     "storyId": "80000104",
+     "title": "绝不容许",
+     "order": 104,
+     "isRecollection": false,
+     "path": "/res/story/event/80000104.json",
+     "indexType": "event"
+    },
+    {
+     "storyId": "80000105",
+     "title": "彼此之间的认知差异",
+     "order": 105,
+     "isRecollection": false,
+     "path": "/res/story/event/80000105.json",
+     "indexType": "event"
+    },
+    {
+     "storyId": "80000106",
+     "title": "大家一起",
+     "order": 106,
+     "isRecollection": false,
+     "path": "/res/story/event/80000106.json",
+     "indexType": "event"
+    },
+    {
+     "storyId": "80000107",
+     "title": "过程、演出、结果",
+     "order": 107,
+     "isRecollection": false,
+     "path": "/res/story/event/80000107.json",
+     "indexType": "event"
+    },
+    {
+     "storyId": "80000108",
+     "title": "最好、最棒、最终极的……",
+     "order": 108,
+     "isRecollection": false,
+     "path": "/res/story/event/80000108.json",
+     "indexType": "event"
+    },
+    {
+     "storyId": "80000109",
+     "title": "战略领袖的心意",
+     "order": 109,
+     "isRecollection": false,
+     "path": "/res/story/event/80000109.json",
+     "indexType": "event"
+    },
+    {
+     "storyId": "80000110",
+     "title": "局长的特调",
+     "order": 110,
+     "isRecollection": false,
+     "path": "/res/story/event/80000110.json",
+     "indexType": "event"
+    },
+    {
+     "storyId": "80000111",
+     "title": "为青春全力以赴",
+     "order": 111,
+     "isRecollection": false,
+     "path": "/res/story/event/80000111.json",
+     "indexType": "event"
+    },
+    {
+     "storyId": "80000112",
+     "title": "作战参谋不想输",
+     "order": 112,
+     "isRecollection": false,
+     "path": "/res/story/event/80000112.json",
+     "indexType": "event"
+    },
+    {
+     "storyId": "80000113",
+     "title": "满溢双手的欲望",
+     "order": 113,
+     "isRecollection": false,
+     "path": "/res/story/event/80000113.json",
+     "indexType": "event"
+    },
+    {
+     "storyId": "80000114",
+     "title": "两人之间的秘密",
+     "order": 114,
+     "isRecollection": false,
+     "path": "/res/story/event/80000114.json",
+     "indexType": "event"
+    },
+    {
+     "storyId": "80000115",
+     "title": "永不腻的甜蜜",
+     "order": 115,
+     "isRecollection": false,
+     "path": "/res/story/event/80000115.json",
+     "indexType": "event"
+    },
+    {
+     "storyId": "80000116",
+     "title": "相称的礼物",
+     "order": 116,
+     "isRecollection": false,
+     "path": "/res/story/event/80000116.json",
+     "indexType": "event"
+    }
+   ],
+   "recollectionCount": 0
+  },
+  {
+   "eventId": 70000,
+   "timelineId": null,
+   "name": null,
+   "nameSource": null,
+   "matchScore": 0,
+   "period": null,
+   "chapters": [
+    {
+     "storyId": "60",
+     "title": "",
+     "order": 1,
+     "isRecollection": false,
+     "path": "/res/story/event/60.json",
+     "indexType": "event"
+    }
+   ],
+   "recollectionCount": 0
+  },
+  {
+   "eventId": 80000,
+   "timelineId": 5109,
+   "name": "限时活动【情人节的特别约定】",
+   "nameSource": "kivo_timeline",
+   "matchScore": 5,
+   "period": {
+    "start": 1771048800,
+    "end": 1772258399
+   },
+   "chapters": [
+    {
+     "storyId": "80000117",
+     "title": "情人节庆典",
+     "order": 117,
+     "isRecollection": false,
+     "path": "/res/story/event/80000117.json",
+     "indexType": "event"
+    },
+    {
+     "storyId": "80000118",
+     "title": "S+级可丽饼",
+     "order": 118,
+     "isRecollection": false,
+     "path": "/res/story/event/80000118.json",
+     "indexType": "event"
+    },
+    {
+     "storyId": "80000119",
+     "title": "奇妙的竞争心",
+     "order": 119,
+     "isRecollection": false,
+     "path": "/res/story/event/80000119.json",
+     "indexType": "event"
+    },
+    {
+     "storyId": "80000120",
+     "title": "五感图",
+     "order": 120,
+     "isRecollection": false,
+     "path": "/res/story/event/80000120.json",
+     "indexType": "event"
+    },
+    {
+     "storyId": "80000121",
+     "title": "铁砂掌巧克力",
+     "order": 121,
+     "isRecollection": false,
+     "path": "/res/story/event/80000121.json",
+     "indexType": "event"
+    },
+    {
+     "storyId": "80000122",
+     "title": "秘密食谱",
+     "order": 122,
+     "isRecollection": false,
+     "path": "/res/story/event/80000122.json",
+     "indexType": "event"
+    },
+    {
+     "storyId": "80000123",
+     "title": "甜点新闻学",
+     "order": 123,
+     "isRecollection": false,
+     "path": "/res/story/event/80000123.json",
+     "indexType": "event"
+    },
+    {
+     "storyId": "80000124",
+     "title": "陷阱巧克力",
+     "order": 124,
+     "isRecollection": false,
+     "path": "/res/story/event/80000124.json",
+     "indexType": "event"
+    },
+    {
+     "storyId": "80000125",
+     "title": "简报",
+     "order": 125,
+     "isRecollection": false,
+     "path": "/res/story/event/80000125.json",
+     "indexType": "event"
+    }
+   ],
+   "recollectionCount": 0
+  },
+  {
+   "eventId": 80001,
+   "timelineId": 5543,
+   "name": "活动【圣堂的圣夜祝福 ~救护骑士团的礼物~】常驻化更新",
+   "nameSource": "kivo_timeline",
+   "matchScore": 5,
+   "period": {
+    "start": 1781178192,
+    "end": 1781178192
+   },
+   "chapters": [
+    {
+     "storyId": "80000126",
+     "title": "三神器",
+     "order": 126,
+     "isRecollection": false,
+     "path": "/res/story/event/80000126.json",
+     "indexType": "event"
+    },
+    {
+     "storyId": "80000127",
+     "title": "Girl and Snack",
+     "order": 127,
+     "isRecollection": false,
+     "path": "/res/story/event/80000127.json",
+     "indexType": "event"
+    },
+    {
+     "storyId": "80000128",
+     "title": "意外的礼物",
+     "order": 128,
+     "isRecollection": false,
+     "path": "/res/story/event/80000128.json",
+     "indexType": "event"
+    },
+    {
+     "storyId": "80000129",
+     "title": "I hate cheap chocolate",
+     "order": 129,
+     "isRecollection": false,
+     "path": "/res/story/event/80000129.json",
+     "indexType": "event"
+    },
+    {
+     "storyId": "80000130",
+     "title": "冰冷的指尖",
+     "order": 130,
+     "isRecollection": false,
+     "path": "/res/story/event/80000130.json",
+     "indexType": "event"
+    },
+    {
+     "storyId": "80000131",
+     "title": "少女不打开盒子",
+     "order": 131,
+     "isRecollection": false,
+     "path": "/res/story/event/80000131.json",
+     "indexType": "event"
+    },
+    {
+     "storyId": "80000132",
+     "title": "为御者补充魔力",
+     "order": 132,
+     "isRecollection": false,
+     "path": "/res/story/event/80000132.json",
+     "indexType": "event"
+    },
+    {
+     "storyId": "80000133",
+     "title": "直到想起前世",
+     "order": 133,
+     "isRecollection": false,
+     "path": "/res/story/event/80000133.json",
+     "indexType": "event"
+    },
+    {
+     "storyId": "80000134",
+     "title": "恰到好处的提拉米苏",
+     "order": 134,
+     "isRecollection": false,
+     "path": "/res/story/event/80000134.json",
+     "indexType": "event"
+    },
+    {
+     "storyId": "80000135",
+     "title": "甜蜜又坚定",
+     "order": 135,
+     "isRecollection": false,
+     "path": "/res/story/event/80000135.json",
+     "indexType": "event"
+    },
+    {
+     "storyId": "80000136",
+     "title": "是我做的！",
+     "order": 136,
+     "isRecollection": false,
+     "path": "/res/story/event/80000136.json",
+     "indexType": "event"
+    },
+    {
+     "storyId": "80000137",
+     "title": "这个得送去博物馆！",
+     "order": 137,
+     "isRecollection": false,
+     "path": "/res/story/event/80000137.json",
+     "indexType": "event"
+    },
+    {
+     "storyId": "80000138",
+     "title": "巧克力蛋白霜饼干",
+     "order": 138,
+     "isRecollection": false,
+     "path": "/res/story/event/80000138.json",
+     "indexType": "event"
+    },
+    {
+     "storyId": "80000139",
+     "title": "评论家的巧克力蛋糕",
+     "order": 139,
+     "isRecollection": false,
+     "path": "/res/story/event/80000139.json",
+     "indexType": "event"
+    },
+    {
+     "storyId": "80000140",
+     "title": "巧克力蜂蜜蛋糕",
+     "order": 140,
+     "isRecollection": false,
+     "path": "/res/story/event/80000140.json",
+     "indexType": "event"
+    },
+    {
+     "storyId": "80000141",
+     "title": "或许曾经完美的计划",
+     "order": 141,
+     "isRecollection": false,
+     "path": "/res/story/event/80000141.json",
+     "indexType": "event"
+    }
+   ],
+   "recollectionCount": 0
+  }
+ ]
+}

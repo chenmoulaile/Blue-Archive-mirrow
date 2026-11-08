@@ -1,0 +1,264 @@
+{
+ "episodes": 3480,
+ "background": {
+  "referenced": 1954,
+  "resolved": 0,
+  "missing": 1954,
+  "missing_top": [
+   {
+    "name": "BG_Black",
+    "uses": 12758
+   },
+   {
+    "name": "BG_MainOffice",
+    "uses": 457
+   },
+   {
+    "name": "BG_White",
+    "uses": 419
+   },
+   {
+    "name": "BG_CraftChamber",
+    "uses": 245
+   },
+   {
+    "name": "BG_View_Sky",
+    "uses": 214
+   },
+   {
+    "name": "BG_GameDevRoom",
+    "uses": 193
+   },
+   {
+    "name": "BG_BeachFrontSide",
+    "uses": 190
+   },
+   {
+    "name": "BG_ShoppingMall",
+    "uses": 187
+   },
+   {
+    "name": "BG_RestingLounge",
+    "uses": 180
+   },
+   {
+    "name": "BG_Park",
+    "uses": 170
+   },
+   {
+    "name": "BG_Beachside",
+    "uses": 167
+   },
+   {
+    "name": "BG_CommitteeRoom",
+    "uses": 156
+   },
+   {
+    "name": "BG_DessertCafe",
+    "uses": 142
+   },
+   {
+    "name": "BG_HyakkiyakoFestivalRoad",
+    "uses": 141
+   },
+   {
+    "name": "BG_CityDowntown",
+    "uses": 134
+   },
+   {
+    "name": "BG_IronContinentWalled",
+    "uses": 112
+   },
+   {
+    "name": "BG_FamilyRestaurant",
+    "uses": 111
+   },
+   {
+    "name": "BG_ShanTeaHouse",
+    "uses": 111
+   },
+   {
+    "name": "BG_CityOffice",
+    "uses": 107
+   },
+   {
+    "name": "BG_Market",
+    "uses": 102
+   },
+   {
+    "name": "BG_View_Sky2",
+    "uses": 102
+   },
+   {
+    "name": "BG_View_Sky_Sunset",
+    "uses": 100
+   },
+   {
+    "name": "BG_ComputerCenter",
+    "uses": 100
+   },
+   {
+    "name": "BG_ShoppingDistrict",
+    "uses": 91
+   },
+   {
+    "name": "BG_Grandstand",
+    "uses": 89
+   },
+   {
+    "name": "BG_Yatai",
+    "uses": 87
+   },
+   {
+    "name": "BG_Library",
+    "uses": 86
+   },
+   {
+    "name": "BG_Red",
+    "uses": 85
+   },
+   {
+    "name": "BG_MilleniumCampus",
+    "uses": 82
+   },
+   {
+    "name": "BG_TrinityOldLibrary",
+    "uses": 82
+   },
+   {
+    "name": "BG_View_Sky_Night",
+    "uses": 81
+   },
+   {
+    "name": "BG_WinterRoad",
+    "uses": 81
+   },
+   {
+    "name": "BG_HyakkiyakoMeetingroom2",
+    "uses": 80
+   },
+   {
+    "name": "BG_Residence",
+    "uses": 79
+   },
+   {
+    "name": "BG_BuildingFrontGate",
+    "uses": 78
+   },
+   {
+    "name": "BG_HyakkayouranGarden",
+    "uses": 77
+   },
+   {
+    "name": "BG_CityTown",
+    "uses": 74
+   },
+   {
+    "name": "BG_SchoolCafeteria",
+    "uses": 72
+   },
+   {
+    "name": "BG_MainOffice_Night",
+    "uses": 72
+   },
+   {
+    "name": "BG_HyakkiyakoFestivalRoad_Night",
+    "uses": 70
+   }
+  ]
+ },
+ "bgm": {
+  "referenced": 316,
+  "note": "音频尚未抓取"
+ },
+ "se": {
+  "referenced": 846,
+  "note": "音频尚未抓取"
+ },
+ "spine_by_character": {
+  "characters_referenced": 1304,
+  "mapped": 14,
+  "missing_top": [
+   {
+    "name": "CH602628616",
+    "uses": 4139
+   },
+   {
+    "name": "Ayane",
+    "uses": 1297
+   },
+   {
+    "name": "Kisaki",
+    "uses": 1290
+   },
+   {
+    "name": "Momoi",
+    "uses": 1275
+   },
+   {
+    "name": "Citizen Borot 1",
+    "uses": 1270
+   },
+   {
+    "name": "Subaru",
+    "uses": 1240
+   },
+   {
+    "name": "Michiru",
+    "uses": 1198
+   },
+   {
+    "name": "Hoshino",
+    "uses": 1144
+   },
+   {
+    "name": "Rio",
+    "uses": 1112
+   },
+   {
+    "name": "Seia",
+    "uses": 1112
+   },
+   {
+    "name": "Miyako",
+    "uses": 1109
+   },
+   {
+    "name": "Serika",
+    "uses": 1080
+   },
+   {
+    "name": "Hanako",
+    "uses": 1053
+   },
+   {
+    "name": "Niya",
+    "uses": 1048
+   },
+   {
+    "name": "Himari",
+    "uses": 1017
+   },
+   {
+    "name": "Yuuka",
+    "uses": 991
+   },
+   {
+    "name": "Midori",
+    "uses": 990
+   },
+   {
+    "name": "Mika",
+    "uses": 953
+   },
+   {
+    "name": "Yukari",
+    "uses": 936
+   },
+   {
+    "name": "Shizuko",
+    "uses": 918
+   }
+  ]
+ }
+}

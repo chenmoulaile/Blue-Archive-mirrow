@@ -1,0 +1,38 @@
+{
+ "source": "ExcelDB ScenarioScriptDBSchema(388859 行) + resources/spine/*_spr*/ *.atlas(624 个) 实测归纳",
+ "generated": "2026-11-08",
+ "speakerLine": {
+  "format": "<slot>;<krName>;<seq>;<text>",
+  "slot": {
+   "meaning": "立绘屏幕槽位 1-5（多槽同现=舞台站位；同一角色行内换槽=走位）",
+   "histogram": {"3": 111464, "5": 14204, "1": 13952, "4": 5610, "2": 4881, "6": 1},
+   "evidence": "group 1000020 同一角色 아루 出现于槽 3/4/5；NPC 检黑西装/马埃斯特罗固定槽 3"
+  },
+  "seq": "表情差分号（两位数字符串），映射到 spr spine 的 attachment 区域名",
+  "note": "镜像 dump 同构：Script 字段 '3;아루;01;...'，CharacterId 另有数值列"
+ },
+ "sequenceToAttachment": {
+  "rule": "spr atlas 区域名以 '<NN>' 开头：'<NN>_<emotion>'（如 04_smile）或裸 '<NN>'（如 08）",
+  "match": "按编号前缀匹配，忽略后缀拼写（实测后缀含 nomal/embarassed/embrassed/defualt 等拼写变体，勿按后缀匹配）",
+  "fallback": "模型缺少该 NN 时退最大 NN<sequence，再退 00_default",
+  "seq99": "出现 11460 次，高频特殊值；语义未证实（不要当作普通表情渲染）",
+  "numbersSeenInScripts": "00-99（55 个不同值）",
+  "numbersInAtlases": "00-46 另有 99（6 个模型）"
+ },
+ "sprNaming": {
+  "atlasCount": 624,
+  "atlasesWithNumberedRegions": 544,
+  "suffixVocab": ["default", "normal", "nomal(拼写变体)", "respond", "smile", "serious", "depressed", "embarassed(拼写变体)", "eyeclose", "shout", "shy", "etc", "(bare)"],
+  "suffixHistogram": {"(bare)": 3211, "serious": 511, "smile": 506, "respond": 497, "depressed": 447, "normal": 406, "default": 337, "embarassed": 328, "eyeclose": 126, "nomal": 98}
+ },
+ "motionCommands": {
+  "#N;<cmd>": "对槽位 N 的角色施加动作（N∈1-5，实测 #1;stiff / #3;em;[?!] / #1;hophop）",
+  "常见动作": ["stiff", "shak(摇晃)", "em;[表情符号]", "hophop", "closeup", "m1-m4(姿态切换)"],
+  "场景指令": {"#wait;N": "等待毫秒", "#st": "字幕/贴图显示", "#clearST": "清除字幕", "#na;<name>;<text>": "无立绘旁白", "#zmc": "镜头移动", "#bgshake": "背景摇晃", "#title;": "标题行", "#place;": "地点行", "#all;hide": "全部立绘隐藏", "#fontsize;N": "字号", "#nextepisode": "跳下一集"}
+ },
+ "playbackHints": {
+  "choice": "choice 节点 options:[{text,nextGroup}]；nextGroup=分支号，分支内容=其后带 branch:'N' 标记的连续节点（ExcelDB 侧按 selection_group，镜像侧按 SelectionGroup），分支节点耗尽即汇合继续",
+  "pseudoChoice": "单独 '[s] 文本'（无编号）=单选项伪选项（无分支），options 仅 1 项且 nextGroup 为空，可按普通点按台词处理",
+  "branchStats": {"excelDbBranchTextNodes": 1381, "excelDbChoices": 5277, "mirrorChoices": 9977}
+ }
+}

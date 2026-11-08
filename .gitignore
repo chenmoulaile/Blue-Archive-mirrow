@@ -4,22 +4,21 @@ dist/
 out/
 release/
 
-# 素材与抓取结果（体积大、版权归原厂，不入库）
+# 素材不入库（7.1GB，随 GitHub Release 分卷包分发，每包 ≤1.9GB）
 resources/
 viewer/
-data/*.json
-# 例外：解包出来的元数据体积小、重建成本高，入库方便下一个 agent 接手
-!data/ui_atlas.json
-!data/ui_nineslice.json
-!data/se_index.json
-!data/se_map.json
-!data/bgm_map.json
+# data/ 元数据按 2026-11-09 新政策解除 ignore 入库：git clone 后补素材包即可跑
+# （此前仅 ui_atlas/ui_nineslice/se_index/se_map/bgm_map 五个白名单入库）
 
 # 本地存档与缓存
 *.db
 *.sqlite
 *.sqlite3
 .cache/
+
+# 本地备份文件（改动前 checkpoint 备份，不入库）
+*.bak-*
+data/*.bak-*
 
 # 系统
 .DS_Store

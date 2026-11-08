@@ -212,6 +212,25 @@ if (await goto('招募')) {
     await page.waitForSelector('[data-gacha-overlay]', { timeout: 10000 }).catch(() => {});
     await page.locator('[data-gacha-skip]').click({ timeout: 5000 }).catch(() => {});
     await shot('10-gacha-result', 1700);
+    // integration-w3 最小增量（2026-11-09 走查② 卡面新结构契约）：十连演出结果幕
+    // 网格 = GachaResultView 的 .gcs-r-card ×10；NEW 徽标按抽取前 owned 快照判断，
+    // e2e 存档每次被清空（脚本头部 rmSync save.json），首抽必全新 → NEW 恒 10/10。
+    // 卡面立绘(.gcs-r-art)与头像回退(.gcs-r-avatar)按 card_art.json 覆盖率自选，数量不断言
+    // （覆盖率 193/513 非确定；students_slim 仅 id635「透」无 avatar，走 .gcs-card-initial 兜底字），
+    // 只断言「每张卡有图像或兜底字承载，无空白卡」。
+    if (await page.locator('[data-gacha-scene="result"]').count()) {
+      const cut = await page.evaluate(() => ({
+        cards: document.querySelectorAll('[data-gacha-scene="result"] .gcs-r-card').length,
+        newBadges: document.querySelectorAll('[data-gacha-scene="result"] .gcs-card-new').length,
+        imgCards: document.querySelectorAll('[data-gacha-scene="result"] .gcs-r-card img').length,
+        initialCards: document.querySelectorAll('[data-gacha-scene="result"] .gcs-card-initial').length,
+      }));
+      console.log('  卡面结构:', cut);
+      if (cut.cards !== 10) segFail(`卡面新结构：演出结果网格 ${cut.cards}/10 张`);
+      if (cut.newBadges !== 10) segFail(`卡面新结构：NEW 徽标 ${cut.newBadges}/10（首抽应全 NEW）`);
+      if (cut.imgCards + cut.initialCards !== 10)
+        segFail(`卡面新结构：图像+兜底字 ${cut.imgCards + cut.initialCards}/10（不应有空白卡）`);
+    }
     await shot('nineslice-panel', 300);
     await shot('gacha-ui', 300);
     await page.locator('[data-gacha-close]').click({ timeout: 5000 }).catch(() => {});

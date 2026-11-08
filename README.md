@@ -14,6 +14,33 @@
 
 Electron + Vite + React + TypeScript 严格模式实现的《蔚蓝档案》同人桌面客户端。
 
+## 下载即用（普通用户看这里）
+
+不想配置环境，直接到 [**Releases**](https://github.com/chenmoulaile/Blue-Archive-mirrow/releases) 下载 **v0.3.0** 资产包：
+
+1. **下载全部资产分卷**（`00-核心` + `01-*` 起的素材分卷，清单以 Release 资产列表为准）。
+2. **全部解压到同一个目录**（分卷压缩包只需对 `00-核心` 或第一个分卷右键解压，其余分卷自动续接），得到如下结构：
+
+   ```
+   Blue-Archive-mirrow/
+   ├─ 启动.bat            ← 双击启动
+   ├─ package.json
+   ├─ data/               ← 元数据（已在核心包 / git 仓库内）
+   ├─ dist/  dist-electron/   ← 构建产物（核心包内）
+   ├─ node_modules/       ← 依赖（核心包内）
+   ├─ docs/
+   └─ resources/          ← 素材分卷解压到这里（spine / ui / voice / bgm / images / …）
+   ```
+
+3. **双击 `启动.bat`**。脚本会在同目录启动应用；若提示缺少 Node.js，请安装
+   **Node.js ≥ 18**（https://nodejs.org/ 下载 LTS 版）后再双击。
+   也可手动启动：在解压目录打开终端执行 `npm start`。
+
+> 若 Release 提供了 **portable exe**（单文件绿色版），下载后双击即可，无需 Node.js；
+> 素材分卷仍需解压到 exe 同目录的 `resources/` 下。
+> 若只 clone 了 git 仓库（含 `data/` 元数据，56MB），下载素材分卷解压到仓库根的
+> `resources/` 后同样可用；开发者从源码跑见下文「运行」。
+
 ## 功能
 
 | 模块 | 内容 |
