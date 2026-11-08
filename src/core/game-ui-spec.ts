@@ -363,6 +363,13 @@ export const TOP_CURRENCY_ICONS = {
 };
 
 /**
+ * 内页顶栏签到天数胶囊图标（2026-11-08 走查①）。
+ * 原文案「✦ N 天」含义不明，改为「签到 N 天」+ 日历原件；
+ * Common/School_Icon_Calendar 实测存在于 data/ui_atlas.json（2536 sprites 全量检索）。
+ */
+export const TOP_SIGNIN_ICON = v('Common/School_Icon_Calendar', 'assetbundle', '实测存在于图集');
+
+/**
  * 体力（AP）恢复。真实游戏上限随老师等级提升、每 6~7 分钟回 1 点；
  * 这里取低等级段的常见值，均标 estimated 待按等级曲线校准。
  */
@@ -449,6 +456,6 @@ export function countEstimates(): { total: number; estimate: number } {
     }
     for (const child of Object.values(node as Record<string, unknown>)) walk(child);
   };
-  walk({ TOP_BAR, SIDE_MENU_SPEC, BOTTOM_NAV, EVENT_BANNER, KANBAN, MENU_POPUP, INTRO_TIMING, STORY_UI, MOMOTALK_UI, GACHA_UI, LOBBY_UI, HOME_STAGE, SIDE_MENU_REAL, SIDE_MENU_REAL_SPEC, LOBBY_QUICK_BTN, MOMOTALK_ENTRY, TOP_CURRENCY_ICONS, AP_REGEN, TITLE_SCREEN, LOADING_ARONA, LOADING_TIPS, LOBBY_SE });
+  walk({ TOP_BAR, SIDE_MENU_SPEC, BOTTOM_NAV, EVENT_BANNER, KANBAN, MENU_POPUP, INTRO_TIMING, STORY_UI, MOMOTALK_UI, GACHA_UI, LOBBY_UI, HOME_STAGE, SIDE_MENU_REAL, SIDE_MENU_REAL_SPEC, LOBBY_QUICK_BTN, MOMOTALK_ENTRY, TOP_CURRENCY_ICONS, TOP_SIGNIN_ICON, AP_REGEN, TITLE_SCREEN, LOADING_ARONA, LOADING_TIPS, LOBBY_SE });
   return { total, estimate };
 }

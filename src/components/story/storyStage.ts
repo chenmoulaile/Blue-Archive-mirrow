@@ -38,6 +38,8 @@ export interface ActorState {
   resource: ActorResource | null;
   /** 学生档案（无立绘时用头像兜底） */
   student: Student | null;
+  /** NPC 对话立绘 url（2026-11-08 走查⑤新增，无 spine/头像时的降级一级） */
+  npcPortrait: string | null;
   /** 当前表情动画名（两位编号）或 null=保持 Idle */
   expression: string | null;
   pos: StagePos;
@@ -49,10 +51,13 @@ export interface ActorState {
 export function resolveActor(
   assets: AssetBundle,
   displayName: string
-): { resource: ActorResource | null; student: Student | null } {
+): { resource: ActorResource | null; student: Student | null; npcPortrait: string | null } {
   const name = displayName.trim();
   const spine = assets.spine(name); // assets.ts:120 已实现 character_spine 查找 + 去括号兜底
-  if (!spine) return { resource: null, student: lookupStudent(assets, name) };
+  if (!spine) {
+    const student = lookupStudent(assets, name);
+    return { resource: null, student, npcPortrait: student ? null : npcPortraitOf(assets, name) };
+  }
   const model = modelOf(assets, name);
   return {
     resource: {
@@ -63,7 +68,25 @@ export function resolveActor(
       displayName: name,
     },
     student: lookupStudent(assets, name),
+    npcPortrait: null,
   };
+}
+
+/**
+ * NPC 对话立绘（2026-11-08 走查⑤）：resources/npc_portrait/ 里 239 张官方
+ * NPC_Portrait_*.png（252×204 对话半身像）此前完全没有接入，无 spr 无头像的
+ * NPC 说话人只剩悬空名牌。这里借 character_spine 的 NPC 映射反查文件名——
+ * 实测映射值如 np0109_spr / pmcdirector_spr / fuuki_normal1_spr，对应
+ * NPC_Portrait_NP0109.png / NPC_Portrait_Pmcdirector.png / NPC_Portrait_Fuuki_Normal1.png
+ * （Windows 文件系统大小写不敏感；前端 img onError 会兜住真缺失）。
+ * 七神琳等未收录中文映射的 NPC 查不到 → 返回 null，如实走头像/对话框标签兜底。
+ */
+function npcPortraitOf(assets: AssetBundle, displayName: string): string | null {
+  const model = modelOf(assets, displayName);
+  if (!model || !/_spr/.test(model)) return null;
+  const base = model.replace(/_spr.*$/i, '');
+  if (!/^(np\d+|[a-z][a-z0-9_]*)$/.test(base)) return null;
+  return `/res/npc_portrait/NPC_Portrait_${base}.png`;
 }
 
 /** 反查模型名（assets.spine() 不返回模型名，这里重复一次映射） */
@@ -137,7 +160,7 @@ export function applySpeaker(
   prev: ActorState[],
   displayName: string,
   expression: string | null,
-  resources: Map<string, { resource: ActorResource | null; student: Student | null }>
+  resources: Map<string, { resource: ActorResource | null; student: Student | null; npcPortrait: string | null }>
 ): StageUpdate {
   const ordered = prev.map((a) => a.key);
   if (!ordered.includes(displayName)) ordered.push(displayName);
@@ -154,11 +177,13 @@ export function applySpeaker(
     const r = resources.get(key);
     const resource = r ? r.resource : (old?.resource ?? null);
     const student = r ? r.student : (old?.student ?? null);
+    const npcPortrait = r ? r.npcPortrait : (old?.npcPortrait ?? null);
     return {
       key,
       displayName: key,
       resource,
       student,
+      npcPortrait,
       expression: key === displayName ? expression : (old?.expression ?? null),
       pos: positions.get(key) ?? 'center',
       active: key === displayName,

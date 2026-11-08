@@ -18,10 +18,70 @@ import {
   AtlasAttachmentLoader,
   AnimationState,
   AnimationStateData,
+  MeshAttachment,
   Physics,
+  RegionAttachment,
   Vector2,
   type TextureAtlas,
 } from '@esotericsoftware/spine-webgl';
+
+/** FX/特效层命名（雾效、光晕、投影）：只做氛围，不参与取景基准计算 */
+const FX_LAYER_RE = /fx|fog|light|glow|shadow/i;
+
+/**
+ * cover/contain 取景用的「场景」包围盒（2026-11-08 走查②）。
+ *
+ * skeleton.getBounds() 的全量 union 会把横跨全场的雾效大四边形算进来——
+ * 实测 CH0356_home 单块 Fx_Fog mesh 就有 3010×2429，把 union 撑到 7033×5410，
+ * cover 取景按这个基准缩放后，真场景（3834×3382）只占画布中央约一半，
+ * 边缘露出硬边矩形。这里逐 attachment 计算世界包围盒，剔除 FX/Fog/Light/
+ * Glow/Shadow 命名的槽位与附件后取并集；渲染不剔除（雾效照画）。
+ * 离线对账（tools/recon/spine-fit-lab.mjs）：ch0356_home 7033×5410 → 3834×3382；
+ * airi_home 3460×2568 → 完全不变，/lobby 现有取景不受影响。
+ * 剔除后没有可用几何时退回全量 getBounds。
+ */
+function fitBoundsOf(
+  skeleton: Skeleton,
+  offset: Vector2,
+  size: Vector2
+): { cx: number; cy: number; w: number; h: number } {
+  let mnx = Infinity;
+  let mny = Infinity;
+  let mxx = -Infinity;
+  let mxy = -Infinity;
+  for (const slot of skeleton.drawOrder) {
+    const at = slot.getAttachment();
+    if (!at) continue;
+    if (FX_LAYER_RE.test(slot.data.name) || FX_LAYER_RE.test(at.name)) continue;
+    let vs: number[] | null = null;
+    if (at instanceof RegionAttachment) {
+      vs = new Array(8).fill(0);
+      at.computeWorldVertices(slot, vs, 0, 2);
+    } else if (at instanceof MeshAttachment) {
+      const n = at.worldVerticesLength;
+      vs = new Array(n).fill(0);
+      at.computeWorldVertices(slot, 0, n, vs, 0, 2);
+    }
+    if (!vs) continue;
+    for (let k = 0; k < vs.length; k += 2) {
+      mnx = Math.min(mnx, vs[k]);
+      mxx = Math.max(mxx, vs[k]);
+      mny = Math.min(mny, vs[k + 1]);
+      mxy = Math.max(mxy, vs[k + 1]);
+    }
+  }
+  const w = mxx - mnx;
+  const h = mxy - mny;
+  if (!Number.isFinite(w) || !Number.isFinite(h) || w <= 0 || h <= 0) {
+    return {
+      cx: offset.x + size.x / 2,
+      cy: offset.y + size.y / 2,
+      w: Math.max(size.x, 1),
+      h: Math.max(size.y, 1),
+    };
+  }
+  return { cx: mnx + w / 2, cy: mny + h / 2, w, h };
+}
 
 export interface SpineViewProps {
   skelUrl: string;
@@ -168,12 +228,15 @@ export function SpineView({
           const offset = new Vector2();
           const size = new Vector2();
           skeleton.getBounds(offset, size, []);
-          base = {
-            cx: offset.x + size.x / 2,
-            cy: offset.y + size.y / 2,
-            w: Math.max(size.x, 1),
-            h: Math.max(size.y, 1),
-          };
+          // 取景基准（2026-11-08 走查②）：setup 态全量 union 会被横跨全场的
+          // 雾效/光效层（CH0356_home 的 Fx_Fog_* 单块 mesh 3010×2429）撑大，
+          // cover 取景因此把真场景缩成中央一块带硬边矩形。这里逐 attachment
+          // 计算世界包围盒，排除 FX/Fog/Light/Glow/Shadow 层后作为取景基准；
+          // 渲染仍画全部层（雾效在场景边缘只是淡出，不影响构图）。
+          // 已离线验证（tools/recon/spine-fit-lab.mjs）：
+          //   ch0356_home 7033×5410 → 3834×3382；airi_home 3460×2568 → 不变，
+          //   即 /lobby 现有正常取景不受影响。
+          base = fitBoundsOf(skeleton, offset, size);
 
           const cam = c.renderer.camera;
           // 锚点夹到 0..1（CSS 语义：0=左/上，1=右/下）
@@ -243,6 +306,19 @@ export function SpineView({
       webglConfig: { alpha: true, premultipliedAlpha: true, antialias: true },
     });
 
+    // 2026-11-08 走查②：本机 GPU 栈出现过 GL_OUT_OF_MEMORY → context lost，
+    // SpineCanvas 不监听该事件，上下文丢了以后画布静默变黑、界面无任何提示。
+    // 这里显式监听并走 onError（宿主会切到 .ls-fallback 兜底）。
+    const onContextLost = (e: Event): void => {
+      e.preventDefault();
+      if (disposed) return;
+      const msg = 'WebGL 上下文丢失（GPU 资源不足或驱动重置）';
+      setStatus('error');
+      setErrMsg(msg);
+      onError?.(msg);
+    };
+    canvas.addEventListener('webglcontextlost', onContextLost);
+
     const ro = new ResizeObserver(() => {
       const r = canvas.getBoundingClientRect();
       if (r.width < 2 || r.height < 2) return;
@@ -255,6 +331,7 @@ export function SpineView({
     return () => {
       disposed = true;
       ro.disconnect();
+      canvas.removeEventListener('webglcontextlost', onContextLost);
       sc.dispose();
       stateRef.current = null;
       skeletonRef.current = null;

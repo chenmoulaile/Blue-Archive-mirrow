@@ -200,6 +200,8 @@ export interface SaveData {
     read: Record<string, number[]>;
     progress: Record<string, number>;
     cleared: string[];
+    /** 最近播放的剧情 id（2026-11-08 走查⑦：剧情页空态「继续播放」入口用；旧存档缺字段视为未播放过） */
+    lastPlayed?: string | null;
   };
   gacha: {
     mode: PityMode;

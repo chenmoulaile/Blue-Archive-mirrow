@@ -288,24 +288,25 @@ select {
   gap: 10px;
   align-items: center;
 }
+/* 2026-11-08 走查①：内页顶栏货币胶囊改主页顶栏（.res）同款深色胶囊。
+   原白底浅蓝字（90,120 之类）在深色主题下几乎不可读，且图标是 CSS 蓝圆点；
+   现在深底白字 + 青辉石宝石原件（Common_Icon_Diamond），两层主题都可读。 */
 .wallet .chip {
   display: flex;
   align-items: center;
   gap: 7px;
-  padding: 6px 14px;
-  background: #fff;
-  border: 1px solid var(--line);
+  padding: 5px 14px;
+  background: rgba(8, 20, 32, 0.42);
+  border: 1px solid rgba(140, 200, 240, 0.22);
   border-radius: 999px;
+  color: #eaf6ff;
   font-variant-numeric: tabular-nums;
   font-weight: 650;
   font-size: 13.5px;
+  backdrop-filter: blur(6px);
 }
-.wallet .chip i {
-  width: 16px;
-  height: 16px;
-  border-radius: 50%;
-  background: linear-gradient(135deg, #6fc8f5, #2b8fd6);
-  display: inline-block;
+.wallet .chip img {
+  object-fit: contain;
 }
 
 .content {
@@ -657,6 +658,49 @@ select {
   font-weight: 700;
 }
 
+/* ---- 2026-11-08 走查⑦：主线话级条目 Scenario_Title 横幅样式 ----
+   素材（asset_map images 已入库，cc25e02）：
+   - tex_Scenario_Title_Deco 1024×256 浅蓝三角装饰底（横幅背景）
+   - tex_Scenario_Title_Frame 172×172 白色镂空装饰框（7px 环，border-image 取形）
+   对照正式服主线选择：每话是带装饰框的横幅按钮，白字压深色底。
+   选择器带 .story-list 前缀：game-theme.css 的 [data-theme] .story-item.on
+   （0-3-0）会用 background 简写清掉横幅底图，这里必须 ≥0-3-0 且 global.css
+   在打包顺序里靠后，平局时才盖得住。 */
+.story-list .story-item.story-item-banner {
+  border: none;
+  border-style: solid;
+  border-width: 7px;
+  /* 不带 fill：Frame 中片含内圈圆弧，fill 会把弧线拉伸成大白纹（首跑实测） */
+  border-image: url('/res/ui/extra/Scenario_Title_Frame.png') 8 / 7px stretch;
+  border-radius: 0;
+  background-color: #9db9cf;
+  background-image: url('/res/ui/extra/Scenario_Title_Deco.png');
+  background-size: cover;
+  background-position: center;
+  color: #16405e;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.35);
+}
+.story-list .story-item.story-item-banner:hover {
+  background-image: url('/res/ui/extra/Scenario_Title_Deco.png');
+  filter: brightness(1.05);
+}
+.story-list .story-item.story-item-banner.on {
+  background-image: url('/res/ui/extra/Scenario_Title_Deco.png');
+  box-shadow: 0 0 0 2px rgba(63, 159, 224, 0.55);
+}
+.story-list .story-item.story-item-banner b {
+  color: #12456b;
+  font-size: 13.5px;
+  text-shadow: none;
+}
+.story-list .story-item.story-item-banner span {
+  color: rgba(23, 54, 78, 0.82);
+  text-shadow: none;
+}
+.story-list .story-item.story-item-banner .cleared {
+  color: #a25b00;
+}
+
 .player {
   position: relative;
   border-radius: var(--radius);
@@ -672,6 +716,65 @@ select {
   min-height: 0;
   cursor: pointer;
   overflow: hidden;
+}
+
+/* 2026-11-08 走查⑦：剧情空态 —— Scenario_Title 横幅提示 + 「继续播放」入口，
+   替换原来一行裸文字提示（右侧大空区观感）。 */
+.player-empty {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 18px;
+  padding: 30px;
+}
+.player-empty-banner {
+  width: min(520px, 82%);
+  padding: 30px 28px;
+  background-color: #9db9cf;
+  background-image: url('/res/ui/extra/Scenario_Title_Deco.png');
+  background-size: cover;
+  background-position: center;
+  border: 7px solid transparent;
+  border-image: url('/res/ui/extra/Scenario_Title_Frame.png') 8 / 7px stretch;
+  color: #12456b;
+  text-align: center;
+  font-size: 13.5px;
+  letter-spacing: 2px;
+  font-weight: 600;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.4);
+}
+.player-empty-resume {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 13px 28px;
+  border-radius: 14px;
+  background: rgba(20, 40, 60, 0.85);
+  border: 1px solid rgba(143, 216, 242, 0.4);
+  color: #eaf4ff;
+  cursor: pointer;
+  text-align: left;
+  transition: 0.14s;
+}
+.player-empty-resume:hover {
+  background: rgba(35, 66, 96, 0.92);
+  border-color: rgba(180, 228, 250, 0.75);
+}
+.player-empty-resume .resume-glyph {
+  font-size: 17px;
+  color: #8fd8f2;
+}
+.player-empty-resume b {
+  display: block;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+.player-empty-resume .resume-body > span {
+  font-size: 11.5px;
+  color: #9db8ca;
 }
 .player-bg {
   position: absolute;
@@ -2218,28 +2321,27 @@ select {
   object-fit: cover;
 }
 .story-actor-left .story-actor-avatar,
-.story-actor-left .story-actor-nameplate {
+.story-actor-left .story-actor-npc {
   left: 12%;
 }
 .story-actor-right .story-actor-avatar,
-.story-actor-right .story-actor-nameplate {
+.story-actor-right .story-actor-npc {
   right: 12%;
 }
 .story-actor-center .story-actor-avatar,
-.story-actor-center .story-actor-nameplate {
+.story-actor-center .story-actor-npc {
   left: 50%;
   transform: translateX(-50%);
 }
-.story-actor-nameplate {
+/* 2026-11-08 走查⑤：NPC 对话立绘（官方 NPC_Portrait_*.png 252×204 半身像，
+   1.2 倍左右呈现避免放大发糊）。原悬空名牌 story-actor-nameplate 已移除——
+   说话人身份由对话框内 speaker 标签承担，不再往场景里挂浮空小名牌。 */
+.story-actor-npc {
   position: absolute;
-  bottom: calc(var(--dialog-h, 172px) + 28px);
-  padding: 8px 18px;
-  border-radius: 10px;
-  background: rgba(10, 24, 38, 0.78);
-  border: 1px solid rgba(143, 216, 242, 0.4);
-  color: #cfe8f8;
-  font-size: 13px;
-  letter-spacing: 1px;
+  bottom: calc(var(--dialog-h, 172px) + 10px);
+  width: 302px;
+  height: auto;
+  filter: drop-shadow(0 10px 24px rgba(0, 0, 0, 0.45));
 }
 
 /* ---- 立绘出现方式还原（2026-11-08 剧情轨） ----
@@ -2272,7 +2374,7 @@ select {
 }
 .story-portrait,
 .story-actor-avatar,
-.story-actor-nameplate {
+.story-actor-npc {
   transform-origin: 50% 100%;
   will-change: transform;
 }
@@ -2298,20 +2400,20 @@ select {
   transform: translateX(8px) scale(0.94);
 }
 .story-actor:not(.active) .story-actor-avatar,
-.story-actor:not(.active) .story-actor-nameplate {
+.story-actor:not(.active) .story-actor-npc {
   transform: scale(0.94);
 }
 .story-actor-left:not(.active) .story-actor-avatar,
-.story-actor-left:not(.active) .story-actor-nameplate {
+.story-actor-left:not(.active) .story-actor-npc {
   transform: translateX(-8px) scale(0.94);
 }
 .story-actor-right:not(.active) .story-actor-avatar,
-.story-actor-right:not(.active) .story-actor-nameplate {
+.story-actor-right:not(.active) .story-actor-npc {
   transform: translateX(8px) scale(0.94);
 }
-/* 中槽头像/名字牌自带 translateX(-50%) 居中，压暗微缩时须合并，不能覆盖掉 */
+/* 中槽头像/NPC 立绘自带 translateX(-50%) 居中，压暗微缩时须合并，不能覆盖掉 */
 .story-actor-center:not(.active) .story-actor-avatar,
-.story-actor-center:not(.active) .story-actor-nameplate {
+.story-actor-center:not(.active) .story-actor-npc {
   transform: translateX(-50%) scale(0.94);
 }
 
@@ -2935,11 +3037,14 @@ select {
   letter-spacing: 2px;
   color: #d98bab;
 }
+/* 2026-11-08 走查⑥：按钮宽度自适应内容、文字居中（原版 Reply 是
+   内容宽度的圆角按钮，不是通栏细条）；右下大爱心水印一并移除。 */
 .mt-reply-btn {
-  position: relative;
-  overflow: hidden;
-  padding: 11px 18px;
-  text-align: left;
+  align-self: flex-start;
+  width: fit-content;
+  max-width: 82%;
+  padding: 11px 26px;
+  text-align: center;
   font-size: 13.5px;
   line-height: 1.5;
   color: #3d4a66;
@@ -2949,15 +3054,6 @@ select {
   cursor: pointer;
   transition: 0.14s;
   animation: msgIn 0.22s ease;
-}
-.mt-reply-btn::after {
-  content: '♥';
-  position: absolute;
-  right: 10px;
-  bottom: -8px;
-  font-size: 34px;
-  color: rgba(247, 143, 173, 0.22); /* 官方底板右下爱心的样式呼应 */
-  pointer-events: none;
 }
 .mt-reply-btn:hover {
   background: rgba(255, 255, 255, 0.94);

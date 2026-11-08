@@ -453,6 +453,7 @@ export default function StoryPage() {
       store.update((d) => {
         markRead(d, f.story_id, r.index);
         d.story.progress[f.story_id] = r.index;
+        d.story.lastPlayed = f.story_id; // 走查⑦：空态「继续播放」入口的真实数据源
       });
     },
     [scan, save.story.cleared, skip, toast]
@@ -605,10 +606,32 @@ export default function StoryPage() {
   const stageSpeaker = line?.kind === 'say' ? line.speaker : '';
   /** 当前说话人是否在舞台上有立绘（决定对话框角落头像是否显示） */
   const onStage = stageSpeaker ? actors.some((a) => a.key === stageSpeaker && a.resource) : false;
-  const cornerAvatar =
-    line?.kind === 'say' && !onStage
-      ? (resourcesRef.current.get(stageSpeaker)?.student?.avatar ?? null)
-      : null;
+  // 角落头像：不在舞台上的说话人显示学生头像；没有学生的 NPC 用对话立绘（走查⑤）
+  const cornerRes = line?.kind === 'say' && !onStage ? resourcesRef.current.get(stageSpeaker) : undefined;
+  const cornerAvatar = cornerRes ? (cornerRes.student?.avatar ?? cornerRes.npcPortrait ?? null) : null;
+
+  // 走查⑦：空态「继续播放」——最近播放（save.story.lastPlayed）的那一集。
+  // 先查 storyIndex（羁绊/活动/社团），主线集在 main_story_map 里（不在
+  // story_index.json，实测 11000 只在前者），再查主线卷章。
+  const resumeEntry = useMemo(() => {
+    const id = save.story.lastPlayed;
+    if (!id) return null;
+    const inIndex = assets.storyIndex.find((s) => s.id === id);
+    if (inIndex) return inIndex;
+    if (!mainMap) return null;
+    for (const vol of mainMap) {
+      for (const ch of vol.chapters) {
+        const hit = ch.episodes.find((e) => e.id === id);
+        if (hit) return mainEpisodeToEntry(hit);
+      }
+    }
+    return null;
+  }, [save.story.lastPlayed, assets.storyIndex, mainMap]);
+  const resumeTitle = resumeEntry
+    ? !resumeEntry.title || resumeEntry.title === resumeEntry.id
+      ? `剧情 #${resumeEntry.id}`
+      : resumeEntry.title.replace(';', ' ')
+    : '';
 
   return (
     <div className="story-layout">
@@ -668,6 +691,7 @@ export default function StoryPage() {
                           entry={entry}
                           cleared={save.story.cleared.includes(entry.id)}
                           active={selected?.id === entry.id}
+                          banner
                           onOpen={() => void openStory(entry)}
                         />
                       ))}
@@ -720,47 +744,76 @@ export default function StoryPage() {
               底部对齐对话框上沿（--dialog-h + StoryPortrait.bottomInset 同源）；
               资源缺失降级头像/名字牌 */}
           <div className="story-actors" style={{ ['--dialog-h' as never]: `${dialogH}px` }}>
-            {actors.map((a) => (
-              <div key={a.key} className={`story-actor story-actor-${a.pos}${a.active ? ' active' : ''}`}>
-                {a.resource && !failedActors.includes(a.key) ? (
-                  <PortraitWithFallback
-                    actorKey={a.key}
-                    resource={a.resource}
-                    expression={a.expression}
-                    pos={a.pos}
-                    speaking={a.active}
-                    bottomInset={dialogH}
-                    dim={!a.active}
-                    onFail={(k) =>
-                      setFailedActors((prev) => (prev.includes(k) ? prev : [...prev, k]))
-                    }
-                  />
-                ) : a.student?.avatar || a.resource?.student?.avatar ? (
-                  <div className="story-actor-avatar" data-actor={a.key}>
-                    <img src={a.student?.avatar ?? a.resource?.student?.avatar ?? ''} alt={a.displayName} />
-                  </div>
-                ) : (
-                  <div className="story-actor-nameplate" data-actor={a.key}>
-                    {a.displayName}
-                  </div>
-                )}
-              </div>
-            ))}
+            {actors.map((a) => {
+              // 2026-11-08 走查⑤：降级链 spine → 学生头像 → NPC 对话立绘，
+              // 全部落空时不再渲染悬空名牌（说话人身份由对话框内 speaker 标签承担）
+              const npcPortrait = a.npcPortrait && !failedActors.includes(`npc:${a.key}`) ? a.npcPortrait : null;
+              if (
+                !(a.resource && !failedActors.includes(a.key)) &&
+                !(a.student?.avatar || a.resource?.student?.avatar) &&
+                !npcPortrait
+              ) {
+                return null;
+              }
+              return (
+                <div key={a.key} className={`story-actor story-actor-${a.pos}${a.active ? ' active' : ''}`}>
+                  {a.resource && !failedActors.includes(a.key) ? (
+                    <PortraitWithFallback
+                      actorKey={a.key}
+                      resource={a.resource}
+                      expression={a.expression}
+                      pos={a.pos}
+                      speaking={a.active}
+                      bottomInset={dialogH}
+                      dim={!a.active}
+                      onFail={(k) =>
+                        setFailedActors((prev) => (prev.includes(k) ? prev : [...prev, k]))
+                      }
+                    />
+                  ) : a.student?.avatar || a.resource?.student?.avatar ? (
+                    <div className="story-actor-avatar" data-actor={a.key}>
+                      <img src={a.student?.avatar ?? a.resource?.student?.avatar ?? ''} alt={a.displayName} />
+                    </div>
+                  ) : npcPortrait ? (
+                    <img
+                      className="story-actor-npc"
+                      data-actor={a.key}
+                      data-ui-source="assetbundle"
+                      src={npcPortrait}
+                      alt={a.displayName}
+                      onError={() =>
+                        setFailedActors((prev) => (prev.includes(`npc:${a.key}`) ? prev : [...prev, `npc:${a.key}`]))
+                      }
+                    />
+                  ) : null}
+                </div>
+              );
+            })}
           </div>
 
           {!file && (
-            <div
-              style={{
-                position: 'absolute',
-                inset: 0,
-                display: 'grid',
-                placeItems: 'center',
-                color: '#7f9cb3',
-                fontSize: 13,
-                letterSpacing: 2,
-              }}
-            >
-              从左侧选择一集剧情开始播放
+            <div className="player-empty" data-ui-source="assetbundle">
+              {/* 走查⑦：空态用 Scenario_Title_Deco 横幅承载提示，不再是一行裸文字；
+                  有最近播放记录时给真实的「继续播放」入口（数据源 save.story.lastPlayed） */}
+              <div className="player-empty-banner">
+                <span>从左侧选择一集剧情开始播放</span>
+              </div>
+              {resumeEntry && (
+                <button
+                  className="player-empty-resume"
+                  onClick={() => void openStory(resumeEntry)}
+                  data-testid="story-resume"
+                >
+                  <span className="resume-glyph">▶</span>
+                  <span className="resume-body">
+                    <b>继续播放</b>
+                    <span>
+                      {resumeTitle}
+                      {save.story.cleared.includes(resumeEntry.id) ? ' · 已通关，重温' : ' · 从上次进度继续'}
+                    </span>
+                  </span>
+                </button>
+              )}
             </div>
           )}
 
@@ -916,6 +969,7 @@ function StoryListItem({
   active,
   chapterTitle,
   recollection,
+  banner,
   onOpen,
 }: {
   entry: StoryEntry;
@@ -923,6 +977,8 @@ function StoryListItem({
   active: boolean;
   chapterTitle?: string;
   recollection?: boolean;
+  /** 走查⑦：主线话级条目用 Scenario_Title 横幅样式（Deco 底 + Frame 装饰框） */
+  banner?: boolean;
   onOpen: () => void;
 }) {
   // 剧本行标题是 "第N话;标题" 格式，分号转空格便于阅读（主线卷章/活动章节/平铺通用）；
@@ -930,7 +986,11 @@ function StoryListItem({
   const raw = chapterTitle ?? entry.title;
   const title = !raw || raw === entry.id ? `剧情 #${entry.id}` : raw.replace(';', ' ');
   return (
-    <button className={`story-item${active ? ' on' : ''}`} onClick={onOpen}>
+    <button
+      className={`story-item${banner ? ' story-item-banner' : ''}${active ? ' on' : ''}`}
+      data-ui-source={banner ? 'assetbundle' : undefined}
+      onClick={onOpen}
+    >
       <b>
         {title}
         {recollection && <span className="recollection-tag">回忆</span>}

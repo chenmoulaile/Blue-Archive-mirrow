@@ -6,7 +6,9 @@
  * 素材策略（全部实测过再写）：
  *   - splash：NEXON / Yostar 用图集原件（NEXON_CI、nexonCiWhite、Icon_Logo_Yostar），
  *     NAT GAMES 没有提取到 logo（图集 grep 无命中），排版兜底并打 data-ui-source。
- *   - 标题：BA 标题 logo 是艺术字，图集无原件，文字版式兜底；
+ *   - 标题：BA 标题 logo 是艺术字，图集无原件，文字版式兜底（typography-fallback）；
+ *     2026-11-08 走查⑧复核：卡池横幅 jpg 上的 logo 与底纹焊死无 alpha，
+ *     不可裁用；待从游戏 bundle 提取 Title_Logo 后替换。
  *     「TOUCH TO START」为标题页按钮原文（wiki_layout）。
  *     标题 BGM 是 Theme_01（Constant Moderato），物理缺失
  *     （data/bgm_map.json 里 extracted=false，BGM.molru 尾表未解出），
@@ -220,8 +222,17 @@ export default function IntroFlow({ onDone }: { onDone: () => void }) {
       {titleBg && <div className="title-bg" style={{ backgroundImage: `url(${titleBg})` }} />}
       <div className="title-veil" />
       <div className="title-center">
-        <div className="title-logo2">BLUE ARCHIVE</div>
-        <div className="title-logo-cn">蔚蓝档案</div>
+        {/* 走查⑧：BA 艺术字 logo 原件不在库——UI 图集 2536 精灵与 asset_map
+            images 5453 张全量检索无命中；卡池横幅 jpg 上的 logo 与底纹焊死
+            （无 alpha 通道，裁下带矩形色块，_crop-banner-jpg-logo.png 实测），
+            不能当独立 logo 复用。按「没有原件就不伪造」继续走文字版式兜底，
+            打 typography-fallback 标注；后续从游戏 bundle 提取 Title_Logo 后替换。 */}
+        <div className="title-logo2" data-ui-source="typography-fallback" data-ui-sprite="BA_Title_Logo">
+          BLUE ARCHIVE
+        </div>
+        <div className="title-logo-cn" data-ui-source="typography-fallback" data-ui-sprite="BA_Title_Logo">
+          蔚蓝档案
+        </div>
         <div className="title-tag">同 人 客 户 端</div>
       </div>
       <div className={`title-prompt${promptVisible ? ' on' : ''}`}>

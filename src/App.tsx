@@ -5,6 +5,8 @@ import { store, useSave } from './core/store';
 import { audio } from './core/audio';
 import { loadUIAtlas, injectUIFonts, type UIAtlas } from './core/ui-atlas';
 import { setLocale, t } from './core/i18n';
+import { TOP_CURRENCY_ICONS, TOP_SIGNIN_ICON } from './core/game-ui-spec';
+import { UIIcon } from './components/NineSlice';
 import { Glyph, type GlyphName } from './components/Glyph';
 import type { AppInfo } from './types';
 import IntroFlow from './pages/IntroFlow';
@@ -253,12 +255,20 @@ export default function App() {
           <div className="topbar">
             <h2>{t(TITLE_KEYS[view])}</h2>
             <div className="wallet">
+              {/* 2026-11-08 走查①：内页顶栏货币胶囊统一为主页顶栏同款深色胶囊
+                  （深底白字 + 青辉石宝石原件），原来白底浅字 + CSS 圆点对比度极低；
+                  「✦ N 天」语义不明，改为「签到 N 天」+ 日历原件。 */}
               <div className="chip" title="虚拟青辉石（仅本软件内可用）">
-                <i />
+                <UIIcon
+                  name={TOP_CURRENCY_ICONS.pyroxene.value}
+                  size={16}
+                  fallback={<span>✦</span>}
+                />
                 {save.currency.pyroxene.toLocaleString()}
               </div>
               <div className="chip" title={`连续签到 ${save.signIn.streak} 天`}>
-                ✦ {save.signIn.streak} 天
+                <UIIcon name={TOP_SIGNIN_ICON.value} size={15} fallback={<span>✦</span>} />
+                签到 {save.signIn.streak} 天
               </div>
             </div>
           </div>

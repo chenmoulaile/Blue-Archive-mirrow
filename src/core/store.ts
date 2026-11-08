@@ -45,7 +45,7 @@ export function createDefaultSave(): SaveData {
     currency: { pyroxene: 90_000, tickets: 0, credit: 1_000_000 },
     ap: { value: AP_MAX, updatedAt: Date.now() },
     signIn: { lastDate: '', streak: 0, total: 0 },
-    story: { read: {}, progress: {}, cleared: [] },
+    story: { read: {}, progress: {}, cleared: [], lastPlayed: null },
     gacha: {
       mode: 'charge',
       classicPoints: 0,

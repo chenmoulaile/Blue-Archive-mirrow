@@ -214,15 +214,19 @@ export function ChatRoom({
         )}
       </div>
 
-      {/* 底部输入栏（纯状态提示；选项在消息流末尾，见 .mt-reply-group） */}
-      <div className="mt-options" onClick={(e) => e.stopPropagation()}>
-        <div className="mt-inputbar">
-          <UIIcon name={MOMO_SPRITES.star} size={20} fallback={<span>✦</span>} />
-          <span className="mt-inputbar-hint">
-            {stream.waiting ? '请选择回复' : stream.shown < items.length ? '对方正在输入…' : '等待下一条消息…'}
-          </span>
+      {/* 底部输入栏（纯状态提示；选项在消息流末尾，见 .mt-reply-group）。
+          2026-11-08 走查⑥：选项按钮组显示期间不再渲染「请选择回复」占位条，
+          避免两者并存（原版等待回复时只有选项卡）。 */}
+      {!waitingItem?.msg.options && (
+        <div className="mt-options" onClick={(e) => e.stopPropagation()}>
+          <div className="mt-inputbar">
+            <UIIcon name={MOMO_SPRITES.star} size={20} fallback={<span>✦</span>} />
+            <span className="mt-inputbar-hint">
+              {stream.waiting ? '请选择回复' : stream.shown < items.length ? '对方正在输入…' : '等待下一条消息…'}
+            </span>
+          </div>
         </div>
-      </div>
+      )}
     </div>
   );
 }
