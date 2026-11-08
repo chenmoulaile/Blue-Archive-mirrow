@@ -273,15 +273,16 @@ export default function SettingsPage({ onGo }: { onGo: (v: View) => void }) {
           </div>
         </div>
         <div className="field">
-          <span>重置虚拟货币（测试用）</span>
+          <span>一键补给 120,000 青辉石 + 5,000,000 信用点（测试用）</span>
           <button
             className="btn ghost sm"
             onClick={() => {
               store.update((d) => {
-                d.currency.pyroxene = 1200;
-                d.currency.tickets = 0;
+                // 补给到固定水位而非累加：反复点击结果一致（幂等），e2e 依赖该按钮补回抽卡预算
+                d.currency.pyroxene = Math.max(d.currency.pyroxene, 120_000);
+                d.currency.credit = Math.max(d.currency.credit ?? 0, 5_000_000);
               });
-              toast('已重置为 1200 青辉石');
+              toast('已补给 120,000 青辉石 + 5,000,000 信用点（测试用）');
             }}
           >
             重置

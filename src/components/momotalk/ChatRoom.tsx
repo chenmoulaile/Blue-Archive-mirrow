@@ -152,6 +152,8 @@ export function ChatRoom({
           const key = mtMsgKey(refInfo.characterId, it.threadIdx, it.msgIdx);
           const prev = i > 0 ? shownItems[i - 1] : null;
           const newThread = !prev || prev.threadIdx !== it.threadIdx;
+          // 同发送者连续发言：行距收紧（真机 MomoTalk 连发消息排得很密）
+          const cont = !!prev && !newThread && prev.msg.from === it.msg.from;
           const favorRank = threads[it.threadIdx]?.favorRank ?? 0;
           return (
             <div key={key} style={{ display: 'contents' }}>
@@ -174,6 +176,7 @@ export function ChatRoom({
                   msg={it.msg}
                   avatar={refInfo.avatar}
                   mine={it.msg.from === 'teacher'}
+                  cont={cont}
                 />
               )}
               {it.msg.story && (
@@ -188,34 +191,37 @@ export function ChatRoom({
           );
         })}
         {stream.typing && <TypingDots avatar={refInfo.avatar} />}
+        {/* 回复选项：真机出现在消息流末尾的竖排按钮组（半透明白底圆角卡，
+            对照 Dialogue_Event_Background 底板的淡粉描边）。
+            点击后该选项写入 chosen → answer 节点回放成老师气泡进入消息流，
+            其余选项随 waiting 清空消失。 */}
+        {waitingItem?.msg.options && (
+          <div className="mt-reply-group" onClick={(e) => e.stopPropagation()}>
+            <span className="mt-reply-label">回复</span>
+            {waitingItem.msg.options.map((opt, idx) => (
+              <button
+                key={idx}
+                className="mt-reply-btn"
+                onClick={() => stream.choose(waitingItem, idx)}
+              >
+                {opt.text}
+              </button>
+            ))}
+          </div>
+        )}
         {items.length > 0 && stream.shown < items.length && !stream.typing && !stream.waiting && (
           <div className="mt-skip-hint">点击空白处快进</div>
         )}
       </div>
 
-      {/* 回复选项 / 状态栏 */}
+      {/* 底部输入栏（纯状态提示；选项在消息流末尾，见 .mt-reply-group） */}
       <div className="mt-options" onClick={(e) => e.stopPropagation()}>
-        {waitingItem?.msg.options ? (
-          waitingItem.msg.options.map((opt, idx) => (
-            <NineSlice
-              key={idx}
-              as="button"
-              name={MOMO_SPRITES.optionBtn}
-              className="mt-option-btn"
-              fillCenter={false}
-              onClick={() => stream.choose(waitingItem, idx)}
-            >
-              {opt.text}
-            </NineSlice>
-          ))
-        ) : (
-          <div className="mt-inputbar">
-            <UIIcon name={MOMO_SPRITES.star} size={20} fallback={<span>✦</span>} />
-            <span className="mt-inputbar-hint">
-              {stream.waiting ? '请选择回复' : stream.shown < items.length ? '对方正在输入…' : '等待下一条消息…'}
-            </span>
-          </div>
-        )}
+        <div className="mt-inputbar">
+          <UIIcon name={MOMO_SPRITES.star} size={20} fallback={<span>✦</span>} />
+          <span className="mt-inputbar-hint">
+            {stream.waiting ? '请选择回复' : stream.shown < items.length ? '对方正在输入…' : '等待下一条消息…'}
+          </span>
+        </div>
       </div>
     </div>
   );

@@ -2584,25 +2584,31 @@ select {
   gap: 8px;
   max-width: 78%;
 }
+/* 同发送者连续发言：行距收紧（真机 MomoTalk 连发消息排得很密） */
+.mt-row.cont {
+  margin-top: -5px;
+}
 .mt-row.me {
   align-self: flex-end;
   flex-direction: row-reverse;
 }
 .mt-row-avatar {
-  flex: 0 0 34px;
-  width: 34px;
-  height: 34px;
+  flex: 0 0 40px;
+  width: 40px;
+  height: 40px;
 }
 .mt-row-avatar img {
-  width: 34px;
-  height: 34px;
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
   object-fit: cover;
   background: #dfeaf3;
+  border: 2px solid rgba(255, 255, 255, 0.9);
+  box-shadow: 0 1px 4px rgba(30, 78, 119, 0.16);
 }
 .mt-avatar-fallback {
-  width: 34px;
-  height: 34px;
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
   display: grid;
   place-items: center;
@@ -2611,6 +2617,7 @@ select {
   font-size: 13px;
 }
 .mt-bubble {
+  position: relative; /* BubbleSkin 绝对定位背景层 */
   padding: 10px 14px;
   font-size: 13.5px;
   line-height: 1.65;
@@ -2621,9 +2628,13 @@ select {
   color: #33475a;
 }
 .mt-bubble.mt-me {
-  /* 老师气泡：同一个白色精灵只取形状，中心由 CSS 上 BA 蓝（NGUI mColor 行为） */
-  background: linear-gradient(135deg, #7cc6ee, #4aa0dc);
+  /* 老师气泡：深藏青（官方 SpeechBubble 老师款 #3D4A66 系）。
+     形状由 BubbleSkin（白模 mask + 染色）提供，这里只管文字排版。 */
+  padding: 12px 16px;
   color: #fff;
+}
+.mt-bubble .mt-bubble-text {
+  position: relative; /* 浮在 BubbleSkin 背景层之上 */
 }
 .mt-typing {
   display: inline-flex;
@@ -2635,7 +2646,7 @@ select {
   width: 6px;
   height: 6px;
   border-radius: 50%;
-  background: #9db8ca;
+  background: rgba(255, 255, 255, 0.85); /* 深藏青底 + 白点（官方输入中款） */
   animation: mtDot 1.1s infinite ease-in-out;
 }
 .mt-typing i:nth-child(2) {
@@ -2655,6 +2666,30 @@ select {
     transform: translateY(-4px);
     opacity: 1;
   }
+}
+/* 深藏青皮肤的 css-fallback（图集缺精灵时 BubbleSkin 落这里）：
+   圆角 >20px（官方气泡切片的圆角程度）+ 短小尖角 */
+.mt-bubble-skin-css {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(160deg, #47546f, #3d4a66 55%, #35405a);
+  border-radius: 20px;
+}
+.mt-bubble-skin-css::after {
+  content: '';
+  position: absolute;
+  bottom: 5px;
+  width: 11px;
+  height: 11px;
+  background: #35405a;
+  border-radius: 2px;
+  transform: rotate(45deg);
+}
+.mt-bubble-skin-css.flip::after {
+  right: -3px; /* 老师气泡：右下尖角指向头像 */
+}
+.mt-bubble-skin-css:not(.flip)::after {
+  left: -3px; /* 输入中：左下尖角指向学生头像 */
 }
 .mt-thread-divider {
   align-self: center;
@@ -2741,28 +2776,56 @@ select {
   background: #b9cdd9;
 }
 
-/* ---- 回复选项 / 底栏 ---- */
+/* ---- 回复选项（消息流末尾竖排按钮组） / 底栏 ---- */
 .mt-options {
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-  padding: 12px 20px 16px;
+  padding: 10px 20px 14px;
   border-top: 1px solid var(--line);
   background: rgba(255, 255, 255, 0.92);
 }
-.mt-option-btn {
+/* 真机 reply：消息流末尾的竖排按钮组，半透明底 + 圆角 +
+   淡粉描边（对照 Dialogue_Event_Background 1056x288 横幅卡），
+   右下淡粉爱心呼应官方底板装饰。 */
+.mt-reply-group {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+  margin: 4px 0 2px 48px; /* 让出头像宽度，与学生气泡左缘对齐 */
+  animation: msgIn 0.22s ease;
+}
+.mt-reply-label {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  color: #d98bab;
+}
+.mt-reply-btn {
+  position: relative;
+  overflow: hidden;
   padding: 11px 18px;
   text-align: left;
   font-size: 13.5px;
-  color: #2b4257;
-  background: #fff;
-  border-radius: 10px;
+  line-height: 1.5;
+  color: #3d4a66;
+  background: rgba(255, 255, 255, 0.72); /* 半透明白底 */
+  border: 1.5px solid rgba(243, 178, 199, 0.85); /* 淡粉描边 */
+  border-radius: 16px;
   cursor: pointer;
   transition: 0.14s;
   animation: msgIn 0.22s ease;
 }
-.mt-option-btn:hover {
-  background: rgba(63, 159, 224, 0.14);
+.mt-reply-btn::after {
+  content: '♥';
+  position: absolute;
+  right: 10px;
+  bottom: -8px;
+  font-size: 34px;
+  color: rgba(247, 143, 173, 0.22); /* 官方底板右下爱心的样式呼应 */
+  pointer-events: none;
+}
+.mt-reply-btn:hover {
+  background: rgba(255, 255, 255, 0.94);
+  border-color: #f08fb0;
+  transform: translateY(-1px);
 }
 .mt-inputbar {
   display: flex;
@@ -2864,12 +2927,17 @@ select {
 [data-theme='dark-game'] .mt-options {
   background: rgba(14, 28, 42, 0.92);
 }
-[data-theme='dark-game'] .mt-option-btn {
-  background: rgba(30, 58, 84, 0.9);
+[data-theme='dark-game'] .mt-reply-btn {
+  background: rgba(30, 58, 84, 0.78);
+  border-color: rgba(214, 120, 156, 0.55);
   color: #dceefb;
 }
-[data-theme='dark-game'] .mt-option-btn:hover {
-  background: rgba(74, 168, 230, 0.32);
+[data-theme='dark-game'] .mt-reply-btn:hover {
+  background: rgba(44, 78, 110, 0.92);
+  border-color: #f08fb0;
+}
+[data-theme='dark-game'] .mt-reply-label {
+  color: #e79cbe;
 }
 [data-theme='dark-game'] .mt-inputbar {
   background: rgba(30, 58, 84, 0.6);

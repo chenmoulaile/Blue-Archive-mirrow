@@ -41,7 +41,8 @@ export function createDefaultSave(): SaveData {
     lastSeen: Date.now(),
     // 新账号的初始状态：Lv.1 / 0 经验 / 名称「老师」
     teacher: { name: '老师', level: 1, exp: 0 },
-    currency: { pyroxene: 1200, tickets: 0, credit: 1_000_000 },
+    // 新档初始货币：90,000 青辉石（可直购 750 连抽的测试水位），信用点 100 万
+    currency: { pyroxene: 90_000, tickets: 0, credit: 1_000_000 },
     ap: { value: AP_MAX, updatedAt: Date.now() },
     signIn: { lastDate: '', streak: 0, total: 0 },
     story: { read: {}, progress: {}, cleared: [] },
