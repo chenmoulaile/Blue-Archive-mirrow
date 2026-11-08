@@ -35,6 +35,12 @@ await app.evaluate(({ BrowserWindow }) => {
   BrowserWindow.getAllWindows()[0].setContentSize(1440, 900);
 });
 const errors = [];
+// integration-w1 追加段的断言失败单独记录；任一非空则进程退出码非 0
+const segFails = [];
+const segFail = (msg) => {
+  segFails.push(msg);
+  console.log('  ❌', msg);
+};
 const failed = new Set();
 page.on('console', (m) => {
   if (m.type() === 'error' && !m.text().includes('Failed to load resource')) {
@@ -201,9 +207,15 @@ if (await goto('招募')) {
   // 卡池列表为空（banners.json 缺失）时按钮 disabled={true}，直接点会卡 30s 崩掉整条链
   if (await pull.count() && (await pull.isEnabled())) {
     await pull.click();
+    // integration-w1 追加（gacha 轨交接事项）：十连演出覆盖层会拦截后续导航
+    // 点击——点跳过直达结果幕，截完图再关结果页，避免 goto 卡 30s 超时
+    await page.waitForSelector('[data-gacha-overlay]', { timeout: 10000 }).catch(() => {});
+    await page.locator('[data-gacha-skip]').click({ timeout: 5000 }).catch(() => {});
     await shot('10-gacha-result', 1700);
     await shot('nineslice-panel', 300);
     await shot('gacha-ui', 300);
+    await page.locator('[data-gacha-close]').click({ timeout: 5000 }).catch(() => {});
+    await page.waitForTimeout(400);
   }
 }
 
@@ -227,6 +239,159 @@ if (await goto('活动')) {
 if (await goto('设置')) {
   await shot('15-settings', 1000);
   await shot('settings-dark', 300);
+}
+
+// ==================================================================
+// integration-w1 追加四段验收（既有流程保持不动）：
+//   ① 剧情分支：序幕(10000005) 带选项，点选项断言分支徽标
+//   ② 招募十连：跳过按钮直达结果幕，断言结果网格
+//   ③ 桃信会话：断言头像气泡
+//   ④ 大厅互动：点击学生断言语音/反应
+// 选择器与各轨道组件约定：
+//   story: [data-testid=story-dialog]/[data-testid=branch-badge]/.story-choice-btn/.story-actor
+//   gacha: [data-gacha-overlay]/[data-gacha-phase]/[data-gacha-skip]/[data-gacha-scene]/[data-gacha-close]
+//   momotalk: .mt-list/.mt-row-item/.mt-room/.mt-bubble/.mt-row-avatar
+//   lobby: .ls-stage/.ls-heart/.ls-bounce/.lb-namebar
+// ==================================================================
+
+// ---- 追加① 剧情页：带选项的主线 + 真分支跳转
+try {
+  if (await goto('剧情')) {
+    await page.waitForSelector('.story-side input', { timeout: 10000 });
+    // 序幕(10000005)是唯一带真分支内容的主线开局集（choice@24 opt0→branch '4'，
+    // 路径模拟见 .scratch/integration/notes.md）；前 4 个选项点第一个都不会跳走
+    await page.locator('.story-side input').fill('序幕');
+    await page.waitForTimeout(500);
+    const prologue = page.locator('.story-item', { hasText: '序幕' }).first();
+    if (!(await prologue.count())) throw new Error('追加①：搜索「序幕」无结果');
+    await prologue.click();
+    // 开场即选项（choice@3），连点推进：有选项点第一个，没选项点舞台；
+    // 直到 branch-badge 出现（= 真分支跳转生效）
+    let inBranch = false;
+    for (let i = 0; i < 140 && !inBranch; i++) {
+      const choiceBtn = page.locator('.choice-overlay .story-choice-btn').first();
+      if (await choiceBtn.count()) {
+        await choiceBtn.click();
+        await page.waitForTimeout(450);
+        inBranch = (await page.locator('[data-testid="branch-badge"]').count()) > 0;
+      } else {
+        await page.locator('.player-stage').click({ position: { x: 120, y: 80 } });
+        await page.waitForTimeout(220);
+      }
+    }
+    if (!inBranch) throw new Error('追加①：点选项后 branch-badge 未出现，分支未生效');
+    await page.waitForSelector('[data-testid="story-dialog"]', { timeout: 8000 });
+    await page.waitForSelector('.story-actor', { timeout: 8000 }); // 立绘层（spine 失败时降级头像/名字牌，容器仍在）
+    const actorInfo = await page.evaluate(() => ({
+      actors: document.querySelectorAll('.story-actor').length,
+      spineCanvas: document.querySelectorAll('.story-actor .story-portrait canvas').length,
+      badge: document.querySelector('[data-testid="branch-badge"]')?.textContent?.trim() ?? null,
+      speaker: document.querySelector('[data-testid="story-dialog"] .speaker')?.textContent?.trim() ?? null,
+    }));
+    if (!actorInfo.badge?.startsWith('分支')) throw new Error(`追加①：徽标异常 ${actorInfo.badge}`);
+    console.log('  剧情分支:', actorInfo);
+    await shot('16-story-choice', 300);
+  } else {
+    console.log('  未找到剧情入口，跳过追加①');
+  }
+} catch (e) {
+  segFail(`剧情分支段失败：${e?.message ?? e}`);
+}
+
+// ---- 追加② 招募页：十连（跳过直达结果），断言结果网格
+try {
+  // 既有流程已抽掉一次十连；用设置页自带的测试货币重置补回 1200 青辉石
+  if (await goto('设置')) {
+    const resetBtn = page.getByRole('button', { name: '重置', exact: true });
+    if (await resetBtn.count()) {
+      await resetBtn.click();
+      await page.waitForTimeout(400);
+    }
+  }
+  if (await goto('招募')) {
+    const pull = page.getByRole('button', { name: '招募 10 次' });
+    if (!(await pull.count())) throw new Error('追加②：找不到「招募 10 次」按钮');
+    if (!(await pull.isEnabled())) throw new Error('追加②：招募按钮不可用（卡池/货币异常）');
+    await pull.click();
+    await page.waitForSelector('[data-gacha-overlay]', { timeout: 10000 });
+    await page.locator('[data-gacha-skip]').click(); // 跳过按钮直达结果幕
+    await page.waitForSelector('[data-gacha-phase="result"]', { timeout: 8000 });
+    const scene = await page.evaluate(() => ({
+      result: document.querySelectorAll('[data-gacha-scene="result"]').length,
+      phase: document.querySelector('[data-gacha-overlay]')?.getAttribute('data-gacha-phase'),
+    }));
+    if (!scene.result) throw new Error('追加②：跳过后未进入结果幕');
+    await shot('18-gacha-ten-result', 500);
+    await page.locator('[data-gacha-close]').click();
+    await page.waitForTimeout(500);
+    const cards = await page.locator('.result-grid .result-card').count();
+    if (cards !== 10) throw new Error(`追加②：结果网格 ${cards}/10 张`);
+    console.log('  十连结果: phase=%s, 网格 %d/10 张', scene.phase, cards);
+  } else {
+    console.log('  未找到招募入口，跳过追加②');
+  }
+} catch (e) {
+  segFail(`招募十连段失败：${e?.message ?? e}`);
+}
+
+// ---- 追加③ 桃信：打开会话，断言头像气泡
+try {
+  if (await goto('桃信')) {
+    await page.waitForSelector('.mt-list', { timeout: 10000 });
+    const row = page.locator('.mt-row-item').first();
+    if (!(await row.count())) throw new Error('追加③：桃信会话列表为空');
+    await row.click();
+    await page.waitForSelector('.mt-room', { timeout: 10000 });
+    // 消息流是逐条冒出的（capDelay 1200ms），等首个学生头像气泡落位即可
+    await page.waitForSelector('.mt-row:not(.me) .mt-row-avatar', { timeout: 25000 });
+    await page.waitForSelector('.mt-bubble', { timeout: 8000 });
+    await page.waitForTimeout(600);
+    const info = await page.evaluate(() => ({
+      bubbles: document.querySelectorAll('.mt-bubble').length,
+      mine: document.querySelectorAll('.mt-bubble.mt-me').length,
+      avatars: document.querySelectorAll('.mt-row:not(.me) .mt-row-avatar').length,
+      avatarImgs: document.querySelectorAll('.mt-row:not(.me) .mt-row-avatar img').length,
+    }));
+    if (info.bubbles === 0) throw new Error('追加③：聊天气泡未渲染');
+    if (info.avatars === 0) throw new Error('追加③：学生头像位未渲染');
+    console.log('  桃信会话:', info);
+    await shot('19-momotalk-room', 400);
+  } else {
+    console.log('  未找到桃信入口，跳过追加③');
+  }
+} catch (e) {
+  segFail(`桃信会话段失败：${e?.message ?? e}`);
+}
+
+// ---- 追加④ 大厅：点击学生，断言语音/反应触发
+try {
+  if (await goto('大厅')) {
+    await page.waitForSelector('.home .ls-stage', { timeout: 15000 });
+    await page.waitForTimeout(600);
+    const vp2 = await page.evaluate(() => ({ w: window.innerWidth, h: window.innerHeight }));
+    await page.mouse.click(Math.round(vp2.w / 2), Math.round(vp2.h * 0.45)); // .home-veil 是 pointer-events:none
+    let heart = false;
+    try {
+      await page.waitForSelector('.ls-heart', { timeout: 3000 }); // ♥ 存活 1.1s
+      heart = true;
+    } catch {
+      /* 心形窗口短，落空再靠字幕/微动效判定 */
+    }
+    const info = await page.evaluate(() => ({
+      line: document.querySelector('.lb-namebar span')?.textContent?.trim() ?? '', // 语音字幕存活 2.6s
+      bounce: document.querySelectorAll('.ls-stage.ls-bounce').length, // 微动效存活 0.62s
+      spineCanvas: document.querySelectorAll('.ls-stage canvas').length,
+    }));
+    if (!heart && !info.line && !info.bounce) {
+      throw new Error('追加④：点击学生后无任何反馈（无♥/字幕/微动效）');
+    }
+    console.log('  大厅互动: heart=%s, 字幕="%s", bounce=%s, spine canvas=%d', heart, info.line, info.bounce, info.spineCanvas);
+    await shot('20-lobby-touch', 300);
+  } else {
+    console.log('  未找到大厅入口，跳过追加④');
+  }
+} catch (e) {
+  segFail(`大厅互动段失败：${e?.message ?? e}`);
 }
 
 // ---- 还原度统计：有多少控件还是兜底样式
@@ -262,7 +427,8 @@ console.log('存档:', saveInfo);
 
 console.log('控制台错误:', errors.length ? errors : '无');
 console.log('失败请求:', failed.size ? [...failed].slice(0, 12) : '无');
+if (segFails.length) console.log('追加段断言失败:', segFails);
 
 await app.close();
-// 素材缺失（BGM/SE）不算失败，只有脚本错误才算
-process.exit(errors.length > 0 ? 1 : 0);
+// 素材缺失（BGM/SE）不算失败，只有脚本错误才算；追加段断言失败同判
+process.exit(errors.length > 0 || segFails.length > 0 ? 1 : 0);
