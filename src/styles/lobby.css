@@ -314,3 +314,123 @@
   letter-spacing: 6px;
   opacity: 0.85;
 }
+
+/* ---------------------------------------------------------------- 记忆大厅重排（Track: lobby，2026-11-08）
+ * 对照参考：.scratch/reference2 取证（无实机记忆大厅 UI 屏，官方素材 =
+ * MemoryBtn / CHxxxx_MemorialLobby 语音 / Student_Portrait_*_Collection 收藏卡）
+ * + BA 公知布局：spine 全屏居中、顶部返回+学生名+好感度、底部功能条。
+ * 注意：main.tsx 里 global.css 在 App 之后 import（打包顺序靠后），
+ * 对 global.css 既有类的一律用两级选择器提高优先级，不依赖文件顺序。 */
+
+/* 顶栏：返回 + 学生名 + 好感度（名字条从左下移到顶部） */
+.lobby .lobby-top {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 18px 24px;
+  z-index: 7;
+  pointer-events: none;
+}
+.lobby .lobby-top > * {
+  pointer-events: auto;
+}
+.lobby .lobby-top .lobby-name {
+  position: static;
+}
+.lobby-favor {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  padding: 7px 14px;
+  border-radius: 999px;
+  background: rgba(8, 20, 32, 0.55);
+  border: 1px solid rgba(255, 182, 206, 0.45);
+  color: #ffd7e2;
+  font-size: 13.5px;
+  letter-spacing: 1px;
+  backdrop-filter: blur(6px);
+}
+.lobby-favor b {
+  font-variant-numeric: tabular-nums;
+  font-size: 15px;
+  color: #fff;
+}
+.lobby-favor span {
+  opacity: 0.8;
+}
+
+/* 底部功能条：居中横排（切换学生/回忆重播/语音/随机/设定）。
+ * 九宫格白圆底板 Common_Btn_Circle_W（140×142 实测）+ 图集图标：
+ * 图标是官方白色遮罩原件，压暗贴近真机「白圆+深色图标」观感。 */
+.lobby .lobby-tools {
+  right: auto;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 24px;
+  gap: 14px;
+  z-index: 7;
+}
+.lobby .lobby-tools .icon-btn {
+  width: 60px;
+  height: 60px;
+  overflow: hidden;
+}
+.lobby .lobby-tools .icon-btn.ns {
+  background: none;
+  border-color: transparent;
+  backdrop-filter: none;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.35);
+}
+.lobby .lobby-tools .icon-btn.ns img {
+  filter: brightness(0.3) saturate(1.15);
+}
+.lobby .lobby-tools .icon-btn:hover {
+  transform: translateY(-2px);
+}
+
+/* 右下视角工具（放大/缩小/复位）：与功能条分离——
+ * e2e 契约 .lobby-tools .icon-btn 的第一位必须是「切换学生」 */
+.lobby .lobby-viewtools {
+  position: absolute;
+  right: 26px;
+  bottom: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  z-index: 7;
+}
+.lobby .lobby-viewtools .icon-btn {
+  width: 44px;
+  height: 44px;
+}
+
+/* 语音字幕上移，给底部功能条让位 */
+.lobby .lobby-line {
+  bottom: 128px;
+}
+
+/* 主界面左下纵列：事件横幅/学生名条/编队入口同列堆叠（2026-11-08 重叠修复） */
+.home .lb-left {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+  z-index: 6;
+}
+.home .lb-left .lb-quick,
+.home .lb-left .lb-namebar,
+.home .lb-left .banner-square {
+  position: static;
+}
+
+/* 货币栏照参考截图（.scratch/reference/story_select_ui_steam.jpg：体力/信用点/
+ * 青辉石紧跟老师信息之后，而非整行右对齐） */
+.home .home-top {
+  justify-content: flex-start;
+  gap: 36px;
+}

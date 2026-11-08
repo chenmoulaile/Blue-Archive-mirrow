@@ -96,6 +96,7 @@ const rects = await page.evaluate(() => {
     bannerRound: pick('.banner-round'),
     bannerSquare: pick('.banner-square'),
     kanbanBar: pick('.kanban-bar'),
+    namebar: pick('.lb-namebar'),
   };
 });
 
@@ -108,13 +109,15 @@ const overlap = (a, b) => {
 };
 
 const problems = [];
-const { side, bottom, bannerRound, bannerSquare, top, kanbanBar } = rects;
+const { side, bottom, bannerRound, bannerSquare, top, kanbanBar, namebar } = rects;
 
 if (overlap(side, bottom)) problems.push('右侧图标列与底部导航重叠');
 if (overlap(bannerRound, side)) problems.push('右上圆形横幅与右侧图标列重叠');
 if (overlap(bannerSquare, bottom)) problems.push('左下方形横幅与底部导航重叠');
 if (overlap(bannerRound, top)) problems.push('右上圆形横幅与顶部栏重叠');
 if (overlap(kanbanBar, bottom)) problems.push('看板娘信息条与底部导航重叠');
+// 2026-11-08 走查发现「左下活动横幅与名字条重叠」，收进自检防回退
+if (overlap(bannerSquare, namebar)) problems.push('左下方形横幅与学生信息条重叠');
 if (bottom && bottom.bottom > rects.win.h + 1) problems.push('底部导航超出窗口下边缘');
 if (bottom && bottom.h < 40) problems.push(`底部导航高度过小（${bottom.h}px）`);
 if (side && side.bottom > (bottom?.y ?? rects.win.h)) problems.push('右侧图标列伸进底部导航区域');

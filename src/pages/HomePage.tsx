@@ -7,7 +7,8 @@
  *   - 中央：学生回忆大厅 Spine 模型（LobbyStage，滚轮缩放/拖拽平移/点击互动）
  *   - 右侧竖排功能菜单：日程表/作战/咖啡厅/商店/社团/制造/招募/邮件/菜单，
  *     九宫格真素材按钮（Common_Btn_Circle_W 底板 + 图集图标）
- *   - 左下：编队/任务入口（Common_Btn_Normal_* 底板）
+ *   - 左下：事件横幅 + 学生名条 + 编队/任务入口——同一个 flex 纵列自下
+ *     而上堆叠（2026-11-08 走查「横幅与名字条重叠」的结构性修复）
  *   - 右下：MomoTalk 大入口 + 未读角标（联动桃信轨的 bond 会话未读数）
  *   - 保留：事件横幅、菜单弹窗、长按隐藏 UI、底部导航（e2e 依赖 .bottom-item）
  *
@@ -20,7 +21,7 @@ import { audio } from '../core/audio';
 import { UIIcon } from '../components/NineSlice';
 import { nineSliceStyle } from '../core/ui-atlas';
 import { Glyph, type GlyphName } from '../components/Glyph';
-import { LobbyStage } from '../components/LobbyStage';
+import { LobbyStage, bondFavorKey } from '../components/LobbyStage';
 import {
   TOP_BAR,
   BOTTOM_NAV,
@@ -130,22 +131,11 @@ export default function HomePage() {
   }, [lobbyStudents, assets.students]);
 
   // 好感度 key：与桃信轨共用 save.momotalk.favor，key 取 bond 会话前缀
-  const favorKey = useMemo(() => {
-    if (!kanban) return null;
-    const idx = new Map<string, string>();
-    for (const st of assets.storyIndex) {
-      if (st.type !== 'bond') continue;
-      const k = st.id.split('/')[0] ?? st.id;
-      idx.set(k.toLowerCase(), k);
-    }
-    return (
-      idx.get(kanban.given_en.toLowerCase()) ??
-      idx.get(kanban.given.toLowerCase()) ??
-      idx.get(kanban.name_en.toLowerCase()) ??
-      idx.get(kanban.name.toLowerCase()) ??
-      null
-    );
-  }, [assets.storyIndex, kanban]);
+  // （算法在 LobbyStage.bondFavorKey，记忆大厅页共用同一份，2026-11-08 抽出）
+  const favorKey = useMemo(
+    () => (kanban ? bondFavorKey(assets.storyIndex, kanban) : null),
+    [assets.storyIndex, kanban]
+  );
 
   const kanbanBg = useMemo(() => {
     for (const name of ['BG_View_Schale', 'BG_CityOffice', 'BG_MainOffice']) {
@@ -403,11 +393,44 @@ export default function HomePage() {
             })}
           </aside>
 
-          {/* 左下：编队 / 任务入口（Common_Btn_Normal_* 九宫格底板） */}
+          {/* 左下纵列：事件横幅 + 学生信息条 + 编队/任务入口。
+              2026-11-08 走查「左下活动横幅与名字条重叠」修复：三者原来各自
+              绝对定位（横幅 bottom≈194 与名字条 bottom≈198 同高同列），
+              现在并入同一个 flex 纵列自下而上排（横幅最上），结构上不可能再压盖。 */}
           <div
-            className="lb-quick"
+            className="lb-left"
             style={{ left: P(LOBBY_QUICK_BTN.left.value), bottom: P(LOBBY_QUICK_BTN.bottom.value) }}
           >
+            {/* 事件横幅（方形，点击进活动页） */}
+            {banners[bannerIdx] && (
+              <div
+                className="banner-square"
+                style={{
+                  width: P(EVENT_BANNER.square.width.value),
+                  height: P(EVENT_BANNER.square.height.value),
+                }}
+                onClick={() => {
+                  se(LOBBY_SE.click.value);
+                  go('events');
+                }}
+              >
+                <b>{banners[bannerIdx]!.title}</b>
+                <span>
+                  {new Date(banners[bannerIdx]!.start * 1000).toLocaleDateString('zh-CN')} 起
+                </span>
+              </div>
+            )}
+
+            {/* 学生信息条：名字 + 语音字幕（e2e 追加④依赖 .lb-namebar span） */}
+            {kanban && (
+              <div className="lb-namebar">
+                <b>{kanban.name}</b>
+                {line && <span>{line}</span>}
+              </div>
+            )}
+
+            {/* 编队 / 任务入口（Common_Btn_Normal_* 九宫格底板） */}
+            <div className="lb-quick">
             <button
               className={`lb-quick-btn${hasPlate(LOBBY_QUICK_BTN.plateB.value) ? ' ns' : ''}`}
               style={{
@@ -446,6 +469,7 @@ export default function HomePage() {
               <UIIcon name={LOBBY_QUICK_BTN.missionIcon.value} size={P(30)} fallback={<Glyph name="story" size={P(30)} />} />
               {t('nav.mission')}
             </button>
+            </div>
           </div>
 
           {/* 右下：MomoTalk 大入口 + 未读角标（生日当天抖动提示） */}
@@ -478,58 +502,24 @@ export default function HomePage() {
             )}
           </button>
 
-          {/* 左下学生信息条：名字 + 语音字幕 */}
-          {kanban && (
-            <div
-              className="lb-namebar"
-              style={{
-                left: P(LOBBY_QUICK_BTN.left.value),
-                bottom: P(LOBBY_QUICK_BTN.bottom.value + LOBBY_QUICK_BTN.height.value + 14),
-              }}
-            >
-              <b>{kanban.name}</b>
-              {line && <span>{line}</span>}
-            </div>
-          )}
-
-          {/* 事件横幅 */}
+          {/* 事件横幅（右上圆形，与左下纵列解耦） */}
           {banners[bannerIdx] && (
-            <>
-              <div
-                className="banner-round"
-                style={{
-                  width: P(EVENT_BANNER.round.size.value),
-                  height: P(EVENT_BANNER.round.size.value),
-                  top: P(EVENT_BANNER.round.top.value),
-                  right: P(EVENT_BANNER.round.right.value + SIDE_MENU_REAL_SPEC.iconSize.value + SIDE_MENU_REAL_SPEC.rightMargin.value),
-                }}
-                onClick={() => {
-                  se(LOBBY_SE.click.value);
-                  go('events');
-                }}
-                title={banners[bannerIdx]!.title}
-              >
-                <span>{banners[bannerIdx]!.title.slice(0, 6)}</span>
-              </div>
-              <div
-                className="banner-square"
-                style={{
-                  width: P(EVENT_BANNER.square.width.value),
-                  height: P(EVENT_BANNER.square.height.value),
-                  left: P(EVENT_BANNER.square.left.value),
-                  bottom: P(EVENT_BANNER.square.bottom.value + LOBBY_QUICK_BTN.height.value + 26),
-                }}
-                onClick={() => {
-                  se(LOBBY_SE.click.value);
-                  go('events');
-                }}
-              >
-                <b>{banners[bannerIdx]!.title}</b>
-                <span>
-                  {new Date(banners[bannerIdx]!.start * 1000).toLocaleDateString('zh-CN')} 起
-                </span>
-              </div>
-            </>
+            <div
+              className="banner-round"
+              style={{
+                width: P(EVENT_BANNER.round.size.value),
+                height: P(EVENT_BANNER.round.size.value),
+                top: P(EVENT_BANNER.round.top.value),
+                right: P(EVENT_BANNER.round.right.value + SIDE_MENU_REAL_SPEC.iconSize.value + SIDE_MENU_REAL_SPEC.rightMargin.value),
+              }}
+              onClick={() => {
+                se(LOBBY_SE.click.value);
+                go('events');
+              }}
+              title={banners[bannerIdx]!.title}
+            >
+              <span>{banners[bannerIdx]!.title.slice(0, 6)}</span>
+            </div>
           )}
 
           {/* 底部导航（e2e 依赖 .bottom-item） */}

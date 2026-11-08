@@ -21,7 +21,7 @@ import { useApp } from '../core/AppContext';
 import { audio } from '../core/audio';
 import { store } from '../core/store';
 import { HOME_STAGE } from '../core/game-ui-spec';
-import type { Student } from '../types';
+import type { StoryEntry, Student } from '../types';
 
 /** 每个模型的缩放/位移，切换学生时各自保留（与 LobbyPage 的 viewMap 互不覆盖） */
 const viewMap = new Map<string, { zoom: number; panX: number; panY: number }>();
@@ -51,6 +51,28 @@ function lineOf(desc: string): string {
   if (m) return m[1] ? `♪ 大厅语音 #${m[1]}` : '♪ 大厅语音';
   // 回退池里的非大厅族（活动/生日语音等）：不把片段名当字幕，给中性占位
   return '♪ 语音片段';
+}
+
+/**
+ * 好感度存档键：取该学生 bond（羁绊）剧情的会话前缀。
+ * save.momotalk.favor 用这个 key 计数，大厅点击（LobbyStage）与记忆大厅
+ * （LobbyPage）共同累加、共同展示；算法从 HomePage 提出来共用，避免两处漂移。
+ * 学生没有任何 bond 剧情时返回 null（不计数）。
+ */
+export function bondFavorKey(storyIndex: StoryEntry[], student: Student): string | null {
+  const idx = new Map<string, string>();
+  for (const st of storyIndex) {
+    if (st.type !== 'bond') continue;
+    const k = st.id.split('/')[0] ?? st.id;
+    idx.set(k.toLowerCase(), k);
+  }
+  return (
+    idx.get(student.given_en.toLowerCase()) ??
+    idx.get(student.given.toLowerCase()) ??
+    idx.get(student.name_en.toLowerCase()) ??
+    idx.get(student.name.toLowerCase()) ??
+    null
+  );
 }
 
 export function LobbyStage({ student, favorKey, onLine, onTouch, className }: LobbyStageProps) {
