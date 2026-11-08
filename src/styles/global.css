@@ -2139,3 +2139,536 @@ select {
   box-shadow: 0 18px 48px rgba(0, 0, 0, 0.5);
   backdrop-filter: blur(6px);
 }
+
+/* ----------------------------------------------------------------
+   MomoTalk 还原轨 (momotalk-w1) 增量样式
+   结构：.momo 基础栅格沿用旧规则，.mt-* 全部为本轨新增。
+   气泡用 ui_atlas 原件 Common/School_Chat_BG 九宫格（白模上色，
+   与 NGUI mColor 行为一致）；缺精灵时 NineSlice 自动落 css-fallback。
+   ---------------------------------------------------------------- */
+
+.mt-layout {
+  grid-template-columns: 340px 1fr;
+}
+
+/* ---- 会话列表 ---- */
+.mt-list {
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+  border-right: 1px solid var(--line);
+  background: linear-gradient(180deg, #dceefb, #cfe6f7);
+}
+.mt-list-head {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  padding: 12px 16px 10px;
+  color: #1e4e77;
+}
+.mt-list-head b {
+  font-size: 16.5px;
+  letter-spacing: 0.4px;
+}
+.mt-list-head-glyph {
+  color: var(--ba-blue-deep);
+  font-size: 22px;
+}
+.mt-list-count {
+  margin-left: auto;
+  font-size: 11px;
+  color: #4a7ba4;
+  background: rgba(255, 255, 255, 0.65);
+  border-radius: 999px;
+  padding: 2px 9px;
+}
+.mt-search {
+  padding: 0 12px 10px;
+}
+.mt-search input {
+  width: 100%;
+  padding: 8px 12px;
+  border-radius: 9px;
+  border: 1px solid rgba(255, 255, 255, 0.9);
+  outline: none;
+  background: rgba(255, 255, 255, 0.85);
+  color: #29465e;
+}
+.mt-rows {
+  flex: 1;
+  overflow: auto;
+  min-height: 0;
+}
+.mt-row-item {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+  width: 100%;
+  padding: 10px 14px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  text-align: left;
+  transition: 0.12s;
+}
+.mt-row-item:hover {
+  background: rgba(255, 255, 255, 0.55);
+}
+.mt-row-item.on {
+  background: rgba(255, 255, 255, 0.82);
+  box-shadow: inset 3px 0 0 var(--ba-blue);
+}
+.mt-item-avatar {
+  position: relative;
+  flex: 0 0 46px;
+  width: 46px;
+  height: 46px;
+}
+.mt-item-avatar img {
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  object-fit: cover;
+  background: #dfeaf3;
+  border: 2px solid rgba(255, 255, 255, 0.9);
+}
+.mt-unread {
+  position: absolute;
+  top: -4px;
+  right: -6px;
+  min-width: 18px;
+  height: 18px;
+  padding: 0 5px;
+  border-radius: 999px;
+  background: var(--ba-pink);
+  color: #fff;
+  font-size: 10.5px;
+  font-weight: 700;
+  display: grid;
+  place-items: center;
+  box-shadow: 0 1px 4px rgba(160, 60, 100, 0.45);
+}
+.mt-item-txt {
+  min-width: 0;
+  flex: 1;
+}
+.mt-item-txt b {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 13.5px;
+  color: #22415c;
+}
+.mt-item-preview {
+  display: block;
+  font-size: 11.5px;
+  color: #5d7d95;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-top: 2px;
+}
+.mt-item-preview.mine {
+  color: #4a90c4;
+}
+.mt-bday-star {
+  color: #f5a742;
+}
+.mt-star-fb {
+  color: #f5a742;
+  font-size: 13px;
+}
+.mt-bday-tag {
+  flex: 0 0 auto;
+  font-size: 10.5px;
+  color: #fff;
+  background: linear-gradient(135deg, #f7b267, #f2984c);
+  border-radius: 999px;
+  padding: 2px 8px;
+}
+
+/* ---- 聊天页 ---- */
+.mt-room {
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+  /* 聊天底色：图集里没有 MomoTalk 原件底图，用中性浅色渐变。source: css-fallback */
+  background: linear-gradient(180deg, #f3f9f4 0%, #eaf4ef 100%);
+}
+.mt-room-placeholder {
+  align-items: center;
+  justify-content: center;
+}
+.mt-head {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+  padding: 10px 16px;
+  background: rgba(255, 255, 255, 0.92);
+  border-bottom: 1px solid var(--line);
+}
+.mt-back {
+  flex: 0 0 30px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 1px solid var(--line);
+  background: #fff;
+  color: var(--ba-blue-deep);
+  font-size: 20px;
+  line-height: 1;
+  cursor: pointer;
+}
+.mt-head-avatar {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #fff;
+  box-shadow: 0 2px 8px rgba(30, 78, 119, 0.18);
+}
+.mt-head-info {
+  flex: 1;
+  min-width: 0;
+}
+.mt-head-info b {
+  display: block;
+  font-size: 15px;
+  color: #22415c;
+}
+.mt-head-favor {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 11.5px;
+  color: #c46a9a;
+}
+.mt-voice-btn {
+  width: 38px;
+  height: 34px;
+  display: grid;
+  place-items: center;
+  color: #fff;
+  font-size: 15px;
+  background: linear-gradient(135deg, #7cc6ee, #4aa0dc);
+  border-radius: 10px;
+  cursor: pointer;
+  border: none;
+  padding: 0;
+}
+.mt-body {
+  flex: 1;
+  overflow: auto;
+  min-height: 0;
+  padding: 18px 22px 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  cursor: default;
+}
+.mt-row {
+  display: flex;
+  align-items: flex-end;
+  gap: 8px;
+  max-width: 78%;
+}
+.mt-row.me {
+  align-self: flex-end;
+  flex-direction: row-reverse;
+}
+.mt-row-avatar {
+  flex: 0 0 34px;
+  width: 34px;
+  height: 34px;
+}
+.mt-row-avatar img {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  object-fit: cover;
+  background: #dfeaf3;
+}
+.mt-avatar-fallback {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  background: #dfeaf3;
+  color: #7b8b99;
+  font-size: 13px;
+}
+.mt-bubble {
+  padding: 10px 14px;
+  font-size: 13.5px;
+  line-height: 1.65;
+  word-break: break-word;
+  animation: msgIn 0.24s ease;
+}
+.mt-bubble.mt-them {
+  color: #33475a;
+}
+.mt-bubble.mt-me {
+  /* 老师气泡：同一个白色精灵只取形状，中心由 CSS 上 BA 蓝（NGUI mColor 行为） */
+  background: linear-gradient(135deg, #7cc6ee, #4aa0dc);
+  color: #fff;
+}
+.mt-typing {
+  display: inline-flex;
+  gap: 5px;
+  align-items: center;
+  padding: 12px 16px;
+}
+.mt-typing i {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #9db8ca;
+  animation: mtDot 1.1s infinite ease-in-out;
+}
+.mt-typing i:nth-child(2) {
+  animation-delay: 0.18s;
+}
+.mt-typing i:nth-child(3) {
+  animation-delay: 0.36s;
+}
+@keyframes mtDot {
+  0%,
+  60%,
+  100% {
+    transform: translateY(0);
+    opacity: 0.55;
+  }
+  30% {
+    transform: translateY(-4px);
+    opacity: 1;
+  }
+}
+.mt-thread-divider {
+  align-self: center;
+  font-size: 11px;
+  color: #8ba4b5;
+  background: rgba(255, 255, 255, 0.7);
+  border-radius: 999px;
+  padding: 3px 14px;
+  margin: 6px 0 2px;
+}
+.mt-photo {
+  max-width: 62%;
+}
+.mt-photo img {
+  display: block;
+  max-width: 100%;
+  max-height: 300px;
+  border-radius: 12px;
+  border: 2px solid #fff;
+  box-shadow: 0 2px 10px rgba(30, 78, 119, 0.16);
+}
+.mt-photo-missing {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  padding: 22px 28px;
+  border: 1.5px dashed #b8cdd9;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.6);
+  color: #8ba4b5;
+  font-size: 12px;
+}
+.mt-photo-missing code {
+  font-size: 10.5px;
+  color: #a5bccb;
+}
+.mt-skip-hint {
+  align-self: center;
+  font-size: 10.5px;
+  color: #a5bccb;
+  user-select: none;
+}
+
+/* ---- 剧情触发卡 ---- */
+.mt-storycard-wrap {
+  align-self: center;
+  max-width: 72%;
+  margin: 2px 0;
+}
+.mt-storycard {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding: 12px 18px;
+  background: rgba(255, 255, 255, 0.88);
+  color: #33475a;
+}
+.mt-storycard-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 11px;
+  color: var(--ba-blue-deep);
+}
+.mt-storycard-title {
+  font-size: 13.5px;
+}
+.mt-storycard-btn {
+  align-self: flex-start;
+  padding: 6px 16px;
+  border: none;
+  border-radius: 999px;
+  background: linear-gradient(135deg, #7cc6ee, #4aa0dc);
+  color: #fff;
+  font-size: 12.5px;
+  cursor: pointer;
+  transition: 0.14s;
+}
+.mt-storycard-btn:hover {
+  filter: brightness(1.07);
+}
+.mt-storycard-btn.watched {
+  background: #b9cdd9;
+}
+
+/* ---- 回复选项 / 底栏 ---- */
+.mt-options {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 12px 20px 16px;
+  border-top: 1px solid var(--line);
+  background: rgba(255, 255, 255, 0.92);
+}
+.mt-option-btn {
+  padding: 11px 18px;
+  text-align: left;
+  font-size: 13.5px;
+  color: #2b4257;
+  background: #fff;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.14s;
+  animation: msgIn 0.22s ease;
+}
+.mt-option-btn:hover {
+  background: rgba(63, 159, 224, 0.14);
+}
+.mt-inputbar {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  padding: 9px 14px;
+  border-radius: 999px;
+  background: #eef4f8;
+  color: #9db8ca;
+  font-size: 12.5px;
+}
+.mt-empty {
+  text-align: center;
+  color: #7b93a5;
+  font-size: 13px;
+  padding: 26px 14px;
+}
+.mt-loading-bar {
+  width: 120px;
+  height: 4px;
+  margin: 12px auto 0;
+  border-radius: 999px;
+  background: #dbe8f0;
+  overflow: hidden;
+  position: relative;
+}
+.mt-loading-bar::after {
+  content: '';
+  position: absolute;
+  left: -40%;
+  width: 40%;
+  height: 100%;
+  border-radius: 999px;
+  background: var(--ba-blue);
+  animation: mtSlide 1.1s infinite ease-in-out;
+}
+@keyframes mtSlide {
+  to {
+    left: 100%;
+  }
+}
+
+/* ---- 深色主题（game-theme 的 dark-game 档）---- */
+[data-theme='dark-game'] .mt-list {
+  background: linear-gradient(180deg, #10263a, #0c1d2d);
+}
+[data-theme='dark-game'] .mt-list-head,
+[data-theme='dark-game'] .mt-item-txt b {
+  color: #cfe6f7;
+}
+[data-theme='dark-game'] .mt-list-count {
+  color: #9dc4e0;
+  background: rgba(20, 44, 66, 0.8);
+}
+[data-theme='dark-game'] .mt-search input {
+  background: rgba(14, 28, 42, 0.85);
+  border-color: var(--line);
+  color: var(--ink);
+}
+[data-theme='dark-game'] .mt-row-item {
+  border-bottom-color: rgba(255, 255, 255, 0.06);
+}
+[data-theme='dark-game'] .mt-row-item:hover {
+  background: rgba(30, 58, 84, 0.9);
+}
+[data-theme='dark-game'] .mt-row-item.on {
+  background: rgba(74, 168, 230, 0.22);
+  box-shadow: inset 3px 0 0 var(--ba-blue);
+}
+[data-theme='dark-game'] .mt-item-preview {
+  color: var(--ink-3);
+}
+[data-theme='dark-game'] .mt-room {
+  background: linear-gradient(180deg, #0f2233, #0b1a28);
+}
+[data-theme='dark-game'] .mt-head {
+  background: rgba(14, 28, 42, 0.92);
+  color: var(--ink);
+}
+[data-theme='dark-game'] .mt-head-info b {
+  color: #e8f2fa;
+}
+[data-theme='dark-game'] .mt-back {
+  background: rgba(14, 28, 42, 0.9);
+  color: #9dc4e0;
+}
+[data-theme='dark-game'] .mt-bubble.mt-them {
+  color: #22384a;
+}
+[data-theme='dark-game'] .mt-thread-divider,
+[data-theme='dark-game'] .mt-skip-hint {
+  color: #7d99ac;
+  background: rgba(14, 28, 42, 0.7);
+}
+[data-theme='dark-game'] .mt-storycard {
+  background: rgba(14, 28, 42, 0.88);
+  color: #cfe6f7;
+}
+[data-theme='dark-game'] .mt-options {
+  background: rgba(14, 28, 42, 0.92);
+}
+[data-theme='dark-game'] .mt-option-btn {
+  background: rgba(30, 58, 84, 0.9);
+  color: #dceefb;
+}
+[data-theme='dark-game'] .mt-option-btn:hover {
+  background: rgba(74, 168, 230, 0.32);
+}
+[data-theme='dark-game'] .mt-inputbar {
+  background: rgba(30, 58, 84, 0.6);
+  color: #7d99ac;
+}
+[data-theme='dark-game'] .mt-photo-missing {
+  background: rgba(14, 28, 42, 0.6);
+  border-color: #3a5a74;
+  color: #7d99ac;
+}
+[data-theme='dark-game'] .mt-empty {
+  color: #7d99ac;
+}
+[data-theme='dark-game'] .mt-loading-bar {
+  background: #1d344a;
+}

@@ -54,7 +54,7 @@ export function createDefaultSave(): SaveData {
       owned: {},
     },
     cafe: { placed: [], lastCollect: Date.now(), visits: [] },
-    momotalk: { read: [], favor: {} },
+    momotalk: { read: [], favor: {}, answered: [], chosen: {}, recent: {} },
     settings: resetSettings(),
   };
 }
@@ -103,6 +103,16 @@ class SaveStore {
           raw.ap ?? { value: AP_MAX, updatedAt: Date.now() },
           Date.now()
         );
+        // 桃信：老存档没有 answered/chosen/recent 字段时补默认值，
+        // 避免界面读到 undefined（read/favor 保留旧值）
+        const mt: Partial<SaveData['momotalk']> = raw.momotalk ?? {};
+        this.data.momotalk = {
+          read: Array.isArray(mt.read) ? mt.read : [],
+          favor: mt.favor ?? {},
+          answered: Array.isArray(mt.answered) ? mt.answered : [],
+          chosen: mt.chosen ?? {},
+          recent: mt.recent ?? {},
+        };
       }
     } catch {
       /* 首次运行没有存档 */

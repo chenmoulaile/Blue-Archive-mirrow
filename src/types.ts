@@ -217,6 +217,12 @@ export interface SaveData {
   momotalk: {
     read: string[];
     favor: Record<string, number>;
+    /** '<characterId>:<threadIdx>:<msgIdx>' 已回复过的选项节点（首次回复 +1 好感） */
+    answered: string[];
+    /** '<characterId>:<threadIdx>:<msgIdx>' -> 所选选项下标（回信内容持久化） */
+    chosen: Record<string, number>;
+    /** characterId -> 最后互动时间戳（会话列表按最近排序） */
+    recent: Record<string, number>;
   };
   /** 见 src/core/config.ts，默认 zh-CN + ja */
   settings: Settings;
