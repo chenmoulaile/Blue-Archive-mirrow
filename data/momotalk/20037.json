@@ -1,0 +1,252 @@
+{
+ "characterId": 20037,
+ "studentId": 376,
+ "devName": "CH0261",
+ "name": "合欢垣吹雪",
+ "avatar": "/res/avatar/376.png",
+ "messageCount": 34,
+ "threads": [
+  {
+   "favorRank": 2,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "监察官！监察官！"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "你现在在哪里？有什么急事吗？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "监察官……？",
+       "nextGroup": 200370040
+      },
+      {
+       "text": "没有，我正在悠哉地四处乱晃",
+       "nextGroup": 200370050
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "先别管那些无关紧要的小事了！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "赶快到水上乐园的美食广场来",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "有件关系市民安全的紧急公务！赶紧过来吧！",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "……？",
+       "nextGroup": 200370070
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "favorRank": 3,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我很喜欢今天的任务"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "因为我今天负责巡逻整座乐园",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "可是你不是讨厌跑来跑去的吗，吹雪？",
+       "nextGroup": 200370100
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "怎么会呢？巡逻可是救生员最重要的任务耶",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "守护游客的安全，是身为一名救生员应该做的事",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "总觉得有点可疑",
+       "nextGroup": 200370120
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "唉唷，怎么说那种话",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我一定会认真把乐园一圈圈绕个遍的",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "一圈圈……？",
+       "nextGroup": 200370140
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "真是太过分了，老师……",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "居然真的要我用走的巡逻",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "本来不就该这样吗？",
+       "nextGroup": 200370160
+      },
+      {
+       "text": "别说得好像要求很不合理一样！",
+       "nextGroup": 200370160
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "对柔弱的学生来说，阳光明明就跟毒药没两样",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不过老师后来请我吃的冰淇淋倒是挺不错的",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "嗯，如果是跟老师一起的话，或许偶尔老老实实地巡逻也不错",
+     "delayMs": 1500
+    }
+   ]
+  },
+  {
+   "favorRank": 5,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "终于找到我的乐园了"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "这里就像是不会被任何人打扰的避风港……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "只要待在这里，我就可以不用管别人的眼光，好好休息了……！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "你找到了什么可以躲起来的地方吗？",
+       "nextGroup": 200370210
+      },
+      {
+       "text": "恭喜你找到了适合偷懒的好地方",
+       "nextGroup": 200370210
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师也想来看看吗？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不过你可不能下水哦",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不然我要监视的游客会变多的",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "明明是水上乐园还叫别人不要下水……",
+       "nextGroup": 0
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

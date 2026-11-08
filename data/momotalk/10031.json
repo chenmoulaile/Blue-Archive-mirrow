@@ -1,0 +1,354 @@
+{
+ "characterId": 10031,
+ "studentId": 102,
+ "devName": "Aru_newyear",
+ "name": "陆八魔阿露",
+ "avatar": "/res/avatar/102.png",
+ "messageCount": 47,
+ "threads": [
+  {
+   "favorRank": 2,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "今年一年，承蒙您对我们便利屋68的热情支持与惠顾，诚心感谢"
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "……？",
+       "nextGroup": 100310030
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "什，什么呀！那种反应！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "抱歉，刚刚有点吓一跳",
+       "nextGroup": 100310050
+      },
+      {
+       "text": "先确认发送人是谁……",
+       "nextGroup": 100310050
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "算……算了！我是很宽容大量的！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "总之，拘谨的寒暄到此为止！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "呐，老师，今年也只剩一点点了",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "为了准备跨年有些事要做，所以今天会陪我吧？",
+     "delayMs": 100
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "顺带一提，身为合伙人的老师没有拒绝的权利！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "……",
+     "delayMs": 2500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那个，老师，日程还空著吧……？是吧……？",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 2,
+      "scenarioGroup": 1003102,
+      "path": "/res/story/1003102.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 3,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我姑且就再说一次吧，新年快乐"
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "新年快乐",
+       "nextGroup": 100310120
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "今天联络不为别的……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "之前不是租了和服吗？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "啊啊，是亚瑠被牵著鼻子走的那时候的",
+       "nextGroup": 100310140
+      },
+      {
+       "text": "如果是那个话，要一起去店里询问是否能退货吗？",
+       "nextGroup": 100310140
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不是的，不是那样！应该说那时候的那个，说到底都是战略性的投资！",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "今天只是想告诉你，那件和服有用处了……！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "用处……装饰办公室之类的？",
+       "nextGroup": 100310160
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不可能只为了这个就叫老师吧！？话说回来，你明明知道吧！？",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "连穿都没穿就拿去装潢，太伤心了吧！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "……总，总之！有能穿这件和服的地方了！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "是与和服相配，相当文雅的场合……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "所以，我想拜托老师护送我……如何？",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "当，当然，我自己一个人也没问题的！？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "……会很忙吗？",
+     "delayMs": 2500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "当然会去唷",
+       "nextGroup": 100310210
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "是，是啊！果然会来啊！",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "呵呵，那我等著唷♪",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 3,
+      "scenarioGroup": 1003103,
+      "path": "/res/story/1003103.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 5,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，你还记得上次说的话吧？"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "虽然有点晚了……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "难得的新年，都没能跟老师一起参加到有过年氛围的活动呢？",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "毕竟彼此都很忙呢",
+       "nextGroup": 100310250
+      },
+      {
+       "text": "活动、周回、道具……",
+       "nextGroup": 100310260
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "是吧？",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "……老师，没事吧？说什么呢？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "嘛，总之，那个……",
+     "delayMs": 2000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "今天能占用你一点时间吗？",
+     "delayMs": 1500,
+     "story": {
+      "favorRank": 5,
+      "scenarioGroup": 1003105,
+      "path": "/res/story/1003105.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 6,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，新年开始了呢"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "这样的话，你不觉得先举办只有这个时期才有的活动，也是身为企业家该做的事情之一吗？",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "嗯，虽然我不是特别信这套",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "没错！我不太相信",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "和我一起去抽签吧？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "……亚瑠是非常相信抽签的人吗？",
+       "nextGroup": 100310330
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "别管那个了！快来！",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 6,
+      "scenarioGroup": 1003106,
+      "path": "/res/story/1003106.json"
+     }
+    }
+   ]
+  }
+ ]
+}

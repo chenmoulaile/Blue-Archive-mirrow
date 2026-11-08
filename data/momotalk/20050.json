@@ -1,0 +1,269 @@
+{
+ "characterId": 20050,
+ "studentId": 561,
+ "devName": "CH0319",
+ "name": "薄叶律",
+ "avatar": "/res/avatar/561.png",
+ "messageCount": 32,
+ "threads": [
+  {
+   "favorRank": 2,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "嗨，老师！"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我是薄叶律！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "对了，你是明天的值日生吧？",
+       "nextGroup": 200500040
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "没错！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "明天见啰！老师！",
+     "delayMs": 500,
+     "story": {
+      "favorRank": 2,
+      "scenarioGroup": 2005002,
+      "path": "/res/story/2005002.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 3,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师老师老师"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师喜欢什么颜色？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "可能要看你指的是什么东西……？",
+       "nextGroup": 200500080
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "啊哈！",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "看来只能由我来决定了呢！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "咦？决定什么？",
+       "nextGroup": 200500100
+      }
+     ]
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "律？",
+       "nextGroup": 200500110
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "favorRank": 5,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我现在在夏莱前面！"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师你在做什么呢？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "这么突然！？",
+       "nextGroup": 200500140
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我们上次不是说好要一起去买衣服吗！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "难道你现在很忙吗，老师？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "当然很忙",
+       "nextGroup": 200500160
+      }
+     ]
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "所以马上出发吧",
+       "nextGroup": 200500170
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "咦？",
+     "delayMs": 500,
+     "story": {
+      "favorRank": 5,
+      "scenarioGroup": 2005005,
+      "path": "/res/story/2005005.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 6,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师老师"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我这次真的找到了一个很奇怪的地方！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "奇怪的地方……？",
+       "nextGroup": 200500210
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "嗯！你可以来一趟狂猎吗？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "有个地方我真的很想带你去看！",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 6,
+      "scenarioGroup": 2005006,
+      "path": "/res/story/2005006.json"
+     }
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，令人遗憾的是",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那里好像没办法当成走私通道",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "因为没有路径能连通到学院里面",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "啊……",
+       "nextGroup": 200500260
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不过没关系！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "这样就多了一个专属于我们的秘密基地了！",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "下次再一起去吧！",
+     "delayMs": 1000
+    }
+   ]
+  }
+ ]
+}

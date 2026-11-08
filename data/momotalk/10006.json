@@ -1,0 +1,448 @@
+{
+ "characterId": 10006,
+ "studentId": 72,
+ "devName": "Iori",
+ "name": "银镜伊织",
+ "avatar": "/res/avatar/72.png",
+ "messageCount": 57,
+ "threads": [
+  {
+   "favorRank": 2,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，你听说那个传闻了吗？"
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "什么传闻？",
+       "nextGroup": 100060030
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "有偷窥女学生裙底的变态出没的传闻",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "真是的，这世道真可叹",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "这可不得了呢",
+       "nextGroup": 100060050
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师如果看见了可疑的变态，请立即联络风纪委员会",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "知道了，交给我吧",
+       "nextGroup": 100060070
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "favorRank": 3,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师最近好像经常来格黑娜出差……"
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "最近有很多格黑娜学园的工作",
+       "nextGroup": 100060090
+      },
+      {
+       "text": "因为想和伊织酱见面，忍不住就……",
+       "nextGroup": 100060100
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "原来如此……辛苦你了",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "……啥？你在说什么？",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "但实际上，我们很少在学校内见到面呢",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师来出差的时候都待在哪里？",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "中庭之类的",
+       "nextGroup": 100060130
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "……中庭？为什么？",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "下次见面时告诉你",
+       "nextGroup": 100060150
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "总觉得很可疑……",
+     "delayMs": 1500,
+     "story": {
+      "favorRank": 3,
+      "scenarioGroup": 1000603,
+      "path": "/res/story/1000603.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 5,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "报告显示，近期黑市走私品的交易量增加中"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "如果是生活必需品，普通市场就都能买到了……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "到底都在黑市进行什么样的交易呢？",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "我不知道，也没有兴趣……",
+       "nextGroup": 100060190
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我想也是",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "普通人是不会踏入黑市的",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师也要注意不要和黑市的恶党们扯上关系",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "嗯，我会铭记在心",
+       "nextGroup": 100060210
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "……老师，真的不会把我的毕业纪念册用在奇怪的事情上吧？",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我是相信老师才交给你的……不要给别人看喔！",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "……嘿，伊织",
+       "nextGroup": 100060230
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "嗯？什么？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "小学时期的伊织也很可爱呢",
+       "nextGroup": 100060250
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "吵死了！去死！",
+     "delayMs": 500
+    }
+   ]
+  },
+  {
+   "favorRank": 6,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "今天谢谢老师协助风纪委员会的活动"
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "该道谢的是我才对",
+       "nextGroup": 100060271
+      }
+     ]
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "不只是伊织，还得到了其他格黑娜风纪委员的各种帮助",
+       "nextGroup": 100060280
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师和我们不一样，中弹的话就危险了",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "如果是这么危险的任务，我们一起去是理所当然的",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "嗯，谢啦。话说回来",
+       "nextGroup": 100060291
+      }
+     ]
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "伊织在刚才的作战中背部受伤了吗？",
+       "nextGroup": 100060300
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "啊啊……这么说来确实是呢",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "别放在心上，不是什么严重的伤",
+     "delayMs": 1500,
+     "story": {
+      "favorRank": 6,
+      "scenarioGroup": 1000606,
+      "path": "/res/story/1000606.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 8,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，看到这个讯息的时候，请来格黑娜正门前的住宅街3丁目……"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "发生了一点……意外",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "意外，什么意外？",
+       "nextGroup": 100060340
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "别管了，快来！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "还有！绝对不能告诉其他学生我在这里！",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 8,
+      "scenarioGroup": 1000608,
+      "path": "/res/story/1000608.json"
+     }
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师！！",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "刚才发来的照片为什么还留著！！",
+     "delayMs": 500
+    },
+    {
+     "kind": "image",
+     "from": "student",
+     "text": "",
+     "image": "UIs/03_Scenario/04_ScenarioImage/Mo_Iori_01",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "因为拍得不错，想说你可能会想要",
+       "nextGroup": 100060380
+      },
+      {
+       "text": "不觉得很可爱吗？",
+       "nextGroup": 100060390
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "鬼才想要！！！！！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "才不是这个问题！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不是说要删掉吗！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "为什么你还留著！",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "删掉！现在马上！",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "听到了吗！？喂！！",
+     "delayMs": 500
+    }
+   ]
+  }
+ ]
+}

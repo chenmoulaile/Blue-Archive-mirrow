@@ -1,0 +1,257 @@
+{
+ "characterId": 10066,
+ "studentId": 152,
+ "devName": "CH0200",
+ "name": "天童爱丽丝",
+ "avatar": "/res/avatar/152.png",
+ "messageCount": 32,
+ "threads": [
+  {
+   "favorRank": 2,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "呜呜……老师……"
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "爱丽丝，怎么了吗？",
+       "nextGroup": 100660030
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "请救救……爱丽丝",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "啊，不，果然还是算了！",
+     "delayMs": 2000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "我立刻过去！",
+       "nextGroup": 100660050
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "favorRank": 3,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "爱丽丝发现了",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "发现什么……？",
+       "nextGroup": 100660080
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "是提高女仆等级的新方法",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "什么样的方法……？",
+       "nextGroup": 100660100
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那就是",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "何谓女仆！工作的实际情况是什么！？",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "爱丽丝要学习这些！",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "正好发现了适合的资料",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "女仆的……资料……？",
+       "nextGroup": 100660140
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "favorRank": 5,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "爱丽丝有重要的话要说",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "爱丽丝的，重要的话……",
+       "nextGroup": 100660170
+      },
+      {
+       "text": "感觉要发生不得了的事了……",
+       "nextGroup": 100660170
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "是非常重要的话",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "所以希望老师务必能过来",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "……嗯，我马上过去",
+       "nextGroup": 100660190
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "favorRank": 15,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "你今天很忙吗？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "今天没有行程哦",
+       "nextGroup": 100660220
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "这样啊！",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "像这种没有行程的日子……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "听说就是最适合打扫的日子！",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "怎么会～！",
+       "nextGroup": 100660250
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "别担心，老师！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "见习女仆勇者爱丽丝，会助老师一臂之力！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "女仆勇者绝不会对遇到困难的人见死不救！",
+     "delayMs": 1500,
+     "story": {
+      "favorRank": 15,
+      "scenarioGroup": 1006615,
+      "path": "/res/story/1006615.json"
+     }
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,293 @@
+{
+ "characterId": 10062,
+ "studentId": 77,
+ "devName": "CH0187",
+ "name": "飞鸟马时",
+ "avatar": "/res/avatar/77.png",
+ "messageCount": 36,
+ "threads": [
+  {
+   "favorRank": 2,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，听说您今天也要上班"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "看来夏莱一直都很忙碌呢",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "是谁……？",
+       "nextGroup": 100620040
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "果然，这种时候就需要辅佐呢",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我立刻去找您，老师",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "所以是谁！？",
+       "nextGroup": 100620060
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "favorRank": 3,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，请问现在是否方便呢？"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我收到了一封陌生的信，不知该如何处理",
+     "delayMs": 2000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "如果您在忙的话，我本来是打算自己解决的……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不过我想，还是应该先和您商量",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "季遇到困难了！？还好吗？我立刻过去！",
+       "nextGroup": 100620100
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "非常感谢",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那么，可以请您到学校来一趟吗？",
+     "delayMs": 1500,
+     "story": {
+      "favorRank": 3,
+      "scenarioGroup": 1006203,
+      "path": "/res/story/1006203.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 5,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "听说今天是由我担任夏莱值日生的日子"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "请问是否正确呢？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "第一次担任值日生的季，我很期待哦",
+       "nextGroup": 100620140
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "……？",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "虽然不是很明白……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "为了回应老师的期待，我会全力进行辅佐的",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那么，稍后再见",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 5,
+      "scenarioGroup": 1006205,
+      "path": "/res/story/1006205.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 6,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "今天稍微耽搁了一点时间，抵达时间可能会比平常晚一些",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "没能在约好的进行辅佐，非常抱歉",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "没关系，不过季会迟到还真少见呢",
+       "nextGroup": 100620200
+      }
+     ]
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "我可以问发生了什么事吗？",
+       "nextGroup": 100620210
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "没什么",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "并不是什么大不了的事",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "请不必太过担心",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那么，稍后再见",
+     "delayMs": 1500,
+     "story": {
+      "favorRank": 6,
+      "scenarioGroup": 1006206,
+      "path": "/res/story/1006206.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 15,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我认为现在"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "是我们之间需要「信物」的时候了",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "今天想跟您讨论这件事情",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "我不太明白你的意思！",
+       "nextGroup": 100620270
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不必担心",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师不明白也没关系，只要我明白就行了",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "季……？",
+       "nextGroup": 0
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

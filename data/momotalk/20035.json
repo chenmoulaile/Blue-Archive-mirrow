@@ -1,0 +1,254 @@
+{
+ "characterId": 20035,
+ "studentId": 360,
+ "devName": "CH0255",
+ "name": "春日椿",
+ "avatar": "/res/avatar/360.png",
+ "messageCount": 33,
+ "threads": [
+  {
+   "favorRank": 2,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "你好，老师"
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "哦，是椿呀",
+       "nextGroup": 200350030
+      },
+      {
+       "text": "今天也在修行吗？",
+       "nextGroup": 200350030
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "没错",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "这次我特别",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "为了让修行……更加焕然一新",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "连衣服都换了",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "换了衣服？",
+       "nextGroup": 200350070
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "嗯",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "如果老师要来百鬼夜行",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "就给你看看吧？",
+     "delayMs": 500,
+     "story": {
+      "favorRank": 2,
+      "scenarioGroup": 2003502,
+      "path": "/res/story/2003502.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 3,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那个，老师"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我现在打算去夏莱，可以吗？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "当然可以",
+       "nextGroup": 200350120
+      },
+      {
+       "text": "椿居然愿意到这里来，真少见",
+       "nextGroup": 200350120
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "这是当然的",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "因为现在的我，可是睡眠导览员春日椿",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "之前没能好好为老师进行睡眠导览……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "今天会连同那次的份，一起彻底为你导览哦",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "所以就是要在夏莱睡觉的意思啊……",
+       "nextGroup": 200350150
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不完全是这样",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "因为老师也要一起睡觉",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 3,
+      "scenarioGroup": 2003503,
+      "path": "/res/story/2003503.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 5,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "听说你会来百鬼夜行工作，是吗？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "嗯，是啊",
+       "nextGroup": 200350190
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "这样啊",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "呵呵",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那么",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "工作结束之后……可以联络我吗？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "嗯，我会的",
+       "nextGroup": 200350220
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "以前没能为你做的睡眠向导",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "这次我想彻底地进行",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "看来你还挺介意这件事的呢……",
+       "nextGroup": 0
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

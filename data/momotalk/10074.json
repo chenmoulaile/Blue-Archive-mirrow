@@ -1,0 +1,291 @@
+{
+ "characterId": 10074,
+ "studentId": 300,
+ "devName": "CH0209",
+ "name": "浦和花子",
+ "avatar": "/res/avatar/300.png",
+ "messageCount": 40,
+ "threads": [
+  {
+   "favorRank": 2,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "请问现在……方便吗？",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "没问题唷。有什么事吗？",
+       "nextGroup": 100740040
+      },
+      {
+       "text": "嗯？花子？",
+       "nextGroup": 100740040
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "其实不是什么大事……只是……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "有一些",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "好东西♡",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "……好东西？",
+       "nextGroup": 100740070
+      },
+      {
+       "text": "从花子口中说出来，感觉特别意味深长呢……",
+       "nextGroup": 100740070
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "呵呵",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "还请老师",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "务必跟我一起欣赏",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 2,
+      "scenarioGroup": 1007402,
+      "path": "/res/story/1007402.json"
+     }
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "跟你说的不一样啊！",
+       "nextGroup": 100740110
+      },
+      {
+       "text": "你不是说在这里可以放心吗！",
+       "nextGroup": 100740110
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "哎呀",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我确实这么说过没错……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "但也说过仅限「两人独处的时候」不是吗？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "唔呵呵",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "♡",
+     "delayMs": 1000
+    }
+   ]
+  },
+  {
+   "favorRank": 3,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "这里的水真的很舒服呢"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "而且居然这么干净……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "花子在游泳吗？",
+       "nextGroup": 100740170
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "虽然大海也很棒，但这边更符合我的喜好",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "方便的话，老师要不要也来看看呀？",
+     "delayMs": 1500,
+     "story": {
+      "favorRank": 3,
+      "scenarioGroup": 1007403,
+      "path": "/res/story/1007403.json"
+     }
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "离开得真早呢。本来想等衣服干了之后一起回去的说……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "那个再怎么说都有点……",
+       "nextGroup": 100740220
+      },
+      {
+       "text": "一不小心就中计了……",
+       "nextGroup": 100740220
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "唔呵呵",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "开玩笑的。我玩得很开心哦，谢谢你，老师",
+     "delayMs": 1000
+    }
+   ]
+  },
+  {
+   "favorRank": 5,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师？"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "你现在在哪里？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "方便的话，我有事想跟你说……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "嗯？怎么了？",
+       "nextGroup": 100740270
+      },
+      {
+       "text": "花子要直接过来吗？",
+       "nextGroup": 100740270
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "是的",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "只要告诉我地点……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我马上就过去♡",
+     "delayMs": 1500,
+     "story": {
+      "favorRank": 5,
+      "scenarioGroup": 1007405,
+      "path": "/res/story/1007405.json"
+     }
+    }
+   ]
+  }
+ ]
+}

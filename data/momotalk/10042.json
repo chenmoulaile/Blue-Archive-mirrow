@@ -1,0 +1,425 @@
+{
+ "characterId": 10042,
+ "studentId": 35,
+ "devName": "atsuko",
+ "name": "秤亚津子",
+ "avatar": "/res/avatar/35.png",
+ "messageCount": 59,
+ "threads": [
+  {
+   "favorRank": 2,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，在吗？"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "现在没事吗？讯息有收到吗？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "敦子？",
+       "nextGroup": 100420040
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "嗯，是的。早安",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "早安",
+       "nextGroup": 100420060
+      },
+      {
+       "text": "虽然差不多快要晚上了，但早安",
+       "nextGroup": 100420060
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我们现在到处转移阵地",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "因为不能在同个地方待太久",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "而且大家都很分散",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "一个人的话很无聊",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "所以，如果老师不来的话",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "就很难跟老师见面",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "简单来说，是因为无聊，所以想跟我见面吗……？",
+       "nextGroup": 100420100
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "嗯",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "就是那样",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那么，晚点见",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 2,
+      "scenarioGroup": 1004202,
+      "path": "/res/story/1004202.json"
+     }
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，晚上好",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我现在要离开这里了",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那么，再见。换了地方后会再联系你的",
+     "delayMs": 1000
+    }
+   ]
+  },
+  {
+   "favorRank": 3,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，早安"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我发现了一个有趣的地方",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "有空的话，要不要过来玩？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "什么样的地方？",
+       "nextGroup": 100420170
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "可以玩学校游戏的地方",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "感觉一定很有趣",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "嗯，我知道了。很期待唷",
+       "nextGroup": 100420190
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "你问我有什么兴趣",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我，喜欢花",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "花啊……种花之类的吗？",
+       "nextGroup": 100420220
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "嗯。下次在园艺部试做看看吧",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "虽然部员只有我一个",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那么，晚安",
+     "delayMs": 1000
+    }
+   ]
+  },
+  {
+   "favorRank": 5,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，早安"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我，决定了",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我想要培养和花有关的兴趣",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "原来如此。插花一类的吗？",
+       "nextGroup": 100420270
+      },
+      {
+       "text": "这不是挺好的吗",
+       "nextGroup": 100420270
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "为我加油吧，老师",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "嗯。敦子有喜欢的花吗？",
+       "nextGroup": 100420290
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "……喜欢的花？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "唔嗯……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我，只要是花都喜欢",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "喜欢绣球花",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "也喜欢玫瑰",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "怎么了？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "没什么，谢谢",
+       "nextGroup": 100420330
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，今天辛苦了",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "托你的福，重新种植了很多种",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "如果能健康地成长就好了呢",
+       "nextGroup": 100420360
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "嗯。就是说啊",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "还有，谢谢你",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我会对大家保密，好好珍惜的",
+     "delayMs": 1500
+    }
+   ]
+  },
+  {
+   "favorRank": 6,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "你好，老师"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "昨晚，下了一场大雨",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "花圃没事吧……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "虽然想去确认，但一个人去有点不安",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "可以跟我一起去吗？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "当然，很乐意",
+       "nextGroup": 0
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

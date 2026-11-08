@@ -1,0 +1,297 @@
+{
+ "characterId": 26012,
+ "studentId": 377,
+ "devName": "CH0262",
+ "name": "中务桐乃",
+ "avatar": "/res/avatar/377.png",
+ "messageCount": 38,
+ "threads": [
+  {
+   "favorRank": 2,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "您好，老师"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "请问您现在能否协助本官呢……？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "当然可以，我该怎么帮你呢？",
+       "nextGroup": 260120040
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "本官最近接下了一份救生员的任务",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "对于发誓守护市民安全的警官而言，这可说是至高无上的荣耀……",
+     "delayMs": 2000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "然而……",
+     "delayMs": 100
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "如果只是游泳倒不成问题，但我听说救援溺水者时的游法似乎不太一样",
+     "delayMs": 2000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "更糟的是我昨天才知道这件事……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "那不就糟了吗？",
+       "nextGroup": 260120070
+      },
+      {
+       "text": "要不要趁现在赶快练习一下？",
+       "nextGroup": 260120070
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "所以老师，是否能请您协助本官进行游泳训练呢！？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "再这样下去，本官说不定会被判定不适任救生员工作的！",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 2,
+      "scenarioGroup": 2601202,
+      "path": "/res/story/2601202.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 3,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "您好，老师"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "在上次的练习之后，我思考了很久……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我认为要在短时间内，学会水上救援的游法恐怕没那么简单",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "唔嗯，既然不擅长救援……",
+       "nextGroup": 260120110
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "本官决定把重心专注在急救方面！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "这样只要有人把溺水的游客救上岸，本官就可以对其实施急救，协助对方尽快苏醒！",
+     "delayMs": 2000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "所谓山不转路转？",
+       "nextGroup": 260120130
+      },
+      {
+       "text": "也对，毕竟急救也是很重要的",
+       "nextGroup": 260120130
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "没错！所以如果老师方便的话，希望您这次也能协助本官的训练！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "请您尽管放心，这次绝不会犯跟上次一样的错误！",
+     "delayMs": 1500,
+     "story": {
+      "favorRank": 3,
+      "scenarioGroup": 2601203,
+      "path": "/res/story/2601203.json"
+     }
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，您看过手册了吗？",
+     "delayMs": 500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "嗯，我看过了",
+       "nextGroup": 260120160
+      }
+     ]
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "虽然训练时没有试到，但真的溺水的时候，你会帮我做的吧？",
+       "nextGroup": 260120170
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那当然！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "本官可是一名公私分明的警官！",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "我指的是心脏除颤器哦？",
+       "nextGroup": 260120190
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "请，请您不要调戏本官！",
+     "delayMs": 1000
+    }
+   ]
+  },
+  {
+   "favorRank": 5,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师！您好！我是桐乃！"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "多亏老师的帮助，我已经顺利完成救生员训练，并且即将进行最终验收",
+     "delayMs": 2000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "恭喜你，桐乃",
+       "nextGroup": 260120230
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "这全都要感谢老师各方面的大力支持！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "为此，本官想邀请您来见证训练最后的环节，请问您是否方便呢？",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "当然好，我一定会去的",
+       "nextGroup": 260120250
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "非常感谢！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "太好了，这样训练肯定能完美落幕！",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 5,
+      "scenarioGroup": 2601205,
+      "path": "/res/story/2601205.json"
+     }
+    }
+   ]
+  }
+ ]
+}

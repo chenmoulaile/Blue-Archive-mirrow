@@ -1,0 +1,584 @@
+{
+ "characterId": 13007,
+ "studentId": 103,
+ "devName": "Zunko",
+ "name": "赤司纯子",
+ "avatar": "/res/avatar/103.png",
+ "messageCount": 77,
+ "threads": [
+  {
+   "favorRank": 2,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "呜呜……好吃的东西为什么这么贵呢……"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "想要不劳而获……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "别指望一攫千金，要好好工作才行",
+       "nextGroup": 130070040
+      },
+      {
+       "text": "我也想要不劳而获地过活……",
+       "nextGroup": 130070050
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "唔，是这样没错啦……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "……虽然是我先说出口的，但老师说这种话没问题吗？",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "虽然是真心话，但我打工时也是很认真的唷",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "淳子，打工……！？",
+       "nextGroup": 130070080
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "喂，那是什么反应！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我打工有很奇怪吗！？",
+     "delayMs": 1500,
+     "story": {
+      "favorRank": 2,
+      "scenarioGroup": 1300702,
+      "path": "/res/story/1300702.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 3,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，老师！"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我知道了件很厉害的事！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "怎么了？",
+       "nextGroup": 130070120
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "有个能以实惠价格大吃高级海鲜食材的方法！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "真的吗？",
+       "nextGroup": 130070140
+      },
+      {
+       "text": "淳子，再怎么想吃那种东西也不能犯罪啊",
+       "nextGroup": 130070150
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "当然。不过详细的方法是秘密……呵呵",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "你把我想成什么了！？才不是犯罪！",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "如果想知道详情，今晚来格黑娜的餐厅吧！",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "别迟到唷！",
+     "delayMs": 500,
+     "story": {
+      "favorRank": 3,
+      "scenarioGroup": 1300703,
+      "path": "/res/story/1300703.json"
+     }
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "呜呜……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "如果没有为那种实验买材料，就能吃顿豪华大餐了……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "淳子，瞧瞧这个",
+       "nextGroup": 130070190
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "嗯，什么？",
+     "delayMs": 500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "我在网路上看到，黄瓜涂蜂蜜好像会有哈密瓜的味道",
+       "nextGroup": 130070210
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "又是网路资讯啊！而且蜂蜜就已经够贵了！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "已经不会再被骗了！",
+     "delayMs": 1000
+    }
+   ]
+  },
+  {
+   "favorRank": 5,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "呵呵，嘿，老师。能告诉你一件好事吗？"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "今天美食研究会的晚餐竟然是……肉！",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "肉！",
+       "nextGroup": 130070250
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "而且还是高级和牛！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "和牛！？",
+       "nextGroup": 130070270
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "呵呵。羡慕吧，老师？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "今天就尽管羡慕我吧！",
+     "delayMs": 500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "我也想吃……",
+       "nextGroup": 130070290
+      },
+      {
+       "text": "我也要加入美食研究会！",
+       "nextGroup": 130070290
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不行，今天去的店有人数限制",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "但是回来后，我会告诉你有多好吃！",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 5,
+      "scenarioGroup": 1300705,
+      "path": "/res/story/1300705.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 6,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "今天中午，要跟美食研究会去蛋糕自助餐！"
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "蛋糕自助餐？",
+       "nextGroup": 130070320
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "咦，老师不知道蛋糕自助餐吗？",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "蛋糕自助餐，顾名思义",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "摆放著各式各样的蛋糕，在时间内可以随便吃……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "如此梦幻的一餐！",
+     "delayMs": 500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "感觉吃一半就腻了……",
+       "nextGroup": 130070350
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "别说那种话！",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "可以尽情吃蛋糕的机会可不是随时都有！",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 6,
+      "scenarioGroup": 1300706,
+      "path": "/res/story/1300706.json"
+     }
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "恶……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "感觉如何？",
+       "nextGroup": 130070380
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "嗯，有好一点了……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "昆布竟然在肚子里膨胀得这么厉害……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "前几天看到亚伽里把一整袋调味干昆布当作点心吃……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "亚伽里的肚子到底是怎么回事……",
+     "delayMs": 1500
+    }
+   ]
+  },
+  {
+   "favorRank": 8,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，听说过山海经附近的中华街吗？"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "有很多中华料理店，而且每一间都很好吃！",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "我也有听说",
+       "nextGroup": 130070430
+      },
+      {
+       "text": "非常好吃唷",
+       "nextGroup": 130070440
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "这样啊。消息都传进老师的耳朵了，看来准没错……！",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "咦咦──！不跟我说一声就自己跑去！？真狡猾！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "总之，身为美食研究会的一员，只能去了吧",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "所以，那个……这个周末，如果可以的话，要一起去吗？",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "嗯，走吧",
+       "nextGroup": 130070470
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "呵呵，约好了唷？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那么周末，在山海经高级中学的正门口前见唷！",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 8,
+      "scenarioGroup": 1300708,
+      "path": "/res/story/1300708.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 15,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，老师！"
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "你好像很开心呢，淳子",
+       "nextGroup": 130070500
+      },
+      {
+       "text": "真难得，把这个MomoTalk的画面截图留作纪念吧？",
+       "nextGroup": 130070500
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "喂，你在说什么啊！",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "……以防万一问一下",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "你该不会真的截图了吧？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "没有……",
+       "nextGroup": 130070530
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那就好",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我想说的是……终于完成了！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "完成了，是指什么……？",
+       "nextGroup": 130070560
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "呵呵……你现在在夏莱对吧？",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我直接拿给你看！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "等我一下，我现在就过去！",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 15,
+      "scenarioGroup": 1300720,
+      "path": "/res/story/1300720.json"
+     }
+    }
+   ]
+  }
+ ]
+}

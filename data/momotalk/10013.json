@@ -1,0 +1,422 @@
+{
+ "characterId": 10013,
+ "studentId": 94,
+ "devName": "Tsurugi",
+ "name": "剑先鹤城",
+ "avatar": "/res/avatar/94.png",
+ "messageCount": 61,
+ "threads": [
+  {
+   "favorRank": 2,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "叽耶耶耶耶耶耶耶！"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "叽嘿啊啊啊！",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "啊啊啊啊啊──！",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "桀啊啊啊喔喔……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "桀啊……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "什么事！？",
+       "nextGroup": 100130040
+      },
+      {
+       "text": "弦生！？",
+       "nextGroup": 100130040
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "对不起，我发送错了",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "弦生　谨上",
+     "delayMs": 1500,
+     "story": {
+      "favorRank": 2,
+      "scenarioGroup": 1001302,
+      "path": "/res/story/1001302.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 3,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "桀啊啊啊啊啊啊啊啊啊啊！"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "叽嘻嘻叽叽叽叽嘻嘻嘻！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "失礼了……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那个，有件事想请老师帮忙",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "可以拜托您吗",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "虽然不知道是什么事，当然",
+       "nextGroup": 100130080
+      },
+      {
+       "text": "如果是弦生的请求，我很乐意",
+       "nextGroup": 100130080
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "谢，谢谢您！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那，那，那么…希望届时能在三一的附近见到您……",
+     "delayMs": 1500,
+     "story": {
+      "favorRank": 3,
+      "scenarioGroup": 1001303,
+      "path": "/res/story/1001303.json"
+     }
+    },
+    {
+     "kind": "image",
+     "from": "student",
+     "text": "",
+     "image": "UIs/03_Scenario/04_ScenarioImage/Mo_Tsurugi_01",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那个，这个……老师",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我试著用最近流行的修图APP拍了照片……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "您，您觉得如何？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "很棒！很可爱！",
+       "nextGroup": 100130130
+      },
+      {
+       "text": "好照片！",
+       "nextGroup": 100130130
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "是，是吗，感谢您",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "最近的科技真厉害……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不知道提交这个有没有问题……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "总，总之，今天非常感谢！",
+     "delayMs": 1000
+    }
+   ]
+  },
+  {
+   "favorRank": 5,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，闪闪发亮的恋爱，到底是什么样子呢"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "虽然杂志和小说里写了很多，但都不切实际",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "……叽耶耶耶耶耶耶！！！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "对不起，问了一个奇怪的问题",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "闪闪发亮的恋爱……？",
+       "nextGroup": 100130180
+      },
+      {
+       "text": "弦生？没事吧？",
+       "nextGroup": 100130180
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "这个，那个……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那个……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "叽啊啊啊啊啊啊ｒｒｒｒｒｒｒｒ",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "什，什么都没有……",
+     "delayMs": 2000
+    }
+   ]
+  },
+  {
+   "favorRank": 15,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不，果然没什么事。失礼了",
+     "delayMs": 2500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "弦生？",
+       "nextGroup": 100130240
+      },
+      {
+       "text": "怎么了吗？",
+       "nextGroup": 100130240
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不好意思，现在那个",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "待我整理一下后，会再联络您",
+     "delayMs": 2500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "弦生　谨上",
+     "delayMs": 1500,
+     "story": {
+      "favorRank": 15,
+      "scenarioGroup": 1001320,
+      "path": "/res/story/1001320.json"
+     }
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，那个",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "明明是特地请您来，真是失礼了",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "不会，没有那回事",
+       "nextGroup": 100130290
+      },
+      {
+       "text": "倒不如说很开心唷",
+       "nextGroup": 100130290
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "您，您能这么说，真是不胜感激",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那个，关于下次一起看的东西……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "因为这种事是第一次，所以可能有很多不周到的地方",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "还望您见谅",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "不用在意，和平时一样就行了",
+       "nextGroup": 100130320
+      },
+      {
+       "text": "只是要弦生选的，不管是什么都很开心唷",
+       "nextGroup": 100130320
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "叽嘻",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "叽嘻嘻嘻嘻！！！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "嘻嘻",
+     "delayMs": 1500
+    }
+   ]
+  }
+ ]
+}

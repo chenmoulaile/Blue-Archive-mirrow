@@ -1,0 +1,404 @@
+{
+ "characterId": 10134,
+ "studentId": 574,
+ "devName": "CH0334",
+ "name": "天童爱丽丝",
+ "avatar": "/res/avatar/574.png",
+ "messageCount": 55,
+ "threads": [
+  {
+   "favorRank": 2,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "防具如果没有好好装备就没有意义了",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "这么突然……？",
+       "nextGroup": 101340040
+      },
+      {
+       "text": "什么意思？",
+       "nextGroup": 101340040
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "这是RPG的常识！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不过爱丽丝发现了！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "有时候光是装备是不够的！",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 2,
+      "scenarioGroup": 1013402,
+      "path": "/res/story/1013402.json"
+     }
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "一路上一直摇摇晃晃的",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "抱歉，因为有点重……",
+       "nextGroup": 101340090
+      },
+      {
+       "text": "我有努力撑住……",
+       "nextGroup": 101340090
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "爱丽丝觉得很开心！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "就像在坐游乐设施一样！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "那就好……",
+       "nextGroup": 101340110
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "favorRank": 3,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "爱丽丝向老师申请组队"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "今天也是勇者修行！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "勇者啊，那样的修行可以吗？",
+       "nextGroup": 101340140
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "我为爱丽丝准备了特别训练！",
+       "nextGroup": 101340160
+      },
+      {
+       "text": "是能在短时间内升级的特训哦！",
+       "nextGroup": 101340160
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "有那种特训吗！？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "爱丽丝想知道！",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 3,
+      "scenarioGroup": 1013403,
+      "path": "/res/story/1013403.json"
+     }
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师！"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "真的好神奇！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "现在就算穿著勇者的装甲也完全不会发抖了！",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "特训的成果出来了！",
+       "nextGroup": 101340210
+      },
+      {
+       "text": "这都是爱丽丝努力的功劳",
+       "nextGroup": 101340210
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "爱丽丝一个人是想不到那种训练方法的！",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师果然很厉害！",
+     "delayMs": 1000
+    }
+   ]
+  },
+  {
+   "favorRank": 5,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "呜呜呜……"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "爱丽丝，说不定不配当勇者了……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "爱丽丝？",
+       "nextGroup": 101340250
+      },
+      {
+       "text": "怎么了？",
+       "nextGroup": 101340250
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "爱丽丝要回去当见习冒险家了……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "你现在在哪里？",
+       "nextGroup": 101340270
+      },
+      {
+       "text": "我马上过去，你等著",
+       "nextGroup": 101340270
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "favorRank": 6,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师！"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "你还醒著呢！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "嗯？是啊……",
+       "nextGroup": 101340300
+      },
+      {
+       "text": "你怎么知道的？",
+       "nextGroup": 101340300
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "呵呵！",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "请看窗外！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "窗外？",
+       "nextGroup": 101340320
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "favorRank": 8,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师！"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "救命！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "怎么了？",
+       "nextGroup": 101340350
+      },
+      {
+       "text": "今天也在冒险吗？",
+       "nextGroup": 101340350
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "现在不是说这个的时候！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "紧急事态！",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 8,
+      "scenarioGroup": 1013408,
+      "path": "/res/story/1013408.json"
+     }
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "下次也请和爱丽丝一起冒险！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "当然！",
+       "nextGroup": 101340390
+      },
+      {
+       "text": "冒险才刚开始不是吗？",
+       "nextGroup": 101340390
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "是的，爱丽丝的冒险还没有结束！",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "还要跟新的伙伴一起！",
+     "delayMs": 1000
+    }
+   ]
+  }
+ ]
+}

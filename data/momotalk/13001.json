@@ -1,0 +1,312 @@
+{
+ "characterId": 13001,
+ "studentId": 84,
+ "devName": "Chise",
+ "name": "和乐千世",
+ "avatar": "/res/avatar/84.png",
+ "messageCount": 40,
+ "threads": [
+  {
+   "favorRank": 2,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "今天，有很多美丽的云",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "云？",
+       "nextGroup": 130010040
+      },
+      {
+       "text": "啊，真的呢。今天天空挺漂亮呢",
+       "nextGroup": 130010040
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "嗯",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "所以，也许",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我就想说，今天的话",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "也许能找到",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，去找吧",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "找？找什么？",
+       "nextGroup": 130010080
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "云",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "云……？",
+       "nextGroup": 130010100
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我在商店街等著唷",
+     "delayMs": 1500,
+     "story": {
+      "favorRank": 2,
+      "scenarioGroup": 1300102,
+      "path": "/res/story/1300102.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 3,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，现在有空吗？"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "出了新的俳句集，想去买",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "嗯，没问题唷",
+       "nextGroup": 130010140
+      },
+      {
+       "text": "就算没空，但只要是为了知世……！",
+       "nextGroup": 130010140
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "是这样吗？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那么，走吧",
+     "delayMs": 1500,
+     "story": {
+      "favorRank": 3,
+      "scenarioGroup": 1300103,
+      "path": "/res/story/1300103.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 5,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "紧急事件",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "紧急事件？",
+       "nextGroup": 130010190
+      },
+      {
+       "text": "这么突然，怎么了？",
+       "nextGroup": 130010190
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "截止日期",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "迫在眼前",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "一片空白",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "……？",
+       "nextGroup": 130010210
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "公园",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "等著唷",
+     "delayMs": 1500,
+     "story": {
+      "favorRank": 5,
+      "scenarioGroup": 1300105,
+      "path": "/res/story/1300105.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 15,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "夏天到了",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "好热哦～",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "就是说啊，今年夏天好像特别热",
+       "nextGroup": 130010260
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不过",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "也能听到风吹来的声音",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "风的声音？",
+       "nextGroup": 130010280
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不对",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "是风吹来的声音",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "嗯",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "就让老师也听听看吧",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 15,
+      "scenarioGroup": 1300115,
+      "path": "/res/story/1300115.json"
+     }
+    }
+   ]
+  }
+ ]
+}

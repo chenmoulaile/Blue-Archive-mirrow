@@ -1,0 +1,802 @@
+{
+ "characterId": 20046,
+ "studentId": 126,
+ "devName": "CH0109",
+ "name": "天地尼娅",
+ "avatar": "/res/avatar/126.png",
+ "messageCount": 112,
+ "threads": [
+  {
+   "favorRank": 2,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "夏莱的老师，承蒙您的照顾"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我是担任阴阳部部长的仁耶",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "虽说我能力不足，今后还请您多多指教",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "老师我，有点不知道该怎么反应",
+       "nextGroup": 200460050
+      },
+      {
+       "text": "仁耶失忆了吗……！？",
+       "nextGroup": 200460060
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "喵哈哈～是不是有点坏心眼了呢～",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "喵哈哈～不愧是老师，反应完全没让我失望呢～",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "初次打招呼的时候还是要注重形式嘛～\n别看我这样，其实我还挺在意这种细节的唷～？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "我就知道是这样！",
+       "nextGroup": 200460090
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "话说夏莱的老师您～",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "果然是个当可爱～又可爱的学生们遭遇困境的时候～",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "绝对无法坐视不管的人对吧？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "发生什么事了？",
+       "nextGroup": 200460110
+      },
+      {
+       "text": "这个开场白感觉不太妙……",
+       "nextGroup": 200460110
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "喵哈～事情是这样的～",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我现在遇到了一点小麻烦～",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "有人正在追赶我呢",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 2,
+      "scenarioGroup": 2004602,
+      "path": "/res/story/2004602.json"
+     }
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "喵哈～",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "多亏老师的帮忙，今天总算没被念了呢～",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "您果然是值得信赖的大人～",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "只要有老师在，一切都能解决呢～",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "我其实没有这个意思",
+       "nextGroup": 200460190
+      },
+      {
+       "text": "别让后辈们太担心啰",
+       "nextGroup": 200460190
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "喵哈哈哈～",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "回答呢……？",
+       "nextGroup": 200460210
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "喵哈哈哈～",
+     "delayMs": 2000
+    }
+   ]
+  },
+  {
+   "favorRank": 3,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那个～老师～"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "距离上次见面没多久就又麻烦您，实在过意不去～",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我现在遇到了一点棘手的状况",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "能请您到阴阳部部室来一趟吗～？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "我才不会再上当第二次",
+       "nextGroup": 200460270
+      },
+      {
+       "text": "居然还敢若无其事地用同一招……",
+       "nextGroup": 200460270
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "原来如此，我明白了",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "连老师也不愿意相信我了啊",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "这都是我平时的行为与品性的问题。\n就算没有人愿意帮助我，那也是因果报应……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "失礼了",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "等等，所以是真的吗！？",
+       "nextGroup": 200460310
+      },
+      {
+       "text": "我马上过去！",
+       "nextGroup": 200460310
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "别看我这样，该做的事都有做唷～",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "真假",
+       "nextGroup": 200460340
+      },
+      {
+       "text": "真的吗？",
+       "nextGroup": 200460340
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "是佳穗做的",
+     "delayMs": 500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "所以你根本没做嘛！",
+       "nextGroup": 200460360
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不管是由谁的手来完成，反正事情终究是解决了嘛……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "哎呀～我的运气真好呢。喵哈哈～",
+     "delayMs": 1000
+    }
+   ]
+  },
+  {
+   "favorRank": 5,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师……？"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "这次……真的出大事了～",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "详细情况有点难说明",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我把地址传给您",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "可惜人类是会学习的生物",
+       "nextGroup": 200460420
+      }
+     ]
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "我不会再上当第三次的",
+       "nextGroup": 200460430
+      }
+     ]
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "绝对",
+       "nextGroup": 200460440
+      }
+     ]
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "仁耶？",
+       "nextGroup": 200460450
+      }
+     ]
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "我马上过去！",
+       "nextGroup": 200460460
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "哎呀～",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师生气的时候果然很可怕呢～",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "有好好反省吗？",
+       "nextGroup": 200460490
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "有～",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我好好反省了～",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "……我又要去说教了哦",
+       "nextGroup": 200460510
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "呀啊",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "……不对，百鬼夜行随时都欢迎老师的到访唷～",
+     "delayMs": 2000
+    }
+   ]
+  },
+  {
+   "favorRank": 6,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那个～"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师真的要来吗……？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "嗯",
+       "nextGroup": 200460560
+      },
+      {
+       "text": "没错",
+       "nextGroup": 200460560
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "最近您不是因为工作很忙吗～",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "要不要把陪我的时间省下来，拿去多帮点忙呢～？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "这就是老师的工作",
+       "nextGroup": 200460590
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "这未免有点过于极端了……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "居然只能在说教和摸头之间二选一",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "为什么不老实说？",
+       "nextGroup": 200460620
+      },
+      {
+       "text": "我明明可以帮你的",
+       "nextGroup": 200460620
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "突然说这些，我完全听不懂呢～",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "虽然老师说得好像我做了什么，但我什么都没做唷？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "提醒妖怪剧团们正式申请社团",
+       "nextGroup": 200460650
+      }
+     ]
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "把折纸部介绍给了商会",
+       "nextGroup": 200460660
+      }
+     ]
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "还把临演部的部室安排到了市区对吧？",
+       "nextGroup": 200460670
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "喵",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "喵哈～这个剧本听起来还真是煞有其事～",
+     "delayMs": 2000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "就连我也吓了一跳呢～？",
+     "delayMs": 1000
+    }
+   ]
+  },
+  {
+   "favorRank": 8,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "时值黄昏"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "残月挂在千手阁顶，人心愚昧，不再畏惧鬼神，此乃天命衰败的不祥之兆",
+     "delayMs": 2500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "仁耶？",
+       "nextGroup": 200460720
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "陈旧的往事。被世人认定为传说而非历史，虚构而非真实",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "即便如此，人们依旧忌讳提及鬼神之名",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "我从刚才就听不懂你在说什么了",
+       "nextGroup": 200460750
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "事情很简单，老师",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "人们为何会害怕鬼神，百鬼夜行为何会被称为鬼神的行列",
+     "delayMs": 2000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我们决定再次告诉整个奇普托斯",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "夜晚，现在才正要开始",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 8,
+      "scenarioGroup": 2004608,
+      "path": "/res/story/2004608.json"
+     }
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，刚才说是骗人的那个奇普托斯征服计划",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "其实是真的哦～",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "？",
+       "nextGroup": 200460800
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "也就是「都是骗人的」这句话其实才是谎言的反转～",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "所以现在只要我一声令下，百鬼夜行的军势就会出征～",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "也可能不会～",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "等一下，这肯定是骗人的吧！",
+       "nextGroup": 200460830
+      },
+      {
+       "text": "为什么要说这种谎话？",
+       "nextGroup": 200460830
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "这个嘛……？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "因为很好玩～？",
+     "delayMs": 500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "心脏都快跳出来了！",
+       "nextGroup": 200460860
+      },
+      {
+       "text": "不要把老师当玩具",
+       "nextGroup": 200460860
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "喵哈哈～也是啦",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "像我这种惹麻烦的学生会被老师如何看待～",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "就交给老师决定啰～",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我还是跟平时一样，顺其自然就好",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "跟平时一样……？",
+       "nextGroup": 200460900
+      },
+      {
+       "text": "那不就是打算大肆插手的意思吗？",
+       "nextGroup": 200460900
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "喵哈哈～",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "当然连这个部分也要跟平时一样啰～",
+     "delayMs": 1000
+    }
+   ]
+  }
+ ]
+}

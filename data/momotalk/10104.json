@@ -1,0 +1,353 @@
+{
+ "characterId": 10104,
+ "studentId": 271,
+ "devName": "reizyo",
+ "name": "鹿山丽情",
+ "avatar": "/res/avatar/271.png",
+ "messageCount": 46,
+ "threads": [
+  {
+   "favorRank": 2,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "您好，老师"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "听说老师明天会来访山海经是吗？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "你……怎么会知道！？",
+       "nextGroup": 101040040
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "果然如此呢",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "关于您的疑问",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "只能说我们玄武商会自有一些商业手段",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "商业手段啊……",
+       "nextGroup": 101040070
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不，其实也没什么了不起的就是了……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那个，不知道能不能称之为交换",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "但如果老师愿意明天一早到我告诉你的地方来",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我会让老师看看我的……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "日常行程之一",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 2,
+      "scenarioGroup": 1010402,
+      "path": "/res/story/1010402.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 3,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "听说老师今天会光临敝商会是吗？"
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "嗯，我超期待的！",
+       "nextGroup": 101040130
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "听您这么说真让人开心",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不过也感受到些许压力呢",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "……不行吗？",
+       "nextGroup": 101040150
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "请别这么说",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "受人期待总比不受期待来得好",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "尤其对餐饮业而言更是如此",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那么老师",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "稍后用餐时间见",
+     "delayMs": 1500,
+     "story": {
+      "favorRank": 3,
+      "scenarioGroup": 1010403,
+      "path": "/res/story/1010403.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 5,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "如同我先前提过的……"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "今天是玄武商会的视察日",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "希望玄龙门那边不要有太多意见……",
+       "nextGroup": 101040220
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "是啊……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不过坦白说，我实在有点在意",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师是否有必要特地前来参观",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "毕竟我在形式上是以顾问的身分参加的",
+       "nextGroup": 101040250
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "这点我也清楚，只不过……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "唉……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "要是上次视察时，我们的成员没有不小心",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "把玄龙门的视察员送进医院就好了……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "送进医院！？",
+       "nextGroup": 101040300
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不，不是的",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那纯粹是场意外，绝不是有意为之……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "无论现在如何辩解，听起来都只是借口吧",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "实在抱歉。那么今天就请您多多关照了",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "嗯，嗯……",
+       "nextGroup": 101040350
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "favorRank": 6,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "今天是由我担任夏莱的值日生"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "是否有特别需要注意或准备的事项呢？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "直接过来就可以啰",
+       "nextGroup": 101040370
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "原来如此……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那么，稍后夏莱见",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 6,
+      "scenarioGroup": 1010406,
+      "path": "/res/story/1010406.json"
+     }
+    }
+   ]
+  }
+ ]
+}

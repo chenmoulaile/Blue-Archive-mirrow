@@ -1,0 +1,590 @@
+{
+ "characterId": 10139,
+ "studentId": 65,
+ "devName": "CH0172",
+ "name": "吉野妮可",
+ "avatar": "/res/avatar/65.png",
+ "messageCount": 80,
+ "threads": [
+  {
+   "favorRank": 2,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "您好，这里是「FOX EATS」！"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "您订购的餐点预计将于10分钟后送达目的地",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "为了准确送达，请再次确认地址是否正确",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "FOX EATS？",
+       "nextGroup": 101390040
+      },
+      {
+       "text": "我不记得有订餐啊？",
+       "nextGroup": 101390040
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "请放心，费用已经支付完毕了！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "还请老师舒适地坐在位置上，\n好好享用FOX EATS准备的宵夜",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "你怎么会知道我还没吃晚餐？",
+       "nextGroup": 101390060
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "呵呵，这个嘛……自然有办法的",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不过这是FOX EATS的商业机密哦",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "话说回来，之前好像也发生过类似的事……",
+       "nextGroup": 101390080
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "餐点即将送达",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "为了安全起见，请尽量远离大门，并做好应对突如其来冲击的准备",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "好可怕！！",
+       "nextGroup": 101390100
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "昨天我放进冰箱里的豆皮寿司，您都吃完了吗？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "嗯，吃完了",
+       "nextGroup": 101390120
+      },
+      {
+       "text": "因为太好吃了，所以就一口气全部吃光了……",
+       "nextGroup": 101390120
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那真是太好了",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "豆皮寿司果然还是稍微放凉一点更好吃呢",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "下次有机会的话，我会再做豆皮寿司给您的",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不过，可别因为这样就故意饿著肚子不吃饭哦",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "我会牢记在心的",
+       "nextGroup": 101390150
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "favorRank": 3,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，请问您今天下午有空吗？"
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "嗯，那时候刚好有空",
+       "nextGroup": 101390170
+      },
+      {
+       "text": "怎么突然这么问？",
+       "nextGroup": 101390170
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那个……原本今天下午预定要进行「特殊补给作战」的",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "但小队成员都有其他事情在身，所以没办法过来……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师是否能协助这次的作战呢？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "当然啰！",
+       "nextGroup": 101390190
+      }
+     ]
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "不过，有什么是我能帮上忙的吗？",
+       "nextGroup": 101390200
+      },
+      {
+       "text": "我对特殊作战一无所知耶",
+       "nextGroup": 101390200
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "没关系的，因为这并不是那么危险的作战",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "……应该吧",
+     "delayMs": 2000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "应该！？",
+       "nextGroup": 101390230
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "favorRank": 5,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "您是否听过「可能出错的问题就必定会出错」……这句格言呢？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "你说的是墨菲定律，对吧",
+       "nextGroup": 101390260
+      },
+      {
+       "text": "工作的时候经常会听到呢",
+       "nextGroup": 101390260
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "是的，许多人都对这句话深有同感呢",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我曾经也因为粗心大意，疏忽了每天都要执行的装备检查",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "偏偏那天就发生了安全事故，让我吃了不少苦头，至今记忆犹新",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "怎么偏偏就在我出错的那天发生了事故呢",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "我也有过不少这样的经验呢",
+       "nextGroup": 101390290
+      },
+      {
+       "text": "巧合总是会在令人哭笑不得的时机发生啊",
+       "nextGroup": 101390290
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那时候，我读了相关的书籍才知道",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "其实这种定律，只是因为人们对负面记忆比正面记忆的印象更深刻",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "就算出了错，只要没发生任何事，就会从记忆中被抹去",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "原来如此，原来是有科学根据的呢",
+       "nextGroup": 101390320
+      }
+     ]
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "不过还是有点可惜呢……",
+       "nextGroup": 101390330
+      },
+      {
+       "text": "如果可以的话，要是正面的记忆能留得更久就好了",
+       "nextGroup": 101390330
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不过我觉得记住负面的记忆反而更好",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "因为这样可以把失误当作教训，下次才能做得更好嘛",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 5,
+      "scenarioGroup": 1013905,
+      "path": "/res/story/1013905.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 6,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "夏莱的仓库里堆满了雨伞",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那些全部都是夏莱的物品吗？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "那些是值日的学生留下来的遗失物哦",
+       "nextGroup": 101390370
+      },
+      {
+       "text": "不知不觉就堆了那么多呢……",
+       "nextGroup": 101390370
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "原来如此",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "在回去的时候要是没下雨，就很容易忘记雨伞呢",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不过大部分都没有写上名字",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "要找到失主可得费上一番功夫呢",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "之后写个公告，请失主来认领吧",
+       "nextGroup": 101390400
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "好的",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师也是，为了在东西弄丢时容易找回来，请记得在自己的物品上写上名字",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不对",
+     "delayMs": 3000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "这样反而可能会有反效果呢",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "为什么！？",
+       "nextGroup": 101390430
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "favorRank": 8,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，这次的假日有什么特别的安排吗？"
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "应该就只是在办公室休息吧……",
+       "nextGroup": 101390450
+      }
+     ]
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "仁子有什么特别的安排吗？",
+       "nextGroup": 101390460
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我这个周末也没有什么特别的安排，所以想尝试一些新事物",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，这个周末能不能把夏莱的调理室借给我使用呢？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我想在这个周末试著做一些作战需要的野战口粮",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "调理室你随意使用没关系……",
+       "nextGroup": 101390490
+      }
+     ]
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "不过……野战口粮？",
+       "nextGroup": 101390500
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "是的。是不易腐坏，味道也几乎不变的野战口粮",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "有点让人感兴趣呢",
+       "nextGroup": 101390520
+      },
+      {
+       "text": "是用什么材料做的呢？",
+       "nextGroup": 101390520
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "呵呵，完成之后，我再直接拿给您看吧",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 8,
+      "scenarioGroup": 1013908,
+      "path": "/res/story/1013908.json"
+     }
+    }
+   ]
+  }
+ ]
+}

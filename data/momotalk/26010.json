@@ -1,0 +1,500 @@
+{
+ "characterId": 26010,
+ "studentId": 278,
+ "devName": "CH0218",
+ "name": "霞泽美游",
+ "avatar": "/res/avatar/278.png",
+ "messageCount": 69,
+ "threads": [
+  {
+   "favorRank": 2,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "就像森林里的野生动物用保护色来隐藏自己一样"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "狙击手也会穿著吉利服来消除存在感",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "在野外经常会用树叶和树枝来伪装……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "但在人来人往的街道上，穿著普通的服装更不显眼",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "所以……大部分的狙击手都会携带一套能在街上伪装的衣服",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "原来如此，是这样啊",
+       "nextGroup": 260100050
+      }
+     ]
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "美优也有吗？",
+       "nextGroup": 260100060
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那个……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "其实",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我就算没有伪装，也不太会被人发现……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "所以除了制服以外几乎没有其他……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不过……这次的作战，是在几乎没有学生的渔村进行",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "趁著这个机会，我也想试著挑战伪装",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 2,
+      "scenarioGroup": 2601002,
+      "path": "/res/story/2601002.json"
+     }
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，谢谢你帮了我这么多忙……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "结果反而受到其他钓客的注意了……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "这样说不定也算是潜伏失败……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "毕竟美优钓到的那条鱼真的很大",
+       "nextGroup": 260100140
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "是，钓到大鱼虽然很开心……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不过没想到会因为存在感低而受到关注……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "果然无法事事如意呢……",
+     "delayMs": 1500
+    }
+   ]
+  },
+  {
+   "favorRank": 3,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "果然，一到海边来"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "就体验到了许多和平时不同的特别经验",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不仅有了预料之外的相会",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "还能在意外的地方见到熟悉的身影……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "……美优？",
+       "nextGroup": 260100200
+      },
+      {
+       "text": "发生什么事了……？",
+       "nextGroup": 260100200
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "啊",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不好意思，这样说有点难懂对吧",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我指的是找小石头",
+     "delayMs": 1500,
+     "story": {
+      "favorRank": 3,
+      "scenarioGroup": 2601003,
+      "path": "/res/story/2601003.json"
+     }
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "对不起……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "刚才一起收集的石头，我全都放回原位了",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "明明老师那么努力帮我……真的，很抱歉……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "没关系的，不用在意",
+       "nextGroup": 260100270
+      }
+     ]
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "不过，为什么把所有石头都……？",
+       "nextGroup": 260100280
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "跟老师分开后，我仔细想了想……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那些小石头们，都在默默地完成自己的使命……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "所以虽然觉得很棒，但如果把它们带走……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那些小石头们……感觉会很难过……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "但是，作为代替……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "image",
+     "from": "student",
+     "text": "",
+     "image": "UIs/03_Scenario/04_ScenarioImage/Mo_CH0218_01",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "你把它们照起来了啊",
+       "nextGroup": 260100330
+      },
+      {
+       "text": "这样啊，也不错呢",
+       "nextGroup": 260100330
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "是的",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "将今天的回忆，以这样的形式变为宝物",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "能和老师一起度过……真的很开心",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "非常感谢",
+     "delayMs": 1500
+    }
+   ]
+  },
+  {
+   "favorRank": 5,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "因为任务有时会被天气影响"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "在进行狙击任务时，我经常会仰望天空",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "和即使盯著也不会有什么变化的地面不同……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "天空景色的变化相当快",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "所以……无论看多久，似乎都不会看腻",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "可是，在海边眺望的天空……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "……好像有点不太一样",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "怎么说呢？",
+       "nextGroup": 260100410
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那个……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "呜……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "对不起",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我不太……会形容",
+     "delayMs": 1500,
+     "story": {
+      "favorRank": 5,
+      "scenarioGroup": 2601005,
+      "path": "/res/story/2601005.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 6,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "前几天，我读了一本被丢掉的时尚杂志……"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "书上写……可以借由改变服装来吸引别人的注意",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "刻意选择与环境不搭的服装，也能吸引到别人的目光……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "所以今天，我打算穿著最近买来的衣服",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "试著到街上走走",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "虽然我觉得是个不错的想法……",
+       "nextGroup": 260100500
+      }
+     ]
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "不过你说的，应该不是泳装吧……？",
+       "nextGroup": 260100510
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那，那么……我要出发了",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "……美优？",
+       "nextGroup": 260100530
+      }
+     ]
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "…………美优同学？",
+       "nextGroup": 0
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

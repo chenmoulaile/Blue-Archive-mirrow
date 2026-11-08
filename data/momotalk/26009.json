@@ -1,0 +1,380 @@
+{
+ "characterId": 26009,
+ "studentId": 82,
+ "devName": "CH0203",
+ "name": "花冈柚子",
+ "avatar": "/res/avatar/82.png",
+ "messageCount": 49,
+ "threads": [
+  {
+   "favorRank": 2,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那个，老师……"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "你喜欢女仆吗？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "……算是喜欢吧……",
+       "nextGroup": 260090040
+      },
+      {
+       "text": "怎么突然这么问？",
+       "nextGroup": 260090050
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "原来如此……",
+     "delayMs": 2000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "其实，那个……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我想在现在开发中的游戏里",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "加入一个女仆的角色",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "毕竟女仆具有一定的人气",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "只是……我虽然想详细了解女仆装的构造，却不认识可能会有女仆装的人……想说老师会不会很了解之类的",
+     "delayMs": 2000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "请C&C帮忙怎么样？",
+       "nextGroup": 260090090
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那个……我，我对向其他人求助",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "还是……有点，害怕",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我会找找有没有其他方法的……",
+     "delayMs": 1500,
+     "story": {
+      "favorRank": 2,
+      "scenarioGroup": 2600902,
+      "path": "/res/story/2600902.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 3,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "有没有我也能做的打工呢？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我想确保开发新游戏的必要资源……",
+     "delayMs": 2000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "这样下去的话，感觉费用似乎有点不够……",
+     "delayMs": 2000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "我知道了。你喜欢什么样的打工？",
+       "nextGroup": 260090150
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "虽然我没什么资格挑三拣四……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "可以的话，希望是能少和人接触的那种……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "那我介绍你去我常去的咖啡厅",
+       "nextGroup": 260090170
+      }
+     ]
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "客人并不多，店员们也都很亲切",
+       "nextGroup": 260090180
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "在咖啡厅接待，是吗",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "虽然有点不安……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我会相信老师，去试试看的",
+     "delayMs": 1500,
+     "story": {
+      "favorRank": 3,
+      "scenarioGroup": 2600903,
+      "path": "/res/story/2600903.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 5,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，刚才你有打电话给我吗？"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不好意思，打工的时候没有注意到……",
+     "delayMs": 2000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "没关系唷。我也觉得应该是那样",
+       "nextGroup": 260090230
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "谢谢老师。请问找我有什么事呢？",
+     "delayMs": 2000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "明天早上我会路过柚子工作的店附近",
+       "nextGroup": 260090250
+      }
+     ]
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "不介意的话，我可以去找你吗？",
+       "nextGroup": 260090260
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "什么！？明天吗！？",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "啊，不，我没有不能来的意思……",
+     "delayMs": 2000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "果然",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "有点",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "紧张呢……",
+     "delayMs": 1500,
+     "story": {
+      "favorRank": 5,
+      "scenarioGroup": 2600905,
+      "path": "/res/story/2600905.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 6,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "最近从早到晚都在开发游戏"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "感觉工作环境好像越来越杂乱了……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "今天其他人都不在，我打算慢慢整理一下",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "辛苦你了",
+       "nextGroup": 260090310
+      }
+     ]
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "有空的话我会去帮忙哦",
+       "nextGroup": 260090320
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "……咦？",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "为什么呢？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我想打扫一般都是一个人做的……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "是吗……？",
+       "nextGroup": 260090340
+      },
+      {
+       "text": "我觉得人多的话就能早点结束",
+       "nextGroup": 260090340
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "很高兴你能这么想，但是没关系的",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "谢谢老师的关心",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 6,
+      "scenarioGroup": 2600906,
+      "path": "/res/story/2600906.json"
+     }
+    }
+   ]
+  }
+ ]
+}

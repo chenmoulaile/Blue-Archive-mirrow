@@ -1,0 +1,508 @@
+{
+ "characterId": 10007,
+ "studentId": 182,
+ "devName": "Maki",
+ "name": "小涂真纪",
+ "avatar": "/res/avatar/182.png",
+ "messageCount": 67,
+ "threads": [
+  {
+   "favorRank": 2,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，抱歉……可以耽误一点时间吗？"
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "没问题唷",
+       "nextGroup": 100070030
+      },
+      {
+       "text": "怎么了？",
+       "nextGroup": 100070030
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那个……能来接我吗？",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "说是需要身份保证人，但不太好联络学生会……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "地点是那个，这个……派出所",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "派出所！？",
+       "nextGroup": 100070060
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "今天谢谢你来，老师",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "联络学生会的话，又要被念一顿",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "从今以后要注意唷",
+       "nextGroup": 100070080
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "嗯。尽量不在公共场所涂鸦……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "按照今天约定好的，下次要一起在大画布上作画喔！",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "约好啰！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "嗯，约好了",
+       "nextGroup": 100070110
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "favorRank": 3,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "今天也辛苦了，老师。回去小心唷～！"
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "真纪也辛苦了",
+       "nextGroup": 100070130
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师今天放学后有什么事吗？",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我要去黑",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "呀，南区那边有事要办，先回去啰～",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "……黑市？",
+       "nextGroup": 100070160
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "太可惜了……明明是向更多人传达毁灭狂战士魅力的机会",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "给别人添麻烦的做法是不行的……",
+       "nextGroup": 100070180
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "唔，老师说不行的话就没办法了……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "话说回来，老师有玩过毁灭狂战士吗？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "不，没有",
+       "nextGroup": 100070200
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "下次我帮你下载，一起「Speedrun」吧！",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "直到能在3分钟内过关之前，我会在旁边帮你的！",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "照你的说法，难不成想跨过3分钟的门槛是相当困难的吗……？",
+       "nextGroup": 100070220
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "favorRank": 5,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师有从别人那里听说这次的小考吗？"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "难到难以置信！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "平时不好好预习跟复习是不行的唷",
+       "nextGroup": 100070250
+      },
+      {
+       "text": "难道是出了考试范围外的题目吗？",
+       "nextGroup": 100070260
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "唔，正确的言论……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不，不是那样的……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "总之！这样下去就得去补课了～！",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，帮帮我～！",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 5,
+      "scenarioGroup": 1000705,
+      "path": "/res/story/1000705.json"
+     }
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "谢谢你教我念书，老师",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "为了回应老师的期待，下次考试会拿满分的！",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "嗯，我很期待",
+       "nextGroup": 100070300
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "啊，还有一个问题",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "笔记本最后的鉴赏期说明，是所有科目的考试都会出吗？",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "真纪，稍微冷静一下吧",
+       "nextGroup": 100070320
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "favorRank": 6,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师！上次的考试，拿到满分唷！"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "呵呵，多亏了老师上次教我念书！",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "恭喜，真纪也努力念书了呢",
+       "nextGroup": 100070350
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "很了不起吧？再多称赞一点～！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "那就去市区给努力的真纪买支冰淇淋吧",
+       "nextGroup": 100070370
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "真的吗！？约好了唷，老师！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "已经截图下来了，之后不能假装不知道唷！",
+     "delayMs": 1500,
+     "story": {
+      "favorRank": 6,
+      "scenarioGroup": 1000706,
+      "path": "/res/story/1000706.json"
+     }
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "谢谢你帮忙清理垃圾，老师",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "还有，放我一马。谢啦",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "这次是出于善意才做的吧？",
+       "nextGroup": 100070400
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "嗯！啊……但是，如果被警察发现并被责骂的话怎么办……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "到时候老师要说「不是这样的」！绝对要喔！",
+     "delayMs": 1500
+    }
+   ]
+  },
+  {
+   "favorRank": 8,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，好消息！"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "看到这条讯息的话，可以来之前涂鸦的墙壁吗？",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "怎么了？",
+       "nextGroup": 100070450
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "来了就知道了！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "啊，要穿弄脏了也没关系的衣服唷！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "……？",
+       "nextGroup": 100070470
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "呵呵，能跟老师一起涂鸦很开心！",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "我也很开心",
+       "nextGroup": 100070500
+      },
+      {
+       "text": "我画的太差了，如果墙壁的主人不喜欢的话怎么办……",
+       "nextGroup": 100070490
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "啊哈哈，还是很在意吗？",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不用担心，涂鸦是表现个性的艺术",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师画的画也充分展现了老师的个性",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "希望有一天还有这种机会",
+     "delayMs": 1500
+    }
+   ]
+  }
+ ]
+}

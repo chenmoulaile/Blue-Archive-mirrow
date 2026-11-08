@@ -1,0 +1,445 @@
+{
+ "characterId": 20006,
+ "studentId": 89,
+ "devName": "saya_casual",
+ "name": "药子纱绫",
+ "avatar": "/res/avatar/89.png",
+ "messageCount": 60,
+ "threads": [
+  {
+   "favorRank": 2,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，这个周末有时间吗？"
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "这次是什么实验？",
+       "nextGroup": 200060030
+      },
+      {
+       "text": "别再叫我喝奇怪的药了……",
+       "nextGroup": 200060030
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不是不是，不是那样！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我只是想告诉老师，上次老师说的中华料理店听说有新菜色！",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "所有事情都往实验去想，真让人心寒！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "抱歉抱歉，那么就当作小小的赔罪",
+       "nextGroup": 200060060
+      }
+     ]
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "我请客，一起去吧",
+       "nextGroup": 200060070
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "真的吗？事到如今不能反悔唷！？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那就这周末，在店的前面碰面！",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 2,
+      "scenarioGroup": 2000602,
+      "path": "/res/story/2000602.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 3,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "天才是孤独的……"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "无论怎么说明，也不被理解……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "怎么了吗？",
+       "nextGroup": 200060110
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "啊，对了，老师",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不，没有，没事！",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "这是我自己就能解决的问题！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "对我这个山海经首屈一指的天才来说，没有什么不可能的！哇哈哈哈！",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "……？",
+       "nextGroup": 200060140
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "favorRank": 5,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，上次蛋糕的事谢谢了"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "作为回礼，这次我在玄武商会请你吃好吃的！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师有什么想吃的吗？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "想吃炒饭！",
+       "nextGroup": 200060170
+      },
+      {
+       "text": "想吃炒面！",
+       "nextGroup": 200060170
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "啊，这么说来，这周是玄武商会的商家，接二连三推出新款拉面的「拉面周」！",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师！正好有我推荐的店，去那里吧！",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "那还需要我的意见……？",
+       "nextGroup": 200060190
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "favorRank": 6,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我受不了了……"
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "怎么了？",
+       "nextGroup": 200060210
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "之前开发的特制超辣酱比想像中还要受欢迎……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "结果占用了我大量的时间，根本没空进行研究",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "受不了……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "炼丹术研究会的目的是「制作长生不老的灵药」，不是制作酱料的地方！",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "现在连根津助的手都想借来用了……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我想到一个好主意！",
+     "delayMs": 2500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "最好不要",
+       "nextGroup": 200060250
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我什么都还没说耶！？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "总有个不好的预感……",
+       "nextGroup": 200060270
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "呿，没办法……乖乖做酱料吧……",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 6,
+      "scenarioGroup": 2000606,
+      "path": "/res/story/2000606.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 15,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "哼哼哼！"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "发生了一件好事",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "终于有人慧眼识英雄",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "看出我的天纵英才了！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "哦？怎么说呢？",
+       "nextGroup": 200060310
+      },
+      {
+       "text": "收到什么委托了吗？",
+       "nextGroup": 200060310
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "正是如此！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "难得有这种机会，希望老师也能过来一趟！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "一起见证我的发明吧！",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 15,
+      "scenarioGroup": 2000620,
+      "path": "/res/story/2000620.json"
+     }
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "呜呜……",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "仔细想想，当时应该戴著防毒面具才对",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "以为只是香水就掉以轻心……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "没想到我竟然也会犯下这种失误",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "不过大家都很开心",
+       "nextGroup": 200060360
+      },
+      {
+       "text": "托沙耶的福，活动非常成功哦",
+       "nextGroup": 200060360
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "哼哼",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那是当然！毕竟是我的发明啊！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "嗯",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "对了",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "今天真的很谢谢你",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "期待我的下一个发明吧！",
+     "delayMs": 1000
+    }
+   ]
+  }
+ ]
+}

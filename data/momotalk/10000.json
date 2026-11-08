@@ -1,0 +1,441 @@
+{
+ "characterId": 10000,
+ "studentId": 112,
+ "devName": "aru",
+ "name": "陆八魔阿露",
+ "avatar": "/res/avatar/112.png",
+ "messageCount": 60,
+ "threads": [
+  {
+   "favorRank": 2,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师。你之前帮忙的委托，又再次解决了唷"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "客户好像也相当满意",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "呵呵，辛苦了",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "在说什么来著？",
+       "nextGroup": 100000030
+      },
+      {
+       "text": "这都是托亚瑠社长的福啊！",
+       "nextGroup": 100000040
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "耶？难道不记得了吗？",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "嘛，当时确实很慌忙……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "总，总之……！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "多，多么自然的处世之道，这就是大人……！",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "……不对",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "当职员表现良好时，要给予相对应的奖励",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我认为这是社长该做的事",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那么，对老师来说，最棒的奖励是什么呢？",
+     "delayMs": 1500,
+     "story": {
+      "favorRank": 2,
+      "scenarioGroup": 1000002,
+      "path": "/res/story/1000002.json"
+     }
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我回家之后想了很久",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "「作为奖励，大家一起吃挑战菜单上的百汇冰淇淋」如果我这么说",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "大家可能会生气吧",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "……效率的背后，竟然有这样的盲点",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "所以，那个……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，下次还会陪我吗？",
+     "delayMs": 1500
+    }
+   ]
+  },
+  {
+   "favorRank": 3,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，成为社长所需的能力不仅仅是领导能力"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "当然，我的领导能力非常出色",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "但业务上还需要其他各式各样的能力",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "各式各样的能力？",
+       "nextGroup": 100000120
+      },
+      {
+       "text": "比如说？",
+       "nextGroup": 100000120
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "呵呵呵，想知道吗？想知道对吧？",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那么今天就来图书馆吧。我等著唷，老师",
+     "delayMs": 1500,
+     "story": {
+      "favorRank": 3,
+      "scenarioGroup": 1000003,
+      "path": "/res/story/1000003.json"
+     }
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，对你改观了",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "但是记住了",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "下次不会再这么容易中计了！",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "……就是这样。下次再一起学习吧♪",
+     "delayMs": 1500
+    }
+   ]
+  },
+  {
+   "favorRank": 5,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，你听说了吗？"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "传说中的那部电影名作，这次要重新上映了",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "方便的话，要不要一起去看？",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "好耶！是亚瑠的约会邀请！",
+       "nextGroup": 100000180
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "在，在，在说什么啊，老师！？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "别，别说那些无聊的话了，总之在电影院门口碰面唷！",
+     "delayMs": 1500,
+     "story": {
+      "favorRank": 5,
+      "scenarioGroup": 1000005,
+      "path": "/res/story/1000005.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 6,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，今天有空吗？"
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "嗯，有空唷",
+       "nextGroup": 100000210
+      },
+      {
+       "text": "如果是亚瑠的呼唤，不行也得行",
+       "nextGroup": 100000210
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "哼，哼嗯……！？嘛，嘛，那好吧",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "今天有重要的事要和老师说",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "晚点能来便利屋的办公室吗？",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我等著唷",
+     "delayMs": 1500,
+     "story": {
+      "favorRank": 6,
+      "scenarioGroup": 1000006,
+      "path": "/res/story/1000006.json"
+     }
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "能像今天这样看到我帅气的样子，是很珍贵的事哦？",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "今后也请多多关照唷，老师！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "……顺带一提，那真的是工作电话！真的唷！",
+     "delayMs": 1500
+    }
+   ]
+  },
+  {
+   "favorRank": 15,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "虽然先前说过了……我们便利屋全体，衷心的感谢老师",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "说成这样真让人害羞啊",
+       "nextGroup": 100000280
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "呵呵呵，真不像老师呢",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "这种程度就害羞的话，未来就很难做下去了唷",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "那就攻守交换，让亚瑠也感到害羞吧",
+       "nextGroup": 100000300
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "什么意思！？！？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "抱歉，只是说说而已",
+       "nextGroup": 100000320
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "是，是吗……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "总之进入正题，作为平常受到关照的回礼",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "一起吃顿饭，如何呢？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "务必！",
+       "nextGroup": 100000350
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那太好了",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那我等著唷，老师",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 15,
+      "scenarioGroup": 1000020,
+      "path": "/res/story/1000020.json"
+     }
+    }
+   ]
+  }
+ ]
+}

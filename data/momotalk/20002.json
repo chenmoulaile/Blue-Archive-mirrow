@@ -1,0 +1,516 @@
+{
+ "characterId": 20002,
+ "studentId": 88,
+ "devName": "saya",
+ "name": "药子纱绫",
+ "avatar": "/res/avatar/88.png",
+ "messageCount": 66,
+ "threads": [
+  {
+   "favorRank": 2,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，可以来我的研究室一下吗？"
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "这么突然，怎么了？",
+       "nextGroup": 200020030
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "跟我的研究有关，非常重要的事！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "而且是只有老师才能解决的特殊问题……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "所以，我在研究室等著！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "……？",
+       "nextGroup": 200020050
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "闪闪发亮的状况已经消失了吗？",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "脸还在闪闪发亮，每次照镜子时，眼睛都……",
+       "nextGroup": 200020070
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "无法直视镜子的光辉，真是太棒了",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "哪里棒了！？",
+       "nextGroup": 200020090
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "如果可以的话，能给我一片从皮肤上剥下来的金箔吗？",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "想调查它的成分，然后用在下次的研究",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "我拒绝",
+       "nextGroup": 200020110
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "唔！为什么！",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "这对炼丹术的发展明明是不可或缺的！",
+     "delayMs": 1000
+    }
+   ]
+  },
+  {
+   "favorRank": 3,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，能再来一趟研究室吗？"
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "很可疑……",
+       "nextGroup": 200020140
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不用担心，这次是真的完成了长生不老的灵药！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不信的话，就来我的研究室亲自确认一下！",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 3,
+      "scenarioGroup": 2000203,
+      "path": "/res/story/2000203.json"
+     }
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我竟然犯了那样的错误……抱歉，老师",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "变成这样我也很吃惊",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "虽然可能算不上补偿",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "但下次见面时，我请你吃玄武商会好吃的拉面",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "……还有，如果可以的话……那个充满光泽的灰色毛发，能给我一点吗？",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "我拒绝",
+       "nextGroup": 200020180
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "呜呜……长生不老、炼丹术的未来……",
+     "delayMs": 1500
+    }
+   ]
+  },
+  {
+   "favorRank": 5,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "上次很抱歉，老师"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "为了表示歉意，我请你吃好吃的拉面，在玄武商会前等著！",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "好吃的拉面……？",
+       "nextGroup": 200020220
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "嗯，是我经常去的店",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "是非常好吃的店，老师尝过之后一定会喜欢！",
+     "delayMs": 1500,
+     "story": {
+      "favorRank": 5,
+      "scenarioGroup": 2000205,
+      "path": "/res/story/2000205.json"
+     }
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "上次一起吃的拉面，真的很好吃",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "下次再一起去玄武商会玩吧！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "嗯，一定。话说拿到药的头盔团怎么样了？",
+       "nextGroup": 200020250
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "嗯……？对喔，差点忘记他们了……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "嘛，应该在哪里舔著砂糖吧？",
+     "delayMs": 1500
+    }
+   ]
+  },
+  {
+   "favorRank": 6,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，最近不是很闲吗？"
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "一直忙于工作……",
+       "nextGroup": 200020280
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "耶～别那么死板嘛。我弄到一个有趣的桌游",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我想玩玩看，但因为是2人用的，所以得找对手",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师也有兴趣的话，来研究室玩吧！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "工作结束后去玩",
+       "nextGroup": 200020300
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "呜呜，这么简单的游戏竟然输了……不甘心！",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "下次绝对不会输！做好觉悟吧，老师！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "先不管游戏，你得先斩断对起司的执著吧……？",
+       "nextGroup": 200020320
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "favorRank": 8,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师……今天有件重要的事要跟老师商量"
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "重要的事？什么事？",
+       "nextGroup": 200020340
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那个……不，不能用这样的形式说……！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那个，因为是非常重要的事……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "今天，夏莱的工作结束后，能马上来研究室吗？",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我等你",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 8,
+      "scenarioGroup": 2000208,
+      "path": "/res/story/2000208.json"
+     }
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，刚才睡午觉的时候，做了一个很棒的梦",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "回过神来眼前就有一块巨大的起司",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "想吃多少就吃多少，即使是在梦中也是第一次！",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "……",
+       "nextGroup": 200020390
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "话说回来，老师的手臂为什么伤痕累累？",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "跟野生动物打架了吗？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "……",
+       "nextGroup": 200020410
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "favorRank": 9,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，老师！不得了！出大事了！"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "看到这个讯息后马上来研究室！",
+     "delayMs": 500,
+     "story": {
+      "favorRank": 9,
+      "scenarioGroup": 2000209,
+      "path": "/res/story/2000209.json"
+     }
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "谢谢你陪我一起找根津助，老师。今后也万事拜托了！",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "有找到根津助真是太好了",
+       "nextGroup": 200020450
+      },
+      {
+       "text": "没什么大不了的",
+       "nextGroup": 200020450
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "回想起来，从以前到现在，不论是对根津助还是老师，都做了很多过分的事……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "今后不会再做过分的恶作剧了……今后也请多关照！",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "嗯。今后也请多关照，沙耶",
+       "nextGroup": 0
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

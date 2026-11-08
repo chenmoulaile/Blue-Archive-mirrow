@@ -1,0 +1,328 @@
+{
+ "characterId": 16004,
+ "studentId": 215,
+ "devName": "pina",
+ "name": "朝比奈菲娜",
+ "avatar": "/res/avatar/215.png",
+ "messageCount": 45,
+ "threads": [
+  {
+   "favorRank": 2,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "一切安好吗，头儿！"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我是百鬼夜行联合学园「节庆营运管理部」组的菲娜！",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "请多指教！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "头儿……？",
+       "nextGroup": 160040040
+      },
+      {
+       "text": "营运管理部「组」……？",
+       "nextGroup": 160040040
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "啊",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "失礼了",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "突然就自我介绍",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我也还不太习惯",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "让我再练习一下，下次请让我再试一次",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "总之，下次请来玩唷！！",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 2,
+      "scenarioGroup": 1600402,
+      "path": "/res/story/1600402.json"
+     }
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "今天非常开心，老师！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师说的「菲娜的任侠」究竟是什么，虽然我还不太明白",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "但因为是老师说的，所以一定没错！",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "总有一天我会明白的！",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那就再会啰！绝对要唷！",
+     "delayMs": 1000
+    }
+   ]
+  },
+  {
+   "favorRank": 3,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师～～！！请帮～帮我！HELP！！"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "这只能拜托老师了！帮帮我！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "怎么了？",
+       "nextGroup": 160040110
+      },
+      {
+       "text": "你闯了什么祸？",
+       "nextGroup": 160040110
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那个无法用讯息说明！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "有时间的话能来吗？拜托了！！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我等著你！！",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 3,
+      "scenarioGroup": 1600403,
+      "path": "/res/story/1600403.json"
+     }
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "真的非常感谢，老师！",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "今天一起看了老师选的电影",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "下次我们两个一起看菲娜选的电影吧！",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "绝对要唷！绝对！",
+     "delayMs": 1000
+    }
+   ]
+  },
+  {
+   "favorRank": 5,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，我是菲娜！"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "就像之前说的，这次看我选的电影吧！",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "票也准备好了！",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那我等著唷！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "再拜托你了！",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 5,
+      "scenarioGroup": 1600405,
+      "path": "/res/story/1600405.json"
+     }
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "今天真的是辛苦你了！",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "是我的错，对不起！然后非常感谢！！！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "下次再去看电影吧！普通电影院的那种！",
+     "delayMs": 1500
+    }
+   ]
+  },
+  {
+   "favorRank": 6,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师！终于到这个时候了！这个时候！"
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "「这个时候」……？",
+       "nextGroup": 160040190
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "对！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "到目前为止，我们共度了很长的一段时间！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "也累积了不少信任！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "这样的话……只能那个了吧！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "……「那个」？",
+       "nextGroup": 160040220
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "没错！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那么，不肖菲娜！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "恭候老师的光临！",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 6,
+      "scenarioGroup": 1600406,
+      "path": "/res/story/1600406.json"
+     }
+    }
+   ]
+  }
+ ]
+}

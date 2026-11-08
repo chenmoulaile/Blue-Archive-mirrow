@@ -1,0 +1,246 @@
+{
+ "characterId": 10032,
+ "studentId": 177,
+ "devName": "Mutsuki_newyear",
+ "name": "浅黄睦月",
+ "avatar": "/res/avatar/177.png",
+ "messageCount": 32,
+ "threads": [
+  {
+   "favorRank": 2,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师！"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "再次祝你新年快乐──！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "不知不觉已经过年了啊……",
+       "nextGroup": 100320040
+      },
+      {
+       "text": "嗯，新年快乐",
+       "nextGroup": 100320040
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "耶──，老师那是什么反应。无～聊",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "真拿你没办法……我为无精打采的老师准备了",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "连你也能一下就燃起斗志的「极其有趣的事」！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "无精打采……？",
+       "nextGroup": 100320070
+      },
+      {
+       "text": "「极其有趣的事」……？",
+       "nextGroup": 100320070
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那就敬请期待吧，老师！",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "咦，咦……？",
+       "nextGroup": 100320090
+      }
+     ]
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "无月……？",
+       "nextGroup": 100320100
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "favorRank": 3,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，新年愿望已经决定好了吗？"
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "当然！",
+       "nextGroup": 100320120
+      },
+      {
+       "text": "这么说来，还没……",
+       "nextGroup": 100320130
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "呵──，这样啊",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师的愿望，好在意呐──",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "啊，这样啊",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "嘛，从现在开始慢慢决定不就行了吗？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "总之，老师，走吧！",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "那个，去哪儿？",
+       "nextGroup": 100320160
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "难得过新年，所以很明显吧？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "新年就得去有新年气氛的地方！",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "好啦好啦，快点准备！老师！",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 3,
+      "scenarioGroup": 1003203,
+      "path": "/res/story/1003203.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 5,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师！来打羽根突吧！"
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "这么突然……？",
+       "nextGroup": 100320200
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我要一雪前耻！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "来吧──，一决胜负！",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我等著唷！快点快点！",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 5,
+      "scenarioGroup": 1003205,
+      "path": "/res/story/1003205.json"
+     }
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "托老师的福，新年过得非常开心！谢啦！",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "今后也要",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "也要经常和我一起玩唷，老师♡",
+     "delayMs": 1000
+    }
+   ]
+  }
+ ]
+}

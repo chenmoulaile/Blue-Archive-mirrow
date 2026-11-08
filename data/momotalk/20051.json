@@ -1,0 +1,677 @@
+{
+ "characterId": 20051,
+ "studentId": 565,
+ "devName": "CH0326",
+ "name": "宇泽玲纱",
+ "avatar": "/res/avatar/565.png",
+ "messageCount": 90,
+ "threads": [
+  {
+   "favorRank": 2,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，我是澪纱！"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "请问零用钱要怎么花才聪明呢？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "果然还是有计划的消费最好",
+       "nextGroup": 200510040
+      }
+     ]
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "建议先决定优先顺序再花钱哦",
+       "nextGroup": 200510050
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "原来如此！",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "所以是只买必要的东西就好对吧！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "澪纱果然理解得很快！",
+       "nextGroup": 200510080
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "耶嘿嘿",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那么，这个算是必要的东西吗？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "「魔法liber Thermite Pink Friendship Fusion Costume」",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "现在只卖市价的一半！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "市价的一半！？",
+       "nextGroup": 200510130
+      }
+     ]
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "那不就跟免费一样吗！？",
+       "nextGroup": 200510140
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "问老师是果然是正确的！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "Magical～聪明消费！！！",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 2,
+      "scenarioGroup": 2005102,
+      "path": "/res/story/2005102.json"
+     }
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，我是澪纱",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "顺利回家了吗？",
+       "nextGroup": 200510180
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "是的。幸亏有老师的帮忙，\n已经顺利回家换好衣服了！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "外套会等洗好之后再还给老师！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "不用急，慢慢来也OK哦！",
+       "nextGroup": 200510210
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师总是很温柔呢！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "谢谢你帮我解除变身的诅咒！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "嘿嘿嘿",
+     "delayMs": 1500
+    }
+   ]
+  },
+  {
+   "favorRank": 3,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "66307366979"
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "这是什么？",
+       "nextGroup": 200510260
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "咦",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "啊",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "原来这是老师的MomoTalk！！！！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我本来是想传给自己的说！！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "因为周末有个活动",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我才会打算把预约的号码传给自己",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "哦～是什么活动呢？",
+       "nextGroup": 200510330
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "其实也没什么，只是魔法少女的Only展而已",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "除了会聚集很多魔法少女作品，还会贩售周边或Cosplay",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "就是这样的活动！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "身为自卫队的一员，感觉应该过去巡逻一下！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "这样啊，那我也要去！",
+       "nextGroup": 200510380
+      }
+     ]
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "还有票吗？",
+       "nextGroup": 200510390
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "！！",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "当然有！",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师也要参加吗！",
+     "delayMs": 500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "与其说是「参加」……",
+       "nextGroup": 200510430
+      }
+     ]
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "不如说是「参战」吧！",
+       "nextGroup": 200510440
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "哇！",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "太棒了！！",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那我也会全副武装过去的！！",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 3,
+      "scenarioGroup": 2005103,
+      "path": "/res/story/2005103.json"
+     }
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师！",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "今天真的很开心！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "每次我鼓不起勇气的时候",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "谢谢你总是帮助我！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "只要澪纱开心，我随时都乐意帮忙！",
+       "nextGroup": 200510520
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "耶嘿嘿",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "下次再见！！",
+     "delayMs": 1000
+    }
+   ]
+  },
+  {
+   "favorRank": 5,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "请问「Dress Code」是什么意思呢？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "应该是指穿著符合场合的衣服吧？",
+       "nextGroup": 200510570
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那么",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "穿著目的相符的衣服",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "算是符合Dress Code吗？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "应该算吧？",
+       "nextGroup": 200510610
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "原来如此",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我明白了……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "？",
+       "nextGroup": 200510640
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "明明很完美的说！！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "最后居然搞砸了！！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "这种程度无伤大雅！",
+       "nextGroup": 200510670
+      }
+     ]
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "已经够帅气了哦！",
+       "nextGroup": 200510680
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "本来应该表现得更完美的",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "下次我一定！！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "要拿出超～级完美的表现！",
+     "delayMs": 1000
+    }
+   ]
+  },
+  {
+   "favorRank": 6,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，我是澪纱"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "请问之前的那个工具",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "现在还在吗？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "当然在啰。怎么了吗？",
+       "nextGroup": 200510750
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "会犯相同错误的人",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "果然是个笨蛋……对吧……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "难道又跟上次一样……？",
+       "nextGroup": 200510780
+      }
+     ]
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "是拉链坏掉了吗？",
+       "nextGroup": 200510790
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我这就过去夏莱……",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 6,
+      "scenarioGroup": 2005106,
+      "path": "/res/story/2005106.json"
+     }
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我再也不会被衣服困住了！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "因为拉链再也不会坏了！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "简直无敌！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "哦，你是怎么修好的？",
+       "nextGroup": 200510860
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "呵呵，很简单",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我把拉链拆掉，全部换成钮扣了！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "那样不就没办法自己穿上了吗？",
+       "nextGroup": 200510890
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "啊",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "啊？？",
+     "delayMs": 1500
+    }
+   ]
+  }
+ ]
+}

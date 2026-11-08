@@ -1,0 +1,514 @@
+{
+ "characterId": 20040,
+ "studentId": 216,
+ "devName": "CH0080",
+ "name": "京极皋月",
+ "avatar": "/res/avatar/216.png",
+ "messageCount": 70,
+ "threads": [
+  {
+   "favorRank": 2,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师～"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "作为万魔殿的合作者",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "这次也有事要请你帮忙",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "皐月……？",
+       "nextGroup": 200400040
+      },
+      {
+       "text": "怎么了吗？",
+       "nextGroup": 200400040
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "这个还是见面再说比较好",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我也刚好有话想跟你说",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "所以我现在就去夏莱～！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "什么！？",
+       "nextGroup": 200400070
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "favorRank": 3,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我今天想试验看看",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "其他的方法",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "你在夏莱吧？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "嗯……？",
+       "nextGroup": 200400110
+      },
+      {
+       "text": "在是在啦……",
+       "nextGroup": 200400110
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那就麻烦老师先在那待著",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我立刻过去～！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "皐月……？",
+       "nextGroup": 200400140
+      }
+     ]
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "什么！？",
+       "nextGroup": 200400150
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "favorRank": 5,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "感到高兴吧，老师"
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "哇哈哈哈！",
+       "nextGroup": 200400170
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "呵呵，我都还没开始说明",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "你就这么高兴了啊",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "很好奇是什么事对吧？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "莫名有种很不好的预感……",
+       "nextGroup": 200400200
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我打算以老师为对象",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "等等，想想还是见面再说比较好",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我立刻过去～！",
+     "delayMs": 500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "皐月……？",
+       "nextGroup": 200400240
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我按照老师的命令，回来好好休息了",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "催眠似乎也已经解除了",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "真是不能掉以轻心呢",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "你能平安回去真是太好了",
+       "nextGroup": 200400270
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "此外",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "关于我真正的目标",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "还请替我保密",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "这种巨大的阴谋",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "绝对必须秘密地进行",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "别担心，我会保密的",
+       "nextGroup": 200400300
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那就好",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "下次见啰～",
+     "delayMs": 1000
+    }
+   ]
+  },
+  {
+   "favorRank": 6,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，出大事了"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "这样下去情报部就要",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不对，不仅是情报部",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "整个万魔殿都要崩溃了",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "发生什么事了？",
+       "nextGroup": 200400340
+      },
+      {
+       "text": "皐月？你还好吗？",
+       "nextGroup": 200400340
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "唔",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "危机已经近在眼前",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "但我会挣扎到最后一刻的",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "皐月，你在哪里？",
+       "nextGroup": 200400370
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "这里是……",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 6,
+      "scenarioGroup": 2004006,
+      "path": "/res/story/2004006.json"
+     }
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "打针这么可怕，你竟然能忍得住",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "这个世界果然需要NK-ULTRA计划",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我要创造一个没有预防接种的世界",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "让大家不需要再受苦",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "这样会让大家面临更大的痛苦吧……",
+       "nextGroup": 200400420
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "总之",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "今天感谢你的帮忙",
+     "delayMs": 1000
+    }
+   ]
+  },
+  {
+   "favorRank": 8,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "嗨，老师"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "今天的值日生是我哦",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "过来的路上注意安全哦，皐月",
+       "nextGroup": 200400460
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "这可是个能从近距离",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "仔细观察老师这名",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "万魔殿候补合作者兼竞争对手的",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "绝佳机会呢",
+     "delayMs": 500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "这种事一般是放在心里想的吧？",
+       "nextGroup": 200400480
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "你等著",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我立刻过去～！",
+     "delayMs": 500,
+     "story": {
+      "favorRank": 8,
+      "scenarioGroup": 2004008,
+      "path": "/res/story/2004008.json"
+     }
+    }
+   ]
+  }
+ ]
+}

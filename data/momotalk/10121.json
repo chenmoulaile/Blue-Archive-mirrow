@@ -1,0 +1,590 @@
+{
+ "characterId": 10121,
+ "studentId": 533,
+ "devName": "CH0301",
+ "name": "勘解由小路紫",
+ "avatar": "/res/avatar/533.png",
+ "messageCount": 84,
+ "threads": [
+  {
+   "favorRank": 2,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "贵安！老师！"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "其实我要去海边玩了！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "而且还是和百花缭乱的前辈们一起！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "太好了！",
+       "nextGroup": 101210040
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "是的！简直像是在做梦一样！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "为了成功度过完美的夏日度假……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我打算从今天开始进行乐琵琶特训！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "……乐琵琶？",
+       "nextGroup": 101210070
+      },
+      {
+       "text": "为什么要练习传统乐器……？",
+       "nextGroup": 101210070
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "啊！",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "还是应该练舞比较好呢？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师！我马上去找您商量！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "咦，现在？",
+       "nextGroup": 101210110
+      },
+      {
+       "text": "这种模式……我也开始习惯了",
+       "nextGroup": 101210110
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "是的！我现在就去！",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 2,
+      "scenarioGroup": 1012102,
+      "path": "/res/story/1012102.json"
+     }
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "今天一起买的泳装，我已经好好收起来了！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "该穿的时候一定要拿出来穿哦！",
+       "nextGroup": 101210150
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "当然！物品就是要使用才能发挥价值！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "这件可爱又珍贵的衣服，如果不拿出来穿……对制作它的工匠们可是很失礼的！",
+     "delayMs": 1500
+    }
+   ]
+  },
+  {
+   "favorRank": 3,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师！"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "小女子这几天日夜思考、反复琢磨！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "身为百花缭乱的新星，未来……不，应该说是超未来的最强菁英……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "小女子在海边也必须展现出帅气的模样！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "真是突如其来呢",
+       "nextGroup": 101210200
+      },
+      {
+       "text": "海边的帅气模样指的是？",
+       "nextGroup": 101210200
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "在海边能展现的帅气模样……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那就是！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "高超的泳技！",
+     "delayMs": 500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "想得挺认真的呢……",
+       "nextGroup": 101210240
+      },
+      {
+       "text": "我小学时期也有类似的想法！",
+       "nextGroup": 101210240
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "所以，小女子决定从今天开始进行游泳特训……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "因此有件事想拜托老师！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "如果可以的话，能请您传授游泳的秘诀吗！？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "虽然也没什么高深的技巧……",
+       "nextGroup": 101210280
+      },
+      {
+       "text": "现在就见面吗？",
+       "nextGroup": 101210280
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "是的！拜托了！",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 3,
+      "scenarioGroup": 1012103,
+      "path": "/res/story/1012103.json"
+     }
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，今天家人真是失礼了……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "他们平常明明不会这样的，但只要遇到跟小女子有关的事情就会变得过度保护……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "他们也是在为你著想哦，紫",
+       "nextGroup": 101210320
+      },
+      {
+       "text": "我不介意，话说紫还好吗？",
+       "nextGroup": 101210320
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "小女子觉得……有点闷闷的！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "难得想和老师两人独处的说",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "游泳就留到下次吧",
+       "nextGroup": 101210350
+      },
+      {
+       "text": "他们应该不会跟到海边来吧",
+       "nextGroup": 101210350
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "呵呵！那我们约好啰！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "小女子会等待那天到来的！",
+     "delayMs": 1000
+    }
+   ]
+  },
+  {
+   "favorRank": 5,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师！"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师！您有看见外面吗！？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "是大海！",
+     "delayMs": 500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "哦，恢复精神了呢",
+       "nextGroup": 101210400
+      },
+      {
+       "text": "今天很有干劲呢！",
+       "nextGroup": 101210400
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "是的！时间有限，垂头丧气实在太浪费了！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "时间就是金钱～！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "真像紫的风格！",
+       "nextGroup": 101210420
+      },
+      {
+       "text": "超正面！",
+       "nextGroup": 101210420
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那么老师！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "按照约定，在海边要陪我游泳哦！",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 5,
+      "scenarioGroup": 1012105,
+      "path": "/res/story/1012105.json"
+     }
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师！今天真的好开心！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "玩得太尽兴，眼皮都快撑不住了",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "你游得超好耶！",
+       "nextGroup": 101210470
+      },
+      {
+       "text": "游姿超优雅的！",
+       "nextGroup": 101210470
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "咦？小女子觉得只是普通水准……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "这样还无法自称是百花缭乱的菁～英！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "我会为你加油的！",
+       "nextGroup": 101210490
+      },
+      {
+       "text": "紫真有干劲",
+       "nextGroup": 101210490
+      }
+     ]
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "晚安",
+       "nextGroup": 101210500
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "favorRank": 6,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师……我刚才不小心睡著了"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "明明还在聊天，居然这么失礼……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "睡得好吗？",
+       "nextGroup": 101210530
+      },
+      {
+       "text": "没关系！",
+       "nextGroup": 101210530
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "是的！睡了一觉之后完全恢复了！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "甚至要再去海边都没问题！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "夜晚的海很危险",
+       "nextGroup": 101210550
+      },
+      {
+       "text": "今天就先休息，明天再玩吧",
+       "nextGroup": 101210550
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "今晚还睡不著呢",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "小女子第一次知道，海边竟然是这么快乐的地方！",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 6,
+      "scenarioGroup": 1012106,
+      "path": "/res/story/1012106.json"
+     }
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "今天真的非常开心！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "太好了",
+       "nextGroup": 101210600
+      },
+      {
+       "text": "我也很开心",
+       "nextGroup": 101210600
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "小女子虽然年纪还小，但有一件事可以有自信地告诉您",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "这个夏天，小女子绝～对！",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "绝～～对！不会忘记的！",
+     "delayMs": 1500
+    }
+   ]
+  }
+ ]
+}

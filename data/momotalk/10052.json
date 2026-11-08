@@ -1,0 +1,348 @@
+{
+ "characterId": 10052,
+ "studentId": 28,
+ "devName": "CH0095",
+ "name": "生盐诺亚",
+ "avatar": "/res/avatar/28.png",
+ "messageCount": 45,
+ "threads": [
+  {
+   "favorRank": 2,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "你好，老师"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我是负责这次夏莱值班的生塩乃爱",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "因为是初次值班，所以先来向你打声招呼",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "我也请你多多指教唷！",
+       "nextGroup": 100520040
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "第一次到夏莱值班……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "有需要事先准备什么东西吗？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "没什么特别的唷",
+       "nextGroup": 100520060
+      }
+     ]
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "抱著来玩的心情，放轻松就行了",
+       "nextGroup": 100520070
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "玩……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我知道了",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那当天就麻烦你了",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 2,
+      "scenarioGroup": 1005202,
+      "path": "/res/story/1005202.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 3,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，请问你昨天值班的时候……"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "是不是穿了新鞋？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "你怎么会知道？",
+       "nextGroup": 100520120
+      }
+     ]
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "明明和之前那双是同个款式……",
+       "nextGroup": 100520130
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "呵呵，果然没错",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "因为原本在鞋尖的磨损不见了",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那双鞋已经很旧了，再加上刚好有现货，所以与其拿去修，不如直接买双新的",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "总觉得像是侦探一样呢",
+       "nextGroup": 100520160
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "确实……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "这么一说，也许侦探和书记的工作意外的有相似之处呢",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "因为我在值班的时候，也会像观察犯人般，仔细观察著老师",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "好可怕……！",
+       "nextGroup": 100520190
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "favorRank": 5,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "当我看到千年学生的发明时，常常会感到惊讶"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "因为他们带来的，都是我未曾想过的新技术和灵感",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "这个时候，我就会反省自己是否有对千年的价值做出贡献",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "我觉得乃爱已经很努力了唷",
+       "nextGroup": 100520230
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "这么说虽然残忍，但努力和优秀是两回事",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我没有天才的灵感，也没有匠人的手艺",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "比较能拿来说嘴的……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "……可能也只有完整记住制作机械时需要的蓝图……这种事而已吧",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "那已经是很了不得的能力了……",
+       "nextGroup": 100520270
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，有个坏消息",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "前几天说的那个「收集老师的行为模式，预测当前位置的装置」的专利申请……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "很遗憾，由于联邦学生会的反对而被驳回了",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "那是当然的！",
+       "nextGroup": 100520300
+      },
+      {
+       "text": "那种专利怎么可能得到许可",
+       "nextGroup": 100520300
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "但是专利这种东西，只要变更目的就能重新申请",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "只要不断变更样式，反复进行申请……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "或许总有一天会成功也说不定……？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "拜托不要……！",
+       "nextGroup": 100520330
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "favorRank": 6,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，原定在今天下午进行的定期面谈延期了"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "因为在维护单轨列车时突然下起雷阵雨的关系，似乎造成了部分轨道的受损",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "有些成员也因此被困在学园里",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "为了避免老师白跑一趟，在此先通知老师",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 6,
+      "scenarioGroup": 1005206,
+      "path": "/res/story/1005206.json"
+     }
+    }
+   ]
+  }
+ ]
+}

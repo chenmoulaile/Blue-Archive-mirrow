@@ -1,0 +1,442 @@
+{
+ "characterId": 26004,
+ "studentId": 194,
+ "devName": "shimiko",
+ "name": "圆堂志美子",
+ "avatar": "/res/avatar/194.png",
+ "messageCount": 64,
+ "threads": [
+  {
+   "favorRank": 2,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "你好，老师！我是志美子！"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我想好好的打个招呼，如果可以的话，之后可以见个面吗？",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我这次因为派遣业务的关系要到公共图书馆去",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那里似乎正好和老师在的地方很近！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师有空的时候，随时都能来那里找我！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "嗯，那我去打扰一下吧",
+       "nextGroup": 260040050
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "（・∀・*)好！那我等著你！",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 2,
+      "scenarioGroup": 2600402,
+      "path": "/res/story/2600402.json"
+     }
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "今天非常感谢，老师",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我暂时都会在这个图书馆",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "欢迎随时再来唷！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "下次我会表现得更成熟、端庄……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "没，没什么，当我没说！",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "总之，随时恭候你的光临！(・∀・*)",
+     "delayMs": 1000
+    }
+   ]
+  },
+  {
+   "favorRank": 3,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "这么说来，老师也会熬夜看书吗？"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "啊，如果是老师的话应该不是书……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "是工作的文件，对吧？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "毕竟是社会人士嘛……",
+       "nextGroup": 260040110
+      },
+      {
+       "text": "志美子是夜猫子啊",
+       "nextGroup": 260040110
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "哈哈",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "也是呢",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我经常熬夜看书到很晚",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "说不定，我们活动的时间很接近喔(．∀．*)",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "就算是深夜也完全没关系，有空时都能来玩唷！",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "只要老师能来，24小时都能开放！",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 3,
+      "scenarioGroup": 2600403,
+      "path": "/res/story/2600403.json"
+     }
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "平安到达夏莱了吗？",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "今天的事是秘密唷",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那个，因为可能会被说闲话……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我也会保密的！(・∀・*)",
+     "delayMs": 1000
+    }
+   ]
+  },
+  {
+   "favorRank": 5,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，现在在忙吗？"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "有件事想请你帮忙",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "如果可以的话，能来找我一下吗？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "怎么了？",
+       "nextGroup": 260040180
+      },
+      {
+       "text": "是约会的邀请吗？",
+       "nextGroup": 260040180
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "呵呵，这是秘密",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "你来的话马上就会知道了唷",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "给你一个提示，是「寻宝」之类的！\n(．∀．*)",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 5,
+      "scenarioGroup": 2600405,
+      "path": "/res/story/2600405.json"
+     }
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "今天真的非常感谢你，老师！",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "有联络老师果然是对的，我很开心！",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "该怎么说才好呢，那个",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "和老师在一起时总是很开心，感觉每次都会发生好事",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "今后也请多多关照啰！老师！(・∀・*)",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "……不接受退货的唷？",
+     "delayMs": 1000
+    }
+   ]
+  },
+  {
+   "favorRank": 6,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师最近有看书吗？有什么事的话随时欢迎和我讨论！"
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "啊，时机正好",
+       "nextGroup": 260040250
+      },
+      {
+       "text": "谢谢，正好有想找的东西",
+       "nextGroup": 260040250
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "？",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "咦",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "真的吗？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "嗯，真的",
+       "nextGroup": 260040280
+      },
+      {
+       "text": "可以现在过去图书馆吗？",
+       "nextGroup": 260040280
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "啊",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "好的",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "没问题！！我在这里等你！:D",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 6,
+      "scenarioGroup": 2600406,
+      "path": "/res/story/2600406.json"
+     }
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师和书都安全回到家了吗？",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "托老师过来的福，我非常开心",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "啊，书请在时限内归还哦",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "另外",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "如果可以的话，那个时候",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "请务必再借新的书。我也会推荐书给你的",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那样才可以",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那个",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "……你还会，过来的对吧？",
+     "delayMs": 1000
+    }
+   ]
+  }
+ ]
+}

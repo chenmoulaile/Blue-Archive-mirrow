@@ -1,0 +1,589 @@
+{
+ "characterId": 16001,
+ "studentId": 113,
+ "devName": "Asuna",
+ "name": "一之濑明日奈",
+ "avatar": "/res/avatar/113.png",
+ "messageCount": 85,
+ "threads": [
+  {
+   "favorRank": 2,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "主人──！现在有时间吗？"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "要去咖啡厅吗？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "主人……？",
+       "nextGroup": 160010040
+      },
+      {
+       "text": "突然要去咖啡厅？",
+       "nextGroup": 160010050
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "嗯？有什么奇怪的吗？",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我是女仆，所以是主人唷！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "细节不要在意，不要在意！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "嗯！咖啡厅！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "有间中意的咖啡厅，走吧！",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那我在店门口等著！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "待会儿见──！",
+     "delayMs": 500,
+     "story": {
+      "favorRank": 2,
+      "scenarioGroup": 1600102,
+      "path": "/res/story/1600102.json"
+     }
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "今天谢啦──主人！",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "任务也完成了，真是个好日子──！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "这也是因为有主人在的关系吗？",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那下次再连络唷，主人！",
+     "delayMs": 1000
+    }
+   ]
+  },
+  {
+   "favorRank": 3,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "帮帮我，主人──！"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "需要主人的帮助！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "也许！一定！可能！",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "之类的感觉，能来帮我吗？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "会来吧？会吧？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "需要我的帮助……？",
+       "nextGroup": 160010120
+      },
+      {
+       "text": "和往常一样突然呀",
+       "nextGroup": 160010120
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "嗯！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "会来吧？谢谢──！",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那我等著唷！",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 3,
+      "scenarioGroup": 1600103,
+      "path": "/res/story/1600103.json"
+     }
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "今天是最棒的一天！！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "真的很谢谢你唷，主人！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "果然联络主人是正确的唷──",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "和主人在一起，总是发生好事！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "下次见啰！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "明日奈会祈祷明天也是美好的一天！",
+     "delayMs": 500
+    }
+   ]
+  },
+  {
+   "favorRank": 5,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "主人──！现在有时间吗？"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "为了感谢一直以来所做的一切",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我想向主人道谢！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "道谢？我吗？",
+       "nextGroup": 160010180
+      },
+      {
+       "text": "我有为你做什么吗……？",
+       "nextGroup": 160010180
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "嗯！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "发生过很多事了嘛！",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "能被明日奈侍奉的机会可不是每次都有的唷！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "总之晚点会过去！",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "晚点见，主人！",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 5,
+      "scenarioGroup": 1600105,
+      "path": "/res/story/1600105.json"
+     }
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "嗯……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "嗯～～～～～！",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "总觉得不够痛快～！！还少了点什么！",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "下次再拜托了！主人！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "绝对要唷！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "绝对！",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "啊，外送很好吃呢",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "下次再一起吃吧！！",
+     "delayMs": 500
+    }
+   ]
+  },
+  {
+   "favorRank": 6,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "糟了！"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "糟糕了主人！快来救我！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "……！？",
+       "nextGroup": 160010260
+      },
+      {
+       "text": "怎，怎么了……？",
+       "nextGroup": 160010260
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "……？",
+     "delayMs": 2000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "咦？",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我现在怎么了？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "……？咦？",
+       "nextGroup": 160010290
+      },
+      {
+       "text": "怎，怎么回事……？",
+       "nextGroup": 160010290
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "啊",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "嗯",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "没错！就是那种感觉！",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "这次是真的，真的需要",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "帮忙",
+     "delayMs": 2000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "咦？怎么了吗，主人？",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "发生什么事了吗？",
+     "delayMs": 1500,
+     "story": {
+      "favorRank": 6,
+      "scenarioGroup": 1600106,
+      "path": "/res/story/1600106.json"
+     }
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "到了～！",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "主人平安回到夏莱了吗？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "今天虽然托你的福得救了，不过该怎么说呢，真抱歉",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "不用放在心上，我是明日奈的老师呀",
+       "nextGroup": 160010385
+      },
+      {
+       "text": "嘛，那个，你没生气就好……",
+       "nextGroup": 160010385
+      }
+     ]
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "不过，为什么突然就治好了呢？",
+       "nextGroup": 160010390
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "唔嗯，这么说来那个时候……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "总之，多亏有主人才得救这件事是真的呢！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "身为女仆，得用很多侍奉来报答才行！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那么再见啰，主人！",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "再说一次，今天真的非常感谢！",
+     "delayMs": 1000
+    }
+   ]
+  },
+  {
+   "favorRank": 15,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "主人──！"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "现在有时间吗？",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我需要你的帮忙！！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "现在刚好有空",
+       "nextGroup": 160010450
+      }
+     ]
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "要去哪里呢？",
+       "nextGroup": 160010460
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "哦？！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "真幸运～！！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "这里是……",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 15,
+      "scenarioGroup": 1600115,
+      "path": "/res/story/1600115.json"
+     }
+    }
+   ]
+  }
+ ]
+}

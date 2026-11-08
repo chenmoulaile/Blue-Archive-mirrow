@@ -1,0 +1,460 @@
+{
+ "characterId": 10131,
+ "studentId": 308,
+ "devName": "CH0229",
+ "name": "三善贵音",
+ "avatar": "/res/avatar/308.png",
+ "messageCount": 62,
+ "threads": [
+  {
+   "favorRank": 2,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "贵安，老师"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "由于今天轮到我担任值日生",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "为了避免失礼，在此先向您致上问候的讯息",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "你其实不必那么拘谨……",
+       "nextGroup": 101310040
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "让您感到负担了吗……？",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "倒也没有，只是我希望能跟贵音相处得自在一点",
+       "nextGroup": 101310060
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我明白了",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那么今天的值日生工作，还请您多多指教",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 2,
+      "scenarioGroup": 1013102,
+      "path": "/res/story/1013102.json"
+     }
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，请问您什么时候方便呢？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "其实不久后就是冰上曲棍球的准决赛了！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "如果可以的话，感觉约那个时间还挺不错的！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "啊",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "对不起",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我是不是太没礼貌了……？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "我很高兴贵音愿意放轻松跟我说话哦！",
+       "nextGroup": 101310110
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "是",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "是吗？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那真是太好了……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "我会尽量配合，把日期告诉我吧",
+       "nextGroup": 101310140
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "您的意思是……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "好的！谢谢您！",
+     "delayMs": 1000
+    }
+   ]
+  },
+  {
+   "favorRank": 3,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师！"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "就是今天唷！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "您还记得吧？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "当然，毕竟是和贵音的约定嘛",
+       "nextGroup": 101310180
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "是！",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那么，请您先到出版部来就可以了！",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 3,
+      "scenarioGroup": 1013103,
+      "path": "/res/story/1013103.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 5,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "之前能和我一起看冰上曲棍球，真的非常感谢"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不过",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "关于那天发生的事……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我真的很抱歉……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "没关系。反正我也挺开心的",
+       "nextGroup": 101310230
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "所以……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "作为回礼和对您的歉意",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我想招待您吃一顿午餐！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "是贵音亲手做的料理吗！？",
+       "nextGroup": 101310260
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "是的",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "正好也快到豆芽祭的日子了",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "豆芽……祭？",
+       "nextGroup": 101310280
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "favorRank": 6,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "贵安，老师！"
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "感觉你很兴奋呢，贵音",
+       "nextGroup": 101310300
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "是的！",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师您知道吗？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "今晚好像能看到极光哦！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "所以，我正在考虑要不要去拍风景照",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "如果您方便的话……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "要不要一起去呢？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "拍极光的风景照？",
+       "nextGroup": 101310340
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "没错",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "当然如果您觉得太累",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "或者……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "会造成麻烦的话……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "既然是贵音的邀请，肯定要去！",
+       "nextGroup": 101310370
+      },
+      {
+       "text": "而且能合法躲过加班，当然得去啰！",
+       "nextGroup": 101310400
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "很",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "很感谢您愿意这么想……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不过……也让人有点害羞呢",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "真的很谢谢您",
+     "delayMs": 1500,
+     "story": {
+      "favorRank": 6,
+      "scenarioGroup": 1013106,
+      "path": "/res/story/1013106.json"
+     }
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "啊……",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我也能够理解那种心情",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "在截稿日前，总是会想找出所有能逃离现场的借口呢",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那么我等您",
+     "delayMs": 1500,
+     "story": {
+      "favorRank": 6,
+      "scenarioGroup": 1013106,
+      "path": "/res/story/1013106.json"
+     }
+    }
+   ]
+  }
+ ]
+}

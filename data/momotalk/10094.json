@@ -1,0 +1,447 @@
+{
+ "characterId": 10094,
+ "studentId": 30,
+ "devName": "CH0201",
+ "name": "才羽桃井",
+ "avatar": "/res/avatar/30.png",
+ "messageCount": 60,
+ "threads": [
+  {
+   "favorRank": 2,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，老师！"
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "桃井，桃井！",
+       "nextGroup": 100940030
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，你听我说！",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我拿到了一件女仆装！",
+     "delayMs": 500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "听你这样说，我突然觉得有点不安！",
+       "nextGroup": 100940050
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "因此，我制定了一个远大的计划……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "穿上女仆装之后，我突然……！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "觉得自己必须了解女仆的心境！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "真是自由奔放呢",
+       "nextGroup": 100940080
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "总之我想说的是！",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "如果想要了解女仆的心境，果然得做那件事对吧？",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "所以就让我来帮忙打扫夏莱的休息室吧！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "待会见啰，老师！",
+     "delayMs": 500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "桃井？桃井！？",
+       "nextGroup": 100940110
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "favorRank": 3,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，老师！"
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "嗯！桃井，桃井！",
+       "nextGroup": 100940130
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，你听我说！",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我稍微调查了一下女仆的工作……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "没想到准备餐点也是女仆工作中很重要的一环！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "嗯……毕竟是人都要吃饭的吧……？",
+       "nextGroup": 100940160
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "所以我又再次制定了一个远大的计划……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "这一次",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "就让我用美味的料理招待老师吧！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "所以老师，待会在游戏开发部的部室见啰！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "桃井？桃井！？",
+       "nextGroup": 100940200
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "favorRank": 5,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师！"
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "桃井！",
+       "nextGroup": 100940220
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，你听我说！",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "关于女仆的工作",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我发现有件事被我忘得一干二净了……",
+     "delayMs": 500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "突然觉得有点不安……",
+       "nextGroup": 100940240
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不是那种事啦！",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我相信这次老师一定也会喜欢的！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "……大概吧",
+     "delayMs": 500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "所以你究竟忘了什么呢？",
+       "nextGroup": 100940260
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我忘记的事情就是……！",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "身心灵的放松！",
+     "delayMs": 500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "多么跳跃的思考模式……",
+       "nextGroup": 100940280
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "哪有！",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "人要是不休息的话，迟早会故障的吧？",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "所以休息也是为了明天的辛苦工作做的准备",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "虽然或许不是必要条件，至少也是非常重要的一环吧！",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "撇开前后文的话，其实我也赞成要好好休息一下",
+       "nextGroup": 100940320
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "对吧？",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那老师这次就来千年找我吧",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我会让你体验到史上最棒的休息时光！",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 5,
+      "scenarioGroup": 1009405,
+      "path": "/res/story/1009405.json"
+     }
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "呜呜……",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "到现在还是觉得全身酸痛……",
+     "delayMs": 500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "我也是……",
+       "nextGroup": 100940360
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "原来休息竟然是这么艰难的课题吗！？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "我们就不能正常地休息吗……",
+       "nextGroup": 100940380
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "但是！",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "你不觉得那样很可惜吗！",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "难道就没有超级无敌宇宙霹雳酷炫",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "既有活力又有效率，而且还新颖到会令人留下深刻印象的……！",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那种休息方法吗？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "等我们的腰都恢复之后，再一起想想吧……",
+       "nextGroup": 100940420
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "……",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "好吧……",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那我们约好啰，老师？",
+     "delayMs": 1000
+    }
+   ]
+  }
+ ]
+}

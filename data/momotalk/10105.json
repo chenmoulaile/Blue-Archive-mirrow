@@ -1,0 +1,519 @@
+{
+ "characterId": 10105,
+ "studentId": 498,
+ "devName": "CH0273",
+ "name": "伊落玛丽",
+ "avatar": "/res/avatar/498.png",
+ "messageCount": 76,
+ "threads": [
+  {
+   "favorRank": 2,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "总觉得"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "事情的发展有点出乎预料",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我竟然会成为偶像",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "现在在练习吗？",
+       "nextGroup": 101050040
+      },
+      {
+       "text": "还顺利吗？",
+       "nextGroup": 101050040
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "啊",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "是的",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "多亏有老师，一切都进行得很顺利！",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 2,
+      "scenarioGroup": 1010502,
+      "path": "/res/story/1010502.json"
+     }
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "今天真的很谢谢您，老师",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "感觉今天的练习比以往还要顺利",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "玉子烧很好吃哦",
+       "nextGroup": 101050090
+      },
+      {
+       "text": "反而是我赚到了呢",
+       "nextGroup": 101050090
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "请您不必客气",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不过其实听到老师这么说，我很开心",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "非常谢谢您，老师",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "哈哈！今天大获全胜！",
+       "nextGroup": 101050120
+      },
+      {
+       "text": "这次总没事了吧！完全胜利！！",
+       "nextGroup": 101050120
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "……？？？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "嗯？",
+     "delayMs": 1000
+    }
+   ]
+  },
+  {
+   "favorRank": 3,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "彩排……"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "真是太不可思议了",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "想不到居然会有这么多人喜欢我们，真令人开心！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "……？我一直都觉得会这样哦",
+       "nextGroup": 101050170
+      },
+      {
+       "text": "没想到的人应该只有玛丽哦",
+       "nextGroup": 101050170
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "是吗？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那就好……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "话说回来",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "该怎么说呢",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "有几位观众的反应似乎不太一样",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 3,
+      "scenarioGroup": 1010503,
+      "path": "/res/story/1010503.json"
+     }
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "真没想到",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "居然会有这么多人",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "这究竟是怎么回事……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "……？我一直都觉得会这样哦",
+       "nextGroup": 101050250
+      },
+      {
+       "text": "没想到的人应该只有玛丽哦",
+       "nextGroup": 101050250
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师……？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "感觉刚才好像看过这句话了……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "总之今天真的很谢谢您",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那个",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "希望下次",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "还有机会和老师一起享受这样的舞台",
+     "delayMs": 1500
+    }
+   ]
+  },
+  {
+   "favorRank": 5,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "总觉得"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "行程好像比想像中还紧凑",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不过看到大家开心的样子，我也觉得很高兴",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "你们还有表演吗？",
+       "nextGroup": 101050320
+      },
+      {
+       "text": "咦，有加场表演吗？",
+       "nextGroup": 101050320
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "啊",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "唔嗯，虽然我不知道正式的名称……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不过",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "大致上是这样没错",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 5,
+      "scenarioGroup": 1010505,
+      "path": "/res/story/1010505.json"
+     }
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "谢谢您今天特地过来，老师",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "感觉就像收到了惊喜礼物一样",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "接下来的表演也要加油哦",
+       "nextGroup": 101050380
+      },
+      {
+       "text": "继续努力到最后吧！",
+       "nextGroup": 101050380
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "……！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "是！！",
+     "delayMs": 1500
+    }
+   ]
+  },
+  {
+   "favorRank": 6,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我想请问",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "今天晚上",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "能不能占用您一些时间呢？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "……玛丽？",
+       "nextGroup": 101050440
+      },
+      {
+       "text": "没问题，不过怎么了吗？",
+       "nextGroup": 101050440
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "啊",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "是",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "非常感谢",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那么到时候见",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 6,
+      "scenarioGroup": 1010506,
+      "path": "/res/story/1010506.json"
+     }
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "您回到家了吗，老师？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "谢谢老师愿意送我回来，我已经平安回到宿舍里休息了",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "真希望下次",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "还能有这样的机会",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "只要玛丽愿意，机会随时都有哦",
+       "nextGroup": 101050520
+      },
+      {
+       "text": "毕竟这也不代表一切就此结束了",
+       "nextGroup": 101050520
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "呵呵",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "是，我会铭记于心",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "祝您有个好梦，老师",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "也许下次您方便的时候",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我还会约您出来哦"
+    }
+   ]
+  }
+ ]
+}

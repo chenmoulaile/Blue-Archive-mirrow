@@ -1,0 +1,343 @@
+{
+ "characterId": 13012,
+ "studentId": 100,
+ "devName": "Kirino",
+ "name": "中务桐乃",
+ "avatar": "/res/avatar/100.png",
+ "messageCount": 44,
+ "threads": [
+  {
+   "favorRank": 2,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，巡逻时间到了唷！"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "昨天是北区，今天就去中央区巡一巡吧！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "今天不是休息日吗……",
+       "nextGroup": 130120040
+      },
+      {
+       "text": "今天不休息一天吗……？",
+       "nextGroup": 130120040
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不行！事件不会发生在会议室，而是在现场！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "在我们舒服地享受回笼觉的时候……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "说不定哪里正发生著市民们无法解决的大型犯罪唷！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "那就更不想去了……",
+       "nextGroup": 130120070
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "favorRank": 3,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，有事件！"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "据说芝町的珠宝店内，有不良学生挟持人质与警方对峙！",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "而且似乎因为交通堵塞，谈判专家会晚一点到场……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "……",
+     "delayMs": 2000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "如果本官能借此机会，先到现场并谈判成功的话……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "女武神的上层长官们，是不是也会认可本官的能力呢？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "还是等专业的谈判专家来比较好吧……？",
+       "nextGroup": 130120110
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "……不，我决定了。现在这一刻，人质应该也正害怕地发抖",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "虽然还不是正式的警察，但也不能停下脚步",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "桐乃，出动！",
+     "delayMs": 500,
+     "story": {
+      "favorRank": 3,
+      "scenarioGroup": 1301203,
+      "path": "/res/story/1301203.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 5,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "呜呜，老师……(T_T)"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "因为上次的人质事件，我被上层警告了……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "如果我的枪法再好一点……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，要怎么提升射击技巧呢？",
+     "delayMs": 2500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "这问题就算问我……",
+       "nextGroup": 130120160
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "说的也是……那么能至少请您在旁边看本官射击吗？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "听说想要提升命中率，改善射击时的坏习惯和姿势是很重要的！",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "嗯，那我很乐意帮忙",
+       "nextGroup": 130120180
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "谢谢您，老师！",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那么，我在校内的射击场等您！",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 5,
+      "scenarioGroup": 1301205,
+      "path": "/res/story/1301205.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 6,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，我非常的紧张……"
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "怎么了？等下有什么考试吗？",
+       "nextGroup": 130120210
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "听说今天下午，附近幼稚园的小朋友要来参观女武神警察学园……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "到时候将由本官负责带队",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "一想到会不会出什么差错，就非常的不安……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "要不要我也一起去，在一旁支援如何？",
+       "nextGroup": 130120240
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "咦，可以吗？",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那我就安心了，非常感谢老师！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "感觉你充满干劲呢。如果有我能帮上忙的地方，务必再跟我说",
+       "nextGroup": 130120260
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "帮大忙了。就是说呢，因为是难得的机会，所以希望能让幼稚园小朋友看到警察帅气的样子！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "毕竟本官就是小时候有参加类似的参观活动，才会立志成为警察……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "要像当年的警察们一样，展现出帅气的模样才行……！",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "桐乃，就一件事",
+       "nextGroup": 130120280
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "是的，是什么呢？",
+     "delayMs": 500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "别把枪拿出来。万一打到幼稚园小朋友就不好了",
+       "nextGroup": 130120300
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那，那是……！虽，虽然不太情愿……不过是的，老师说得没错呢……",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 6,
+      "scenarioGroup": 1301206,
+      "path": "/res/story/1301206.json"
+     }
+    }
+   ]
+  }
+ ]
+}

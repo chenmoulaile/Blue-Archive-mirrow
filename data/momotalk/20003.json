@@ -1,0 +1,510 @@
+{
+ "characterId": 20003,
+ "studentId": 79,
+ "devName": "mashiro",
+ "name": "静山真白",
+ "avatar": "/res/avatar/79.png",
+ "messageCount": 65,
+ "threads": [
+  {
+   "favorRank": 2,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "今天辛苦了"
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "麻白也是，辛苦了",
+       "nextGroup": 200030030
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "多亏了老师，今天也安然无恙地击退了邪恶",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师今天的指挥也很精彩。让我学到了很多",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "啊，这么说来……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "这么说来？",
+       "nextGroup": 200030050
+      },
+      {
+       "text": "还有其他问题吗？",
+       "nextGroup": 200030050
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不，那个，裙子的缝线在作战的时候裂开了……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "如果弄不好的话，可能就得拿出备用的制服了",
+     "delayMs": 1500,
+     "story": {
+      "favorRank": 2,
+      "scenarioGroup": 2000302,
+      "path": "/res/story/2000302.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 3,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "最近，我读了一本关于正义的有趣的书"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "追求正义的人，在各种情况下该采取什么行动……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "这本书教了我这些",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "正义的勇者手册……之类的？",
+       "nextGroup": 200030090
+      },
+      {
+       "text": "有没有为追求邪恶之人写的书呢？",
+       "nextGroup": 200030100
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "确实，可能是接近那样的东西。非常有趣",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "呃，对不起，这我就不太清楚了……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "但是，读了之后发现有些部分无法理解",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "一定是因为我对正义的理解不够吧……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "如果可以的话，老师。能告诉我什么是正义吗？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "正义吗……？",
+       "nextGroup": 200030140
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "favorRank": 5,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "今天在夏莱的训练已结束。之后将返回校园"
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "狙击手平时都做什么样的训练？",
+       "nextGroup": 200030160
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "想知道狙击手的训练吗？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "虽然说是狙击手的训练，基本上和其他人也没什么不同",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "要说不同的地方，应该是学习如何隐藏自己的技巧吧",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "下次，我可以去观摩吗？",
+       "nextGroup": 200030180
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "观摩是没关系啦……但我觉得不是什么特别有趣的东西唷？",
+     "delayMs": 1500,
+     "story": {
+      "favorRank": 5,
+      "scenarioGroup": 2000305,
+      "path": "/res/story/2000305.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 6,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "虽然之前说过了不过再说一次"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "今天因为训练的关系，当初预定值班的时间将变更为其他日子",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "再麻烦老师了",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "嗯，了解。话说今天的训练，我可以一起去吗？",
+       "nextGroup": 200030210
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "要帮助我训练吗？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "嗯，可以吗？",
+       "nextGroup": 200030230
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "虽然没有问题……但今天的训练会有点辛苦，最好做好心理准备",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "( ºㅁº )",
+       "nextGroup": 200030250
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那个，老师……没事吧？",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "回去的路上，总觉得表情看起来失魂落魄的……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "( ºㅁº )",
+       "nextGroup": 200030270
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "突然进行那个训练果然太严格了……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "( ºㅁº )",
+       "nextGroup": 200030290
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师！？",
+     "delayMs": 1000
+    }
+   ]
+  },
+  {
+   "favorRank": 8,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "现在正是实现正义的时刻！"
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "怎么了？",
+       "nextGroup": 200030321
+      },
+      {
+       "text": "我的生命就到此为止了吗……",
+       "nextGroup": 200030320
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "呃，老师做了什么违反正义的事吗？",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那个，根据前辈们的情报",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "穷凶恶极的黑市恶党将在今天中午",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "经过三一综合学园附近",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "在建筑物的楼顶上等著，狙击那个恶党吧！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "狙击，好可怕……",
+       "nextGroup": 200030350
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "favorRank": 9,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "今天比预想中还早结束训练"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "因为很努力，所以好像能有些私人时间",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "麻白在这种时候，通常会做什么？",
+       "nextGroup": 200030380
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "这个嘛，读书或是散步……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "也喜欢爬到高处",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "高处……？",
+       "nextGroup": 200030400
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那个反应……难道这是很奇怪的兴趣吗？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我还以为是很普通的兴趣呢……",
+     "delayMs": 1500,
+     "story": {
+      "favorRank": 9,
+      "scenarioGroup": 2000309,
+      "path": "/res/story/2000309.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 15,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "虽然这个问题有点唐突"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "请问老师喜欢看书吗？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "还可以吧……",
+       "nextGroup": 200030440
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "原来如此",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "你又在读关于正义的书吗？",
+       "nextGroup": 200030460
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不，不是的",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "单纯只是好奇而已",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 15,
+      "scenarioGroup": 2000315,
+      "path": "/res/story/2000315.json"
+     }
+    }
+   ]
+  }
+ ]
+}

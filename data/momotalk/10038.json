@@ -1,0 +1,485 @@
+{
+ "characterId": 10038,
+ "studentId": 6,
+ "devName": "Miyako",
+ "name": "月雪宫子",
+ "avatar": "/res/avatar/6.png",
+ "messageCount": 61,
+ "threads": [
+  {
+   "favorRank": 2,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "<SYSTEM>这里是RABBIT1，请求著陆"
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "……都子？是不是发错人了？",
+       "nextGroup": 100380030
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "<SYSTEM>高度下降至2000ft，准备完成",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "……？？？",
+       "nextGroup": 100380050
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "<SYSTEM>距离目标1.5mi──即将突入",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "……都子？你打算从哪里突入？",
+       "nextGroup": 100380070
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "favorRank": 3,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "虽然有点突然，不过老师是狗派还是猫派呢？"
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "是狗派哦",
+       "nextGroup": 100380090
+      },
+      {
+       "text": "是猫派哦",
+       "nextGroup": 100380100
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "这样啊。确实，狗既忠诚又容易与人亲近，所以很多人都喜欢呢",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "这样啊。确实，猫既可爱又有著高傲的魅力，所以很多人都喜欢呢",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "都子是狗派还是猫派呢？",
+       "nextGroup": 100380120
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "这个嘛，我是……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "……硬要说的话，是兔子派吧",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 3,
+      "scenarioGroup": 1003803,
+      "path": "/res/story/1003803.json"
+     }
+    },
+    {
+     "kind": "image",
+     "from": "student",
+     "text": "",
+     "image": "UIs/03_Scenario/04_ScenarioImage/Mo_Miyako_01",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，请看照片",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "牠刚吃完饲料正准备要睡觉",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "真可爱呢",
+       "nextGroup": 100380160
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "对吧？兔子有著和猫狗不同的魅力",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "等牠醒来之后，再传照片给老师哦",
+     "delayMs": 1000
+    }
+   ]
+  },
+  {
+   "favorRank": 5,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "话说回来，还没帮老师送给我的兔子取名字呢"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "有没有什么名字可以表现出牠的可爱、惹人怜爱又勇敢的性格呢？",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "史丹佛二世",
+       "nextGroup": 100380200
+      },
+      {
+       "text": "鳗鱼盖饭",
+       "nextGroup": 100380210
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "这个名字对兔子来说好像有点太浮夸了……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "……帮兔子取这个名字不太好吧",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "那「蹦蹦」怎么样呢？",
+       "nextGroup": 100380230
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "蹦蹦，蹦蹦……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "嗯，我觉得是个很棒的名字",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那么之后这只兔子就叫做蹦蹦了",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 5,
+      "scenarioGroup": 1003805,
+      "path": "/res/story/1003805.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 6,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "<SYSTEM>这里是RABBIT1，请求起飞……"
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "都子，等等！STOP！",
+       "nextGroup": 100380270
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "……咦？老师？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "啊。我又搞错了，不好意思",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "今天也有降落作战吗？",
+       "nextGroup": 100380290
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "是的。今天2200预计将进行直升机的降落作战",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "是袭击非法引进动物到奇普托斯的走私业者们的任务",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "这次降落作战我也会跟著一起去哦",
+       "nextGroup": 100380320
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "咦？老师也要一起搭直升机吗？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我想会有点危险……没问题吗？",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 6,
+      "scenarioGroup": 1003806,
+      "path": "/res/story/1003806.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 8,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，可以打扰一下吗……？"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不，也不是有什么特别的事所以才连络你……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "果然还是之后再连络吧",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "抱歉，都子。刚才在开会所以这么晚才看到",
+       "nextGroup": 100380370
+      }
+     ]
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "都子……？",
+       "nextGroup": 100380380
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "favorRank": 15,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "还在SRT特殊学园的校舍生活时完全没想到"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "对长期露营来说，夏天居然比冬天还辛苦",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "遇到什么困难了吗？",
+       "nextGroup": 100380410
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不久前不是进入梅雨季了吗？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不只装备经常生锈，食物也很容易变质",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "各方面都困难重重",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "其中最棘手的，是洗好的衣服晾不干……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我和小队员们正在苦恼要去哪里晒堆积的衣物",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "把要洗的衣服拿到夏莱如何？",
+       "nextGroup": 100380440
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "夏莱？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "夏莱的休息室里有洗衣机和烘衣机",
+       "nextGroup": 100380460
+      }
+     ]
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "我想只要半天就会干了",
+       "nextGroup": 100380470
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不。虽然很感谢老师的一片好意",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "但我不能这么做",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不过仅限这次的话……",
+     "delayMs": 2500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "就拜托老师了……",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 15,
+      "scenarioGroup": 1003820,
+      "path": "/res/story/1003820.json"
+     }
+    }
+   ]
+  }
+ ]
+}

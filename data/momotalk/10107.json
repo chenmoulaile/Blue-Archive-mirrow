@@ -1,0 +1,424 @@
+{
+ "characterId": 10107,
+ "studentId": 347,
+ "devName": "CH0238",
+ "name": "元宫千明",
+ "avatar": "/res/avatar/347.png",
+ "messageCount": 57,
+ "threads": [
+  {
+   "favorRank": 2,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "★周刊万魔殿★☞订阅就能100%获得感谢礼物！"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "欢迎立即联络！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "千秋？",
+       "nextGroup": 101070040
+      },
+      {
+       "text": "是千秋……对吧？",
+       "nextGroup": 101070040
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "哦？",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "感谢你的回复，老师！！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "你想订阅《周刊万魔殿》吗？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "啊，我不是这个意思",
+       "nextGroup": 101070070
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "没关系没关系！我不会强迫你的！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我先送一份过去，老师看过之后再决定吧！",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 2,
+      "scenarioGroup": 1010702,
+      "path": "/res/story/1010702.json"
+     }
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "啊",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "刚才忘记说了！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我也会寄一份《周刊万魔殿》订阅纪念礼物过去哦！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "礼物？是什么东西呢？",
+       "nextGroup": 101070120
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "呵呵呵",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "这是秘密～！",
+     "delayMs": 1000
+    }
+   ]
+  },
+  {
+   "favorRank": 3,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "你好呀～老师！"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "请问你今天在夏莱吗？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "对……我正在上班……",
+       "nextGroup": 101070160
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "怎么感觉有气无力的呢？？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "既然如此",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "就由我来帮你把午后的无聊一扫而空吧！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "马上开始配送《周刊万魔殿》的订阅感谢礼物！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我立刻过去，麻烦稍等一下哦！",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 3,
+      "scenarioGroup": 1010703,
+      "path": "/res/story/1010703.json"
+     }
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "呜呜",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "嘴巴里的甜味挥之不去……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "你究竟吃了多少……",
+       "nextGroup": 101070210
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我把刚才吃过的所有甜点都再吃了一遍……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "幸好有朋友们一起帮忙！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "而且也拍到了很多照片！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "如果能成功的话，这也算是不幸中的大幸吧",
+       "nextGroup": 101070230
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不过之后好一阵子，我应该都不会想再碰甜食了",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "呜呜……",
+     "delayMs": 1000
+    }
+   ]
+  },
+  {
+   "favorRank": 5,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "～《周刊万魔殿》公告～"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "本周的《周刊万魔殿》将会休刊！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "如果发现信箱空空如也请不必惊慌。我们下周见！",
+     "delayMs": 1500,
+     "story": {
+      "favorRank": 5,
+      "scenarioGroup": 1010705,
+      "path": "/res/story/1010705.json"
+     }
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "如果刚才有发现喜欢的社团",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不知道你愿不愿意，跟我一起以客座成员的身分参加呢！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "感觉不错呢，我会考虑看看的",
+       "nextGroup": 101070300
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "是！",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "欢迎随时跟我说哦～",
+     "delayMs": 1000
+    }
+   ]
+  },
+  {
+   "favorRank": 6,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "下周的《周刊万魔殿》将会是特刊号！"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "是不是很期待呀，老师？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "特刊号？",
+       "nextGroup": 101070350
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "没错！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "为了满足订阅者们平时的好奇心",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我准备了一些报导来为他们解密！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "解密啊……",
+       "nextGroup": 101070380
+      },
+      {
+       "text": "我好像也挺好奇的？",
+       "nextGroup": 101070380
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "嘻嘻",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "这个秘密～现在还不能告诉你～",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 6,
+      "scenarioGroup": 1010706,
+      "path": "/res/story/1010706.json"
+     }
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "今天真的非常感谢！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "多亏有老师的帮忙，特刊的报导应该会非常精彩～",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "很高兴能帮上忙",
+       "nextGroup": 101070420
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "这次的特刊号，我会特别优先送给老师！",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "之后我再亲自送过来，敬请期待～！",
+     "delayMs": 1000
+    }
+   ]
+  }
+ ]
+}

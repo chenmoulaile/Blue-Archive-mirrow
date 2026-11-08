@@ -1,0 +1,686 @@
+{
+ "characterId": 16020,
+ "studentId": 67,
+ "devName": "CH0174",
+ "name": "天神山音葵",
+ "avatar": "/res/avatar/67.png",
+ "messageCount": 94,
+ "threads": [
+  {
+   "favorRank": 2,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "您好，请问这是夏莱的老师的电话吗？"
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "是……？",
+       "nextGroup": 160200030
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我从以前就一直很希望能和老师单独见一次面",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不知道今天傍晚，您愿不愿意到失落之路的4号巷子来呢？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "如果晚上8点以后也可以的话……",
+       "nextGroup": 160200050
+      },
+      {
+       "text": "抽出一点时间应该不难",
+       "nextGroup": 160200050
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不对不对！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，你怎么若无其事地就接受这种可疑的邀约啊？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "陌生人突然搭话的时候，至少先怀疑一下会比较好哦",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "说不定是想接近老师，套取情报的可疑家伙呢？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "……咦？",
+       "nextGroup": 160200080
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "你该不会误以为……这是可爱女孩子的约会邀请了吧？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "很遗憾……是御伽酱哦～",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "不，我并没有误会",
+       "nextGroup": 160200100
+      },
+      {
+       "text": "毕竟发信人那边本来就显示著御伽",
+       "nextGroup": 160200100
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "啊",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "原来这不是作战用的临时号码啊",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "抱歉，因为个人整备时间太无聊，就想稍微恶作剧一下，结果准备得太草率了",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "别在意。只要是学生的联络，我随时欢迎",
+       "nextGroup": 160200130
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不过老师，你不会排斥和不认识的人联络吗？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "大部分的人接到不认识的电话都会先无视",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "不认识的电话确实大多是广告或打错的电话啦……",
+       "nextGroup": 160200150
+      }
+     ]
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "但说不定是急需帮助的学生啊？",
+       "nextGroup": 160200160
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "确实也会有那种情况呢",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "毕竟不能因为潜在危险就总是选择回避",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不过老师你还是稍微小心一点比较好哦",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "在这奇普托斯里，把你这种连子弹都挡不住的柔弱大人当成目标的学生，可不占少数哦",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "……我会牢记在心的",
+       "nextGroup": 160200190
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "favorRank": 3,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，BravoCharlie来了"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "如果有什么让你在意的东西，建议你先收好哦",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "BravoCharlie……？",
+       "nextGroup": 160200220
+      },
+      {
+       "text": "……那是什么意思？",
+       "nextGroup": 160200220
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "啊",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "抱歉",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不小心用了我们小队成员之间的暗号了",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "BravoCharlie在语音字母里是代表B和C的意思",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我们之间通常不想把BeanCounter这个词挂在嘴边，就会用这个来代替",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "数豆子的人？",
+       "nextGroup": 160200250
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "嗯，是用来揶揄财务专家的说法",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那个",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "也就是说",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "行政委员会的财务室长好像来了",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "这种事你应该先说啊！",
+       "nextGroup": 160200280
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "favorRank": 5,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不好意思这么晚打扰你",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "你该不会已经睡了？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "唔嗯……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "果然睡著了吧，抱歉",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "没什么事，别在意，晚安！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "抱歉，刚刚没看到讯息",
+       "nextGroup": 160200320
+      },
+      {
+       "text": "怎么了吗？",
+       "nextGroup": 160200320
+      }
+     ]
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "这么晚了，是发生什么事了吗？",
+       "nextGroup": 160200330
+      }
+     ]
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "御伽……？",
+       "nextGroup": 160200340
+      }
+     ]
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "我立刻过去！",
+       "nextGroup": 160200350
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "favorRank": 6,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，这周末有空吗？"
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "嗯，有哦",
+       "nextGroup": 160200370
+      },
+      {
+       "text": "有什么需要我帮忙的吗？",
+       "nextGroup": 160200370
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "嗯，因为下次作战要用的迷彩服没了",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "所以我想去柯基町一趟，找件新的迷彩服",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "如果方便的话，要不要一起去看看？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "好，我要去",
+       "nextGroup": 160200390
+      }
+     ]
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "话说回来，购物中心也能买到迷彩服吗？",
+       "nextGroup": 160200400
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "当然可以",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "只要有钱，在柯基町从今晚的配菜到骇客用的工具，全都买得到！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "……那不是别家店的宣传标语吗？",
+       "nextGroup": 160200420
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "favorRank": 8,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "看到空地上放著的水泥管，或是桥下的阴影时"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "你会不会莫名地很想把它当成只属于自己的秘密基地呢？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "小时候确实这么想过",
+       "nextGroup": 160200460
+      },
+      {
+       "text": "就连现在也想裹著棉被，躲进只属于自己的空间里",
+       "nextGroup": 160200450
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "……那有点不妙吧？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "总之",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "大家想的都差不多呢",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我小时候也为了藏游戏机或漫画书，到处寻找只属于自己的秘密基地",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "没想到成了高中生之后，竟然还会到处找秘密基地",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "最近怎么了？",
+       "nextGroup": 160200490
+      },
+      {
+       "text": "个人空间不够用吗？",
+       "nextGroup": 160200490
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "倒也不是那样……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "进行SRT的作战时，常常需要在外面潜伏超过一天，或是彻夜不眠",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那种时候，这些「秘密基地」意外地相当实用",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "有时还会在作战前为这种状况做准备，事先把弹药或个人用品放到秘密基地里",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "感觉像是实现了儿时的浪漫，真不错",
+       "nextGroup": 160200520
+      }
+     ]
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "最近有什么特别中意的秘密基地吗？",
+       "nextGroup": 160200530
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "嗯……例如老师的书桌底下？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "咦……？",
+       "nextGroup": 160200550
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "你那是什么反应？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不是",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "别想歪了，重点是书桌啦！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "在书桌上盖一条毛毯钻进底下，然后宣称那里是秘密基地，这种事小时候常有吧？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "哦哦，原来是那个意思",
+       "nextGroup": 160200580
+      },
+      {
+       "text": "如果是这样的话，倒是可以偶尔借给你",
+       "nextGroup": 160200580
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "嗯，谢谢老师的好意",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不过觊觎那个秘密基地的学生很多，所以我早就放弃了",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "等一下",
+       "nextGroup": 160200600
+      }
+     ]
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "那是什么意思！？",
+       "nextGroup": 0
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

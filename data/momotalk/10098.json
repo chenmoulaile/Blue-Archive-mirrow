@@ -1,0 +1,337 @@
+{
+ "characterId": 10098,
+ "studentId": 373,
+ "devName": "CH0258_02",
+ "name": "小鸟游星野",
+ "avatar": "/res/avatar/373.png",
+ "messageCount": 44,
+ "threads": [
+  {
+   "favorRank": 2,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "你现在忙吗？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "跟平常差不多",
+       "nextGroup": 100980040
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那个",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "其实大叔我遇到了一些麻烦事",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "所以希望老师能来帮帮我",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "当然没问题",
+       "nextGroup": 100980070
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "嗯？",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我都还没说是什么事耶？",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 2,
+      "scenarioGroup": 1009802,
+      "path": "/res/story/1009802.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 3,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我今天要去自治区巡逻"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "如果老师想一起去的话……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "我当然要一起去啰！",
+       "nextGroup": 100980110
+      }
+     ]
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "阿拜多斯的英雄要出巡，我怎么能缺席呢！",
+       "nextGroup": 100980120
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "唔……",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "说我是什么英雄",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "果然还是不太习惯呢……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "总之我等你过来～",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 3,
+      "scenarioGroup": 1009803,
+      "path": "/res/story/1009803.json"
+     }
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "身体还好吗？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "应该没有感冒吧？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "我没事。星野你呢？还好吗？",
+       "nextGroup": 100980180
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "大叔我完全没事哦",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "果然是因为我们整晚都贴在一起的关系吧",
+       "nextGroup": 100980200
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "啊不是",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那个",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "只是靠在一起盖同一件毯子而已",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "别说那种会让人误会的话！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "唔嗯……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "还有啊",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我们昨天不是去自治区巡逻，顺便帮助有困难的人吗？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "以前我也和其他人做过这种事",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "多亏有老师在，我才能重新体验到这种感觉",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "总之从各个角度来说",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我都很感谢你哦",
+     "delayMs": 1000
+    }
+   ]
+  },
+  {
+   "favorRank": 5,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，还记得我们上次去巡逻的事吗？"
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "当然",
+       "nextGroup": 100980290
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我们当时巡逻了那么久",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "可是却完全没看到头盔团的踪影，对吧？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "听你这么一说，好像是这样没错？",
+       "nextGroup": 100980310
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我本来还在想那些家伙到底跑去哪里了",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "结果听说他们最近经常出没在商店街一带",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我想他们的临时据点应该就在那附近",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "你准备好了吗，英雄？",
+       "nextGroup": 100980340
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "当然啰，我的伙伴",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 5,
+      "scenarioGroup": 1009805,
+      "path": "/res/story/1009805.json"
+     }
+    }
+   ]
+  }
+ ]
+}

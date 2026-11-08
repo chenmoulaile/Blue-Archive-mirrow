@@ -1,0 +1,428 @@
+{
+ "characterId": 10109,
+ "studentId": 506,
+ "devName": "CH0285",
+ "name": "生盐诺亚",
+ "avatar": "/res/avatar/506.png",
+ "messageCount": 57,
+ "threads": [
+  {
+   "favorRank": 2,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，我是乃爱"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "非常抱歉，明天我恐怕无法如期到夏莱完成值日生的工作了",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "今天从早上就有点发烧，到下午又更严重了……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "真糟糕。身体会很不舒服吗？",
+       "nextGroup": 101090040
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不用担心。吃过药后已经比较好了",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我只是担心如果用这种状态去夏莱，反而会给老师添麻烦……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "突然调整日程真的很抱歉",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "不用担心，你好好休息吧",
+       "nextGroup": 101090070
+      },
+      {
+       "text": "如果有事随时可以跟我说",
+       "nextGroup": 101090070
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "好的，老师晚安",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 2,
+      "scenarioGroup": 1010902,
+      "path": "/res/story/1010902.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 3,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "你好，老师"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "因为感冒的关系，很久没去见老师了……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "最近过得还好吗？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "我过得很好哦",
+       "nextGroup": 101090110
+      },
+      {
+       "text": "乃爱的身体有比较好了吗？",
+       "nextGroup": 101090110
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "是，这都多亏了老师",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "话说回来，如果方便的话",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "这周末能请老师到我的房间来一趟吗？",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "去乃爱的房间……？",
+       "nextGroup": 101090140
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "哎呀",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "上次老师来探病的时候，不是跟我约好下次要帮我装饰房间吗？",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "难道这段期间，老师已经忘记了自己的承诺吗？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "我，我当然记得！",
+       "nextGroup": 101090170
+      },
+      {
+       "text": "只是随口问一下而已！",
+       "nextGroup": 101090170
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "呵呵，老师不必这么慌张",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我只是开个玩笑而已",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那么我们周末见",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 3,
+      "scenarioGroup": 1010903,
+      "path": "/res/story/1010903.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 5,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，你身体还好吗？"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我听其他学生说你感冒了……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "啊，是乃爱啊",
+       "nextGroup": 101090220
+      }
+     ]
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "我没事。多亏感冒也能难得休息一下",
+       "nextGroup": 101090230
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "虽然老师说没事",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "但我有点担心",
+     "delayMs": 2500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "是不是之前来看我的时候被我传染了……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "这不是乃爱的错",
+       "nextGroup": 101090250
+      },
+      {
+       "text": "别放在心上",
+       "nextGroup": 101090250
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "可是……",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师明天应该没有特别的行程吧？",
+     "delayMs": 2500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我可以在中午左右过去探病吗？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "可以是可以……",
+       "nextGroup": 101090280
+      },
+      {
+       "text": "这样好吗？研讨会的工作会不会忙不过来？",
+       "nextGroup": 101090280
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不必担心。病假期间累积的工作，都已经妥善处理完毕了",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那么明天见",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 5,
+      "scenarioGroup": 1010905,
+      "path": "/res/story/1010905.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 6,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "因为这几天一直下雨的关系，天气渐渐变凉爽了呢"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "虽然洗好的制服一直不干，让人有点烦恼就是了",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "我能理解那种心情……",
+       "nextGroup": 101090330
+      },
+      {
+       "text": "有时候衣服晒太久会有味道对吧",
+       "nextGroup": 101090330
+      }
+     ]
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "话说回来，乃爱有几套制服呢？",
+       "nextGroup": 101090340
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "唔嗯",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "包括备用的在内大约有4套吧",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "由于千年的服仪规定并不是特别严格",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "所以几乎没有学生会有好几套相同的制服……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "但我毕竟是研讨会的干部",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "这么说来，我几乎没见过乃爱穿便服的样子呢",
+       "nextGroup": 101090370
+      }
+     ]
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "突然觉得有点可惜……",
+       "nextGroup": 101090380
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "呵呵",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "之后有机会的话，我会让老师看看的",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 6,
+      "scenarioGroup": 1010906,
+      "path": "/res/story/1010906.json"
+     }
+    }
+   ]
+  }
+ ]
+}

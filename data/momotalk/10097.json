@@ -1,0 +1,346 @@
+{
+ "characterId": 10097,
+ "studentId": 286,
+ "devName": "CH0216",
+ "name": "风仓萌绘",
+ "avatar": "/res/avatar/286.png",
+ "messageCount": 46,
+ "threads": [
+  {
+   "favorRank": 2,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师～"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "现在很忙吗？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "目前是没什么事要做啦……",
+       "nextGroup": 100970040
+      },
+      {
+       "text": "怎么了？有什么事吗？",
+       "nextGroup": 100970040
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "之所以在这种时候联络……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "当然是因为无聊啰！",
+     "delayMs": 500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "其他RABBIT小队的成员呢？",
+       "nextGroup": 100970060
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "啊，你说他们啊",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "直接告诉你就不好玩了",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "如果好奇他们在做什么的话，就到这个地点来吧",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我会在这里等你",
+     "delayMs": 500,
+     "story": {
+      "favorRank": 2,
+      "scenarioGroup": 1009702,
+      "path": "/res/story/1009702.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 3,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我这边有个很厉害的东西喔！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "怎么有点没头没尾的呢，萌？",
+       "nextGroup": 100970110
+      },
+      {
+       "text": "如果跟上次一样只是觉得无聊的话……",
+       "nextGroup": 100970110
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "爆炸",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "爆炸声",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "爆炸声正在不停地传来！",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "什么！？",
+       "nextGroup": 100970130
+      },
+      {
+       "text": "是什么爆炸了！？",
+       "nextGroup": 100970130
+      }
+     ]
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "你等著！我立刻过去帮你！",
+       "nextGroup": 100970140
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "favorRank": 5,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "听说水果和肉类，在快要腐烂的时候是最好吃的"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "鱼类会不会也一样呢？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "为什么突然思考这种问题……？",
+       "nextGroup": 100970170
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "其实也没什么，只是因为在这个村子里吃到过几次臭鱼干",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "虽然那东西闻起来像腐烂了一样，味道却比一般的鱼还好吃",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "所以我才在想，其他的鱼是不是也可以放到坏掉再吃",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "毕竟是利用了某些能分解蛋白质的酵母菌──",
+       "nextGroup": 100970190
+      },
+      {
+       "text": "所以严格来说，那其实跟单纯的腐坏不太一样吧？",
+       "nextGroup": 100970190
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "……是吗？",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "嗯……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "反正我有兴趣的是那种浓烈的臭味，而不是食物本身，所以应该差不多吧？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "你有兴趣的竟然是臭味！？",
+       "nextGroup": 100970220
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "favorRank": 6,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "真伤脑筋……"
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "怎么了吗？",
+       "nextGroup": 100970240
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "因为我的携带式发电机从昨天开始就怪怪的，所以就检查了一下",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "没想到发电机的过滤器周围竟然结满了盐巴结晶",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我猜可能是海风吹太久的关系，导致发电机内部生锈了",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "那还真糟糕",
+       "nextGroup": 100970270
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "就是说啊。现在既没办法帮发电机做防锈处理",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "也不可能马上把营地迁到没有海风的地方",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "这附近会有便宜的旅社，能让我们小队暂时住一阵子吗？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "虽然我觉得这么偏僻的地方，应该不太可能会有好的旅社就是了……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "唔嗯……",
+       "nextGroup": 100970300
+      },
+      {
+       "text": "如果是这样的话，说不定我能帮上忙",
+       "nextGroup": 100970300
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "咦？真的吗？",
+     "delayMs": 500,
+     "story": {
+      "favorRank": 6,
+      "scenarioGroup": 1009706,
+      "path": "/res/story/1009706.json"
+     }
+    }
+   ]
+  }
+ ]
+}

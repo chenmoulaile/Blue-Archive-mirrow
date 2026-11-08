@@ -1,0 +1,409 @@
+{
+ "characterId": 20011,
+ "studentId": 44,
+ "devName": "Serika_newyear",
+ "name": "黑见芹香",
+ "avatar": "/res/avatar/44.png",
+ "messageCount": 54,
+ "threads": [
+  {
+   "favorRank": 2,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师很了解巫女吗？"
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "有没有很了解不太好说……怎么了？",
+       "nextGroup": 200110030
+      },
+      {
+       "text": "当然。我是人称的巫女专家",
+       "nextGroup": 200110040
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "啊，其实是啊",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那个，是这次偶然有个不错的打工机会",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "好像是……在活动现场打扮成巫女的打工",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "巫女专家……？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "……老师，脑袋还好吧？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "或是叫巫女达人也可以",
+       "nextGroup": 200110060
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "更加意义不明了！？",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "呼……总之，因为这份巫女的打工，时薪还不错，所以想试试看",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "但是仔细想想，我不太了解巫女……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "如果老师知道的话，希望能告诉我",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "虽然不知道能帮上多少忙，但交给我吧！",
+       "nextGroup": 200110090
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "谢谢。那我稍后将碰面的地点发给你",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 2,
+      "scenarioGroup": 2001102,
+      "path": "/res/story/2001102.json"
+     }
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那个，老师",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "今天谢谢你，陪我商量这么多",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "不会。等打工开始了我再去找你，好久没喝甜酒了",
+       "nextGroup": 200110130
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "……你来是很好啦，但我是不会嚼的！",
+     "delayMs": 1000
+    }
+   ]
+  },
+  {
+   "favorRank": 3,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，再次祝你新年快乐"
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "新年快乐。今年也请多关照",
+       "nextGroup": 200110155
+      }
+     ]
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "话说回来，茜香，打工的准备如何？",
+       "nextGroup": 200110160
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "啊，嗯。感觉还不错唷",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "虽然还有些不习惯，也有很多不安的地方……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "但很有趣，总结来说没有问题吧",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "那我现在过去唷！",
+       "nextGroup": 200110190
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "咦，现在！？我，我没有说要你来吧！？",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "我去的话，你会很困扰吗？",
+       "nextGroup": 200110210
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不，不是那个意思……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不如说希望你来",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "啊啊，写到一半就发出去了！刚才的不算！当作没看见！",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "所以说，不特别来也没关系！",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 3,
+      "scenarioGroup": 2001103,
+      "path": "/res/story/2001103.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 5,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，现在有时间吗？"
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "嗯，很闲唷",
+       "nextGroup": 200110270
+      },
+      {
+       "text": "可以空出点时间唷，怎么了？",
+       "nextGroup": 200110270
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "啊，是吗……？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "其实是今天的打工好像会提早结束",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "因为时间很充裕，那个……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我想给阿拜多斯的大家买点拜年礼",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "能陪我一起挑选吗？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "马上过去！",
+       "nextGroup": 200110300
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "谢谢。我等著唷",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 5,
+      "scenarioGroup": 2001105,
+      "path": "/res/story/2001105.json"
+     }
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那个……老师",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "你今天来的时候，有点上气不接下气的样子……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那个……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "没事的，别放在心上",
+       "nextGroup": 200110340
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "是，是吗……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "只是觉得如果你能联络我的话，或许就不用抱著一堆猫了",
+       "nextGroup": 200110360
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "……嗯，我知道了",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "让你担心了，对不起",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "一直以来谢谢你了，老师♡",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "爱心符号……！",
+       "nextGroup": 200110390
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不，不是！刚才那是自动转换加上去的……！",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不是那样的，绝对不是！",
+     "delayMs": 500
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,284 @@
+{
+ "characterId": 16010,
+ "studentId": 51,
+ "devName": "CH0181",
+ "name": "猫冢响",
+ "avatar": "/res/avatar/51.png",
+ "messageCount": 37,
+ "threads": [
+  {
+   "favorRank": 2,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师在放假的时候通常都会做什么呢？"
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "什么都不做吧……",
+       "nextGroup": 160100030
+      },
+      {
+       "text": "和堆积如山的文书工作战斗唷",
+       "nextGroup": 160100040
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "好好让身体休息也是很重要的呢",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "看来老师有好好地享受假日，真是太好了",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "……是不是太勉强了？",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不休息地持续工作，反而更没效率",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "那响呢？",
+       "nextGroup": 160100060
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "……我吗？",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "唔──嗯，我的话……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "大概都是在制作些什么吧",
+     "delayMs": 1500,
+     "story": {
+      "favorRank": 2,
+      "scenarioGroup": 1601002,
+      "path": "/res/story/1601002.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 3,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "……老师，没事吧？我听到那个消息了"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "听说因为夏莱突然停电",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "花了一整天的工作全都化为乌有了……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "没办法复原吗……？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "虽然拜托了贝里塔斯，但大概很难复原吧……",
+       "nextGroup": 160100120
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "没有我能做的事吗……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "……有任何我能帮上忙的地方吗？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "能帮我打气的话就太感激了",
+       "nextGroup": 160100140
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "打气……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "嗯，我知道了",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "加油唷，老师",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 3,
+      "scenarioGroup": 1601003,
+      "path": "/res/story/1601003.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 5,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "……自从发生上次的事情后，我烦恼了许久"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "什么样的应援道具能提高文书工作的热情",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "……反复试验后，终于做出试作品了",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "这是为文书工作者设计的究极应援道具",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "……下次值班的时候，我带去试试吧",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "……到底做了什么呢？",
+       "nextGroup": 160100210
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "favorRank": 6,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我觉得上次做的应援道具很不错……"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "但老师好像不喜欢，那就没办法了",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "如果是优秀的巨匠，就必须经常倾听客户的意见",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "这次准备了新的应援道具唷",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "下次去夏莱时会带著",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "这次不会自爆了吧？",
+       "nextGroup": 160100250
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "……",
+     "delayMs": 2000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "……果然还是现在就拿去给你看吧",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "真的不会自爆吧！？",
+       "nextGroup": 0
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

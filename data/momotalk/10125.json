@@ -1,0 +1,694 @@
+{
+ "characterId": 10125,
+ "studentId": 549,
+ "devName": "CH0304",
+ "name": "白尾艾利",
+ "avatar": "/res/avatar/549.png",
+ "messageCount": 99,
+ "threads": [
+  {
+   "favorRank": 2,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "妞呵呵呵"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "贵安，御者",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "今天的世界依然充满魔力呢！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "御者你感觉怎么样？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "魔力我不确定，精神倒是满满的哦！",
+       "nextGroup": 101250050
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "真的吗？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我的占卜可是不会骗人的",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "你昨天也加班了吧？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "唔……！",
+       "nextGroup": 101250070
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那么，今天就别再想工作的事情",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "跟我一起悠闲一下怎么样？",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "工作固然重要，但休息也是一样的吧？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "嗯，好主意",
+       "nextGroup": 101250100
+      },
+      {
+       "text": "要不要我买点零食？",
+       "nextGroup": 101250100
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "妞呵呵，御者果然和我心有灵犀呢",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那我就开心地等你来啰！",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 2,
+      "scenarioGroup": 1012502,
+      "path": "/res/story/1012502.json"
+     }
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "今天真的很愉快，御者",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "托你的福，暂时不用担心魔力不足了",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "御者也补充好能量了吗？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "嗯！感觉力量都沸腾起来了！",
+       "nextGroup": 101250150
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "妞呵呵",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "需要转换心情的时候，欢迎随时来找我哦",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "毕竟我们之间可是用魔法连结在一起的",
+     "delayMs": 1000
+    }
+   ]
+  },
+  {
+   "favorRank": 3,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "御者！"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "出大事！",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "真的出大事了！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "例如被舍监队追捕？",
+       "nextGroup": 101250200
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不是！",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "真的发生了严重的事情！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "连我的魔导书都没预测到的那种！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "到底是什么事？",
+       "nextGroup": 101250230
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "就是……",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "今天有实作考试……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "但是考场……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不能戴魔法帽进去……",
+     "delayMs": 1500,
+     "story": {
+      "favorRank": 3,
+      "scenarioGroup": 1012503,
+      "path": "/res/story/1012503.json"
+     }
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "…………",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "你好，御者",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "今天的实作考试结束了……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "感觉怎么样？考得还顺利吗？",
+       "nextGroup": 101250280
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "呵呵……",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "妞呵呵呵……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "御者",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我，打算从今天开始研究一项新的魔法",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那就是消除记忆的魔法",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "只要学会了它……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "就能把所有羞耻的记忆全部抹除！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "要，要怎么抹除？",
+       "nextGroup": 101250320
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "只要对头脑施加强烈的物理冲击就行了！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "你先冷静！下次一定会更好的！",
+       "nextGroup": 101250340
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我也希望如此",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "唉……",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "总之今天真的非常谢谢你，御者",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "下次再见……",
+     "delayMs": 1000
+    }
+   ]
+  },
+  {
+   "favorRank": 5,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "御者……"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "在上次的实作考试之后，我的魔力就一直无法恢复",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "就算打开魔导书也看不到道路……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我该怎么办才好呢？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "要不要到夏莱附近散散心？",
+       "nextGroup": 101250410
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "哦哦，光看就觉得有力气了！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "这，这难道是……",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "将魔法融入言语的言灵魔法吗！？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "可是那种魔法应该早就消失了才对！",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "御者怎么会懂那种古代魔法呢！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "……",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "唉……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "对不起",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "平常只要聊到魔法理论就会精神满满",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "现在却完全提不起劲呢",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "总之我知道了，御者",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我马上过去",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 5,
+      "scenarioGroup": 1012505,
+      "path": "/res/story/1012505.json"
+     }
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "回去的路上还顺利吗，御者？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "今天多亏御者，让我思考了很多",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "真的是魔法般的一天",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "感觉魔法环等级一口气提升了2阶呢",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "能用出第10环的「世界创造魔法」了吗？",
+       "nextGroup": 101250510
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "虽然还没到那个程度",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不过应该能用出类似的魔法了",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "也就是在画布上，创造属于自己的世界的魔法",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "妞呵呵呵",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那么，请期待我们下次的见面吧！",
+     "delayMs": 1000
+    }
+   ]
+  },
+  {
+   "favorRank": 6,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "御者，时机终于到了"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "该让你见识我的世界创造魔法了！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "哦哦，终于！",
+       "nextGroup": 101250580
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "虽然还没百分之百完美",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "但我会倾注所有魔力来准备",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那么我们学院见！",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 6,
+      "scenarioGroup": 1012506,
+      "path": "/res/story/1012506.json"
+     }
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "御者，今天真的非常谢谢你",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "多亏御者让我充满了自信",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "这样我也算是往前迈进了一步吧",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "嗯！下次考试一定能考好的！",
+       "nextGroup": 101250630
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "如果又要脱帽的话……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "呼……我会努力想想办法的",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "话说回来，肖像画有确实带回去吗？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "嗯，我会挂在显眼的地方",
+       "nextGroup": 101250660
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "妞呵呵呵",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那就好",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "每次看到那幅画的时候，记得要想起我哦？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那么，期待下次再见",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "愿幸福的魔法永远与御者同在！",
+     "delayMs": 1000
+    }
+   ]
+  }
+ ]
+}

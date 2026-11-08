@@ -1,0 +1,185 @@
+{
+ "characterId": 26013,
+ "studentId": 382,
+ "devName": "CH0267",
+ "name": "秤亚津子",
+ "avatar": "/res/avatar/382.png",
+ "messageCount": 22,
+ "threads": [
+  {
+   "favorRank": 2,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，你好呀"
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "嗨，敦子",
+       "nextGroup": 260130030
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "海边果然没有辜负我的期待",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "简直让人目不转睛",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "无论海边还是庆典，都充满了我没见过的事物",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "真高兴你似乎玩得很开心",
+       "nextGroup": 260130060
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "嗯，因为难得有机会过来，我想拍点照片留念",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "所以打算在海边找找有没有适合拍照的景点",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师要一起来吗？",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 2,
+      "scenarioGroup": 2601302,
+      "path": "/res/story/2601302.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 3,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "你现在忙吗？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "不会，现在正好有空",
+       "nextGroup": 260130110
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那可以请你陪我一下吗？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我突然想到了两样非拍不可的东西",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "啊",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我这次有记得装上电池哦",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 3,
+      "scenarioGroup": 2601303,
+      "path": "/res/story/2601303.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 5,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "有个坏消息",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "怎么了？",
+       "nextGroup": 260130160
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我的相机电池快没电了",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "虽然现在还能启动，但之后得省著用才行",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "所以我打算认真思考接下来要拍什么",
+     "delayMs": 1500,
+     "story": {
+      "favorRank": 5,
+      "scenarioGroup": 2601305,
+      "path": "/res/story/2601305.json"
+     }
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,262 @@
+{
+ "characterId": 10103,
+ "studentId": 389,
+ "devName": "CH0270",
+ "name": "池仓玛丽娜",
+ "avatar": "/res/avatar/389.png",
+ "messageCount": 33,
+ "threads": [
+  {
+   "favorRank": 2,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师……？"
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "玛丽娜，怎么了吗？",
+       "nextGroup": 101030030
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我现在在山海经一个叫做「玄武商会」的地方",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "遇到了一些困难",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "虽然有点难为情，希望能请老师帮个忙……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "我马上过去！",
+       "nextGroup": 101030060
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不知道是不是吃太多的关系……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "肚子好像有点痛……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "……还好吗？",
+       "nextGroup": 101030090
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我切身学到了一件事",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那就是食物的外观，未必与味道相符",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "听说那些炸虫串，好像是专门卖给观光客的",
+       "nextGroup": 101030110
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "这种事为什么现在才说！",
+     "delayMs": 1000
+    }
+   ]
+  },
+  {
+   "favorRank": 3,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师到哪里了？"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我已经到啰",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "抱歉，玛丽娜！我可能会迟到5分钟！",
+       "nextGroup": 101030150
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "这点小事不算什么",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我在广场等你",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 3,
+      "scenarioGroup": 1010303,
+      "path": "/res/story/1010303.json"
+     }
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "……真是个令人头痛的经历",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "不过真的很适合你哦",
+       "nextGroup": 101030180
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "就算是客套话，也请别这么说",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "……如果不是客套话就更糟了",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "已经有一堆人联络我，说看过那本写真集了……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "以防万一确认一下，老师应该没有买吧？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "……",
+       "nextGroup": 101030220
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "等一下，这个沉默是什么意思？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师！？！？",
+     "delayMs": 1000
+    }
+   ]
+  },
+  {
+   "favorRank": 5,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "今天约好要去的茶馆叫什么名字？"
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "应该是桃源乡吧",
+       "nextGroup": 101030260
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "啊啊，确实是这个名字没错",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不知道山海经的茶味道怎么样",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "嗯，真令人期待",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 5,
+      "scenarioGroup": 1010305,
+      "path": "/res/story/1010305.json"
+     }
+    }
+   ]
+  }
+ ]
+}

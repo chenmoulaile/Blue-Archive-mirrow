@@ -1,0 +1,405 @@
+{
+ "characterId": 10051,
+ "studentId": 53,
+ "devName": "CH0182",
+ "name": "白石歌原",
+ "avatar": "/res/avatar/53.png",
+ "messageCount": 52,
+ "threads": [
+  {
+   "favorRank": 2,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不好意思，老师"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "请问我的白袍有在夏莱吗？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "是放在沙发上的这件吗？",
+       "nextGroup": 100510040
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "就是它！能找到真是太好了……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "大概是上次在休息室脱下后就忘了",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我现在本来是想工作的……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "但麻烦的是，替换用的白袍也拿去洗了……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "要送去给你吗？",
+       "nextGroup": 100510070
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "唔嗯……不，没关系",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我找找看有没有能顶替的",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 2,
+      "scenarioGroup": 1005102,
+      "path": "/res/story/1005102.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 3,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "上次不是在大运动会上公开了特殊规格的雷酱吗？"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "从那之后，就有多家业者委托我开发应援机器人",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "如果只是制作应援机器人倒是不难……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "但既然都特意来委托了，肯定不能坏了工程师部的名声",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "普通的机器人就可以了吧……？",
+       "nextGroup": 100510120
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不，那可不行",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "既然是工程师部的一员，就要开发新的发明！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "委托人肯定也是这么希望的",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "是，是这样吗……？",
+       "nextGroup": 100510150
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "所以我想咨询一下老师的意见，晚点能来趟千年吗？",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "想马上实验一下应援机器人的试作品……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "让老师看看它的效果如何",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 3,
+      "scenarioGroup": 1005103,
+      "path": "/res/story/1005103.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 5,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "真是被打败了……老师，现在有空吗？"
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "有什么烦恼吗？",
+       "nextGroup": 100510190
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "之前有说，接到了开发应援机器人的委托吧",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "为了提升关节强度，我对它进行了能够承受音速的改造……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "但好像很难在期限内完成",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "音速什么的没必要吧……",
+       "nextGroup": 100510220
+      }
+     ]
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "说明情况，推迟交货时间呢？",
+       "nextGroup": 100510230
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "或许可以……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "但是，我得回应这些相信并委托我的委托人们的期待",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "身为巨匠，这么做虽然不会受到赞扬……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "但现在只能靠身体解决了……！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "……靠身体！？",
+       "nextGroup": 100510260
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，不好意思……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "喉咙还很沙哑吗？",
+       "nextGroup": 100510280
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "嗯，还是一样",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "和部员们说话也出现了障碍",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "所以我正在构思一种新型的交流支援装置",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "即使是小小的声音也能传达到……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "纪录输入的声音，扩大音量后再输出",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "……那就是扩音器吧？",
+       "nextGroup": 100510320
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "favorRank": 6,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "感觉部员们最近没什么精神呢"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师有什么头绪吗？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "你瞧，前阵子不是有考试吗",
+       "nextGroup": 100510350
+      }
+     ]
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "是因为成绩不理想吧？",
+       "nextGroup": 100510360
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "这样啊……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我觉得大家的成绩应该都不差",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不，对本人来说还不够满意吧",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "有什么能鼓励他们的方法就好了",
+       "nextGroup": 100510380
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "是啊……",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "这时候就该部长我出面了",
+     "delayMs": 1500,
+     "story": {
+      "favorRank": 6,
+      "scenarioGroup": 1005106,
+      "path": "/res/story/1005106.json"
+     }
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,270 @@
+{
+ "characterId": 10041,
+ "studentId": 33,
+ "devName": "misaki",
+ "name": "戒野美咲",
+ "avatar": "/res/avatar/33.png",
+ "messageCount": 34,
+ "threads": [
+  {
+   "favorRank": 2,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "……你是哪位？"
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "美咲？怎么了吗？",
+       "nextGroup": 100410030
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "啊啊，是老师啊",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "这样啊，原来如此",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "明明是我自己加的却忘记了",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "抱歉打扰了",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "呃……那个，美咲？",
+       "nextGroup": 100410070
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "favorRank": 3,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "下一个目的地已经决定了"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "虽然不需要每次都报告",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "以防万一告诉你一声",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "注意安全哦。有时间的话，希望能告诉我发生了什么事",
+       "nextGroup": 100410100
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "……嗯？告诉你发生了什么？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "这……",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 3,
+      "scenarioGroup": 1004103,
+      "path": "/res/story/1004103.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 5,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，现在有空吗？"
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "美咲……？",
+       "nextGroup": 100410130
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "对不起……希望你能帮点小忙",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "知道了，我马上过去",
+       "nextGroup": 100410150
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "地点之后传给你……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那个……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "谢谢",
+     "delayMs": 1500,
+     "story": {
+      "favorRank": 5,
+      "scenarioGroup": 1004105,
+      "path": "/res/story/1004105.json"
+     }
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "……别把我当成小孩子",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "好生气，糟透了",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "我很抱歉……",
+       "nextGroup": 100410210
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "今天欠你的人情，下次会还你",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "下次见",
+     "delayMs": 1500
+    }
+   ]
+  },
+  {
+   "favorRank": 15,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "你有在夏莱附近看到被丢在那的背包吗？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "唔，没看到耶……？",
+       "nextGroup": 100410260
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那就算了",
+     "delayMs": 500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "怎么了吗，美咲？",
+       "nextGroup": 0
+      },
+      {
+       "text": "那是什么背包？",
+       "nextGroup": 0
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,425 @@
+{
+ "characterId": 10017,
+ "studentId": 179,
+ "devName": "cherino",
+ "name": "连河切里诺",
+ "avatar": "/res/avatar/179.png",
+ "messageCount": 55,
+ "threads": [
+  {
+   "favorRank": 2,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "欢呼吧，同志！"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "为了表扬同志至今为止的努力",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我等赤冬联邦学园将授予同志新的勋章",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "「特别友好章」！",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "咦……特别友好章不是已经拿过了吗？",
+       "nextGroup": 100170040
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "说什么呢，上次授予的勋章是「特别友情章」！",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "勋章的种类可不能弄错",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "有那么多种勋章啊……",
+       "nextGroup": 100170060
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "在赤冬，为了表扬对学园发展做出巨大贡献的人",
+     "delayMs": 2000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "共有247种勋章",
+     "delayMs": 2000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "数量好惊人。洁莉诺有多少勋章？",
+       "nextGroup": 100170080
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "呵呵，真是愚蠢的问题啊。同志",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "……247种，全部！",
+     "delayMs": 1500,
+     "story": {
+      "favorRank": 2,
+      "scenarioGroup": 1001702,
+      "path": "/res/story/1001702.json"
+     }
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "看吧，同志。下面是咱亲自完成的新勋章设计！",
+     "delayMs": 2000
+    },
+    {
+     "kind": "image",
+     "from": "student",
+     "text": "",
+     "image": "UIs/03_Scenario/04_ScenarioImage/Mo_Cherino_01",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "呵呵，光看设计就觉得闪闪发光对吧？",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "我觉得很棒！",
+       "nextGroup": 100170130
+      },
+      {
+       "text": "……尽力了呢！",
+       "nextGroup": 100170130
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "呵呵，再多称赞几句也可以唷！",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "说不定咱也有当设计师的资质……！",
+     "delayMs": 1500
+    }
+   ]
+  },
+  {
+   "favorRank": 3,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "唔……"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "呐，同志有什么不喜欢的食物吗？",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "这么突然，怎么了？",
+       "nextGroup": 100170170
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "咱讨厌青椒。味道又苦又怪！",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "唔……难吃到这地步，甚至可以称为恶魔的食物",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "挑食对身体不好唷？",
+       "nextGroup": 100170190
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不是挑食！生而为人，吃不了青椒是正常的！",
+     "delayMs": 2000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "这么简单的真理，为什么大家都不能理解呢……",
+     "delayMs": 1500,
+     "story": {
+      "favorRank": 3,
+      "scenarioGroup": 1001703,
+      "path": "/res/story/1001703.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 5,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "呵呵呵，同志"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "没忘记之前说好要买布丁给我吧？",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "当然记得",
+       "nextGroup": 100170230
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不愧是同志，不是那种只会嘴巴说说的大人",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "好不容易让同志请客，为了能多吃一点",
+     "delayMs": 2000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "咱今天中午甚至没吃零食呢！呵呵，好期待啊……！",
+     "delayMs": 2000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "今天放学后，咱在店门口等著，别迟到！",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "我好像没有说要买很多耶……？",
+       "nextGroup": 100170250
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "favorRank": 6,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "同志，往外看！"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "是雪，雪下得好大呀！",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "夏莱是万里无云的晴天……",
+       "nextGroup": 100170280
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "什么！那现在就来赤冬联邦学园吧！",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "在这里不管是雪人还是雪兔，想做多少就做多少！",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "工作结束后就去唷",
+       "nextGroup": 100170300
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不行！雪不知道什么时候就会停了，时间可没有那么充裕！",
+     "delayMs": 2000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "现在马上！现在马上过来！",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 6,
+      "scenarioGroup": 1001706,
+      "path": "/res/story/1001706.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 8,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "同志有什么会怕的东西吗？"
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "唔嗯，妖怪之类的吧……",
+       "nextGroup": 100170330
+      },
+      {
+       "text": "怕馒头",
+       "nextGroup": 100170340
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "呵呵。怕妖怪啊，同志也有像孩子一样的地方呢",
+     "delayMs": 2000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "别担心，同志。就算妖怪真的出现了，咱也会打倒他！",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "馒头是指那个甜馒头吗？怕那个是怎么回事？",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "同志有时会说些让人搞不懂的话呢……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "洁莉诺有怕什么东西吗？",
+       "nextGroup": 100170360
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "咱，咱怎么可能有害怕的东西！",
+     "delayMs": 2000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "对伟大的领导者来说，恐惧是不必要的情绪！",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "咱身为赤冬学联邦学园的学生会长、兼书记长、兼环境美化部长、兼清扫部长，无所畏惧！",
+     "delayMs": 2500,
+     "story": {
+      "favorRank": 8,
+      "scenarioGroup": 1001708,
+      "path": "/res/story/1001708.json"
+     }
+    }
+   ]
+  }
+ ]
+}

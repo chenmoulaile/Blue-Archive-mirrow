@@ -1,0 +1,437 @@
+{
+ "characterId": 20054,
+ "studentId": 572,
+ "devName": "CH0332",
+ "name": "明星日鞠",
+ "avatar": "/res/avatar/572.png",
+ "messageCount": 60,
+ "threads": [
+  {
+   "favorRank": 2,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师您现在"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "应该正在熟睡吧",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "其实我也是用预约功能",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "发送MomoTalk给您的",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那么老师",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "时间到了我会叫醒您的",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "还请不要太惊讶哦",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 2,
+      "scenarioGroup": 2005402,
+      "path": "/res/story/2005402.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 3,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "叩叩叩"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "请起床，老师",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "午餐应该已经吃过",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "午休时间也快结束了",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "呜呜呜……",
+       "nextGroup": 200540080
+      },
+      {
+       "text": "起来了……我起来了……",
+       "nextGroup": 200540080
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "好的",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "谢谢您",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那么下午的工作",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "一起加油吧",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 3,
+      "scenarioGroup": 2005403,
+      "path": "/res/story/2005403.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 5,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "已经傍晚了呢"
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "是啊，已经傍晚了呢",
+       "nextGroup": 200540120
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "呵呵",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "这就表示可以向老师",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "展示我的室外用轮椅",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "真正实力的意思呢",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "来了吗……我已经准备好了！",
+       "nextGroup": 200540140
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "充满干劲的回答",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "非常感谢",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我会送给您一段难忘的回忆",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 5,
+      "scenarioGroup": 2005405,
+      "path": "/res/story/2005405.json"
+     }
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "今天一天",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "辛苦您了",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "感觉很长又很短，很短又很长……",
+       "nextGroup": 200540190
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "呵呵",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我也有同样的感觉呢",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "明天又会开始新的一天",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "太阳也会再次升起",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "请好好休息，老师",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "阳葵也晚安",
+       "nextGroup": 200540220
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "还有明天的",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "超天才病弱美少女生活助理的表现",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "也敬请期待哦",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "只有这点是不会放弃的呢……",
+       "nextGroup": 200540240
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "favorRank": 6,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "……？"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，请问现在几点了！？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "哦，你醒啦，阳葵",
+       "nextGroup": 200540270
+      },
+      {
+       "text": "阳葵居然会睡过头～应该拍照留念的～",
+       "nextGroup": 200540270
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "……！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "怎么会这样……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "身为完美无缺超天才病弱美少女骇客的我，居然会犯下这种错误……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "我会把食物带过去，等我一下哦～",
+       "nextGroup": 200540290
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "叩叩叩",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "您睡得好吗？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "不知不觉已经回到自己的房间了……",
+       "nextGroup": 200540320
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "嗯，那个",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "这是因为",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "英美来叫醒我的时候",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "顺便把老师送回老师的房间了",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "原来如此……",
+       "nextGroup": 200540350
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那，那么！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "从今天开始重新出发吧，老师！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我会再次充满活力地",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "回到老师专属的生活助理岗位上哦？",
+     "delayMs": 1000
+    }
+   ]
+  }
+ ]
+}

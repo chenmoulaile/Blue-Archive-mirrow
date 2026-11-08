@@ -1,0 +1,419 @@
+{
+ "characterId": 13011,
+ "studentId": 2,
+ "devName": "Momoi",
+ "name": "才羽桃井",
+ "avatar": "/res/avatar/2.png",
+ "messageCount": 57,
+ "threads": [
+  {
+   "favorRank": 2,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "勇者啊……"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "看见这则MomoTalk后，马上来游戏开发部的社团教室……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "嗯，那我现在过去",
+       "nextGroup": 130110040
+      },
+      {
+       "text": "咦……",
+       "nextGroup": 130110050
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "竟然毫不犹豫地接受任务！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不愧是老师！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "唔，竟然选这个选项！？这是我没预料到的……！",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不，按照剧本来说，也是有可能有这样的分歧……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "……不对啦！",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不是约好今天要来社团教室吗！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "……是吗？",
+       "nextGroup": 130110080
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "总之，我在游戏开发部的社团教室等著！",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "快点来！",
+     "delayMs": 500,
+     "story": {
+      "favorRank": 2,
+      "scenarioGroup": 1301102,
+      "path": "/res/story/1301102.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 3,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师──"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "你觉得最棒的游戏剧本要具备哪些条件？",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "最棒的游戏剧本……？",
+       "nextGroup": 130110120
+      },
+      {
+       "text": "怎么突然这么问呢？",
+       "nextGroup": 130110120
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "因为……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "啊啊！光回想起来就觉得好生气！",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那些家伙竟敢在那边乱讲话！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "说什么想法过时，什么剧情节奏崩坏",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "这样不行！老师，现在到游戏开发部的社团教室来！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "……？",
+       "nextGroup": 130110141
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "怎么办，老师！？"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "好不容易浮现的灵感整个大矛盾"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "完全想不出下一个灵感来解困！救救我──！"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "呜哇啊！！！"
+    }
+   ]
+  },
+  {
+   "favorRank": 5,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，复古游戏的世界非常宽广！"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "但在这些复古游戏中，说到剧情比重大的游戏",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "就不得不提恋爱模拟游戏！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "恋爱模拟……？",
+       "nextGroup": 130110170
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "所以今天",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我想要模拟恋爱模拟！",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那我晚点发地点给你，在那里碰面吧！老师！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "模拟恋爱模拟……？",
+       "nextGroup": 130110200
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，那个……今天很开心。谢谢",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "嗯，我也很开心",
+       "nextGroup": 130110220
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那，那真是太好了",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "但是，今天的事要和别人保密唷！",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "特别是不能对绿说！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "为什么要到那种程度？一开始确实是为了游戏开发部才……",
+       "nextGroup": 130110240
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不行！绝对要保密！！",
+     "delayMs": 1000
+    }
+   ]
+  },
+  {
+   "favorRank": 6,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师老师！"
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "桃井出现了！",
+       "nextGroup": 130110270
+      },
+      {
+       "text": "怎么了？",
+       "nextGroup": 130110270
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "听说这次在春叶原有非常大的活动！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "竟然有究极玛琳姊妹40周年集章活动！",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "集章活动？",
+       "nextGroup": 130110290
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "收集所有印章的话，就能拿到限定商品作为奖品",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "这可不能错过……！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "一起去吧，老师！！",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 6,
+      "scenarioGroup": 1301106,
+      "path": "/res/story/1301106.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 15,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "你还记得吗"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "猎人啊！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "当然记得啰，伙伴……",
+       "nextGroup": 130110340
+      },
+      {
+       "text": "现在正是狩猎开始之时……",
+       "nextGroup": 130110340
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "很好！就是这个气势！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "今天就来好好狩猎一番吧！",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 15,
+      "scenarioGroup": 1301115,
+      "path": "/res/story/1301115.json"
+     }
+    }
+   ]
+  }
+ ]
+}

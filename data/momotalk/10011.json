@@ -1,0 +1,495 @@
+{
+ "characterId": 10011,
+ "studentId": 90,
+ "devName": "Shun",
+ "name": "春原瞬",
+ "avatar": "/res/avatar/90.png",
+ "messageCount": 64,
+ "threads": [
+  {
+   "favorRank": 2,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "今天梅花园的点心是来自商会的很甜～的水果唷"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "请大家要准时参加唷！",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "……这真的是要给我的讯息吗？",
+       "nextGroup": 100110040
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "味道怎么样，老师？",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "很好吃唷，谢谢",
+       "nextGroup": 100110060
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "呵呵，合你口味的话就太好了",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我还准备了其他点心，请随时光临梅花园唷！",
+     "delayMs": 1500
+    }
+   ]
+  },
+  {
+   "favorRank": 3,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "事实上，今天中午"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "为了让梅花园的孩子们主动刷牙，预计上演一场人偶剧",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "人偶剧啊，听起来很有趣",
+       "nextGroup": 100110090
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "是啊",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "是关于打倒坏牙菌斑的战队风格人偶剧，每次的反应都非常好",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "但是，现在没有能扮演「蛀牙」角色的助手……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "如果可以的话，老师能帮忙吗？",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "我对演技没有自信……",
+       "nextGroup": 100110120
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "呵呵，没问题的。我会在旁边帮忙",
+     "delayMs": 1500,
+     "story": {
+      "favorRank": 3,
+      "scenarioGroup": 1001103,
+      "path": "/res/story/1001103.json"
+     }
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "托老师的福，人偶剧顺利结束了！",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师今后也要记得饭后刷牙唷！",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "是的，旬教官！",
+       "nextGroup": 100110150
+      },
+      {
+       "text": "没事的，我又不是小孩子……",
+       "nextGroup": 100110160
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "呵呵，真是好孩子。开玩笑的",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "对大人来说，刷牙也是很重要的！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "还会再进行突击检查，今后也不要忘记唷！",
+     "delayMs": 1500
+    }
+   ]
+  },
+  {
+   "favorRank": 5,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不好意思，我身体不太舒服……今天就先不去梅花园了"
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "没事吧？是不是感冒了？",
+       "nextGroup": 100110200
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "只是有点不舒服……让你担心了，真不好意思",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师也要注意健康唷",
+     "delayMs": 1500,
+     "story": {
+      "favorRank": 5,
+      "scenarioGroup": 1001105,
+      "path": "/res/story/1001105.json"
+     }
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "呵呵，和老师谈话后感觉好多了",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "总觉得在老师面前，我也变成了普通的孩子",
+     "delayMs": 1500
+    }
+   ]
+  },
+  {
+   "favorRank": 6,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "刚刚看到老师和梅花园的孩子在做有趣的事"
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "有趣的事？",
+       "nextGroup": 100110240
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "就是把手伸进腋下高高举起的「飞高高」！",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "可以的话，也能对我做吗？",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "对旬来说会不会有点危险……？",
+       "nextGroup": 100110260
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "没问题。我的身体比老师想像的还要柔软",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "呵呵，下次见面的时候，务必拜托了",
+     "delayMs": 1500,
+     "story": {
+      "favorRank": 6,
+      "scenarioGroup": 1001106,
+      "path": "/res/story/1001106.json"
+     }
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "谢谢你总是陪梅花园的孩子们玩，老师",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "但是总有一天，一定要再做一次「飞高高」",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "请不要忘记啰！",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "所以我就说了，和旬一起做的话在各种意义上都很危险……",
+       "nextGroup": 100110290
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "favorRank": 8,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，今天下午有空吗？"
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "嗯，没问题唷。怎么了？",
+       "nextGroup": 100110310
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "梅花园每个月都会送礼物给过生日的孩子们",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "但每次都为了挑选礼物而苦恼……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "可以的话，今天能帮我一起挑选礼物吗？",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "当然",
+       "nextGroup": 100110330
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "呵呵，非常感谢",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那么，放学后请来奇普托斯市区的购物中心",
+     "delayMs": 1500,
+     "story": {
+      "favorRank": 8,
+      "scenarioGroup": 1001108,
+      "path": "/res/story/1001108.json"
+     }
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "大家都对老师介绍的那个蛋糕很满意",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "谢谢你介绍了这么好的店",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "那真是太好了",
+       "nextGroup": 100110370
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "下次也务必拜托老师了！",
+     "delayMs": 1000
+    }
+   ]
+  },
+  {
+   "favorRank": 9,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，最近是不是工作过度了？"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "看起来很疲惫……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "连续两天熬夜，但还行",
+       "nextGroup": 100110410
+      },
+      {
+       "text": "（没有回答，好像已经睡著了）",
+       "nextGroup": 100110420
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "还行才怪……！",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "再这样下去，总有一天会生大病的！",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "真是的！如果是真的睡著就好了，但还醒著吧……！？",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "疲劳是万病之源，所以好好睡觉是很重要的哦？",
+     "delayMs": 1500,
+     "story": {
+      "favorRank": 9,
+      "scenarioGroup": 1001109,
+      "path": "/res/story/1001109.json"
+     }
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "呵呵，感觉好点了吗，老师？",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "嗯，托你的福，感觉好多了",
+       "nextGroup": 100110460
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "又感到疲惫的时候，请随时光临梅花园",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "为了不让大家发现，我会偷偷盖上棉被的。呵呵……",
+     "delayMs": 1500
+    }
+   ]
+  }
+ ]
+}

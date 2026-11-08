@@ -1,0 +1,284 @@
+{
+ "characterId": 26014,
+ "studentId": 513,
+ "devName": "CH0282",
+ "name": "角楯花凛",
+ "avatar": "/res/avatar/513.png",
+ "messageCount": 37,
+ "threads": [
+  {
+   "favorRank": 2,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "任务告一段落了"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "接下来几天虽然是假日",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "但我应该会继续穿著制服",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "能放假真不错呢",
+       "nextGroup": 260140040
+      }
+     ]
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "你放假时通常会做什么呢？",
+       "nextGroup": 260140050
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "唔嗯",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "会做什么呢？",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "……为什么问我？",
+       "nextGroup": 260140070
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "favorRank": 3,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师"
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "这么早有什么事吗？",
+       "nextGroup": 260140090
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "唔嗯",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "抱歉",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那个",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我忘记今天是假日，所以就照常早起了",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "如果太习惯平时的生活，有时候就会这样……",
+       "nextGroup": 260140120
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我现在还有点恍惚",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不知道接下来该做什么……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "那要不要来夏莱休息？",
+       "nextGroup": 260140140
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "今天我很开心",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "还有",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "刚才真抱歉",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "一想到老师不需要我的帮助",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "就有点太著急了",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "我不想打扰花凛的假日",
+       "nextGroup": 260140180
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "没关系，不需要觉得有负担",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "如果老师需要帮助的话，我随时欢迎",
+     "delayMs": 1000
+    }
+   ]
+  },
+  {
+   "favorRank": 5,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我有个好消息",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "好消息？",
+       "nextGroup": 260140220
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我想到了一个主意",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "一个度过特别假日的主意",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "虽然不知道是什么，但我会尽力帮忙！",
+       "nextGroup": 260140240
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "谢谢你",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我随时欢迎老师的协助",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我现在正准备去上学",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "如果你想一起的话，就到我家门口来吧",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "……上学？",
+       "nextGroup": 260140270
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

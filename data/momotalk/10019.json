@@ -1,0 +1,572 @@
+{
+ "characterId": 10019,
+ "studentId": 3,
+ "devName": "Azusa",
+ "name": "白洲梓",
+ "avatar": "/res/avatar/3.png",
+ "messageCount": 83,
+ "threads": [
+  {
+   "favorRank": 2,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "由于这个通讯也有可能会被第三者看到"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "所以简洁传达以下要点",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "明天1800，到这个MGRS座标",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "TN 58XX.XXXX，17XX.XX",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "但只能一个人来",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "懂了就回答「嗯」",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "……梓？",
+       "nextGroup": 100190050
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "笨蛋！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "暗号是通讯的基础！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "写名字的话会暴露真面目！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "聊天软体有需要使用暗号……？",
+       "nextGroup": 100190080
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "当然了！！安全本来就要做得彻底！",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "回复呢？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "嗯……",
+       "nextGroup": 100190100
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "真是的，真令人费心",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "算了",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "详细情况",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "到明天约定地点再说",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "通讯结束",
+     "delayMs": 500,
+     "story": {
+      "favorRank": 2,
+      "scenarioGroup": 1001902,
+      "path": "/res/story/1001902.json"
+     }
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "这里是企鹅",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "鸭子，请回答",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "这里是鸭子",
+       "nextGroup": 100190150
+      },
+      {
+       "text": "正等著呢，企鹅",
+       "nextGroup": 100190150
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "很好",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "今天通知的任务是最高机密，所以要格外注意安全",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "企鹅完毕",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "通讯结束",
+     "delayMs": 500
+    }
+   ]
+  },
+  {
+   "favorRank": 3,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "这里是松鼠"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "鼯鼠，请回答",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "现在打算去鼯鼠的巢穴",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "鼯鼠现在在巢穴里吗？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "梓不是企鹅吗……？",
+       "nextGroup": 100190210
+      },
+      {
+       "text": "我记得我好像是鸭子耶……？",
+       "nextGroup": 100190210
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不对，鼯鼠",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "代号也有每天变换的类型",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "这是安全上的问题",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "确认在座位上，15分钟后过去",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "到了再传达要事给你",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "企鹅完毕",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "……",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "更正",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "松鼠完毕，通讯结束",
+     "delayMs": 500,
+     "story": {
+      "favorRank": 3,
+      "scenarioGroup": 1001903,
+      "path": "/res/story/1001903.json"
+     }
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "看你睡得很舒服，我就悄悄离开了",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "安全固然重要，但也要照顾好自己的健康",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "懂了就回答「嗯」",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "嗯",
+       "nextGroup": 100190280
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "很好，那之后再见",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "松鼠完毕，通讯结束",
+     "delayMs": 1000
+    }
+   ]
+  },
+  {
+   "favorRank": 5,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "柯基呼叫黄金猎犬"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "D-day到了",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "别告诉我你忘记了？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "记得的话，就回答「嗯」",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "D-day？什么东西……？",
+       "nextGroup": 100190330
+      },
+      {
+       "text": "嗯",
+       "nextGroup": 100190340
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "……",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "之前告诉过你了吧",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "好，那就马上开始吧",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "这是为了适应这里的生活而进行的训练",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "柯基已经准备好了，希望黄金猎犬也是",
+     "delayMs": 1500,
+     "story": {
+      "favorRank": 5,
+      "scenarioGroup": 1001905,
+      "path": "/res/story/1001905.json"
+     }
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "黄金猎犬",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "这里是柯基",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "怎么了？",
+       "nextGroup": 100190380
+      },
+      {
+       "text": "有什么事吗？",
+       "nextGroup": 100190380
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那个……",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "只是想试著呼叫一下",
+     "delayMs": 1000
+    }
+   ]
+  },
+  {
+   "favorRank": 6,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "10.0 10.1 9.7 9.3. 10.2 10.1"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "8.9 10.4 10.3 10.0 10.2 10.7",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "梓，这什么数字……？",
+       "nextGroup": 100190430
+      },
+      {
+       "text": "……梓？",
+       "nextGroup": 100190430
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "？",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "啊",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "弄错了，请你不要介意",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "本来是要寄给自己当作备忘的，但弄错寄给鸽子了",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "还有，名字",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "啊，抱歉",
+       "nextGroup": 100190470
+      },
+      {
+       "text": "姑且先用麻雀之类的吧？",
+       "nextGroup": 100190470
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "麻雀……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "嗯",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "还不错，就这个吧",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "……那个数字，在意吗？",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那么……",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 6,
+      "scenarioGroup": 1001906,
+      "path": "/res/story/1001906.json"
+     }
+    }
+   ]
+  }
+ ]
+}

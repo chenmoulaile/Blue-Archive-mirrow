@@ -1,0 +1,200 @@
+{
+ "characterId": 10120,
+ "studentId": 371,
+ "devName": "CH0221",
+ "name": "柚鸟夏",
+ "avatar": "/res/avatar/371.png",
+ "messageCount": 26,
+ "threads": [
+  {
+   "favorRank": 2,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "手握铁锤时"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "世间的所有问题看起来都像钉子",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "而当手握鼓棒时",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "世间的一切都像能敲打的东西呢",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "……难道你需要找东西发泄压力？",
+       "nextGroup": 101200050
+      },
+      {
+       "text": "还是你只是想找个东西来敲……？",
+       "nextGroup": 101200050
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "非也非也，老师",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "这是「鼓手」柚鸟夏的感想",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不过拿纾压当借口似乎也不错",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那么，就在那间店门口见吧",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "咦？",
+       "nextGroup": 101200080
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "favorRank": 3,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不是艺术模仿人生"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "而是人生模仿艺术",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "从这个角度来说，是否该实地考察一下呢，老师",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那么，就在那间电影院门口见吧",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "咦？",
+       "nextGroup": 101200130
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "favorRank": 5,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "啊"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "啊啊啊啊啊",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师你快",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "来练习室",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "快点",
+     "delayMs": 500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "咦！？",
+       "nextGroup": 101200170
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "favorRank": 6,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "为了使出力量"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "就必须先放下力量",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "这种矛盾，难道是鼓手必须背负的宿命吗……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "……？",
+       "nextGroup": 0
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

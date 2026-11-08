@@ -1,0 +1,388 @@
+{
+ "characterId": 10072,
+ "studentId": 279,
+ "devName": "CH0217",
+ "name": "空井咲",
+ "avatar": "/res/avatar/279.png",
+ "messageCount": 51,
+ "threads": [
+  {
+   "favorRank": 2,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，你现在在做什么？"
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "在休息哦",
+       "nextGroup": 100720030
+      },
+      {
+       "text": "呼吸，吧……",
+       "nextGroup": 100720040
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "？",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "什么嘛",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "意思是你什么事都没在做吗？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "难得都到海边来了",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不做些只有在海边才能做的事就太浪费了",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "只有在海边才能做的事……",
+       "nextGroup": 100720070
+      }
+     ]
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "游泳之类的？",
+       "nextGroup": 100720080
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "只是要游泳的话，去泳池就行了吧？",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "所以说……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "要去抓海产！",
+     "delayMs": 1500,
+     "story": {
+      "favorRank": 2,
+      "scenarioGroup": 1007202,
+      "path": "/res/story/1007202.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 3,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，现在有空吗？"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我刚才找到了一个有趣的东西",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "只要有这个，这次一定能抓鱼给老师！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "是在仓库里找到渔网了吗？",
+       "nextGroup": 100720130
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "哼哼",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "以为只是单纯的渔网就大错特错了",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "这个还是直接给你看看比较好",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "来之前那个码头一趟吧",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "这次绝对要让老师吃到最高级的生鱼片！",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 3,
+      "scenarioGroup": 1007203,
+      "path": "/res/story/1007203.json"
+     }
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "后来，我又去看了看码头的情况",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "发现水面上漂著几只小鱼",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "恐怕是被爆炸的冲击震晕了吧",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "我听说体型小的鱼意外的怕冲击",
+       "nextGroup": 100720210
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "也就是说……",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "只要接入高压电流，就能一口气……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "那个绝对不行！",
+       "nextGroup": 100720230
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "favorRank": 5,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，村子西边好像有一片泥滩哦"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "听居民说，一天会退潮两次",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "然后那片泥滩就会出现",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "真是不可思议的现象呢",
+       "nextGroup": 100720260
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "听说退潮的时候，可以很轻松地捡到贝类或鱼",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "……其实，在取得采集海产的许可时",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "他们也告诉我可以到泥滩去",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "所以，有空的话要不要一起去？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "虽然让你看到了在水中的失态，不过这次只是在泥滩上捡捡鱼而已。不会再犯跟上次同样的错误……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "这次绝对要让老师吃到最高级的海产！",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 5,
+      "scenarioGroup": 1007205,
+      "path": "/res/story/1007205.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 6,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "到头来，让老师吃到好吃海产的作战还是失败了啊"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "本来还打算抓只高级的鱼作为平时的谢礼的说……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "我已经吃很多了唷？",
+       "nextGroup": 100720330
+      }
+     ]
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "例如海藻汤……",
+       "nextGroup": 100720340
+      },
+      {
+       "text": "或是海肠之类的……",
+       "nextGroup": 100720350
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "虽然是很好吃没错……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不过那些都是市场就能买到的食材……",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "明明让老师陪了我这么久……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "和咲希一起吃的饭是最美味的唷",
+       "nextGroup": 100720370
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "……！",
+     "delayMs": 2000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "搞不清楚你是在捉弄我还是认真的，拜托饶了我吧……",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 6,
+      "scenarioGroup": 1007206,
+      "path": "/res/story/1007206.json"
+     }
+    }
+   ]
+  }
+ ]
+}

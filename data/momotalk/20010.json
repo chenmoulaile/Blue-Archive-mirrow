@@ -1,0 +1,363 @@
+{
+ "characterId": 20010,
+ "studentId": 120,
+ "devName": "CH0165",
+ "name": "天见和香",
+ "avatar": "/res/avatar/120.png",
+ "messageCount": 48,
+ "threads": [
+  {
+   "favorRank": 2,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "您今天也工作辛苦了"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "如果老师不嫌弃的话，务必让我照顾您疲惫的身体，您觉得怎么样？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "……吃了什么奇怪的东西吗？",
+       "nextGroup": 200100040
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "只是关心一下而已，这么说不会太过份了吗！？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "啊",
+     "delayMs": 2000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "什，什么都没有。请不要介意，哦呵呵……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "没事吧？发生了什么事？",
+       "nextGroup": 200100070
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不，该说是一点心境的变化吗……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "之前经营温泉浴场的时候，学到了很多东西",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "从将浴室打扫干净的方法，到整理各种物品的库存……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "但特别是接待客人这方面做得还不够好，总觉得自己好像对老师和客人们做了失礼的事",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "因此，为了下次不再失败，我想预先练习一下",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "也就是……修行！",
+     "delayMs": 1500,
+     "story": {
+      "favorRank": 2,
+      "scenarioGroup": 2001002,
+      "path": "/res/story/2001002.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 3,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "之前的修行完全失败了"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "没想到会席料理竟然是那么厉害的东西……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "对于每天几乎只吃配给品的我来说，是个过于未知的世界……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "但是我不会气馁，因为还有很多必须做的事",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "接下来该著手的，是温泉浴场最重要的设施……温泉！",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "原来如此",
+       "nextGroup": 200100140
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "温泉浴场顾名思义，是以温泉为中心",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "照理来说只要有出色的温泉，客人们自然会聚集过来",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "所以这次，要努力打扫浴室！",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "……扫哪里？",
+       "nextGroup": 200100170
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "favorRank": 5,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "经过这些修行，我领悟到了"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "接待客人的精髓不是料理和设施……而是员工的态度！",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "原来如此。再加上好吃的料理就完美了",
+       "nextGroup": 200100200
+      },
+      {
+       "text": "原来如此。再加上出色的温泉就完美了",
+       "nextGroup": 200100200
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "说，说的也是……",
+     "delayMs": 2000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "但是，该说后者一时之间很难办到吗",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "因为光凭我们的资金，很难提供昂贵的料理和豪华的设施……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "总之先从能做到的事开始！这次我想学习，像温泉女将一样有气质的行为举止",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "也就是……学习礼仪！",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 5,
+      "scenarioGroup": 2001005,
+      "path": "/res/story/2001005.json"
+     }
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "怎么了？",
+       "nextGroup": 200100250
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不，没什么大不了的……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "只是扭了一只脚就能让老师背的话",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "如果另一只脚也受伤的话，老师会为我做更好的事吗……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "总之，拜托先打消你那种意图……",
+       "nextGroup": 200100270
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "favorRank": 6,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "从那之后脚一点一点地变好了，但感觉没有痊愈"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "虽然日常生活没有大碍，但正常走路的话会有点痛……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "学习礼仪还真不容易啊……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "这么说来，前阵子听说有个温泉很适合做温泉治疗",
+       "nextGroup": 200100300
+      }
+     ]
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "我送你过去，这个周末有空吗？",
+       "nextGroup": 200100310
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "非，非常感谢",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那么，周末见",
+     "delayMs": 2000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "等",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "等ㄧ",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "等一下，是和老师一起泡温泉吗？",
+     "delayMs": 1500,
+     "story": {
+      "favorRank": 6,
+      "scenarioGroup": 2001006,
+      "path": "/res/story/2001006.json"
+     }
+    }
+   ]
+  }
+ ]
+}

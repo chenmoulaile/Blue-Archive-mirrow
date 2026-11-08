@@ -1,0 +1,274 @@
+{
+ "characterId": 10057,
+ "studentId": 145,
+ "devName": "CH0191",
+ "name": "黑馆晴奈",
+ "avatar": "/res/avatar/145.png",
+ "messageCount": 37,
+ "threads": [
+  {
+   "favorRank": 2,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "您好，老师"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "新的一年即将到来，您过得如何呢？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "跟平时差不多吧。羽留奈呢？",
+       "nextGroup": 100570040
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "呵呵",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我在年末也依然进行著对美食的探究……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "但是对美食来说，季节和气氛也是重要的要素之一",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "也就是说，年始年末的这个时期",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "正是挑战别具特色美食的好机会",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "这，这样啊……",
+       "nextGroup": 100570070
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "没必要想得那么困难唷",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "基于这个理由，老师",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "能请您陪我一下吗？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "什，什么理由……！？",
+       "nextGroup": 100570100
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "favorRank": 3,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "您认为工作的结果与过程哪个比较重要呢？",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "真是困难的问题呢……",
+       "nextGroup": 100570130
+      },
+      {
+       "text": "虽然我觉得两个都很重要……",
+       "nextGroup": 100570130
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "果然是这样呢",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "结果固然重要",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "但是，也不能说过程就没有意义……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我想美食之路或许也是一样的",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "是……吗？",
+       "nextGroup": 100570160
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "唔呵呵",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "今天就来探究这个过程吧",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "敬请期待唷",
+     "delayMs": 1500,
+     "story": {
+      "favorRank": 3,
+      "scenarioGroup": 1005703,
+      "path": "/res/story/1005703.json"
+     }
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，今天非常感谢您",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "下次请务必一同享受最棒的美食吧",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "唔呵呵",
+     "delayMs": 1000
+    }
+   ]
+  },
+  {
+   "favorRank": 5,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "之前的约定，您还记得吗？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "记得唷。是要享受最棒的美食对吧",
+       "nextGroup": 100570240
+      },
+      {
+       "text": "当然，是要一起去捕梭子蟹对吧？",
+       "nextGroup": 100570220
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "……？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "虽然不知道您把我和谁搞错了……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "是要享受最棒美食的约定。不过捕螃蟹似乎也不错……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "虽然当天才连络您，稍后能占用您一点时间吗？",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那么，时间和地点是……",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 5,
+      "scenarioGroup": 1005705,
+      "path": "/res/story/1005705.json"
+     }
+    }
+   ]
+  }
+ ]
+}

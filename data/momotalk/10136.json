@@ -1,0 +1,367 @@
+{
+ "characterId": 10136,
+ "studentId": 576,
+ "devName": "CH0337",
+ "name": "和泉元艾米",
+ "avatar": "/res/avatar/576.png",
+ "messageCount": 46,
+ "threads": [
+  {
+   "favorRank": 2,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "睡得好吗，老师？"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "有人在吗？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "嗯？",
+       "nextGroup": 101360040
+      }
+     ]
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "谢谢你叫我起来，英美……",
+       "nextGroup": 101360050
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "有起来就好",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "待会见",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 2,
+      "scenarioGroup": 1013602,
+      "path": "/res/story/1013602.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 3,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "晚餐好吃吗？"
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "不好吃也不难吃……大概就那样吧……",
+       "nextGroup": 101360090
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "真是直率的感想呢",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我觉得热量足够就很好了",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "英美接下来要做什么？",
+       "nextGroup": 101360110
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "大概",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "会去进行夜间侦察吧",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "夜间……什么？",
+       "nextGroup": 101360130
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "favorRank": 5,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老!#@$%!^师？"
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "英美？",
+       "nextGroup": 101360150
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "太@^#*&好了",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "这个大概",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "最*&#SA~后电池",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "传送&@ad*&座标",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 5,
+      "scenarioGroup": 1013605,
+      "path": "/res/story/1013605.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 6,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "今天也辛苦了，老师"
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "一天要结束了呢……",
+       "nextGroup": 101360180
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "就是说啊",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "时间感有时候真是随心所欲呢",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "今天大部分都是室内工作吧？",
+       "nextGroup": 101360200
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "嗯",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "所以想稍微转换一下心情",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 6,
+      "scenarioGroup": 1013606,
+      "path": "/res/story/1013606.json"
+     }
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "你没事吧？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "我没什么事啊，怎么了？",
+       "nextGroup": 101360240
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "只是想说你会不会感冒",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "觉得有点担心",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "我没那么弱啦……",
+       "nextGroup": 101360260
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "原来如此",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "有点可惜",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不是啦",
+     "delayMs": 2000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "太好了",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "你刚才想说什么……！",
+       "nextGroup": 101360300
+      },
+      {
+       "text": "快点从实招来，英美同学！",
+       "nextGroup": 101360300
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "没什么",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "只是……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "听说要让人暖和起来",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "人的体温是最有效率的",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "……英美？",
+       "nextGroup": 101360330
+      }
+     ]
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "英美同学！？！？",
+       "nextGroup": 0
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

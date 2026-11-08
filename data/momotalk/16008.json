@@ -1,0 +1,375 @@
+{
+ "characterId": 16008,
+ "studentId": 63,
+ "devName": "CH0141",
+ "name": "合欢垣吹雪",
+ "avatar": "/res/avatar/63.png",
+ "messageCount": 49,
+ "threads": [
+  {
+   "favorRank": 2,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "这里是生活安全局1年级的吹雪，进行定期联络"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "今天也没有发现异常，将继续执行任务",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "吹雪，你是不是传错人了？",
+       "nextGroup": 160080040
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "嗯，我知道的，别担心",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那么，努力工作吧",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "……吹雪？你说别担心是指……？",
+       "nextGroup": 160080060
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "这个我也不太清楚……",
+     "delayMs": 2000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "总之先去警备局问问看怎么样？",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "警备局……？",
+       "nextGroup": 160080080
+      }
+     ]
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "吹雪，你没事吧？",
+       "nextGroup": 160080090
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "嗯，我也这么觉得",
+     "delayMs": 2000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "……？",
+       "nextGroup": 160080110
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "favorRank": 3,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "……"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "因为之前在值勤时间摸鱼被抓到的关系……",
+     "delayMs": 2000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "被处罚要在假日巡逻……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "就连假日都得要工作，多不合理啊……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "这不是你自作自受吗……",
+       "nextGroup": 160080140
+      }
+     ]
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "不过，假日也是有可能发生犯罪的嘛。加油吧",
+       "nextGroup": 160080150
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "奇普托斯基本上是个和平的地方啊……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "顶多就是会发生学生们的枪击战或是炸毁店铺之类的而已嘛……",
+     "delayMs": 2000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "「而已」……？",
+       "nextGroup": 160080170
+      },
+      {
+       "text": "虽然确实有很多原因，不过警察不该说这种话吧……",
+       "nextGroup": 160080170
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "麻烦死了……",
+     "delayMs": 2000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不然……老师，这个周末要不要一起巡逻啊？",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "两个人分别做的话，说不定一下就搞定了！？",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "是没关系啦，不过把处罚丢给别人……",
+       "nextGroup": 160080200
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "favorRank": 5,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，有事件！"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "根据警备局的情报，一直以来都因为交易非法武器而被通缉的犯人，今天据说会出现在黑市！",
+     "delayMs": 2500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "因为不知道犯人什么时候会通过，看来先在附近埋伏比较好",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我们立刻出动吧！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "……吹雪？",
+       "nextGroup": 160080230
+      },
+      {
+       "text": "是不是哪里不舒服？",
+       "nextGroup": 160080230
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那是什么反应",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "警察对事件很积极是什么奇怪的事吗？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "可是吹雪……",
+       "nextGroup": 160080250
+      },
+      {
+       "text": "不是很讨厌出外勤吗？",
+       "nextGroup": 160080250
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "现在不是说这些的时候了！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，我先到现场去等你！",
+     "delayMs": 1500,
+     "story": {
+      "favorRank": 5,
+      "scenarioGroup": 1600805,
+      "path": "/res/story/1600805.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 6,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "好闲啊……"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "手边的游戏都玩完了，好无聊……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "那试著好好工作怎么样呢？",
+       "nextGroup": 160080290
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "绝对不要。不如开始「什么都不做」吧……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "再说现在也没有任何工作要做",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "生活安全局平常都在做什么呢？",
+       "nextGroup": 160080310
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "平常啊……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "其实生活安全局本来就没什么工作",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "虽然桐乃会自己找事做，不过基本上都是坐著待命哦",
+     "delayMs": 2000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "硬要说的话就是睡午觉吧",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "那不算是工作吧",
+       "nextGroup": 0
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

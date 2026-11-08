@@ -1,0 +1,422 @@
+{
+ "characterId": 10080,
+ "studentId": 316,
+ "devName": "CH9997",
+ "name": "食蜂操祈",
+ "avatar": "/res/avatar/316.png",
+ "messageCount": 60,
+ "threads": [
+  {
+   "favorRank": 2,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "嗯"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "结果还是变成这样了吗？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "食蜂？",
+       "nextGroup": 100800040
+      },
+      {
+       "text": "发生什么事了？",
+       "nextGroup": 100800040
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "啊，没什么",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "只是没想到来到这里也能收发简讯",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "觉得太惊讶了，所以才想测试看看☆",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 2,
+      "scenarioGroup": 1008002,
+      "path": "/res/story/1008002.json"
+     }
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "怎么样？",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "果汁好喝吗？有稍微清醒一点了吗？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "因为太苦",
+       "nextGroup": 100800070
+      },
+      {
+       "text": "我整个人都清醒了",
+       "nextGroup": 100800070
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "对吧？",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那真是太好了，事情解决☆",
+     "delayMs": 1000
+    }
+   ]
+  },
+  {
+   "favorRank": 3,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "没想到会在这里待这么久"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "是不是该拟定一下对策了呢？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "待这么久？",
+       "nextGroup": 100800110
+      },
+      {
+       "text": "有什么事吗？",
+       "nextGroup": 100800110
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "其实也没什么",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "只是自从来到这里就一直存在的问题",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "该说是有点烦闷，还是说有点难集中精神呢",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "原来如此，我明白了",
+       "nextGroup": 100800140
+      },
+      {
+       "text": "我有个好方法",
+       "nextGroup": 100800140
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "……？",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师？",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 3,
+      "scenarioGroup": 1008003,
+      "path": "/res/story/1008003.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 5,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "这里不仅很有趣"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "而且从某个角度来看，其实这里跟我们的世界也没什么不同",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "没错",
+       "nextGroup": 100800180
+      },
+      {
+       "text": "你们能适应的话就太好了",
+       "nextGroup": 100800180
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "感觉老师的应变能力一直都不是很好呢",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那会不会也是一种习惯呢",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "嗯……",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "这样也好",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我也有个好办法",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 5,
+      "scenarioGroup": 1008005,
+      "path": "/res/story/1008005.json"
+     }
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "嗯？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "找我有事吗？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "食蜂，那个……",
+       "nextGroup": 100800230
+      },
+      {
+       "text": "刚才的事……",
+       "nextGroup": 100800230
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "刚才的事？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我什么都想不起来耶？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "这种时候就让过去的事情过去比较好吧",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "对吧？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "下次见啰，老师",
+     "delayMs": 1000
+    }
+   ]
+  },
+  {
+   "favorRank": 6,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "嗯～"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "有没有什么适合的地方呢",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，你有没有什么好的建议？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "适合的地方？",
+       "nextGroup": 100800280
+      },
+      {
+       "text": "在找什么吗？",
+       "nextGroup": 100800280
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "嗯",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我肚子有点饿，所以在找适合的餐厅……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "只不过",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我的标准有点高",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 6,
+      "scenarioGroup": 1008006,
+      "path": "/res/story/1008006.json"
+     }
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "太厉害了，老师。之前是我低估你了",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "还有……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "看来似乎有人能替老师进行「验证」呢",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "如果方便的话，能不能向我介绍一下呢？我也对他们有点兴趣",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "这……我并不推荐",
+       "nextGroup": 100800340
+      },
+      {
+       "text": "抱歉。为了大家，我没办法这么做",
+       "nextGroup": 100800340
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "？",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "？？？？？？",
+     "delayMs": 1500
+    }
+   ]
+  }
+ ]
+}

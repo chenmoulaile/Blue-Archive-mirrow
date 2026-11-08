@@ -1,0 +1,569 @@
+{
+ "characterId": 20044,
+ "studentId": 523,
+ "devName": "CH0287",
+ "name": "乙花堇",
+ "avatar": "/res/avatar/523.png",
+ "messageCount": 77,
+ "threads": [
+  {
+   "favorRank": 2,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "指导员"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "你在吗？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "我现在正躺在床上",
+       "nextGroup": 200440040
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我知道了",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "既然躺下来了",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那我就来说明一下",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "躺著的状态下可以做什么训练吧",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "找我就是为了说训练的事吗！？",
+       "nextGroup": 200440070
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "啊",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不是那样的",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "其实是因为我要开始打工了",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "所以想先跟老师说一声",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "怎么突然要打工呢？",
+       "nextGroup": 200440100
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "因为最近有一款新型的训练机正在特价",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "但我现在的资金不足，没办法直接买下来",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "要多少钱？",
+       "nextGroup": 200440120
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "45万",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "原价是60万元",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "好贵！",
+       "nextGroup": 200440140
+      }
+     ]
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "这个金额的话，没办法申请预算吗？",
+       "nextGroup": 200440150
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那样会花太多时间",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "等预算拨下来的时候，特价早就结束了",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "而且最重要的是",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "这份打工还能兼顾锻炼身体，简直是一举两得",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "有这种打工吗……！",
+       "nextGroup": 200440180
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "看来直接让老师看看比较快呢",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我们在田径运动场见吧",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 2,
+      "scenarioGroup": 2004402,
+      "path": "/res/story/2004402.json"
+     }
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "事情有了一个很好的结果，指导员",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不，就算说是最好的结果也不为过",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "怎么说呢？",
+       "nextGroup": 200440220
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "之前提过的那款训练机",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我可以一次付清买下来了",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "一次付清！？",
+       "nextGroup": 200440240
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "没错，指导员",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "原来所谓的劳动，能换来这么好的成果啊",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不过这其实跟训练也相差无几",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "明明都一样会让身体劳累……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "为什么大家只逃避训练呢？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "这，这个嘛……",
+       "nextGroup": 200440290
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "favorRank": 3,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "指导员"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "你觉得生活中，什么是最重要的呢？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "休息！",
+       "nextGroup": 200440320
+      },
+      {
+       "text": "游戏！",
+       "nextGroup": 200440340
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "休息的确很重要呢",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "如果只顾著训练而忽略休息的话，除了有受伤的风险之外",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "也会阻碍肌肉的成长",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "游戏……？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "是作为纾解压力的一环是吗？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "没有适时放松压力，确实会对身体造成负担",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不过我还是觉得",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "生活中没有什么比「健康」更重要了",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 3,
+      "scenarioGroup": 2004403,
+      "path": "/res/story/2004403.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 5,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "指导员"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "可以打扰你一下吗？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "当然可以。有什么事吗？",
+       "nextGroup": 200440400
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "其实是我们之前去的那个运动场",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那边的经理主动联络了我",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "所以我希望能寻求指导员的建议",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "运动场的经理联络你……？",
+       "nextGroup": 200440430
+      }
+     ]
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "知道了。我马上过去！",
+       "nextGroup": 200440440
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "favorRank": 6,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "你好啊，指导员"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "其实也没什么事，只是想跟你打个招呼而已",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "如果方便的话，要不要来我们训练中心",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "一起活动一下身体呢？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "有空的话我也很想这么做，但现在事情非同小可，堇！",
+       "nextGroup": 200440480
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "嗯？",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "在我印象中，这好像是我第一次看到",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "指导员这么慌张的样子呢",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "现在整个网路上都在疯狂讨论堇的事情！",
+       "nextGroup": 200440510
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "讨论我……？",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "究竟发生什么事了？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "总之先见面再说吧！",
+       "nextGroup": 200440530
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "如果我没记错的话……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "指导员主动说要见我",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "似乎是极为罕见的情况呢",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "在某种层面上，这对我来说也是十分值得纪念的事件",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "而且也稍微有点期待",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那么我就不客气了，待会见",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 6,
+      "scenarioGroup": 2004406,
+      "path": "/res/story/2004406.json"
+     }
+    }
+   ]
+  }
+ ]
+}

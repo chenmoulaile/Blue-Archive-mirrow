@@ -1,0 +1,243 @@
+{
+ "characterId": 20029,
+ "studentId": 56,
+ "devName": "CH0183",
+ "name": "水羽弥守",
+ "avatar": "/res/avatar/56.png",
+ "messageCount": 31,
+ "threads": [
+  {
+   "favorRank": 2,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "今天去海边的准备完成了吗？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "嗯……话说我该准备什么才好呢……",
+       "nextGroup": 200290040
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "呵呵。没关系的",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "基本的东西我会准备好，老师只要人来就行了",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "啊，不过……泳装还是要请老师自己准备唷？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "那不是当然的吗……",
+       "nextGroup": 200290060
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "呵呵，那就在我的房间前碰面吧",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我会等著您的",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 2,
+      "scenarioGroup": 2002902,
+      "path": "/res/story/2002902.json"
+     }
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "对日光浴还满意吗，老师？"
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "问题是好像太满意了……",
+       "nextGroup": 200290100
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "咦？那是什么意思……？",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那个……应该不是哪里不舒服吧？",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "托三森的福，完全没问题！",
+       "nextGroup": 200290120
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "是吗？呵呵，那真是太好了",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那么下次再见",
+     "delayMs": 1000
+    }
+   ]
+  },
+  {
+   "favorRank": 3,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "您好，老师"
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "你好呀，三森",
+       "nextGroup": 200290160
+      },
+      {
+       "text": "今天天气也很好呢～",
+       "nextGroup": 200290160
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "啊，是的，就是说啊",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "微风徐徐，相当舒适",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "总觉得会有好事发生",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那么今天也加油吧！",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 3,
+      "scenarioGroup": 2002903,
+      "path": "/res/story/2002903.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 5,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "您好，老师"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "今天我想和老师一起在海边度过……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "请问是否方便呢？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "当然没问题",
+       "nextGroup": 200290220
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那么就麻烦您了",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我……感到非常期待",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "竟然会如此怦然心动……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "那，那个，不用那么紧张哦……？",
+       "nextGroup": 0
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

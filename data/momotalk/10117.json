@@ -1,0 +1,518 @@
+{
+ "characterId": 10117,
+ "studentId": 365,
+ "devName": "CH0242",
+ "name": "橘光",
+ "avatar": "/res/avatar/365.png",
+ "messageCount": 70,
+ "threads": [
+  {
+   "favorRank": 2,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师帮帮我"
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "嗨，光",
+       "nextGroup": 101170030
+      },
+      {
+       "text": "怎么了吗？",
+       "nextGroup": 101170030
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "糟糕",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "光好无聊",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "需要刺激",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "抱歉，我现在帮不上忙……",
+       "nextGroup": 101170050
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "为什么",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "为什么嘛",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "为什么啦～～～",
+     "delayMs": 500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "我正在出差……",
+       "nextGroup": 101170070
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "呜呜",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "快点结束嘛",
+     "delayMs": 500,
+     "story": {
+      "favorRank": 2,
+      "scenarioGroup": 1011702,
+      "path": "/res/story/1011702.json"
+     }
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "下次也要",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "搭光的列车哦",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "可以吗？",
+       "nextGroup": 101170110
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "嗯",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "再一起玩吧",
+     "delayMs": 1000
+    }
+   ]
+  },
+  {
+   "favorRank": 3,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "有什么兴趣吗？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "光很好奇",
+     "delayMs": 500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "这个嘛……",
+       "nextGroup": 101170160
+      },
+      {
+       "text": "反正不是工作就对了……",
+       "nextGroup": 101170160
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "光",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "也一样",
+     "delayMs": 500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "光的兴趣是什么呢？",
+       "nextGroup": 101170180
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "蚂蚁",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "喜欢吗？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "话题怎么突然变得怪怪的？",
+       "nextGroup": 101170200
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "favorRank": 5,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "光"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "危险",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "超级危险",
+     "delayMs": 500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "难道又是蚂蚁！？",
+       "nextGroup": 101170230
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "哼",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "蚂蚁什么的",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "光轻松解决",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "那是怎么了呢？",
+       "nextGroup": 101170250
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "光正在对抗世界",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "真不容易",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "好像在做什么了不起的事……",
+       "nextGroup": 101170270
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "下次的冒险是",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "鳄鱼游泳池",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "有信心吗？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "尽管放马过来",
+       "nextGroup": 101170290
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那里",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "要用四肢爬行",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "才能存活",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "等一下，那实在有点……",
+       "nextGroup": 101170310
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "favorRank": 6,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "光"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "今天休假",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "真羡慕",
+       "nextGroup": 101170340
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我要在夏莱",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "过夜",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "这么突然！？",
+       "nextGroup": 101170360
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "favorRank": 8,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "光"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "有少吃点心",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "甜甜的东西",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "也只吃一点点",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "做得很棒哦",
+       "nextGroup": 101170400
+      },
+      {
+       "text": "也有好好刷牙吧？",
+       "nextGroup": 101170400
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "嗯",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "要挑战其他事情",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "来代替吃甜点",
+     "delayMs": 500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "类似什么……？",
+       "nextGroup": 101170420
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "没有极限的光选手",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "肯定",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "酷毙了",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 8,
+      "scenarioGroup": 1011708,
+      "path": "/res/story/1011708.json"
+     }
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,528 @@
+{
+ "characterId": 13014,
+ "studentId": 535,
+ "devName": "CH0302",
+ "name": "不破莲华",
+ "avatar": "/res/avatar/535.png",
+ "messageCount": 74,
+ "threads": [
+  {
+   "favorRank": 2,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "师父，你有听过这种说法吗？"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "类似衣服面积越少，防御力越高之类的",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "像，像是比基尼铠甲吗？",
+       "nextGroup": 130140040
+      },
+      {
+       "text": "你，你是从哪里听来的！？",
+       "nextGroup": 130140040
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "当然我也知道这种说法很荒谬",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "穿著泳装修炼什么的，实在有点害羞",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "但是挑战这种事情，不也是青春的一部分吗？",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "所以今天我打算穿著泳装修炼看看",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "要去游泳池吗？",
+       "nextGroup": 130140070
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不，我要去山上",
+     "delayMs": 500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "穿泳装去山上！？",
+       "nextGroup": 130140090
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "好──！",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "就这么决定了！",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "师父你也带上泳装吧！",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 2,
+      "scenarioGroup": 1301402,
+      "path": "/res/story/1301402.json"
+     }
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "师父！顺利回去了吗？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "今天的修炼真的很有趣吧？",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "果然……就算有点害羞，也值得鼓起勇气",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "下次就是泳装修炼第二弹……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "到时候也一起来吧，师父！",
+     "delayMs": 500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "……拜托下次请考虑泳装不会掉的那种",
+       "nextGroup": 130140150
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "哈哈，我会考虑的！",
+     "delayMs": 500
+    }
+   ]
+  },
+  {
+   "favorRank": 3,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "师父"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "泳装修炼第二弹！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "这次也陪我一起吧！",
+     "delayMs": 500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "是什么修炼？",
+       "nextGroup": 130140190
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "这次的舞台是……",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "大海！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "哦，海边……！我要去！",
+       "nextGroup": 130140210
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "呵呵，我就知道师父会喜欢",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那我来安排时间，到时候见啰！",
+     "delayMs": 500,
+     "story": {
+      "favorRank": 3,
+      "scenarioGroup": 1301403,
+      "path": "/res/story/1301403.json"
+     }
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "师父！顺利回去了吗？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "哎呀，就算是我，想靠木筏脱困还是有点勉强啊",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "全身的肌肉都痛得要命呢",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "嗯？师父你还有在看吗？",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "明明有显示已读却没有回复",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "难道是连动手指的力气都没有了吗……",
+     "delayMs": 500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "哦　啊",
+       "nextGroup": 130140270
+      },
+      {
+       "text": "…………",
+       "nextGroup": 130140270
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "啊，果然是这样啊",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "下次改试更轻松的修炼吧",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我会再联络，在那之前好好休息吧",
+     "delayMs": 500
+    }
+   ]
+  },
+  {
+   "favorRank": 5,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "这次我想到了和海边很搭的修炼"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那就是营火晚会！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "哦哦，营火晚会！",
+       "nextGroup": 130140320
+      },
+      {
+       "text": "立刻出发吧！",
+       "nextGroup": 130140320
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "呵呵，很有趣吧？",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那我们待会见！",
+     "delayMs": 500,
+     "story": {
+      "favorRank": 5,
+      "scenarioGroup": 1301405,
+      "path": "/res/story/1301405.json"
+     }
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那个，师父",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "平安回去了吧？",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "这次好像又是我太过热情了",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "让你看到丢脸的一面了，抱歉",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "我没事！",
+       "nextGroup": 130140370
+      },
+      {
+       "text": "因为很开心所以没关系！",
+       "nextGroup": 130140370
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "嗯，你这么说我就放心了。谢谢你，师父",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那我们下次再见吧",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "到时候我一定会弥补今天的失误！",
+     "delayMs": 500
+    }
+   ]
+  },
+  {
+   "favorRank": 6,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那个"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我有件事想和师父在海边一起做……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "可以陪我吗？",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "这次不是修炼，所以不用有压力",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我想弥补一下营火晚会的事",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "好！只要莲华开口，我哪里都去！",
+       "nextGroup": 130140430
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "嗯！谢谢你，师父！",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那这次也在晚上的海边见吧！",
+     "delayMs": 500,
+     "story": {
+      "favorRank": 6,
+      "scenarioGroup": 1301406,
+      "path": "/res/story/1301406.json"
+     }
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "师父觉得今天怎么样？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "烟火很有趣！",
+       "nextGroup": 130140460
+      },
+      {
+       "text": "青春的感觉真好！",
+       "nextGroup": 130140460
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "师父也满意的话，我就放心了",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我也……很开心",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "所以下次再一起放烟火吧",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "到时候我会准备更大的烟火",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "当然也不会太大的",
+     "delayMs": 500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "嗯，我很期待！",
+       "nextGroup": 130140510
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "嘿嘿，那下次再一起享受青春吧！",
+     "delayMs": 500
+    }
+   ]
+  }
+ ]
+}

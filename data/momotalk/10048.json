@@ -1,0 +1,350 @@
+{
+ "characterId": 10048,
+ "studentId": 36,
+ "devName": "Saori",
+ "name": "锭前纱织",
+ "avatar": "/res/avatar/36.png",
+ "messageCount": 44,
+ "threads": [
+  {
+   "favorRank": 2,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师"
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "沙织！？",
+       "nextGroup": 100480030
+      }
+     ]
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "沙织居然会联络我……！",
+       "nextGroup": 100480040
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "有这么吃惊吗……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我本来也没打算要联络你",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "但发生了点问题",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "问题？",
+       "nextGroup": 100480070
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "是只有老师能解决的问题……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我知道这样很厚脸皮。但……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "我知道了，马上过去！",
+       "nextGroup": 100480100
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "……是吗",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那么，我等著",
+     "delayMs": 1500,
+     "story": {
+      "favorRank": 2,
+      "scenarioGroup": 1004802,
+      "path": "/res/story/1004802.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 3,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那个……老师，今天天气真好啊"
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "咦……！？",
+       "nextGroup": 100480140
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "……怎么了吗，老师？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "没有，只是沙织居然会聊天气……",
+       "nextGroup": 100480160
+      },
+      {
+       "text": "吓了我一跳！",
+       "nextGroup": 100480160
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "……就算是我，也会有想闲聊的时候",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "前几天多亏了老师，我才能顺利开设帐户",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "近期也开始收到各种委托，所以想传达一下近况",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "如果不需要的话，之后我会避免",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "不不不，我也想知道沙织的近况！最近有发生什么事吗！？",
+       "nextGroup": 100480200
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "太浮夸了……我最近在处理黑市介绍的委托",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "太好了！",
+       "nextGroup": 100480220
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "算不算好我也不太清楚……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "嗯，应该算是好事吧",
+     "delayMs": 2000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "有事的话会再联络",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "啊……",
+       "nextGroup": 100480250
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "favorRank": 5,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，有鉴于上次的失败"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "这次黑市的委托",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我有确实写好合约",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "是吗？那真是太好了！",
+       "nextGroup": 100480280
+      }
+     ]
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "话说这次是什么委托呢？",
+       "nextGroup": 100480290
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "是个挺简单的任务",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "只需要结束黑市的纷争而已",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "沙，沙，沙织！？",
+       "nextGroup": 100480320
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "favorRank": 15,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，我想老师说不定会知道"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "请问你有认识手艺不错的修理工吗？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我有设备想要修理",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "嗯？是什么种类的设备？",
+       "nextGroup": 100480350
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "这……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "说来话长，在这里有点难解释",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我过去找你",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "直接见面谈吧",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 15,
+      "scenarioGroup": 1004815,
+      "path": "/res/story/1004815.json"
+     }
+    }
+   ]
+  }
+ ]
+}

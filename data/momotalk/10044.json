@@ -1,0 +1,239 @@
+{
+ "characterId": 10044,
+ "studentId": 40,
+ "devName": "CH0092",
+ "name": "十六夜野宫",
+ "avatar": "/res/avatar/40.png",
+ "messageCount": 32,
+ "threads": [
+  {
+   "favorRank": 2,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，你好～☆"
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "野乃美，怎么了？",
+       "nextGroup": 100440030
+      },
+      {
+       "text": "妳好，野乃美",
+       "nextGroup": 100440030
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "刚好有时间",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "现在正要去野餐的事先调查",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "可以的话老师要一起去吗？",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "野餐……！",
+       "nextGroup": 100440060
+      },
+      {
+       "text": "真期待呢，妳现在在哪里？",
+       "nextGroup": 100440060
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "渡假村的入口前！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我等你唷☆",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 2,
+      "scenarioGroup": 1004402,
+      "path": "/res/story/1004402.json"
+     }
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，平安回家了吗？",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "暂时，会把座位维持原样",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "想休息的时候随时都可以使用唷☆",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "因为是只有老师可以使用的，特等席♡",
+     "delayMs": 1500
+    }
+   ]
+  },
+  {
+   "favorRank": 3,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，你好～☆"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "请问现在有时间吗？",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "怎么了？",
+       "nextGroup": 100440140
+      },
+      {
+       "text": "当然没问题唷。怎么了？",
+       "nextGroup": 100440140
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那个啊",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "现在，我到森林里采椰子……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "但是，发生了点问题……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "所以我在想老师能不能来帮帮我～！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "马上过去唷",
+       "nextGroup": 100440170
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "非常感谢，老师♡",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我等你唷～！",
+     "delayMs": 1500,
+     "story": {
+      "favorRank": 3,
+      "scenarioGroup": 1004403,
+      "path": "/res/story/1004403.json"
+     }
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "骑肩膀的事，请向大家保密唷",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "约好了唷♡",
+     "delayMs": 1000
+    }
+   ]
+  },
+  {
+   "favorRank": 5,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，晚安～"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "已经休息了吗？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "……唔～嗯",
+     "delayMs": 2000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "果然，什么事都没有",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "晚安，祝你有个好梦☆",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 5,
+      "scenarioGroup": 1004405,
+      "path": "/res/story/1004405.json"
+     }
+    }
+   ]
+  }
+ ]
+}

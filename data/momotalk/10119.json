@@ -1,0 +1,516 @@
+{
+ "characterId": 10119,
+ "studentId": 254,
+ "devName": "CH0222",
+ "name": "御稜名草",
+ "avatar": "/res/avatar/254.png",
+ "messageCount": 67,
+ "threads": [
+  {
+   "favorRank": 2,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "啊，老师"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不好意思，你刚刚有找我吗？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "嗨，名草！",
+       "nextGroup": 101190040
+      },
+      {
+       "text": "嗯，看来你最近很忙呢",
+       "nextGroup": 101190040
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我刚才在训练，所以把手机放在旁边",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "有什么急事吗……？",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "还是需要我帮忙？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "没有什么急事，只是我明天打算去一趟百鬼夜行",
+       "nextGroup": 101190070
+      }
+     ]
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "想说能不能聊一下百花缭乱的合作业务",
+       "nextGroup": 101190080
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "明天……？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "时间方面倒不成问题，但由我来真的可以吗？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "……怎么说呢？",
+       "nextGroup": 101190100
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我只是觉得像我这种不值一提的人",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "决定百花缭乱的重要业务真的没问题吗？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "怎么会，现在百花缭乱的代表可是名草你哦？",
+       "nextGroup": 101190130
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "啊",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "抱歉，我总是会忘记",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那么明天见。我会等你来的",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 2,
+      "scenarioGroup": 1011902,
+      "path": "/res/story/1011902.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 3,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "你这周末会来百鬼夜行举办的商店街庆典吗？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "没意外的话应该会过去哦",
+       "nextGroup": 101190180
+      }
+     ]
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "正好商会也希望我能过去一趟",
+       "nextGroup": 101190190
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "原来如此",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那么到时候或许能见到面呢",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我也因为商会的请托，要去协助庆典",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "名草会在庆典中负责什么呢？",
+       "nextGroup": 101190220
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我……会在摊位上烤串烧",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "因为准备食物的人手不够",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "名草亲手烤的串烧，好期待！",
+       "nextGroup": 101190250
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "到时候似乎还会卖各种小吃",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "希望大家都能玩得开心",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师也要好好享受庆典哦",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 3,
+      "scenarioGroup": 1011903,
+      "path": "/res/story/1011903.json"
+     }
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "谢谢你，老师",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "多亏有你的帮忙，我和商店街的人聊得很开心",
+     "delayMs": 1000
+    },
+    {
+     "kind": "image",
+     "from": "student",
+     "text": "",
+     "image": "UIs/03_Scenario/04_ScenarioImage/Mo_CH0222_01",
+     "delayMs": 2500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "看来你玩得很愉快呢",
+       "nextGroup": 101190310
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "嗯",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "就像老师说的一样，我坦白说出心里的想法之后，大家都很高兴",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不过才刚说完，大家就笑成了一团",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我到最后还是不知道哪里好笑",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "你说了什么呢？",
+       "nextGroup": 101190340
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "就算我看起来是个难以亲近的神秘冷酷美少女，大家也可以轻松对待我没关系",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "名草",
+       "nextGroup": 101190360
+      }
+     ]
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "我觉得你比自己想像中还要有趣得多哦",
+       "nextGroup": 101190370
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "是吗……？",
+     "delayMs": 1000
+    }
+   ]
+  },
+  {
+   "favorRank": 5,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不知道是不是我的错觉"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "最近在天黑后闹事的妖怪剧团好像变多了",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "可能是因为天气变热的关系吧？",
+       "nextGroup": 101190410
+      },
+      {
+       "text": "毕竟就连不良学生也没办法对抗炎热啊",
+       "nextGroup": 101190410
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "……或许是吧",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "况且夜里看守的人比较少",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "要摸黑做坏事也更容易",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "所以我打算暂时增加夜间巡逻的频率",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不然要是有人因为晚上的恶作剧受伤就麻烦了",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "百花缭乱真辛苦呢",
+       "nextGroup": 101190460
+      }
+     ]
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "名草你也要小心哦",
+       "nextGroup": 101190470
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "没事的",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "其实我的夜视力意外的还不错哦",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 5,
+      "scenarioGroup": 1011905,
+      "path": "/res/story/1011905.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 6,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，你听过雪女的故事吗？"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "在故事里面，雪女大多被描绘成美女……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "有什么特别的原因吗？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "原因应该有很多……",
+       "nextGroup": 101190520
+      }
+     ]
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "可能是因为比较容易吸引目光吧？",
+       "nextGroup": 101190530
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "确实有可能",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "如果缺少能吸引目光的魅力外貌，无论设下什么陷阱都很难让人轻易中招吧",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "从这个角度来看，我没变成妖怪真是太好了",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "充满自信的态度很不错哦",
+       "nextGroup": 0
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,632 @@
+{
+ "characterId": 10140,
+ "studentId": 66,
+ "devName": "CH0173",
+ "name": "高仓胡桃",
+ "avatar": "/res/avatar/66.png",
+ "messageCount": 83,
+ "threads": [
+  {
+   "favorRank": 2,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，听说你在找我"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "有什么事吗？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "难道你被卷入危险事件了吗？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "啊，胡桃，我正好在找你",
+       "nextGroup": 101400040
+      }
+     ]
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "我在附近的商店街收到了水果牛奶，拿去喝吧",
+       "nextGroup": 101400050
+      }
+     ]
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "胡桃喜欢甜甜的牛奶吧？",
+       "nextGroup": 101400060
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "等一下",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "你怎么会知道我的喜好",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不对",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "你是把我当成只要有零食就会开开心心跑过去的小孩子吗？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "别为了这种小事把SRT的特殊队员叫出来啦！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "真的不要吗？",
+       "nextGroup": 101400100
+      },
+      {
+       "text": "这可是放了真正的水果，超级高级的水果牛奶呢",
+       "nextGroup": 101400100
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那个……",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "嗯……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "有草莓牛奶吗？",
+     "delayMs": 2000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "还有香蕉和哈密瓜，你想要哪个就拿去吧",
+       "nextGroup": 101400130
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那我等作战结束提交报告的时候顺便去拿",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我再说一次",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我绝对不是为了牛奶才去的哦！",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 2,
+      "scenarioGroup": 1014002,
+      "path": "/res/story/1014002.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 3,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "好累……"
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "昨晚是有什么作战吗？",
+       "nextGroup": 101400180
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "没有",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "其实是睡前在SNS上看到有趣的短影音",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不小心看了太久没注意时间，结果就错过了睡觉的时机",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "看短影音的时候，时间确实会过得很快呢",
+       "nextGroup": 101400210
+      },
+      {
+       "text": "感觉比长影片还容易让人上瘾",
+       "nextGroup": 101400210
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "没错",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我最近常看一种叫Life Hack，\n能用在日常生活中的简单小技巧影片",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不过最近好像越来越多影片，明明只是简单的作业却硬要包装成生活小技巧，还用上一些莫名其妙的工具",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "但是说实话，边看短影音边谈论效率低落也挺好笑的",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "不过用平凡的物品来克服难关，确实很有意思呢",
+       "nextGroup": 101400250
+      }
+     ]
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "总觉得有点像马○先……",
+       "nextGroup": 101400260
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "马○先？那是什么？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "嗯……这有点难说明",
+       "nextGroup": 101400280
+      }
+     ]
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "算是Life Hack的代名词之类的",
+       "nextGroup": 101400290
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "？",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "大人有时候真的会用一些奇怪的流行语呢",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 3,
+      "scenarioGroup": 1014003,
+      "path": "/res/story/1014003.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 5,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "这附近有没有可以拍证件照的地方呢？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "附近好像没有照相馆……",
+       "nextGroup": 101400330
+      }
+     ]
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "怎么突然要拍证件照？",
+       "nextGroup": 101400340
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "因为作战需要重新申请一份证明文件",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "然后得附上最近的证件照才行",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "所以SRT学园时期用的证件照不能用了",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "用证件快照机怎么样？",
+       "nextGroup": 101400370
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "证件快照机？",
+     "delayMs": 500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "嗯，车站前有个可以拍证件照的证件快照机",
+       "nextGroup": 101400390
+      }
+     ]
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "那是24小时营业的，要不要试试看？",
+       "nextGroup": 101400400
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "证件快照机有点……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "嗯……",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "看来只能这样了",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我知道了，我之后试试看",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 5,
+      "scenarioGroup": 1014005,
+      "path": "/res/story/1014005.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 6,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我最近在玩一款刚上市的RPG手游"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "这个游戏，盾兵的能力值好像太差了",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "别的职业就算了，攻击力比武僧还低也太过分了吧？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "会不会是因为角色平衡的关系啊？",
+       "nextGroup": 101400450
+      },
+      {
+       "text": "也有人认为盾牌是偏重防御的装备",
+       "nextGroup": 101400450
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不过",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "盾牌可不是单纯的防具哦",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "根据使用者的不同，也能变得比一般武器还有威胁性呢",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "盾牌能变成武器……？",
+       "nextGroup": 101400480
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "毕竟那基本上就是一块巨大的铁块嘛",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "光是我用的盾牌就有几十kg了呢",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "你都是单手拿著它走动的吗！？",
+       "nextGroup": 101400500
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "？",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那当然啊，我另一只手不是还拿著枪吗？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "盾兵果然很强呢……",
+       "nextGroup": 101400530
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "favorRank": 8,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，你听说那个传闻了吗？"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "最近这附近的巷子里，好像出现了以财物为目标的强盗",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "会在人烟稀少的昏暗巷弄里偷偷跟在后面",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "再从背后突袭将人击倒，然后把财物洗劫一空的样子",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "真是令人不安的传闻呢……",
+       "nextGroup": 101400570
+      }
+     ]
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "犯人还没被抓到吗？",
+       "nextGroup": 101400580
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "女武神已经展开了集中搜查，应该很快就会抓到了……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不过老师你也要小心",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "而且你的身体本来就比我们脆弱，还常常一个人走夜路，对吧？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "如果有需要的话",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "只要在夏莱附近喊我一声，我就会去接你",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "胡桃要来接我啊？总觉得有点心动呢",
+       "nextGroup": 101400630
+      },
+      {
+       "text": "可以穿著围裙来接我吗？",
+       "nextGroup": 101400630
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "闭嘴啦！",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我不是那个意思！",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 8,
+      "scenarioGroup": 1014008,
+      "path": "/res/story/1014008.json"
+     }
+    }
+   ]
+  }
+ ]
+}

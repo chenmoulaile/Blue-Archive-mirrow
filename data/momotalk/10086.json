@@ -1,0 +1,209 @@
+{
+ "characterId": 10086,
+ "studentId": 346,
+ "devName": "CH0230",
+ "name": "空崎日奈",
+ "avatar": "/res/avatar/346.png",
+ "messageCount": 26,
+ "threads": [
+  {
+   "favorRank": 2,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，我想咨询一下工作的事"
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "好，夏莱出动！",
+       "nextGroup": 100860030
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "呃，嗯？出动……？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "要在哪里碰面？阳奈",
+       "nextGroup": 100860050
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "啊，嗯。原来出动是马上碰面的意思啊",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "……呵呵。很有老师的风格",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "今天我会去夏莱找你",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "待会见啰，老师",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 2,
+      "scenarioGroup": 1008602,
+      "path": "/res/story/1008602.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 3,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，有关之前说的约定……"
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "嗯，这次放假要去买阳奈的礼服！",
+       "nextGroup": 100860100
+      },
+      {
+       "text": "我一直盼望能和阳奈去购物的这天！",
+       "nextGroup": 100860100
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "呵呵……谢谢老师说得这么热情",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "话说关于购买礼服的地点",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "因为万魔殿和许多问题学生都对我们风纪委员怀恨在心",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "如果去格黑娜的购物中心，可能会遇到很多问题",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "所以……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "要在格黑娜自治区的外围碰面对吧？我知道了",
+       "nextGroup": 100860150
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "嗯，我把地址传给你",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "在那里见吧。老师",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 3,
+      "scenarioGroup": 1008603,
+      "path": "/res/story/1008603.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 5,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，请问明天有时间吗？"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "因为这次在格黑娜派对上的演奏结束了，行程稍微有点空档……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "可以的话，明天我想跟老师见一面",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "阳奈的行程居然有空档，真是太难得了！",
+       "nextGroup": 100860200
+      },
+      {
+       "text": "不能错过这宝贵的机会！我马上过去！",
+       "nextGroup": 100860200
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "呵呵，真像老师你的回答",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那我明天在派对大厅等你",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 5,
+      "scenarioGroup": 1008605,
+      "path": "/res/story/1008605.json"
+     }
+    }
+   ]
+  }
+ ]
+}

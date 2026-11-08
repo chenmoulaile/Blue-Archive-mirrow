@@ -1,0 +1,429 @@
+{
+ "characterId": 10065,
+ "studentId": 143,
+ "devName": "CH0107",
+ "name": "桑上果穗",
+ "avatar": "/res/avatar/143.png",
+ "messageCount": 53,
+ "threads": [
+  {
+   "favorRank": 2,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "您好，老师"
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "哈，哈啰……请问是哪位？",
+       "nextGroup": 100650030
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "之前没有私下跟您联络过呢",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我是百鬼夜行联合学园的阴阳部副部长，也是在百鬼夜行观光文化产业宣传支援部──",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "担任战略领袖的桑上佳穗",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "虽然有些迟了，还是希望能向夏莱的老师问好",
+     "delayMs": 500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "战略，宣传……？",
+       "nextGroup": 100650070
+      },
+      {
+       "text": "请，请多指教……话说这么突然有什么事吗？",
+       "nextGroup": 100650070
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "是关于先前跟您联络过的「那件事」",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "先前？那件事……？",
+       "nextGroup": 100650090
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我想跟您讨论相关事宜，请问今天是否方便呢？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "啊，嗯。今天可以唷",
+       "nextGroup": 100650110
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "非常感谢。那么我马上就到",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "这么快！？",
+       "nextGroup": 100650130
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "favorRank": 3,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，前些日子造成您天大的困扰……"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "真是非常抱歉",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "那不算什么麻烦，别这么说",
+       "nextGroup": 100650160
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "承蒙您的体贴……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "作为给您添麻烦的赔罪，能请您来百鬼夜行一趟吗？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "嗯，现在过去可以吗？",
+       "nextGroup": 100650180
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "好的，那么我会等待您的到来",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "我马上过去哦",
+       "nextGroup": 100650200
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我，桑上佳穗，今天会完美地与老师伴游",
+     "delayMs": 500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "伴游……？",
+       "nextGroup": 100650220
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "favorRank": 5,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，请问您今天是否有空呢？"
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "有时间哦，怎么了吗？",
+       "nextGroup": 100650240
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我想履行之前的约定……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "就是，那个……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "已经做好伴游的准备了，所以才会联络您",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "所以，老师。如果您愿意的话……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "嗯，我知道了。现在过去可以吗？",
+       "nextGroup": 100650280
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "好的，非常感谢",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那么，我等待著您的到来",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 5,
+      "scenarioGroup": 1006505,
+      "path": "/res/story/1006505.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 6,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "呵呵呵"
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "发生什么好事了吗？",
+       "nextGroup": 100650310
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，请您听我说",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "总算……终于！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "终于……！？",
+       "nextGroup": 100650330
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "阴阳部特别订购的百鬼夜行宣传周边送到了！",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "恭喜你！",
+       "nextGroup": 100650350
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "呵呵，老师要不要也拿一个呢？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "当然，如果您不介意的话……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "谢谢，我立刻过去！",
+       "nextGroup": 100650380
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "呵呵，我会等著您的到来",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 6,
+      "scenarioGroup": 1006506,
+      "path": "/res/story/1006506.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 15,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师您好。我是佳穗"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "听说您明天会到阴阳部办公",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "嗯，是这样没错哦",
+       "nextGroup": 100650420
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "呵呵，很高兴又能见到老师",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "工作结束之后，要不要到休息室喝杯茶再走？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "在整洁的气氛中休息，也可以提高工作效率",
+     "delayMs": 2000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "当然好，我很乐意",
+       "nextGroup": 100650450
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "非常感谢",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那么，我会等候您的到来",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 15,
+      "scenarioGroup": 1006515,
+      "path": "/res/story/1006515.json"
+     }
+    }
+   ]
+  }
+ ]
+}

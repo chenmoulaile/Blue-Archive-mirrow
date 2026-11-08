@@ -1,0 +1,472 @@
+{
+ "characterId": 10142,
+ "studentId": 537,
+ "devName": "CH0303",
+ "name": "御稜名草",
+ "avatar": "/res/avatar/537.png",
+ "messageCount": 64,
+ "threads": [
+  {
+   "favorRank": 2,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "你好，老师"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "找我有什么事吗？"
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "最近天气很热，想说关心一下你过得好不好",
+       "nextGroup": 101420040
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "啊……嗯",
+     "delayMs": 2000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "谢谢你的关心",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "没事的，我有趁空档想办法消暑",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "像是去海边玩？",
+       "nextGroup": 101420070
+      },
+      {
+       "text": "像是去水上乐园玩？",
+       "nextGroup": 101420070
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "其实……",
+     "delayMs": 2000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "是和平常一样的射击练习",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "只是把武器换成了水枪",
+     "delayMs": 2000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "也就是说……在玩水枪？",
+       "nextGroup": 101420100
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "要这么说的话……或许是吧",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 2,
+      "scenarioGroup": 1014202,
+      "path": "/res/story/1014202.json"
+     }
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "看来是我太过担心了",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我们的部员也和老师说了一样的话",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "他们说就算我穿上泳装，也不会有人因此而痛苦",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "对啊！我就说是白担心了嘛",
+       "nextGroup": 101420140
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "嗯",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "所以下次……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我打算和部员们一起去海边",
+     "delayMs": 2000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "一定……会是一段快乐的时光",
+     "delayMs": 2000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "不错耶！要记得擦防晒乳哦！",
+       "nextGroup": 101420170
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "嗯。谢谢你，老师",
+     "delayMs": 1000
+    }
+   ]
+  },
+  {
+   "favorRank": 3,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "自从和部员们去过海边之后……"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "最近只要一有空，我就会往海边跑",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "海边好玩吧？",
+       "nextGroup": 101420210
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "嗯，很好玩",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "游泳既有助于锻炼身体",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "也很适合摆脱杂念",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "而且大海也有它独有的韵味",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我为什么没有更早一点去海边呢？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "从现在开始多去几次不就好了！",
+       "nextGroup": 101420240
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "……嗯，是啊",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "得更常去海边才行",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 3,
+      "scenarioGroup": 1014203,
+      "path": "/res/story/1014203.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 5,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "嗯……"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "海边好像还是在流传有雪女出现的传闻呢",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "去一一解释的话，感觉只会加深误会而已",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "该怎么做才好呢？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "再一起去海边吧！",
+       "nextGroup": 101420290
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "只要持续让大家看到不是雪女的我",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "奇怪的传闻很快就会消失了，是吗？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "嗯……我知道了",
+     "delayMs": 2000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "毕竟全都是为了名草嘛",
+       "nextGroup": 101420320
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师果然别有心思呢",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "为什么！？",
+       "nextGroup": 101420340
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "今天回去的路上，我偶然听到了这样的消息",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "海边出现雪女的传闻……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "全都是骗人的",
+     "delayMs": 2000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "哦哦，计划成功了呢！",
+       "nextGroup": 101420370
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "嗯，成功了",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "现在可以安心地去海边了",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "你还会再跟我一起去吧？",
+       "nextGroup": 101420390
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "嗯",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那就下次见",
+     "delayMs": 2000
+    }
+   ]
+  },
+  {
+   "favorRank": 6,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，听说这周都会是适合外出活动的好天气"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "所以……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "周末有空吗？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "当然啰！",
+       "nextGroup": 101420440
+      },
+      {
+       "text": "我正想问你呢！",
+       "nextGroup": 101420440
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那就再一起去海边吧",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "总觉得这次也会有开心的事发生",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 6,
+      "scenarioGroup": 1014206,
+      "path": "/res/story/1014206.json"
+     }
+    }
+   ]
+  }
+ ]
+}

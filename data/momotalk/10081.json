@@ -1,0 +1,336 @@
+{
+ "characterId": 10081,
+ "studentId": 318,
+ "devName": "CH0161",
+ "name": "勘解由小路紫",
+ "avatar": "/res/avatar/318.png",
+ "messageCount": 41,
+ "threads": [
+  {
+   "favorRank": 2,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "您好！老师！"
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "你好呀，紫。今天也一样充满活力呢",
+       "nextGroup": 100810030
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "是！随时充满活力是我勘解由小路紫无数的优点之一！",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不过……最近也只有在老师面前才会展现出这一面",
+     "delayMs": 2500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "发生什么事了？",
+       "nextGroup": 100810050
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那个……最近家里好像变得特别严格……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "说是时候精进勘解由小路家应有的素养，所以要学的东西也变多了……",
+     "delayMs": 2000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "要是每天都这样埋头苦学……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我将来一定会变成左手打算盘、右手按计算机的学习之鬼的！",
+     "delayMs": 2500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "虽然很好奇哪里会有这种鬼……！",
+       "nextGroup": 100810080
+      }
+     ]
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "不过我认为偶尔也需要喘口气",
+       "nextGroup": 100810090
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "喘口气？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "喘口气……喘口气……是吗，唔唔",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "紫明白了！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那么我就接受老师的建议……现在马上去拜访老师！",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "嗯？现在马上……？",
+       "nextGroup": 100810120
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "是！",
+     "delayMs": 500,
+     "story": {
+      "favorRank": 2,
+      "scenarioGroup": 1008102,
+      "path": "/res/story/1008102.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 3,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "小女子最近在吃饭后点心的时候……"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "想到了一个惊人的好～主意",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "虽然有点突然，不过是什么好主意？",
+       "nextGroup": 100810160
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "像和菓子、蒙～布朗，还有布～丁等等……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "世界上有很多甜的点心！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "但是经过深思熟虑后……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "得出了咸食也很适合当点心的结论！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "如果能开发出咸的点心，小女子就可以尽情享受甜咸交错的滋味而不容易腻了……！",
+     "delayMs": 2000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "咸的点心不是很多吗……？",
+       "nextGroup": 100810200
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "……什么？",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 3,
+      "scenarioGroup": 1008103,
+      "path": "/res/story/1008103.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 5,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，虽然多少有些厚颜无耻……"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "但继上次之后……！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "今天我勘解由小路紫，也想向老师学习各种事物！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "嗯，那我会在夏莱等你",
+       "nextGroup": 100810240
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "是！我立刻过去！",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 5,
+      "scenarioGroup": 1008105,
+      "path": "/res/story/1008105.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 6,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，有个大～新闻！"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "听说今天百鬼夜行第七商店街会举办叫做「抽奖仪式」的特别活动！",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "啊，是商店街常办的活动啊",
+       "nextGroup": 100810280
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "听说商品之中，好像还有奥德赛海洋高级中学渡假胜地的招待券",
+     "delayMs": 2500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "奖品还真豪华呢",
+       "nextGroup": 100810300
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "没错，那么无须多言……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "嗯，走吧",
+       "nextGroup": 100810320
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "是！我会在平时的地方等候著您！",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 6,
+      "scenarioGroup": 1008106,
+      "path": "/res/story/1008106.json"
+     }
+    }
+   ]
+  }
+ ]
+}

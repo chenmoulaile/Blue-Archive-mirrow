@@ -1,0 +1,401 @@
+{
+ "characterId": 20019,
+ "studentId": 132,
+ "devName": "CH0099",
+ "name": "室笠茜",
+ "avatar": "/res/avatar/132.png",
+ "messageCount": 53,
+ "threads": [
+  {
+   "favorRank": 2,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "您好，主人"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "所谓女仆，是以服务为业的人",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "侍奉主人的人，就该穿著女仆装……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "嗯……应该，是吧？",
+       "nextGroup": 200190040
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "虽然我一直是这么认为",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "但最近我有了新的想法",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "敬请期待",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "嗯……嗯？",
+       "nextGroup": 200190070
+      },
+      {
+       "text": "我很期待？",
+       "nextGroup": 200190070
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "之后有时间的话，可以请您务必到我房里一下吗？",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我会等著您的",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我的主人",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 2,
+      "scenarioGroup": 2001902,
+      "path": "/res/story/2001902.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 3,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "之前真是非常失礼"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "因为太过慌张而做出了无礼的举动",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "非常对不起",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "不……该道歉的是我",
+       "nextGroup": 200190120
+      },
+      {
+       "text": "不如该说非常感谢！",
+       "nextGroup": 200190120
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "还能让我再服务您吗？",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "在彼此都冷静的……只属于我们两个人的时间",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "没，没有其他意思吧？",
+       "nextGroup": 200190140
+      },
+      {
+       "text": "请务必这么做！",
+       "nextGroup": 200190150
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "呃……那是什么意思呢？",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 3,
+      "scenarioGroup": 2001903,
+      "path": "/res/story/2001903.json"
+     }
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那我就放心了……我等著您哦",
+     "delayMs": 1500,
+     "story": {
+      "favorRank": 3,
+      "scenarioGroup": 2001903,
+      "path": "/res/story/2001903.json"
+     }
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "睡得好吗，主人？",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "托你的福，我睡得很好",
+       "nextGroup": 200190180
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "太好了",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "其实，那个茶叶……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "似乎有能提高睡眠品质的放松效果……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "多少能消除一些疲惫的话，我泡的茶也有意义了",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "原来是这样啊，谢谢",
+       "nextGroup": 200190220
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "您的话真令人开心",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "主人的幸福，就是我的幸福",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "话说回来，朱音来到夏莱有什么事吗？",
+       "nextGroup": 200190240
+      }
+     ]
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "还是是来打扫的呢？",
+       "nextGroup": 200190250
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "是为什么呢？",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "能看到主人的睡脸",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "真是幸运，仅此而已",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "蹦蹦",
+     "delayMs": 1000
+    }
+   ]
+  },
+  {
+   "favorRank": 5,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "工作怎么样呢，主人？"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我今天不用值班",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "这种空闲的时间真是久违了",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "朱音平常休息的时候都会做什么呢？",
+       "nextGroup": 200190310
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "这个嘛",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "虽然有很多想做的事……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "但期望的只有一件事",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "偶然……真的是偶然就好",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "能遇到主人的话会很开心……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我一直是这么想的",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 5,
+      "scenarioGroup": 2001905,
+      "path": "/res/story/2001905.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 6,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "晚安。今天也会晚回去吗？"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "真担心主人的健康……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "哇呜，是工作……我最爱工作了……",
+       "nextGroup": 200190380
+      },
+      {
+       "text": "到底是谁发明文件这种东西的呢……",
+       "nextGroup": 200190380
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "主人！？振作一点！！",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 6,
+      "scenarioGroup": 2001906,
+      "path": "/res/story/2001906.json"
+     }
+    }
+   ]
+  }
+ ]
+}

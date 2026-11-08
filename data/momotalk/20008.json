@@ -1,0 +1,404 @@
+{
+ "characterId": 20008,
+ "studentId": 39,
+ "devName": "Ako",
+ "name": "天雨亚子",
+ "avatar": "/res/avatar/39.png",
+ "messageCount": 55,
+ "threads": [
+  {
+   "favorRank": 2,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "一直以来承蒙您的关照"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我是格黑娜风纪委员会的行政官天雨亚子",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "这次联络您，是想讨论有关与夏莱合作的业务相关事项",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "亚子……？",
+       "nextGroup": 200080040
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "稍后将发给您详细的日期与地点，很抱歉在百忙之中打扰，希望能占用您的一些时间",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "还请您多加指教",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "唔，嗯",
+       "nextGroup": 200080060
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "辛苦了，老师",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "虽然和今天提及的事无关，但在确认后发现，昨晚似乎是由于配电相关的工程所导致的暂时停电",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "……对了，不嫌弃的话，需不需要100台左右的监视摄影机？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "不需要",
+       "nextGroup": 200080090
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "……唉",
+     "delayMs": 1000
+    }
+   ]
+  },
+  {
+   "favorRank": 3,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "真受不了"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "真的是做不下去了……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "亚子？",
+       "nextGroup": 200080130
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "怎么这样一个接著一个……！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "那个，没事吧……？",
+       "nextGroup": 200080150
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，我有件重要的事──",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "而且是件急事，能请您马上过来吗？",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "您不会弃我不顾吧？",
+     "delayMs": 500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "好，好的……",
+       "nextGroup": 200080170
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "今天也辛苦了",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那么之后也拜托您了唷",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "已经确定还有下一次了啊……",
+       "nextGroup": 200080190
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "favorRank": 5,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "今天找您不为别的……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "今天很忙",
+       "nextGroup": 200080220
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "咦？",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那是什么反应！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "先说我不买哦",
+       "nextGroup": 200080240
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "被当成强迫推销的人了……！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "什么嘛，真是的！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "是那个吗，新的欺凌方式吗？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "真受不了，连老师都这样……",
+     "delayMs": 500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "……？",
+       "nextGroup": 200080270
+      },
+      {
+       "text": "没事吧？发生了什么事吗？",
+       "nextGroup": 200080270
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "唉……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "这么说也没错",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "虽然也不是什么大事",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不过",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "？",
+       "nextGroup": 200080310
+      },
+      {
+       "text": "……亚子？",
+       "nextGroup": 200080310
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，平安到家了吗？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "抱歉，我把项圈带回去了",
+       "nextGroup": 200080330
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "啊啊，原来如此",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "这样啊",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "我明天拿去还你唷",
+       "nextGroup": 200080350
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "好的",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "啊",
+     "delayMs": 2000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不，不用带来也没关系",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "请老师留著吧",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "……？",
+       "nextGroup": 200080390
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "今天也辛苦了",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那么，下次见啰",
+     "delayMs": 1000
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,466 @@
+{
+ "characterId": 26015,
+ "studentId": 542,
+ "devName": "CH0292",
+ "name": "仲正一花",
+ "avatar": "/res/avatar/542.png",
+ "messageCount": 65,
+ "threads": [
+  {
+   "favorRank": 2,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "大海……"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "话说大海好像",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "总是被各种媒体包装成浪漫的象征",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "实际来了之后，却没什么好做的呢",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "多多享受青春吧",
+       "nextGroup": 260150050
+      },
+      {
+       "text": "怎么像个被工作压垮的社会人士一样……",
+       "nextGroup": 260150050
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "哈哈",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "说的也是",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 2,
+      "scenarioGroup": 2601502,
+      "path": "/res/story/2601502.json"
+     }
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "后来",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我仔细想了想",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "觉得休养好像不太适合我",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "呵呵",
+     "delayMs": 500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "多多享受青春吧",
+       "nextGroup": 260150100
+      },
+      {
+       "text": "怎么像个被工作压垮的社会人士一样……",
+       "nextGroup": 260150100
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "好像有股既视感呢，嘿嘿",
+     "delayMs": 1000
+    }
+   ]
+  },
+  {
+   "favorRank": 3,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师你睡了吗？"
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "没有，怎么了？",
+       "nextGroup": 260150130
+      },
+      {
+       "text": "嗯，正打算要睡",
+       "nextGroup": 260150150
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "只是有点睡不著而已",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不是什么大事",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "啊",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "……？",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "嗯",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "呵呵",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "晚安",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 3,
+      "scenarioGroup": 2601503,
+      "path": "/res/story/2601503.json"
+     }
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "果然",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "有种吃亏的感觉",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "嗯？什么意思？",
+       "nextGroup": 260150200
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "明明是难得的散步",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "结果怎么变成面谈了呢",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "睡不著的话再跟我说！",
+       "nextGroup": 260150230
+      },
+      {
+       "text": "下次再一起夜间散步吧！",
+       "nextGroup": 260150230
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不是",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那也",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "唔嗯",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "也不错呢，哈哈",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "晚安",
+     "delayMs": 1000
+    }
+   ]
+  },
+  {
+   "favorRank": 5,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "你睡了吗？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "没有，我醒著",
+       "nextGroup": 260150290
+      },
+      {
+       "text": "这则讯息我等很久了",
+       "nextGroup": 260150310
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那么",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "可以占用你一点时间吗？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "哈哈",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师也太夸张了",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "在住处前的海边见吧",
+       "nextGroup": 260150330
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "好",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 5,
+      "scenarioGroup": 2601505,
+      "path": "/res/story/2601505.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 6,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "抱歉……"
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "怎么了？",
+       "nextGroup": 260150360
+      },
+      {
+       "text": "发生什么事了？",
+       "nextGroup": 260150360
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "唔",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "一定",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "要我说出来吗？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "是关于昨晚的事",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "我刚好也有话想说",
+       "nextGroup": 260150400
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "咦？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "在住处前见吧！",
+       "nextGroup": 260150420
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "嗯？",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "啊，好",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 6,
+      "scenarioGroup": 2601506,
+      "path": "/res/story/2601506.json"
+     }
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我真的会随心所欲的哦？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "嗯，嗯！",
+       "nextGroup": 260150460
+      },
+      {
+       "text": "还请手下留情……",
+       "nextGroup": 260150460
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "哈哈",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "好",
+     "delayMs": 1000
+    }
+   ]
+  }
+ ]
+}

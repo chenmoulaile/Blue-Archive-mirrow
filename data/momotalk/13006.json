@@ -1,0 +1,312 @@
+{
+ "characterId": 13006,
+ "studentId": 107,
+ "devName": "mutsuki",
+ "name": "浅黄睦月",
+ "avatar": "/res/avatar/107.png",
+ "messageCount": 43,
+ "threads": [
+  {
+   "favorRank": 2,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "好～闲～！(つ ◑▽◑)つ"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，现在在做什么～？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "在工作唷",
+       "nextGroup": 130060040
+      },
+      {
+       "text": "在呼吸唷",
+       "nextGroup": 130060050
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "是吗？哼嗯，这样啊",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那可不能打扰你呀",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那么，加油哦～老师！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "啊哈哈哈！！",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "这样啊～嗯嗯！呼吸是非常重要的！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我也支持你呼吸唷。老师♪",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那么，加油哦～！",
+     "delayMs": 500,
+     "story": {
+      "favorRank": 2,
+      "scenarioGroup": 1300602,
+      "path": "/res/story/1300602.json"
+     }
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "呵呵呵",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "今天很开心呢～老师！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "下次再多玩一会儿吧",
+     "delayMs": 1000
+    }
+   ]
+  },
+  {
+   "favorRank": 3,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，今天有空吧？"
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "那个，很忙……？",
+       "nextGroup": 130060100
+      },
+      {
+       "text": "你为什么知道！？",
+       "nextGroup": 130060110
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "咦～？很忙吗～？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "嘛，但没有关系！",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "因为老师从一开始就没有选择权！",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "嗯～？为什么？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "……呵呵呵，可不能小看我们便利屋的情报收集能力唷～！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "所以今天，希望你来我们便利屋玩！\n(≧∇≦)ﾉ",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 3,
+      "scenarioGroup": 1300603,
+      "path": "/res/story/1300603.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 5,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师有什么兴趣爱好吗？"
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "当然",
+       "nextGroup": 130060150
+      },
+      {
+       "text": "没有可以称之为兴趣的东西……",
+       "nextGroup": 130060160
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "这样啊～有兴趣果然很不错呢～",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "毕竟沉迷其中的话，时间就会过得很快～",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "对自己喜欢的领域更加了解的话，会有成就感吧？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "很有趣吧～！",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "哼嗯，这样啊～？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "这样可能就有点可惜了～",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "有朝一日想跟老师聊聊兴趣爱好～应该会很有趣！(〇╹ヮ╹〇)",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 5,
+      "scenarioGroup": 1300605,
+      "path": "/res/story/1300605.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 6,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，我们便利屋收到了一个特别的委托！"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "又会是非常奇怪的委托吧～？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "但同时又会很有趣吧～？",
+     "delayMs": 500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "究竟是什么奇怪的委托能让无月说成这样……",
+       "nextGroup": 130060210
+      },
+      {
+       "text": "究竟是什么有趣的委托能让无月说成这样……",
+       "nextGroup": 130060210
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "嗯～嘛嘛！先别管细节了！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "真希望老师能帮忙啊～？",
+     "delayMs": 500,
+     "story": {
+      "favorRank": 6,
+      "scenarioGroup": 1300606,
+      "path": "/res/story/1300606.json"
+     }
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "今天一天过得很开心唷～老师！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "下次绝对会成功给你看",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "做好觉悟吧～！＼( ╹ω╹) /",
+     "delayMs": 500
+    }
+   ]
+  }
+ ]
+}

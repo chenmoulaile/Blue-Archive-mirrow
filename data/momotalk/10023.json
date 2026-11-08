@@ -1,0 +1,365 @@
+{
+ "characterId": 10023,
+ "studentId": 122,
+ "devName": "CH0064",
+ "name": "银镜伊织",
+ "avatar": "/res/avatar/122.png",
+ "messageCount": 47,
+ "threads": [
+  {
+   "favorRank": 2,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，可以拜托你一件事吗？"
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "当然，什么事都可以",
+       "nextGroup": 100230030
+      },
+      {
+       "text": "嗯，我该做什么？",
+       "nextGroup": 100230030
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "下次来格黑娜的时候，想请你帮忙买个防晒乳",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "因为一直使用的用完了，所以想在合宿之前添购",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "但风纪委员会的工作比想像中还要忙……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "没问题，交给我",
+       "nextGroup": 100230055
+      }
+     ]
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "是「Seaside」的防晒乳吧？",
+       "nextGroup": 100230060
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "嗯，就是那个",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那么，拜托了",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 2,
+      "scenarioGroup": 1002302,
+      "path": "/res/story/1002302.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 3,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "……准备好了吗？"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "再提醒一次，绝对不准跟其他学生说！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "……伊织？",
+       "nextGroup": 100230100
+      },
+      {
+       "text": "这是要发给我的讯息吗？",
+       "nextGroup": 100230100
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "……哈？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "ｊㄎㄚｋｌｆ",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "没，没事！",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "请忘记刚才发的讯息！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "你这样说，反而更让人在意……",
+       "nextGroup": 100230130
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那个……谢谢你陪我练习游泳。老师",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "托你的福，虽说还不是很熟练，但总算会游一点了……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "这样就不用带游泳圈去合宿了",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "那真是太好了。对了，伊织",
+       "nextGroup": 100230160
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "……怎么了？",
+     "delayMs": 500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "看游泳圈上的图案，难道伊织喜欢鸭子？",
+       "nextGroup": 100230180
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "吵死了！去死！",
+     "delayMs": 500
+    }
+   ]
+  },
+  {
+   "favorRank": 5,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，你现在在哪？"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我收到联络，海之家附近似乎有不良分子在滋事",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "身为格黑娜的风纪委员会，可不能放任不管",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "只是不知道对方的数量，其他风纪委员也无法抽身，所以希望老师能来帮忙",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "啊，可能会掉进海里，我想最好穿泳衣过来！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "咦，等一下等一下！？",
+       "nextGroup": 100230230
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "favorRank": 6,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师。刚才听柜台说你已经半天没有回来了……"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "现在在哪里？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "在沙滩上",
+       "nextGroup": 100230260
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "沙滩？你究竟在沙滩上做什么……？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "只是躺著",
+       "nextGroup": 100230280
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "哈……？为什么？",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不，不用说。我知道了",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我找到手铐后就马上过去，待在那里不要动",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "等等，你在想什么？",
+       "nextGroup": 100230310
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "favorRank": 15,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，发生了紧急情况"
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "嗯？怎么了？",
+       "nextGroup": 100230330
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "有太妹在海边的餐厅闹事",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "之前明明扫荡一空了，结果不知道又从哪里冒了出来……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "总之，希望老师能来现场协助指挥",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "我知道了。地点在哪里呢？",
+       "nextGroup": 0
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

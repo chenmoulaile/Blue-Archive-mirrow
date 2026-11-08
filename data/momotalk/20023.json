@@ -1,0 +1,343 @@
+{
+ "characterId": 20023,
+ "studentId": 144,
+ "devName": "CH0170",
+ "name": "尾刃叶渚",
+ "avatar": "/res/avatar/144.png",
+ "messageCount": 45,
+ "threads": [
+  {
+   "favorRank": 2,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我是女武神警察学园公安局的局长尾刃环奈"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "明天10点30分前后，我会去拜访夏莱的办公室",
+     "delayMs": 2000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "这个时候终于还是到了吗……",
+       "nextGroup": 200230040
+      },
+      {
+       "text": "我是冤枉的！",
+       "nextGroup": 200230040
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "……那是什么意思？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我指的是之前和您约好担任夏莱值日生的事……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "会造成您的困扰吗？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "啊啊，是值日生的事啊……",
+       "nextGroup": 200230070
+      },
+      {
+       "text": "没有问题唷，没事的",
+       "nextGroup": 200230070
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那就好……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那么明天会在刚才所说的时间前去拜访",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 2,
+      "scenarioGroup": 2002302,
+      "path": "/res/story/2002302.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 3,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，很抱歉这么晚打扰您"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我是女武神警察学园的尾刃环奈",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "怎么了吗？",
+       "nextGroup": 200230120
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "很抱歉，因为我个人的一些原因……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "下周值日生的安排，可以稍做更改吗？",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "这种小事没问题唷",
+       "nextGroup": 200230140
+      },
+      {
+       "text": "发生什么状况了吗？",
+       "nextGroup": 200230140
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那些警备局的笨蛋们又……",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "请忘了吧",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "因为传来了紧急要求，我必须参加作战",
+     "delayMs": 2000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "真辛苦呢……",
+       "nextGroup": 200230190
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "这是身为公安局局长应尽的义务",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那么，关于值日生的日程我会另外发讯息联络您",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "请老师别在意事件，好好休息",
+     "delayMs": 1500,
+     "story": {
+      "favorRank": 3,
+      "scenarioGroup": 2002303,
+      "path": "/res/story/2002303.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 5,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "女武神警察学园的餐厅虽然便宜且选择丰富"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不过营业时间相当有限",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "一专注于工作就时常错过营业时间",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "也经常没有用餐……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "不能在外面吃吗？",
+       "nextGroup": 200230250
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不，并没有那种规定……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不过明明还有工作却在外面用餐，会让我有点抗拒",
+     "delayMs": 1500,
+     "story": {
+      "favorRank": 5,
+      "scenarioGroup": 2002305,
+      "path": "/res/story/2002305.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 6,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "这么说来，在生活安全局里"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "似乎有不少学生想转调至警备局或搜查局",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "我好像也听过",
+       "nextGroup": 200230290
+      },
+      {
+       "text": "有很多吗……？",
+       "nextGroup": 200230290
+      }
+     ]
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "话说环奈一开始就是想进入公安局吗？",
+       "nextGroup": 200230300
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "您说我吗？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我的话",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "1年级时是想加入生活安全局的……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "但被人说这张脸担任市民窗口的工作会有困难……",
+     "delayMs": 2000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "那还真是……",
+       "nextGroup": 200230340
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "您有什么想说的吗？",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "没有，什么都没有！",
+       "nextGroup": 0
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

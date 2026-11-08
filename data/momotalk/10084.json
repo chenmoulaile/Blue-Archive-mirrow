@@ -1,0 +1,370 @@
+{
+ "characterId": 10084,
+ "studentId": 341,
+ "devName": "CH0232",
+ "name": "音濑小玉",
+ "avatar": "/res/avatar/341.png",
+ "messageCount": 46,
+ "threads": [
+  {
+   "favorRank": 2,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "根据我不久前在八卦杂志上看到的情报……"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "据说爬山被选为",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "最适合情侣一起做的运动",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "爬山？为什么……？",
+       "nextGroup": 100840040
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "因为登山不需要很多装备或备品，入门相对容易",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "再加上人少的特性",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "似乎很适合两人单独交谈",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "原来如此……",
+       "nextGroup": 100840060
+      },
+      {
+       "text": "那确实是优点",
+       "nextGroup": 100840060
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "所以",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "这周末就更令人期待了",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "为什么……？",
+       "nextGroup": 100840080
+      }
+     ]
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "……那个，小玉同学？",
+       "nextGroup": 100840090
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "favorRank": 3,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "确实如副部长所说"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "或许今年应该增强一下体力比较好",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "这确实是个不错的想法……",
+       "nextGroup": 100840120
+      }
+     ]
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "……为什么突然这么想？",
+       "nextGroup": 100840130
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "因为骇客活动也需要一定的体力",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "借由上次的登山，我深切地感受到……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "如果能像千寻副部长一样，具备能轻松攀爬险地的体力……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "就能在难以靠近的地方进行窃听了",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "这到底是什么理由……",
+       "nextGroup": 100840160
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "favorRank": 5,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，这周末你有时间吗？"
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "目前没有行程……",
+       "nextGroup": 100840180
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那这周末要不要一起去爬山？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "……我想为上次雪耻",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "我是可以配合啦……",
+       "nextGroup": 100840200
+      }
+     ]
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "这次也要带火柴去吗？",
+       "nextGroup": 100840210
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不，这次不用带没关系",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "因为我打算排除所有人为因素……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "录下真正属于自然的声音",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 5,
+      "scenarioGroup": 1008405,
+      "path": "/res/story/1008405.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 6,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我在整理上次爬山录下的声音时……"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "发现有一部分混入了杂音……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "所以之后必须再找时间上山一趟……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "难道是录到我的声音了吗……？",
+       "nextGroup": 100840250
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不，不是这样的",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "如果录到了老师的声音，反而会有其他更好的用途",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "啊",
+     "delayMs": 500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "小玉还是那个小玉呢……",
+       "nextGroup": 100840280
+      }
+     ]
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "对了，如果要上山的话可以带我一起去吗？",
+       "nextGroup": 100840290
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "咦？",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师到山上有什么事吗？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "因为我们都只爬到半山腰就回来了……",
+       "nextGroup": 100840310
+      }
+     ]
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "这次就一起爬到山顶吧",
+       "nextGroup": 100840320
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "嗯",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "……嗯？",
+     "delayMs": 1500,
+     "story": {
+      "favorRank": 6,
+      "scenarioGroup": 1008406,
+      "path": "/res/story/1008406.json"
+     }
+    }
+   ]
+  }
+ ]
+}

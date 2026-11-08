@@ -1,0 +1,482 @@
+{
+ "characterId": 20001,
+ "studentId": 175,
+ "devName": "karin",
+ "name": "角楯花凛",
+ "avatar": "/res/avatar/175.png",
+ "messageCount": 67,
+ "threads": [
+  {
+   "favorRank": 2,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "C&C侍奉千年。因为这是身为女仆的工作"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "虽然不知道是什么任务，但明天的任务似乎要在千年的市区进行",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "女仆的任务的话……清扫？",
+       "nextGroup": 200010040
+      },
+      {
+       "text": "要小心唷",
+       "nextGroup": 200010050
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "……这么说也不算错",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "消除危害千年的人",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "或许也能称为清扫吧",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "当然，不管是不是清扫……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "谢谢你为我担心",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不管是什么任务……C&C都会全力侍奉的",
+     "delayMs": 1500,
+     "story": {
+      "favorRank": 2,
+      "scenarioGroup": 2000102,
+      "path": "/res/story/2000102.json"
+     }
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "刚才得救了，谢谢。感激不尽",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "总有一天会以侍奉报答的",
+     "delayMs": 1500
+    }
+   ]
+  },
+  {
+   "favorRank": 3,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "如果我有更多的力量"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "就能将「数学」这门科目从这个世界上消除了……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "怎么突然这么说？",
+       "nextGroup": 200010110
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "一时昏头了不好意思……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "在去图书馆的路上，突然想跟老师说",
+     "delayMs": 1500,
+     "story": {
+      "favorRank": 3,
+      "scenarioGroup": 2000103,
+      "path": "/res/story/2000103.json"
+     }
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那个，第二个梦想……实现的时候会好好告诉你的",
+     "delayMs": 2000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "虽然我没有跟任何人说过",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "但不管怎样，老师八成会是第一个知道的……",
+     "delayMs": 1500
+    }
+   ]
+  },
+  {
+   "favorRank": 5,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，震惊的消息"
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "震惊的消息？",
+       "nextGroup": 200010160
+      },
+      {
+       "text": "希望是好消息",
+       "nextGroup": 200010160
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "考试，完全惨败 (*‿*)ノ",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "……咦，这个颜文字是对的吗？",
+     "delayMs": 1500,
+     "story": {
+      "favorRank": 5,
+      "scenarioGroup": 2000105,
+      "path": "/res/story/2000105.json"
+     }
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，谢谢你。今天很开心",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "……真的，发自内心",
+     "delayMs": 1500
+    }
+   ]
+  },
+  {
+   "favorRank": 6,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师虽然是老师……"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "但我想以朋友的身分拜托你。能听听我的烦恼吗？",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "当然，怎么了？",
+       "nextGroup": 200010220
+      },
+      {
+       "text": "知道了，在哪里碰面？",
+       "nextGroup": 200010220
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "谢谢",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "请来千年的楼顶",
+     "delayMs": 1500,
+     "story": {
+      "favorRank": 6,
+      "scenarioGroup": 2000106,
+      "path": "/res/story/2000106.json"
+     }
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，刚刚发生了不得了的事",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我买了披萨进教室的时候，刚才和老师提到的朋友在那里等著",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "……她去帮我买了沙拉",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我好开心",
+     "delayMs": 1500
+    }
+   ]
+  },
+  {
+   "favorRank": 8,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "朋友有急事，所以我代替她去打工"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那间店的制服出名的可爱，非常期待",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "穿著可爱制服的花凛，真想看啊",
+       "nextGroup": 200010280
+      },
+      {
+       "text": "……那间店，没问题吧？",
+       "nextGroup": 200010290
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "听你这么说，很开心",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "……但也有点害羞",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "嗯？什么意思？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不管是什么地方",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "只要需要C&C的女仆",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我就会给予帮助",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那么，我该走了",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "等我习惯了之后也会邀请老师来的",
+     "delayMs": 1500,
+     "story": {
+      "favorRank": 8,
+      "scenarioGroup": 2000108,
+      "path": "/res/story/2000108.json"
+     }
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "这么说来，老师……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我在那个……摆姿势的时候，好像有看到你架起平板……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "你该不会有拍下来吧？",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "我没有拍花凛。我拍的是笑容耀眼的凯瑟琳",
+       "nextGroup": 200010340
+      },
+      {
+       "text": "我行使缄默权",
+       "nextGroup": 200010350
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "立刻删掉！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "喂，老师！？不要已读不回啊！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师",
+     "delayMs": 500
+    }
+   ]
+  },
+  {
+   "favorRank": 9,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "朋友的事情好像顺利结束了"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "现在已经不用去女仆咖啡厅代班了",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "辛苦了！",
+       "nextGroup": 200010400
+      },
+      {
+       "text": "最后还想再看一次！",
+       "nextGroup": 200010410
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "嗯。虽然发生了很多事情，但朋友也有谢谢我帮忙",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "很遗憾，我不会再去女仆咖啡厅工作了",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "已经不能再帮老师做那个「萌耶萌耶啾」了",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "会觉得……可惜吗？",
+     "delayMs": 1500,
+     "story": {
+      "favorRank": 9,
+      "scenarioGroup": 2000109,
+      "path": "/res/story/2000109.json"
+     }
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "……开玩笑的。无论如何，今后也请多多关照",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我的，主人",
+     "delayMs": 1500
+    }
+   ]
+  }
+ ]
+}

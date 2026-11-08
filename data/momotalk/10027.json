@@ -1,0 +1,440 @@
+{
+ "characterId": 10027,
+ "studentId": 137,
+ "devName": "CH0100",
+ "name": "角楯花凛",
+ "avatar": "/res/avatar/137.png",
+ "messageCount": 63,
+ "threads": [
+  {
+   "favorRank": 2,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，现在有时间吗？"
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "没问题唷",
+       "nextGroup": 100270030
+      },
+      {
+       "text": "怎么了？",
+       "nextGroup": 100270030
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "想请你帮个忙，有个任务需要的东西",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "之后会告诉你地点，如果能交给明日奈前辈的话就帮大忙了",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "现在有点忙，离不开……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "嗯，交给我吧",
+       "nextGroup": 100270060
+      },
+      {
+       "text": "马上就去",
+       "nextGroup": 100270060
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "谢谢",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "今天可能无法直接当面道谢，下次再见面吧",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那么，拜托了",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 2,
+      "scenarioGroup": 1002702,
+      "path": "/res/story/1002702.json"
+     }
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "今天谢谢你",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我会在下次见面时回礼",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "回礼……！？",
+       "nextGroup": 100270100
+      },
+      {
+       "text": "让我再次陪伴在你身边，如何？",
+       "nextGroup": 100270100
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "……",
+     "delayMs": 2500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "哈啊……",
+     "delayMs": 1000
+    }
+   ]
+  },
+  {
+   "favorRank": 3,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，现在方便吗？"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "关于上次的事",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我想好好地报答你",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "因为正在进行潜入调查，如果情势改变的话，也许就无法回礼了……但是目前还好，大概没问题",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "怎么样？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "那我会非常高兴",
+       "nextGroup": 100270150
+      },
+      {
+       "text": "说是为了这一天而工作也不为过！",
+       "nextGroup": 100270160
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "太好了",
+     "delayMs": 2500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "……",
+     "delayMs": 2500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "嘛，总之",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那么，晚点见",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 3,
+      "scenarioGroup": 1002703,
+      "path": "/res/story/1002703.json"
+     }
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师",
+     "delayMs": 2500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那个……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "关于今天的事……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "……",
+     "delayMs": 2500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "果然还是算了，下次再直接当面说",
+     "delayMs": 1000
+    }
+   ]
+  },
+  {
+   "favorRank": 5,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，现在忙吗？"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "有些严肃的话想说……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "……该不会是要继续之前的谈话？",
+       "nextGroup": 100270250
+      },
+      {
+       "text": "（吞口水……）",
+       "nextGroup": 100270250
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "总觉得，很紧张呢……？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那样的话，改天再说吧？",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "就算不是今天也没关系",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不是什么紧急的事情……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "不，今天完全没问题",
+       "nextGroup": 100270280
+      },
+      {
+       "text": "我想确认一下，或者说想澄清一下……",
+       "nextGroup": 100270280
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "是吗？",
+     "delayMs": 2500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那么，拜托了",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "地点……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "为了不让任何人发现，果然还是那里吧",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那么，拜托了。稍后再联络",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 5,
+      "scenarioGroup": 1002705,
+      "path": "/res/story/1002705.json"
+     }
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那个",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "谢谢你今天能来",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "多亏了老师，这件衣服变得更特别了",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，谢谢",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师总是教会我各式各样的事",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那么，再联络",
+     "delayMs": 1000
+    }
+   ]
+  },
+  {
+   "favorRank": 15,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "谢谢你的联络，老师。你需要狙击手吗？"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "如果是的话，就告诉我详情吧",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "嗯！我需要一位兔女郎狙击手！",
+       "nextGroup": 100270380
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "看来是特殊任务呢",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "好，交给我吧",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "会合地点在哪里？",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 15,
+      "scenarioGroup": 1002715,
+      "path": "/res/story/1002715.json"
+     }
+    }
+   ]
+  }
+ ]
+}

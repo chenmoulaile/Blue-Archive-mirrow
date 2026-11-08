@@ -1,0 +1,740 @@
+{
+ "characterId": 20015,
+ "studentId": 29,
+ "devName": "Kaede",
+ "name": "勇美枫",
+ "avatar": "/res/avatar/29.png",
+ "messageCount": 100,
+ "threads": [
+  {
+   "favorRank": 2,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师～！又来了～！！"
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "又？",
+       "nextGroup": 200150030
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我又听到有人在说：「修行部有点奇怪」！",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "什么！这真是失礼！",
+       "nextGroup": 200150050
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "对吧？老师也这么想吧？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我只是在公园练习定场台词而已呀！",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "……嗯？",
+       "nextGroup": 200150070
+      },
+      {
+       "text": "定场台词……？",
+       "nextGroup": 200150070
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "定场台词怎么了吗？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "啊，我指的当然是，我们修行部打倒问题学生时要说的台词！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "为了能在关键时刻帅气说出来，当然要努力练习",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "顺带一提，我的台词是：「我要代替枫叶突袭你！」",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我可以特别让老师用唷？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "顺带一提姿势是～啊，这得拍影片才行，等我一下",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "不、不用麻烦。总之我会替你加油",
+       "nextGroup": 200150110
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "嗯，谢谢老师！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我要送老师可爱的贴纸当作奖励！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "谢，谢谢",
+       "nextGroup": 200150130
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "总之为了不再让人说我们「怪」，必须要想个对策才行",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "所以老师，我有个请求！",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 2,
+      "scenarioGroup": 2001502,
+      "path": "/res/story/2001502.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 3,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，今天我也会努力成为一名「完美淑女」！"
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "嗯，今天也加油",
+       "nextGroup": 200150170
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不过要成为完美淑女还真是不容易……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "要说有多困难……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "这就跟暑假时，要每天都在「广播体操卡」上面盖章一样难！",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "这的确很难！",
+       "nextGroup": 200150200
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "就是啊，所以我很烦恼该到底该怎么办……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "并想到了一个好主意！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "甚至可说是个「世纪大发现」唷！",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我想当面跟老师说，快点来修行部社办吧！",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 3,
+      "scenarioGroup": 2001503,
+      "path": "/res/story/2001503.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 5,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "呀呼！老师！"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我今天也要去玩……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不是，是要进行成为完美淑女的修行，请问我可以去夏莱吗？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "抱歉，枫。今天工作有点忙……",
+       "nextGroup": 200150260
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "咦，老师总是在工作！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师这么喜欢工作吗？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "也，也没有啊……",
+       "nextGroup": 200150280
+      },
+      {
+       "text": "我并没有那么喜欢文书作业……",
+       "nextGroup": 200150280
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "嗯……？啊，我记得之前有听过",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "大人有时候就是必须做一些不想做的事……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "嗯～大人还真是辛苦呢",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "可是感觉老师已经不是「有时候」的程度了",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "呜，实在无法反驳……！",
+       "nextGroup": 200150320
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "总而言之呢──",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "啊！我想到一个好办法了！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "好办法？",
+       "nextGroup": 200150350
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "等等我！老师！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我今天会是「认真帮忙模式」！",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那么，等一下见！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "？？？",
+       "nextGroup": 200150380
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "favorRank": 6,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师！紧急情况！！"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "而所谓的紧急情况，就是假面的士的必杀技「紧急驾驶飞踢」！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "……什么东西？",
+       "nextGroup": 200150410
+      },
+      {
+       "text": "所以是有发生什么大事吗？",
+       "nextGroup": 200150410
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "嗯……该怎么说明呢……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "反正事情就是很大条了！",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "还好吗？有受伤吗？",
+       "nextGroup": 200150440
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我完全没事！刚刚吃早餐我还有多添几碗！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "反正重点不在那里啦！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "……？",
+       "nextGroup": 200150460
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "总之就是有紧急状况！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "这种等级的紧急状况，可不能用MomoTalk告诉你！",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "毕竟可能会有人偷看到这则MomoTalk！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "我想这应该不用担心啦……",
+       "nextGroup": 200150490
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "总之我们直接见面再说吧！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我会在公园等你！",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 6,
+      "scenarioGroup": 2001506,
+      "path": "/res/story/2001506.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 15,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师老师老师！"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "终于，终于出现了！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我们一起去吧！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "怎么了吗，枫？什么东西出现了？",
+       "nextGroup": 200150540
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "喔……嗯……？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "啊，原来如此！老师应该不知道！",
+     "delayMs": 2000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我指的是甲虫皇后快闪店要开幕了！",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "啊，原来是甲虫皇后啊",
+       "nextGroup": 200150570
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师的反应怎么好像突然变冷淡了！？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "哼哼哼……不过听到这个消息之后",
+     "delayMs": 2000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师也会热血起来吧！？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "听说这次那家快闪店……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "会卖甲虫皇后的限定版卡片保护套！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "嗯？是，是吗……？",
+       "nextGroup": 200150610
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "看来太过惊吓果然是做不出反应的呢！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "别担心，我会想办法帮忙的！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那么老师！我们购物中心见啰！",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我会把位置传给你！",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 15,
+      "scenarioGroup": 2001515,
+      "path": "/res/story/2001515.json"
+     }
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师？",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "平安到家了吗？",
+     "delayMs": 500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "平安到家啰，枫呢？",
+       "nextGroup": 200150650
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "嗯！我也是！",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "啊啊，居然能顺利买到这个保护套……！",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "之后就可以用那个保护套",
+       "nextGroup": 200150670
+      }
+     ]
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "保护枫的卡片了呢",
+       "nextGroup": 200150680
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "嗯？为什么这么说呢？老师",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "保护套本身也是消耗品",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "用久了自然会老旧损坏",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "所以要在外面再套一层透明保护套",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "进行游戏时，连保护套都要好好保护！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "在保护套外面……再套一层保护套……！？",
+       "nextGroup": 200150720
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "嗯！这是常识吧？",
+     "delayMs": 500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "战士的世界……好深奥……",
+       "nextGroup": 200150740
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "会吗……？",
+     "delayMs": 1000
+    }
+   ]
+  }
+ ]
+}

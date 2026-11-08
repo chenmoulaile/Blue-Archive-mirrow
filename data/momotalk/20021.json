@@ -1,0 +1,354 @@
+{
+ "characterId": 20021,
+ "studentId": 178,
+ "devName": "CH0195",
+ "name": "朝颜花江",
+ "avatar": "/res/avatar/178.png",
+ "messageCount": 46,
+ "threads": [
+  {
+   "favorRank": 2,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，其实我有个烦恼"
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "这样啊……是我可以问的烦恼吗？",
+       "nextGroup": 200210030
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "嗯，老师当然可以！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "但是，会不会给老师添麻烦呢……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "倾听学生的烦恼，是老师的职责哦",
+       "nextGroup": 200210050
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那，可以拜托你吗？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我现在就去找你！",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 2,
+      "scenarioGroup": 2002102,
+      "path": "/res/story/2002102.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 3,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "虽然烦恼很让人煎熬，但我觉得也是件好事！"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "只要能克服困难，就会更有自信！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "似乎确实是那样呢",
+       "nextGroup": 200210090
+      },
+      {
+       "text": "话说，为什么突然说到「烦恼」……？",
+       "nextGroup": 200210090
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "因为我对一直烦恼著的事情，得出了自己的结论",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我也会让老师看到的，敬请期待！",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 3,
+      "scenarioGroup": 2002103,
+      "path": "/res/story/2002103.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 5,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师！"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "你不觉得编织很有趣吗？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "编织……袜子之类的？",
+       "nextGroup": 200210140
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "嗯，我正在做准备",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "每年的这个时期我都会制作",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "原来如此……？",
+       "nextGroup": 200210160
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "啊，对了！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，可以来我的房间一趟吗？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "请务必成为我的共犯吧！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "共犯！？",
+       "nextGroup": 200210190
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，老师！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "请看！是圣诞老人给我的礼物！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "而且，还把牛奶跟饼干都吃光光了！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "虽然很遗憾没见到圣诞老人……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "但是，似乎有成功送出礼物的回礼所以很开心。耶嘿嘿！",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "嗯，太好了",
+       "nextGroup": 200210230
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "话说，收到消毒药当礼物……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "应该是要我今后在治疗伤患时，更注重消毒的意思对吧？",
+     "delayMs": 2000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "要切除患部相当困难，果然还是要用火来",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "我觉得不是那个意思唷！？",
+       "nextGroup": 200210260
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "favorRank": 15,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那个，老师？"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "发生了一点事",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "可是我不知道",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "该不该把这件事告诉老师……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "花绘？你没事吧？",
+       "nextGroup": 200210290
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "咦？是，当然。我没事",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "完全没问题！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "但是……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "那是对花绘重要的事吧？",
+       "nextGroup": 200210320
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "嗯？",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "嗯",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "对我来说确实很重要。可是……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "我知道了，那我们见面再说吧",
+       "nextGroup": 0
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,376 @@
+{
+ "characterId": 10083,
+ "studentId": 320,
+ "devName": "CH0225",
+ "name": "桐生桔梗",
+ "avatar": "/res/avatar/320.png",
+ "messageCount": 49,
+ "threads": [
+  {
+   "favorRank": 2,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "百花缭乱的工作慢慢步入正轨了"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "所以我想趁早对夏莱和百花缭乱之间的业务合作进行讨论",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "现在有时间吗？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "啊，我刚好有空",
+       "nextGroup": 100830040
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "是吗",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那就在百花缭乱的调停室讨论吧",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我等你",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 2,
+      "scenarioGroup": 1008302,
+      "path": "/res/story/1008302.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 3,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "你现在在哪里？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "嗯？桔梗？为什么突然问这个……",
+       "nextGroup": 100830090
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "如果我所知道的日程没有变动",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "你现在应该会在夏莱办公室",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "这情报有变动吗？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "我确实是在夏莱没错……",
+       "nextGroup": 100830120
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "嗯，感谢",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那我现在过去",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "咦？现在……？",
+       "nextGroup": 100830140
+      }
+     ]
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "桔梗同学……？",
+       "nextGroup": 100830150
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "虽然今天让老师得逞了",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "但不会再有第二次",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我会再联络你",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "嗯，我很期待哦",
+       "nextGroup": 100830180
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "……是吗",
+     "delayMs": 2000
+    }
+   ]
+  },
+  {
+   "favorRank": 5,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，关于今天的u,4j4"
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "咦，桔梗……？",
+       "nextGroup": 100830210
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "刚才打错了",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "当没看到吧",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "话说关于今天的业务讨论",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "因为临时有点急事……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "希望能改到其他日子，可以吗？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "嗯，没关系",
+       "nextGroup": 100830250
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "好2k7",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "好的",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那下次见",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 5,
+      "scenarioGroup": 1008305,
+      "path": "/res/story/1008305.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 6,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我不久前看了一本有趣的书"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "可以的话也想推荐给老师",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "咦……？",
+       "nextGroup": 100830300
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "为什么反应这么冷淡？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "呃，因为桔梗是第一次发工作以外的讯息……",
+       "nextGroup": 100830320
+      },
+      {
+       "text": "我有点惊讶",
+       "nextGroup": 100830320
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "这没什么吧",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我也是会传这种讯息的",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "……果然不该做平时不会做的事",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "这全部都是你造成的",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "那真是我的荣幸",
+       "nextGroup": 100830350
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "算了",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "想来的话就来一趟百花缭乱调停室吧",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我借本书给你",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "嗯，那我现在过去",
+       "nextGroup": 0
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

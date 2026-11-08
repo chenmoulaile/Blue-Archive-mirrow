@@ -1,0 +1,331 @@
+{
+ "characterId": 10064,
+ "studentId": 123,
+ "devName": "CH0086",
+ "name": "鬼方佳代子",
+ "avatar": "/res/avatar/123.png",
+ "messageCount": 43,
+ "threads": [
+  {
+   "favorRank": 2,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "好像差不多该买新和服了"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "毕竟也好久没买新的了",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "佳世子有自己的和服阿",
+       "nextGroup": 100640040
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "嗯，虽然不是很贵的那种",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "在加入便利屋之前，常常参加一些注重礼节的场合……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "所以「访问著」姑且还是有的",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "注重礼节的场合究竟是……",
+       "nextGroup": 100640060
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "呵呵",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "有机会再跟你说",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 2,
+      "scenarioGroup": 1006402,
+      "path": "/res/story/1006402.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 3,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师过年时一般都会做什么呢？"
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "吃跨年荞麦面吧",
+       "nextGroup": 100640090
+      },
+      {
+       "text": "看年终的特别节目吧",
+       "nextGroup": 100640090
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "呵呵，那样也不错呢",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我会去寺庙里听除夕的撞钟",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "只有那天能够听见，这点我很喜欢",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "真浪漫呢",
+       "nextGroup": 100640120
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "所以啊，老师",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "今年跨年要不要一起去听除夕的撞钟？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "好像有个隐藏的好地方",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "感觉不错，一起去吧",
+       "nextGroup": 100640150
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那当天在车站前集合",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 3,
+      "scenarioGroup": 1006403,
+      "path": "/res/story/1006403.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 5,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "已经到了新的一年"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我想去附近的寺庙买些御守送给便利屋的大家",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "也会买给老师哦",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "你想要什么样的御守？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "可以抽到SSR的御守！",
+       "nextGroup": 100640200
+      },
+      {
+       "text": "可以提高暴击伤害的御守！",
+       "nextGroup": 100640200
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "唔嗯……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "有卖那种御守吗……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "开玩笑的",
+       "nextGroup": 100640220
+      }
+     ]
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "我也想跟佳世子一起选",
+       "nextGroup": 100640230
+      },
+      {
+       "text": "不介意的话一起去买吧",
+       "nextGroup": 100640230
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我知道了",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那明天早上寺庙前见",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 5,
+      "scenarioGroup": 1006405,
+      "path": "/res/story/1006405.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 6,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我看到老师新年就忙著跑来跑去……"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "发生什么事了吗？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "大过年就发生了各种骚动……",
+       "nextGroup": 100640280
+      },
+      {
+       "text": "才正月就发生了事件……",
+       "nextGroup": 100640280
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "居然连这种时候都这么忙……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师还是跟往常一样辛苦呢",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不嫌弃的话",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "下次我借你可以放松心情的CD",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "谢谢。那就拜托你了",
+       "nextGroup": 0
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

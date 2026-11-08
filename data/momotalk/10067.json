@@ -1,0 +1,181 @@
+{
+ "characterId": 10067,
+ "studentId": 230,
+ "devName": "CH0211",
+ "name": "飞鸟马时",
+ "avatar": "/res/avatar/230.png",
+ "messageCount": 22,
+ "threads": [
+  {
+   "favorRank": 2,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "您在吗？",
+     "delayMs": 500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "咦，季？怎么了吗？",
+       "nextGroup": 100670040
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "没错，是我",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "有件事想请您帮忙，不知道您是否愿意呢？",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "只要是季的请求，不管是什么都愿意哦",
+       "nextGroup": 100670060
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "这句话，还请您务必铭记于心",
+     "delayMs": 500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "先等一下！让我先听内容再考虑……？",
+       "nextGroup": 100670080
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "favorRank": 3,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，您今天也在夏莱吧？"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那么，我今天也会去拜访您",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "您不介意吧？",
+     "delayMs": 2000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "我怎么也想不到……",
+       "nextGroup": 100670120
+      },
+      {
+       "text": "拒绝学生来访的理由……",
+       "nextGroup": 100670120
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "呵呵",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "您这么高兴吗？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那么我会尽快赶到。稍后再见",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 3,
+      "scenarioGroup": 1006703,
+      "path": "/res/story/1006703.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 5,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "突击准备完成"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "请下指示",
+     "delayMs": 500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "季……？",
+       "nextGroup": 100670170
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "战斗开始",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "将暂时阻断通讯",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "季！？",
+       "nextGroup": 0
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

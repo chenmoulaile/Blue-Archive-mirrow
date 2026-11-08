@@ -1,0 +1,469 @@
+{
+ "characterId": 13008,
+ "studentId": 83,
+ "devName": "serika",
+ "name": "黑见芹香",
+ "avatar": "/res/avatar/83.png",
+ "messageCount": 65,
+ "threads": [
+  {
+   "favorRank": 2,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师！"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师！！！！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "有时间吗？有吧？？好！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "咦，咦？",
+       "nextGroup": 130080030
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "反正你也不忙吧？那就和我一起打工吧！",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "只要帮忙我就行了，OK？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那么待会儿见！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "那个……咦咦……？",
+       "nextGroup": 130080060
+      },
+      {
+       "text": "茜香同学……？",
+       "nextGroup": 130080060
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "favorRank": 3,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，又有一份新的打工，所以在上次的地方碰面哦！"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "这次是稍微特殊的打工唷！",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "特殊的……？",
+       "nextGroup": 130080080
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "favorRank": 5,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "下次的打工决定了唷！老师也会来吧？"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "下个休息日的上午，来公园吧！",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "了解～",
+       "nextGroup": 130080100
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "呜呜，腰痛……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师还好吗？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我想泡个澡会好一点，现在",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "！＠＃％％＃＾＊",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "＠＃＃",
+     "delayMs": 300
+    },
+    {
+     "kind": "image",
+     "from": "student",
+     "text": "",
+     "image": "UIs/03_Scenario/04_ScenarioImage/Mo_Serika_01",
+     "delayMs": 200
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "好险，手机差点掉进浴缸里……！！",
+     "delayMs": 2000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "洗澡的时候果然不能带著手机……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我先把它放在外头并洗个澡，回头见唷",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "那个……",
+       "nextGroup": 130080160
+      },
+      {
+       "text": "茜香，照片……",
+       "nextGroup": 130080160
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "照片？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "哇啊啊啊啊啊啊！？为什么会拍到这个！？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "别，别看！不准看！",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "看了就杀了你！！！！！！！！！！",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "没有储存对吧！？删除！！明白了吗！？",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我之后会检查有没有删掉哦！！！",
+     "delayMs": 500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "没有看……",
+       "nextGroup": 130080180
+      },
+      {
+       "text": "是，删除了",
+       "nextGroup": 130080180
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "favorRank": 6,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我听绫音说，对策委员会收到了匿名捐款"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "虽然金额不多，但好像有到打工一天的金额",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "是不是来自于关心我们的市民呢，嘿嘿",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "啊，这次也在老地方见吧，老师！",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "下午见！",
+     "delayMs": 1500,
+     "story": {
+      "favorRank": 6,
+      "scenarioGroup": 1300806,
+      "path": "/res/story/1300806.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 8,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，这次是在夜市打工唷！"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "也许会一路做到深夜，做好觉悟吧！",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "知道了，茜香！",
+       "nextGroup": 130080240
+      },
+      {
+       "text": "可能要通宵吗，了解",
+       "nextGroup": 130080240
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "肚子好饱啊，可能吃得有点多",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "虽然是个小街区，但有很多有趣的东西呢",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "嘛，虽然说它小，但还是比我们的大……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "结果花了几乎一半的打工薪水，但偶尔这样也不错吧？",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那就明天见啰，老师。辛苦了",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "最好不要马上躺下，好好休息吧",
+       "nextGroup": 130080270
+      },
+      {
+       "text": "嗯，辛苦了。回头见",
+       "nextGroup": 130080270
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "favorRank": 9,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师。这次休息日的打工，做好觉悟吧"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "好像是非常辛苦的体力劳动……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "浑身颤抖……",
+       "nextGroup": 130080300
+      },
+      {
+       "text": "OK，我会做好觉悟的",
+       "nextGroup": 130080300
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "favorRank": 15,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "听说你今天要来阿拜多斯自治区是吗，老师"
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "嗯，没错哦",
+       "nextGroup": 130080320
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "为了保护老师的安全，我打算去接你",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "可以吧？",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "啊，如果你说「没关系」我会当成「来也没关系」的哦",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "我没有拒绝的权利吗……",
+       "nextGroup": 130080350
+      },
+      {
+       "text": "不过你能这么说我很高兴。谢谢你",
+       "nextGroup": 130080350
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不，这也是安全上的问题",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "最近我们自治区……来了一些烦人的家伙",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "总之这次还是小心为妙",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "觉得不对劲就躲到我身后吧",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 15,
+      "scenarioGroup": 1300820,
+      "path": "/res/story/1300820.json"
+     }
+    }
+   ]
+  }
+ ]
+}

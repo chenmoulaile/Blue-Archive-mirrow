@@ -1,0 +1,489 @@
+{
+ "characterId": 10137,
+ "studentId": 378,
+ "devName": "CH0264",
+ "name": "志真心华",
+ "avatar": "/res/avatar/378.png",
+ "messageCount": 65,
+ "threads": [
+  {
+   "favorRank": 2,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，您好"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我是志真木乃香",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "木乃香！？",
+       "nextGroup": 101370040
+      }
+     ]
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "说话方式好像跟平常不太一样……？",
+       "nextGroup": 101370050
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "咦？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我平常不也是这样说话的吗？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "总之，今天的运势是「好好自我介绍」",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "所以就试著自我介绍了",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "没介绍的话，差点认不出来的说！",
+       "nextGroup": 101370090
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "哎唷，这样我会很伤心耶。\n而且那个口气是怎么回事……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "算了，如果稍后有空请来一趟女武神，我有行政相关的事务想跟老师商量。",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "随时过来都没问题，非常感谢",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 2,
+      "scenarioGroup": 1013702,
+      "path": "/res/story/1013702.json"
+     }
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "哇，这个超辣的",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "还好吗？",
+       "nextGroup": 101370130
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "没事没事，这不算什么",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "冰箱里有牛奶真是太好了",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "那孩子……不会受到惩处吧？",
+       "nextGroup": 101370150
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "怎么可能",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我当新人的时候也差不多是那样",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "就是要有那种充满干劲的人，组织才能运作不是吗？",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "真不愧是副局长！",
+       "nextGroup": 101370180
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "而且我也有错",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "按照占卜，我应该要好好自我介绍的",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "也只能这样了，哈哈",
+     "delayMs": 1000
+    }
+   ]
+  },
+  {
+   "favorRank": 3,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "你好，老师"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "今天的运势是「严格守时」",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不过守时不是理所当然的吗？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "虽然是这样没错，实际做起来却挺难的呢",
+       "nextGroup": 101370230
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "会在占卜时获得的建议，本来就是平时做了也有利无害的事",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "虽然如果不照做的话，当天可能会特别不顺就是了",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "因为觉得还挺有趣的，所以就想传个MomoTalk跟你分享一下！",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "祝老师今天一切顺利！",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 3,
+      "scenarioGroup": 1013703,
+      "path": "/res/story/1013703.json"
+     }
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，刚才是不是吓到你了",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "从早上就好好遵循运势，真让人舒服呢",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "严格守时……应该是昨天的运势吧？",
+       "nextGroup": 101370270
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "咦？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "啊",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "今天的运势是……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "「不要过于被时间束缚」",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "啊……",
+     "delayMs": 1000
+    }
+   ]
+  },
+  {
+   "favorRank": 5,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，有个机密情报"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我觉得差不多可以告诉老师了",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我会把地址发过去，就在那里见吧",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 5,
+      "scenarioGroup": 1013705,
+      "path": "/res/story/1013705.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 6,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，哈啰～"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "今天的运势是「和伙伴一起行动」",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "所以说，今天一整天当我的伙伴如何？",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那就拜托啰！",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 6,
+      "scenarioGroup": 1013706,
+      "path": "/res/story/1013706.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 8,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "喂"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "姐姐我今天病得不轻没办法出门",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "叫那些值班的家伙别因为我不在就埋头工作，边玩边做就好",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那我继续睡啦",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "？？",
+       "nextGroup": 101370390
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "居然敢用？？回复副局长啊",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "之前出任务淋到雨感冒了啦",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那就改天见啦，哈哈",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 8,
+      "scenarioGroup": 1013708,
+      "path": "/res/story/1013708.json"
+     }
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "完全恢复！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，平安到家了吗？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "没被我传染感冒吧？",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "我没事！",
+       "nextGroup": 101370440
+      }
+     ]
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "只是发烧喉咙痛加上有点累而已！",
+       "nextGroup": 101370450
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那分明是感冒了，怎么会没事",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "哈哈哈",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "这次就换我去探病吧",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我会带豚骨拉面过去的！",
+     "delayMs": 1000
+    }
+   ]
+  }
+ ]
+}

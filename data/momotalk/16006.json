@@ -1,0 +1,409 @@
+{
+ "characterId": 16006,
+ "studentId": 73,
+ "devName": "Izumi",
+ "name": "狮子堂泉",
+ "avatar": "/res/avatar/73.png",
+ "messageCount": 54,
+ "threads": [
+  {
+   "favorRank": 2,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师！夏天到了！夏天！"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "既然是夏天，当然就要吃夏天的料理！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "夏天的料理啊……",
+       "nextGroup": 160060040
+      },
+      {
+       "text": "嗯，走吧！一直工作好累啊！",
+       "nextGroup": 160060060
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "冰凉的酸甜、浓郁的调味，正呼唤著我们唷！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "……肚子饿了！那要去哪里呢？",
+       "nextGroup": 160060080
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "没错没错，越是忙碌，吃饭越是重要唷！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "是啊。对了，你有什么想去的地方吗？",
+       "nextGroup": 160060080
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "嗯，首先果然是……！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "想去海之家！",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "不错耶，感觉就是要这里",
+       "nextGroup": 160060100
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "对吧！",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "而且，似乎还不是普通的海之家唷！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "听说只要赢了某个游戏，就能免费吃店内美食当作奖品！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "喔！好像有点燃起斗志了！",
+       "nextGroup": 160060120
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "这种地方不去对不起自己！",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那么，在店的前面碰面吧！晚点见啰，老师！",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 2,
+      "scenarioGroup": 1600602,
+      "path": "/res/story/1600602.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 3,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "嘿，老师。难得的夏天，我……"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "想吃更多夏天的美食！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "确实，季节性的东西就想在那个季节吃呢",
+       "nextGroup": 160060160
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "但我注意到了，老师",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "美食等再久也不会来！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "非常像是美食研究会会说的台词！",
+       "nextGroup": 160060180
+      },
+      {
+       "text": "确实，美食不会自己长脚上门呢……一般来说",
+       "nextGroup": 160060180
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "嗯！即使是呆呆地张开嘴巴等著，食物也不会来！",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "除非是老师就在我旁边吃著洋芋片！",
+     "delayMs": 500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "耶，那是在暗地里做的事吗……？",
+       "nextGroup": 160060200
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "洋芋片下次再吃……好了，去寻找夏天的美食吧！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我们常夏美食家双人组该出场了！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "常夏美食家双人组……？",
+       "nextGroup": 160060220
+      },
+      {
+       "text": "……什么东西？",
+       "nextGroup": 160060220
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我在那里等老师啰！",
+     "delayMs": 500,
+     "story": {
+      "favorRank": 3,
+      "scenarioGroup": 1600603,
+      "path": "/res/story/1600603.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 5,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师！"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我们常夏美食家双人组的美食之旅，还没结束唷！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "真的很喜欢这名字呢……",
+       "nextGroup": 160060260
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "所以，今天要吃什么呢？",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "西边海岸有名的义式冰淇淋很不错……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "东边大街上有口皆碑的松饼也不赖……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "但果然现在最感兴趣的……！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "还是中央大街摊贩在卖的「草莓香蕉章鱼烧」吧！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "泉似乎没有夏季倦怠的问题呢",
+       "nextGroup": 160060290
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "因为，有各种美味的料理在等著我们呢！",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "没时间发呆了，老师！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那么，今天也在海之家的前面等老师唷！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "迟到的话，我会连老师的份也吃掉一半！",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "那倒是完全没问题……但别吃坏肚子了唷",
+       "nextGroup": 160060320
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "favorRank": 15,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "先省略情况和原因"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我们去海边吧，老师！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "现在连省略都学会了吗……",
+       "nextGroup": 160060350
+      },
+      {
+       "text": "呼，变强了呢。泉。我已经没有东西可以教你了",
+       "nextGroup": 160060350
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "……？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "虽然不知道在说什么，但听说今天特别热！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "所以说，为了忘记炎热……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "要更HIGH才行！来一趟美食之旅吧！",
+     "delayMs": 1500,
+     "story": {
+      "favorRank": 15,
+      "scenarioGroup": 1600620,
+      "path": "/res/story/1600620.json"
+     }
+    }
+   ]
+  }
+ ]
+}

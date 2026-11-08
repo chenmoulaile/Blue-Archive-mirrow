@@ -1,0 +1,347 @@
+{
+ "characterId": 20017,
+ "studentId": 34,
+ "devName": "hiyori",
+ "name": "槌永日和",
+ "avatar": "/res/avatar/34.png",
+ "messageCount": 48,
+ "threads": [
+  {
+   "favorRank": 2,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，你好。耶嘿嘿……"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那个，这是老师的帐号对吧？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "日和？",
+       "nextGroup": 200170040
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "耶嘿嘿……是的。那个，我找到了免",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "",
+     "delayMs": 2500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "……？",
+       "nextGroup": 200170060
+      },
+      {
+       "text": "……日和？",
+       "nextGroup": 200170060
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "费的Wi-Fi……耶嘿嘿",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "该说是天无绝人之路吗……",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那个……老师现在在做什么？",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师？",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师？为什么没有回复？",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "……我终于被老师抛弃了吗？",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "是这样对吧？结束了，真的全都结束了呼呜哇啊啊痛啊",
+     "delayMs": 500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "日和你冷静点，先确认一下通讯状态吧",
+       "nextGroup": 200170100
+      },
+      {
+       "text": "如果是免费Wi-Fi的话，要收到讯息可能要花点时间",
+       "nextGroup": 200170100
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "啊，确，确实如此。Wi-Fi断线了呢……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "原来是这样啊……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "抱歉……",
+     "delayMs": 1500,
+     "story": {
+      "favorRank": 2,
+      "scenarioGroup": 2001702,
+      "path": "/res/story/2001702.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 3,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师……耶嘿嘿，你好"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "今天运气很好",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "在我这和长在变质便利商店便当上的蘑菇一样的人生里……也会发生这种事呀",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "发生了什么好事吗？",
+       "nextGroup": 200170150
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "是的！其实今天……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "啊，直接看可能比较快吧。请等一下……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我把照片传给你",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，能看到这个吗？",
+     "delayMs": 2000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "图片传不出去？怎么会？为什么？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "呜哇！Wi-Fi又断线了！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "才想会不会是这样结果果然是！好痛苦……简直就像",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "……等等见面再聊吧",
+       "nextGroup": 200170210
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "像我的人生一样，连图片都不能好好传送的手机……咦？你，你要来吗？",
+     "delayMs": 500,
+     "story": {
+      "favorRank": 3,
+      "scenarioGroup": 2001703,
+      "path": "/res/story/2001703.json"
+     }
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "……老师。仔细想想，我好像不曾向你道谢……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "谢，谢谢……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "如果被大家知道又受老师照顾了的话，会被骂的……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "你买给我的杂志，我会当成自己的秘密的……",
+     "delayMs": 1000
+    }
+   ]
+  },
+  {
+   "favorRank": 5,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "这次《ron-ro》的最新一期里好像有……"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "「学校绝对不会教的秘密知识10大精选」",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "这样的特别报导！！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "呃……是，是吗？",
+       "nextGroup": 200170280
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "学校绝对不会教的秘密知识……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "究竟是什么呢……老师知道吗？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "我也不太清楚……",
+       "nextGroup": 200170300
+      },
+      {
+       "text": "这，这个嘛……谁知道呢",
+       "nextGroup": 200170300
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师也不知道的知识究竟是什么呢！？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "最新一期成为废纸一般来说需要好几个月……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "这段期间要怎么等下去……结束了，这个世界已经完全结束了",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "一个人的时候，除了读杂志也没有什么事情可做……",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 5,
+      "scenarioGroup": 2001705,
+      "path": "/res/story/2001705.json"
+     }
+    }
+   ]
+  }
+ ]
+}

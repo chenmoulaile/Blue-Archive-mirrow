@@ -1,0 +1,382 @@
+{
+ "characterId": 10037,
+ "studentId": 45,
+ "devName": "Marina",
+ "name": "池仓玛丽娜",
+ "avatar": "/res/avatar/45.png",
+ "messageCount": 51,
+ "threads": [
+  {
+   "favorRank": 2,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "有点奇怪"
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "？？？",
+       "nextGroup": 100370030
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "最近，保管在供给部的零食接连不断地消失",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "特别是布丁的个数，和帐簿的纪录完全对不上",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "不是数错之类的……？",
+       "nextGroup": 100370050
+      },
+      {
+       "text": "有谁偷吃之类的？",
+       "nextGroup": 100370060
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不，不可能有那种事！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "毕竟我和其他保安委员一起重数了好几次！",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不，不可能有那种事！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "供给部的设施，有我们保安委员彻底地监视著！",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "并不是数错，也不是谁吃掉了，既然如此……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "这一定是来自间谍的攻击，企图攻击赤冬联邦学园！",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "……间谍？",
+       "nextGroup": 100370100
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "啊啊。赤冬联邦学园不仅腹地广阔，学生的记录簿等也没什么电子化。甚至有不少学生未被事务局所掌控",
+     "delayMs": 2000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "在其中，就算有从外部学园送进来的「间谍」混入也不奇怪",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "肯定想以这种琐碎事件观察情况，在不远的将来于赤冬联邦学园内卷起纠纷吧……",
+     "delayMs": 2000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "这样的话就没办法了……即刻起，间谍搜索作战开始！",
+     "delayMs": 1500,
+     "story": {
+      "favorRank": 2,
+      "scenarioGroup": 1003702,
+      "path": "/res/story/1003702.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 3,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，这是关于上次间谍的续报"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不知在何处的卑劣间谍，这次似乎偷了洁莉诺会长的布丁",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "那个，确实是间谍的所为吗？",
+       "nextGroup": 100370160
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "啊啊，没错。因为赤冬联邦学园的保安，无时无刻都是完美的！",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "除非间谍潜入，不然不可能发生任何问题！",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "所以毫无疑问是间谍所为吧",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不过，产生一个问题……不知为何洁莉诺会长她，似乎认为布丁是我偷的",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "当然，也不是没有头绪……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "反而是个好机会。这次一定要抓住间谍，证明我的才能和无罪！",
+     "delayMs": 1500,
+     "story": {
+      "favorRank": 3,
+      "scenarioGroup": 1003703,
+      "path": "/res/story/1003703.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 5,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "……听我说，老师"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "上次弄坏洁莉诺会长石像的事，受到了惩罚……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "现在该不会，在旧校舍？",
+       "nextGroup": 100370230
+      },
+      {
+       "text": "我会不时去看妳的。有想要的东西跟我说",
+       "nextGroup": 100370230
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不是，才不是被流放至旧校舍！！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "多亏了洁莉诺会长的慈悲，避免被流放至旧校舍……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "但和以前一样，受到了「打扫厕所1周」之刑",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不过，这某种意义上也是洁莉诺会长的命令",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "玛丽娜我，会全力执行会长的命令的！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "是吗，辛苦了。加油哦",
+       "nextGroup": 100370270
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "你在说什么啊？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师也要和我一起打扫哦",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "……咦？",
+       "nextGroup": 100370290
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "会长的石像打破时，老师也在吧",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "保护胡子的权威是全员的义务。所以老师也是不敬罪，共同承担责任是理所当然的",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "好了老师。明天早上7点，在事务局前集合！",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "好早……",
+       "nextGroup": 100370320
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "favorRank": 6,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "……老师"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "抱歉，现在可以稍微给我一点时间吗？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "发生了，没办法和其他事务局委员说的事……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "了解，我马上过去哦",
+       "nextGroup": 100370350
+      }
+     ]
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "发生什么事？",
+       "nextGroup": 100370360
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "啊啊，不好意思我在离事务局也有一段距离的地方……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "被保安委员们，抓住了……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "到底发生什么……我马上过去哦",
+       "nextGroup": 0
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

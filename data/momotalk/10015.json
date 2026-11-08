@@ -1,0 +1,535 @@
+{
+ "characterId": 10015,
+ "studentId": 108,
+ "devName": "Aris",
+ "name": "天童爱丽丝",
+ "avatar": "/res/avatar/108.png",
+ "messageCount": 75,
+ "threads": [
+  {
+   "favorRank": 2,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，爱丽丝终于要去冒险了"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "听说首先得在「起始的村庄」附近提升等级",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "爱丽丝要出发了。请祝爱丽丝好运",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "冒险……？",
+       "nextGroup": 1001500040
+      },
+      {
+       "text": "终于到了启程的时候吗……",
+       "nextGroup": 1001500040
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "今天的冒险感觉很好",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "下次也可以一起组队吗？",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "嗯，当然。毕竟是队伍嘛",
+       "nextGroup": 1001500070
+      },
+      {
+       "text": "毕竟是重要的吉祥物嘛！",
+       "nextGroup": 1001500070
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "没错",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "和老师一起冒险，爱丽丝非常开心",
+     "delayMs": 1500
+    }
+   ]
+  },
+  {
+   "favorRank": 3,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "乓啪喀乓──！"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "升级了。现在的爱丽丝比昨天的爱丽丝还要强",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "每天都在成长……！",
+       "nextGroup": 1001500110
+      },
+      {
+       "text": "恭喜升级！",
+       "nextGroup": 1001500110
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师也要加油，那种等级没问题吗？",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "会，会加油的……",
+       "nextGroup": 1001500130
+      },
+      {
+       "text": "没事的，不会有问题……大概吧，我想",
+       "nextGroup": 1001500130
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那么今天也要去冒险，老师也一起去吗？",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "嗯，我很乐意",
+       "nextGroup": 1001500150
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那么，爱丽丝会等著老师",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 3,
+      "scenarioGroup": 1001503,
+      "path": "/res/story/1001503.json"
+     }
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "因为爱丽丝的行动，添了不少麻烦……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "还被学生会的人狠狠地教训了一顿",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "冒险暂时休息……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "有时也会有这样的事，别放在心上",
+       "nextGroup": 1001500190
+      },
+      {
+       "text": "我觉得为自己充电的时间也很重要唷",
+       "nextGroup": 1001500190
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "favorRank": 5,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "突然有了一个人的时间"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "所以，今天想尝试一下别人推荐的新游戏",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "因为借了携带型游戏机，所以想在咖啡厅里玩",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "我觉得很好！",
+       "nextGroup": 1001500220
+      },
+      {
+       "text": "很好奇是什么样的游戏……！",
+       "nextGroup": 1001500220
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "发现了胡须陛下和秃头皇帝两者结合的隐藏结局……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "但因为检测到使用违法软体，研讨会的人蜂拥而至",
+     "delayMs": 2000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "在结局之前把游戏机夺走了",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "「因为是非法流通且内容尚未被检查过的东西」他们是这么说的",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "……这是什么意思呢？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "都没有人告诉爱丽丝……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "我觉得还是不要知道比较好……",
+       "nextGroup": 1001500250
+      },
+      {
+       "text": "世界上有些事不知道的话会更幸福……",
+       "nextGroup": 1001500250
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "是吗？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "虽然有点不太能接受，但爱丽丝明白了",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "非常感谢，老师。爱丽丝又变聪明了",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "不客气",
+       "nextGroup": 1001500280
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那再联络唷",
+     "delayMs": 1000
+    }
+   ]
+  },
+  {
+   "favorRank": 6,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师对猫了解深吗？"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "爱丽丝不太了解",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "猫很敏捷",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "然后会发出喵喵喵的叫声，爱丽丝只知道这些",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师知道和猫友好相处的方法吗？",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "猫啊……",
+       "nextGroup": 1001500320
+      },
+      {
+       "text": "唔嗯……",
+       "nextGroup": 1001500320
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "favorRank": 8,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "今天，社团教室只有爱丽丝一个人"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "所以想跟老师一起玩游戏",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "如果可以的话请来玩",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "可能需要一点时间，没关系吗？",
+       "nextGroup": 1001500350
+      },
+      {
+       "text": "嗯，等一下唷",
+       "nextGroup": 1001500350
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "好的，没关系。谢谢老师",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "爱丽丝等著哦",
+     "delayMs": 1500,
+     "story": {
+      "favorRank": 8,
+      "scenarioGroup": 1001508,
+      "path": "/res/story/1001508.json"
+     }
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "为什么地下城内有宝箱",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那个宝箱里有道具呢？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "是谁放进去的呢……？",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "虽然不知道是谁，但那个人是非常温柔的人呢",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "爱丽丝也想成为那样的人",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "我支持你唷",
+       "nextGroup": 1001500400
+      },
+      {
+       "text": "爱丽丝一定能办到",
+       "nextGroup": 1001500400
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "非常感谢你，老师",
+     "delayMs": 1000
+    }
+   ]
+  },
+  {
+   "favorRank": 15,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "请问你现在忙吗？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "只要是爱丽丝找我，我都不忙！",
+       "nextGroup": 1001500440
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "哇！",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那个，其实",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "爱丽丝有东西想给老师看！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "有东西想给我看？",
+       "nextGroup": 1001500460
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "是的",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "爱丽丝会在游戏开发部的部室等老师！",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 15,
+      "scenarioGroup": 1001515,
+      "path": "/res/story/1001515.json"
+     }
+    }
+   ]
+  }
+ ]
+}

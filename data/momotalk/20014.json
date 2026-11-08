@@ -1,0 +1,428 @@
+{
+ "characterId": 20014,
+ "studentId": 8,
+ "devName": "CH0144",
+ "name": "空井咲",
+ "avatar": "/res/avatar/8.png",
+ "messageCount": 55,
+ "threads": [
+  {
+   "favorRank": 2,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，夏莱有针线盒吗？"
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "嗯，放在桌上哦",
+       "nextGroup": 200140030
+      }
+     ]
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "尽管用吧，不过为什么要针线盒呢？",
+       "nextGroup": 200140040
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "因为钢盔带好像快断掉了",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "现在又是这种状况，只好自己修了……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "难道修的时候会把钢盔脱下来吗？",
+       "nextGroup": 200140060
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "嘛，那是当然的",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "……为什么会被认为是「绝对不会脱下来」的那种人呢",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 2,
+      "scenarioGroup": 2001402,
+      "path": "/res/story/2001402.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 3,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，为了保险起见"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我在夏莱前面放了一个篮子，希望你好好放著别动它。我会把它带回去的",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "啊，你说放了很多像草一样的东西的那个吗？",
+       "nextGroup": 200140100
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "没错。不过竟然说是草……老师不知道「楤木」吗？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那是刚长出来的楤木芽，是在这附近也能轻松入手的珍味之一",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "就算只是稍微烫一下就已经很美味了，做成天妇罗也不错。很下饭的哦",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "……不过，现在这种面粉和油都无法轻松取得的状况，要做天妇罗简直是痴人说梦",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "虽然不太确定……",
+       "nextGroup": 200140140
+      }
+     ]
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "不过在西边的山路上好像长著很多类似的东西",
+       "nextGroup": 200140150
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "真的吗！？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，请立刻带我去吧！",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 3,
+      "scenarioGroup": 2001403,
+      "path": "/res/story/2001403.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 5,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，夏莱的电视有录影功能吗？"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "今晚在「克洛卢斯频道」有个我想看的纪录片……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "嗯，我会帮你录的",
+       "nextGroup": 200140190
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "啊",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "帮大忙了，谢谢你",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "最近到处都是有各种功能的机器，说明书也渐渐都电子化，读起来很不方便……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "好怀念功能单纯又好上手的老产品啊……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "呃，你说「老」产品……",
+       "nextGroup": 200140220
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "嗯？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "你是想说我像个「老奶奶」一样吗？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "呃，我不是这个意思……",
+       "nextGroup": 200140240
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "favorRank": 6,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "刚刚我从女武神警察学园里认识的人听说"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "有很多露营用品被丢在公园的后山里",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "以前似乎有个像基地一样的据点在那里，或许是放弃据点的时候就被丢弃在那里了",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "就算是老旧的东西，对现在的我们来说也比没有还好",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我在想这个周末要不要过去看看……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那个，从听到的消息来看，量大概不少",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "你能一起来的话就帮大忙了",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "嗯，了解。我很乐意",
+       "nextGroup": 200140290
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "谢谢",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "其他队员好像都在忙，不过一个人来回搬又有点……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "话说回来，那座山的山路好像挺险峻的",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我想还是穿得像样一点比较好",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 6,
+      "scenarioGroup": 2001406,
+      "path": "/res/story/2001406.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 15,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，不好意思"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "能帮我看看休息室有没有一本书吗？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "应该在桌上才对，如果有看到的请帮我收起来",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "上面写著「空井」的名字，应该一眼就能认出来",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "知道了吗？我等等到夏莱的时候再跟你拿！",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 15,
+      "scenarioGroup": 2001415,
+      "path": "/res/story/2001415.json"
+     }
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，你今天什么都没看到",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "要是泄露情报的话，我可是会不惜动用武力的哦！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "这是签字笔，不太容易擦掉耶",
+       "nextGroup": 200140400
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "你活该！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "因为咲希帮忙写字，感觉好像变成教战手册了呢",
+       "nextGroup": 200140420
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "你在胡说",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "八道什么",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "想尝尝迫击砲的滋味是吧，你给我等著",
+     "delayMs": 1000
+    }
+   ]
+  }
+ ]
+}

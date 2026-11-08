@@ -1,0 +1,298 @@
+{
+ "characterId": 16019,
+ "studentId": 573,
+ "devName": "CH0333",
+ "name": "飞鸟马时",
+ "avatar": "/res/avatar/573.png",
+ "messageCount": 37,
+ "threads": [
+  {
+   "favorRank": 2,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "早安，老师"
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "早安……虽然这么说，似乎有点太早了呢……",
+       "nextGroup": 160190030
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "毕竟现在情况如此",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "说的也是……",
+       "nextGroup": 160190050
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那么，我会在这里等您",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 2,
+      "scenarioGroup": 1601902,
+      "path": "/res/story/1601902.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 3,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "飞鸟马季，已结束侦察任务归来"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "为了报告结果，我会去拜访老师",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "有没有受伤之类的？",
+       "nextGroup": 160190090
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "感谢您的担心",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不过我今天也平安无事",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 3,
+      "scenarioGroup": 1601903,
+      "path": "/res/story/1601903.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 5,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "您对升级这个概念有什么看法呢",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "资源充裕的话就强化？",
+       "nextGroup": 160190130
+      },
+      {
+       "text": "即使必须取舍也要强化？",
+       "nextGroup": 160190150
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "原来如此",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "您指的是游戏的事吧",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师很重视资源分配呢",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "原来如此",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "您指的是游戏的事吧",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我也在思考类似的事情",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "总之",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我想跟您商量有关升级的事",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 5,
+      "scenarioGroup": 1601905,
+      "path": "/res/story/1601905.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 6,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "麻烦您起床后进行确认"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我已结束清晨的侦察任务归来",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "……？",
+       "nextGroup": 160190210
+      }
+     ]
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "不会太早吗？天还很黑呢……",
+       "nextGroup": 160190220
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "正是因为这样",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 6,
+      "scenarioGroup": 1601906,
+      "path": "/res/story/1601906.json"
+     }
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "今天也是忙碌的一天呢",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "现在才刚过中午而已",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "就是说啊……",
+       "nextGroup": 160190260
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "话说回来，关于世界的最后时刻",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我还没有放弃",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "……嗯？",
+       "nextGroup": 160190280
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "请您记住",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "在老师的身边",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "永远有著完美女仆、完美侦察员",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "飞鸟马季酱这件事",
+     "delayMs": 1000
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,569 @@
+{
+ "characterId": 10087,
+ "studentId": 345,
+ "devName": "CH0231",
+ "name": "天雨亚子",
+ "avatar": "/res/avatar/345.png",
+ "messageCount": 77,
+ "threads": [
+  {
+   "favorRank": 2,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师。我是天雨亚子"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "这是场战争！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "……亚子？",
+       "nextGroup": 100870040
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "没错，不知该说嚣张还是无法原谅……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "如果要挑起事端，身为风纪委员会的行政官当然不能逃避",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不，这样反而正好，就趁这个机会击溃他们！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "……亚，亚子？",
+       "nextGroup": 100870070
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "这是让他们从底层望向高高在上的我，重新审视自己位置的机会。对那些家伙来说也会是一剂良药吧",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "啊，真是气死人了！！",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "有够让人生气！",
+     "delayMs": 500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "亚子……到底……",
+       "nextGroup": 100870110
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "所以老师，待会见！！",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不能迟到哦！这可是战争！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "……？",
+       "nextGroup": 100870130
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，您平安到家了吗？",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "谢谢您今天陪我",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "稍微冷静下来了吗……？",
+       "nextGroup": 100870160
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "咦？",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那是什么意思？",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "好像我之前都不冷静一样？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "才没有，我超冷静的好吗？",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "先不说这个了……我决定要选哪件礼服了",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "哦哦，你选了哪一件？",
+       "nextGroup": 100870200
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我决定挑老师帮我选的那件。因为卖这件礼服的地方只有这里，所以才联络老师",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "咦……亚子，所以……",
+       "nextGroup": 100870220
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "幸好对方表示现在还能订做",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "能找到喜欢的款式真是太好了",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "啊，对了。明天要去领礼服，老师可不能迟到，知道吗？",
+     "delayMs": 500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "咦……？",
+       "nextGroup": 100870250
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "favorRank": 3,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，您该不会忘记了吧？"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "今天是要去领礼服的日子",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "有那种事吗……",
+       "nextGroup": 100870280
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "真是的……",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "别拖拖拉拉的了，快过来！您不是大人吗！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "真气人……",
+       "nextGroup": 100870300
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "啊？",
+     "delayMs": 500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "没，没什么……我会准时到的……",
+       "nextGroup": 100870320
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "是，老师。我会等您",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 3,
+      "scenarioGroup": 1008703,
+      "path": "/res/story/1008703.json"
+     }
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师……我收到礼服了",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "真不好意思，我明明该自己去的",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "真是劳烦您了",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "下次会好好答谢您的",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "嗯？",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "这是什么？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "绳子……？这类似……蝴蝶结的东西……是什么？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "啊，那个啊",
+       "nextGroup": 100870370
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "这是内衣……？不，这只是您再三强调是内衣的绳子而已吧？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "这是老师买的……？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "没错，亚子。那是我买给你的",
+       "nextGroup": 100870390
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "也就是说，老师要我穿这么色的内衣吗？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "因为我平常太嚣张，所以想罚我穿这个吗？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "这就是您的居心吗？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "不是这样的……",
+       "nextGroup": 100870420
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "以为我会乖乖听话吗！？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "真是太夸张了……脱序也要有个限度，我要退货！退货！！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "知道了吗！我要退货！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "唉……",
+       "nextGroup": 100870450
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "favorRank": 5,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，派对就快开始了"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我已经做好万全的准备",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "呵呵。这样那场战争就会顺利以我的胜利落幕吧",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "真是充满干劲呢",
+       "nextGroup": 100870480
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "是吗？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "嗯，不过我认为在这么重要的战斗之前，必须做更周密的准备",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "毕竟不能有丝毫失误",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "所以我决定要先练习",
+     "delayMs": 500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "练习？",
+       "nextGroup": 100870510
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师。请在约定时间前到这里来",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "跟我一起特训吧！",
+     "delayMs": 500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "那个……？",
+       "nextGroup": 100870530
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "今天您辛苦了",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "亚子也辛苦了",
+       "nextGroup": 100870560
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那个，老师……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "您送的礼物……我会好好珍惜的",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "嗯……？",
+       "nextGroup": 100870580
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我想说的只有这些",
+     "delayMs": 500
+    }
+   ]
+  }
+ ]
+}

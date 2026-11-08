@@ -1,0 +1,258 @@
+{
+ "characterId": 10040,
+ "studentId": 32,
+ "devName": "CH0114",
+ "name": "大野月咏",
+ "avatar": "/res/avatar/32.png",
+ "messageCount": 31,
+ "threads": [
+  {
+   "favorRank": 2,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那个，老师……"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "如果可以的话",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "怎么了吗？",
+       "nextGroup": 100400040
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "有件事，想和您商量……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "请问，有时间吗……？",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "嗯，如果是月夜的请托的话随时都行！",
+       "nextGroup": 100400060
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "谢谢老师……！那么，地点之后再传给您哦……！",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 2,
+      "scenarioGroup": 1004002,
+      "path": "/res/story/1004002.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 3,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，如果可以的话……"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "可以，再帮忙我训练吗？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "对不起，虽然我知道老师很忙……不好意思……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "没关系唷，要去哪里才好呢？",
+       "nextGroup": 100400110
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "谢谢老师……！那么那个，在以前的地方！",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 3,
+      "scenarioGroup": 1004003,
+      "path": "/res/story/1004003.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 5,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师！"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我，也许有了重大的发现也说不定……！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "请问，现在有时间吗……！？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "虽然没问题……怎么了吗？",
+       "nextGroup": 100400150
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那么，我马上前往夏莱……！",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 5,
+      "scenarioGroup": 1004005,
+      "path": "/res/story/1004005.json"
+     }
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "看来那本书，似乎是所谓的「戏仿书籍」的东西……！",
+     "delayMs": 2000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "啊啊，原来如此……",
+       "nextGroup": 100400190
+      },
+      {
+       "text": "所以才是可疑的封面呀",
+       "nextGroup": 100400190
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "虽然这次被骗了……！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "下次一定，会找来确实的「女刃心」的书！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "到时候，再重新拜托您了……！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "那个……嗯，加油哦",
+       "nextGroup": 100400220
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "好的，今天也谢谢老师！",
+     "delayMs": 1000
+    }
+   ]
+  },
+  {
+   "favorRank": 6,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，我今天也想修行……"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "请问可以，拜托您吗……？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "嗯，那就平常的地点可以吗？",
+       "nextGroup": 100400260
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "是的！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "谢谢老师！",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 6,
+      "scenarioGroup": 1004006,
+      "path": "/res/story/1004006.json"
+     }
+    }
+   ]
+  }
+ ]
+}

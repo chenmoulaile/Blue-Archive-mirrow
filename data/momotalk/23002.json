@@ -1,0 +1,422 @@
+{
+ "characterId": 23002,
+ "studentId": 98,
+ "devName": "hanae",
+ "name": "朝颜花江",
+ "avatar": "/res/avatar/98.png",
+ "messageCount": 56,
+ "threads": [
+  {
+   "favorRank": 2,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师会害怕打针吗？"
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "不怕",
+       "nextGroup": 230020030
+      },
+      {
+       "text": "打针我不行！针好可怕！",
+       "nextGroup": 230020040
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "这样啊，不愧是大人！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "学生们大部分都害怕打针……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "果然就算是大人也会害怕打针啊……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "看来一见到针头就毛骨悚然是跟年龄无关的也说不定",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "但是前辈们都说，老练的护士们打的针似乎一点也不痛",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "如果打针不会痛的话，或许害怕医院的人也会变少吧……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "该怎么做才能减轻疼痛呢？",
+     "delayMs": 1500,
+     "story": {
+      "favorRank": 2,
+      "scenarioGroup": 2300202,
+      "path": "/res/story/2300202.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 3,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，最近睡得还好吗？"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我看你的黑眼圈很重，也总是很累的样子",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "最近好像有点失眠……",
+       "nextGroup": 230020100
+      },
+      {
+       "text": "晚上总是睡不著……",
+       "nextGroup": 230020100
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "果然是这样啊",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "疲劳是万病之源！如果不好好睡觉的话可是会生病的",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "为了让老师能好好睡觉，我会想想办法的",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "明天白天，请老师来保健室一趟！",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 3,
+      "scenarioGroup": 2300203,
+      "path": "/res/story/2300203.json"
+     }
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "香草茶虽然是好东西，但是要让人睡著还是需要花点时间呢",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "所以，我在网路上找到了更有效的东西！",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "乌头属植物的根……？用这个泡的茶好像很不错喔！",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "你想杀了我吗！？",
+       "nextGroup": 230020150
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "favorRank": 5,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师平常是在哪里做广播体操呢？"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "是公园？学校？还是在夏莱呢？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "这么说来，我还没看过老师做广播体操的样子呢",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "广播体操什么的，小学之后就没做过了……",
+       "nextGroup": 230020180
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "咦？没有在做广播体操吗？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那样的话，不就拿不到花丸印章了吗！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师也和我一起到平时去的公园做广播体操吧！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "不要",
+       "nextGroup": 230020210
+      },
+      {
+       "text": "早上很想睡觉",
+       "nextGroup": 230020210
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "像老师这样老是久坐的大人，不好好活动身体可不行！",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "来，我们走吧！",
+     "delayMs": 500,
+     "story": {
+      "favorRank": 5,
+      "scenarioGroup": 2300205,
+      "path": "/res/story/2300205.json"
+     }
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "久违的广播体操的感想怎么样呢，老师？",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "一早起来做体操，不觉得精神都来了吗？",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "确实，比平时更有精神了",
+       "nextGroup": 230020240
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "对吧？做广播体操可以运动到平时没用到的肌肉，对健康很好的！",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "所以说，接下来每一天请都要参加早上的广播体操喔！",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "如果老师没来的话，我会去夏莱迎接你的！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "至少假日放过我吧……",
+       "nextGroup": 230020270
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "favorRank": 6,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我在图书馆找到了一本很旧的医学书籍，里面全都是我不知道的治疗方法！"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "难道说……是在现代被隐藏起来的，禁断的医术吗！？",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "是像民间疗法那一类的东西吧？",
+       "nextGroup": 230020300
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "是这样吗……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "但任何事都是挑战。如果老师哪天受伤了的话就来试试看吧！",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "敬请期待喔！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "期待受伤的话有点……",
+       "nextGroup": 230020330
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "favorRank": 8,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "夏莱的办公室总感觉死气沉沉的"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "如果放个花瓶之类的东西，应该会好一点吧？",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师喜欢哪种花呢？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "花的话基本上都喜欢唷",
+       "nextGroup": 230020370
+      },
+      {
+       "text": "只要不会有有害的花粉乱飞的话都可以",
+       "nextGroup": 230020370
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那么，我就按照我的喜好来处理啰！",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "花绘最喜欢哪种花呢？",
+       "nextGroup": 230020390
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "唔嗯……我也是什么花都喜欢，但最喜欢的是牵牛花唷",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "盛开的牵牛花，简直就像是吹奏著小号传达早晨到来的天使一样",
+     "delayMs": 1500,
+     "story": {
+      "favorRank": 8,
+      "scenarioGroup": 2300208,
+      "path": "/res/story/2300208.json"
+     }
+    }
+   ]
+  }
+ ]
+}

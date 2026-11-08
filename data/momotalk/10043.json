@@ -1,0 +1,517 @@
+{
+ "characterId": 10043,
+ "studentId": 41,
+ "devName": "CH0175",
+ "name": "狐坂若藻",
+ "avatar": "/res/avatar/41.png",
+ "messageCount": 69,
+ "threads": [
+  {
+   "favorRank": 2,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，久疏问候"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "今日似乎是盛夏日，有发生什么异常吗？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "谢谢你担心我，若藻。我没事",
+       "nextGroup": 100430040
+      },
+      {
+       "text": "若藻才是，身体还好吗？",
+       "nextGroup": 100430040
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "啊……无论何时都依然如此温柔的答复……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "是的，请安心。若藻我，唯独对健康可是很有自信的",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "有精神是最重要的呢",
+       "nextGroup": 100430070
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "唔呵呵……话说，老师",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "对于阁下十分忙碌这件事，若藻我也十分清楚",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "难不成，今日也……？",
+     "delayMs": 500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "嗯，今天也预计一整天都会待在夏莱……怎么了吗？",
+       "nextGroup": 100430100
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "是这样啊……虽然可以躲避阳光无情的照射是件好事……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "也就是今天对阁下来说，会是个完全不像夏季的一天呢……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "没错……那样，也太……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "那个……若藻？",
+       "nextGroup": 100430130
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我明白了",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "如果是为了阁下的话，若藻我就奋力相助吧",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "敬请期待♥",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "咦……？",
+       "nextGroup": 100430160
+      }
+     ]
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "……什，什么意思？",
+       "nextGroup": 100430170
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "favorRank": 3,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，别来无恙？"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "听说您今日因为夏莱的工作去了海边",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "是这样没错……不过若藻到底是怎么知道的……",
+       "nextGroup": 100430200
+      },
+      {
+       "text": "之前在准备的烟火大会稍微有点事要办",
+       "nextGroup": 100430200
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "啊啊，果然……！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那个……如果，可以的话想和老师打声招呼……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "抱歉！今天真的很忙……下次再说吧！",
+       "nextGroup": 100430220
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "哎呀……这样子啊",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "工作告一段落之后的话也许……！",
+       "nextGroup": 100430240
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "工作之后的话……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "……我明白了。虽然遗憾，下次再会吧",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我会恭候您的……唔呵呵",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 3,
+      "scenarioGroup": 1004303,
+      "path": "/res/story/1004303.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 5,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，别来无恙？……那个，如果可以的话"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "按照之前的约定，一起……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "抱歉，若藻。现在有点忙……",
+       "nextGroup": 100430290
+      }
+     ]
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "能等我一下吗？",
+       "nextGroup": 100430300
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "好的。我明白了",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "若藻我，会永远等著阁下的",
+     "delayMs": 1500,
+     "story": {
+      "favorRank": 5,
+      "scenarioGroup": 1004305,
+      "path": "/res/story/1004305.json"
+     }
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "今天一整天非常感谢您",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "对若藻我来说，这一天，成为了重要的回忆之日",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "不会，我才是",
+       "nextGroup": 100430350
+      },
+      {
+       "text": "下次再正常一点见面吧",
+       "nextGroup": 100430350
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "好的，阁下的那句话，我会铭记在心",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "下次……也是呢",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "为了避免这种事态，会一如往常",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "从夏莱的正门，前去拜访",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "啊，正门平时有设保全系统",
+       "nextGroup": 100430390
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "唔呵呵，那种保全系统，对若藻我来说构成不了任何阻碍",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "……若藻？等一下，那是指……",
+       "nextGroup": 100430410
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那么，告辞",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "咦，若藻！？等等！？",
+       "nextGroup": 100430430
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "favorRank": 15,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，您今天也一切安好吗？"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "天气十分炎热，还请多加留意",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "好想去海边……",
+       "nextGroup": 100430460
+      },
+      {
+       "text": "想在沙滩上休息……",
+       "nextGroup": 100430460
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "啊啊，那么……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "若藻我，知道一处人烟稀少的海滩",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "要不要一同到那里安静地避暑呢？",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "嗯！好！",
+       "nextGroup": 100430480
+      },
+      {
+       "text": "马上出发吧！",
+       "nextGroup": 100430480
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "唔呵呵，谢谢您",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我会负责护送阁下的",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那么稍后在约定的地点碰面吧",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 15,
+      "scenarioGroup": 1004315,
+      "path": "/res/story/1004315.json"
+     }
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，今天真的非常愉快",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "倘若将来还有机会，真想再和阁下一起去海边呢",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "托你的福，我也玩得很开心",
+       "nextGroup": 100430530
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "啊啊，这是多么令人怦然心动",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那么，期待有朝一日能在海边再见",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "在那之前，还请务必保重",
+     "delayMs": 1000
+    }
+   ]
+  }
+ ]
+}

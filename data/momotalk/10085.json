@@ -1,0 +1,468 @@
+{
+ "characterId": 10085,
+ "studentId": 340,
+ "devName": "CH0233",
+ "name": "小钩晴",
+ "avatar": "/res/avatar/340.png",
+ "messageCount": 64,
+ "threads": [
+  {
+   "favorRank": 2,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "你听说过数位游牧民吗？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "有在网路上看到过……",
+       "nextGroup": 100850040
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "数位游牧民就如字面上的意思，指的是拥有数位设备的游牧民族。也就是能不受空间限制，利用数位设备自由生活的人",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "最近数位设备都趋向小型化……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "好像有很多程式设计师会带著一台小笔电到野外编写程式",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "听起来很帅气呢",
+       "nextGroup": 100850070
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "嗯，我看过骇客论坛上的照片，看起来挺有趣的",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "下次我要不要也到野外工作看看呢……？",
+     "delayMs": 2500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "可是晴不是不喜欢到野外吗？",
+       "nextGroup": 100850090
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "QAQ",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那是偏见，老师",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我只是不喜欢没有网路、温差又大的环境而已",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "漂亮的景色我还是很喜欢的",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "既然说到这个……这周末要不要亲身体验数位游牧民的生活？",
+     "delayMs": 1500,
+     "story": {
+      "favorRank": 2,
+      "scenarioGroup": 1008502,
+      "path": "/res/story/1008502.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 3,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "听说最近"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "好像很流行「Glamping」哦",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "Glamping？",
+       "nextGroup": 100850150
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "嗯，这是新的名词，意思是豪华露营。听说露营场会事先准备好帐篷、家具和烹饪器具，所以就算不带沉重的行李也能露营",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我还听说有些地方的帐篷里会有电视、空调，甚至有简单的烹饪设备",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "那一定很方便……",
+       "nextGroup": 100850170
+      },
+      {
+       "text": "如果有那种露营场，我可能会想去看看……",
+       "nextGroup": 100850170
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "嗯，而且我希望",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "他们有安装伺服器以便连上网路",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "附近最好也要有24小时营业的便利商店……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不，干脆把帐篷搭在校内吧。这样就不用大老远跑到其他地方了",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "这样就不叫露营了吧……？",
+       "nextGroup": 100850200
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "favorRank": 5,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，现在可以来千年一趟吗？"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我遇到了难以独自解决的问题……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "希望老师能帮忙",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "嗯，我马上过去",
+       "nextGroup": 100850230
+      }
+     ]
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "不过连晴都难以解决的问题……",
+       "nextGroup": 100850240
+      },
+      {
+       "text": "究竟会是什么呢……",
+       "nextGroup": 100850240
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "这个嘛，问题本身其实并不棘手……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "对了，因为可能必须到有点远的地方",
+     "delayMs": 2500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "请老师穿舒服好走的鞋子过来",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "……究竟怎么回事？",
+       "nextGroup": 100850270
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我后来才知道……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那封匿名邮件好像是千寻前辈开的玩笑",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不惜那么做也想让人运动吗？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "没想到千寻会开那种玩笑……",
+       "nextGroup": 100850300
+      }
+     ]
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "有点令人意外……",
+       "nextGroup": 100850310
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我也有同感",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "后来他带了一杯很贵的咖啡回来表示歉意",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "但老实说这次并没有吃亏的感觉",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "啊",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "当我没说",
+     "delayMs": 1500
+    }
+   ]
+  },
+  {
+   "favorRank": 6,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "唔"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "上个月的健康检查结果出来了……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "肠胃功能好像变得很差",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "医生劝我减少摄取咖啡因……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "趁这个机会试著减少一点吧",
+       "nextGroup": 100850360
+      },
+      {
+       "text": "提前注意健康是很重要的",
+       "nextGroup": 100850360
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "嗯，我也很清楚……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "但就算真的想戒掉，只要一专心工作就会下意识地想喝能量饮料",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "生活习惯果然很难一次改变",
+       "nextGroup": 100850380
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我想到一个能减少咖啡因的好方法",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "但如果想实践就需要做各种准备……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师能帮忙吗？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "当然",
+       "nextGroup": 100850410
+      },
+      {
+       "text": "我该怎么帮忙？",
+       "nextGroup": 100850410
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "谢谢你，老师",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "这周末能请老师来千年附近的露营场吗？",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "详情我到时候会说明",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 6,
+      "scenarioGroup": 1008506,
+      "path": "/res/story/1008506.json"
+     }
+    }
+   ]
+  }
+ ]
+}

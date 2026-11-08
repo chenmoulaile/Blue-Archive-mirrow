@@ -1,0 +1,276 @@
+{
+ "characterId": 13005,
+ "studentId": 176,
+ "devName": "kayoko",
+ "name": "鬼方佳代子",
+ "avatar": "/res/avatar/176.png",
+ "messageCount": 33,
+ "threads": [
+  {
+   "favorRank": 2,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师有因为自己的外貌苦恼过吗？"
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "这么突然，怎么了？",
+       "nextGroup": 130050030
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "……如老师知道的那样，我经常听人说我给人的第一印象很可怕",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "经常被奇怪的人事纠缠",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "拜此所赐……也没获得过什么好处",
+     "delayMs": 1500,
+     "story": {
+      "favorRank": 2,
+      "scenarioGroup": 1300502,
+      "path": "/res/story/1300502.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 3,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，之前说要找的东西，终于入手了唷"
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "太好了，谢谢！",
+       "nextGroup": 130050070
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "看这反应，想必是找很久了。那太好了",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "今天下午如果有空的话，可以来便利屋领取",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "夏莱的工作结束后，马上就去",
+       "nextGroup": 130050090
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "favorRank": 5,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师有喜欢的音乐类型吗？"
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "流行歌曲吧",
+       "nextGroup": 130050110
+      },
+      {
+       "text": "古典音乐吧",
+       "nextGroup": 130050110
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "这样啊，我觉得很适合你",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "佳世子喜欢什么样的音乐？",
+       "nextGroup": 130050130
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我……普普通通吧。可能跟老师的很接近",
+     "delayMs": 1500,
+     "story": {
+      "favorRank": 5,
+      "scenarioGroup": 1300505,
+      "path": "/res/story/1300505.json"
+     }
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那个第二张专辑，听完了吗？",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "「Black Death Poison」是不是很棒？",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "……脑袋被狠狠重击一样的感觉",
+       "nextGroup": 130050160
+      },
+      {
+       "text": "……感觉挺前卫的",
+       "nextGroup": 130050160
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不愧是老师，我就知道你懂",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "第二张专辑的歌词比第一张容易理解",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "但声音更加强烈，所以更多人喜欢这张",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "如果喜欢的话，下次借你第三张专辑",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "我会考虑的……",
+       "nextGroup": 130050190
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "favorRank": 6,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "气象预报说今天下午会下雨"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不要忘记带伞唷",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 6,
+      "scenarioGroup": 1300506,
+      "path": "/res/story/1300506.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 8,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "三一好像有一座收集了世界上所有书籍的巨大图书馆……"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "会不会也有唱片店收集了全世界的唱片呢？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "商店街的「The．Record Building」如何？",
+       "nextGroup": 130050240
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那里虽说不到全世界……但品项确实挺齐全",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不分种类收集了各种类型的唱片",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我假日常去",
+     "delayMs": 1500,
+     "story": {
+      "favorRank": 8,
+      "scenarioGroup": 1300508,
+      "path": "/res/story/1300508.json"
+     }
+    }
+   ]
+  }
+ ]
+}

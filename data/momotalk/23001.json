@@ -1,0 +1,411 @@
+{
+ "characterId": 23001,
+ "studentId": 97,
+ "devName": "fuuka",
+ "name": "爱清枫香",
+ "avatar": "/res/avatar/97.png",
+ "messageCount": 53,
+ "threads": [
+  {
+   "favorRank": 2,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，有件事想拜托您……"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "请问，您今天有时间吗？",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "嗯，完全没问题唷",
+       "nextGroup": 230010040
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "太，太好了！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那么，我在食堂等您。万事拜托了",
+     "delayMs": 1500,
+     "story": {
+      "favorRank": 2,
+      "scenarioGroup": 2300102,
+      "path": "/res/story/2300102.json"
+     }
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "今天非常感谢老师的帮忙",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "不会，没做什么大不了的事",
+       "nextGroup": 230010070
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "别这么说。日后一定会好好报答老师的",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "敬请期待唷",
+     "delayMs": 1500
+    }
+   ]
+  },
+  {
+   "favorRank": 3,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，我准备好了"
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "准备好了，是指……？",
+       "nextGroup": 230010100
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "今天，可以请老师来格黑娜的学生食堂一趟吗？",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "让老师见识，风华的全力",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 3,
+      "scenarioGroup": 2300103,
+      "path": "/res/story/2300103.json"
+     }
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "对，对不起，老师",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我满脑子只想著用美味的料理来招待老师，所以才……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "今天真的很抱歉！",
+     "delayMs": 1000
+    }
+   ]
+  },
+  {
+   "favorRank": 5,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，您醒了吗？身体还好吗……？"
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "嗯，刚醒来",
+       "nextGroup": 230010150
+      },
+      {
+       "text": "没事，什么问题都没有唷",
+       "nextGroup": 230010150
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "呼，太好了……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我一直在想，要做什么才能够弥补老师",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "正好，我想到了一个好主意……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "今天下午能见个面吗？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "嗯，我很乐意",
+       "nextGroup": 230010180
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "非常感谢！那么，我等老师来唷！",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 5,
+      "scenarioGroup": 2300105,
+      "path": "/res/story/2300105.json"
+     }
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "今天的鳗鱼料理老师觉得怎么样呢？",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "要是有合老师的口味就好了",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "下次我会用更美味的料理招待老师唷！",
+     "delayMs": 1000
+    }
+   ]
+  },
+  {
+   "favorRank": 6,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师。其实我前几天想出了一道新菜色"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "无论如何都想让老师第一个吃到",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "如果方便的话……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "风华的新菜色！我一定去！",
+       "nextGroup": 230010240
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "呵呵。好，我等老师来唷",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 6,
+      "scenarioGroup": 2300106,
+      "path": "/res/story/2300106.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 8,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "之前有说过今天要来帮我，老师还记得吗？",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "记得喔",
+       "nextGroup": 230010280
+      },
+      {
+       "text": "……是今天吗？",
+       "nextGroup": 230010290
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "太好了♪",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "啊，难道那时候没有好好传达到吗……？",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "抱歉，开玩笑的",
+       "nextGroup": 230010310
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "啊，原来，是开玩笑的啊……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "被开这种欺负人的玩笑的话，",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我会受伤的……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "抱，抱歉……！",
+       "nextGroup": 230010340
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "……骗你的，这也是开玩笑的哦",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "中计了！",
+       "nextGroup": 230010360
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "呵呵，玩笑话就先说到这里",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我在食堂等老师哦！",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 8,
+      "scenarioGroup": 2300108,
+      "path": "/res/story/2300108.json"
+     }
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老，老师……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那个，今天发生的事……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "有发生什么吗？",
+       "nextGroup": 230010400
+      },
+      {
+       "text": "风华炭，真可爱啊……",
+       "nextGroup": 230010400
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "呜，呜呜……！不，不能告诉其他人唷……？",
+     "delayMs": 1000
+    }
+   ]
+  }
+ ]
+}

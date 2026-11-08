@@ -1,0 +1,384 @@
+{
+ "characterId": 23000,
+ "studentId": 10,
+ "devName": "airi",
+ "name": "栗村爱莉",
+ "avatar": "/res/avatar/10.png",
+ "messageCount": 53,
+ "threads": [
+  {
+   "favorRank": 2,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，老师！"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "这次「Café．Mille-feuille」好像推出了新的甜点！",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "要不要一起去呀？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "抱歉，现在正好特别忙……",
+       "nextGroup": 230000040
+      },
+      {
+       "text": "如果还能看到明天的太阳的话我一定……",
+       "nextGroup": 230000040
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "啊……原来这么忙吗……？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "你还好吗，老师？(⊙_⊙;)",
+     "delayMs": 1500,
+     "story": {
+      "favorRank": 2,
+      "scenarioGroup": 2300002,
+      "path": "/res/story/2300002.json"
+     }
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师～",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "今天的杯子蛋糕，你觉得怎么样呢？",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "好吃吗？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "嗯，很好吃唷",
+       "nextGroup": 230000080
+      },
+      {
+       "text": "工作正好也到了一个瓶颈，谢啦",
+       "nextGroup": 230000080
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那真是太好了(❁´▽`)",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "下次见啰！",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "o(^▽^)o",
+     "delayMs": 1000
+    }
+   ]
+  },
+  {
+   "favorRank": 3,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师～"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "最近如何，还是那么忙吗？",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "还是老样子呢……",
+       "nextGroup": 230000130
+      },
+      {
+       "text": "想要学分身术……",
+       "nextGroup": 230000130
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "今天也很忙啊……真是辛苦了……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "╯︿╰",
+     "delayMs": 500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "怎么了吗？没事吧？",
+       "nextGroup": 230000150
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "正好想去吃甜点，突然想起老师",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "很忙的话那就下次再说吧～(*￣▽￣*)",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "如果是这种事的话！",
+       "nextGroup": 230000170
+      },
+      {
+       "text": "我马上去！",
+       "nextGroup": 230000170
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "咦？没，没问题吗？",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师！？╚(•⌂•)╝",
+     "delayMs": 500,
+     "story": {
+      "favorRank": 3,
+      "scenarioGroup": 2300003,
+      "path": "/res/story/2300003.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 5,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，我想问一下"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "最近有打算来三一吗？",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "嗯，正打算要去",
+       "nextGroup": 230000220
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "啊，真的吗？",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "如果可以的话，来的时候可以联络我吗？ヾ(•ω•`)o",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "有事想跟老师商量",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "嗯，那之后再联络",
+       "nextGroup": 230000240
+      },
+      {
+       "text": "我很乐意和爱莉商量",
+       "nextGroup": 230000240
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "哇，非常感谢！",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我等你唷，老师！\n(((o(≧∇≦)o)))",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 5,
+      "scenarioGroup": 2300005,
+      "path": "/res/story/2300005.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 6,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师～(～￣▽￣)～"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "最近如何，忙吗？",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "咦，老师？",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "你好像很忙啊……（｡´・_・｀｡)",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "工作，请加油！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "爱莉会一直支持你的！ヾ(^▽^*)))",
+     "delayMs": 1500,
+     "story": {
+      "favorRank": 6,
+      "scenarioGroup": 2300006,
+      "path": "/res/story/2300006.json"
+     }
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，今天真的非常感谢！o(^▽^)o",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "今后偶尔也能，那个……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "一起去散步吗？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "到时候一定还要买冰淇淋",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "当然",
+       "nextGroup": 230000330
+      },
+      {
+       "text": "彼此彼此，如果爱莉可以的话",
+       "nextGroup": 230000330
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "非，非常感谢！",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我会一直支持老师的！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那么，祝你每天都是美好的一天！\n(✿◕‿◕✿)",
+     "delayMs": 1000
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,334 @@
+{
+ "characterId": 10053,
+ "studentId": 54,
+ "devName": "CH0184",
+ "name": "早濑优香",
+ "avatar": "/res/avatar/54.png",
+ "messageCount": 43,
+ "threads": [
+  {
+   "favorRank": 2,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，这个月的申请书做得如何呢？"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "提交期限就快到了，但我还没收到",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "没有在之前交给优香报告书的资料夹里吗？",
+       "nextGroup": 100530040
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "哎呀……是我漏看了",
+     "delayMs": 2000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "最近总是手忙脚乱的……真不好意思",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "最近是不是太忙了？",
+       "nextGroup": 100530060
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "虽然确实很忙……但也没办法",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "因为千年主办的晄轮大祭就快到了",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "除了平常研讨会的工作之外，还得以千年学生的身分进行晄轮大祭的准备，所以没什么休息……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "辛苦你了，优香",
+       "nextGroup": 100530090
+      },
+      {
+       "text": "晄轮大祭，我很期待哦",
+       "nextGroup": 100530090
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "和老师对话后，稍微有点力气了",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "要是继续逞强而倒下的话，可就本利尽失了呢……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我会注意保持良好的健康管理的",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 2,
+      "scenarioGroup": 1005302,
+      "path": "/res/story/1005302.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 3,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "这么说来，在这次晄轮大祭期间，校内的食堂好像无法使用"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "虽然附近会有摊贩，但当天应该会被实行委员的工作追著跑，所以没时间去……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我想这次就自己带便当吧",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "是个不错的点子呢",
+       "nextGroup": 100530150
+      }
+     ]
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "优香平常会做料理吗？",
+       "nextGroup": 100530160
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不……",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "没有做过能称为料理的料理……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不过我想这也是个好机会，所以想练习看看",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 3,
+      "scenarioGroup": 1005303,
+      "path": "/res/story/1005303.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 5,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，马上就是奇普托斯校际比赛的地区选拔赛了呢"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "千年的棒球部似乎也会参赛……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不知道结果会如何，毕竟我们的棒球部只是个弱小的队伍",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "优香常看棒球吗？",
+       "nextGroup": 100530210
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "这个嘛，和普通人相比\n我可能不是这么热衷……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "但千年的队伍出场时，还是会帮他们加油",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 5,
+      "scenarioGroup": 1005305,
+      "path": "/res/story/1005305.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 6,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "令人晕头转向的晄轮大祭总算是结束了呢……"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "辛苦你了，老师",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "优香也辛苦了",
+       "nextGroup": 100530250
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "谢谢。但这是身为研讨会干部的我应该做的",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "对了，老师\n因为忙著处理晄轮大祭，所以向夏莱请求协助的作业还没有完成",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "等处理完手边的业务后，我会去夏莱一趟",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那么，之后再麻烦了",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 6,
+      "scenarioGroup": 1005306,
+      "path": "/res/story/1005306.json"
+     }
+    },
+    {
+     "kind": "image",
+     "from": "student",
+     "text": "",
+     "image": "UIs/03_Scenario/04_ScenarioImage/Mo_Yuuka_01",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我在上面试著加了一句话……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老，老师觉得怎么样？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "好像可以再可爱一点……",
+       "nextGroup": 100530310
+      },
+      {
+       "text": "会不会有点严肃？",
+       "nextGroup": 100530310
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "唔嗯……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "image",
+     "from": "student",
+     "text": "",
+     "image": "UIs/03_Scenario/04_ScenarioImage/Mo_Yuuka_02",
+     "delayMs": 2500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "……只有老师才有哦",
+     "delayMs": 1000
+    }
+   ]
+  }
+ ]
+}

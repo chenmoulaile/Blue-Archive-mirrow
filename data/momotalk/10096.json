@@ -1,0 +1,302 @@
+{
+ "characterId": 10096,
+ "studentId": 375,
+ "devName": "CH0260",
+ "name": "尾刃叶渚",
+ "avatar": "/res/avatar/375.png",
+ "messageCount": 39,
+ "threads": [
+  {
+   "favorRank": 2,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "您好，老师。我是环奈"
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "好久不见，环奈",
+       "nextGroup": 100960030
+      },
+      {
+       "text": "最近过得好吗？",
+       "nextGroup": 100960030
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不好意思突然联络您，我有件事想向您请教",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "环奈竟然有事要向我请教，真少见",
+       "nextGroup": 100960050
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "其实我这次接下了一份救生员的工作",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "但问题就在于泳装的部分……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "问题？",
+       "nextGroup": 100960070
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那个……假如您方便的话，能不能当面和您商量这件事呢？",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "因为这件事，我自己实在难以抉择",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "当然可以，我马上过去",
+       "nextGroup": 100960100
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "您平安到家了吗？今天真的很感谢老师",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "多亏了老师，我才能挑到适合的泳装",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "环奈能喜欢真是太好了",
+       "nextGroup": 100960130
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我刚才意识到了一件事",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "或许我需要的，其实只是从别人口中听到一句「很适合你」而已",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "毕竟我从来没有执行过这样的任务，所以心里一直有点不安",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "那就好，现在心情有比较轻松一点了吗？",
+       "nextGroup": 100960170
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "是，就像您说的一样",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "找老师帮忙果然是个正确的决定",
+     "delayMs": 1000
+    }
+   ]
+  },
+  {
+   "favorRank": 3,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "您好，老师"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "在水上乐园玩得还开心吗？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "嗯，我才刚入场就迫不及待地进到水里了",
+       "nextGroup": 100960210
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "听到您玩得这么开心，身为救生员的我也感到与有荣焉呢",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那个，假如您方便的话，我有件事想拜托您",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "是什么事呢？",
+       "nextGroup": 100960230
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "您可以到一个叫「巨无霸滑水道」的户外设施这边来吗？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "在设施开放前，我想麻烦您帮我测试一下",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 3,
+      "scenarioGroup": 1009603,
+      "path": "/res/story/1009603.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 5,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "今天水上乐园没有营业"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "请您务必留意日期，以免刚好碰上公休日",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "所以你今天也休息吗，环奈？",
+       "nextGroup": 100960270
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "很遗憾，并非如此",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "救生员在公休日需要协助设施的清扫和维护",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "为了让游客们能安全且愉快地游玩设施，我会竭尽自己的全力",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "竟然连公休日都不能休息……",
+       "nextGroup": 100960300
+      },
+      {
+       "text": "会不会有点太拚了？",
+       "nextGroup": 100960300
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "毕竟救生员的责任就是维护游客的安全",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "况且老师也是众多游客当中的一员啊",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 5,
+      "scenarioGroup": 1009605,
+      "path": "/res/story/1009605.json"
+     }
+    }
+   ]
+  }
+ ]
+}

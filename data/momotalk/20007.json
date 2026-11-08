@@ -1,0 +1,294 @@
+{
+ "characterId": 20007,
+ "studentId": 68,
+ "devName": "CH9999",
+ "name": "初音未来",
+ "avatar": "/res/avatar/68.png",
+ "messageCount": 38,
+ "threads": [
+  {
+   "favorRank": 2,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那个，夏莱的老师……对，对吗？"
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "哪位……？",
+       "nextGroup": 200070030
+      },
+      {
+       "text": "在哪里见过……？",
+       "nextGroup": 200070030
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "呵呵",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "如果可以的话，我也很想说明……但晚点再说吧",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "得到了众多学生的信赖，被认为是可以依靠的存在……因此，我想请对奇普托斯全体来说是调停者的老师帮一个忙",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "日落时分，可以来我指定的地点吗？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "啊，请对其他人保密唷！",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 2,
+      "scenarioGroup": 2000702,
+      "path": "/res/story/2000702.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 3,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，你好！"
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "后来怎么样了？",
+       "nextGroup": 200070080
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "啊，是的。我这边会想点办法",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "虽然还发不出声音……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "在那之后，有什么发现吗？",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "嗯。调查了一下，有几个看起来不错的方法",
+       "nextGroup": 200070110
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "真的吗！？不愧是老师！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那么，下午的练习结束后可以见个面吗？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我在Live House的休息室等你",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 3,
+      "scenarioGroup": 2000703,
+      "path": "/res/story/2000703.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 5,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "离现场演出只剩一周了……"
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "喉咙还是一样吗？",
+       "nextGroup": 200070150
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "是……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "果然还是再问一下能不能中止比较好吧",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "还有什么方法……",
+       "nextGroup": 200070170
+      },
+      {
+       "text": "我也想看未来的现场演出……难道就没有什么好方法……",
+       "nextGroup": 200070170
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那个，老师",
+     "delayMs": 2500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "如果可以的话，现在可以见面吗？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "有点话想跟你说，我在小巷子内等著",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 5,
+      "scenarioGroup": 2000705,
+      "path": "/res/story/2000705.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 6,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，曲子完成了……！"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "虽然感觉还有很多不成熟的地方……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "但这是我倾注心力制作的",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "辛苦了！",
+       "nextGroup": 200070220
+      },
+      {
+       "text": "一定没问题，大家都会很高兴的唷",
+       "nextGroup": 200070220
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "但是，真的没问题吗……？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "就这样去拜托工作人员，好像也很困难……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "即使是偷偷来，保安也很严密……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "交给我吧",
+       "nextGroup": 200070250
+      },
+      {
+       "text": "别担心，夏莱有很多擅长骇客和工程的学生",
+       "nextGroup": 200070250
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那个，事到如今才问有点晚了……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "夏莱，到底是什么组织呢……？",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 6,
+      "scenarioGroup": 2000706,
+      "path": "/res/story/2000706.json"
+     }
+    }
+   ]
+  }
+ ]
+}

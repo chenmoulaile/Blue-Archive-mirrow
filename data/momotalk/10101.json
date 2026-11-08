@@ -1,0 +1,223 @@
+{
+ "characterId": 10101,
+ "studentId": 381,
+ "devName": "CH0266",
+ "name": "锭前纱织",
+ "avatar": "/res/avatar/381.png",
+ "messageCount": 28,
+ "threads": [
+  {
+   "favorRank": 2,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "庆典还有趣吗？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "啊，沙织",
+       "nextGroup": 101010040
+      },
+      {
+       "text": "当然，我玩得很开心",
+       "nextGroup": 101010040
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那就好",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我现在正在海边的餐厅里工作",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "如果饿了的话，欢迎来我们这里吃",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 2,
+      "scenarioGroup": 1010102,
+      "path": "/res/story/1010102.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 3,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，之前受你照顾了"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "今天因为一些原因，我打算稍微逛一下庆典会场",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "但我一个人不太方便，所以希望能请你帮忙……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "没问题，我很乐意",
+       "nextGroup": 101010090
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "谢谢。那我在庆典会场的入口等你",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 3,
+      "scenarioGroup": 1010103,
+      "path": "/res/story/1010103.json"
+     }
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，我刚才测试了一下今天收集到的录音档",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我想应该能做出不错的取样片段",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "太好了！",
+       "nextGroup": 101010130
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我看看",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "（档案传送失败）",
+     "delayMs": 2000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "啊",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "奇怪",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "是容量的问题吗……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "我直接去表演会场听吧",
+       "nextGroup": 101010180
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "唔嗯，如果你愿意的话，我自然是求之不得……",
+     "delayMs": 1000
+    }
+   ]
+  },
+  {
+   "favorRank": 5,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "今天晚上有场DJ表演",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "如果有空的话，要不要来看看？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "嗯，我一定会去的",
+       "nextGroup": 101010220
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "谢谢。时间在太阳下山之后，地点则是庆典会场的主舞台",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我等你",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 5,
+      "scenarioGroup": 1010105,
+      "path": "/res/story/1010105.json"
+     }
+    }
+   ]
+  }
+ ]
+}

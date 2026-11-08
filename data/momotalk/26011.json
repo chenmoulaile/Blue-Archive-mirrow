@@ -1,0 +1,500 @@
+{
+ "characterId": 26011,
+ "studentId": 317,
+ "devName": "CH9996",
+ "name": "佐天泪子",
+ "avatar": "/res/avatar/317.png",
+ "messageCount": 73,
+ "threads": [
+  {
+   "favorRank": 2,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师！",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "太酷了，这里真的是太酷了！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "佐天？",
+       "nextGroup": 260110040
+      },
+      {
+       "text": "嗯？你指的是什么？",
+       "nextGroup": 260110040
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "啊",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "这样有点没头没尾的对吧，不好意思",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "等老师来了之后，我会跟你解释的！！",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 2,
+      "scenarioGroup": 2601102,
+      "path": "/res/story/2601102.json"
+     }
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "唔嗯",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "真奇怪",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "难道我们用错方法了吗？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "现在放弃还太早啰",
+       "nextGroup": 260110080
+      },
+      {
+       "text": "如果这么好找的话，就不会被称为传说了",
+       "nextGroup": 260110080
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "说的也是",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "果然没错！我就知道是这样！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那么，等我找到新的线索之后会再联络的！！",
+     "delayMs": 1000
+    }
+   ]
+  },
+  {
+   "favorRank": 3,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "嗯～"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "原来如此",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "又明白了一件事",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "明白了一件事？",
+       "nextGroup": 260110130
+      },
+      {
+       "text": "佐天？",
+       "nextGroup": 260110130
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "如果方便的话，现在能见个面吗？",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 3,
+      "scenarioGroup": 2601103,
+      "path": "/res/story/2601103.json"
+     }
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "嗯～",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我果然还是很在意",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "没有跟他们分出胜负的事……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "结果忘记原本的目的了……",
+       "nextGroup": 260110170
+      },
+      {
+       "text": "我觉得从某方面来看，已经分出胜负了",
+       "nextGroup": 260110170
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "咦……",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "是这样吗？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "嗯……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "听老师这么一说，好像也没错……",
+     "delayMs": 1500
+    }
+   ]
+  },
+  {
+   "favorRank": 5,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我突然觉得"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "稍微放松一下好像也不赖",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "正好我找到了一个不错的地方",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "假如老师没事的话，要不要来找我？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "可以是可以，不过你在哪里？",
+       "nextGroup": 260110230
+      },
+      {
+       "text": "找到了什么有趣的东西吗？",
+       "nextGroup": 260110230
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "啊",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "关于这点……",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 5,
+      "scenarioGroup": 2601105,
+      "path": "/res/story/2601105.json"
+     }
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "呼～！",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "真痛快！果然勇于尝试是对的",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "其实我只要在意起一件事，就没办法安心去做别的事",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "老实说我真的吃了一惊",
+       "nextGroup": 260110270
+      },
+      {
+       "text": "太厉害了，你以前该不会当过职业选手吧？",
+       "nextGroup": 260110270
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "嘿嘿",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "这倒是没有",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不过这件事可能要说明很久……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "嗯……",
+     "delayMs": 2000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "果然还是简单说一下",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "很常有挥棒的机会……可以这么说吧！",
+     "delayMs": 1000
+    }
+   ]
+  },
+  {
+   "favorRank": 6,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "果然"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "事情不像我想得那么简单",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不过算了",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "反正早就预料到了！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "嗯？发生什么事了吗？",
+       "nextGroup": 260110340
+      },
+      {
+       "text": "……佐天？",
+       "nextGroup": 260110340
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "啊",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "只是……",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "嗯",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "其实也没什么！",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 6,
+      "scenarioGroup": 2601106,
+      "path": "/res/story/2601106.json"
+     }
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "嗯～！",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "真痛快！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师不觉得我现在用起枪来熟练许多吗？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我自己觉得后半的命中率还挺高的哦？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "仔细想想，你也挺擅长打击的呢",
+       "nextGroup": 260110400
+      },
+      {
+       "text": "所谓的才能指的或许就是这种心态吧",
+       "nextGroup": 260110400
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "又",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "又说这种像是老师会说的话",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "啊",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "这么说来你确实是老师呢！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "哈哈",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "谢谢你，老师！！",
+     "delayMs": 1500
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,311 @@
+{
+ "characterId": 20022,
+ "studentId": 49,
+ "devName": "CH0177",
+ "name": "爱清枫香",
+ "avatar": "/res/avatar/49.png",
+ "messageCount": 39,
+ "threads": [
+  {
+   "favorRank": 2,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "你好，老师"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "快要过年了呢",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "今年也受你照顾了",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "彼此彼此，我也受你照顾了",
+       "nextGroup": 200220040
+      }
+     ]
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "风华今天有什么计划吗？",
+       "nextGroup": 200220050
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我今天应该也会忙著处理供给部的事……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不过不要紧",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我会全力以赴，努力到最后的！",
+     "delayMs": 1500,
+     "story": {
+      "favorRank": 2,
+      "scenarioGroup": 2002202,
+      "path": "/res/story/2002202.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 3,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那个……早安"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "起来就发现已经这个时间了……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "风华居然睡过头，真是少见……！",
+       "nextGroup": 200220100
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "真是太丢脸了……",
+     "delayMs": 2000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "别在意，这个时期睡过头很正常的。又很可爱",
+       "nextGroup": 200220120
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "真，真是的",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "请别取笑我了",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "话说回来，那个",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "虽然可能已经错过时机了",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "方便的话，要不要一起吃稍微晚了点的跨年荞麦面呢？",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "风华亲手做的料理！我现在就想吃！",
+       "nextGroup": 200220150
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "谢，谢谢老师",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "因为还需要做些准备，傍晚左右可以吗？",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我会在食堂等你的",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 3,
+      "scenarioGroup": 2002203,
+      "path": "/res/story/2002203.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 5,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，你今天也很忙吗？"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我想连假也快结束了，于是就联络了老师……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "休假的日子为何总是过得这么快呢……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "我和平时一样唷。风华呢？",
+       "nextGroup": 200220200
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那个，该说一晃眼就过去了吗……",
+     "delayMs": 2000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "但是明天就要开始为供给部做准备",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "所以明天得去购买食材才行",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "也就是说，今天是连假的最后一天……！？",
+       "nextGroup": 200220220
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "确，确实是呢",
+     "delayMs": 2000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "该说平常就这样吗",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "毕竟是供给部，这也没办法",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "不会没办法唷！",
+       "nextGroup": 200220240
+      }
+     ]
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "既然如此，今天得绑架风华才行……",
+       "nextGroup": 200220250
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "什么！？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "连，连老师都要绑架我吗！？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "毕竟是难得的连假最后一天啊！",
+       "nextGroup": 200220270
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "这，这是什么意思……？",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 5,
+      "scenarioGroup": 2002205,
+      "path": "/res/story/2002205.json"
+     }
+    }
+   ]
+  }
+ ]
+}

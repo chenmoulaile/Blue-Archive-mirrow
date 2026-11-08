@@ -1,0 +1,299 @@
+{
+ "characterId": 20004,
+ "studentId": 114,
+ "devName": "CH0061",
+ "name": "仲正一花",
+ "avatar": "/res/avatar/114.png",
+ "messageCount": 36,
+ "threads": [
+  {
+   "favorRank": 2,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师。今天下午能陪我一下吗？"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "其实我想买这次训练用的新泳装。希望能给我一些建议",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "那个，虽然很想陪你去……",
+       "nextGroup": 20004040
+      }
+     ]
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "不过不是跟朋友去而是跟我，没关系吗？",
+       "nextGroup": 20004050
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "是的，希望能拜托老师。那个，其实，我有件从国中时期穿到现在的泳装，但变得有点紧……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "因为是难得的机会，身为实现正义部的一员，想要一件更合适的泳装",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "这，这样啊……",
+       "nextGroup": 20004070
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "是的，所以想借助老师的力量",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那么，我等著唷",
+     "delayMs": 2500,
+     "story": {
+      "favorRank": 2,
+      "scenarioGroup": 2000402,
+      "path": "/res/story/2000402.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 3,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，现在可以来海边吗？"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "有想给老师看的东西",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "嗯，马上过去唷",
+       "nextGroup": 20004110
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "上次买了之后一直没机会穿，但难得都到海边来了",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "应该说，也只能在这种地方穿",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "是在说上次买的泳装吗？",
+       "nextGroup": 20004130
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "啊，如果可以早点来的话，就帮大忙了",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "要我用这身打扮等人，实在有点……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "咦，不是泳装吗！？到底穿了什么！？",
+       "nextGroup": 20004160
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "favorRank": 5,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师。我的身体状况已经恢复了，所以想照之前说的那样，先去稍微游个泳"
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "那么，我也过去那边吧",
+       "nextGroup": 20004180
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "嗯，老师能来的话是很高兴啦……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "但这次只是游泳，不用那么担心也没关系吧……？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "只是在游泳前，在海边做些简单的准备运动……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "慎重起见。我还是陪著吧",
+       "nextGroup": 20004210
+      },
+      {
+       "text": "而且我想看麻白游泳",
+       "nextGroup": 20004210
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "原，原来如此……原来是这样啊",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那么，我等老师来",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 5,
+      "scenarioGroup": 2000405,
+      "path": "/res/story/2000405.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 6,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "昨天辛苦了，老师"
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "辛苦了。麻白今天也要训练吗？",
+       "nextGroup": 20004240
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不，今天不是训练，而是打算做志工服务",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "志工服务？",
+       "nextGroup": 20004260
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "是的，听说很需要人手帮忙",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "例如捡垃圾或保护迷路的孩子等等，海边其实会发生很多状况",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "麻白真了不起",
+       "nextGroup": 20004280
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不，没什么大不了的",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "这也是为了正义所做的活动！",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 6,
+      "scenarioGroup": 2000406,
+      "path": "/res/story/2000406.json"
+     }
+    }
+   ]
+  }
+ ]
+}

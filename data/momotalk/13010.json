@@ -1,0 +1,602 @@
+{
+ "characterId": 13010,
+ "studentId": 52,
+ "devName": "Yuuka",
+ "name": "早濑优香",
+ "avatar": "/res/avatar/52.png",
+ "messageCount": 81,
+ "threads": [
+  {
+   "favorRank": 1,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "你好，老师。我是优香"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "还记得我吗？",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "嗯，当然",
+       "nextGroup": 130100030
+      },
+      {
+       "text": "……是谁来著？",
+       "nextGroup": 130100031
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "太好了，幸好你还记得",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "是早瀬优香！已经把我忘了吗！？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "看来先取得老师的联络方式是正确的",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "对了，有件事情",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "之前夏莱夺还作战时的子弹费用，还没确认到汇款",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "帐单应该已经送到夏莱了，请问什么时候会付款呢？",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "必须由我处理吗……？",
+       "nextGroup": 130100060
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "当然，子弹也不是免费的",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "反正是工作经费，只要向联邦学生会要求的话",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "应该会支付给夏莱的。希望能把这笔款项直接交付给我",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "优香，帐单要怎么做才好呢……？",
+       "nextGroup": 130100080
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "……呼。我有千年使用的帐单格式",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "下次去夏莱时拿给你",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "谢谢……！",
+       "nextGroup": 130100100
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不，这没什么",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那么，祝你有美好的一天",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 1,
+      "scenarioGroup": 1301001,
+      "path": "/res/story/1301001.json"
+     }
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师！怎么又有玩具的收据！？",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "玩具跟工作没关系吧！？",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "没有那个就无法工作……",
+       "nextGroup": 130100130
+      },
+      {
+       "text": "就这一次，这次就睁一只眼闭一只眼……",
+       "nextGroup": 130100130
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不行！老师是学生的模范！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我会把那些都清除掉并加以整理！",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "……该不会，因为文书工作很麻烦，所以就随便做吧？",
+     "delayMs": 2000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "……老师！！！！！",
+     "delayMs": 1000
+    }
+   ]
+  },
+  {
+   "favorRank": 3,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，今天放学后，能来趟学生办公室吗？"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我碰到一个难题，有点超出我的计算能力……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "连优香都解决不了的问题，就算是我也不见得能解决……",
+       "nextGroup": 130100170
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不，那个，不是那种事……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我需要老师的帮助",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "如果我能解决的话，我很乐意",
+       "nextGroup": 130100190
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "非常感谢，那我在学生办公室等你",
+     "delayMs": 1500,
+     "story": {
+      "favorRank": 3,
+      "scenarioGroup": 1301003,
+      "path": "/res/story/1301003.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 5,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "真是的……三一和格黑娜到底是怎么管理备品的？"
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "这次又是什么让你这么生气？",
+       "nextGroup": 130100220
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "「又」……从老师的角度，我看起来总是在生气吗？",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "是黑市走私品的事",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我查了一下这次没收的武器来源",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "大部分都是从三一和格黑娜那里流出来的",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不仅是印有校徽的枪械，连战车都流入黑市……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我不认为这两个学园有做好管理",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "当然，我们千年的管理是万无一失的",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "绝对不会有备品外流！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "真的吗？",
+       "nextGroup": 130100260
+      },
+      {
+       "text": "……",
+       "nextGroup": 130100260
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "嘛，学生们擅自改造出售的私人物品除外……",
+     "delayMs": 1500,
+     "story": {
+      "favorRank": 5,
+      "scenarioGroup": 1301005,
+      "path": "/res/story/1301005.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 6,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，听说你今天早上又迟到了"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "就算老师是老师，也太常迟到了吧？",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "是因为昨天工作很多，所以很晚才睡……",
+       "nextGroup": 130100290
+      },
+      {
+       "text": "如果优香能来叫醒我……",
+       "nextGroup": 130100291
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "即使这样也不能迟到！",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "已经是大人了，请不要撒娇！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "虽说夏莱没有校规，但也太松散了",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "来设立惩罚吧。从明天开始，每迟到一次，就要听从我的1个命令！",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "那优香迟到的话，我也可以反过来命令你吗？",
+       "nextGroup": 130100320
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "你在说什么，我怎么可能迟到？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "总之，明天绝对不可以迟到。绝对哦！",
+     "delayMs": 1500,
+     "story": {
+      "favorRank": 6,
+      "scenarioGroup": 1301006,
+      "path": "/res/story/1301006.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 8,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "有一个桌游被放在夏莱的办公室"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "如果没在使用的话，我可以收下吗？",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "嗯，好啊。优香也喜欢游戏吗？",
+       "nextGroup": 130100350
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "当然",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我喜欢桌游，也有涉猎线上游戏",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "蛮意外的",
+       "nextGroup": 130100370
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "你可能有什么误会……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我也跟其他学生一样，基本上是喜欢游戏的",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "因为思考攻略敌人的方法，就像解数学题一样有趣",
+     "delayMs": 1500,
+     "story": {
+      "favorRank": 8,
+      "scenarioGroup": 1301008,
+      "path": "/res/story/1301008.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 15,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "像这样做著数字相关的作业……"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不会有种，世上的所有东西都是由数字组成的吗？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "有种危险世界的味道……",
+       "nextGroup": 130100410
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "会危险，吗？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我不这么认为",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "也不是，期望世上的所有东西都能用数字来说明",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "只是，那个",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "如果每个人都能明白它的重要性",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我的工作也会变得轻松些……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "难道，计算结果又不一致了吗？",
+       "nextGroup": 130100460
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "没错，就是那样",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "计算机正好没电了",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "趁著更换电池的空档，稍微抱怨一下",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 15,
+      "scenarioGroup": 1301020,
+      "path": "/res/story/1301020.json"
+     }
+    }
+   ]
+  }
+ ]
+}

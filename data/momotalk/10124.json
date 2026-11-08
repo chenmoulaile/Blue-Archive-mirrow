@@ -1,0 +1,531 @@
+{
+ "characterId": 10124,
+ "studentId": 541,
+ "devName": "CH0291",
+ "name": "羽川莲见",
+ "avatar": "/res/avatar/541.png",
+ "messageCount": 76,
+ "threads": [
+  {
+   "favorRank": 2,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "这次实现正义部决定要去海边",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我想还是知会您一声比较好",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "哇！大海！",
+       "nextGroup": 101240040
+      },
+      {
+       "text": "哇！泳装！",
+       "nextGroup": 101240040
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "咦……？",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "啊，原来如此，您似乎误会了",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我们并不是要去游乐，而是作为实现正义部活动的延伸",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "啊，抱歉……",
+       "nextGroup": 101240070
+      },
+      {
+       "text": "难得能到夏日的海边，真可惜",
+       "nextGroup": 101240070
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "……或许是我说明得不够充分",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "能占用您一些时间吗？我当面向您解释",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 2,
+      "scenarioGroup": 1012402,
+      "path": "/res/story/1012402.json"
+     }
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "虽然今天准备不足",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "但一周后就不一样了",
+     "delayMs": 500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "啊，嗯。加油",
+       "nextGroup": 101240110
+      },
+      {
+       "text": "虽然不是很懂，但我也帮你加油",
+       "nextGroup": 101240110
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "是",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我绝对、肯定不会让您失望的",
+     "delayMs": 1000
+    }
+   ]
+  },
+  {
+   "favorRank": 3,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "终于，这一天还是到来了"
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "莲实？",
+       "nextGroup": 101240140
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "一周",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "与人生相比或许短暂",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "却是我第一次感到如此漫长",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "羽川莲实，已经做好觉悟了",
+     "delayMs": 2000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "欢迎您随时前来",
+     "delayMs": 500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "我马上过去",
+       "nextGroup": 101240170
+      },
+      {
+       "text": "好，好哦……？",
+       "nextGroup": 101240170
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "今天非常感谢您陪我去购物",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "真的没问题吗……？",
+       "nextGroup": 101240200
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "没问题",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "在去海边之前还有充分的时间",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "别太勉强自己哦……",
+       "nextGroup": 101240220
+      },
+      {
+       "text": "加油……",
+       "nextGroup": 101240220
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "谢谢您",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我会向您清楚展现，自己究竟能做到什么程度的",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "太沉重了……",
+       "nextGroup": 101240240
+      },
+      {
+       "text": "也别太过火哦……",
+       "nextGroup": 101240240
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那么，我们海边见吧",
+     "delayMs": 500
+    }
+   ]
+  },
+  {
+   "favorRank": 5,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "终于来到海边了"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "泳装尺寸也没问题",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "你很努力呢，莲实",
+       "nextGroup": 101240280
+      },
+      {
+       "text": "好厉害……实在太厉害了……！",
+       "nextGroup": 101240280
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "是啊，实在是……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不只戒掉工作时的零食",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "餐后甜点也忍住了",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "连茶会送来慰劳的蛋糕卷也让给别人",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "甚至连巡逻时帮助过的老板送来的、\n我从没吃过的限量Miracle5000蛋糕也……！",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "莲，莲实同学……？",
+       "nextGroup": 101240310
+      },
+      {
+       "text": "深呼吸！深呼吸！",
+       "nextGroup": 101240310
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不好意思",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "刚才一时太激动了",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 5,
+      "scenarioGroup": 1012405,
+      "path": "/res/story/1012405.json"
+     }
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "今天真的很谢谢您",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我总是让老师看见不想被见到的一面呢",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "健康才是最重要的",
+       "nextGroup": 101240350
+      },
+      {
+       "text": "以后禁止过度减肥！",
+       "nextGroup": 101240350
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "是，我会谨记在心",
+     "delayMs": 500
+    }
+   ]
+  },
+  {
+   "favorRank": 6,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "记得您说过，请我在有空时联络",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "可以在海边见个面吗？",
+       "nextGroup": 101240390
+      },
+      {
+       "text": "时机正好！就在前面见吧！",
+       "nextGroup": 101240390
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "咦？",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "明白了",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我这就出发",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 6,
+      "scenarioGroup": 1012406,
+      "path": "/res/story/1012406.json"
+     }
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "谢谢您，我想必不会忘记今年的夏天吧",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "太好了！",
+       "nextGroup": 101240430
+      },
+      {
+       "text": "我也很开心！",
+       "nextGroup": 101240430
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "是的，这是我第一次如此享受夏天",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "从头到尾，一切都很美好",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "最后的烟火呢？很漂亮吧",
+       "nextGroup": 101240450
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "烟火？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "啊",
+     "delayMs": 2000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "是，烟火确实很美",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "仿佛现在也历历在目呢，呵呵",
+     "delayMs": 500
+    }
+   ]
+  }
+ ]
+}

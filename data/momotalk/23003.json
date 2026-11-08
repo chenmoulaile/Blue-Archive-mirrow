@@ -1,0 +1,377 @@
+{
+ "characterId": 23003,
+ "studentId": 160,
+ "devName": "Hare",
+ "name": "小钩晴",
+ "avatar": "/res/avatar/160.png",
+ "messageCount": 48,
+ "threads": [
+  {
+   "favorRank": 2,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师。这次新上映的电影《魔鬼歼灭者4》的消息，你有听说吗？"
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "是巨大机器人会来破坏都市的那个科幻系列吗？",
+       "nextGroup": 230030030
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "对对。然后啊，没想到这次来支援主角的角色，",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "竟然是个骇客",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我原本就喜欢的电影续集里，竟然出现了骇客相关的角色……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "究竟会怎么呈现呢，真是令人期待",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "确实，虽然还不能确定，但要是很酷就好了",
+       "nextGroup": 230030060
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "嗯。好像是这个周末就要上映了，我看完再跟你说说感想",
+     "delayMs": 1500,
+     "story": {
+      "favorRank": 2,
+      "scenarioGroup": 2300302,
+      "path": "/res/story/2300302.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 3,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，今天你来社团教室的时候，可以帮我买罐能量饮料吗？"
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "能量饮料？「妖怪MAX」可以吗？",
+       "nextGroup": 230030090
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "嗯，那就「妖怪MAX」百香果口味好了",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不知道为什么，这附近好像都买不太到那个口味",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "这样啊。嗯，我知道了",
+       "nextGroup": 230030110
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "谢谢，拜托你了唷",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 3,
+      "scenarioGroup": 2300303,
+      "path": "/res/story/2300303.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 5,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "前阵子发售的显示卡，性能好像超强的"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我问了问业者，因为库存不够的关系，限制一个人只能买一张",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "虽然我不太懂电脑，不过一张还不够吗？",
+       "nextGroup": 230030150
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "嗯，不太够呢",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "如果没有两张以上的话，要测试新的模拟程式很可能会因为性能不足而没办法好好测试",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "虽然我个人是觉得两张也不够",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "但是显示卡本来就很贵了，如果再买更多的话实在有点吃不消，只好先用两张将就一下",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "老实说我还是不太懂，但好厉害啊……",
+       "nextGroup": 230030170
+      },
+      {
+       "text": "电脑世界真是深奥啊……",
+       "nextGroup": 230030170
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "所以说这个周末，老师能跟我一起去买吗？",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "钱当然是我来出，你能来我就很高兴了",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "我知道了，那就周末见",
+       "nextGroup": 230030190
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "favorRank": 6,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，之前开始做的无人机改造完成了唷"
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "终于完成了吗？恭喜你",
+       "nextGroup": 230030210
+      },
+      {
+       "text": "做了些什么改造来著？",
+       "nextGroup": 230030220
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "谢谢，这次我增加了很多新的功能，可以好好期待一下唷",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "增加了各式各样方便用户使用的新功能",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我打算今天下午在千年的楼顶进行测试，老师可以来看看吗？",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "工作结束后我马上过去",
+       "nextGroup": 230030250
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "favorRank": 15,
+   "messages": [
+    {
+     "kind": "image",
+     "from": "student",
+     "text": "",
+     "image": "UIs/03_Scenario/04_ScenarioImage/Mo_Hare_01"
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "晴，怎么了？",
+       "nextGroup": 230030270
+      }
+     ]
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "这张自拍真可爱呢！但怎么会突然……？",
+       "nextGroup": 230030280
+      }
+     ]
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "那个，晴同学……？",
+       "nextGroup": 230030290
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那个，关于那张照片……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "可以的话，希望你能删掉……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "我觉得拍得很可爱耶？",
+       "nextGroup": 230030320
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "但是",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "该怎么说呢，如果是可爱的照片的话，我能再拍一张发送给你……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "啊",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "这",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "刚才那是雅典娜3号又在恶作剧……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "所以，请不要放在心上……",
+     "delayMs": 1000
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,257 @@
+{
+ "characterId": 10113,
+ "studentId": 520,
+ "devName": "CH0082",
+ "name": "冰室濑名",
+ "avatar": "/res/avatar/520.png",
+ "messageCount": 31,
+ "threads": [
+  {
+   "favorRank": 2,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，我是急救医学部的氷室瀬奈"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "报告老师，我今天休假",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "因为最近很少见到老师让我很寂寞，希望可以跟老师约个时间见面",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "等等，先让我理解一下",
+       "nextGroup": 101130050
+      }
+     ]
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "唔嗯……我明白了！就这么决定吧！",
+       "nextGroup": 101130060
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "favorRank": 3,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，我是急救医学部的氷室瀬奈"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "报告老师，又到了我的休假日",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "今天也要待命吗？",
+       "nextGroup": 101130090
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不，今天有其他事要做",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "所以才会穿著便服到急救医学部的部室",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "休假日……穿便服……去部室？",
+       "nextGroup": 101130120
+      }
+     ]
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "我也要去！",
+       "nextGroup": 101130130
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "嗯？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我想应该不会有什么特别的……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "总之我要去！",
+       "nextGroup": 101130150
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "嗯",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我明白了",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那就照老师说的做吧",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 3,
+      "scenarioGroup": 1011303,
+      "path": "/res/story/1011303.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 5,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，我是急救医学部的氷室瀬奈"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "虽然感觉最近好像总是跟老师说一样的话，不过……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "是瀬奈的休假日！",
+       "nextGroup": 101130200
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "嗯",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "果然什么事都瞒不过老师呢",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "今天要待命吗？还是整理药品？",
+       "nextGroup": 101130220
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我正打算跟你说这方面的事",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "因为发生了极为例外的情况",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我难得浮现了出乎意料的想法",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "是什么样的……想法？",
+       "nextGroup": 101130250
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我想去看海",
+     "delayMs": 2000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "！！！",
+       "nextGroup": 101130270
+      }
+     ]
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "知道了！交给我吧！！！",
+       "nextGroup": 0
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

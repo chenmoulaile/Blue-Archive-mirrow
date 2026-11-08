@@ -1,0 +1,375 @@
+{
+ "characterId": 10016,
+ "studentId": 27,
+ "devName": "Midori",
+ "name": "才羽绿",
+ "avatar": "/res/avatar/27.png",
+ "messageCount": 49,
+ "threads": [
+  {
+   "favorRank": 2,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，你今天有时间吗？"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "事实上，那个",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "有想要商量的事情……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "想要商量的事情？",
+       "nextGroup": 100160040
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "是的。我今天都会在社团教室，如果可以的话就麻烦老师了！",
+     "delayMs": 1500,
+     "story": {
+      "favorRank": 2,
+      "scenarioGroup": 1001602,
+      "path": "/res/story/1001602.json"
+     }
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "……对不起",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不知不觉就一头热，给老师添麻烦了……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "发现了绿的另外一面……",
+       "nextGroup": 100160070
+      },
+      {
+       "text": "没关系，我很开心",
+       "nextGroup": 100160070
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "唔，唔……有洞的话好想钻进去……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "下次会是对战类型之外的游戏，再拜托老师了……",
+     "delayMs": 1500
+    }
+   ]
+  },
+  {
+   "favorRank": 3,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师。听说这次在千年将举办游戏艺术展览会"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "所以那个，你我两个人",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不！",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "为了开发新游戏，学习也是必要的……！",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "确实，学习很重要呢",
+       "nextGroup": 100160110
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "是，是吧？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那个，所以说，那个……！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "……要一起去吗？",
+     "delayMs": 1500,
+     "story": {
+      "favorRank": 3,
+      "scenarioGroup": 1001603,
+      "path": "/res/story/1001603.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 5,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，速报！快报！不得了的消息唷！"
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "绿，冷静点。先冷静一下",
+       "nextGroup": 100160150
+      },
+      {
+       "text": "不得了的消息？怎么办，是不是该准备烟火之类的比较好！？",
+       "nextGroup": 100160170
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "……好，深呼吸后冷静下来了！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "发生了什么事？",
+       "nextGroup": 100160180
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那个，我想应该是不至于需要烟火啦……！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "总，总之！",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "听说传说中的经典怀旧游戏这次将推出续作！",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那款游戏的初回限定版，我无论如何都想买到",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，能陪我去吗？",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 5,
+      "scenarioGroup": 1001605,
+      "path": "/res/story/1001605.json"
+     }
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "今天非常谢谢老师",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "下次一起play吧。老师",
+     "delayMs": 1000
+    }
+   ]
+  },
+  {
+   "favorRank": 6,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我，听说过一句话"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "游戏中心是个有很多可怕的人的地方……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "真的是这样吗？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "唔嗯，我想是取决于地点……？",
+       "nextGroup": 100160240
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "确，确实是呢。我还没有实际去过……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "那么，下次要一起去看看吗？",
+       "nextGroup": 100160260
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "咦，游戏中心吗！？一定要！！",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 6,
+      "scenarioGroup": 1001606,
+      "path": "/res/story/1001606.json"
+     }
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "非常谢谢老师今天来陪我",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "但是，今天一起去了游戏中心的事",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "这个，那个……",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "Yao Siang Da Jia Bao Mi Yo？",
+     "delayMs": 1000
+    }
+   ]
+  },
+  {
+   "favorRank": 15,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师！"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "你还记得我们的约定吧？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "狩猎的时间到了……",
+       "nextGroup": 100160330
+      },
+      {
+       "text": "今天中午，老师要参加狩猎……",
+       "nextGroup": 100160330
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "你果然还记得呢",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "好开心！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那我在部室等你来哦！",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 15,
+      "scenarioGroup": 1001615,
+      "path": "/res/story/1001615.json"
+     }
+    }
+   ]
+  }
+ ]
+}

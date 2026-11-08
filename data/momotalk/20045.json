@@ -1,0 +1,462 @@
+{
+ "characterId": 20045,
+ "studentId": 362,
+ "devName": "CH0257",
+ "name": "朝比奈菲娜",
+ "avatar": "/res/avatar/362.png",
+ "messageCount": 65,
+ "threads": [
+  {
+   "favorRank": 2,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "头儿！"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "啊不，老师！",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我是菲娜！",
+     "delayMs": 500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "嗨，菲娜。好久不见了呢",
+       "nextGroup": 200450050
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "是的！我是菲娜！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "这次之所以联络，是因为菲娜就像不死鸟一样重获新生了",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "所以希望能让老师见到值得引以为傲的一面！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "如果有到百鬼夜行来的话，记得来找菲娜哦！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "一定要！",
+     "delayMs": 500,
+     "story": {
+      "favorRank": 2,
+      "scenarioGroup": 2004502,
+      "path": "/res/story/2004502.json"
+     }
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "真可惜……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "本来是个能展现百鬼夜行各个角落独特魅力的好机会",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "结果没能好好介绍给老师，实在太可惜了！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "狗狗跑去别的地方玩，涂鸦也被擦掉了……",
+       "nextGroup": 200450110
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "都怪我太急著表现，结果忽略了最基本的事情……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "菲娜有这份心就已经很棒了哦",
+       "nextGroup": 200450130
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "！！",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "谢谢老师！！！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "而且也是多亏了老师帮忙，我才能重新冷静下来",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "下次一定会找状况稳定一点的名胜，带老师去参观的",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我会加油！！",
+     "delayMs": 500
+    }
+   ]
+  },
+  {
+   "favorRank": 3,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师！菲娜向老师问好！"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我今天担任巴士之旅的导览员！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "刚好还有一个空位，老师要不要一起来呢！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "菲娜要让老师看到专业的一面！",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 3,
+      "scenarioGroup": 2004503,
+      "path": "/res/story/2004503.json"
+     }
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "菲娜今天原本自信满满，一定要让老师看到出色又Perfect的样子！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "结果菲娜这次又失误了！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "真的无颜面对老师！！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "而且菲娜这么不争气，老师竟然还护著我……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不才菲娜感激涕零！！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "坦率说出自己心情的菲娜很值得敬佩哦",
+       "nextGroup": 200450230
+      },
+      {
+       "text": "反而是我从你身上学到了一课",
+       "nextGroup": 200450230
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "！！",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "快别这么说！！菲娜实在承担不起！！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不过听到老师说我值得敬佩……还是不由得感到开心！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "菲娜会将老师的鼓励铭记在心，继续提升自己的！！",
+     "delayMs": 1000
+    }
+   ]
+  },
+  {
+   "favorRank": 5,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，我是菲娜！"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不才菲娜，今天真的很有信心！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我会以专家的身分发挥专业！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "希望能让老师看到菲娜更上一层楼的样子！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "菲娜会在电影村等老师来！",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 5,
+      "scenarioGroup": 2004505,
+      "path": "/res/story/2004505.json"
+     }
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "呜呜……脸还是在发烫……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我下次一定要更谨言慎行……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "大家都很开心，你不用担心",
+       "nextGroup": 200450320
+      }
+     ]
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "我觉得菲娜有带动游客的才能，真的很优秀",
+       "nextGroup": 200450330
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "！！",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那真是太好了！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "嘿嘿嘿……我会以今天的失误为鉴，鞭策自己继续进步！",
+     "delayMs": 1000
+    }
+   ]
+  },
+  {
+   "favorRank": 6,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "承蒙老师的教导，菲娜终于有所成长！"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "现在已经是名得到认可、当之无愧的任侠，不会再出错了！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "今天是我最后一次导览，希望老师也能一起参加！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那我们到时候见！",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 6,
+      "scenarioGroup": 2004506,
+      "path": "/res/story/2004506.json"
+     }
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "头儿",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "啊不对",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，我是菲娜",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "这样一来，商店街那边委托的工作就算是完成了！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "虽然有点不知所措，幸好在老师的关照下顺利做到了",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "希望下次菲娜可以和老师两人",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "一起游览百鬼夜行",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不是以导览员的身分，而是作为游客……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "没，没什么！请忘了我刚刚说的话吧！！",
+     "delayMs": 500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "那样一定也很好玩",
+       "nextGroup": 200450440
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "！！！",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老，老师竟然还愿意跟菲娜一起共度时光！！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "非，非常谢谢老师！！",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那我就先告辞了！！头儿！！",
+     "delayMs": 1000
+    }
+   ]
+  }
+ ]
+}

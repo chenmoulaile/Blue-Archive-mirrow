@@ -1,0 +1,422 @@
+{
+ "characterId": 13004,
+ "studentId": 78,
+ "devName": "nonomi",
+ "name": "十六夜野宫",
+ "avatar": "/res/avatar/78.png",
+ "messageCount": 58,
+ "threads": [
+  {
+   "favorRank": 2,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "今天总觉得会有好事发生"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师现在怎么样？有度过快乐的时光吗？",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "希望今天是美好的一天。我会声援老师的！",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "谢谢妳，野乃美",
+       "nextGroup": 130040040
+      },
+      {
+       "text": "希望野乃美也有好事发生",
+       "nextGroup": 130040040
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "啊……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "呜哇……！",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "没想到能收到回复，真开心～☆",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "竟然能收到老师的回复！",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我这样今天一天就已经足够幸福了！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "这次是特别的初次问候，以后会不定时发讯息的☆",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "♡♡",
+     "delayMs": 500,
+     "story": {
+      "favorRank": 2,
+      "scenarioGroup": 1300402,
+      "path": "/res/story/1300402.json"
+     }
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "因为是我邀请的，所以本来想请老师吃的……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "下次去其他地方的时候，要让我请客哦？",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "绝对要唷？",
+     "delayMs": 1000
+    }
+   ]
+  },
+  {
+   "favorRank": 3,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "今天想对对策委员会的教室进行大扫除！"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师来的时候，应该会比以前漂亮许多☆",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "结束之后，一定要来看看哦？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "嗯，工作结束后就去",
+       "nextGroup": 130040110
+      },
+      {
+       "text": "辛苦了，很期待唷",
+       "nextGroup": 130040110
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "今天辛苦了！",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "上次的事还没报答呢，怎么办呢……？",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "一直都是老师在为我做各种的事呢",
+     "delayMs": 1500
+    }
+   ]
+  },
+  {
+   "favorRank": 5,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师～☆"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "这个休息日，如果有时间的话，要一起去购物吗？",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "购物啊，听起来很有趣",
+       "nextGroup": 130040160
+      },
+      {
+       "text": "肯定要，一起去吧！",
+       "nextGroup": 130040160
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "哇！非常感谢～！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "和老师两个人的约会！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "啊，不，是购物，购物才对，跟老师一起购物～☆",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那么，我在购物中心等著唷～☆",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 5,
+      "scenarioGroup": 1300405,
+      "path": "/res/story/1300405.json"
+     }
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "平安到家了吗？耳朵痛不痛？",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我今天过得非常开心",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "而且，应该不是每个人都知道老师耳朵里的样子吧……☆",
+     "delayMs": 2000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那么，明天也要度过幸福的一天唷～♡",
+     "delayMs": 1000
+    }
+   ]
+  },
+  {
+   "favorRank": 6,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "前阵子和大家一起玩了黑白棋……我一次都没赢过"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "大家都很厉害…尤其是星野前辈，太厉害了！",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "这样下去不行，必须进行特训！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "特训！好热血！FIGHT！！",
+       "nextGroup": 130040220
+      },
+      {
+       "text": "这样啊，加油唷。我支持你",
+       "nextGroup": 130040220
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "是！我会加油的！",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 6,
+      "scenarioGroup": 1300406,
+      "path": "/res/story/1300406.json"
+     }
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "已经到家了吗，老师？",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "今天非常感谢。我非常开心",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "下次还想和老师一起玩各式各样的游戏☆",
+     "delayMs": 1500
+    }
+   ]
+  },
+  {
+   "favorRank": 8,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，你想要哑铃吗？"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我买了几个打算送给白子酱当礼物，结果还剩下一些",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我把它们放在阿拜多斯的操场，可以的话请收下吧",
+     "delayMs": 1500,
+     "story": {
+      "favorRank": 8,
+      "scenarioGroup": 1300408,
+      "path": "/res/story/1300408.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 15,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "124.在委员会部室举办建校纪念日派对"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "125.在运动场举办迷你运动会",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "野乃美？",
+       "nextGroup": 130040300
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "啊",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "派对和迷你运动会是什么？",
+       "nextGroup": 130040320
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那个",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我在「单人群组」传备忘录，结果不小心传给老师了",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "真不好意思",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "请别在意内容！",
+     "delayMs": 500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "那倒是没问题，不过……",
+       "nextGroup": 0
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

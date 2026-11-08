@@ -1,0 +1,607 @@
+{
+ "characterId": 10018,
+ "studentId": 81,
+ "devName": "Yuzu",
+ "name": "花冈柚子",
+ "avatar": "/res/avatar/81.png",
+ "messageCount": 80,
+ "threads": [
+  {
+   "favorRank": 2,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师休息的时候都在哪里度过？"
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "大多是夏莱吧",
+       "nextGroup": 100180030
+      },
+      {
+       "text": "大多是厕所吧",
+       "nextGroup": 100180040
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "确实，夏莱有很多适合休息的空间",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那，那可真是……不过，稍微能明白。还不算太糟呢",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我……喜欢没有人经过，阴凉、黑暗的地方",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不被任何人打扰，只属于我的治愈空间……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "如果是那样的地方，我可以永远待著",
+     "delayMs": 1500,
+     "story": {
+      "favorRank": 2,
+      "scenarioGroup": 1001802,
+      "path": "/res/story/1001802.json"
+     }
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，下次希望你找别的置物柜……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "游戏开发部的是我专用的置物柜……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "不能一起用吗？",
+       "nextGroup": 100180090
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "就，就算你这么说，也进不去两个人……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不行就是不行",
+     "delayMs": 1000
+    }
+   ]
+  },
+  {
+   "favorRank": 3,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师喜欢什么种类的游戏？"
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "喜欢家机游戏吧",
+       "nextGroup": 100180120
+      },
+      {
+       "text": "喜欢街机游戏吧",
+       "nextGroup": 100180120
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "啊，这样啊。我的话……大部分的游戏都喜欢",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "但是，必须和其他人一起玩的网路游戏之类的就有点……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "总觉得有压力……不怎么玩",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "啊，不过，对战格斗游戏倒是常玩",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "这样啊？",
+       "nextGroup": 100180150
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "是，那种类型的游戏，我玩得还不算太差",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "听说我喜欢的游戏公司这次会推出新的对战格斗游戏，非常期待",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "柚子和格斗游戏，真是意料之外的组合",
+       "nextGroup": 100180170
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "是，是吗……？",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 3,
+      "scenarioGroup": 1001803,
+      "path": "/res/story/1001803.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 5,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "开发游戏非常需要钱吧……"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "上次开发的过程中，因为没有足够的钱维持伺服器",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "以致于中途有资料不翼而飞……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "(ﾟﾛﾟ;) 那可不得了……最终怎么样了？",
+       "nextGroup": 100180210
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "幸好有备份资料，总算是恢复了……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "但有4天份的工作化为泡影……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "游戏开发的世界真艰难呢……",
+       "nextGroup": 100180230
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "是的……",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "为了下次开发作品时不再犯相同的错误",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "必须事先筹措开发费用",
+     "delayMs": 1500,
+     "story": {
+      "favorRank": 5,
+      "scenarioGroup": 1001805,
+      "path": "/res/story/1001805.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 6,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "上次的打工，我搞砸了很多事……"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "在客人面前多次身体僵硬，失误连连……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "虽然店长跟我说没关系，但是……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "那么，这次要不要试试别的打工？",
+       "nextGroup": 100180270
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "耶？别的打工吗……？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "行，行不通的！上次在便利商店打工，也只是勉勉强强能应付……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "没事的。这次的打工不用直接面对人也能做",
+       "nextGroup": 100180290
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "咦，有那种打工……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那样的话，也许没问题……",
+     "delayMs": 500,
+     "story": {
+      "favorRank": 6,
+      "scenarioGroup": 1001806,
+      "path": "/res/story/1001806.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 8,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，我拿到这个月打工的薪水了！"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "因为金额比想像的多，所以想用剩下的钱买礼物给部员们",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "('‿') 那真是太好了，辛苦了！",
+       "nextGroup": 100180330
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "然后，那个……如果可以的话，这个周末能来游乐园吗？",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "游乐园？",
+       "nextGroup": 100180350
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那个……因为有想送给老师的礼物",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "有这份心意就足够了",
+       "nextGroup": 100180370
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不，那个，我想和老师一起……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不对！虽然那也是目的之一，那个……",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我无论如何都想送老师礼物！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "所以这个周末，请来游乐园！拜托了！",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 8,
+      "scenarioGroup": 1001808,
+      "path": "/res/story/1001808.json"
+     }
+    },
+    {
+     "kind": "image",
+     "from": "student",
+     "text": "",
+     "image": "UIs/03_Scenario/04_ScenarioImage/Mo_Yuzu_01",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "没想到这么快就使用任意请求券了",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "要拜托的事……决定好了吗？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "来夏莱的时候，能帮我买面包和牛奶吗？",
+       "nextGroup": 100180410
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "确实说过什么都可以，但请别把难得的任意请求券使用在这种事情上……！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "这点小事，只要你说了我就会帮忙买！",
+     "delayMs": 1000
+    }
+   ]
+  },
+  {
+   "favorRank": 15,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那些以为弄丢的东西"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "最后常常",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "会在意想不到的地方找到呢",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "啊，我懂那种感觉",
+       "nextGroup": 100180460
+      },
+      {
+       "text": "尤其像是遥控器这种常用的东西……",
+       "nextGroup": 100180460
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "当然实际上",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "只是单纯忘记把东西放在哪里的",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "可能性也很高就是了",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不过或许是因为",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "其他人也经常有类似的经验",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "以前我遇到这种事的时候",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "都会觉得是爱恶作剧的妖精",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "把东西偷走了",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "这个说法很有趣呢",
+       "nextGroup": 100180500
+      }
+     ]
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "话说，你会提起这个话题",
+       "nextGroup": 100180510
+      }
+     ]
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "该不会是弄丢了什么东西吧？",
+       "nextGroup": 100180520
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "没有",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "……而且就算真的弄丢了什么",
+     "delayMs": 2000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我现在也想不起来了吧",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 15,
+      "scenarioGroup": 1001815,
+      "path": "/res/story/1001815.json"
+     }
+    }
+   ]
+  }
+ ]
+}

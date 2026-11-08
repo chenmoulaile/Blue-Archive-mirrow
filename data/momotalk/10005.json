@@ -1,0 +1,656 @@
+{
+ "characterId": 10005,
+ "studentId": 76,
+ "devName": "hoshino",
+ "name": "小鸟游星野",
+ "avatar": "/res/avatar/76.png",
+ "messageCount": 93,
+ "threads": [
+  {
+   "favorRank": 2,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，下次休假如果有空，能来趟对策委员会的教室吗？"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "想请老师帮个忙",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "还有，虽然完全无关，但鲸鱼在水里是憋住呼吸的，你知道吗？",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "对策委员会的教室是吧，了解",
+       "nextGroup": 100050030
+      },
+      {
+       "text": "不知道耶。但确实是哺乳类呢",
+       "nextGroup": 100050030
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，我起床后腰痛到快断了……还发出哀号……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "羽毛都是这样子的吗？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "果然这年纪不能睡太软吗……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "睡在一张像样的床上比较好唷",
+       "nextGroup": 100050060
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "唔嗯……看来得请那张垫子回仓库了……",
+     "delayMs": 1500
+    }
+   ]
+  },
+  {
+   "favorRank": 3,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "为什么人类早上必须起床呢……"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "眼皮重到要掉地上了……老师，救命……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "因为是学生的命运啊……",
+       "nextGroup": 100050090
+      },
+      {
+       "text": "加油！星野能做到的！",
+       "nextGroup": 100050090
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "干脆像鱼一样没有眼皮的话也许能更轻松些……咕哝",
+     "delayMs": 2000,
+     "story": {
+      "favorRank": 3,
+      "scenarioGroup": 1000503,
+      "path": "/res/story/1000503.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 5,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，你知道吗？"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "据说深海鱼会让身体发光来保护自己",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "话说回来，今天也要去寻宝，你要来吗？",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "收到，队长",
+       "nextGroup": 100050120
+      },
+      {
+       "text": "不知道耶，海洋世界真是深奥",
+       "nextGroup": 100050120
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，你看这个！",
+     "delayMs": 1500
+    },
+    {
+     "kind": "image",
+     "from": "student",
+     "text": "",
+     "image": "UIs/03_Scenario/04_ScenarioImage/Mo_Hoshino_01",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "贴在天花板上啦",
+       "nextGroup": 100050150
+      },
+      {
+       "text": "哇，好漂亮啊",
+       "nextGroup": 100050150
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "嘿嘿嘿，很棒吧？这比想像中还要棒呢～",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "今天很开心，谢谢你的礼物",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那么，下次再一起去哪里吧。约好了",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "嗯，晚安",
+       "nextGroup": 100050180
+      },
+      {
+       "text": "被光芒包裹住的床，真是浪漫呀",
+       "nextGroup": 100050180
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "favorRank": 6,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "唔嘿～半夜不睡觉，第二天果然会很难受……"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "可能是上了年纪吧～",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师也不能半夜出门唷",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "让我们互相照应吧～",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "星野为什么半夜还醒著呢？",
+       "nextGroup": 100050210
+      },
+      {
+       "text": "是啊，晚上最好早点睡",
+       "nextGroup": 100050210
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "大叔这儿也是有各种情况……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "还是说，老师是在担心我？",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "大叔好感动啊～",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "只是在叮咛品行不良的学生",
+       "nextGroup": 100050240
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师真不老实，唔嘿嘿～",
+     "delayMs": 1500,
+     "story": {
+      "favorRank": 6,
+      "scenarioGroup": 1000506,
+      "path": "/res/story/1000506.json"
+     }
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，今天发生的事要对大家保密唷？虽然我知道老师的口风很紧",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "但还是……会各种害臊",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "唔嘿，回头见",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "嗯，晚安",
+       "nextGroup": 100050280
+      },
+      {
+       "text": "回头见",
+       "nextGroup": 100050280
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "favorRank": 8,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我想买些书。老师，可以跟我一起去吗？"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "是这附近买不到的书，所以必须去远一点的地方……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "嗯，好啊。去购物中心看看吧？",
+       "nextGroup": 100050300
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "就那样吧～，虽然离阿拜多斯有点远",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "但那里应该会有～",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "话说回来，二话不说就答应了呢，不愧是老师～",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "那是当然，因为是星野的请求呢",
+       "nextGroup": 100050330
+      },
+      {
+       "text": "先在附近碰面吧",
+       "nextGroup": 100050330
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "哎呀～，吓了一跳～",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "竟然想用毅力抓住幸运，不愧是老师。大叔很惊讶唷",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "这就是大人的力量！",
+       "nextGroup": 100050350
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "……但仔细想想，也许用那笔钱就能正常买票了",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "说出那句话就完了！",
+       "nextGroup": 100050370
+      },
+      {
+       "text": "对大人来说，有时候是不能退缩的",
+       "nextGroup": 100050370
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "唔嘿嘿，这样啊～",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不管怎样，谢啦",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "……那个，海生馆，要一起去吗？有2张票……",
+     "delayMs": 2000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "嗯，不嫌弃我的话",
+       "nextGroup": 100050410
+      },
+      {
+       "text": "当然，谢啦",
+       "nextGroup": 100050410
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "……唔嘿嘿",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "……这是你说的唷，老师？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "约定好啰？",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那么下次，找个彼此都方便的时间去吧。再连络～",
+     "delayMs": 1500
+    }
+   ]
+  },
+  {
+   "favorRank": 9,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，关于上次说的海生馆"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "有效期限快到了，这个周末如何？",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "如果没问题的话，在海生馆前碰面，拜托了～",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "嗯，没问题。我很期待唷",
+       "nextGroup": 100050460
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "favorRank": 15,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "真伤脑筋"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不管躲在什么地方",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "都会被可爱的后辈们唠叨",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "大叔我好可怜喔",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "又被骂了吗？",
+       "nextGroup": 100050490
+      },
+      {
+       "text": "星野还是老样子呢",
+       "nextGroup": 100050490
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "就是说啊",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "虽然这两件事没什么关联",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不过",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "看在这件事的份上",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "待会能见个面吗？",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 15,
+      "scenarioGroup": 1000515,
+      "path": "/res/story/1000515.json"
+     }
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "其实大叔我还有很多这类的道具哦",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "是不是很好奇呀？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "听你这么说，的确是有点好奇",
+       "nextGroup": 100050550
+      },
+      {
+       "text": "所以是会随著条件达成逐渐解锁吗？",
+       "nextGroup": 100050550
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "对吧？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那样也不错呢",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "下次再让你看看别的吧",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "敬请期待～",
+     "delayMs": 1000
+    }
+   ]
+  }
+ ]
+}

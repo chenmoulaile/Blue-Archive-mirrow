@@ -1,0 +1,290 @@
+{
+ "characterId": 26001,
+ "studentId": 212,
+ "devName": "kotama",
+ "name": "音濑小玉",
+ "avatar": "/res/avatar/212.png",
+ "messageCount": 35,
+ "threads": [
+  {
+   "favorRank": 2,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，老师"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师有什么一直都很重视的东西吗？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "一时之间想不太到……",
+       "nextGroup": 260010040
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "有没有特别喜欢、收藏的东西呢？",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "或者是很中意、总是带在身边的东西呢？",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "还是说有从不离身，只要一放手就浑身不安的东西呢？",
+     "delayMs": 500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "我好像没有执著到这种程度的东西……",
+       "nextGroup": 260010060
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "是吗……这下麻烦了",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "什么麻烦？",
+       "nextGroup": 260010080
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不，没什么",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 2,
+      "scenarioGroup": 2600102,
+      "path": "/res/story/2600102.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 3,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，你有听过「玛莉的电话」这个鬼故事吗？"
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "好像没听过",
+       "nextGroup": 260010110
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "有个少女某天接到了一通电话，是她以前丢掉的，一个名叫玛莉的人偶打来的",
+     "delayMs": 2000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "可怕的是，每次电话打过来的时候，玛莉就会慢慢的靠近……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "原来是这样啊……话说为什么突然要讲鬼故事？",
+       "nextGroup": 260010130
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "没什么特别的意思，心血来潮而已",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "……如果反追踪那个电话号码的话，应该就能知道玛莉在哪里了",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "玛莉，能不能打电话给我呢",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "好可怕……",
+       "nextGroup": 260010160
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "favorRank": 5,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，难道说你最近有接到奇怪的电话吗？"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "像是可怕的人打来的电话，或是内容很奇怪的电话之类的……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "好像没什么特别的电话，怎么了吗？",
+       "nextGroup": 260010190
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "其实……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不，我之后直接跟你说",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 5,
+      "scenarioGroup": 2600105,
+      "path": "/res/story/2600105.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 6,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "……啊"
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "怎么了？",
+       "nextGroup": 260010230
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "耳机还插在电脑上就站起身来，差点就摔倒了",
+     "delayMs": 2500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "听得太入迷的时候常常会这样呢",
+       "nextGroup": 260010250
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "是的。听觉这种东西，对于反复的刺激是很容易习惯的",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "小玉平常都听什么音乐？",
+       "nextGroup": 260010270
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我常听的音乐吗……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那个，是……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "秘密",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "为什么！？",
+       "nextGroup": 0
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

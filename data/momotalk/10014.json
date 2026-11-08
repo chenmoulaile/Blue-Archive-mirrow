@@ -1,0 +1,471 @@
+{
+ "characterId": 10014,
+ "studentId": 180,
+ "devName": "Izuna",
+ "name": "久田泉奈",
+ "avatar": "/res/avatar/180.png",
+ "messageCount": 62,
+ "threads": [
+  {
+   "favorRank": 2,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "主公。伊树菜最近因为有烦恼的事，晚上睡不著……"
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "烦恼的事？",
+       "nextGroup": 100140030
+      },
+      {
+       "text": "不嫌弃的话，我可以跟你聊聊唷",
+       "nextGroup": 100140030
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不，不愧是主公……！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "在伊树菜苦恼的时候，马上就回应了！",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "……非常感谢！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "烦恼解决了！",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "已经解决了！？",
+       "nextGroup": 100140060
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "是的！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "因为伊树菜的目标是成为一名忍者",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那就得像老师一样迅速反应，烦恼之前先付诸实行！",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "因此，从今天开始要更像个忍者！",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "首先要付诸实践，忍忍！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "不要做危险的事弄伤自己唷",
+       "nextGroup": 100140090
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "耶嘿嘿，是！",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 2,
+      "scenarioGroup": 1001402,
+      "path": "/res/story/1001402.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 3,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "伊树菜会将主公前几日的忠告深深刻在心中"
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "忠告？我说了什么来著……？",
+       "nextGroup": 100140120
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "上次主公说的……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "未经允许的跟踪是不好的！",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "抱歉，我可能不记得了……？",
+       "nextGroup": 100140140
+      },
+      {
+       "text": "这么说来好像有这么回事……",
+       "nextGroup": 100140140
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "伊树菜会听从当时的话",
+     "delayMs": 2000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "伊树菜今后不会再偷偷护卫主公了！",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "啊，嗯……",
+       "nextGroup": 100140160
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "作为代替，从今天开始会直接在主公的前面进行护卫！",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那么再见了！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "嗯……？",
+       "nextGroup": 100140180
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "favorRank": 5,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "主公！主公！"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "速报！特报！是大事件！",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "那么兴奋，怎么了？",
+       "nextGroup": 100140210
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "伊树菜最喜欢的名作，忍者的时代剧系列终于拿到手了！",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "时代剧是以前的电视剧吗？",
+       "nextGroup": 100140230
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "是的！",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "这是一部很难入手的名作！",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "一起看吧！主公！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "在伊树菜家开鉴赏会吧！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "嗯，那就去打扰一下吧",
+       "nextGroup": 100140260
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "非，非常感谢！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "耶嘿嘿！那伊树菜会等著主公！",
+     "delayMs": 1500,
+     "story": {
+      "favorRank": 5,
+      "scenarioGroup": 1001405,
+      "path": "/res/story/1001405.json"
+     }
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "能更进一步了解主公和忍者，伊树菜很开心！",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "下次，伊树菜就能以更完美的忍者的姿态和您见面了呢，主公！",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "就，就是说呢……？",
+       "nextGroup": 100140290
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "favorRank": 6,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "对忍者来说最重要的事……"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "伊树菜认为是平时也不放纵，以常在战场的心态持续修行！",
+     "delayMs": 2000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "确实，锻炼是很重要的呢",
+       "nextGroup": 100140320
+      },
+      {
+       "text": "毕竟健康的身体，可以说是寄宿著健全的精神呢",
+       "nextGroup": 100140320
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "是的，正是如此！",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "为了成为真正的忍者……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "平时走路的时候，吃饭的时候",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "甚至是熟睡的时候，都不能少了锻炼的姿势和气魄！",
+     "delayMs": 2000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "连睡觉的时候也要！？",
+       "nextGroup": 100140350
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "是的！没错！因为是一整天！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "所以，主公……！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "为了进一步追求忍者之道，请陪伊树菜修行吧！",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "嗯。虽然还不太明白，不过可以唷",
+       "nextGroup": 100140370
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "太好了！非常感谢！",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 6,
+      "scenarioGroup": 1001406,
+      "path": "/res/story/1001406.json"
+     }
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "谢谢您今天陪我修行！主公！",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "不客气。话说回来，今天的能算是修行吗……",
+       "nextGroup": 100140400
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "啊，时代剧要开始了！",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那么之后再联络了！",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "忍忍！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "唔，嗯。再连络……",
+       "nextGroup": 0
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

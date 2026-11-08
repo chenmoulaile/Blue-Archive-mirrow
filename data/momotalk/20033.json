@@ -1,0 +1,385 @@
+{
+ "characterId": 20033,
+ "studentId": 115,
+ "devName": "CH0079",
+ "name": "羽沼真琴",
+ "avatar": "/res/avatar/115.png",
+ "messageCount": 50,
+ "threads": [
+  {
+   "favorRank": 2,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "时机似乎终于成熟了，夏莱的老师"
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "……？",
+       "nextGroup": 200330030
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "嘻嘻嘻，不必慌张",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "只是代表我的完美计划已经准备就绪而已",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "以今天为起点，我羽沼真琴大人终于……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不，我们将一起踏出伟大的第一步",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "…………？",
+       "nextGroup": 200330070
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "来吧，夏莱的老师",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我今天会在万魔殿等你，嘻嘻嘻",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "唔嗯，是要我到万魔殿的意思吧……？我知道了",
+       "nextGroup": 200330090
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "favorRank": 3,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "嘻嘻，你好啊。老师"
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "你好呀，真琴",
+       "nextGroup": 200330110
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "收到我的MomoTalk居然丝毫不动摇",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "果然是我认可的人，我很满意",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "嗯……谢谢夸奖？",
+       "nextGroup": 200330130
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "闲聊就先说到这里，进入正题吧",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "今天之所以联络老师，为的就是",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "……嗯？已经到了吗？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "嗯？已经到了？",
+       "nextGroup": 200330160
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "啊，没什么。我刚到夏莱了",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "嗯……？夏莱？现在？",
+       "nextGroup": 200330180
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "嘻嘻嘻。我们直接碰面再谈正题吧",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "等等，真琴！？",
+       "nextGroup": 200330200
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "favorRank": 5,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "嘻嘻，叽嘻嘻嘻嘻！！我果然厉害！"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我成功找到上次说的制造商的贩售店了！伊吕波！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "果然，这再次证明我真琴大人没有办不到的事！",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "来！向伟大的我叩拜吧你这家伙！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "……抱歉，真琴。我不知道你突然在说什么",
+       "nextGroup": 200330240
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "嗯？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "啊，哎呀",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "这意料淡定的反应也让我有点惊讶",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "果然……是老师啊",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "本来要传给伊吕波的MomoTalk传错人了",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "你们平常到底在传什么讯息……？",
+       "nextGroup": 200330280
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "只是闲话家常而已",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不过是我不对，我道歉",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "对了，老师这周末也放假吗？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "嘻嘻，祝老师周末愉快",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "呃，嗯。也祝真琴有个美好的周末……",
+       "nextGroup": 200330310
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "favorRank": 6,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "时机似乎终于成熟了，老师"
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "这难道是……既视感？",
+       "nextGroup": 200330330
+      },
+      {
+       "text": "总觉得之前也看过一样的讯息……",
+       "nextGroup": 200330330
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "嘻嘻嘻，不必慌张",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "如果说上次只是单纯介绍我刚起步的事业",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那么今天就是为了纪念事业即将大功告成",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "为了让老师见证那一刻才联络你",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "原来已经到了这个时候了啊",
+       "nextGroup": 200330370
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "所以今天有空吗？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "有是有啦……",
+       "nextGroup": 200330390
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "嘻嘻嘻。好，那我马上去接你！",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 6,
+      "scenarioGroup": 2003306,
+      "path": "/res/story/2003306.json"
+     }
+    }
+   ]
+  }
+ ]
+}

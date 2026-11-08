@@ -1,0 +1,245 @@
+{
+ "characterId": 20034,
+ "studentId": 155,
+ "devName": "CH0196",
+ "name": "鳄渊明里",
+ "avatar": "/res/avatar/155.png",
+ "messageCount": 31,
+ "threads": [
+  {
+   "favorRank": 2,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "每年一到这个时期，商店街就会举办很多活动"
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "原来亚伽里也对那种活动有兴趣啊",
+       "nextGroup": 200340030
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "当然啰",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "尤其……是跟食物有关的活动",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "商店街……活动……食物……？",
+       "nextGroup": 200340050
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "呵呵",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师期待吗？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我很期待！",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 2,
+      "scenarioGroup": 2003402,
+      "path": "/res/story/2003402.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 3,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "年糕汤是道很好吃的料理"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不过也因此出了一点小问题",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "亚伽里说的小问题……",
+       "nextGroup": 200340090
+      },
+      {
+       "text": "总感觉不只是小问题……",
+       "nextGroup": 200340090
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "哎呀",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "这次真的是件小事哦",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "只是因为放了太多年糕",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "所以家里的年糕全都用光了而已",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "明明适当才是美德……",
+       "nextGroup": 200340120
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "可是我就是想多吃一点年糕呀",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "因为这个原因",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我做了一些准备",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 3,
+      "scenarioGroup": 2003403,
+      "path": "/res/story/2003403.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 5,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "在这个时期"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "以吃特别的料理来赞扬特别的节日",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我认为是种很棒的文化",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "你有什么特别想吃的东西吗？",
+       "nextGroup": 200340170
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "比起想吃",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "应该更接近想尝试看看的食物",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "传言的影响力真的很大呢",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "足以让人产生本来不会出现的想法",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "是在哪里听说了美食的传闻吗？",
+       "nextGroup": 200340200
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "没错",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我想老师听完之后，应该也会有兴趣的哦？",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 5,
+      "scenarioGroup": 2003405,
+      "path": "/res/story/2003405.json"
+     }
+    }
+   ]
+  }
+ ]
+}

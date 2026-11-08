@@ -1,0 +1,332 @@
+{
+ "characterId": 13009,
+ "studentId": 93,
+ "devName": "Tusbaki",
+ "name": "春日椿",
+ "avatar": "/res/avatar/93.png",
+ "messageCount": 44,
+ "threads": [
+  {
+   "favorRank": 2,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，如何……？"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "和往常一样，在努力修行吗？",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "修行？",
+       "nextGroup": 130090040
+      },
+      {
+       "text": "当然有",
+       "nextGroup": 130090050
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师也是我们修行部的顾问，修行当然是必不可少的。对……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "也就是睡觉",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "特别是老师平时太忙了，没怎么睡吧？",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "真的吗～？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "唔嗯，很可疑……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "唔嗯……如果是这样的话，好",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "借此机会，我亲自示范修行给你看",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那么，去约定的地点吧～老师",
+     "delayMs": 1500,
+     "story": {
+      "favorRank": 2,
+      "scenarioGroup": 1300902,
+      "path": "/res/story/1300902.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 3,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师……"
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "椿？怎么了？",
+       "nextGroup": 130090100
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "变得破烂不堪了……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "怎么办……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "耶，耶？破烂不堪？什么东西……？",
+       "nextGroup": 130090120
+      },
+      {
+       "text": "什么意思……？",
+       "nextGroup": 130090120
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "一直很珍惜的修行道具……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "修，修行道具？",
+       "nextGroup": 130090140
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "帮帮我，老师……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "等著，椿，我马上过去！",
+       "nextGroup": 130090160
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "谢谢你今天帮我找枕头。老师",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "下次再一起修行吧",
+     "delayMs": 1500
+    }
+   ]
+  },
+  {
+   "favorRank": 5,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，你还记得吧？"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "今天是一起修行的日子唷",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "第一次听说……？",
+       "nextGroup": 130090200
+      },
+      {
+       "text": "啊，是吗？",
+       "nextGroup": 130090210
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "咦咦，不是吗。我还以为我们约好了……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "唔嗯，是在梦中约的吗？",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "嘛，怎样都行吧？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "嗯，是啊。在夏莱等我唷。老师",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我要去夏莱了，等我唷。老师",
+     "delayMs": 1500,
+     "story": {
+      "favorRank": 5,
+      "scenarioGroup": 1300905,
+      "path": "/res/story/1300905.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 6,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "找到适合修行的地方了，老师"
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "修行，也就是睡觉吧？",
+       "nextGroup": 130090240
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "嗯，没错～",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那个地方，老师是我第一个告诉的人唷",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "谢谢。不过，说到适合睡觉的地方……",
+       "nextGroup": 130090260
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "其实呢",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "这里，非常……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "非常……？",
+       "nextGroup": 130090280
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "非常……啊，兔子",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "那个，椿？",
+       "nextGroup": 0
+      },
+      {
+       "text": "耶，兔子怎么了？椿？椿！？",
+       "nextGroup": 0
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

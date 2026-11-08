@@ -1,0 +1,514 @@
+{
+ "characterId": 23005,
+ "studentId": 85,
+ "devName": "Ayane",
+ "name": "奥空绫音",
+ "avatar": "/res/avatar/85.png",
+ "messageCount": 72,
+ "threads": [
+  {
+   "favorRank": 2,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "您好，老师。我是绫音"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "可以占用一点时间吗？",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "没问题唷，怎么了？",
+       "nextGroup": 230050040
+      },
+      {
+       "text": "虽然很忙，但为了绫音的话完全没问题！",
+       "nextGroup": 230050050
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "非常感谢，事实上……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那，那个，啊哈哈……非，非常感谢",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "其实……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "该说是商量，还是说想询问一些事呢……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "有一些想说的话",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "对不起这么突然！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "嗯，我知道了",
+       "nextGroup": 230050090
+      },
+      {
+       "text": "不会，完全没问题",
+       "nextGroup": 230050090
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "非，非常感谢！那下个休息日，我们在学校见面吧！",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 2,
+      "scenarioGroup": 2300502,
+      "path": "/res/story/2300502.json"
+     }
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，关于那本书",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我委托了商店街的古董店看了一下",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "说只是一本没什么价值的旧大众小说……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "哎呀……",
+       "nextGroup": 230050130
+      },
+      {
+       "text": "这样啊……",
+       "nextGroup": 230050130
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "啊哈哈……但就算是这样，我也收到了1200元",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "虽然不是特别有价值，但这点程度还是有的",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "花的时间值得了呢",
+       "nextGroup": 230050150
+      },
+      {
+       "text": "太好了呢",
+       "nextGroup": 230050150
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "是，我也这么认为",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "也许之后还会商量什么奇怪的事，再拜托了。老师",
+     "delayMs": 1500
+    }
+   ]
+  },
+  {
+   "favorRank": 3,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，好消息"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我在学校发现了些东西",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "感觉很值钱",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "呵呵，说不定是笔意外之财呢",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "是什么东西？",
+       "nextGroup": 230050200
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "是跟普通的铁一样的东西",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "但因为数量很可观，应该有些价值",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "我可以去看看吗？",
+       "nextGroup": 230050220
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "咦？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "啊，好的，当然没问题……",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 3,
+      "scenarioGroup": 2300503,
+      "path": "/res/story/2300503.json"
+     }
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "辛苦了，老师",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "没事吧……？",
+       "nextGroup": 230050250
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "是，没事",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "虽然眼镜摇摇欲坠，制服也有点破了……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "但卖了2倍的价钱！是我们赢了！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "辛苦了……",
+       "nextGroup": 230050270
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "favorRank": 5,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "最近，学校的设施持续故障，有点担心"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "昨天停电持续了2个小时……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "前天自来水也停了",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "地下设施出了什么问题吗……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "叫业者来看看？",
+       "nextGroup": 230050310
+      },
+      {
+       "text": "叫个懂这些的人来看看不就行了吗？",
+       "nextGroup": 230050310
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "如果每个有问题的地方都请业者去看的话，可能会是笔庞大的金额……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "只好找时间，在休息日一点一点地修复了……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "我也能帮忙吗？",
+       "nextGroup": 230050330
+      },
+      {
+       "text": "我们一起修理吧",
+       "nextGroup": 230050330
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "啊……真的吗？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那就恭敬不如从命了。非常感谢，老师",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 5,
+      "scenarioGroup": 2300505,
+      "path": "/res/story/2300505.json"
+     }
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "今天辛苦了。老师",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "托您的福，顺利完成了修理",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "嗯，辛苦了",
+       "nextGroup": 230050360
+      },
+      {
+       "text": "绫音也辛苦了",
+       "nextGroup": 230050360
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "呃……这个……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那个……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "嗯？",
+       "nextGroup": 230050390
+      },
+      {
+       "text": "怎么了？",
+       "nextGroup": 230050390
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "还能再……请您出来吗？那个……",
+     "delayMs": 2000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "很抱歉今天给您添麻烦了……老师和我……",
+     "delayMs": 2000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "当然啰",
+       "nextGroup": 230050420
+      },
+      {
+       "text": "当然，随时都欢迎喔",
+       "nextGroup": 230050420
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "……非常感谢，老师",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那么，再连络唷",
+     "delayMs": 1000
+    }
+   ]
+  },
+  {
+   "favorRank": 15,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "您好，老师"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "在值班之前，我想请教一下今天夏莱的业务状况",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "救救我，绫音……",
+       "nextGroup": 230050460
+      },
+      {
+       "text": "今天的文件简直是地狱……",
+       "nextGroup": 230050460
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "真，真的吗？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我会尽快赶过去！",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 15,
+      "scenarioGroup": 2300515,
+      "path": "/res/story/2300515.json"
+     }
+    }
+   ]
+  }
+ ]
+}

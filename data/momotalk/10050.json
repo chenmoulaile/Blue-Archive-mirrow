@@ -1,0 +1,352 @@
+{
+ "characterId": 10050,
+ "studentId": 4,
+ "devName": "CH0137",
+ "name": "春原心奈",
+ "avatar": "/res/avatar/4.png",
+ "messageCount": 47,
+ "threads": [
+  {
+   "favorRank": 2,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "你好，老师"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "你过得还好吗？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我很好。再怎么说我也是梅花园的教官啊！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "教官啊……心菜也辛苦了呢",
+       "nextGroup": 100500040
+      },
+      {
+       "text": "不辛苦吗？",
+       "nextGroup": 100500040
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "虽然也有辛苦的时候，但不要紧",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "更重要的是，我已经是名优秀的淑女了！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师。如果有空的话，要不要来梅花园参观呢？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我会让老师看看我身为教官的模样！",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 2,
+      "scenarioGroup": 1005002,
+      "path": "/res/story/1005002.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 3,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "前几天有平安回去了吗？"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "很可惜没能让你看到我正经的模样",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "已经十分帅气啰，心菜酱",
+       "nextGroup": 100500090
+      },
+      {
+       "text": "是位优秀的教官唷，心菜酱",
+       "nextGroup": 100500090
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "就说了，不是心菜酱！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "如果要叫我心菜酱的话，",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那叫旬姐姐的时候，不是也该叫旬酱吗？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "如果是旬被那么叫，应该会很高兴呢",
+       "nextGroup": 100500120
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那个……那是什么意思？",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 3,
+      "scenarioGroup": 1005003,
+      "path": "/res/story/1005003.json"
+     }
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "嘴巴里还有苦味……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "讨厌咖啡……",
+     "delayMs": 1000
+    }
+   ]
+  },
+  {
+   "favorRank": 5,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我想了想"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "发现好像不是能喝咖啡就是大人了",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "也有不喝咖啡的大人吧",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "嗯。没有必要勉强喝",
+       "nextGroup": 100500180
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "果然是那样啊！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "世上总有不合自己胃口的食物",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "举例来说，就像我之于红萝卜",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "我下次会帮你在咖啡里面加牛奶跟砂糖的",
+       "nextGroup": 100500210
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "牛奶跟砂糖吗……！？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那，那样的话，好像可以重新考虑一下……？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不，果然还是算了",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我是优秀的淑女，不需要那种东西",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "就只是咖啡不适合我而已",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "那么，我就来喝加了牛奶和砂糖的美味咖啡吧",
+       "nextGroup": 100500250
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "太狡猾了！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "大人们都很狡猾！",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 5,
+      "scenarioGroup": 1005005,
+      "path": "/res/story/1005005.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 6,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "怎么想都觉得我被骗了……"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "红萝卜怎么可能会变好吃……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "去吃好吃的红萝卜吧！",
+       "nextGroup": 100500290
+      },
+      {
+       "text": "准备好去红萝卜餐厅了吗？",
+       "nextGroup": 100500290
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不去的话……不行……吗……？",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "恶……恶……恶……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "如果我今天死掉的话，都是老师的错……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "就相信我吧",
+       "nextGroup": 100500330
+      },
+      {
+       "text": "我会把你当淑女对待的",
+       "nextGroup": 100500330
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我知道了",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "就……相信老师了",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 6,
+      "scenarioGroup": 1005006,
+      "path": "/res/story/1005006.json"
+     }
+    }
+   ]
+  }
+ ]
+}

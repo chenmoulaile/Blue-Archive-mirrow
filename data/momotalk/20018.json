@@ -1,0 +1,383 @@
+{
+ "characterId": 20018,
+ "studentId": 7,
+ "devName": "Moe",
+ "name": "风仓萌绘",
+ "avatar": "/res/avatar/7.png",
+ "messageCount": 52,
+ "threads": [
+  {
+   "favorRank": 2,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，好久不见"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "听说你在找我……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "怎么了吗？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "你好，萌",
+       "nextGroup": 200180040
+      },
+      {
+       "text": "抱歉，我想请你帮个忙，现在有空吗？",
+       "nextGroup": 200180040
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "帮老师的忙？是没问题啦……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "但还真是稀奇呢。老师竟然会找我帮忙",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "啊，没有什么特别的意思。只是有预感会发生有趣的事……咯嘻嘻",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那么，我准备一下",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 2,
+      "scenarioGroup": 2001802,
+      "path": "/res/story/2001802.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 3,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，我耳闻了小道消息……"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "夏莱的工作用电脑的数据全都消失了，是真的吗？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "咯嘻嘻……没错唷……",
+       "nextGroup": 200180090
+      },
+      {
+       "text": "没错，一切都完了……咯嘻嘻……",
+       "nextGroup": 200180090
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "呜哇……老师笑得跟我一样",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "看起来相当糟糕啊",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "嘛，来了就知道了……",
+       "nextGroup": 200180110
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "知道了，那我中午过后去夏莱一趟",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 3,
+      "scenarioGroup": 2001803,
+      "path": "/res/story/2001803.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 5,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，你知道吗？"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不是有安置在开关和按钮上的安全盖吗\n那个，叫做「Molly-Guard」唷",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "为什么会有那样的名字呢",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "因为有一名叫做Molly的孩子，多次想按紧急按钮，所以才发明出这个盖子",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "原来是这样",
+       "nextGroup": 200180160
+      },
+      {
+       "text": "很有趣的故事呢",
+       "nextGroup": 200180160
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "每次想到这故事，都觉得有点可惜",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "要是我比Molly早出生的话",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "现在，安全盖的名字就会是「Moe-Guard」了吧……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "我觉得这不是什么值得引以为傲的名字……",
+       "nextGroup": 200180190
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "favorRank": 6,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "唔嗯，抱歉，老师……"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "能来兔宝宝公园一下吗？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "是可以啦……",
+       "nextGroup": 200180220
+      },
+      {
+       "text": "这么突然，怎么了？",
+       "nextGroup": 200180220
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "前几天，追加订购的物资送来公园了",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "但是，大家正好都在外头作战，所以我必须一个人整理……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "搬不了太多重物……这暂且不说",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "还有不少是容易点燃的危险炸弹……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "马上过去唷",
+       "nextGroup": 200180250
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "favorRank": 15,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，你昨天晚上有在白鸟区的公园附近吗？"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "昨晚在附近散步的时候，好像有看到老师跑过去",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "嗯。萌也在那里啊？",
+       "nextGroup": 200180280
+      },
+      {
+       "text": "感觉像是私人时间被看到了，有点害羞呢",
+       "nextGroup": 200180280
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "私人时间……？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "还以为你是为了工作才去那里的，所以是有其他事情吗？",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "嗯，最近会在晚上慢跑",
+       "nextGroup": 200180310
+      },
+      {
+       "text": "一直坐在办公室，身体好像有点僵硬",
+       "nextGroup": 200180310
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "啊～我完全可以理解",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "要是整天坐著用同样的姿势敲键盘，脖子和肩膀都会僵硬到连躺下都不舒服呢",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "就是说啊。要长时间维持正确姿势也很辛苦……",
+       "nextGroup": 200180340
+      },
+      {
+       "text": "萌如果不介意的话，要一起运动吗？",
+       "nextGroup": 200180340
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "呵呵，你把我当成什么人啦？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我好歹也是SRT的一员，每天都有在训练的哦？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "当然和咲希还有都子比起来，顶多只能算是散步的程度而已",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "但是和老师一起慢跑，可能会相当有毁灭性呢",
+     "delayMs": 2000,
+     "story": {
+      "favorRank": 15,
+      "scenarioGroup": 2001815,
+      "path": "/res/story/2001815.json"
+     }
+    }
+   ]
+  }
+ ]
+}

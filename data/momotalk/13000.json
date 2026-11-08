@@ -1,0 +1,484 @@
+{
+ "characterId": 13000,
+ "studentId": 24,
+ "devName": "akane",
+ "name": "室笠茜",
+ "avatar": "/res/avatar/24.png",
+ "messageCount": 68,
+ "threads": [
+  {
+   "favorRank": 2,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "早安，我的主人"
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "新型的汇款诈骗……？",
+       "nextGroup": 130000030
+      },
+      {
+       "text": "不是主人，是老师唷？",
+       "nextGroup": 130000030
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "呵呵，你很幽默呢",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我是你的女仆朱音。在此再次向您问候",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "……咦？",
+       "nextGroup": 130000050
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "呵呵，今天很开心",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "在主人陷入危机时飒爽登场的女仆……不觉得很棒吗？",
+     "delayMs": 1500
+    }
+   ]
+  },
+  {
+   "favorRank": 3,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "好怀念啊。明明没过多久"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "但感觉像是很久以前",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "第一次见到老师的时候，我……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "心脏有点……怦怦跳唷♡",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师也是吗？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "我也心脏砰砰跳唷……（毕竟房子都爆炸了）",
+       "nextGroup": 130000100
+      },
+      {
+       "text": "对我来说，就像发生的昨天的事一样记忆犹新",
+       "nextGroup": 130000100
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "哎呀，那真是令人开心",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "闭上眼睛，脑海中就能清晰地浮现与老师初次见面的那一天",
+     "delayMs": 1500,
+     "story": {
+      "favorRank": 3,
+      "scenarioGroup": 1300003,
+      "path": "/res/story/1300003.json"
+     }
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我认为美好的缘分往往是从强烈的相遇开始的",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "从今以后也请多多关照",
+     "delayMs": 1000
+    }
+   ]
+  },
+  {
+   "favorRank": 5,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "主人，今天也请度过美好的一天"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我今天有重要的任务，所以要去黑市一趟",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "黑市？不会危险吗？",
+       "nextGroup": 130000150
+      },
+      {
+       "text": "重要的任务？",
+       "nextGroup": 130000160
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "嗯，可能有危险也说不定",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不过是对成为我目标的人来说",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "比起那个，我会像以前一样…",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "因为C&C的女仆，可以算是特务的一种",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "今天也是为了千年而去做有意义的事情",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "但是，如果真要说有什么强烈愿望的话……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我会希望今天也能偶然遇见老师……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "就这么个小心愿",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 5,
+      "scenarioGroup": 1300005,
+      "path": "/res/story/1300005.json"
+     }
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "主人对我来说，可能是像四叶幸运草般的存在",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "但更重要的是",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "能和主人相遇就是我最大的幸运了",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "也许是吧",
+       "nextGroup": 130000210
+      },
+      {
+       "text": "彼此彼此，能和朱音相遇真是太好了",
+       "nextGroup": 130000220
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "哎呀，竟然能坦率地接受，真是吃惊",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "呵呵，但我不讨厌那样唷",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "呵呵，很开心听到你这么说",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "希望老师今天一天也很幸运",
+     "delayMs": 1500
+    }
+   ]
+  },
+  {
+   "favorRank": 6,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "今天是和主人一起出任务的日子呢。我很期待"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "主人也……期待著这天吗？",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我期待著今天的这一刻，昨晚完全睡不著呢",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "睡眠很重要唷",
+       "nextGroup": 130000270
+      },
+      {
+       "text": "身体不要紧吗？",
+       "nextGroup": 130000270
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "呵呵，别担心",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "只要跟老师一起……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我永远是最佳状态",
+     "delayMs": 1500,
+     "story": {
+      "favorRank": 6,
+      "scenarioGroup": 1300006,
+      "path": "/res/story/1300006.json"
+     }
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "坏人们已经全都被C&C顺利捉回来了",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "但是，今天的MVP肯定是主人！",
+     "delayMs": 1500
+    }
+   ]
+  },
+  {
+   "favorRank": 8,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "现在这个时间，主人或许不会看MomoTalk……"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "但我现在刚出发",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "而我前往的地方，是主人的家",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "……现在？明明还是半夜……？",
+       "nextGroup": 130000330
+      },
+      {
+       "text": "是梦吗……？",
+       "nextGroup": 130000330
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "敬请期待唷～",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "下次见面的那天将成为我们的纪念日",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "纪念日？",
+       "nextGroup": 130000350
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "呵呵。敬请期待！",
+     "delayMs": 1500
+    }
+   ]
+  },
+  {
+   "favorRank": 9,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "主人，我拜托你的事，已经全部都完成了吗？"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我差不多要到了",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "报答时间，要开始了喔",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "等等等等！要做的事情太多了",
+       "nextGroup": 130000390
+      },
+      {
+       "text": "报答……？",
+       "nextGroup": 130000390
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "呵呵，马上就到了唷～",
+     "delayMs": 1500,
+     "story": {
+      "favorRank": 9,
+      "scenarioGroup": 1300009,
+      "path": "/res/story/1300009.json"
+     }
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师早上睁开眼，或是回到家的时候",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "第一个映入眼帘的人如果能一直都是我的话就好了……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "最近经常会这么想。呵呵",
+     "delayMs": 1500
+    }
+   ]
+  }
+ ]
+}

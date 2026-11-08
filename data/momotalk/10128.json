@@ -1,0 +1,207 @@
+{
+ "characterId": 10128,
+ "studentId": 560,
+ "devName": "CH0318",
+ "name": "若狭冬",
+ "avatar": "/res/avatar/560.png",
+ "messageCount": 24,
+ "threads": [
+  {
+   "favorRank": 2,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "好久不见，老师"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "明天我预计会外出",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "有什么需要的话可以提前告诉我，我来帮你准备",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "……不用了，没关系",
+       "nextGroup": 101280040
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "呵呵，那我就下次再问吧",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "今后也请多多利用我们特殊交易部！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "我根本没用过啊……！",
+       "nextGroup": 101280060
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "favorRank": 3,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "投石机为什么这么容易坏呢？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "你们是在打攻城战吗……？",
+       "nextGroup": 101280090
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不，我们在做更帅气的事",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "……原来是用在特殊交易上啊",
+       "nextGroup": 101280110
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不愧是老师！果然很懂嘛！",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 3,
+      "scenarioGroup": 1012803,
+      "path": "/res/story/1012803.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 5,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，最近过得好吗？"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "这周担任值日生时会见到面",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "所以先提前打声招呼！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "……你这周没有负责担任值日生吧？",
+       "nextGroup": 101280150
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "呵呵",
+     "delayMs": 500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "什么情况……！",
+       "nextGroup": 101280170
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "favorRank": 6,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "要不要去看展览？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "咦？",
+       "nextGroup": 101280200
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "在圣徒&医疗附属艺术中心A馆！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "这么突然！？",
+       "nextGroup": 0
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

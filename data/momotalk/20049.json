@@ -1,0 +1,326 @@
+{
+ "characterId": 20049,
+ "studentId": 384,
+ "devName": "CH0268",
+ "name": "戒野美咲",
+ "avatar": "/res/avatar/384.png",
+ "messageCount": 41,
+ "threads": [
+  {
+   "favorRank": 2,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "沙"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "水",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "阳伞",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "美咲？",
+       "nextGroup": 200490040
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我已经看著同样的东西好几个小时了",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "到底有什么好看的",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "所以总而言之……",
+       "nextGroup": 200490060
+      }
+     ]
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "是觉得无聊对吧？",
+       "nextGroup": 200490070
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "为什么会这样解读？",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 2,
+      "scenarioGroup": 2004902,
+      "path": "/res/story/2004902.json"
+     }
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "好累",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "没想到在水里活动会这么累",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "不过还是有点收获吧？\n至少稍微比较会游泳了",
+       "nextGroup": 200490110
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我只记得自己在踢水而已",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "下次如果还要下水的话，我会找别的方法",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "你是喜欢泳圈吧？",
+       "nextGroup": 200490140
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "才不是",
+     "delayMs": 1000
+    }
+   ]
+  },
+  {
+   "favorRank": 3,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我又一个人待在海滩了"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "啊",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我不会去游泳的，所以不用劝我了",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "享受海滩的方法还有很多",
+       "nextGroup": 200490180
+      }
+     ]
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "比如……玩沙之类的",
+       "nextGroup": 200490190
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "要我玩沙子？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我又不是小孩",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "试过之后说不定会改变想法哦",
+       "nextGroup": 200490210
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "favorRank": 5,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "其他部分还能忍耐"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "但我还是无法习惯阳光",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "夏天的阳光才是享受海滩的最佳方式！",
+       "nextGroup": 200490240
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "你又想叫我做什么？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "要不要一起做日光浴？",
+       "nextGroup": 200490260
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我拒绝",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "那我去海滩找你哦",
+       "nextGroup": 200490280
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "……你有在看我的讯息吗？",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 5,
+      "scenarioGroup": 2004905,
+      "path": "/res/story/2004905.json"
+     }
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "结果整个下午都是阴天",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "这能算是日光浴吗？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "唔嗯，这倒是在意料之外……",
+       "nextGroup": 200490320
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我就知道",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "结果今天什么都没得到呢",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "除了跟老师聊了几句之外",
+     "delayMs": 1000
+    }
+   ]
+  }
+ ]
+}

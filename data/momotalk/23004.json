@@ -1,0 +1,454 @@
+{
+ "characterId": 23004,
+ "studentId": 185,
+ "devName": "Utaha",
+ "name": "白石歌原",
+ "avatar": "/res/avatar/185.png",
+ "messageCount": 55,
+ "threads": [
+  {
+   "favorRank": 2,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，刚刚看到你很认真地在看文具的型录……"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "是有什么需要的东西吗？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "想要订一个新的笔筒",
+       "nextGroup": 230040040
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "如果是单纯的款式的话，在我这里做的话应该会更快唷。老师你觉得怎么样呢？",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "这么简单就能做出来吗？",
+       "nextGroup": 230040060
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "当然。而且还比市面上卖得更轻更坚固",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "正好我手边有材料，我来帮你做怎么样呢？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "嗯，那就拜托你了",
+       "nextGroup": 230040080
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "好的，那希望你大约1小时后到工程师部的工作室来",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 2,
+      "scenarioGroup": 2300402,
+      "path": "/res/story/2300402.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 3,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，夏莱的厕所好像停电了"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "就算按了开关，灯也不会亮",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "啊，这样啊，谢谢你。得叫维修人员来才行……",
+       "nextGroup": 230040120
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "没问题的，好像只是电线断掉了而已，应该很好修的",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "压接工具放在哪呢？我来修理",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "夏莱里没有那种专业的工具……",
+       "nextGroup": 230040140
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "……没有吗？一个也没有？",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "……这样啊",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 3,
+      "scenarioGroup": 2300403,
+      "path": "/res/story/2300403.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 5,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，按照计划，今天下午会去夏莱值班"
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "抱歉，突然有急事，下午我可能不会待在夏莱",
+       "nextGroup": 230040170
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "这样啊。不，那也没办法",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师不在的时候，有什么需要帮忙做的事吗？",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "下午可能会有快递送来，能帮我收一下吗？",
+       "nextGroup": 230040190
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "快递？会送来什么呢？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "我订了一只机器狗",
+       "nextGroup": 230040210
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "嘿，是机器狗啊……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "……以防万一跟你说一下，不可以解剖它唷？",
+       "nextGroup": 230040230
+      }
+     ]
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "……咏叶？",
+       "nextGroup": 230040240
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "favorRank": 6,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，你之前拜托我修理的自行车已经修好了"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "下次你来千年时，可以到工程师部这边来拿吗？",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "好厉害，动作真快",
+       "nextGroup": 230040270
+      },
+      {
+       "text": "不愧是千年的巨匠！",
+       "nextGroup": 230040270
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "嘛，就算不是我来做，修起来也不算很难",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师下次自己修修看的话就会知道了",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "我宁愿站在咏叶旁边看你修理",
+       "nextGroup": 230040290
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "这个嘛，怎么办才好呢……工作室里面有很多危险的东西",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "而且，修理也不过是单纯作业的反复操作而已。我觉得不是什么有趣的事喔",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "我会乖乖待著的嘛～",
+       "nextGroup": 230040310
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "像个小孩一样……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不管怎样，现在手边也没有东西需要修理……之后有机会再说吧",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "这么说来，雷酱刚刚独自在停车场做著奇怪的动作唷",
+       "nextGroup": 230040330
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "什么，雷酱吗！？！？",
+     "delayMs": 500,
+     "story": {
+      "favorRank": 6,
+      "scenarioGroup": 2300406,
+      "path": "/res/story/2300406.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 8,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "「Serval」好像要推出新的工作手套的样子"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我之前买的「Manaslu」有点太厚了，真是刚好",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "这么说来，咏叶在室内也一直带著手套呢",
+       "nextGroup": 230040370
+      }
+     ]
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "是有什么特别的理由吗？",
+       "nextGroup": 230040380
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "其实也没什么特别的理由，只是因为我的手指没什么好看的而已",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "从以前就一直接触到油或是金属之类的东西，绝对称不上好看",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "所以，就是这样",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 8,
+      "scenarioGroup": 2300408,
+      "path": "/res/story/2300408.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 15,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "今天有空吗？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "没问题唷。有什么事吗？",
+       "nextGroup": 230040430
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我想要更新一下工具",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "有间我常去的工具专卖店",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师不介意的话，我想介绍给你",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "我很乐意！",
+       "nextGroup": 0
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

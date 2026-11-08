@@ -1,0 +1,366 @@
+{
+ "characterId": 10029,
+ "studentId": 139,
+ "devName": "CH0155",
+ "name": "柚鸟夏",
+ "avatar": "/res/avatar/139.png",
+ "messageCount": 52,
+ "threads": [
+  {
+   "favorRank": 2,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "想去哪里就去哪里，想睡的时候就睡"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "然后，在想吃的地方吃想吃的东西",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不受任何拘缚，不拘泥于制约，随心所欲地生活！",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "就像是手工饼干一样！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "……那个，你在说什么？",
+       "nextGroup": 100290050
+      },
+      {
+       "text": "什么名言？",
+       "nextGroup": 100290050
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "唔嗯……",
+     "delayMs": 2500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "还差得远呢",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "这样的反应不够啊～",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不够浪漫唷，老师",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那么，我就来教教老师什么是浪漫吧",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "呵呵",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "别担心，不会让你觉得无聊的",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 2,
+      "scenarioGroup": 1002902,
+      "path": "/res/story/1002902.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 3,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "世道艰难"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "难以接受与自己不同的思想，更别提互相包容……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "如果能跨越这点，明明就能到达新的境界",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "令人叹息，属实令人叹息……老师不这么认为吗？",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "好沉重的话题啊……怎么了吗？",
+       "nextGroup": 100290120
+      },
+      {
+       "text": "有什么痛苦的事吗……？",
+       "nextGroup": 100290120
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不，没什么",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "只是突然这么想而已",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不过",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "嗯，如果是老师的话应该没问题",
+     "delayMs": 2500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "等等我，老师",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我马上过去",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 3,
+      "scenarioGroup": 1002903,
+      "path": "/res/story/1002903.json"
+     }
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "今天谢谢你啰，老师",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "之前也是，总觉得和老师聊天后就畅快多了",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "要是老师不嫌弃的话",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "今后也拜托老师了",
+     "delayMs": 1000
+    }
+   ]
+  },
+  {
+   "favorRank": 5,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "今天有重大的活动唷，是我一个人无法独自完成的大型活动",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "轮到我出场了吗？",
+       "nextGroup": 100290210
+      },
+      {
+       "text": "这次是怎样的活动？",
+       "nextGroup": 100290210
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "呵呵，这次是「浪漫的事」唷",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "在世上也算是相～当浪漫的唷，肯定没错",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "所以",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "推荐你一定要来唷",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那我就等你来啰",
+     "delayMs": 1500,
+     "story": {
+      "favorRank": 5,
+      "scenarioGroup": 1002905,
+      "path": "/res/story/1002905.json"
+     }
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，以防万一",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "……今天的事，要对大家保密唷～",
+     "delayMs": 2000
+    }
+   ]
+  },
+  {
+   "favorRank": 6,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "温暖的太阳，温柔的风"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "天空很高，世界很蓝",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "只是随波逐流就太可惜了",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "今天在外面玩吗？",
+       "nextGroup": 100290290
+      },
+      {
+       "text": "正在野餐吗？",
+       "nextGroup": 100290290
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "嘻嘻",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "很好，非常好。老师也习惯了呢",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "如此这般，以上省略",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我等著唷！",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 6,
+      "scenarioGroup": 1002906,
+      "path": "/res/story/1002906.json"
+     }
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "今天真的很开心唷，老师",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "今后如果有什么事的话还请多指教啰～",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "……就算没有也一样，好吗？",
+     "delayMs": 1500
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,489 @@
+{
+ "characterId": 20009,
+ "studentId": 141,
+ "devName": "CH0164",
+ "name": "连河切里诺",
+ "avatar": "/res/avatar/141.png",
+ "messageCount": 64,
+ "threads": [
+  {
+   "favorRank": 2,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "年末的学园，非常的匆忙"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "就连体力超群的咱，也因为接二连三繁重的工作而累积了不少疲劳",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "因此这个周末，咱决定忘记工作，享受寒假！",
+     "delayMs": 2000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "在渡假胜地好好休息的话，之后的工作效率也会更好吧",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "好像平时就在休息了吧……？",
+       "nextGroup": 200090050
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "天真的同志",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "工作中的休息和休假，完全是两码子事吧？",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "平时的午睡只不过是应急措施，根本性的疲劳可是会不断累积的",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "所以为了好好享受休假，咱这次可是包下了温泉！",
+     "delayMs": 2000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "如果同志也感到疲劳的话，不如就和咱一起享受寒假吧？",
+     "delayMs": 1500,
+     "story": {
+      "favorRank": 2,
+      "scenarioGroup": 2000902,
+      "path": "/res/story/2000902.json"
+     }
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "为什么……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "咱的休假计划应该很完美才对……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "全身像铅一样重……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "明明平时没在动，突然那样运动当然会……",
+       "nextGroup": 200090110
+      },
+      {
+       "text": "我想可能是肌肉酸痛",
+       "nextGroup": 200090110
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "这是怎么回事……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "开心归开心，但没能买到最高级的抹茶布丁，再加上肌肉酸痛……",
+     "delayMs": 2000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "寒假，多么可怕的家伙……",
+     "delayMs": 1500
+    }
+   ]
+  },
+  {
+   "favorRank": 3,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "同志，你吃过「温泉蛋」吗？"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "听说是用普通的鸡蛋和温泉水就能创造出的美味……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "虽说咱对温泉蛋不太了解，但也不能轻易相信",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "温泉蛋？",
+       "nextGroup": 200090160
+      }
+     ]
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "确实像布丁一样柔软，很好吃唷",
+       "nextGroup": 200090170
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "布丁！？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "刚刚是说布丁吗！？",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "制作布丁的话，需要很多材料",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "只用温泉水和鸡蛋就能做出像布丁一样的甜点……！？",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "同志，现在不是待在这的时候",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "马上去做温泉蛋！",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 3,
+      "scenarioGroup": 2000903,
+      "path": "/res/story/2000903.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 5,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "同志，你听过这件事吗？"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "优雅游泳的天鹅为了不沉入水中，必须拚命地拍打双脚……",
+     "delayMs": 2000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "也就是说，为了成为孤高而美丽的存在，必须偷偷地努力",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "要是学园的学生们也抱持这样的心态，在休息日也努力工作就好了",
+     "delayMs": 2000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "那个，确实从某种意义上来说是好事啦……",
+       "nextGroup": 200090240
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "嗯？怎么了同志，有什么想说的吗？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "我前阵子才知道，天鹅之所以不会沉入水中",
+       "nextGroup": 200090260
+      }
+     ]
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "是因为羽毛上覆盖了一层油",
+       "nextGroup": 200090270
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "……",
+     "delayMs": 2000,
+     "story": {
+      "favorRank": 5,
+      "scenarioGroup": 2000905,
+      "path": "/res/story/2000905.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 6,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "……"
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "洁莉诺？",
+       "nextGroup": 200090300
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "现在别叫咱洁莉诺，同志……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "没有胡子的权威的咱，不能被称呼为伟大的领袖洁莉诺……",
+     "delayMs": 2000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "只不过是赤冬联邦学园的一个普通学生……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "那个胡子还在洗吗？",
+       "nextGroup": 200090330
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "智惠说油渗得太深，最好还是买新的",
+     "delayMs": 2000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "但即使买了新胡子，也不知道什么时候会送到……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "没有了权威，竟然如此空虚忧郁……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "转换一下心情，去泡个温泉怎么样？",
+       "nextGroup": 200090350
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "现在没有那种心情……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "真是的，为什么大家那么喜欢用热水洗身体呢……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "洗完澡就买水果牛奶给你",
+       "nextGroup": 200090370
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "咱马上过去，同志",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 6,
+      "scenarioGroup": 2000906,
+      "path": "/res/story/2000906.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 15,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "同志"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "同志！？",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "洁莉诺？怎么了吗？",
+       "nextGroup": 200090410
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "哦哦，你在呀。唔呣，该从哪说起好呢……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "因为电算局的失误，发生了一点麻烦……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "虽然本来应该依照规定肃清所有人的",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "但从结果上来说，对赤冬学园的经济状况有了帮助",
+     "delayMs": 2000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "加上智惠也替他们求情，所以这次就免除了他们的处分",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "我好像没跟上话题……",
+       "nextGroup": 200090450
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "唔",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "总之，到咱在的温泉浴场来吧！",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "百闻不如一见！",
+     "delayMs": 1500,
+     "story": {
+      "favorRank": 15,
+      "scenarioGroup": 2000920,
+      "path": "/res/story/2000920.json"
+     }
+    }
+   ]
+  }
+ ]
+}

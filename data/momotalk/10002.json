@@ -1,0 +1,430 @@
+{
+ "characterId": 10002,
+ "studentId": 195,
+ "devName": "haruna",
+ "name": "黑馆晴奈",
+ "avatar": "/res/avatar/195.png",
+ "messageCount": 60,
+ "threads": [
+  {
+   "favorRank": 2,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "今天也会继续美食的探索……本来是这么计划的"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "遇到了障碍",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "这个问题该怎么解决……需要思考一下",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "虽然不知道是什么内容，加油！",
+       "nextGroup": 100020040
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "啊啊，想到了一个好主意",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，能稍微帮个忙吗？",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我在格黑娜等著唷",
+     "delayMs": 1500,
+     "story": {
+      "favorRank": 2,
+      "scenarioGroup": 1000202,
+      "path": "/res/story/1000202.json"
+     }
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "仔细想想，料理酒可能也不错",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "料理酒和葡萄汁，下次用这个试试吧？",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "下次要小心点唷……",
+       "nextGroup": 100020080
+      },
+      {
+       "text": "安全第一唷……",
+       "nextGroup": 100020080
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "呵呵，是在担心我吗？",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "真高兴。呵呵，非常感谢",
+     "delayMs": 1000
+    }
+   ]
+  },
+  {
+   "favorRank": 3,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我想了一下"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "茶道",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "作为进食的行为，难道不是终极的形式吗",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我是这么认为的",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "茶道？",
+       "nextGroup": 100020120
+      },
+      {
+       "text": "很困难的世界呢",
+       "nextGroup": 100020120
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "呵呵呵",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "因为是很困难的世界，所以我也还在探索中",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "于是，我安排了一个场所",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "一起追求终极的味道吧？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "好像很有趣",
+       "nextGroup": 100020150
+      },
+      {
+       "text": "茶道……好像很难呢",
+       "nextGroup": 100020150
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "呵呵，我等著唷",
+     "delayMs": 1500,
+     "story": {
+      "favorRank": 3,
+      "scenarioGroup": 1000203,
+      "path": "/res/story/1000203.json"
+     }
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "怎么会这样……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "刚才因为想再吃一次，所以试著做做看",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "但不怎么好吃",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "是用相同的材料做的，为何……？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "是因为场所变了吗？",
+       "nextGroup": 100020190
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我的房间和茶室一样，宽敞又舒适……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "原因是什么呢……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "材料也好，温度也好，作法也罢，应该都是一样的呀……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "唔嗯，是什么和当时不一样……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "让我想一下，如果有发现什么，请告诉我",
+     "delayMs": 1000
+    }
+   ]
+  },
+  {
+   "favorRank": 5,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "今天打算去这几个月一直关注的顶级餐厅"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "这次我想一个人去。有时要这么做才比较好评价食物",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "这样啊，路上小心",
+       "nextGroup": 100020240
+      },
+      {
+       "text": "一个人去顶级餐厅……真厉害……",
+       "nextGroup": 100020240
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "呵呵呵，我回来后会告诉你感想",
+     "delayMs": 1500,
+     "story": {
+      "favorRank": 5,
+      "scenarioGroup": 1000205,
+      "path": "/res/story/1000205.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 6,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "虽然有点突然，但我想暂停个人美食活动一阵子"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "有很多事需要想想……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "没事吧？打起精神来",
+       "nextGroup": 100020280
+      },
+      {
+       "text": "有什么我可以帮忙的吗？",
+       "nextGroup": 100020280
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "呵呵呵",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师真温柔啊",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "光是这句话就足以让我打起精神了",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "非常感谢",
+     "delayMs": 1500,
+     "story": {
+      "favorRank": 6,
+      "scenarioGroup": 1000206,
+      "path": "/res/story/1000206.json"
+     }
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "今天的鲷鱼烧毫无疑问是近期吃过的食物里最好吃的",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "……理由的话，老师知道吗？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "是吗？唔嗯……感觉只是普通的鲷鱼烧……",
+       "nextGroup": 100020320
+      },
+      {
+       "text": "我可能不大明白……",
+       "nextGroup": 100020320
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "呵呵",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "是吧。这才是老师啊",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "羽留奈知道吗？",
+       "nextGroup": 100020340
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "是，但我不能告诉您",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "因为这是只有我知道的秘密",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那么，再一起去吃好吃的东西吧，老师",
+     "delayMs": 1500
+    }
+   ]
+  }
+ ]
+}

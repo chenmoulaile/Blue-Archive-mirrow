@@ -1,0 +1,672 @@
+{
+ "characterId": 16009,
+ "studentId": 214,
+ "devName": "CH0113",
+ "name": "千鸟满",
+ "avatar": "/res/avatar/214.png",
+ "messageCount": 92,
+ "threads": [
+  {
+   "favorRank": 2,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "参见～老师大人……小生，名唤三千留"
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "这是……？",
+       "nextGroup": 160090030
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "哼哼……这个呀～这是我们忍者迷之间代代相传的传统问候语！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "而你没办法做出回复，代表同样身为忍者迷……同样身为「忍者好伙伴」，老师大人还不成熟呢！",
+     "delayMs": 2000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "忍者好伙伴……？",
+       "nextGroup": 160090060
+      },
+      {
+       "text": "呃！莫名觉得很不甘心……！",
+       "nextGroup": 160090100
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老，老师大人……你该不会忘了吧？！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "夜深人静万籁俱寂……在月夜下和我一起埋伏的回忆！",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "啊，顺带一提，埋伏是指「在树丛里隐密行动」的忍者术语给我记住！",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "我怎么不记得有这件事……？",
+       "nextGroup": 160090090
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "小细节就别管了～",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "没事，不用太失望！老师大人确实拥有忍者的才华",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我身为忍术研究部部长，我能为你的成长挂保证！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "那个……谢谢……？",
+       "nextGroup": 160090120
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "唔哈哈！免礼！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "所以，三千留今天是有什么事呢？",
+       "nextGroup": 160090140
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "糟糕，列车时间快到了！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那么老师大人！我们后会有期，Adios=SAYONARA！",
+     "delayMs": 2000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "（砰！！）←引爆烟雾弹的音效",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "竟然还特地说明是音效……！？",
+       "nextGroup": 160090180
+      }
+     ]
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "嗯……Adios=SAYONARA！",
+       "nextGroup": 160090190
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "favorRank": 3,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "今日午后，我将造访夏莱──忍者M"
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "预告信……！？",
+       "nextGroup": 160090210
+      },
+      {
+       "text": "这行为不是忍者，而是怪盗吧……？",
+       "nextGroup": 160090210
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "别在乎那些小细节！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "而且怪盗大致上也跟忍者差不多，不要紧！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "话是这么说的吗？！",
+       "nextGroup": 160090230
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "反正我预告过了，老师大人！把脖子洗干净等著吧！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "相信我们很快就会相遇！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "（砰！！）←引爆烟雾弹的音效",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "（沙沙沙沙！）←迅速离去的声音",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "……谢谢你总是这么细心",
+       "nextGroup": 160090270
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "favorRank": 5,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我是忍术研究部的部长，对吧？"
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "是啊",
+       "nextGroup": 160090290
+      },
+      {
+       "text": "话说你们是非公认社团，叫你「部长」没问题吗？",
+       "nextGroup": 160090290
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "咕喔！少说一句会怎样！有什么关系！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我们平常也有在好好活动啊！像是忍者修行，拍摄影片！",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "只要我们继续努力，总有一天可以让整个奇普托斯都知道忍者的存在，而忍术研究部成为正式社团的一天也会来临！",
+     "delayMs": 2000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "嗯，我知道三千留很努力，我支持你",
+       "nextGroup": 160090320
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "谢谢你，老师大人！听到你这么说，我又能努力下去了",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "那就好",
+       "nextGroup": 160090340
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "你的这番话让我力量都来了……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "这下，我不会再迷惘了！",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "……嗯？",
+       "nextGroup": 160090360
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "为了努力，果然要放胆投资才行",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "听说我常去的店里，进了新的忍者周边",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "啊，不对！是忍具……！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "原本我还在烦恼价钱有点高，但是听了老师的话，我下定决心了！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "没错！这些都是为了忍术研究部的未来所做的投资！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "你确定不是单纯自己想要吗……？",
+       "nextGroup": 160090400
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那我们就在老地方碰面啰，老师大人！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "（刷刷！咻啪啪啪啪！）←非常帅气地后空翻奔跑的声音",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "好，好喔……",
+       "nextGroup": 160090420
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "favorRank": 6,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "对了老师，夏莱有没有那个啊？"
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "那个……？",
+       "nextGroup": 160090440
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "《鱼板旋风传》第19集！",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我看部室里没有，能想到的就只有夏莱了",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "你什么时候把东西放过来的……",
+       "nextGroup": 160090460
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那是因为，我们的部室，终究只是暂借的……百花缭乱那些人不知道什么时候会闯进来……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "然后也不知道阴阳部什么时候会过来……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "于是我就用我的忍者脑袋思考……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "决定把周边保管在夏莱，会是比较合理的结论",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "夏莱可不是仓库呀，三千留小姐……",
+       "nextGroup": 160090490
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师大人想看当然也可以，《鱼板》系列非常好看！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "嗯对了，今晚公园集合唷",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我等著，老师大人！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "话题还是老样子转真快！",
+       "nextGroup": 160090520
+      },
+      {
+       "text": "可以是可以，但今晚要做什么？",
+       "nextGroup": 160090520
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "（啪沙沙沙沙沙沙）←绑鞋带的声音",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "甚至已经不是和忍者有关的行动了……！？",
+       "nextGroup": 160090540
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师大人，大概是因为昨天的那件事……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "在下感冒了……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "我去帮你煮粥……",
+       "nextGroup": 160090570
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "谢谢，老师大人……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那，我等你……",
+     "delayMs": 1500
+    }
+   ]
+  },
+  {
+   "favorRank": 15,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师大人"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "你对古时候的古文书",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "或是年代久远的古代纪录媒介……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "之类的东西有兴趣吗？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "该不会是取得了……",
+       "nextGroup": 160090640
+      },
+      {
+       "text": "什么古代忍者的古代卷轴吧！",
+       "nextGroup": 160090640
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "喵哈哈！不愧是老师大人！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我就知道你会这么说！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不过猜错了！",
+     "delayMs": 500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "原来不是吗！？",
+       "nextGroup": 160090670
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "唔嗯，硬要说的话",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "也算猜中一半就是了……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "所以如果老师有兴趣的话",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "就在上次那个商店街的入口见吧！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我会等你的！老师大人！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "（咻咻咻咻）<-快速奔跑的声音",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "嗯，嗯……",
+       "nextGroup": 0
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

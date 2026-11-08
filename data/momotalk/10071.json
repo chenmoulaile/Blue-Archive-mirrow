@@ -1,0 +1,352 @@
+{
+ "characterId": 10071,
+ "studentId": 280,
+ "devName": "CH0215",
+ "name": "月雪宫子",
+ "avatar": "/res/avatar/280.png",
+ "messageCount": 45,
+ "threads": [
+  {
+   "favorRank": 2,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，能占用你一些时间吗？"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "夏天就快到了，天气越来越热",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "为了不影响SRT的作战，我准备了一些与季节相符的装备……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不过有些部分我难以判断，所以希望能跟老师商量",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "如果是都子找我商量，我随时都会听哦",
+       "nextGroup": 100710050
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "谢谢老师爽快的答应",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我会将座标传送给你，麻烦你走一趟了",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那么，我会在会面地点待命",
+     "delayMs": 500,
+     "story": {
+      "favorRank": 2,
+      "scenarioGroup": 1007102,
+      "path": "/res/story/1007102.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 3,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "在执行这次作战时，我感觉到……"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "由于SRT的训练多以陆上作战为前提",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "因此应对海上作战的能力似乎不够充分",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "都子已经非常努力了唷",
+       "nextGroup": 100710100
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "……谢谢你",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不过，我也有自己能力不足的自觉",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "所以虽然有点突然……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我想进行模拟在海上营救人质的训练",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "可以请老师协助吗？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "嗯，当然可以",
+       "nextGroup": 100710150
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "非常感谢",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那么，我在村子东边的码头等你",
+     "delayMs": 500,
+     "story": {
+      "favorRank": 3,
+      "scenarioGroup": 1007103,
+      "path": "/res/story/1007103.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 5,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，你听说了吗？"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "似乎有个可以从村子的西海岸徒步抵达的离岛",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "从海上……？",
+       "nextGroup": 100710190
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "是的。因为西侧海岸的水深较浅",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "所以听说在退潮的时候，与离岛连接的道路就会出现",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "好像很有趣呢",
+       "nextGroup": 100710210
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我也这么觉得。而且由于那座岛的风景非常棒，居民们似乎也时常会在假日去岛上玩",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "如果老师愿意的话",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "能请老师陪我一起去吗？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "当然，我很乐意",
+       "nextGroup": 100710240
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "谢谢你，老师",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那么明天，我们就在退潮时在码头碰面吧",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 5,
+      "scenarioGroup": 1007105,
+      "path": "/res/story/1007105.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 6,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "这里是RABBIT1。报告目前状况"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "现在时间0600。\n负伤人数为0，请继续──",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "啊……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不好意思，在这种时间打扰老师",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我弄错了传送的对象……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "没关系的，别在意",
+       "nextGroup": 100710300
+      }
+     ]
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "话说回来，你这么早就起床了啊",
+       "nextGroup": 100710310
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "是的。毕竟保持规律的生活是特殊部队的基本",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "除了执行夜间作战或身体状态特别差的时候之外，我每天都会在这个时间整理日志……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "接著再去进行晨跑或是做些轻松的体操伸展身体",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "都子真厉害……",
+       "nextGroup": 100710340
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "呵呵。一开始可能会觉得麻烦，不过养成习惯之后就不算什么了",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "现在如果早上没运动的话，我反而还会觉得身体僵硬呢",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 6,
+      "scenarioGroup": 1007106,
+      "path": "/res/story/1007106.json"
+     }
+    }
+   ]
+  }
+ ]
+}

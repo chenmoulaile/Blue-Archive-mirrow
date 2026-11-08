@@ -1,0 +1,358 @@
+{
+ "characterId": 20024,
+ "studentId": 25,
+ "devName": "Nagisa",
+ "name": "桐藤渚",
+ "avatar": "/res/avatar/25.png",
+ "messageCount": 45,
+ "threads": [
+  {
+   "favorRank": 2,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "久疏问候"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "这段时间过得好吗，老师？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "渚，好久不见",
+       "nextGroup": 200240040
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "是，确实很久没见了呢",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "其实，我想和老师商量有关三一学生的事",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "由于并非沉重的话题，我想和老师一边享用下午茶一边商量，您意下如何呢？",
+     "delayMs": 2000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "啊，感觉不错呢。我很乐意",
+       "nextGroup": 200240070
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "呵呵",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那么，我会准备上好的茶叶等著您",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 2,
+      "scenarioGroup": 2002402,
+      "path": "/res/story/2002402.json"
+     }
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "方才提前离开，真是非常抱歉，老师",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "身体状况突然出了点问题……没能做好健康管理我很抱歉",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "没关系的唷，别在意",
+       "nextGroup": 200240120
+      }
+     ]
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "宝特瓶装的红茶，难道不合你的口味吗？",
+       "nextGroup": 200240130
+      },
+      {
+       "text": "勉强你喝真是抱歉……",
+       "nextGroup": 200240130
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不会，这是相当有趣的经验。谢谢您……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "但是，下次或许稍微调整一下份量比较好……",
+     "delayMs": 2000
+    }
+   ]
+  },
+  {
+   "favorRank": 3,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "……先前真是失礼了"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "最近您过得如何呢？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "在那之后身体还好吗？",
+       "nextGroup": 200240180
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "啊，您指的是上次的事吗……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "没事的。当时身体的状况也并没有那么糟。",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "话说回来，先前的话题尚未结束呢。不介意的话，能否占用您一些时间呢？",
+     "delayMs": 2000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "在您方便的时间也没关系，希望您能来露台一趟",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我会准备好红茶的",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "嗯，我知道了。我要不要也带之前的红茶过去？",
+       "nextGroup": 200240220
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那个，我心领了。之前已经好好品尝过了……",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 3,
+      "scenarioGroup": 2002403,
+      "path": "/res/story/2002403.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 5,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "……最近过得如何呢"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "前些日子，让您看见难以见人的样子了呢……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那个，向您重申，我平时的言行绝对不是那样的……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "别在意",
+       "nextGroup": 200240260
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "虽然您这么说……身为茶会的一员，果然不能对此等失态置之不理",
+     "delayMs": 2000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "……老师愿意的话，顺带作为赔罪，能再借用您一些时间吗？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "正好新购入的茶叶也即将送达",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "请让我招待您吧。当然，前提是老师您愿意",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "那，就承蒙你的好意啰",
+       "nextGroup": 200240300
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "谢谢您。那么，我会在露台等待您的到来",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 5,
+      "scenarioGroup": 2002405,
+      "path": "/res/story/2002405.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 6,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "早安，老师"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "有句话说早餐是一天的开始……老师已经用过早餐了吗？",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "嗯，我刚吃完。渚呢？",
+       "nextGroup": 200240340
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我稍早之前喝过了味噌汤",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "……有点意外",
+       "nextGroup": 200240360
+      }
+     ]
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "茶会好像给人一种只吃甜点的印象……",
+       "nextGroup": 200240370
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "您说笑了……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "再怎么说，只吃甜食对营养的平衡会造成不良的影响",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "即使是我们，也不是一直都在吃蛋糕和点心的",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 6,
+      "scenarioGroup": 2002406,
+      "path": "/res/story/2002406.json"
+     }
+    }
+   ]
+  }
+ ]
+}

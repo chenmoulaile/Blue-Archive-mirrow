@@ -1,0 +1,214 @@
+{
+ "characterId": 13002,
+ "studentId": 110,
+ "devName": "akari",
+ "name": "鳄渊明里",
+ "avatar": "/res/avatar/110.png",
+ "messageCount": 26,
+ "threads": [
+  {
+   "favorRank": 2,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "为什么不卖比特盛更大的牛丼呢？"
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "特盛还不够大……？",
+       "nextGroup": 130020030
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不够，一碗特盛吃不饱",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "为什么亚伽里能吃那么多？",
+       "nextGroup": 130020050
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "呵呵，真是愚蠢的问题。我吃很多的理由很简单",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "因为……食物在那里！",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 2,
+      "scenarioGroup": 1300202,
+      "path": "/res/story/1300202.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 3,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师吃拉面的时候，是先吃面吗？还是先喝汤？"
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "面吧",
+       "nextGroup": 130020080
+      },
+      {
+       "text": "汤吧",
+       "nextGroup": 130020090
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "原来如此，这样啊",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "原来如此，这样啊",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我个人会选择汤",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "说汤是充满了拉面的全部精华也不为过",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "在里面加入捣碎的大蒜的日子……啊啊，多么美妙啊！",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "总觉得像是大叔一样的喜好啊……",
+       "nextGroup": 130020130
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "favorRank": 5,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我觉得吃到饱真的是很棒的文化"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "以一定的价格，想吃什么就吃什么……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "提出这个想法的人，一定是天才！",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "对于迎接亚伽里为客人的那一方来说，是天灾吧……",
+       "nextGroup": 130020160
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "favorRank": 6,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "听说下次的大胃王大赛项目是「咖哩」"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "咖哩……有点没自信呢，需要提前特训",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "亚伽里也有不喜欢的食物吗？",
+       "nextGroup": 130020190
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "是能吃，但吃大量的话……有些东西没办法",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "比如咖哩的话，中途会喝好几次水……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "相反地，寿司之类的，因为有我喜欢的东西，所以能吃到其他的两倍左右",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "虽然食量很大，但也不是没有喜好的",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 6,
+      "scenarioGroup": 1300206,
+      "path": "/res/story/1300206.json"
+     }
+    }
+   ]
+  }
+ ]
+}

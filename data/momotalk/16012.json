@@ -1,0 +1,207 @@
+{
+ "characterId": 16012,
+ "studentId": 146,
+ "devName": "CH0192",
+ "name": "赤司纯子",
+ "avatar": "/res/avatar/146.png",
+ "messageCount": 26,
+ "threads": [
+  {
+   "favorRank": 2,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，你今天忙吗？"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "有时间的话，要不要来我打工的地方一趟？",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "我记得……是「L'Oiseau Bleu」吗？",
+       "nextGroup": 160120040
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "没错没错。话说，亏你还记得呢",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "有个东西想让老师看看",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我等你，一定要来哦！",
+     "delayMs": 1500,
+     "story": {
+      "favorRank": 2,
+      "scenarioGroup": 1601202,
+      "path": "/res/story/1601202.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 3,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，老师！"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我收到打工的薪水了！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "因为淳子很努力呀",
+       "nextGroup": 160120080
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "也对！所以说……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "现在是回礼时间唷！",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "……什么意思？",
+       "nextGroup": 160120100
+      },
+      {
+       "text": "请，请留小的一命……",
+       "nextGroup": 160120110
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "呵呵，等著看吧",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "别说那种奇怪的话！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "总之",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "傍晚来庆典大街一趟吧",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "一定要唷！",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 3,
+      "scenarioGroup": 1601203,
+      "path": "/res/story/1601203.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 5,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "连假"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "结束了",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "都结束了……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "冷，冷静点，淳子。连假明天才结束唷",
+       "nextGroup": 160120190
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我知道啦！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "但是我心中的连假已经死了！已经不在了！",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "没有在我的背上或胸膛和我一起活下去！",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不过尽管如此，也不能就这么结束！",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 5,
+      "scenarioGroup": 1601205,
+      "path": "/res/story/1601205.json"
+     }
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,399 @@
+{
+ "characterId": 10046,
+ "studentId": 46,
+ "devName": "CH0179",
+ "name": "久田泉奈",
+ "avatar": "/res/avatar/46.png",
+ "messageCount": 52,
+ "threads": [
+  {
+   "favorRank": 2,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "主公！！！"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "夏天到了，夏天！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "是啊，夏天到了",
+       "nextGroup": 100460040
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "因为是夏天，到处都热气冲天！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "简直就像柴犬汪藏导演的第26部作品！《阳炎之血斗》一样！",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "真的是太惊人了！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "虽然不是很懂，但伊树菜看起来很开心，真是太好了",
+       "nextGroup": 100460070
+      },
+      {
+       "text": "总觉得伊树菜比平常更有精神呢",
+       "nextGroup": 100460070
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "也许，是多亏了夏天的阳光能量！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "啊，现在不是说这个的时候。主公！一起去海边吧！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "这个夏天，为了成为能适应大海的忍者，要开始修行了！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "嗯，走吧",
+       "nextGroup": 100460100
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "好的，伊树菜会等著主公！",
+     "delayMs": 500,
+     "story": {
+      "favorRank": 2,
+      "scenarioGroup": 1004602,
+      "path": "/res/story/1004602.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 3,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "主公！"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "今天如果有时间的话……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "只要是为了伊树菜，去哪里都行！",
+       "nextGroup": 100460140
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "啊",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "是！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "耶嘿嘿！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "非常感谢！那么伊树菜会在海边等著主公！",
+     "delayMs": 1500,
+     "story": {
+      "favorRank": 3,
+      "scenarioGroup": 1004603,
+      "path": "/res/story/1004603.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 5,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "今天从早上开始就非常热呢，主公！"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "实在太热了，伊树菜从早上起床后就汗流浃背……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "特别是尾巴的部份……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "这个季节真是辛苦你了……",
+       "nextGroup": 100460200
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "但是，不管有多热！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "伊树菜今天也想和主公一起修行！",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "所以说，主公！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "嗯，我准备好了",
+       "nextGroup": 100460230
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "耶嘿嘿！好！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "伊树菜也马上准备！",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 5,
+      "scenarioGroup": 1004605,
+      "path": "/res/story/1004605.json"
+     }
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那个",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "对不起，主公！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "明明是伊树菜说要修行的，居然在中途就睡著了……！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "不用放在心上。在沙子里很舒服对吧",
+       "nextGroup": 100460270
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "主公……！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "还有时间，不要紧的",
+       "nextGroup": 100460290
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "是！",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那下次见！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "下次再继续一起玩吧，主公！",
+     "delayMs": 1000
+    }
+   ]
+  },
+  {
+   "favorRank": 6,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "主公！今天要做什么好呢？"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "伊树菜还有很多想跟主公一起做的事！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "今天也很热呢……做什么好呢？",
+       "nextGroup": 100460340
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "就是说啊……！",
+     "delayMs": 500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "果然还是……不想游泳吗？",
+       "nextGroup": 100460360
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "啊",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "呃，那个",
+     "delayMs": 2000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "伊树菜讨厌游泳吗？",
+       "nextGroup": 100460390
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "啊，那个，该说是讨厌吗……",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那个",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "伊树菜……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "总，总之，伊树菜先去海边等您，主公！",
+     "delayMs": 500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "了，了解",
+       "nextGroup": 0
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

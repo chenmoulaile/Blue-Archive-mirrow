@@ -1,0 +1,484 @@
+{
+ "characterId": 23006,
+ "studentId": 96,
+ "devName": "Shizuko",
+ "name": "河和静子",
+ "avatar": "/res/avatar/96.png",
+ "messageCount": 65,
+ "threads": [
+  {
+   "favorRank": 2,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "「～百夜堂×奇普托斯草莓天国～合作活动召开！」"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "「草莓大福、草莓铜锣烧、草莓馒头、草莓八桥！还有草莓馅蜜！」",
+     "delayMs": 2000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "「请来品尝汇集了奇普托斯各地草莓的『奇普托斯草莓天国』和传统甘味吃茶『百夜堂』的合作吧！」",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "「从今天开始举办一周，请务必光临！」",
+     "delayMs": 2000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "「来店时出示此讯息，结帐时可享10%折扣！」",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "「那么，我在百夜堂等你唷！喵喵！」",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "那个……？",
+       "nextGroup": 230060050
+      },
+      {
+       "text": "喵喵……？",
+       "nextGroup": 230060050
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "嘿嘿，老师！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "实际上正如我发送的那样，百夜堂正在举办活动！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "因为机会难得，所以我想在这个时候再次好好地招待老师",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "会来吧？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "稍微确认一下日程之后……",
+       "nextGroup": 230060090
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "会　来　吧？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "如果是静子的请求的话！",
+       "nextGroup": 2300600110
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "嘿嘿！好！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我等你唷！",
+     "delayMs": 1500,
+     "story": {
+      "favorRank": 2,
+      "scenarioGroup": 2300602,
+      "path": "/res/story/2300602.json"
+     }
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "这次虽然犯了很多错误",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "但下次一定会攻略老师的！",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "用我冒失的力量！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "先说出来的话\n就不「冒失」了吧……？",
+       "nextGroup": 2300600150
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "请做好觉悟吧！",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "那个，好的……",
+       "nextGroup": 2300600170
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "favorRank": 3,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师……"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我，我……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "静子，再也忍不住了……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "那么早点去比较好唷",
+       "nextGroup": 2300600200
+      },
+      {
+       "text": "结束后不要忘记洗手唷",
+       "nextGroup": 2300600200
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "现在是在对怦然心动的看板娘说些什么啊！？",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "更确切地说，你怎么认为我会在MomoTalk上讨论这种事！？",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "哎哟，真是的……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那个，老师。我是静子呀～",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "还要继续那套流程？",
+       "nextGroup": 2300600240
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "……呜呜，算了……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "身为节庆营运管理部的部长，有件事想拜托老师！",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "请陪我准备明天的祭典！",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "嗯，OK",
+       "nextGroup": 2300600270
+      },
+      {
+       "text": "所以，到底是什么忍不住？",
+       "nextGroup": 2300600270
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那个已经无所谓了！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "对，该话题到此结束！禁止再提起！！",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 3,
+      "scenarioGroup": 2300603,
+      "path": "/res/story/2300603.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 5,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师。今天，那个……"
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "怎么了？",
+       "nextGroup": 2300600300
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不，不，没什么",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "今天一天也都在忙工作的事吧",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我们都加油吧",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 5,
+      "scenarioGroup": 2300605,
+      "path": "/res/story/2300605.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 6,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "呵呵呵……"
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "嘿嘿嘿？",
+       "nextGroup": 2300600340
+      },
+      {
+       "text": "呵呵呵……？",
+       "nextGroup": 2300600350
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我才没有用「嘿嘿嘿」那种下流的笑法！？",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "上面不是写著「呵呵呵」吗！",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "确实。那么，怎么了吗？",
+       "nextGroup": 2300600360
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，你有说过吧",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "累的时候最好休息，困的时候最好睡觉",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "今天，我想让老师对那句言行负起责任",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我在百夜堂等著",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "P.S. 请从后门进来，不要走正门",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "……？",
+       "nextGroup": 2300600400
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "favorRank": 15,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师！老师！"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "从今天起，百夜堂的特别季节活动就要开始啰！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "咚隆咚隆……「苹果祭」！！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "有清新的苹果茶，还有各种酸甜可口的甜点组成的飨宴哦！",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "看来我可不能缺席呢！",
+       "nextGroup": 2300600440
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "呵呵呵呵呵",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "一定要来玩哦！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我会跟往常一样，用最顶级的规格款待老师的！",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 15,
+      "scenarioGroup": 2300615,
+      "path": "/res/story/2300615.json"
+     }
+    }
+   ]
+  }
+ ]
+}

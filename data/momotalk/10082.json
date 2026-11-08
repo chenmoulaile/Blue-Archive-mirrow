@@ -1,0 +1,761 @@
+{
+ "characterId": 10082,
+ "studentId": 319,
+ "devName": "CH0224",
+ "name": "不破莲华",
+ "avatar": "/res/avatar/319.png",
+ "messageCount": 105,
+ "threads": [
+  {
+   "favorRank": 2,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师你听我说，可别吓到了……"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我不破莲华碰到了这辈子最大的危机！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "这话说得太突然了，我跟不上……",
+       "nextGroup": 100820040
+      },
+      {
+       "text": "莲华，发生什么事了？",
+       "nextGroup": 100820040
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "最近我一直在思考一件事",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "然后我终于想通了",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "再这样下去，一切可能会通通完蛋！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "抱歉，莲华，我还是跟不太上！",
+       "nextGroup": 100820070
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "呃……在MomoTalk上好像很难说清楚……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "也对，要传达真心果然还是得面对面吧！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "嗯！？怎么扯到那边去了！？",
+       "nextGroup": 100820090
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，现在不是说这个的时候……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "拜托！让我咨询一下吧！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "嗯，这倒是没问题……",
+       "nextGroup": 100820110
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "真的吗！？",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "好！那我等你喔！",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 2,
+      "scenarioGroup": 1008202,
+      "path": "/res/story/1008202.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 3,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师……"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不，青春师父！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "我还不是很习惯那个称号，有点不好意思耶……",
+       "nextGroup": 100820150
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "哎呀，何必呢",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "就像之前说的一样，老师是我的青春师父！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "挺起胸膛吧！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "嗯……",
+       "nextGroup": 100820180
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "很好，现在不是说这个的时候，我们正式开始青春活动吧",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "今天我也要当个忠实遵循师父教诲……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "惹人怜爱、令人欣慰的好学生！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "这没有一丝含糊，充满雄心的宣言……！",
+       "nextGroup": 100820210
+      },
+      {
+       "text": "真像莲华的作风！",
+       "nextGroup": 100820210
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "好，那今天也在百花缭乱的调停室集合吧！师父！",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 3,
+      "scenarioGroup": 1008203,
+      "path": "/res/story/1008203.json"
+     }
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，我回到家里仔细想了一下",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "果然老师就是老师",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "转学生还是有点强人所难了吧？",
+     "delayMs": 500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "怎么现在才说这些……？",
+       "nextGroup": 100820250
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "嗯，不过我所说的关系也不是只有转学生！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "之后我会想想新的关系！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "嗯，既然莲华都这么说了……",
+       "nextGroup": 100820270
+      }
+     ]
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "我们下次再进行「青春活动」吧",
+       "nextGroup": 100820280
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "嗯！没问题！",
+     "delayMs": 1000
+    }
+   ]
+  },
+  {
+   "favorRank": 5,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "唔嗯，说到青春关系的精髓……"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "还是不能少了「那个」吧",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "没错，为什么一直忘了那个呢",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "那个……是指什么？",
+       "nextGroup": 100820320
+      },
+      {
+       "text": "你指的是……？",
+       "nextGroup": 100820320
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "啊，那个啊",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "嗯……",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "唔嗯……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不，先说出来就没意思了！",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "好，我决定下一个「青春活动」的内容了！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "所以明天我会去一趟夏莱！老师！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "嗯，我知道了。那我们明天见，莲华",
+       "nextGroup": 100820380
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "嗯！",
+     "delayMs": 500,
+     "story": {
+      "favorRank": 5,
+      "scenarioGroup": 1008205,
+      "path": "/res/story/1008205.json"
+     }
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "今，今天发生的事不算！",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "当作没发生吧！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "嗯！就我们的关系来说，青梅竹马的门槛还太高了！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "是，是吗？",
+       "nextGroup": 100820430
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "没错！就是那样！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "所以下次我会去找其他关系！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "做好觉悟吧！师父！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "呃，好……",
+       "nextGroup": 100820460
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "favorRank": 6,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，不知不觉间，从我们开始「青春活动」……"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "已经过了一段时间了啊",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "就是说啊",
+       "nextGroup": 100820490
+      },
+      {
+       "text": "已经过那么久了吗？",
+       "nextGroup": 100820490
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "虽然也有过横冲直撞，抓不到感觉的时候……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "嗯，不过还是有一步一脚印、踏实前进的感觉",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "所以今天也为了青春活动集合吧",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我马上过去夏莱！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "嗯，我等你",
+       "nextGroup": 100820530
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那么待会见！",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 6,
+      "scenarioGroup": 1008206,
+      "path": "/res/story/1008206.json"
+     }
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "虽然造成很多麻烦，但是老师……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那个……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "以后也认真进行「青春活动」吧，莲华",
+       "nextGroup": 100820570
+      },
+      {
+       "text": "谢谢你为我担心",
+       "nextGroup": 100820570
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "啊，嗯",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "你很清楚嘛！老师……不，师父！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "之后再一起活动吧！",
+     "delayMs": 1000
+    }
+   ]
+  },
+  {
+   "favorRank": 15,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "师父，请问你有空吗？"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我对一个青春活动有点兴趣……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "什么样的青春活动？",
+       "nextGroup": 100820620
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "是师徒一起的──",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "假日逛街！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "这应该是只有学生时期才能享受的青春活动吧",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "哦哦，听起来不错！",
+       "nextGroup": 100820650
+      },
+      {
+       "text": "有什么特别想买的东西吗？",
+       "nextGroup": 100820650
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "唔嗯，倒也没有特别想买什么",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "目标只是一起在商店街消磨时间",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "只逛不买也是种乐趣嘛？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "这不就跟约会没两样吗！",
+       "nextGroup": 100820670
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "哈哈，什么约会啦？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "…………",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "等一下",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "这样算约会吗？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "…………",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "总，总之先见面再说吧！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我在商店街等你",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 15,
+      "scenarioGroup": 1008215,
+      "path": "/res/story/1008215.json"
+     }
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那个，师父",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "谢谢你今天送我的礼物",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "这条缎带真的变得很特别……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我会好好珍藏的",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "我也谢谢你今天的礼物",
+       "nextGroup": 100820770
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "下次我会买更正式的东西送你",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "所以之后……要再一起去逛街哦",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "知道吗？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "嗯！我会期待的！",
+       "nextGroup": 100820790
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我也是！",
+     "delayMs": 1000
+    }
+   ]
+  }
+ ]
+}

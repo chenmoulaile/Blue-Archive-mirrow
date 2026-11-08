@@ -1,0 +1,330 @@
+{
+ "characterId": 26008,
+ "studentId": 50,
+ "devName": "CH0180",
+ "name": "河和静子",
+ "avatar": "/res/avatar/50.png",
+ "messageCount": 43,
+ "threads": [
+  {
+   "favorRank": 2,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，辛苦了！"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "呵呵，呵呵呵呵呵……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "咯咯咯？",
+       "nextGroup": 260080040
+      },
+      {
+       "text": "呵呵呵呵……？",
+       "nextGroup": 260080050
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "什么呀，那种廉价的坏蛋笑声！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我没有那样笑吧！？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "所以，这么突然有什么事吗，静子亲？",
+       "nextGroup": 260080060
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "亲……？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "嘛，好吧！今天是百夜堂自开张以来最棒的一天！",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我会用开阔的心胸接受！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "你可以因此感谢我唷，呵呵呵！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "总感觉心情很好呢",
+       "nextGroup": 260080100
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "是的，而且早就超过「好」的范畴了！",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "百夜堂这次将以「海之家」为起点……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "重生为奇普托斯第一的特许加盟店！",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "所以",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师有义务和我一起见证这一切！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "和往常一样乱来呢",
+       "nextGroup": 260080130
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "favorRank": 3,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那个，老师"
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "怎么了？",
+       "nextGroup": 260080150
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不",
+     "delayMs": 2000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "什么事都没有",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "总之，今天也要互相加油！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "难道有什么烦恼吗？",
+       "nextGroup": 260080180
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "才，才不是那样……！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "是老师的错觉！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "偶尔想跟百夜堂的老板",
+       "nextGroup": 260080200
+      }
+     ]
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "一起聊聊天呢",
+       "nextGroup": 260080210
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "……如，如果是那样的话！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "也没有事是……不能见面说的！对！",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 3,
+      "scenarioGroup": 2600803,
+      "path": "/res/story/2600803.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 5,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师！"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "辛苦了！！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "辛苦了",
+       "nextGroup": 260080260
+      }
+     ]
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "总感觉，比平时更有活力啊？",
+       "nextGroup": 260080270
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "呵呵呵呵，那当然！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "静子一直都是元气满满！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "可是之前总感觉……",
+       "nextGroup": 260080290
+      },
+      {
+       "text": "确实好像是这样呢",
+       "nextGroup": 260080290
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "啊，对了",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "今天之所以会联络",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "是因为现在有东西想给你看",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "有些话想跟你说",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "敬请期待！",
+     "delayMs": 1500,
+     "story": {
+      "favorRank": 5,
+      "scenarioGroup": 2600805,
+      "path": "/res/story/2600805.json"
+     }
+    }
+   ]
+  }
+ ]
+}

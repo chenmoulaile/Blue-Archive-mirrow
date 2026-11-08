@@ -1,0 +1,380 @@
+{
+ "characterId": 10075,
+ "studentId": 264,
+ "devName": "CH0124",
+ "name": "姬木梅露",
+ "avatar": "/res/avatar/264.png",
+ "messageCount": 49,
+ "threads": [
+  {
+   "favorRank": 2,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "帮～帮～我～"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "需要帮忙！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "有股不好的预感……",
+       "nextGroup": 100750040
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不要说是不好的预感啊！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "需要老师帮助的学生就在这里……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "你应该……不会置之不理吧？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "既然如此那就没办法了",
+       "nextGroup": 100750060
+      },
+      {
+       "text": "发生什么事了吗，爱瑠？",
+       "nextGroup": 100750060
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我画不出画了！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "是熟悉的灵感枯竭吧，我知道",
+       "nextGroup": 100750080
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "才不是！反而应该说灵感不断涌现才对！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "但这次……该说是比较物质上的问题吗……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "该不会是受伤了吧！？",
+       "nextGroup": 100750100
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "也，也不是那样啦……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "是那个……平板电脑的笔坏掉了",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "……嗯？",
+       "nextGroup": 100750120
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "favorRank": 3,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "完～蛋～了～"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "卡～住～了～",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "哎呀，是熟悉的爱瑠呢",
+       "nextGroup": 100750150
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不要一副隔岸观火的样子！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "帮～帮～我～",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 3,
+      "scenarioGroup": 1007503,
+      "path": "/res/story/1007503.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 5,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我～要～报～仇～"
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "传来了不详的讯息……",
+       "nextGroup": 100750180
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "当时的怨念",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "以为我会忘记吗～",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "呿，还以为可以悄悄一笔带过",
+       "nextGroup": 100750200
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "想都别想！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我姬木爱瑠，绝对有借有还！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "等著看吧，老师",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "今天一定会随心所欲地拉著老师到处跑！",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 5,
+      "scenarioGroup": 1007505,
+      "path": "/res/story/1007505.json"
+     }
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "复～活～了！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "太好了～",
+       "nextGroup": 100750240
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不要说得好像别人的事一样……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "今天的事，老师也要负一点责任",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "为什么！",
+       "nextGroup": 100750260
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我说要就是要！",
+     "delayMs": 1000
+    }
+   ]
+  },
+  {
+   "favorRank": 6,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "你今天也很忙吗？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "这个味道……是需要关心的味道",
+       "nextGroup": 100750300
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "为什么老是要把我塑造成需要关心的人！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我不喜欢这样！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "……虽然的确是这样没错",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "我正好有事要去赤冬一趟",
+       "nextGroup": 100750330
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "真的吗？",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "虽然不是非这么做不可",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "如果能顺便来知识解放战线一趟的话，我会感谢你的……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "大概也许应该可能会吧……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "到底会不会……",
+       "nextGroup": 0
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

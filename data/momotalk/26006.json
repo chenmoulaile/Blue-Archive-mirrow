@@ -1,0 +1,381 @@
+{
+ "characterId": 26006,
+ "studentId": 119,
+ "devName": "Nodoka",
+ "name": "天见和香",
+ "avatar": "/res/avatar/119.png",
+ "messageCount": 49,
+ "threads": [
+  {
+   "favorRank": 2,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师相信占卜吗？"
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "蛮相信的唷",
+       "nextGroup": 260060030
+      },
+      {
+       "text": "不怎么相信吧……",
+       "nextGroup": 260060040
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "真的啊。请老师告诉我下次看到的占卜结果！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "真的吗？我很推荐奇普托斯日刊的「今日运势」唷",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那个占卜从未出错过！",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "「今日运势」上面写说，我今天财运当头！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "来到特别班后，第一次出现财运好的占卜结果……！",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "呵呵，现在已经期待到不行了！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "有发生好事，就好了呢",
+       "nextGroup": 260060080
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "是的！",
+     "delayMs": 500,
+     "story": {
+      "favorRank": 2,
+      "scenarioGroup": 2600602,
+      "path": "/res/story/2600602.json"
+     }
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "呜呜，那些因为吃不完而剩下的高级甜点，至今还残留在我脑里，无法入睡……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "明明是难得的财运，却错失了机会……真是可惜……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "下次我再请你吃同一家店",
+       "nextGroup": 260060110
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不，不行！如果立了那种约定的话……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "在去那家店之前，会一直睡不著觉！",
+     "delayMs": 1000
+    }
+   ]
+  },
+  {
+   "favorRank": 3,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，你今天会一直在夏莱吗？"
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "嗯，是这么打算。有什么事吗？",
+       "nextGroup": 260060140
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不，没事，没什么特别的",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "只是问问而已，欸嘿嘿",
+     "delayMs": 500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "？？？",
+       "nextGroup": 260060160
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "favorRank": 5,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，听说了吗？"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "有流星雨唷，流星雨！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "流星雨？",
+       "nextGroup": 260060190
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "是的，我在新闻上看到的，这次的满月之日似乎能看到狮子座流星雨！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "而且，这次的狮子座流星雨，也能在赤冬的自治区看到！",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "之前的流星雨，虽然很遗憾地都没能在这附近观测到，不过这次一定……！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "实际见到的话，会有多漂亮呢？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我已经在期待了！",
+     "delayMs": 500,
+     "story": {
+      "favorRank": 5,
+      "scenarioGroup": 2600605,
+      "path": "/res/story/2600605.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 6,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师！听说今晚的流星雨高峰时间是晚上11点！"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "所以，请在那之前来唷！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "知道了，我会保留充裕的时间，提前一个小时过去",
+       "nextGroup": 260060250
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不能迟到唷！",
+     "delayMs": 500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "知道了知道了",
+       "nextGroup": 260060270
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "绝对唷！绝对！",
+     "delayMs": 500,
+     "story": {
+      "favorRank": 6,
+      "scenarioGroup": 2600606,
+      "path": "/res/story/2600606.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 8,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师喜欢什么样的天气呢？"
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "晴天吧",
+       "nextGroup": 260060300
+      },
+      {
+       "text": "雨天吧",
+       "nextGroup": 260060310
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "原来如此，喜欢晴天的人很多吧",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "虽然感觉不像晴天那么多，但雨天也很受欢迎呢",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我喜欢万里无云的晴朗天空，也喜欢下得滴滴答答的雨……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "事实上，我最喜欢满天云彩的天空！",
+     "delayMs": 500,
+     "story": {
+      "favorRank": 8,
+      "scenarioGroup": 2600608,
+      "path": "/res/story/2600608.json"
+     }
+    },
+    {
+     "kind": "image",
+     "from": "student",
+     "text": "",
+     "image": "UIs/03_Scenario/04_ScenarioImage/Mo_Nodoka_01",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "请看，老师！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "约定好要拍的照片。怎么样呢？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "真漂亮呢",
+       "nextGroup": 260060360
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "没错吧！我之所以喜欢多云的日子，就是因为喜欢这样的景色",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "如果能和老师一起去就更好了……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "请，请不要在意刚才的讯息！",
+     "delayMs": 500
+    }
+   ]
+  }
+ ]
+}

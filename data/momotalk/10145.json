@@ -1,0 +1,350 @@
+{
+ "characterId": 10145,
+ "studentId": 599,
+ "devName": "CH0356",
+ "name": "龙华妃咲",
+ "avatar": "/res/avatar/599.png",
+ "messageCount": 46,
+ "threads": [
+  {
+   "favorRank": 2,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "难得来到溪谷"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "岂不是该共度一段异于平日的时光吗？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "那倒是没错呢",
+       "nextGroup": 101450040
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "唔呣",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "既然老师赞同此议",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "希望汝接下来能动身前往妾身所说的地点",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "这进展得也太快了吧！？",
+       "nextGroup": 101450070
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "顺带一提",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不容许迟到",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 2,
+      "scenarioGroup": 1014502,
+      "path": "/res/story/1014502.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 3,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "恍然间"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "忆起了昨日之事",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "是指……撒娇的事吗？",
+       "nextGroup": 101450110
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "呵呵",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "自老师口中听闻此言",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "令妾身多少有些心怀愧疚呢",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那么今日也有劳汝了",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "因为老师不管什么时候都是最棒的呀！",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "妃姬……？",
+       "nextGroup": 101450160
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "favorRank": 5,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，汝醒了吗？"
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "嗯……？",
+       "nextGroup": 101450180
+      }
+     ]
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "现在还有点太早了吧……？",
+       "nextGroup": 101450190
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "汝有此认知亦是无可厚非",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "然而夏日并非长存之物",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "唯有珍惜寸阴",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "方得称作度过了毫无遗憾的假期",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 5,
+      "scenarioGroup": 1014505,
+      "path": "/res/story/1014505.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 6,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "尽管已自溪谷归来"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "外头仍是夏日呢",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "故而",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "妾身便心生一念",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "是否须找寻更宜著泳装之处",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "咦……？",
+       "nextGroup": 101450250
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，多谢汝与妾身共度此夏",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "尽是些难以忘怀的回忆呢",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "还没结束哦，妃姬",
+       "nextGroup": 101450280
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "此言何意？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "妃姬一开始不是说了吗？",
+       "nextGroup": 101450300
+      },
+      {
+       "text": "外头还是夏天",
+       "nextGroup": 101450300
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "妾身确实曾有所言……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "原来如此",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那么，汝仍愿与妾身共度此夏吗？",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "只要妃姬有所期望，不管多久都没问题！",
+       "nextGroup": 101450330
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "妾身明白了",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "呵呵",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "尽管老师之为人并非如此",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "仍需注意不得过于轻易道出这般言语才是",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "相传有一蝶类，可是会终生不忘所许之约的啊",
+     "delayMs": 1500
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,222 @@
+{
+ "characterId": 20012,
+ "studentId": 18,
+ "devName": "CH0081",
+ "name": "冰室濑名",
+ "avatar": "/res/avatar/18.png",
+ "messageCount": 28,
+ "threads": [
+  {
+   "favorRank": 2,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "急救医学部通知格黑娜全校学生：格黑娜自治区122-6号街，目前与多名不良学生发生全面抗战。伤者请前往急救医学部接受治疗。预定前往该地区的人员，建议择日再前往　PM.02:16"
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "……？",
+       "nextGroup": 200120030
+      },
+      {
+       "text": "瀬奈？",
+       "nextGroup": 200120030
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "啊",
+     "delayMs": 2000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "对不起。只是发给所有人的讯息，请别在意",
+     "delayMs": 1500,
+     "story": {
+      "favorRank": 2,
+      "scenarioGroup": 2001202,
+      "path": "/res/story/2001202.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 3,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，我是急救医学部的氷室瀬奈"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我听说老师稍后要来拜访格黑娜",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "嗯，不过身体的状态不太好……",
+       "nextGroup": 200120070
+      },
+      {
+       "text": "说不定在原订行程之前，会先去你那边打扰一下……",
+       "nextGroup": 200120070
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我知道了",
+     "delayMs": 2000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那我静待老师的到来",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 3,
+      "scenarioGroup": 2001203,
+      "path": "/res/story/2001203.json"
+     }
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，我是急救医学部的氷室瀬奈。我简单留下讯息，先回去了",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "你流了很多汗，醒来后请一定要补充足够的水分，并记得吃下桌上的药。旁边也有放了替换用的毛巾。我马上会去回收各个物品并送洗。失陪了",
+     "delayMs": 2500
+    }
+   ]
+  },
+  {
+   "favorRank": 5,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，我是急救医学部的氷室瀬奈"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "为了回收日前的毛巾等物品，我预定今天前往夏莱。请告诉我老师方便的时间。麻烦老师了",
+     "delayMs": 2000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "上次谢谢你啰",
+       "nextGroup": 200120140
+      },
+      {
+       "text": "我想顺便回个礼，要不要在外面见面？",
+       "nextGroup": 200120140
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "啊",
+     "delayMs": 2000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "是",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我明白了",
+     "delayMs": 500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那就照老师说的做吧",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 5,
+      "scenarioGroup": 2001205,
+      "path": "/res/story/2001205.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 6,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "急救医学部通知格黑娜全校学生：格黑娜自治区32-1号街，目前因学生的恶作剧发生灭火器爆炸意外。事件的主谋和部分受害学生，已送往邻近的保健室──PM.06:47"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "急救医学部通知格黑娜全校学生：补充，由于现场状况尚未安定，附近尚有人员正在待命。预定前往该地区的人员，建议择日再前往──PM.06:47",
+     "delayMs": 2500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "辛苦你了",
+       "nextGroup": 200120190
+      },
+      {
+       "text": "今天也很忙啊",
+       "nextGroup": 200120190
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "啊",
+     "delayMs": 2000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我没事，不是什么严重的状况",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "再见",
+     "delayMs": 500,
+     "story": {
+      "favorRank": 6,
+      "scenarioGroup": 2001206,
+      "path": "/res/story/2001206.json"
+     }
+    }
+   ]
+  }
+ ]
+}

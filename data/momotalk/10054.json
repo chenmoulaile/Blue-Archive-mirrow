@@ -1,0 +1,337 @@
+{
+ "characterId": 10054,
+ "studentId": 55,
+ "devName": "CH0186",
+ "name": "伊落玛丽",
+ "avatar": "/res/avatar/55.png",
+ "messageCount": 48,
+ "threads": [
+  {
+   "favorRank": 2,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师好，我是玛丽"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "虽然这么突然很不好意思，但我有事想和老师商量……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那个，只靠我一个人的话实在有点困难",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "当然可以唷，怎么了吗？",
+       "nextGroup": 100540040
+      },
+      {
+       "text": "发生什么事了？",
+       "nextGroup": 100540050
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "啊……那个",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "其实不是什么严重的事……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "而且，也没有被卷进什么危险的事情里，老师不用担心",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不过，您的关心让我非常开心。谢谢您",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那么，直奔主题吧……可以占用您明天早上的时间吗？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我在大教堂等您哦",
+     "delayMs": 1500,
+     "story": {
+      "favorRank": 2,
+      "scenarioGroup": 1005402,
+      "path": "/res/story/1005402.json"
+     }
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "毕竟是老师您，我想一定会很忙……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不过我会祈祷，在晄轮大祭当天也能见到老师的",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "愿今天也能成为老师美好的一天",
+     "delayMs": 2000
+    }
+   ]
+  },
+  {
+   "favorRank": 3,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师……"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "今天过得好吗？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "想说至少要向您问好，所以就联络了您……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我会祈祷老师能过得幸福的",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "？？？",
+       "nextGroup": 100540160
+      },
+      {
+       "text": "玛丽，怎么了吗？",
+       "nextGroup": 100540160
+      }
+     ]
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "……玛丽？",
+       "nextGroup": 100540170
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "……",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 3,
+      "scenarioGroup": 1005403,
+      "path": "/res/story/1005403.json"
+     }
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师……？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那个，刚才发生了什么吗？\n离开的时候好像听到了一声沉闷的声音……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "我想应该是错觉唷？",
+       "nextGroup": 100540210
+      },
+      {
+       "text": "我多少有点预感所以没事的，别担心",
+       "nextGroup": 100540210
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "？？？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "……这，这样啊",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我会再联络您的",
+     "delayMs": 1000
+    }
+   ]
+  },
+  {
+   "favorRank": 5,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师……有什么我能替您做的事吗？"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "托老师的福，我在晄轮大祭里成长了许多",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "所以……我想报答老师，却不知道该怎么做比较好……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "不用客气唷。玛丽有精神就好",
+       "nextGroup": 100540270
+      },
+      {
+       "text": "很开心能看到玛丽开心的样子唷",
+       "nextGroup": 100540270
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "啊哈哈……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "果然说不过老师呢",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "……我明白了",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我会等待能成为您力量的那一天到来的",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "说是作为代替可能有点奇怪，但今天……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我会为您祈祷，希望您能度过安稳的一天",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 5,
+      "scenarioGroup": 1005405,
+      "path": "/res/story/1005405.json"
+     }
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那个，老师",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "如果老师不介意的话……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我在想，老师下次要不要穿著运动服来呢",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "公园既凉快又舒服，最适合运动了……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "所以说，当然还是要看老师方不方便",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那个……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "之后还能一起运动的话……我会很高兴的",
+     "delayMs": 2000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那么……下次见",
+     "delayMs": 1500
+    }
+   ]
+  }
+ ]
+}

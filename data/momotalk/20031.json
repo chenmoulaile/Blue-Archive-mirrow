@@ -1,0 +1,476 @@
+{
+ "characterId": 20031,
+ "studentId": 227,
+ "devName": "CH0123",
+ "name": "间宵时雨",
+ "avatar": "/res/avatar/227.png",
+ "messageCount": 64,
+ "threads": [
+  {
+   "favorRank": 2,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "你之前是不是有说过整修夏莱的休息室需要榻榻米？",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "嗯，因为有几个学生想要那种休息室……",
+       "nextGroup": 200310040
+      },
+      {
+       "text": "好像有说过……怎么突然问这个？",
+       "nextGroup": 200310040
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那老师下次来旧校舍的时候可以拿一些榻榻米走哦",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "之前整理崩毁的温泉浴场时，我找到很多积放在仓库的高级榻榻米",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "特别班不留著用吗？",
+       "nextGroup": 200310070
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "唔嗯，虽然很松软而且有香味……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "但是榻榻米很容易坏，感觉不太适合旧校舍的环境",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不过就这样放著也很可惜……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "既然如此，我觉得给有需要的人使用比较好",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "拿旧校舍的东西来用，总觉得有点不好意思……",
+       "nextGroup": 200310100
+      },
+      {
+       "text": "整修旧校舍的材料不会不够吗？",
+       "nextGroup": 200310100
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "没关系。温泉浴场留下的材料就已经很够了",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "要说还缺了什么的话……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "像是是能解馋的零食，之类的吧？",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "其他食材在这附近也能取得，但香甜的点心总是很缺",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "那下次有机会的话，我会买一些点心过去",
+       "nextGroup": 200310130
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "呵呵，我会期待的",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那么之后见啰，老师",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 2,
+      "scenarioGroup": 2003102,
+      "path": "/res/story/2003102.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 3,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "地下水的水压确实不如从前了"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "上次打扫后已经过了几天，但浴池的水却几乎积不起来",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "看这个情况，如果想洗澡可能还得要一个星期……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "那这段期间该怎么洗澡呢？",
+       "nextGroup": 200310170
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "唔嗯，虽然麻烦，但也没办法……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "只能像之前一样到结冻的河里洗冷水澡了",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "可是冷水澡对健康不好……",
+       "nextGroup": 200310190
+      }
+     ]
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "到其他地方洗澡如何？",
+       "nextGroup": 200310200
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "唔嗯，这个嘛……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "就算是受到停学处分的特别班学生……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "要是到广场上的热水喷泉洗澡也会引起大骚动的吧……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "我的意思是去其他澡堂！",
+       "nextGroup": 200310220
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "favorRank": 5,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "上次做了水果牛奶之后，我一直在做实验"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "水果牛奶和其他饮料不同，在刚混合好的时候感觉是最好喝的",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "因为混入牛奶中的水果香味和口感很容易变质",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "这倒是真的……",
+       "nextGroup": 200310260
+      },
+      {
+       "text": "而且牛奶也很容易坏",
+       "nextGroup": 200310260
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不过温泉浴场卖的，一般不都是事先做好的水果牛奶吗？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "所以我想了一个改善方法……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那就是让调酒师常驻休息室的吧台，当客人洗完澡出来就马上帮客人调制水果牛奶",
+     "delayMs": 5000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "这么一来不但可以保持水果牛奶的风味，也能提供适合客人爱好的客制化服务对吧？",
+     "delayMs": 3000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "这想法确实很有意思……",
+       "nextGroup": 200310290
+      }
+     ]
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "但会有温泉浴场只为了水果牛奶而特地雇用服务员吗？",
+       "nextGroup": 200310300
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "所以我决定在澡堂老板介绍的其他温泉浴场……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "工作几天试试看",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "……这么突然？",
+       "nextGroup": 200310320
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "……老师，结果你感冒了？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "刚才回去的路上有事路过了夏莱",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我在休息室放了加入生姜和红茶的奶茶哦",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "身体发冷的时候就热一些来喝吧",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "这个牛奶特调正适合现在的我呢……",
+       "nextGroup": 200310360
+      },
+      {
+       "text": "谢谢你这么为我著想",
+       "nextGroup": 200310360
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "所以我才说要跟我一起盖被子睡嘛",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "今天一定要盖上暖暖的棉被好好睡一觉哦",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "……还有别依赖酒精",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "……我会铭记在心",
+       "nextGroup": 200310390
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "favorRank": 6,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，我把之前打扫的旧校舍浴池重新装满水啰"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "还顺便整理了周遭环境，加了新的入浴剂",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "之后老师有空的话也来洗澡吧",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "能修复真是太好了……",
+       "nextGroup": 200310420
+      }
+     ]
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "但你该不会又加了红酒进去吧？",
+       "nextGroup": 200310430
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "呵呵，谁知道呢",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "如果想知道的话，要不要亲自来一趟旧校舍？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我等你唷，老师",
+     "delayMs": 1500,
+     "story": {
+      "favorRank": 6,
+      "scenarioGroup": 2003106,
+      "path": "/res/story/2003106.json"
+     }
+    }
+   ]
+  }
+ ]
+}

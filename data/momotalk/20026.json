@@ -1,0 +1,407 @@
+{
+ "characterId": 20026,
+ "studentId": 166,
+ "devName": "CH0214",
+ "name": "安守实梨",
+ "avatar": "/res/avatar/166.png",
+ "messageCount": 55,
+ "threads": [
+  {
+   "favorRank": 2,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "<广告>赤冬联邦学园工务部 /\n专业人力派遣 / 长期、短期、单日 /\n土木、建设、扩建、拆除、翻修 /\n任何事情都欢迎联络！ /\n若此信箱无法联络请使用MomoTalk"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，你需要工人吗？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "为什么突然这么问……？",
+       "nextGroup": 200260040
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那个……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "最近接不到什么委托",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "工务部的手上都没有工作了",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "夏莱需要人力吗？",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "有没有扩建办公室",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "或是建个老师纪念碑之类的计划？",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "目前还没有这个打算……",
+       "nextGroup": 200260080
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "是吗？真可惜",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "如果需要人力的话",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "就由我们赤冬联邦学园的工务部负责吧",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不用找仲介，直接连络我就可以了！",
+     "delayMs": 2000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "嗯，谢谢你",
+       "nextGroup": 200260120
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "favorRank": 3,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，可以打扰一下吗？"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我打算写一篇文章，却不知道该如何下笔",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "希望老师能给我一些意见",
+     "delayMs": 2000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "写作很不容易呢",
+       "nextGroup": 200260160
+      }
+     ]
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "你想写什么样的文章呢？",
+       "nextGroup": 200260170
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "唔呣",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "首先要能动摇读者的感情",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "使其燃起革命的斗志",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "并且将作者的思想灌入脑中",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "让人想起身反抗那些恶毒的布尔乔亚阶级的既得利益者",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "的那种文章",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "……真，真是激进呢",
+       "nextGroup": 200260210
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "favorRank": 5,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "老师，我记得明天……"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "有跟你约好要来工务部参访对吧？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "嗯，怎么了吗……？",
+       "nextGroup": 200260240
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我看天气预报说，明天好像有强烈寒流会来",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "为了避免发生意外，明天的作业决定中止了",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "突然更改计划真是非常抱歉",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "没关系",
+       "nextGroup": 200260270
+      },
+      {
+       "text": "毕竟安全第一啊",
+       "nextGroup": 200260260
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "没错，工作现场追求的永远是安全第一",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那么，下次老师有空的时候再过来吧",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 5,
+      "scenarioGroup": 2002605,
+      "path": "/res/story/2002605.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 6,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "这么说来，老师"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "我最近看了一本很有趣的书",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "书名叫做《为何奇普托斯的学生会不幸呢》",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "书里写了什么呢？",
+       "nextGroup": 200260320
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "作者似乎是一名曾任职于联邦学生会财务室的学生",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "在调查了奇普托斯流通的布丁等等奢侈品的供需情形后……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "他发现如果能公平分给所有学生的话，数量是十分足够的",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "然而由于部分的学生吃了两个以上的布丁，导致均衡遭到了破坏",
+     "delayMs": 2000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "真是个有趣的统计呢",
+       "nextGroup": 200260340
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "但是，那些能够吃超过两个布丁的学生，自然是不会顾虑其他人的",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "因此才会造成近半数的学生由于吃不到布丁而陷入不幸",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "布丁应该不代表一切吧……",
+       "nextGroup": 200260360
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "你在说什么？布丁就是幸福的根源吧",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "总之，除非从布尔乔亚阶级手中夺走布丁，否则不幸就会永远持续下去",
+     "delayMs": 2500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "但我们光是进行学园斗争就分身乏术了……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "所以我想过从根本上解决这个问题的方法",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "你觉得将学生人数减少一半怎么样……？",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "思考方式可以不要跟某个最终BOSS一样吗……",
+       "nextGroup": 0
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

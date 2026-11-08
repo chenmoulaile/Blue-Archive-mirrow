@@ -1,0 +1,358 @@
+{
+ "characterId": 10012,
+ "studentId": 187,
+ "devName": "Sumire",
+ "name": "乙花堇",
+ "avatar": "/res/avatar/187.png",
+ "messageCount": 47,
+ "threads": [
+  {
+   "favorRank": 2,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "早安，指导员"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "今天时间上方便吗？",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "嗯，怎么了？",
+       "nextGroup": 100120040
+      },
+      {
+       "text": "不是特别忙，所以没问题唷",
+       "nextGroup": 100120040
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "嗯，其实",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "上次说的训练菜单已经准备好了",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "如果可以的话，能请你来健身房确认一下吗？",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "期待你的到来！",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 2,
+      "scenarioGroup": 1001202,
+      "path": "/res/story/1001202.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 3,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "指导员，这个周末忙吗？"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "如果可以的话，要跟我一起去购物中心吗？",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "当然好呀",
+       "nextGroup": 100120090
+      },
+      {
+       "text": "要买什么？",
+       "nextGroup": 100120100
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "非常感谢！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "想买乳清蛋白，所以希望从指导员那里得到一些建议",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那么，我在购物中心等著",
+     "delayMs": 1500,
+     "story": {
+      "favorRank": 3,
+      "scenarioGroup": 1001203,
+      "path": "/res/story/1001203.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 5,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "指导员。为了今天的训练，我准备了特别的东西"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "今天下午，在健身房见吧",
+     "delayMs": 1500,
+     "story": {
+      "favorRank": 5,
+      "scenarioGroup": 1001205,
+      "path": "/res/story/1001205.json"
+     }
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "辛苦了，指导员",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "身体感觉怎么样？",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "嗯，没什么大碍",
+       "nextGroup": 100120150
+      },
+      {
+       "text": "肌肉在哀号……",
+       "nextGroup": 100120160
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "不愧是指导员，看来还行呀",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "看来强度有点太高了……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "下次见面时，会帮你做伸展运动",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "对了，指导员的办公室",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "应该已经收到我送去的乳清蛋白了",
+     "delayMs": 1500
+    },
+    {
+     "kind": "image",
+     "from": "student",
+     "text": "",
+     "image": "UIs/03_Scenario/04_ScenarioImage/Mo_Sumire_01",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "一天4次，别忘了喝唷",
+     "delayMs": 1500
+    }
+   ]
+  },
+  {
+   "favorRank": 6,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "指导员，你好"
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "可以的话，这个周末能不能见个面？",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "那个，我的肌肉还在痛……！",
+       "nextGroup": 100120230
+      },
+      {
+       "text": "我有在运动！没有偷懒！",
+       "nextGroup": 100120230
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "啊，不，那个……",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "是跟运动无关的事……",
+     "delayMs": 1000
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "那你尽管说吧！",
+       "nextGroup": 100120250
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "非常感谢！",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那就到时候见！",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 6,
+      "scenarioGroup": 1001206,
+      "path": "/res/story/1001206.json"
+     }
+    }
+   ]
+  },
+  {
+   "favorRank": 15,
+   "messages": [
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "指导员，你有去过夏莱附近的新公园吗？"
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "还没去过",
+       "nextGroup": 100120280
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "这样啊",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "上次值日结束后，我在回去的路上稍微逛了一下",
+     "delayMs": 1500
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "步道维护得很干净，看起来很适合晨跑",
+     "delayMs": 2000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "可以的话",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "明天早上要不要去那个公园轻松慢跑一下？",
+     "delayMs": 1500
+    },
+    {
+     "kind": "answer",
+     "from": "teacher",
+     "options": [
+      {
+       "text": "如果只是轻松慢跑的话……",
+       "nextGroup": 100120320
+      }
+     ]
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "谢谢你，指导员",
+     "delayMs": 1000
+    },
+    {
+     "kind": "text",
+     "from": "student",
+     "text": "那么，明早见！",
+     "delayMs": 1000,
+     "story": {
+      "favorRank": 15,
+      "scenarioGroup": 1001220,
+      "path": "/res/story/1001220.json"
+     }
+    }
+   ]
+  }
+ ]
+}
