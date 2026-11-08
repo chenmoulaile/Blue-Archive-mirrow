@@ -302,7 +302,8 @@ try {
 
 // ---- 追加② 招募页：十连（跳过直达结果），断言结果网格
 try {
-  // 既有流程已抽掉一次十连；用设置页自带的测试货币重置补回 1200 青辉石
+  // 既有流程已抽掉一次十连；设置页「重置」按钮是幂等补给（Math.max 拉到
+  // 120,000 青辉石 + 5,000,000 信用点水位，反复点击结果一致），e2e 靠它补回预算
   if (await goto('设置')) {
     const resetBtn = page.getByRole('button', { name: '重置', exact: true });
     if (await resetBtn.count()) {
