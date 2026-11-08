@@ -192,16 +192,14 @@ export function GachaCutscene({
         </>
       )}
       {phase === 'result' && (
-        <div onClick={(e) => e.stopPropagation()}>
-          <GachaResultView
-            results={results}
-            times={times}
-            bannerTitle={bannerTitle}
-            studentOf={studentOf}
-            onAgain={onAgain}
-            onClose={onClose}
-          />
-        </div>
+        <GachaResultView
+          results={results}
+          times={times}
+          bannerTitle={bannerTitle}
+          studentOf={studentOf}
+          onAgain={onAgain}
+          onClose={onClose}
+        />
       )}
     </div>
   );

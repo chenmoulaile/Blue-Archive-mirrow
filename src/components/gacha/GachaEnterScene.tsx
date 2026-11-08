@@ -45,12 +45,14 @@ export function GachaEnterScene({
         )}
       </div>
 
-      {/* 爆发光球：加算贴图在暗底上用 screen 混合 */}
+      {/* 爆发光球：加算贴图（黑底）靠 mix-blend-mode: screen 抠掉黑底。
+          必须是 .gcs-stage 的直接子节点 —— 中间任何带 transform/动画的包裹层
+          会形成 stacking context 把混合隔离掉，黑底就会穿帮。 */}
       {phase === 'pull' && (
-        <div className={`gcs-burst-wrap${hasStar3 ? ' ssr' : ''}`}>
+        <>
           <img className="gcs-burst" src={BALL_FX} alt="" data-ui-source="assetbundle" />
           <i className={`gcs-flash${hasStar3 ? ' ssr' : ''}`} />
-        </div>
+        </>
       )}
     </div>
   );

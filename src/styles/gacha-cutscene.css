@@ -170,23 +170,19 @@
   }
 }
 
-/* ---- 爆发 ---- */
-
-.gcs-burst-wrap {
-  position: absolute;
-  left: calc(12% + 12%);
-  bottom: 38%;
-  width: 340px;
-  height: 340px;
-  transform: translate(-50%, 50%);
-  pointer-events: none;
-}
+/* ---- 爆发（加算贴图必须是场景根直接子节点，见 GachaEnterScene 注释）---- */
 
 .gcs-burst {
   position: absolute;
-  inset: 0;
-  width: 100%;
-  height: 100%;
+  /* 中心对准角色中部（角色容器 left:12%，宽约 12%），用负 margin 居中，
+     不能用 transform 定位 —— transform 只能放在混合元素自身 */
+  left: 18%;
+  bottom: 38%;
+  width: 340px;
+  height: 340px;
+  margin-left: -170px;
+  margin-bottom: -170px;
+  pointer-events: none;
   mix-blend-mode: screen;
   animation: gcs-burst 0.85s 0.62s both;
 }
@@ -208,8 +204,14 @@
 
 .gcs-flash {
   position: absolute;
-  inset: -60%;
+  left: 18%;
+  bottom: 38%;
+  width: 900px;
+  height: 900px;
+  margin-left: -450px;
+  margin-bottom: -450px;
   border-radius: 50%;
+  pointer-events: none;
   background: radial-gradient(circle, rgba(255, 255, 255, 0.95), rgba(200, 230, 255, 0) 62%);
   animation: gcs-flash 0.7s 0.72s both;
 }
@@ -230,13 +232,12 @@
   }
 }
 
-/* SSR 时刻：眼部辉光贴图脉冲 */
+/* SSR 时刻：眼部辉光贴图脉冲（真 alpha 贴图，无需混合模式） */
 .gcs-eye-fx {
   position: absolute;
   left: 8%;
   top: 6%;
   width: 84%;
-  mix-blend-mode: screen;
   pointer-events: none;
   animation: gcs-eye-fx 0.9s 0.9s both;
 }
@@ -485,23 +486,28 @@
 
 .gcs-reveal-burst {
   position: absolute;
-  inset: -28%;
+  /* 中心对准左侧展示位（grid 第一列中心）；居中 translate 合并进 keyframes，
+     避免动画 transform 覆盖定位 */
+  left: 25%;
+  top: 50%;
+  width: min(46vw, 540px);
+  aspect-ratio: 1;
+  pointer-events: none;
   mix-blend-mode: screen;
   animation: gcs-reveal-burst 1.5s 0.25s both;
-  pointer-events: none;
 }
 
 @keyframes gcs-reveal-burst {
   0% {
     opacity: 0;
-    transform: scale(0.3) rotate(-12deg);
+    transform: translate(-50%, -50%) scale(0.3) rotate(-12deg);
   }
   35% {
     opacity: 0.95;
   }
   100% {
     opacity: 0;
-    transform: scale(1.7) rotate(8deg);
+    transform: translate(-50%, -50%) scale(1.7) rotate(8deg);
   }
 }
 
@@ -631,9 +637,16 @@
   width: min(920px, 92vw);
   display: flex;
   justify-content: space-between;
-  align-items: flex-end;
+  align-items: flex-start;
+  gap: 18px;
   margin: 26px 0 14px;
   color: #fff;
+}
+
+.gcs-result-best {
+  flex: 0 0 auto;
+  white-space: nowrap;
+  text-align: right;
 }
 
 .gcs-result-kicker {
@@ -832,9 +845,18 @@
     height: 58%;
   }
 
-  .gcs-burst-wrap {
+  .gcs-burst {
     width: 220px;
     height: 220px;
+    margin-left: -110px;
+    margin-bottom: -110px;
+  }
+
+  .gcs-flash {
+    width: 600px;
+    height: 600px;
+    margin-left: -300px;
+    margin-bottom: -300px;
   }
 
   .gcs-reveal {

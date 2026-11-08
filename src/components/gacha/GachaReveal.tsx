@@ -18,9 +18,11 @@ export function GachaReveal({ student, star }: { student: Student | null; star: 
     <div className="gcs-reveal" data-gacha-scene="reveal">
       <img className="gcs-reveal-bg" src={RESUME_BG} alt="" data-ui-source="assetbundle" />
 
-      {/* 右侧：剪影 → 头像 + 光球爆发 */}
+      {/* 光球爆发：加算贴图，必须是 .gcs-reveal 的直接子节点（stacking context 隔离会穿黑底） */}
+      <img className="gcs-reveal-burst" src={BALL_FX} alt="" data-ui-source="assetbundle" />
+
+      {/* 右侧：头像展示 */}
       <div className="gcs-reveal-show">
-        <img className="gcs-reveal-burst" src={BALL_FX} alt="" data-ui-source="assetbundle" />
         {avatar ? (
           <img className="gcs-reveal-avatar" src={avatar} alt={name} data-ui-source="assetbundle" />
         ) : (

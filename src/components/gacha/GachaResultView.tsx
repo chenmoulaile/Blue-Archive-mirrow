@@ -34,7 +34,7 @@ export function GachaResultView({
   const zst = z ? studentOf(z) : null;
 
   return (
-    <div className={`gcs-result b${best}`} data-gacha-scene="result">
+    <div className={`gcs-result b${best}`} data-gacha-scene="result" onClick={onClose}>
       <img className="gcs-result-bg" src={GACHA_BG[best]} alt="" data-ui-source="assetbundle" />
       <div className="gcs-result-dim" />
 
@@ -48,7 +48,7 @@ export function GachaResultView({
         </span>
       </header>
 
-      <div className={`gcs-result-grid${times === 1 ? ' single' : ''}`}>
+      <div className={`gcs-result-grid${times === 1 ? ' single' : ''}`} onClick={(e) => e.stopPropagation()}>
         {results.map((r, i) => {
           const st = studentOf(r);
           return (
@@ -78,7 +78,7 @@ export function GachaResultView({
         })}
       </div>
 
-      <footer className="gcs-result-foot">
+      <footer className="gcs-result-foot" onClick={(e) => e.stopPropagation()}>
         <button className="btn gcs-again" data-gacha-again onClick={onAgain}>
           再来一次
         </button>
@@ -89,7 +89,15 @@ export function GachaResultView({
       </footer>
 
       {z && (
-        <div className="gcs-zoom" role="dialog" aria-label={`${z.name} 详情`} onClick={() => setZoom(null)}>
+        <div
+          className="gcs-zoom"
+          role="dialog"
+          aria-label={`${z.name} 详情`}
+          onClick={(e) => {
+            e.stopPropagation();
+            setZoom(null);
+          }}
+        >
           <div className="gcs-zoom-card" onClick={(e) => e.stopPropagation()}>
             {zst?.avatar ? (
               <img className="gcs-zoom-avatar" src={zst.avatar} alt={z.name} />
