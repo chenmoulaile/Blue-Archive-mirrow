@@ -258,11 +258,13 @@ if (await goto('设置')) {
 try {
   if (await goto('剧情')) {
     await page.waitForSelector('.story-side input', { timeout: 10000 });
-    // 序幕(10000005)是唯一带真分支内容的主线开局集（choice@24 opt0→branch '4'，
-    // 路径模拟见 .scratch/integration/notes.md）；前 4 个选项点第一个都不会跳走
-    await page.locator('.story-side input').fill('序幕');
+    // 2026-11-08 剧情轨主线重分类：主线 = ExcelDB ScenarioMode 卷章结构（data/main_story_map.json），
+    // 主线开局集 = Vol.0 序章 11000（choice options 8 个 + branch 节点 4 个，实测见 TrackResult）；
+    // 旧 10000005 被 EventContentScenario 引用、属活动剧情，已移出主线 tab。按 id 搜索唯一命中，
+    // 选择器与断言保持原契约（.choice-overlay .story-choice-btn / branch-badge）
+    await page.locator('.story-side input').fill('11000');
     await page.waitForTimeout(500);
-    const prologue = page.locator('.story-item', { hasText: '序幕' }).first();
+    const prologue = page.locator('.story-item', { hasText: '11000' }).first();
     if (!(await prologue.count())) throw new Error('追加①：搜索「序幕」无结果');
     await prologue.click();
     // 开场即选项（choice@3），连点推进：有选项点第一个，没选项点舞台；

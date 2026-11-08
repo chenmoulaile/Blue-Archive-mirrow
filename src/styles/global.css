@@ -2203,7 +2203,7 @@ select {
 }
 .story-actor-avatar {
   position: absolute;
-  bottom: 172px;
+  bottom: calc(var(--dialog-h, 172px) + 22px);
   width: 132px;
   height: 132px;
   border-radius: 50%;
@@ -2232,7 +2232,7 @@ select {
 }
 .story-actor-nameplate {
   position: absolute;
-  bottom: 200px;
+  bottom: calc(var(--dialog-h, 172px) + 28px);
   padding: 8px 18px;
   border-radius: 10px;
   background: rgba(10, 24, 38, 0.78);
@@ -2240,6 +2240,143 @@ select {
   color: #cfe8f8;
   font-size: 13px;
   letter-spacing: 1px;
+}
+
+/* ---- 立绘出现方式还原（2026-11-08 剧情轨） ----
+   a) 入场：立绘从屏幕边滑入+淡入（按槽位定滑入方向）
+   b) 说话人保持原大、非说话人压暗（filter 在 StoryPortrait 内联）+微缩
+   c) 底部对齐对话框上沿：Spine 相机 bottomInset + 头像/名字牌 bottom 用 --dialog-h
+   d) 说话顺序切换时非说话人轻微向两侧让位（transform 过渡）
+   e) 说话人轻微上下浮动（bob），非说话由 StoryPortrait 回落 Idle_01 */
+.story-actor {
+  animation: story-actor-in 0.5s cubic-bezier(0.22, 0.8, 0.32, 1) both;
+}
+.story-actor-left {
+  --actor-slide: -64px;
+}
+.story-actor-right {
+  --actor-slide: 64px;
+}
+.story-actor-center {
+  --actor-slide: 72px;
+}
+@keyframes story-actor-in {
+  from {
+    opacity: 0;
+    transform: translateX(var(--actor-slide, 64px));
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+.story-portrait,
+.story-actor-avatar,
+.story-actor-nameplate {
+  transform-origin: 50% 100%;
+  will-change: transform;
+}
+.story-actor.active .story-portrait {
+  animation: story-actor-bob 2.6s ease-in-out infinite;
+}
+@keyframes story-actor-bob {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-7px);
+  }
+}
+.story-actor:not(.active) .story-portrait {
+  transform: scale(0.94);
+}
+.story-actor-left:not(.active) .story-portrait {
+  transform: translateX(-8px) scale(0.94);
+}
+.story-actor-right:not(.active) .story-portrait {
+  transform: translateX(8px) scale(0.94);
+}
+.story-actor:not(.active) .story-actor-avatar,
+.story-actor:not(.active) .story-actor-nameplate {
+  transform: scale(0.94);
+}
+.story-actor-left:not(.active) .story-actor-avatar,
+.story-actor-left:not(.active) .story-actor-nameplate {
+  transform: translateX(-8px) scale(0.94);
+}
+.story-actor-right:not(.active) .story-actor-avatar,
+.story-actor-right:not(.active) .story-actor-nameplate {
+  transform: translateX(8px) scale(0.94);
+}
+/* 中槽头像/名字牌自带 translateX(-50%) 居中，压暗微缩时须合并，不能覆盖掉 */
+.story-actor-center:not(.active) .story-actor-avatar,
+.story-actor-center:not(.active) .story-actor-nameplate {
+  transform: translateX(-50%) scale(0.94);
+}
+
+/* 主线卷→章两级分组（main_story_map）：卷头 = Scenario_Title_Deco 横幅 + 卷名 */
+.story-volume {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.story-volume-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 8px;
+  margin-top: 6px;
+  padding: 10px 14px;
+  border-radius: 10px;
+  border: 1px solid rgba(63, 159, 224, 0.45);
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0 2px 8px rgba(24, 68, 105, 0.14);
+}
+.story-volume-head b {
+  font-size: 13.5px;
+  letter-spacing: 0.5px;
+  color: #143a5c;
+}
+.story-volume-head span {
+  font-size: 11px;
+  color: #3c617f;
+}
+.story-volume-head span.en {
+  font-weight: 600;
+  letter-spacing: 0.4px;
+}
+.story-chapter {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.story-chapter-head {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  padding: 5px 11px;
+  margin-top: 2px;
+  border-left: 3px solid var(--ba-blue, #3f9fe0);
+  border-radius: 6px;
+  background: rgba(63, 159, 224, 0.08);
+}
+.story-chapter-head b {
+  font-size: 12px;
+  color: var(--ink, #1c3141);
+}
+.story-chapter-head span {
+  font-size: 10.5px;
+  color: var(--ink-3, #7d93a6);
+}
+.story-chapter-head .side-tag {
+  padding: 0 6px;
+  border-radius: 6px;
+  background: rgba(255, 179, 71, 0.22);
+  color: #b47417;
+  font-size: 10px;
+  font-weight: 700;
 }
 
 /* 无立绘资源时的对话框角落头像 */

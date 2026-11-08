@@ -2,11 +2,11 @@
  * StoryPortrait — 剧情立绘（spr spine 模型）
  *
  * 与 SpineView（大厅模型用）的区别：
- * - 动画由外部控制：expression prop（两位编号 "03"）变化时在 track 0 播放
- *   同名动画（spr 骨架的动画名就是表情编号，2026-11-08 实测 7 模型一致）；
- *   无表情时播 Idle_01。
- * - 取景是「立绘构图」：模型底部对齐舞台底部、高度按 zoom 铺满略出血，
- *   水平按 pos（left/right/center）站位。
+ * - 动画由外部控制：speaking=true 且 expression prop（两位编号 "03"）有效时在
+ *   track 0 播同名表情动画（spr 骨架的动画名就是表情编号，2026-11-08 实测
+ *   7 模型一致）；说话人切换/停下后回落 Idle_01（真机行为：推进对话时待机动画）。
+ * - 取景是「立绘构图」：模型高度 = 视口高 × zoom（默认 0.75 ≈ 立绘约占屏 3/4），
+ *   模型脚底对齐「对话框上沿」（bottomInset = 对话框高度），水平按 pos 站位。
  * - 加载失败走 onError 上报，由父级降级成头像/名字牌，舞台内不渲染错误文案。
  */
 import { useEffect, useRef, useState } from 'react';
@@ -30,7 +30,11 @@ export interface StoryPortraitProps {
   /** 表情差分编号（两位），null = 播 Idle */
   expression: string | null;
   pos: StagePos;
-  /** 相对「模型高度 = 视口高度」的倍数，1.1 ≈ 略出血的立绘构图 */
+  /** 是否正在说话（表情差分只在本角色说话时播，其余时刻 Idle） */
+  speaking?: boolean;
+  /** 对话框上沿到舞台底部的距离（css px）：模型脚底对齐这条线，0 = 舞台底 */
+  bottomInset?: number;
+  /** 相对「模型高度 = 视口高度」的倍数，0.75 ≈ 立绘约占屏 3/4 */
   zoom?: number;
   /** 高亮/压暗由 CSS filter 实现（说话人 1，其余 0.55） */
   dim?: boolean;
@@ -40,12 +44,20 @@ export interface StoryPortraitProps {
 /** 站位对应的水平构图（视口比例中心点） */
 const POS_FRAC: Record<StagePos, number> = { left: 0.27, center: 0.5, right: 0.73 };
 
+/** bottomInset（css px）→ 设备像素（相机以设备像素工作） */
+function bottomDevicePx(bottomInsetCss: number, canvas: HTMLCanvasElement, vh: number): number {
+  const cssH = canvas.clientHeight || canvas.getBoundingClientRect().height || 1;
+  return bottomInsetCss * (vh / cssH);
+}
+
 export function StoryPortrait({
   skelUrl,
   atlasUrl,
   expression,
   pos,
-  zoom = 1.12,
+  speaking = false,
+  bottomInset = 0,
+  zoom = 0.75,
   dim = false,
   onFail,
 }: StoryPortraitProps) {
@@ -59,22 +71,25 @@ export function StoryPortrait({
   const posRef = useRef<StagePos>(pos);
   const fracRef = useRef(POS_FRAC[pos]);
   const baseRef = useRef({ cx: 0, cy: 0, h: 1000 });
+  const bottomInsetRef = useRef(bottomInset);
   const [failed, setFailed] = useState(false);
 
   zoomRef.current = zoom;
   posRef.current = pos;
+  bottomInsetRef.current = bottomInset;
 
-  // 表情切换：直接操作已就绪的 AnimationState，不重建 Spine
+  // 表情切换：说话时播表情差分，停下/换人回落 Idle_01（直接操作 AnimationState，不重建 Spine）
   useEffect(() => {
     const st = stateRef.current;
     if (!st) return;
     const idle = animsRef.current.has('Idle_01') ? 'Idle_01' : null;
-    const target = expression && animsRef.current.has(expression) ? expression : idle;
+    const target =
+      speaking && expression && animsRef.current.has(expression) ? expression : idle;
     if (target) {
       const entry = st.setAnimation(0, target, true);
       entry.mixDuration = 0.18;
     }
-  }, [expression]);
+  }, [expression, speaking]);
 
   useEffect(() => {
     fracRef.current = POS_FRAC[pos];
@@ -90,7 +105,7 @@ export function StoryPortrait({
     cam.zoom = fitH / Math.max(z, 0.2);
     cam.position.set(
       baseRef.current.cx - (fracRef.current - 0.5) * (vw * cam.zoom),
-      baseRef.current.cy - (baseRef.current.h * (z - 1)) / (2 * z),
+      baseRef.current.cy - (baseRef.current.h * (z - 1)) / (2 * z) - bottomDevicePx(bottomInsetRef.current, canvas, vh) * cam.zoom,
       0
     );
     cam.update();
@@ -113,14 +128,14 @@ export function StoryPortrait({
       const vh = Math.max(canvas.height, 1);
       const z = zoomRef.current;
       cam.setViewport(vw, vh);
-      // 高度铺满：fit = 模型高 / 视口高（世界单位每像素）；zoom 再放大出血
+      // 高度 = 视口高 × zoom：fit = 模型高 / 视口高（世界单位每像素），zoom 0.75 ≈ 占屏 3/4
       const fitH = baseRef.current.h / vh;
       cam.zoom = fitH / Math.max(z, 0.2);
       // 站位：模型中心要落在画面 frac 处 => cam.x = cx - (frac-0.5)*视野世界宽
-      // 底部对齐：画面底边对到模型脚 => cam.y = cy - h(z-1)/(2z)
+      // 底部对齐：模型脚对到「对话框上沿」 => cam.y = cy - h(z-1)/(2z) - bottomInset*zoom
       cam.position.set(
         baseRef.current.cx - (fracRef.current - 0.5) * (vw * cam.zoom),
-        baseRef.current.cy - (baseRef.current.h * (z - 1)) / (2 * z),
+        baseRef.current.cy - (baseRef.current.h * (z - 1)) / (2 * z) - bottomDevicePx(bottomInsetRef.current, canvas, vh) * cam.zoom,
         0
       );
       cam.update();
@@ -229,7 +244,8 @@ export function StoryPortrait({
         inset: 0,
         pointerEvents: 'none',
         filter: dim ? 'brightness(0.55) saturate(0.8)' : 'none',
-        transition: 'filter 0.25s',
+        // transform 交给 CSS 层（说话人浮动 / 非说话人微缩轻移），这里必须放行 transition
+        transition: 'filter 0.25s, transform 0.3s',
       }}
     >
       <canvas ref={canvasRef} style={{ width: '100%', height: '100%', display: 'block' }} />

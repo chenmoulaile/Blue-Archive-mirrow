@@ -35,6 +35,44 @@ const TABS: { key: Tab; label: string }[] = [
   { key: 'group', label: '社团' },
 ];
 
+// ---------------------------------------------------------------- 主线卷→章分组（data/main_story_map.json，本轨交付）
+// 数据源：ExcelDB ScenarioModeDBSchema ModeType=1（VolumeId/ChapterId/EpisodeId →
+// ScenarioScript 遗留组）。story_index 的 main 820 条是活动剧情错分类（见 build_main_story_map.py 头注）。
+
+interface MainEpisode {
+  id: string;
+  episode: number;
+  title: string;
+  path: string;
+  lines: number;
+  groups: number[];
+  chars: string[];
+}
+interface MainChapter {
+  chapter: number;
+  name: string;
+  range: string;
+  /** ScenarioModeSubTypes Series2 = 卷内副篇系列（如 Vol.1「首席行政官的假日」） */
+  side?: boolean;
+  episodes: MainEpisode[];
+}
+interface MainVolume {
+  volume: number;
+  label: string;
+  name: string;
+  nameEn?: string;
+  chapters: MainChapter[];
+}
+
+/** 地图集 -> 播放器条目（openStory 只用 id/path/lines/title） */
+function mainEpisodeToEntry(e: MainEpisode): StoryEntry {
+  return { id: e.id, type: 'main', title: e.title, summary: '', path: e.path, nodes: 0, lines: e.lines, chars: e.chars ?? [] };
+}
+
+/** 卷头装饰横幅（resources/ui/extra/Scenario_Title_Deco.png，uis-03_scenario 官方切片） */
+const VOLUME_HEAD_DECO = '/res/ui/extra/Scenario_Title_Deco.png';
+
+
 interface Line {
   speaker: string;
   text: string;
@@ -60,7 +98,10 @@ function isDisplayable(n: StoryOp): boolean {
 }
 
 function branchOf(n: StoryOp): string | undefined {
-  if (n.op !== 'script') return undefined;
+  // 分支段 = 选项后 selection_group==N 的连续行（数据轨契约），script/info 都可能带
+  // branch 字段（实测 11000 choice@152 的分支落点是 info 节点——此前只认 script，
+  // info 分支行会被当主线节点显示/搜不到，徽标失效）
+  if (n.op !== 'script' && n.op !== 'info') return undefined;
   const b = (n as { branch?: unknown }).branch;
   return typeof b === 'string' ? b : undefined;
 }
@@ -90,9 +131,14 @@ export default function StoryPage() {
 
   // 活动剧情分组（data/event_story_map.json，数据轨交付；缺失时活动 tab 退回平铺）
   const [eventGroups, setEventGroups] = useState<EventStoryGroup[] | null>(null);
+  // 主线卷→章分组（data/main_story_map.json，本轨交付；缺失时主线 tab 退回平铺）
+  const [mainMap, setMainMap] = useState<MainVolume[] | null>(null);
+  // 对话框上沿到舞台底部的高度（立绘底部与其对齐，见 StoryPortrait.bottomInset）
+  const [dialogH, setDialogH] = useState(172);
 
   const typingRef = useRef<number | null>(null);
   const autoTimer = useRef<number | null>(null);
+  const stageRef = useRef<HTMLDivElement>(null);
   const actorsRef = useRef<ActorState[]>([]);
   /** 说话人 -> 立绘资源/学生档案（openStory 时一次性解析） */
   const resourcesRef = useRef<Map<string, ReturnType<typeof resolveActor>>>(new Map());
@@ -124,6 +170,23 @@ export default function StoryPage() {
       alive = false;
     };
   }, [eventGroups]);
+
+  // 主线卷章数据：首次进入剧情页时拉一次（404 静默，主线 tab 退回平铺）
+  useEffect(() => {
+    if (mainMap) return;
+    let alive = true;
+    fetch('/data/main_story_map.json')
+      .then((r) => (r.ok ? (r.json() as Promise<MainVolume[]>) : null))
+      .then((d) => {
+        if (alive) setMainMap(Array.isArray(d) ? d : []);
+      })
+      .catch(() => {
+        if (alive) setMainMap([]);
+      });
+    return () => {
+      alive = false;
+    };
+  }, [mainMap]);
 
   /** 活动 tab 的分组视图：活动名+周期做组头，章节按 order 排列 */
   const eventSections = useMemo(() => {
@@ -169,6 +232,54 @@ export default function StoryPage() {
 
   const fullText = line?.text ?? '';
   const isTyping = typed < fullText.length;
+
+  /**
+   * 主线 tab 的卷→章两级视图：
+   * 卷头 = Vol 标签+卷名（Scenario_Title_Deco 横幅），章头 = 第N章+話数范围，章内集列表。
+   * 搜索命中卷名时整卷列出，命中集标题/ID 时逐集过滤；0 句集不可播不列出（与走查⑥一致）。
+   */
+  const mainSections = useMemo(() => {
+    if (tab !== 'main' || !mainMap) return null;
+    const q = query.trim().toLowerCase();
+    return mainMap
+      .map((vol) => {
+        const volMatch =
+          !q ||
+          vol.name.toLowerCase().includes(q) ||
+          vol.label.toLowerCase().includes(q) ||
+          (vol.nameEn ? vol.nameEn.toLowerCase().includes(q) : false);
+        const chapters = vol.chapters
+          .map((ch) => {
+            const items = ch.episodes
+              .filter((e) => e.lines > 0)
+              .filter((e) => volMatch || !q || e.title.toLowerCase().includes(q) || e.id.includes(q))
+              .map((e) => ({ entry: mainEpisodeToEntry(e) }));
+            return { key: `mc-${vol.volume}-${ch.chapter}`, chapter: ch, items };
+          })
+          .filter((ch) => ch.items.length > 0);
+        return {
+          key: `mv-${vol.volume}`,
+          volume: vol,
+          count: chapters.reduce((a, ch) => a + ch.items.length, 0),
+          chapters,
+        };
+      })
+      .filter((v) => v.chapters.length > 0);
+  }, [tab, mainMap, query]);
+  const mainCount = mainSections?.reduce((a, v) => a + v.count, 0) ?? 0;
+
+  // 对话框高度测量：立绘底部对齐对话框上沿（.player-dialog 挂载/内容变化都会改高度）
+  useEffect(() => {
+    const stage = stageRef.current;
+    if (!stage) return;
+    const el = stage.querySelector<HTMLElement>('.player-dialog');
+    if (!el) return; // 选项层/结束层顶替时保持上一次的对齐，不跳动
+    const update = () => setDialogH(el.getBoundingClientRect().height);
+    const ro = new ResizeObserver(update);
+    ro.observe(el);
+    update();
+    return () => ro.disconnect();
+  }, [file, line, choice, ended, showHistory]);
 
   // 打字机（保留原有行为：速度跟随设置，快进时立即完成）
   useEffect(() => {
@@ -522,10 +633,49 @@ export default function StoryPage() {
           }}
         />
         <div className="muted" style={{ fontSize: 11.5 }}>
-          共 {assets.storyIndex.filter((s) => (tab === 'all' || s.type === tab) && s.lines > 0).length} 集
+          {tab === 'main' && mainSections
+            ? `共 ${mainCount} 集`
+            : `共 ${assets.storyIndex.filter((s) => (tab === 'all' || s.type === tab) && s.lines > 0).length} 集`}
         </div>
         <div className="story-list" data-testid="story-list">
-          {tab === 'event' && eventSections
+          {tab === 'main' && mainSections
+            ? mainSections.map((vol) => (
+                <div key={vol.key} className="story-volume" data-volume={vol.volume.volume}>
+                  <div
+                    className="story-volume-head"
+                    style={{
+                      backgroundImage: `linear-gradient(rgba(255,255,255,0.42), rgba(255,255,255,0.42)), url(${VOLUME_HEAD_DECO})`,
+                    }}
+                  >
+                    <b>
+                      {vol.volume.label} {vol.volume.name}
+                    </b>
+                    {vol.volume.nameEn && <span className="en">{vol.volume.nameEn}</span>}
+                    <span>{vol.count} 集</span>
+                  </div>
+                  {vol.chapters.map((ch) => (
+                    <div key={ch.key} className="story-chapter">
+                      <div className="story-chapter-head">
+                        <b>{ch.chapter.name}</b>
+                        {ch.chapter.side && <span className="side-tag">番外</span>}
+                        <span>
+                          {ch.chapter.range} · {ch.items.length} 集
+                        </span>
+                      </div>
+                      {ch.items.map(({ entry }) => (
+                        <StoryListItem
+                          key={entry.id}
+                          entry={entry}
+                          cleared={save.story.cleared.includes(entry.id)}
+                          active={selected?.id === entry.id}
+                          onOpen={() => void openStory(entry)}
+                        />
+                      ))}
+                    </div>
+                  ))}
+                </div>
+              ))
+            : tab === 'event' && eventSections
             ? eventSections.map((sec) => (
                 <div key={sec.key} className="story-section">
                   <div className="story-section-head">
@@ -559,38 +709,44 @@ export default function StoryPage() {
       </div>
 
       <div className="player">
-        <div className="player-stage" onClick={advance} data-testid="player-stage">
+        <div className="player-stage" onClick={advance} data-testid="player-stage" ref={stageRef}>
           <div
             className={`player-bg${bgUrl ? '' : ' missing'}`}
             data-name={bgName ? `素材缺失：${bgName}` : ''}
             style={bgUrl ? { backgroundImage: `url(${bgUrl})` } : undefined}
           />
 
-          {/* 立绘层：说话人高亮、其余压暗；资源缺失降级头像/名字牌 */}
-          {actors.map((a) => (
-            <div key={a.key} className={`story-actor story-actor-${a.pos}${a.active ? ' active' : ''}`}>
-              {a.resource && !failedActors.includes(a.key) ? (
-                <PortraitWithFallback
-                  actorKey={a.key}
-                  resource={a.resource}
-                  expression={a.expression}
-                  pos={a.pos}
-                  dim={!a.active}
-                  onFail={(k) =>
-                    setFailedActors((prev) => (prev.includes(k) ? prev : [...prev, k]))
-                  }
-                />
-              ) : a.student?.avatar || a.resource?.student?.avatar ? (
-                <div className="story-actor-avatar" data-actor={a.key}>
-                  <img src={a.student?.avatar ?? a.resource?.student?.avatar ?? ''} alt={a.displayName} />
-                </div>
-              ) : (
-                <div className="story-actor-nameplate" data-actor={a.key}>
-                  {a.displayName}
-                </div>
-              )}
-            </div>
-          ))}
+          {/* 立绘层：入场滑入、说话人高亮放大、非说话人压暗微缩；
+              底部对齐对话框上沿（--dialog-h + StoryPortrait.bottomInset 同源）；
+              资源缺失降级头像/名字牌 */}
+          <div className="story-actors" style={{ ['--dialog-h' as never]: `${dialogH}px` }}>
+            {actors.map((a) => (
+              <div key={a.key} className={`story-actor story-actor-${a.pos}${a.active ? ' active' : ''}`}>
+                {a.resource && !failedActors.includes(a.key) ? (
+                  <PortraitWithFallback
+                    actorKey={a.key}
+                    resource={a.resource}
+                    expression={a.expression}
+                    pos={a.pos}
+                    speaking={a.active}
+                    bottomInset={dialogH}
+                    dim={!a.active}
+                    onFail={(k) =>
+                      setFailedActors((prev) => (prev.includes(k) ? prev : [...prev, k]))
+                    }
+                  />
+                ) : a.student?.avatar || a.resource?.student?.avatar ? (
+                  <div className="story-actor-avatar" data-actor={a.key}>
+                    <img src={a.student?.avatar ?? a.resource?.student?.avatar ?? ''} alt={a.displayName} />
+                  </div>
+                ) : (
+                  <div className="story-actor-nameplate" data-actor={a.key}>
+                    {a.displayName}
+                  </div>
+                )}
+              </div>
+            ))}
+          </div>
 
           {!file && (
             <div
@@ -723,6 +879,8 @@ function PortraitWithFallback({
   resource,
   expression,
   pos,
+  speaking,
+  bottomInset,
   dim,
   onFail,
 }: {
@@ -730,6 +888,10 @@ function PortraitWithFallback({
   resource: NonNullable<ReturnType<typeof resolveActor>['resource']>;
   expression: string | null;
   pos: StagePos;
+  /** 是否正在说话：说话播表情差分，停了回落 Idle_01 */
+  speaking: boolean;
+  /** 对话框上沿到舞台底部的距离（css px）：立绘脚底对齐这条线 */
+  bottomInset: number;
   dim: boolean;
   onFail: (key: string) => void;
 }) {
@@ -739,6 +901,8 @@ function PortraitWithFallback({
       atlasUrl={resource.atlas}
       expression={expression}
       pos={pos}
+      speaking={speaking}
+      bottomInset={bottomInset}
       dim={dim}
       onFail={() => onFail(actorKey)}
     />
@@ -761,13 +925,10 @@ function StoryListItem({
   recollection?: boolean;
   onOpen: () => void;
 }) {
-  // 活动章节标题是剧本行格式（"第1话;欢迎莅临百夜堂"），分号转空格便于阅读；
-  // 无名剧集（数据轨 title 以 ID 顶替，如 1901702）兜底成「剧情 #id」——走查⑥
-  const title = chapterTitle
-    ? chapterTitle.replace(';', ' ')
-    : !entry.title || entry.title === entry.id
-      ? `剧情 #${entry.id}`
-      : entry.title;
+  // 剧本行标题是 "第N话;标题" 格式，分号转空格便于阅读（主线卷章/活动章节/平铺通用）；
+  // 无名剧集（数据轨 title 以 ID 顶替，如 Vol.0 序章 11000）兜底成「剧情 #id」——走查⑥
+  const raw = chapterTitle ?? entry.title;
+  const title = !raw || raw === entry.id ? `剧情 #${entry.id}` : raw.replace(';', ' ');
   return (
     <button className={`story-item${active ? ' on' : ''}`} onClick={onOpen}>
       <b>
