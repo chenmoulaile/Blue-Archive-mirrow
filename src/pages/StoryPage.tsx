@@ -3,9 +3,27 @@ import { useApp, navState } from '../core/AppContext';
 import { audio } from '../core/audio';
 import { loadStoryFile } from '../core/assets';
 import { markRead, STORY_CLEAR_REWARD, store, useSave } from '../core/store';
-import { NineSlice } from '../components/NineSlice';
-import { t } from '../core/i18n';
-import type { StoryEntry, StoryFile, StoryOp } from '../types';
+import type {
+  EventChapter,
+  EventStoryGroup,
+  StoryChoiceOption,
+  StoryEntry,
+  StoryFile,
+  StoryOp,
+} from '../types';
+import {
+  applySpeaker,
+  collectSpeakers,
+  fmtPeriod,
+  parseExpression,
+  resolveActor,
+  type ActorState,
+  type StagePos,
+} from '../components/story/storyStage';
+import { StoryDialog } from '../components/story/StoryDialog';
+import { StoryChoices } from '../components/story/StoryChoices';
+import { StoryHistory, type HistoryRow } from '../components/story/StoryHistory';
+import { StoryPortrait } from '../components/story/StoryPortrait';
 
 type Tab = 'all' | 'main' | 'bond' | 'event' | 'group';
 
@@ -29,18 +47,22 @@ function opText(n: StoryOp): Line | null {
     return { speaker: s.speaker, text: s.text, kind: 'say' };
   }
   if (n.op === 'info') return { speaker: '', text: (n as { text: string }).text, kind: 'info' };
-  // wiki 不记录分支拓扑，只有「此处有选项」这个事实。
-  // 对话框里说明情况，选项按钮上的文案由渲染层给（见 choice-overlay）。
-  if (n.op === 'choice')
-    return {
-      speaker: '',
-      text: '（此处存在对话选项，wiki 仅记录单条通关路径）',
-      kind: 'choice',
-    };
+  if (n.op === 'choice') return null; // choice 由分支状态机单独渲染
   if (n.op === 'memlobby')
     return { speaker: '', text: '★ 此处解锁该学生的回忆大厅', kind: 'mark' };
   if (n.op === 'popup') return { speaker: '', text: '（剧情插图）', kind: 'mark' };
   return null;
+}
+
+/** 可停下来的节点（对话框或选择点） */
+function isDisplayable(n: StoryOp): boolean {
+  return Boolean(opText(n)) || (n.op === 'choice' && ((n as { options?: StoryChoiceOption[] }).options?.length ?? 0) > 0);
+}
+
+function branchOf(n: StoryOp): string | undefined {
+  if (n.op !== 'script') return undefined;
+  const b = (n as { branch?: unknown }).branch;
+  return typeof b === 'string' ? b : undefined;
 }
 
 export default function StoryPage() {
@@ -53,17 +75,28 @@ export default function StoryPage() {
   const [file, setFile] = useState<StoryFile | null>(null);
   const [idx, setIdx] = useState(-1);
   const [line, setLine] = useState<Line | null>(null);
+  const [choice, setChoice] = useState<{ index: number; options: StoryChoiceOption[] } | null>(null);
+  const [branchGroup, setBranchGroup] = useState<string | null>(null);
+  const [actors, setActors] = useState<ActorState[]>([]);
+  const [failedActors, setFailedActors] = useState<string[]>([]);
   const [bgName, setBgName] = useState('');
   const [bgmName, setBgmName] = useState('');
-  const [history, setHistory] = useState<Line[]>([]);
+  const [history, setHistory] = useState<HistoryRow[]>([]);
   const [showHistory, setShowHistory] = useState(false);
   const [auto, setAuto] = useState(false);
   const [skip, setSkip] = useState(false);
   const [typed, setTyped] = useState(0);
   const [ended, setEnded] = useState(false);
 
+  // 活动剧情分组（data/event_story_map.json，数据轨交付；缺失时活动 tab 退回平铺）
+  const [eventGroups, setEventGroups] = useState<EventStoryGroup[] | null>(null);
+
   const typingRef = useRef<number | null>(null);
   const autoTimer = useRef<number | null>(null);
+  const actorsRef = useRef<ActorState[]>([]);
+  /** 说话人 -> 立绘资源/学生档案（openStory 时一次性解析） */
+  const resourcesRef = useRef<Map<string, ReturnType<typeof resolveActor>>>(new Map());
+  const branchRef = useRef<string | null>(null);
 
   const list = useMemo(() => {
     const q = query.trim().toLowerCase();
@@ -73,10 +106,68 @@ export default function StoryPage() {
       .slice(0, 400);
   }, [assets.storyIndex, tab, query]);
 
+  // 活动分组数据：首次进入剧情页时拉一次（404 静默，退回平铺）
+  useEffect(() => {
+    if (eventGroups) return;
+    let alive = true;
+    fetch('/data/event_story_map.json')
+      .then((r) => (r.ok ? (r.json() as Promise<{ events?: EventStoryGroup[] }>) : null))
+      .then((d) => {
+        if (alive) setEventGroups(d?.events ?? []);
+      })
+      .catch(() => {
+        if (alive) setEventGroups([]);
+      });
+    return () => {
+      alive = false;
+    };
+  }, [eventGroups]);
+
+  /** 活动 tab 的分组视图：活动名+周期做组头，章节按 order 排列 */
+  const eventSections = useMemo(() => {
+    if (tab !== 'event' || !eventGroups) return null;
+    const byId = new Map(assets.storyIndex.map((s) => [s.id, s]));
+    const used = new Set<string>();
+    type SectionItem = { entry: StoryEntry; chapter?: EventChapter };
+    const sections = eventGroups
+      .map((g, gi) => {
+        const items = [...g.chapters]
+          .sort((a, b) => a.order - b.order)
+          .map((ch: EventChapter): SectionItem | null => {
+            used.add(ch.storyId);
+            const e = byId.get(ch.storyId);
+            return e ? { entry: e, chapter: ch } : null;
+          })
+          .filter((x): x is SectionItem => x !== null);
+        const period = g.period
+          ? `${fmtPeriod(g.period.start)} ~ ${fmtPeriod(g.period.end)}`
+          : '';
+        return {
+          key: `ev-${g.eventId}-${gi}`,
+          header: g.name ?? `活动剧情 #${g.eventId}`,
+          sub: period,
+          items,
+        };
+      })
+      .filter((s) => s.items.length > 0);
+    const rest = assets.storyIndex.filter(
+      (s) => s.type === 'event' && !used.has(s.id) && !(s.events && s.events.length > 0)
+    );
+    if (rest.length > 0) {
+      sections.push({
+        key: 'ev-rest',
+        header: '未归类活动剧情',
+        sub: '',
+        items: rest.slice(0, 200).map((e) => ({ entry: e })),
+      });
+    }
+    return sections;
+  }, [tab, eventGroups, assets.storyIndex]);
+
   const fullText = line?.text ?? '';
   const isTyping = typed < fullText.length;
 
-  // 打字机
+  // 打字机（保留原有行为：速度跟随设置，快进时立即完成）
   useEffect(() => {
     if (typingRef.current) window.clearInterval(typingRef.current);
     if (!line) return;
@@ -100,9 +191,24 @@ export default function StoryPage() {
     };
   }, [line, fullText, save.settings.textSpeed, skip]);
 
-  /** 从 start 开始沿 dir 扫描，执行副作用直到遇到可显示的节点 */
+  /**
+   * 沿 dir 扫描直到遇到可显示节点。
+   * 分支规则（数据轨契约 + 2026-11-08 实测拓扑）：
+   * - 正向：branchGroup 存在时只显示 branch === group 的节点；遇到无 branch
+   *   字段的可显示节点即汇合（显示并清分组）；branch !== group 的节点是
+   *   其他分支，跳过。branchGroup 为 null 时跳过一切带 branch 的节点
+   *   （主线扫描不落入分支段）。
+   * - 回退：分支内先回退本分支节点；无分组上下文时整段跳过 branch 节点，
+   *   直接回到上一个 choice 或更早的主线节点。
+   */
   const scan = useCallback(
-    (f: StoryFile, start: number, dir: 1 | -1, silent = false): { index: number; line: Line | null; bg: string; bgm: string } => {
+    (
+      f: StoryFile,
+      start: number,
+      dir: 1 | -1,
+      ctx: string | null,
+      silent = false
+    ): { index: number; line: Line | null; isChoice: boolean; bg: string; bgm: string } => {
       let i = start;
       let bg = '';
       let bgm = '';
@@ -112,20 +218,38 @@ export default function StoryPage() {
         else if (n.op === 'bgm') bgm = (n as { id: string }).id;
         else if (n.op === 'bgmStop') bgm = '';
         else if (n.op === 'se' && !silent) audio.playSe((n as { id: string }).id);
-        else {
-          const l = opText(n);
-          if (l) return { index: i, line: l, bg, bgm };
+        else if (n.op === 'choice') {
+          const options = (n as { options?: StoryChoiceOption[] }).options ?? [];
+          if (options.length > 0) return { index: i, line: null, isChoice: true, bg, bgm };
+        } else if (isDisplayable(n)) {
+          const br = branchOf(n);
+          if (dir === 1) {
+            if (br !== undefined) {
+              if (ctx && br === ctx) return { index: i, line: opText(n), isChoice: false, bg, bgm };
+              i += dir; // 其他分支 / 无上下文：跳过
+              continue;
+            }
+            // 无 branch 字段 = 主线节点（ctx 存在时意味着分支段结束，由调用者清 ctx）
+            return { index: i, line: opText(n), isChoice: false, bg, bgm };
+          } else {
+            if (br !== undefined) {
+              if (ctx && br === ctx) return { index: i, line: opText(n), isChoice: false, bg, bgm };
+              i += dir; // 分支段整段跳过，回退直接落 choice 或更早主线
+              continue;
+            }
+            return { index: i, line: opText(n), isChoice: false, bg, bgm };
+          }
         }
         i += dir;
       }
-      return { index: -1, line: null, bg, bgm };
+      return { index: -1, line: null, isChoice: false, bg, bgm };
     },
     []
   );
 
   const applyNode = useCallback(
     (f: StoryFile, target: number, dir: 1 | -1) => {
-      // 先静默重放到目标前一格，重建背景与 BGM
+      // 先静默重放到目标前一格，重建背景与 BGM（副作用逻辑与旧版一致）
       let bg = '';
       let bgm = '';
       for (let i = 0; i < target; i++) {
@@ -134,7 +258,8 @@ export default function StoryPage() {
         else if (n.op === 'bgm') bgm = (n as { id: string }).id;
         else if (n.op === 'bgmStop') bgm = '';
       }
-      const r = scan(f, target, dir);
+      const ctx = branchRef.current;
+      const r = scan(f, target, dir, ctx);
       const finalBg = r.bg || bg;
       const finalBgm = r.bgm || bgm;
       setBgName(finalBg);
@@ -142,9 +267,12 @@ export default function StoryPage() {
       if (finalBgm) audio.playBgm(finalBgm);
       else audio.stopBgm();
 
-      if (r.index === -1 || !r.line) {
+      if (r.index === -1) {
         setEnded(true);
         setIdx(f.nodes.length);
+        setChoice(null);
+        branchRef.current = null;
+        setBranchGroup(null);
         if (target >= f.nodes.length && f.story_id) {
           const id = f.story_id;
           if (!save.story.cleared.includes(id)) {
@@ -157,55 +285,144 @@ export default function StoryPage() {
         }
         return;
       }
-      setEnded(false);
+
+      const n = f.nodes[r.index] as StoryOp;
       setIdx(r.index);
-      setLine(r.line);
-      setHistory((h) => [...h.slice(-300), r.line as Line]);
+      setEnded(false);
+
+      if (r.isChoice) {
+        // 选择点：对话框让位给选项层，等待用户选择
+        const options = (n as { options?: StoryChoiceOption[] }).options ?? [];
+        setChoice({ index: r.index, options });
+        setLine(null);
+        branchRef.current = null;
+        setBranchGroup(null);
+        if (skip) {
+          setSkip(false);
+          toast('遇到选项，已停止快进');
+        }
+        return;
+      }
+      setChoice(null);
+
+      const shown = r.line as Line;
+      setLine(shown);
+      setHistory((h) => [...h.slice(-300), { kind: shown.kind, speaker: shown.speaker, text: shown.text }]);
+
+      if (n.op === 'script') {
+        const s = n as Extract<StoryOp, { op: 'script' }>;
+        const who = s.spine || s.speaker || '';
+        const expr = parseExpression(s.sequence);
+        const upd = applySpeaker(actorsRef.current, who, expr, resourcesRef.current);
+        actorsRef.current = upd.actors;
+        setActors(upd.actors);
+      }
+
+      // 分支上下文维护
+      const br = branchOf(n);
+      if (dir === 1) {
+        if (ctx && br === undefined) {
+          branchRef.current = null;
+          setBranchGroup(null);
+        }
+      } else {
+        // 回退落点：choice 已在上面处理（清 ctx）；branch 节点恢复 ctx；主线节点清 ctx
+        if (br !== undefined) {
+          branchRef.current = br;
+          setBranchGroup(br);
+        } else {
+          branchRef.current = null;
+          setBranchGroup(null);
+        }
+      }
+
       store.update((d) => {
         markRead(d, f.story_id, r.index);
         d.story.progress[f.story_id] = r.index;
       });
     },
-    [scan, save.story.cleared, toast]
+    [scan, save.story.cleared, skip, toast]
   );
 
   const openStory = useCallback(
     async (entry: StoryEntry) => {
       setSelected(entry);
       setLine(null);
+      setChoice(null);
       setHistory([]);
       setEnded(false);
+      actorsRef.current = [];
+      setActors([]);
+      setFailedActors([]);
+      branchRef.current = null;
+      setBranchGroup(null);
       try {
         const f = await loadStoryFile(entry.path);
         setFile(f);
+        // 一次性解析本集所有说话人的立绘资源（内存映射，无 IO 阻塞）
+        const res = new Map<string, ReturnType<typeof resolveActor>>();
+        for (const name of collectSpeakers(f.nodes)) {
+          if (!res.has(name)) res.set(name, resolveActor(assets, name));
+        }
+        resourcesRef.current = res;
         const start = save.story.progress[entry.id] ?? 0;
-        applyNode(f, Math.min(start, f.nodes.length - 1), 1);
+        applyNode(f, Math.min(start, Math.max(0, f.nodes.length - 1)), 1);
       } catch (e) {
         toast(`剧情加载失败：${e instanceof Error ? e.message : e}`);
       }
     },
-    [applyNode, save.story.progress, toast]
+    [applyNode, assets, save.story.progress, toast]
+  );
+
+  /** 选择一个选项：跳进分支段（nextGroup），缺失分支按单选项继续主线 */
+  const selectChoice = useCallback(
+    (opt: StoryChoiceOption) => {
+      if (!file || !choice) return;
+      setHistory((h) => [...h.slice(-300), { kind: 'choice', speaker: '', text: '', chosen: opt.text }]);
+      const from = choice.index;
+      setChoice(null);
+      if (!opt.nextGroup) {
+        branchRef.current = null;
+        setBranchGroup(null);
+        applyNode(file, from + 1, 1);
+        return;
+      }
+      let j = -1;
+      for (let i = from + 1; i < file.nodes.length; i++) {
+        if (branchOf(file.nodes[i] as StoryOp) === opt.nextGroup) {
+          j = i;
+          break;
+        }
+      }
+      if (j < 0) {
+        // 分支段缺失（实测 10000005 choice@50 的 6/7 号分支无内容）：当单选项继续
+        branchRef.current = null;
+        setBranchGroup(null);
+        applyNode(file, from + 1, 1);
+        return;
+      }
+      branchRef.current = opt.nextGroup;
+      setBranchGroup(opt.nextGroup);
+      applyNode(file, j, 1);
+    },
+    [choice, file, applyNode]
   );
 
   const advance = useCallback(() => {
     if (!file) return;
+    if (choice) return; // 选项等待用户点击
     if (isTyping) {
       setTyped(fullText.length);
       return;
     }
     if (ended) return;
-    const next = idx + 1;
-    if (next >= file.nodes.length) {
-      setEnded(true);
-      return;
-    }
-    applyNode(file, next, 1);
-  }, [file, idx, isTyping, fullText.length, ended, applyNode]);
+    applyNode(file, idx + 1, 1);
+  }, [file, choice, idx, isTyping, fullText.length, ended, applyNode]);
 
-  // 自动 / 快进
+  // 自动 / 快进（保留原有行为；选项出现时暂停等待）
   useEffect(() => {
     if (autoTimer.current) window.clearTimeout(autoTimer.current);
-    if (!auto || !file || ended || showHistory) return;
+    if (!auto || !file || ended || showHistory || choice) return;
     if (isTyping) return;
     autoTimer.current = window.setTimeout(() => {
       advance();
@@ -213,17 +430,21 @@ export default function StoryPage() {
     return () => {
       if (autoTimer.current) window.clearTimeout(autoTimer.current);
     };
-  }, [auto, file, ended, isTyping, idx, advance, save.settings.autoDelay, showHistory]);
+  }, [auto, file, ended, isTyping, idx, choice, advance, save.settings.autoDelay, showHistory]);
 
-  // 快进只跳已读节点
+  // 快进只跳已读节点（保留原有行为；选项与分支停快进）
   useEffect(() => {
-    if (!skip || !file || ended) return;
-    const t = window.setTimeout(() => {
+    if (!skip || !file || ended || choice) return;
+    const timer = window.setTimeout(() => {
       const next = idx + 1;
       const node = file.nodes[next];
       if (!node) {
         setSkip(false);
         setEnded(true);
+        return;
+      }
+      if (node.op === 'choice') {
+        setSkip(false); // 选项处停下（applyNode 里也会兜底停一次）
         return;
       }
       const l = opText(node);
@@ -238,8 +459,8 @@ export default function StoryPage() {
         toast('遇到未读内容，已自动停止快进');
       }
     }, 90);
-    return () => window.clearTimeout(t);
-  }, [skip, file, idx, ended, applyNode, save.story.read, save.settings.skipUnread, toast]);
+    return () => window.clearTimeout(timer);
+  }, [skip, file, idx, ended, choice, applyNode, save.story.read, save.settings.skipUnread, toast]);
 
   useEffect(() => {
     return () => {
@@ -267,7 +488,13 @@ export default function StoryPage() {
   }, [assets.storyIndex, openStory]);
 
   const bgUrl = bgName ? assets.bg(bgName) : null;
-  const speakerStudent = line?.kind === 'say' ? assets.studentByName.get(line.speaker.toLowerCase()) : undefined;
+  const stageSpeaker = line?.kind === 'say' ? line.speaker : '';
+  /** 当前说话人是否在舞台上有立绘（决定对话框角落头像是否显示） */
+  const onStage = stageSpeaker ? actors.some((a) => a.key === stageSpeaker && a.resource) : false;
+  const cornerAvatar =
+    line?.kind === 'say' && !onStage
+      ? (resourcesRef.current.get(stageSpeaker)?.student?.avatar ?? null)
+      : null;
 
   return (
     <div className="story-layout">
@@ -292,36 +519,75 @@ export default function StoryPage() {
           }}
         />
         <div className="muted" style={{ fontSize: 11.5 }}>
-          共 {assets.storyIndex.filter((s) => tab === 'all' || s.type === tab).length} 集，显示前{' '}
-          {list.length} 条
+          共 {assets.storyIndex.filter((s) => tab === 'all' || s.type === tab).length} 集
         </div>
-        <div className="story-list">
-          {list.map((s) => {
-            const cleared = save.story.cleared.includes(s.id);
-            return (
-              <button
-                key={s.id}
-                className={`story-item${selected?.id === s.id ? ' on' : ''}`}
-                onClick={() => void openStory(s)}
-              >
-                <b>{s.title}</b>
-                <span>
-                  {cleared && <span className="cleared">已通关 · </span>}
-                  {s.lines} 句 · {s.id.replace(/_/g, ' ').slice(0, 46)}
-                </span>
-              </button>
-            );
-          })}
+        <div className="story-list" data-testid="story-list">
+          {tab === 'event' && eventSections
+            ? eventSections.map((sec) => (
+                <div key={sec.key} className="story-section">
+                  <div className="story-section-head">
+                    <b>{sec.header}</b>
+                    {sec.sub && <span>{sec.sub}</span>}
+                    <span>{sec.items.length} 章</span>
+                  </div>
+                  {sec.items.map(({ entry, chapter }) => (
+                    <StoryListItem
+                      key={entry.id}
+                      entry={entry}
+                      cleared={save.story.cleared.includes(entry.id)}
+                      active={selected?.id === entry.id}
+                      chapterTitle={chapter && !chapter.isRecollection ? undefined : chapter?.title}
+                      recollection={chapter?.isRecollection}
+                      onOpen={() => void openStory(entry)}
+                    />
+                  ))}
+                </div>
+              ))
+            : list.map((s) => (
+                <StoryListItem
+                  key={s.id}
+                  entry={s}
+                  cleared={save.story.cleared.includes(s.id)}
+                  active={selected?.id === s.id}
+                  onOpen={() => void openStory(s)}
+                />
+              ))}
         </div>
       </div>
 
       <div className="player">
-        <div className="player-stage" onClick={advance}>
+        <div className="player-stage" onClick={advance} data-testid="player-stage">
           <div
             className={`player-bg${bgUrl ? '' : ' missing'}`}
             data-name={bgName ? `素材缺失：${bgName}` : ''}
             style={bgUrl ? { backgroundImage: `url(${bgUrl})` } : undefined}
           />
+
+          {/* 立绘层：说话人高亮、其余压暗；资源缺失降级头像/名字牌 */}
+          {actors.map((a) => (
+            <div key={a.key} className={`story-actor story-actor-${a.pos}${a.active ? ' active' : ''}`}>
+              {a.resource && !failedActors.includes(a.key) ? (
+                <PortraitWithFallback
+                  actorKey={a.key}
+                  resource={a.resource}
+                  expression={a.expression}
+                  pos={a.pos}
+                  dim={!a.active}
+                  onFail={(k) =>
+                    setFailedActors((prev) => (prev.includes(k) ? prev : [...prev, k]))
+                  }
+                />
+              ) : a.student?.avatar || a.resource?.student?.avatar ? (
+                <div className="story-actor-avatar" data-actor={a.key}>
+                  <img src={a.student?.avatar ?? a.resource?.student?.avatar ?? ''} alt={a.displayName} />
+                </div>
+              ) : (
+                <div className="story-actor-nameplate" data-actor={a.key}>
+                  {a.displayName}
+                </div>
+              )}
+            </div>
+          ))}
 
           {!file && (
             <div
@@ -339,56 +605,33 @@ export default function StoryPage() {
             </div>
           )}
 
-          {file && line?.kind === 'choice' && (
-            <div className="choice-overlay">
-              <NineSlice
-                as="button"
-                name="TBG/Common_Btn_BG"
-                className="choice-btn"
-                onClick={() => advance()}
-              >
-                {t('story.choice')}
-              </NineSlice>
-            </div>
-          )}
+          {file && choice && <StoryChoices options={choice.options} onSelect={selectChoice} />}
 
-          {file && line && (
-            <div className="player-dialog" data-ui-source="estimated">
-              {line.kind === 'say' && (
-                <span className="speaker">{line.speaker}</span>
-              )}
-              {line.kind !== 'say' && (
-                <span className="speaker info">
-                  {line.kind === 'mark' ? '提示' : line.kind === 'choice' ? '选项' : '旁白'}
-                </span>
-              )}
-              <div className="text">
-                {fullText.slice(0, typed)}
-                {isTyping ? '' : ''}
-              </div>
-              {!isTyping && !ended && <span className="next">▼ 点击继续</span>}
-              {speakerStudent?.avatar && line.kind === 'say' && (
-                <img
-                  src={speakerStudent.avatar}
-                  alt=""
-                  style={{
-                    position: 'absolute',
-                    right: 26,
-                    top: -54,
-                    width: 62,
-                    height: 62,
-                    borderRadius: '50%',
-                    border: '2px solid rgba(143,216,242,0.7)',
-                    objectFit: 'cover',
-                    boxShadow: '0 6px 18px rgba(0,0,0,0.4)',
-                  }}
-                />
-              )}
-            </div>
+          {file && line && !choice && (
+            <StoryDialog
+              kind={line.kind}
+              speaker={line.speaker}
+              text={line.text}
+              typed={typed}
+              isTyping={isTyping}
+              ended={ended}
+              auto={auto}
+              skip={skip}
+              cornerAvatar={cornerAvatar}
+              onToggleAuto={() => {
+                setAuto((v) => !v);
+                setSkip(false);
+              }}
+              onToggleSkip={() => {
+                setSkip((v) => !v);
+                setAuto(false);
+              }}
+              onOpenHistory={() => setShowHistory(true)}
+            />
           )}
 
           {file && ended && (
-            <div className="choice-box">
+            <div className="choice-box" onClick={(e) => e.stopPropagation()}>
               <div
                 style={{
                   background: 'rgba(10,24,38,0.9)',
@@ -406,7 +649,12 @@ export default function StoryPage() {
                       setEnded(false);
                       setIdx(-1);
                       setLine(null);
+                      setChoice(null);
                       setHistory([]);
+                      actorsRef.current = [];
+                      setActors([]);
+                      branchRef.current = null;
+                      setBranchGroup(null);
                       applyNode(file, 0, 1);
                     }}
                   >
@@ -418,6 +666,7 @@ export default function StoryPage() {
                       setFile(null);
                       setSelected(null);
                       setLine(null);
+                      setChoice(null);
                       audio.stopBgm();
                     }}
                   >
@@ -428,45 +677,14 @@ export default function StoryPage() {
             </div>
           )}
 
-          {showHistory && (
-            <div className="history-panel" onClick={() => setShowHistory(false)}>
-              <h4>对话回看（点击关闭）</h4>
-              {history.length === 0 && <div className="muted">还没有记录</div>}
-              {history.map((h, i) => (
-                <div className="history-row" key={i}>
-                  {h.kind === 'say' && <b>{h.speaker}</b>}
-                  {h.text}
-                </div>
-              ))}
-            </div>
-          )}
+          {showHistory && <StoryHistory rows={history} onClose={() => setShowHistory(false)} />}
         </div>
 
         <div className="player-bar">
-          <button onClick={() => setShowHistory((v) => !v)}>回看</button>
-          <button
-            className={auto ? 'on' : ''}
-            onClick={() => {
-              setAuto((v) => !v);
-              setSkip(false);
-            }}
-          >
-            自动
-          </button>
-          <button
-            className={skip ? 'on' : ''}
-            onClick={() => {
-              setSkip((v) => !v);
-              setAuto(false);
-            }}
-          >
-            快进
-          </button>
           <button
             onClick={() => {
-              if (!file) return;
-              const target = Math.max(0, idx - 1);
-              applyNode(file, target, -1);
+              if (!file || choice || idx <= 0) return;
+              applyNode(file, idx - 1, -1);
             }}
           >
             上一句
@@ -474,18 +692,84 @@ export default function StoryPage() {
           <button onClick={advance}>下一句</button>
           <div className="spacer" />
           <span style={{ opacity: 0.65 }}>{bgmName ? `BGM ${bgmName}` : '无 BGM'}</span>
+          {branchGroup && (
+            <span className="branch-badge" data-testid="branch-badge">
+              分支 {branchGroup}
+            </span>
+          )}
           <div className="progress" title="进度">
             <i
               style={{
-                width: file && idx >= 0 ? `${Math.min(100, ((idx + 1) / file.nodes.length) * 100)}%` : '0%',
+                width:
+                  file && idx >= 0 ? `${Math.min(100, ((idx + 1) / file.nodes.length) * 100)}%` : '0%',
               }}
             />
           </div>
           <span style={{ opacity: 0.65, minWidth: 62, textAlign: 'right' }}>
-            {file && idx >= 0 ? `${idx + 1} / ${file.nodes.length}` : '—'}
+            {file && idx >= 0 ? `${Math.min(idx + 1, file.nodes.length)} / ${file.nodes.length}` : '—'}
           </span>
         </div>
       </div>
     </div>
+  );
+}
+
+/** 立绘包装：加载失败上报，父级降级头像 */
+function PortraitWithFallback({
+  actorKey,
+  resource,
+  expression,
+  pos,
+  dim,
+  onFail,
+}: {
+  actorKey: string;
+  resource: NonNullable<ReturnType<typeof resolveActor>['resource']>;
+  expression: string | null;
+  pos: StagePos;
+  dim: boolean;
+  onFail: (key: string) => void;
+}) {
+  return (
+    <StoryPortrait
+      skelUrl={resource.skel}
+      atlasUrl={resource.atlas}
+      expression={expression}
+      pos={pos}
+      dim={dim}
+      onFail={() => onFail(actorKey)}
+    />
+  );
+}
+
+/** 侧栏列表项（普通条目 / 活动章节条目共用） */
+function StoryListItem({
+  entry,
+  cleared,
+  active,
+  chapterTitle,
+  recollection,
+  onOpen,
+}: {
+  entry: StoryEntry;
+  cleared: boolean;
+  active: boolean;
+  chapterTitle?: string;
+  recollection?: boolean;
+  onOpen: () => void;
+}) {
+  // 活动章节标题是剧本行格式（"第1话;欢迎莅临百夜堂"），分号转空格便于阅读
+  const title = chapterTitle ? chapterTitle.replace(';', ' ') : entry.title;
+  return (
+    <button className={`story-item${active ? ' on' : ''}`} onClick={onOpen}>
+      <b>
+        {title}
+        {recollection && <span className="recollection-tag">回忆</span>}
+      </b>
+      <span>
+        {cleared && <span className="cleared">已通关 · </span>}
+        {entry.lines} 句 · {entry.id.replace(/_/g, ' ').slice(0, 46)}
+      </span>
+    </button>
   );
 }

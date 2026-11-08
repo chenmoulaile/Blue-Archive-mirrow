@@ -15,7 +15,8 @@
  * （story_meta.speakerLine 记录了槽位直方图但数据轨未回填到节点），
  * 因此按登场次序分配左右中三槽：说话人高亮、其余压暗 —— BA 玩家熟悉的视觉模式。
  */
-import type { AssetBundle, StoryOp, Student } from '../../types';
+import type { AssetBundle } from '../../core/assets';
+import type { StoryOp, Student } from '../../types';
 
 export type StagePos = 'left' | 'center' | 'right';
 
@@ -35,6 +36,8 @@ export interface ActorState {
   key: string;
   displayName: string;
   resource: ActorResource | null;
+  /** 学生档案（无立绘时用头像兜底） */
+  student: Student | null;
   /** 当前表情动画名（两位编号）或 null=保持 Idle */
   expression: string | null;
   pos: StagePos;
@@ -149,11 +152,13 @@ export function applySpeaker(
   const actors = ordered.map((key) => {
     const old = prev.find((a) => a.key === key);
     const r = resources.get(key);
-    const resource = r ? r.resource : old?.resource ?? null;
+    const resource = r ? r.resource : (old?.resource ?? null);
+    const student = r ? r.student : (old?.student ?? null);
     return {
       key,
       displayName: key,
       resource,
+      student,
       expression: key === displayName ? expression : (old?.expression ?? null),
       pos: positions.get(key) ?? 'center',
       active: key === displayName,

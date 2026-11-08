@@ -1,34 +1,51 @@
 /**
- * 启动流程：splash → 标题画面（Constant Moderato）→ 加载 → 主界面
+ * 启动流程：splash → 标题画面 → 加载过场（阿罗娜）→ 大厅
  *
- * 时序常量见 game-ui-spec.ts 的 INTRO_TIMING。
- * 版权画面若用户已从游戏包提取（resources/ui/splash/{key}.png 或 .mp4），自动用原件；
- * 没有原件时用排版兜底，并在 data-ui-source 上标记，便于端到端统计。
+ * 时序常量见 game-ui-spec.ts 的 INTRO_TIMING / TITLE_SCREEN / LOADING_ARONA。
+ *
+ * 素材策略（全部实测过再写）：
+ *   - splash：NEXON / Yostar 用图集原件（NEXON_CI、nexonCiWhite、Icon_Logo_Yostar），
+ *     NAT GAMES 没有提取到 logo（图集 grep 无命中），排版兜底并打 data-ui-source。
+ *   - 标题：BA 标题 logo 是艺术字，图集无原件，文字版式兜底；
+ *     「TOUCH TO START」为标题页按钮原文（wiki_layout）。
+ *     标题 BGM 是 Theme_01（Constant Moderato），物理缺失
+ *     （data/bgm_map.json 里 extracted=false，BGM.molru 尾表未解出），
+ *     按 TITLE_SCREEN.bgmFallbackOrder 取第一个可用曲目，playBgm 缺失会静音兜底。
+ *   - 加载过场：任务指定的 resources/npc_portrait 里实测没有 Arona
+ *     （grep 无命中），改用图集原件 Image_Char_Arona.png（阿罗娜半身立绘）
+ *     + Common/Loading_Arona.png（加载提示框兔头角标），提示文案同人自撰轮换。
  */
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { useApp } from '../core/AppContext';
 import { audio } from '../core/audio';
-import { INTRO_TIMING } from '../core/game-ui-spec';
+import {
+  INTRO_TIMING,
+  TITLE_SCREEN,
+  LOADING_ARONA,
+  LOADING_TIPS,
+} from '../core/game-ui-spec';
 import { t } from '../core/i18n';
 
 type Stage = 'splash' | 'title' | 'loading';
 
-const STUDIOS: Record<string, { name: string; sub: string }> = {
+/** splash 版权画面：优先图集原件，没有则排版兜底 */
+const STUDIOS: Record<string, { name: string; sub: string; sprite?: string }> = {
   natgames: { name: 'NAT GAMES', sub: 'A NAT GAMES STUDIO' },
-  nexon: { name: 'NEXON', sub: 'NEXON Games' },
-  yostar: { name: 'YOSTAR', sub: 'Yostar Pictures' },
+  nexon: { name: 'NEXON', sub: 'NEXON Games', sprite: 'nexonCiWhite/nexonCiWhite' },
+  yostar: { name: 'YOSTAR', sub: 'Yostar Pictures', sprite: 'Icon_Logo_Yostar' },
 };
 
 /** 标题背景优先用游戏内背景图 */
 const TITLE_BG_CANDIDATES = ['BG_View_Schale', 'BG_CityOffice', 'BG_MainOffice', 'BG_Black'];
 
 export default function IntroFlow({ onDone }: { onDone: () => void }) {
-  const { assets, settings } = useApp();
+  const { assets, settings, uiAtlas } = useApp();
   const [stage, setStage] = useState<Stage>('splash');
   const [studioIdx, setStudioIdx] = useState(0);
   const [fading, setFading] = useState(false);
   const [promptVisible, setPromptVisible] = useState(false);
   const [leaving, setLeaving] = useState(false);
+  const [tipIdx, setTipIdx] = useState(() => Math.floor(Math.random() * LOADING_TIPS.value.length));
   const timers = useRef<number[]>([]);
 
   const titleBg = useMemo(() => {
@@ -80,17 +97,47 @@ export default function IntroFlow({ onDone }: { onDone: () => void }) {
   }, [stage, after]);
 
   // 标题：淡入 + 提示 + 播放主题曲
+  // Theme_01 物理缺失（bgm_map.json extracted=false），HEAD 探测降级到第一个可用曲目；
+  // audio.playBgm 的缺失标记是 error 事件异步写入的，同步循环里判断不了，所以在这里探测。
   useEffect(() => {
     if (stage !== 'title') return;
-    audio.playBgm('Theme_01'); // Constant Moderato
     let cancelled = false;
+    void (async () => {
+      const ids = [TITLE_SCREEN.bgmPrimary.value, ...TITLE_SCREEN.bgmFallbackOrder.value];
+      for (const id of ids) {
+        try {
+          const r = await fetch(`/res/bgm/${id}.ogg`, { method: 'HEAD' });
+          if (r.ok) {
+            if (!cancelled) audio.playBgm(id);
+            return;
+          }
+        } catch {
+          /* 探测失败换下一首 */
+        }
+      }
+      // 全部缺失：仍按契约调用，playBgm 内部会静音兜底
+      if (!cancelled) audio.playBgm(TITLE_SCREEN.bgmPrimary.value);
+    })();
+    let cancelled2 = false;
     after(INTRO_TIMING.title.promptDelayMs.value, () => {
-      if (!cancelled) setPromptVisible(true);
+      if (!cancelled2) setPromptVisible(true);
     });
     return () => {
       cancelled = true;
+      cancelled2 = true;
     };
   }, [stage, after]);
+
+  // 加载过场：轮换提示文案 + 开场 SE
+  useEffect(() => {
+    if (stage !== 'loading') return;
+    audio.playSe(LOADING_ARONA.seOpen.value);
+    const id = window.setInterval(
+      () => setTipIdx((i) => (i + 1) % LOADING_TIPS.value.length),
+      LOADING_ARONA.tipSwitchMs.value
+    );
+    return () => window.clearInterval(id);
+  }, [stage]);
 
   const start = useCallback(() => {
     if (stage !== 'title' || leaving) return;
@@ -110,14 +157,24 @@ export default function IntroFlow({ onDone }: { onDone: () => void }) {
   if (stage === 'splash') {
     const key = INTRO_TIMING.splash.studios.value[studioIdx] ?? 'nexon';
     const studio = STUDIOS[key] ?? STUDIOS.nexon!;
+    const sprite = studio.sprite ? uiAtlas.sprites[studio.sprite] : undefined;
     return (
       <div
         className="splash"
-        data-ui-source="typography-fallback"
+        data-ui-source={sprite ? 'assetbundle' : 'typography-fallback'}
         onClick={() => setStage('title')}
         style={{ opacity: fading ? 0 : 1, transition: `opacity ${INTRO_TIMING.splash.fadeMs.value}ms ease` }}
       >
-        <div className="splash-mark">{studio.name}</div>
+        {sprite ? (
+          <img
+            src={sprite.file}
+            alt={studio.name}
+            style={{ height: 56, objectFit: 'contain' }}
+            data-ui-sprite={studio.sprite}
+          />
+        ) : (
+          <div className="splash-mark">{studio.name}</div>
+        )}
         <div className="splash-sub">{studio.sub}</div>
         <div className="splash-legal">
           本软件为非官方同人作品，与 NAT GAMES / NEXON / Yostar 无关联。
@@ -127,11 +184,29 @@ export default function IntroFlow({ onDone }: { onDone: () => void }) {
   }
 
   if (stage === 'loading') {
+    const tip = LOADING_TIPS.value[tipIdx] ?? '';
     return (
-      <div className="intro-loading">
-        <div className="intro-spinner" />
-        <p>{t('intro.connecting')}</p>
-        <span className="intro-loading-hint">{t('intro.loading')}…</span>
+      <div className="ih-loading">
+        <div className="ih-arona">
+          {/* 阿罗娜立绘：图集原件 Image_Char_Arona.png（npc_portrait 无 Arona，见文件头说明） */}
+          <img
+            className="ih-portrait"
+            src={LOADING_ARONA.portrait.value}
+            alt="Arona"
+            draggable={false}
+            data-ui-source="assetbundle"
+          />
+          <div className="ih-tip" data-ui-source="assetbundle">
+            <img className="ih-badge" src={LOADING_ARONA.badge.value} alt="" draggable={false} />
+            <span key={tipIdx} className="ih-tip-text">
+              {tip}
+            </span>
+          </div>
+        </div>
+        <div className="ih-progress">
+          <i />
+        </div>
+        <div className="ih-hint">{t('intro.loading')}…</div>
       </div>
     );
   }
@@ -149,7 +224,10 @@ export default function IntroFlow({ onDone }: { onDone: () => void }) {
         <div className="title-logo-cn">蔚蓝档案</div>
         <div className="title-tag">同 人 客 户 端</div>
       </div>
-      <div className={`title-prompt${promptVisible ? ' on' : ''}`}>{t('intro.tapToStart')}</div>
+      <div className={`title-prompt${promptVisible ? ' on' : ''}`}>
+        <span className="prompt-en">{TITLE_SCREEN.promptEn.value}</span>
+        <span className="prompt-zh">{t('intro.tapToStart')}</span>
+      </div>
       <div className="title-ver">v0.2.0 · 非官方同人 · 素材版权归 NAT GAMES / NEXON</div>
     </div>
   );

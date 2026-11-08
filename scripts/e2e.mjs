@@ -182,7 +182,13 @@ if (await goto('剧情')) {
     await shot('story-ui', 300);
     await shot('story-ui-final', 300);
     for (let i = 0; i < 5; i++) {
-      await page.locator('.player-stage').click({ position: { x: 120, y: 80 } });
+      // 选项出现时点第一个选项（真分支跳转，选择器来自 StoryChoices 的 NineSlice className）；否则点舞台推进
+      const choiceBtn = page.locator('.choice-overlay .story-choice-btn').first();
+      if (await choiceBtn.count()) {
+        await choiceBtn.click();
+      } else {
+        await page.locator('.player-stage').click({ position: { x: 120, y: 80 } });
+      }
       await page.waitForTimeout(300);
     }
     await shot('08-story-advanced');

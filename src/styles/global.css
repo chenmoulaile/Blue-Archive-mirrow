@@ -2141,6 +2141,219 @@ select {
 }
 
 /* ----------------------------------------------------------------
+   剧情还原轨（story）追加样式
+   立绘舞台 / 活动分组列表 / 对话框控制按钮 / 选项分支
+   ---------------------------------------------------------------- */
+
+/* 活动剧情分组（event_story_map） */
+.story-section {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.story-section-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 8px;
+  padding: 7px 11px;
+  margin-top: 4px;
+  border-radius: 9px;
+  background: linear-gradient(90deg, rgba(63, 159, 224, 0.16), rgba(143, 216, 242, 0.05));
+  border: 1px solid rgba(63, 159, 224, 0.3);
+  font-size: 12.5px;
+}
+.story-section-head b {
+  font-size: 12.5px;
+  color: var(--ink);
+  letter-spacing: 0.5px;
+}
+.story-section-head span {
+  font-size: 11px;
+  color: var(--ink-3);
+}
+.recollection-tag {
+  display: inline-block;
+  margin-left: 6px;
+  padding: 0 6px;
+  border-radius: 6px;
+  background: rgba(255, 179, 71, 0.22);
+  color: #b47417;
+  font-size: 10px;
+  font-weight: 700;
+  vertical-align: 1px;
+}
+
+/* 立绘舞台：左右中三槽，底部对齐，说话人高亮（filter 由 StoryPortrait 内联控制） */
+.story-actor {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+.story-actor-left .story-portrait,
+.story-actor-left canvas {
+  /* 水平站位由 SpineView 相机控制（POS_FRAC），容器只负责层级 */
+}
+.story-actor-center {
+  z-index: 2;
+}
+.story-actor.active {
+  z-index: 3;
+}
+.story-actor-avatar {
+  position: absolute;
+  bottom: 172px;
+  width: 132px;
+  height: 132px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 3px solid rgba(143, 216, 242, 0.65);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.45);
+  background: #10202e;
+}
+.story-actor-avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.story-actor-left .story-actor-avatar,
+.story-actor-left .story-actor-nameplate {
+  left: 12%;
+}
+.story-actor-right .story-actor-avatar,
+.story-actor-right .story-actor-nameplate {
+  right: 12%;
+}
+.story-actor-center .story-actor-avatar,
+.story-actor-center .story-actor-nameplate {
+  left: 50%;
+  transform: translateX(-50%);
+}
+.story-actor-nameplate {
+  position: absolute;
+  bottom: 200px;
+  padding: 8px 18px;
+  border-radius: 10px;
+  background: rgba(10, 24, 38, 0.78);
+  border: 1px solid rgba(143, 216, 242, 0.4);
+  color: #cfe8f8;
+  font-size: 13px;
+  letter-spacing: 1px;
+}
+
+/* 无立绘资源时的对话框角落头像 */
+.dialog-corner-avatar {
+  position: absolute;
+  right: 108px;
+  top: -46px;
+  width: 58px;
+  height: 58px;
+  border-radius: 50%;
+  border: 2px solid rgba(143, 216, 242, 0.7);
+  object-fit: cover;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.4);
+}
+
+/* 对话框右下控制按钮组（LOG / AUTO / SKIP，真素材见 StoryDialog.tsx 注释） */
+.dialog-controls {
+  position: absolute;
+  right: 14px;
+  top: -26px;
+  display: flex;
+  gap: 7px;
+  align-items: center;
+}
+.ctrl-btn {
+  padding: 0;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+.ctrl-btn .ctrl-img,
+.ctrl-btn .ctrl-slice {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 46px;
+  height: 40px;
+  border-radius: 9px;
+  overflow: hidden;
+  transition: filter 0.15s, transform 0.15s;
+}
+.ctrl-btn:hover .ctrl-img,
+.ctrl-btn:hover .ctrl-slice {
+  filter: brightness(1.25);
+  transform: translateY(-1px);
+}
+.ctrl-btn.on .ctrl-img,
+.ctrl-btn.on .ctrl-slice {
+  box-shadow: 0 0 0 2px rgba(143, 216, 242, 0.75);
+}
+.ctrl-glyph {
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 1px;
+  color: #e8f5fd;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.7);
+}
+
+/* 打字机光标 */
+.player-dialog .type-cursor {
+  color: #8fd8f2;
+  animation: blink 0.9s steps(2) infinite;
+}
+
+/* 选项层：真分支按钮（TBG/Common_Btn_BG 白色遮罩上色） */
+.choice-overlay {
+  position: absolute;
+  left: 50%;
+  top: 44%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: min(520px, 74%);
+  z-index: 6;
+}
+.choice-overlay .story-choice-btn {
+  display: flex;
+  align-items: center;
+  min-height: 56px;
+  padding: 13px 26px;
+  font-size: 14.5px;
+  line-height: 1.5;
+  text-align: left;
+  cursor: pointer;
+  transition: transform 0.15s, filter 0.15s;
+  box-shadow: 0 8px 22px rgba(0, 0, 0, 0.35);
+}
+.choice-overlay .story-choice-btn:hover {
+  transform: translateX(5px);
+  filter: brightness(0.96);
+}
+.choice-overlay .story-choice-text {
+  flex: 1;
+  color: #16324a; /* 白色遮罩底板上的深色文字（真实游戏为白底黑字） */
+  font-weight: 600;
+}
+.choice-overlay .story-choice-btn::before {
+  content: '▶';
+  margin-right: 12px;
+  color: var(--ba-blue);
+  font-size: 12px;
+}
+
+/* 分支徽标（底栏，显示当前分支号） */
+.branch-badge {
+  padding: 2px 9px;
+  border-radius: 7px;
+  background: rgba(255, 179, 71, 0.2);
+  color: #b47417;
+  font-size: 11px;
+  font-weight: 700;
+}
+
+/* ----------------------------------------------------------------
    MomoTalk 还原轨 (momotalk-w1) 增量样式
    结构：.momo 基础栅格沿用旧规则，.mt-* 全部为本轨新增。
    气泡用 ui_atlas 原件 Common/School_Chat_BG 九宫格（白模上色，

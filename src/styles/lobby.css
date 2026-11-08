@@ -80,19 +80,19 @@
 
 /* ---------------------------------------------------------------- 大厅 HUD 增量 */
 
-/* 右侧竖排菜单的九宫格修饰：NineSlice 内联 border-image 生效时去掉毛玻璃底 */
+/* 右侧竖排菜单的九宫格修饰：border-image 内联生效时去掉毛玻璃底 */
 .side-btn.ns {
   background: none;
   border-color: transparent;
   backdrop-filter: none;
   box-shadow: 0 4px 14px rgba(0, 0, 0, 0.35);
 }
-.side-btn.ns > .ns-icon {
-  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.5));
-}
 .side-btn.ns:hover {
   background: none;
   transform: translateY(-2px) scale(1.05);
+}
+.side-btn.ns img {
+  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.5));
 }
 
 /* 左下编队/任务入口 */
@@ -138,6 +138,9 @@
 }
 .lb-momo:hover {
   transform: translateY(-3px) scale(1.04);
+}
+.lb-momo.birthday {
+  animation: birthdayShake 2.6s ease-in-out infinite;
 }
 .lb-momo-badge {
   position: absolute;

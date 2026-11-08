@@ -1,41 +1,70 @@
 /**
- * 主界面（ロビー）
+ * 主界面（ロビー）—— 进入流程第一屏之后的游戏大厅
  *
- * 分区按日文 Wiki ロビー页的 ①~⑲ 标注：
- *   顶部栏（老师信息 / AP / 信用点 / 青辉石）
- *   右侧功能列（MomoTalk ①、Mission ②、Mail ③、Menu ④、Cafe ⑤、Student ⑥、Formation ⑦、Gacha ⑧）
- *   底部导航、事件横幅（右上圆形 + 左下方形）、看板娘、菜单弹窗
+ * 布局对照真实游戏（Wiki ロビー分区 + Steam 简中客户端）：
+ *   - 顶栏：老师信息（等级/经验）+ 体力(AP)/信用点/青辉石，数字全部走 store
+ *     （AP 按离线时长恢复，参数见 AP_REGEN；信用点/青辉石在 save.currency）
+ *   - 中央：学生回忆大厅 Spine 模型（LobbyStage，滚轮缩放/拖拽平移/点击互动）
+ *   - 右侧竖排功能菜单：日程表/作战/咖啡厅/商店/社团/制造/招募/邮件/菜单，
+ *     九宫格真素材按钮（Common_Btn_Circle_W 底板 + 图集图标）
+ *   - 左下：编队/任务入口（Common_Btn_Normal_* 底板）
+ *   - 右下：MomoTalk 大入口 + 未读角标（联动桃信轨的 bond 会话未读数）
+ *   - 保留：事件横幅、菜单弹窗、长按隐藏 UI、底部导航（e2e 依赖 .bottom-item）
  *
- * 所有尺寸取自 game-ui-spec.ts 的 1920×1080 基准，按窗口宽度等比换算。
- * 图标优先用提取到的 UI 图集；没有原件时渲染中性占位并打 data-ui-source="css-fallback"，
- * 不伪造 BA 风格按钮（重构要求 3.3）。
+ * 按钮反馈 SE 统一走 audio.playSe（LOBBY_SE，se_index.json 实测存在）。
  */
-import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
+import { useCallback, useEffect, useMemo, useRef, useState, type CSSProperties } from 'react';
 import { useApp } from '../core/AppContext';
-import { useSave, store, cafeIncome } from '../core/store';
+import { useSave, store, cafeIncome, apRecharge, AP_MAX } from '../core/store';
 import { audio } from '../core/audio';
 import { UIIcon } from '../components/NineSlice';
+import { nineSliceStyle } from '../core/ui-atlas';
 import { Glyph, type GlyphName } from '../components/Glyph';
+import { LobbyStage } from '../components/LobbyStage';
 import {
   TOP_BAR,
-  SIDE_MENU,
-  SIDE_MENU_SPEC,
   BOTTOM_NAV,
   EVENT_BANNER,
   MENU_POPUP,
+  SIDE_MENU_REAL,
+  SIDE_MENU_REAL_SPEC,
+  LOBBY_QUICK_BTN,
+  MOMOTALK_ENTRY,
+  TOP_CURRENCY_ICONS,
+  AP_REGEN,
+  LOBBY_SE,
 } from '../core/game-ui-spec';
 import { t } from '../core/i18n';
 import type { View } from '../core/AppContext';
+import type { Student } from '../types';
+import '../styles/lobby.css';
 
-const SIDE_TARGET: Record<string, View> = {
-  momotalk: 'momotalk',
-  cafe: 'cafe',
-  student: 'memorial',
-  formation: 'memorial',
-  gacha: 'gacha',
+/** 右侧菜单的跳转目标；没有实装页的项给 toast 提示 */
+const SIDE_TARGET: Partial<Record<string, View>> = {
   mission: 'story',
+  cafe: 'cafe',
+  gacha: 'gacha',
   mail: 'momotalk',
-  menu: 'settings',
+  schedule: 'events',
+};
+
+const NOT_IMPLEMENTED: Partial<Record<string, string>> = {
+  shop: '商店尚未实装（信用点与道具在剧情奖励中发放）',
+  club: '社团尚未实装',
+  craft: '制造尚未实装',
+};
+
+/** 图集缺失时 Glyph 兜底用的近似图标（GlyphName 里没有 schedule/shop/club/craft） */
+const SIDE_GLYPH_FALLBACK: Record<string, GlyphName> = {
+  schedule: 'events',
+  mission: 'mission',
+  cafe: 'cafe',
+  shop: 'item',
+  club: 'student',
+  craft: 'equipment',
+  gacha: 'gacha',
+  mail: 'mail',
+  menu: 'menu',
 };
 
 const BOTTOM_ITEMS: { key: string; label: string; view: View; icon: GlyphName }[] = [
@@ -62,21 +91,61 @@ function useScale(): number {
 }
 
 export default function HomePage() {
-  const { assets, go, toast } = useApp();
+  const { assets, go, toast, uiAtlas } = useApp();
   const save = useSave();
   const s = useScale();
   const P = useCallback((n: number) => Math.round(n * s), [s]);
 
+  /**
+   * 九宫格按钮底板内联样式。
+   * 不走 NineSlice 组件的原因：e2e 依赖 `.side-btn[data-zone="④"]`，
+   * data-zone 必须直接挂在 button 上（NineSlice 不透传 data-*）。
+   * 图集缺失时返回空对象，按钮退回 global.css 的毛玻璃兜底样式。
+   */
+  const nsPlate = useCallback(
+    (name: string): CSSProperties => {
+      const sp = uiAtlas.sprites[name];
+      return sp ? nineSliceStyle(sp, true) : {};
+    },
+    [uiAtlas]
+  );
+  const hasPlate = (name: string): boolean => Boolean(uiAtlas.sprites[name]);
+
   const [menuOpen, setMenuOpen] = useState(false);
   const [uiHidden, setUiHidden] = useState(false);
   const [bannerIdx, setBannerIdx] = useState(0);
+  const [line, setLine] = useState('');
+  const [apNow, setApNow] = useState(() => Date.now());
   const holdTimer = useRef<number | null>(null);
+  const lineTimer = useRef<number | null>(null);
 
-  // 看板娘：优先上次选的学生，否则挑一个有回忆大厅封面的
+  // 中央学生：优先上次选的（599 是记忆大厅默认位），否则第一个有 home 模型的
+  const lobbyStudents = useMemo(
+    () => assets.students.filter((x) => x.home_spine && !x.is_npc),
+    [assets.students]
+  );
   const kanban = useMemo(() => {
-    const withLobby = assets.students.filter((x) => x.lobby && !x.is_npc);
-    return withLobby.find((x) => x.id === 599) ?? withLobby[0] ?? assets.students[0] ?? null;
-  }, [assets.students]);
+    const withLobby = lobbyStudents.length > 0 ? lobbyStudents : assets.students;
+    return withLobby.find((x) => x.id === 599) ?? withLobby[0] ?? null;
+  }, [lobbyStudents, assets.students]);
+
+  // 好感度 key：与桃信轨共用 save.momotalk.favor，key 取 bond 会话前缀
+  const favorKey = useMemo(() => {
+    if (!kanban) return null;
+    const idx = new Map<string, string>();
+    for (const st of assets.storyIndex) {
+      if (st.type !== 'bond') continue;
+      const k = st.id.split('/')[0] ?? st.id;
+      idx.set(k.toLowerCase(), k);
+    }
+    return (
+      idx.get(kanban.given_en.toLowerCase()) ??
+      idx.get(kanban.given.toLowerCase()) ??
+      idx.get(kanban.name_en.toLowerCase()) ??
+      idx.get(kanban.name.toLowerCase()) ??
+      null
+    );
+  }, [assets.storyIndex, kanban]);
 
   const kanbanBg = useMemo(() => {
     for (const name of ['BG_View_Schale', 'BG_CityOffice', 'BG_MainOffice']) {
@@ -86,7 +155,7 @@ export default function HomePage() {
     return null;
   }, [assets]);
 
-  // MomoTalk 未读：羁绊剧情里有会话但没读过的学生数
+  // MomoTalk 未读：羁绊剧情里有会话但没读过的学生数（与桃信轨同一约定）
   const momoUnread = useMemo(() => {
     const keys = new Set<string>();
     for (const st of assets.storyIndex) {
@@ -122,11 +191,33 @@ export default function HomePage() {
   useEffect(() => {
     if (!menuOpen) return;
     const onKey = (e: KeyboardEvent): void => {
-      if (e.key === 'Escape') setMenuOpen(false);
+      if (e.key === 'Escape') {
+        setMenuOpen(false);
+        audio.playSe(LOBBY_SE.popupClose.value);
+      }
     };
     window.addEventListener('keydown', onKey);
     return () => window.removeEventListener('keydown', onKey);
   }, [menuOpen]);
+
+  // 体力：每 tickMs 重算显示；离线恢复的部分写回 store（有变化才写）
+  useEffect(() => {
+    const id = window.setInterval(() => setApNow(Date.now()), AP_REGEN.tickMs.value);
+    return () => window.clearInterval(id);
+  }, []);
+  const apValue = useMemo(() => {
+    const base = save.ap ?? { value: AP_MAX, updatedAt: Date.now() };
+    return apRecharge(base, apNow).value;
+  }, [save.ap, apNow]);
+  useEffect(() => {
+    const base = save.ap ?? { value: AP_MAX, updatedAt: Date.now() };
+    const charged = apRecharge(base, Date.now());
+    if (charged.value !== base.value) {
+      store.update((d) => {
+        d.ap = charged;
+      });
+    }
+  }, [save.ap]);
 
   // 咖啡厅收益提示
   const { amount } = cafeIncome(
@@ -134,20 +225,31 @@ export default function HomePage() {
     Date.now() - save.cafe.lastCollect
   );
 
-  const badgeText = (n: number): string =>
-    n > 99 ? '+' : String(n).slice(0, SIDE_MENU_SPEC.badge.maxDigits.value);
+  const badgeText = (n: number): string => (n > 99 ? '99+' : String(n));
 
-  const handleSide = (key: string): void => {
-    if (key === 'menu') {
-      setMenuOpen(true);
-      return;
-    }
-    if (key === 'momotalk' && birthdayToday.length > 0) {
-      audio.playSe('SE_Celebration');
-    }
-    const target = SIDE_TARGET[key];
-    if (target) go(target);
-  };
+  const se = useCallback((id: string) => audio.playSe(id), []);
+
+  const handleSide = useCallback(
+    (key: string) => {
+      se(LOBBY_SE.click.value);
+      if (key === 'menu') {
+        setMenuOpen(true);
+        se(LOBBY_SE.popupOpen.value);
+        return;
+      }
+      if (key === 'mail' && birthdayToday.length > 0) {
+        se(LOBBY_SE.bell.value);
+      }
+      const hint = NOT_IMPLEMENTED[key];
+      if (hint) {
+        toast(hint);
+        return;
+      }
+      const target = SIDE_TARGET[key];
+      if (target) go(target);
+    },
+    [se, toast, go, birthdayToday]
+  );
 
   const onHoldStart = (): void => {
     holdTimer.current = window.setTimeout(() => {
@@ -162,6 +264,12 @@ export default function HomePage() {
     }
   };
 
+  const showLine = useCallback((msg: string) => {
+    setLine(msg);
+    if (lineTimer.current) window.clearTimeout(lineTimer.current);
+    lineTimer.current = window.setTimeout(() => setLine(''), 2600);
+  }, []);
+
   const teacher = save.teacher;
   const expPct = Math.min(100, (teacher.exp % 1000) / 10);
 
@@ -172,7 +280,7 @@ export default function HomePage() {
       onPointerUp={onHoldEnd}
       onPointerLeave={onHoldEnd}
     >
-      {/* 背景：优先用当前看板娘的回忆大厅 CG，没有则退回校园背景 */}
+      {/* 背景：当前学生的回忆大厅 CG；模型缺失时它也撑住画面 */}
       <div
         className="home-bg"
         style={
@@ -185,9 +293,17 @@ export default function HomePage() {
       />
       <div className="home-veil" />
 
+      {/* 中央学生 Spine（缩放/拖拽/点击互动见 LobbyStage） */}
+      <LobbyStage
+        student={kanban}
+        favorKey={favorKey}
+        onLine={showLine}
+        className="home-stage"
+      />
+
       {!uiHidden && (
         <>
-          {/* 顶部栏 */}
+          {/* 顶栏 */}
           <header className="home-top" style={{ height: P(TOP_BAR.height.value), padding: `0 ${P(TOP_BAR.paddingX.value)}px` }}>
             <div className="teacher">
               <div
@@ -215,19 +331,21 @@ export default function HomePage() {
             </div>
 
             <div className="resources" style={{ gap: P(TOP_BAR.resources.gap.value) }}>
-              <div className="res" title={t('lobby.ap')}>
-                <UIIcon name="icon_ap" size={P(TOP_BAR.resources.iconSize.value)} fallback="⚡" />
-                <b style={{ fontSize: P(TOP_BAR.resources.fontSiz.value) }}>240</b>
+              <div className="res" title={`${t('lobby.ap')}（每 ${AP_REGEN.minutesPerPoint.value} 分钟恢复 1 点）`}>
+                <UIIcon name={TOP_CURRENCY_ICONS.stamina.value} size={P(TOP_BAR.resources.iconSize.value)} fallback="⚡" />
+                <b style={{ fontSize: P(TOP_BAR.resources.fontSiz.value) }}>
+                  {apValue}/{AP_REGEN.max.value}
+                </b>
                 <span className="plus">+</span>
               </div>
               <div className="res" title={t('lobby.credit')}>
-                <UIIcon name="icon_credit" size={P(TOP_BAR.resources.iconSize.value)} fallback="◈" />
+                <UIIcon name={TOP_CURRENCY_ICONS.credit.value} size={P(TOP_BAR.resources.iconSize.value)} fallback="◈" />
                 <b style={{ fontSize: P(TOP_BAR.resources.fontSiz.value) }}>
-                  {(save.currency.pyroxene * 10).toLocaleString()}
+                  {(save.currency.credit ?? 0).toLocaleString()}
                 </b>
               </div>
               <div className="res" title={t('lobby.pyroxene')}>
-                <UIIcon name="icon_pyroxene" size={P(TOP_BAR.resources.iconSize.value)} fallback="✦" />
+                <UIIcon name={TOP_CURRENCY_ICONS.pyroxene.value} size={P(TOP_BAR.resources.iconSize.value)} fallback="✦" />
                 <b style={{ fontSize: P(TOP_BAR.resources.fontSiz.value) }}>
                   {save.currency.pyroxene.toLocaleString()}
                 </b>
@@ -241,45 +359,43 @@ export default function HomePage() {
             </div>
           </header>
 
-          {/* 右侧功能列 */}
+          {/* 右侧功能菜单（九宫格真素材按钮） */}
           <aside
             className="home-side"
-            style={{ right: P(SIDE_MENU_SPEC.rightMargin.value), bottom: P(SIDE_MENU_SPEC.bottomOffset.value), gap: P(SIDE_MENU_SPEC.gap.value) }}
+            style={{
+              right: P(SIDE_MENU_REAL_SPEC.rightMargin.value),
+              bottom: P(SIDE_MENU_REAL_SPEC.bottomOffset.value),
+              gap: P(SIDE_MENU_REAL_SPEC.gap.value),
+            }}
           >
-            {SIDE_MENU.map((item) => {
-              const isMomo = item.key === 'momotalk';
-              const hasBirthday = isMomo && birthdayToday.length > 0;
-              const unread = isMomo ? momoUnread : item.key === 'cafe' ? (amount > 0 ? 1 : 0) : 0;
+            {SIDE_MENU_REAL.map((item) => {
+              const plate = SIDE_MENU_REAL_SPEC.plate.value;
+              const bday = item.key === 'mail' && birthdayToday.length > 0;
+              // 咖啡厅有可领收益时亮角标（真实游戏咖啡厅图标会提示收益）
+              const cafeReady = item.key === 'cafe' && amount > 0;
               return (
                 <button
                   key={item.key}
-                  className={`side-btn${hasBirthday ? ' birthday' : ''}`}
-                  style={{ width: P(SIDE_MENU_SPEC.iconSize.value), height: P(SIDE_MENU_SPEC.iconSize.value) }}
+                  className={`side-btn${hasPlate(plate) ? ' ns' : ''}${bday ? ' birthday' : ''}`}
+                  style={{
+                    ...nsPlate(plate),
+                    width: P(SIDE_MENU_REAL_SPEC.iconSize.value),
+                    height: P(SIDE_MENU_REAL_SPEC.iconSize.value),
+                  }}
+                  data-zone={item.zone}
+                  data-ui-sprite={plate}
+                  data-ui-source={hasPlate(plate) ? 'assetbundle' : 'css-fallback'}
                   onClick={() => handleSide(item.key)}
                   title={item.label}
-                  data-zone={item.zone}
                 >
                   <UIIcon
-                    name={`icon_${item.key}`}
-                    size={P(SIDE_MENU_SPEC.iconSize.value * 0.6)}
-                    fallback={
-                      <Glyph
-                        name={hasBirthday ? 'gacha' : (item.key as GlyphName)}
-                        size={P(SIDE_MENU_SPEC.iconSize.value * 0.6)}
-                        style={hasBirthday ? { color: '#ffd76e' } : undefined}
-                      />
-                    }
+                    name={item.icon}
+                    size={P(SIDE_MENU_REAL_SPEC.iconSize.value * 0.58)}
+                    fallback={<Glyph name={SIDE_GLYPH_FALLBACK[item.key] ?? 'menu'} size={P(SIDE_MENU_REAL_SPEC.iconSize.value * 0.58)} />}
                   />
-                  {unread > 0 && (
-                    <span
-                      className="side-badge"
-                      style={{
-                        fontSize: P(SIDE_MENU_SPEC.badge.fontSiz.value),
-                        minWidth: P(SIDE_MENU_SPEC.badge.size.value),
-                        height: P(SIDE_MENU_SPEC.badge.size.value),
-                      }}
-                    >
-                      {badgeText(unread)}
+                  {cafeReady && (
+                    <span className="side-badge" style={{ fontSize: P(13), minWidth: P(22), height: P(22) }}>
+                      ¥
                     </span>
                   )}
                 </button>
@@ -287,13 +403,92 @@ export default function HomePage() {
             })}
           </aside>
 
-          {/* 看板娘信息条 */}
+          {/* 左下：编队 / 任务入口（Common_Btn_Normal_* 九宫格底板） */}
+          <div
+            className="lb-quick"
+            style={{ left: P(LOBBY_QUICK_BTN.left.value), bottom: P(LOBBY_QUICK_BTN.bottom.value) }}
+          >
+            <button
+              className={`lb-quick-btn${hasPlate(LOBBY_QUICK_BTN.plateB.value) ? ' ns' : ''}`}
+              style={{
+                ...nsPlate(LOBBY_QUICK_BTN.plateB.value),
+                width: P(LOBBY_QUICK_BTN.width.value),
+                height: P(LOBBY_QUICK_BTN.height.value),
+                fontSize: P(17),
+              }}
+              data-ui-sprite={LOBBY_QUICK_BTN.plateB.value}
+              data-ui-source={hasPlate(LOBBY_QUICK_BTN.plateB.value) ? 'assetbundle' : 'css-fallback'}
+              onClick={() => {
+                se(LOBBY_SE.click.value);
+                go('memorial');
+              }}
+              title="编队（学生一览）"
+            >
+              <UIIcon name={LOBBY_QUICK_BTN.formationIcon.value} size={P(30)} fallback={<Glyph name="memorial" size={P(30)} />} />
+              {t('nav.formation')}
+            </button>
+            <button
+              className={`lb-quick-btn${hasPlate(LOBBY_QUICK_BTN.plateY.value) ? ' ns' : ''}`}
+              style={{
+                ...nsPlate(LOBBY_QUICK_BTN.plateY.value),
+                width: P(LOBBY_QUICK_BTN.width.value),
+                height: P(LOBBY_QUICK_BTN.height.value),
+                fontSize: P(17),
+              }}
+              data-ui-sprite={LOBBY_QUICK_BTN.plateY.value}
+              data-ui-source={hasPlate(LOBBY_QUICK_BTN.plateY.value) ? 'assetbundle' : 'css-fallback'}
+              onClick={() => {
+                se(LOBBY_SE.click.value);
+                go('story');
+              }}
+              title="任务（作战剧情）"
+            >
+              <UIIcon name={LOBBY_QUICK_BTN.missionIcon.value} size={P(30)} fallback={<Glyph name="story" size={P(30)} />} />
+              {t('nav.mission')}
+            </button>
+          </div>
+
+          {/* 右下：MomoTalk 大入口 + 未读角标（生日当天抖动提示） */}
+          <button
+            className={`lb-momo${birthdayToday.length > 0 ? ' birthday' : ''}`}
+            style={{
+              width: P(MOMOTALK_ENTRY.width.value),
+              height: P(MOMOTALK_ENTRY.height.value),
+              right: P(MOMOTALK_ENTRY.right.value),
+              bottom: P(MOMOTALK_ENTRY.bottom.value),
+            }}
+            onClick={() => {
+              se(LOBBY_SE.click.value);
+              go('momotalk');
+            }}
+            title="MomoTalk"
+          >
+            <UIIcon
+              name={MOMOTALK_ENTRY.icon.value}
+              size={P(MOMOTALK_ENTRY.width.value * 0.72)}
+              fallback={<Glyph name="momotalk" size={P(MOMOTALK_ENTRY.width.value * 0.6)} />}
+            />
+            {momoUnread > 0 && (
+              <span
+                className="lb-momo-badge"
+                style={{ fontSize: P(13), minWidth: P(24), height: P(24) }}
+              >
+                {badgeText(momoUnread)}
+              </span>
+            )}
+          </button>
+
+          {/* 左下学生信息条：名字 + 语音字幕 */}
           {kanban && (
-            <div className="kanban-bar" style={{ left: P(EVENT_BANNER.square.left.value), bottom: P(EVENT_BANNER.square.bottom.value + EVENT_BANNER.square.height.value + 12) }}>
-              <span className="kanban-name">{kanban.name}</span>
-              <button className="kanban-toggle" onClick={() => go('memorial')} title="进入记忆大厅">
-                L2D
-              </button>
+            <div
+              className="lb-namebar"
+              style={{
+                left: P(LOBBY_QUICK_BTN.left.value),
+                bottom: P(LOBBY_QUICK_BTN.bottom.value + LOBBY_QUICK_BTN.height.value + 14),
+              }}
+            >
+              <b>{kanban.name}</b>
+              {line && <span>{line}</span>}
             </div>
           )}
 
@@ -306,9 +501,12 @@ export default function HomePage() {
                   width: P(EVENT_BANNER.round.size.value),
                   height: P(EVENT_BANNER.round.size.value),
                   top: P(EVENT_BANNER.round.top.value),
-                  right: P(EVENT_BANNER.round.right.value),
+                  right: P(EVENT_BANNER.round.right.value + SIDE_MENU_REAL_SPEC.iconSize.value + SIDE_MENU_REAL_SPEC.rightMargin.value),
                 }}
-                onClick={() => go('events')}
+                onClick={() => {
+                  se(LOBBY_SE.click.value);
+                  go('events');
+                }}
                 title={banners[bannerIdx]!.title}
               >
                 <span>{banners[bannerIdx]!.title.slice(0, 6)}</span>
@@ -319,9 +517,12 @@ export default function HomePage() {
                   width: P(EVENT_BANNER.square.width.value),
                   height: P(EVENT_BANNER.square.height.value),
                   left: P(EVENT_BANNER.square.left.value),
-                  bottom: P(EVENT_BANNER.square.bottom.value),
+                  bottom: P(EVENT_BANNER.square.bottom.value + LOBBY_QUICK_BTN.height.value + 26),
                 }}
-                onClick={() => go('events')}
+                onClick={() => {
+                  se(LOBBY_SE.click.value);
+                  go('events');
+                }}
               >
                 <b>{banners[bannerIdx]!.title}</b>
                 <span>
@@ -331,10 +532,17 @@ export default function HomePage() {
             </>
           )}
 
-          {/* 底部导航 */}
+          {/* 底部导航（e2e 依赖 .bottom-item） */}
           <nav className="home-bottom" style={{ height: P(BOTTOM_NAV.height.value) }}>
             {BOTTOM_ITEMS.map((it) => (
-              <button key={it.key} className="bottom-item" onClick={() => go(it.view)}>
+              <button
+                key={it.key}
+                className="bottom-item"
+                onClick={() => {
+                  se(LOBBY_SE.click.value);
+                  go(it.view);
+                }}
+              >
                 <UIIcon
                   name={`nav_${it.key}`}
                   size={P(BOTTOM_NAV.iconSize.value)}
@@ -358,11 +566,14 @@ export default function HomePage() {
         <div
           className="menu-dim"
           style={{ background: `rgba(6,14,24,${MENU_POPUP.dimAlpha.value})` }}
-          onClick={() => setMenuOpen(false)}
+          onClick={() => {
+            setMenuOpen(false);
+            se(LOBBY_SE.popupClose.value);
+          }}
         >
           <div className="menu-panel" onClick={(e) => e.stopPropagation()}>
             {MENU_POPUP.items.value.map((key) => (
-              <button key={key} className="menu-item" onClick={() => setMenuOpen(false)}>
+              <button key={key} className="menu-item" onClick={() => se(LOBBY_SE.click.value)}>
                 <UIIcon
                   name={`menu_${key}`}
                   size={P(MENU_POPUP.iconSize.value)}
@@ -374,6 +585,7 @@ export default function HomePage() {
             <button
               className="menu-item"
               onClick={() => {
+                se(LOBBY_SE.click.value);
                 setMenuOpen(false);
                 go('settings');
               }}

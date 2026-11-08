@@ -296,17 +296,19 @@ export const HOME_STAGE = {
  * （日程表/作战/咖啡厅/商店/社团/制造/招募/邮件/菜单），图标全部用
  * 提取到的 UI 图集原件（key 实测存在于 data/ui_atlas.json）。
  * sprite 名与图标尺寸来自图集，属 assetbundle；排列顺序为 wiki_layout。
+ * zone 沿用 Wiki ①~⑲ 标注：Menu=④（菜单弹窗入口，e2e 依赖该约定），
+ * 其余项在剩余标注里按序分配。
  */
 export const SIDE_MENU_REAL = [
   { key: 'schedule', label: '日程表', icon: 'Common/Common_Icon_Map', zone: '①' },
   { key: 'mission', label: '作战', icon: 'Common/Common_Icon_Mission', zone: '②' },
   { key: 'cafe', label: '咖啡厅', icon: 'Common/Common_Icon_Cafe', zone: '③' },
-  { key: 'shop', label: '商店', icon: 'Common/Common_Icon_Shop', zone: '④' },
-  { key: 'club', label: '社团', icon: 'Common/Common_Icon_Social', zone: '⑤' },
-  { key: 'craft', label: '制造', icon: 'Common/Common_Icon_Craft', zone: '⑥' },
-  { key: 'gacha', label: '招募', icon: 'Common/Common_Icon_Gacha', zone: '⑦' },
-  { key: 'mail', label: '邮件', icon: 'Common/Common_Icon_Mail', zone: '⑧' },
-  { key: 'menu', label: '菜单', icon: 'Common/Common_Icon_Option', zone: '⑨' },
+  { key: 'shop', label: '商店', icon: 'Common/Common_Icon_Shop', zone: '⑤' },
+  { key: 'club', label: '社团', icon: 'Common/Common_Icon_Social', zone: '⑥' },
+  { key: 'craft', label: '制造', icon: 'Common/Common_Icon_Craft', zone: '⑦' },
+  { key: 'gacha', label: '招募', icon: 'Common/Common_Icon_Gacha', zone: '⑧' },
+  { key: 'mail', label: '邮件', icon: 'Common/Common_Icon_Mail', zone: '⑨' },
+  { key: 'menu', label: '菜单', icon: 'Common/Common_Icon_Option', zone: '④' },
 ] as const;
 
 export const SIDE_MENU_REAL_SPEC = {
@@ -332,7 +334,7 @@ export const LOBBY_QUICK_BTN = {
 };
 
 /** 右下 MomoTalk 大入口 */
-export const MOMOTALT_ENTRY = {
+export const MOMOTALK_ENTRY = {
   icon: v('Common/Common_Icon_MoMoTalk', 'assetbundle', '实测 92×129'),
   /** 红点角标原件 */
   reddot: v('Common/Common_Icon_Reddot', 'assetbundle', '实测 39×35'),
@@ -438,6 +440,6 @@ export function countEstimates(): { total: number; estimate: number } {
     }
     for (const child of Object.values(node as Record<string, unknown>)) walk(child);
   };
-  walk({ TOP_BAR, SIDE_MENU_SPEC, BOTTOM_NAV, EVENT_BANNER, KANBAN, MENU_POPUP, INTRO_TIMING, STORY_UI, MOMOTALK_UI, GACHA_UI, LOBBY_UI, HOME_STAGE, SIDE_MENU_REAL, SIDE_MENU_REAL_SPEC, LOBBY_QUICK_BTN, MOMOTALT_ENTRY, TOP_CURRENCY_ICONS, AP_REGEN, TITLE_SCREEN, LOADING_ARONA, LOADING_TIPS, LOBBY_SE });
+  walk({ TOP_BAR, SIDE_MENU_SPEC, BOTTOM_NAV, EVENT_BANNER, KANBAN, MENU_POPUP, INTRO_TIMING, STORY_UI, MOMOTALK_UI, GACHA_UI, LOBBY_UI, HOME_STAGE, SIDE_MENU_REAL, SIDE_MENU_REAL_SPEC, LOBBY_QUICK_BTN, MOMOTALK_ENTRY, TOP_CURRENCY_ICONS, AP_REGEN, TITLE_SCREEN, LOADING_ARONA, LOADING_TIPS, LOBBY_SE });
   return { total, estimate };
 }

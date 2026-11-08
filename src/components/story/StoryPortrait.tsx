@@ -77,7 +77,23 @@ export function StoryPortrait({
   }, [expression]);
 
   useEffect(() => {
-    camRef.current?.(POS_FRAC[posRef.current], zoomRef.current);
+    fracRef.current = POS_FRAC[pos];
+    const canvas = canvasRef.current;
+    if (!canvas) return;
+    const cam = camObjRef.current;
+    if (!cam) return;
+    const vw = Math.max(canvas.width, 1);
+    const vh = Math.max(canvas.height, 1);
+    const z = zoomRef.current;
+    cam.setViewport(vw, vh);
+    const fitH = baseRef.current.h / vh;
+    cam.zoom = fitH / Math.max(z, 0.2);
+    cam.position.set(
+      baseRef.current.cx - (fracRef.current - 0.5) * (vw * cam.zoom),
+      baseRef.current.cy - (baseRef.current.h * (z - 1)) / (2 * z),
+      0
+    );
+    cam.update();
   }, [pos]);
 
   useEffect(() => {
@@ -89,24 +105,22 @@ export function StoryPortrait({
     canvas.height = Math.max(1, Math.floor(rect.height * dpr));
 
     let disposed = false;
-    let base = { cx: 0, cy: 0, h: 1000 };
-    let fracX = POS_FRAC[posRef.current];
 
-    const applyCam = (f: number, z: number) => {
-      fracX = f;
-      const cam = camRef.currentCam;
+    const applyCam = () => {
+      const cam = camObjRef.current;
       if (!cam) return;
       const vw = Math.max(canvas.width, 1);
       const vh = Math.max(canvas.height, 1);
+      const z = zoomRef.current;
       cam.setViewport(vw, vh);
       // 高度铺满：fit = 模型高 / 视口高（世界单位每像素）；zoom 再放大出血
-      const fitH = base.h / vh;
+      const fitH = baseRef.current.h / vh;
       cam.zoom = fitH / Math.max(z, 0.2);
-      // 底部对齐：zoom>1 时模型上下各出血 (z-1)/2，把相机中心下移一半出血量，
-      // 让出血全部留在上方（立绘脚底贴住对话框上沿）
+      // 站位：模型中心要落在画面 frac 处 => cam.x = cx - (frac-0.5)*视野世界宽
+      // 底部对齐：画面底边对到模型脚 => cam.y = cy - h(z-1)/(2z)
       cam.position.set(
-        base.cx + (f - 0.5) * (vw * cam.zoom),
-        base.cy - (base.h * (z - 1)) / 2,
+        baseRef.current.cx - (fracRef.current - 0.5) * (vw * cam.zoom),
+        baseRef.current.cy - (baseRef.current.h * (z - 1)) / (2 * z),
         0
       );
       cam.update();
@@ -142,11 +156,10 @@ export function StoryPortrait({
           const offset = new Vector2();
           const size = new Vector2();
           skeleton.getBounds(offset, size, []);
-          base = { cx: offset.x + size.x / 2, cy: offset.y + size.y / 2, h: Math.max(size.y, 1) };
+          baseRef.current = { cx: offset.x + size.x / 2, cy: offset.y + size.y / 2, h: Math.max(size.y, 1) };
 
-          const cam = c.renderer.camera;
-          camRef.currentCam = cam;
-          applyCam(fracX, zoomRef.current);
+          camObjRef.current = c.renderer.camera as unknown as typeof camObjRef.current;
+          applyCam();
         } catch (e) {
           if (!disposed) {
             setFailed(true);
@@ -190,7 +203,7 @@ export function StoryPortrait({
       if (r.width < 2 || r.height < 2) return;
       canvas.width = Math.floor(r.width * dpr);
       canvas.height = Math.floor(r.height * dpr);
-      applyCam(fracX, zoomRef.current);
+      applyCam();
     });
     ro.observe(canvas);
 
@@ -200,7 +213,7 @@ export function StoryPortrait({
       sc.dispose();
       stateRef.current = null;
       skeletonRef.current = null;
-      camRef.currentCam = null;
+      camObjRef.current = null;
     };
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [skelUrl, atlasUrl]);
