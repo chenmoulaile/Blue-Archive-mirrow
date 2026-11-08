@@ -8,7 +8,6 @@
 import { useState } from 'react';
 import type { Student } from '../../types';
 import type { PullResult } from '../../core/gacha/engine';
-import { NineSlice } from '../NineSlice';
 import { GACHA_BG, bestStar } from './gachaData';
 
 const STAR_COLOR: Record<1 | 2 | 3, string> = { 1: '#8d9dab', 2: '#9b74d8', 3: '#f0a11a' };
@@ -51,15 +50,17 @@ export function GachaResultView({
       <div className={`gcs-result-grid${times === 1 ? ' single' : ''}`} onClick={(e) => e.stopPropagation()}>
         {results.map((r, i) => {
           const st = studentOf(r);
+          // 官方结果卡面：FX_TEX_GT_R/SR/SSRCard（S.C.H.A.L.E 档案卡，按稀有度换底图），
+          // 不走 NineSlice——九宫格的内联背景会盖住卡面 CSS
           return (
-            <NineSlice
+            <button
               key={i}
-              name="Dreammaker/Common_Bg_Raius10px"
-              as="button"
+              type="button"
               className={`gcs-r-card s${r.star}`}
               style={{ ['--i' as string]: i }}
               onClick={() => setZoom(i)}
               title={`${r.name}（点击查看详情）`}
+              data-ui-source="assetbundle"
             >
               {st?.avatar ? (
                 <img className="gcs-r-avatar" src={st.avatar} alt={r.name} />
@@ -73,7 +74,7 @@ export function GachaResultView({
                 {r.name}
               </span>
               {r.isUp && <span className="gcs-card-up">UP</span>}
-            </NineSlice>
+            </button>
           );
         })}
       </div>
