@@ -11,14 +11,45 @@
  *   与剧本 sequence 直接对应 —— 播放动画 <seq> 即切表情，比按 attachment 前缀匹配稳
  *   （slot 名不统一：00_default / 06_drop shadow / 01_normal 都见过）。
  *
- * 站位启发式：转换后的剧情节点没有保留原剧本的 <slot> 屏幕槽位字段
- * （story_meta.speakerLine 记录了槽位直方图但数据轨未回填到节点），
- * 因此按登场次序分配左右中三槽：说话人高亮、其余压暗 —— BA 玩家熟悉的视觉模式。
+ * 站位（2026-11-10 S-1 接线，报告一 S-1 / 裁决④）：
+ *   数据轨重生成后 script 节点带原剧本 slot 屏幕槽位（实测值域 1..5，11000 全库
+ *   统计 1:34 / 2:66 / 3:1389 / 4:92 / 5:213），映射五站位：1=左远 2=左近
+ *   3=中 4=右近 5=右远，远景（1/5）缩小。slot 缺失的节点回退登场次序启发式
+ *   左/右/中三槽（旧行为，标注 near-miss）。
+ *
+ * 朝向（S-8，报告一）：spr 默认构图朝画面右（story-vis-02-multi-actor.png 实测：
+ *   白子/茜香正面偏右），站右侧（right/far-right）的立绘水平镜像后面向画面中心，
+ *   与「真机通常站右侧镜像」的规则一致。
  */
 import type { AssetBundle } from '../../core/assets';
 import type { StoryOp, Student } from '../../types';
 
-export type StagePos = 'left' | 'center' | 'right';
+/** 五站位：far = 远景（缩小），left/right = 近景 */
+export type StagePos = 'far-left' | 'left' | 'center' | 'right' | 'far-right';
+
+/** 原剧本槽位号（1..5）→ 舞台站位；非法/缺失返回 null（回退启发式） */
+export function slotToPos(slot: unknown): StagePos | null {
+  const n = typeof slot === 'number' ? slot : Number.parseInt(String(slot ?? ''), 10);
+  if (!Number.isFinite(n)) return null;
+  switch (n) {
+    case 1: return 'far-left';
+    case 2: return 'left';
+    case 3: return 'center';
+    case 4: return 'right';
+    case 5: return 'far-right';
+    default: return null;
+  }
+}
+
+/** 站位是否在画面右半（S-8：右半站位镜像，使立绘面向中心） */
+export function posFacesRight(pos: StagePos): boolean {
+  return pos === 'right' || pos === 'far-right';
+}
+
+/** 站位是否为远景槽（1/5，缩小） */
+export function posIsFar(pos: StagePos): boolean {
+  return pos === 'far-left' || pos === 'far-right';
+}
 
 export interface ActorResource {
   /** character_spine 解析出的模型名，如 hoshino_spr */
@@ -45,6 +76,8 @@ export interface ActorState {
   pos: StagePos;
   /** 是否是当前说话者（高亮） */
   active: boolean;
+  /** S-8：站画面右半时水平镜像（面向中心） */
+  mirrored: boolean;
 }
 
 /** 把说话人显示名解析成 spr spine 资源；解析不出返回 null（渲染层头像/名字牌兜底） */
@@ -109,12 +142,12 @@ export function parseExpression(seq: string | undefined | null): string | null {
 }
 
 /**
- * 舞台站位：按登场次序给左右中三槽。
+ * 舞台站位回退（启发式）：slot 缺失的说话人按登场次序给左/右/中三槽。
  * 顺序参考 BA 剧情的常见构图 —— 第一位说话者站左（玩家视角的对话主角位），
  * 第二位站右，第三位中央。已登场的角色槽位保持不动；
  * 新角色优先拿空槽，三槽全满时挤掉最早登场的角色并继承其槽位。
  */
-export function assignPositions(orderedKeys: string[]): Map<string, StagePos> {
+function assignFallback(orderedKeys: string[]): Map<string, StagePos> {
   const slots: StagePos[] = ['left', 'right', 'center'];
   const out = new Map<string, StagePos>();
   const occupied = new Map<StagePos, string>(); // pos -> key
@@ -152,18 +185,24 @@ export interface StageUpdate {
 }
 
 /**
- * 应用一句台词到舞台：
- * - 新说话人入场（分配槽位），已存在的更新表情/高亮
- * - 舞台最多 3 人，第 4 人入场时替换最早登场的
+ * 应用一句台词到舞台（S-1）：
+ * - script.slot 有值 → slotToPos 五站位直映射（进出时机由槽位驱动，多人站位
+ *   与真机一致）；slot 缺失 → 回退登场次序启发式（标注为近似）
+ * - 已存在的角色保持既有站位（slot 是入场坐标，不随台词漂移）；
+ *   仅当说话者站位为空（首次登场）才按 slot 落位
+ * - 舞台最多 3 名近景角色：第 4 人入场时替换最早登场的非说话者
+ * - S-8：站画面右半的立绘 mirrored=true（默认构图朝画面右，镜像后面向中心）
  */
 export function applySpeaker(
   prev: ActorState[],
   displayName: string,
   expression: string | null,
-  resources: Map<string, { resource: ActorResource | null; student: Student | null; npcPortrait: string | null }>
+  resources: Map<string, { resource: ActorResource | null; student: Student | null; npcPortrait: string | null }>,
+  slot?: unknown
 ): StageUpdate {
   const ordered = prev.map((a) => a.key);
-  if (!ordered.includes(displayName)) ordered.push(displayName);
+  const isNew = !ordered.includes(displayName);
+  if (isNew) ordered.push(displayName);
   // 最多 3 人：把最早登场的请下台（当前说话者除外）
   const MAX = 3;
   while (ordered.length > MAX) {
@@ -171,13 +210,20 @@ export function applySpeaker(
     if (idx < 0) break;
     ordered.splice(idx, 1);
   }
-  const positions = assignPositions(ordered);
+  // 站位解析：slot 优先（仅说话者本人且已有 slot 值），其余沿用旧站位，
+  // 全无 slot 的角色组走登场次序启发式
+  const slotPos = slotToPos(slot);
+  const fallback = assignFallback(ordered);
   const actors = ordered.map((key) => {
     const old = prev.find((a) => a.key === key);
     const r = resources.get(key);
     const resource = r ? r.resource : (old?.resource ?? null);
     const student = r ? r.student : (old?.student ?? null);
     const npcPortrait = r ? r.npcPortrait : (old?.npcPortrait ?? null);
+    // 站位：本句说话者且带 slot → 直映射；否则旧站位；再否则启发式
+    let pos: StagePos;
+    if (key === displayName && slotPos) pos = slotPos;
+    else pos = old?.pos ?? fallback.get(key) ?? 'center';
     return {
       key,
       displayName: key,
@@ -185,8 +231,9 @@ export function applySpeaker(
       student,
       npcPortrait,
       expression: key === displayName ? expression : (old?.expression ?? null),
-      pos: positions.get(key) ?? 'center',
+      pos,
       active: key === displayName,
+      mirrored: posFacesRight(pos),
     } satisfies ActorState;
   });
   return { actors };
