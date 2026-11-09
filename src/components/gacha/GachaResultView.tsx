@@ -56,9 +56,9 @@ export function GachaResultView({
   const pointLabel =
     mode === 'classic'
       ? `招募点数 ${classicPoints ?? 0}/200`
-      : `${mode === 'charge' ? (newNames && results.length ? '' : '') : ''}${
-          chargeNow != null && chargeMax ? `充能 ${chargeNow}/${chargeMax}` : ''
-        }`;
+      : chargeNow != null && chargeMax
+        ? `充能 ${chargeNow}/${chargeMax}`
+        : '';
 
   return (
     <div

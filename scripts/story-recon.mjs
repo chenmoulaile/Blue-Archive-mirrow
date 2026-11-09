@@ -117,25 +117,34 @@ if (await first.count()) {
   console.log('portrait canvases after:', await page.locator('.story-portrait canvas').count());
   console.log('speaker name:', await page.locator('.player-dialog .speaker').allTextContents());
 
-  // 回看面板
-  const logBtn = page.locator('[data-testid="story-log-btn"]');
-  if (await logBtn.count()) {
-    await logBtn.click();
-    await page.waitForTimeout(500);
-    await capture('07-history');
-    console.log('history rows:', await page.locator('.history-row').count());
-    await page.locator('.history-panel').click({ position: { x: 10, y: 10 } });
-    await page.waitForTimeout(300);
-  }
+  // 回看面板（2026-11-10 E4 重构：回看/上一句收进右上 MENU 弹层）
+  const menuBtn = page.locator('[data-testid="story-menu-btn"]');
+  if (await menuBtn.count()) {
+    await menuBtn.click();
+    await page.waitForTimeout(400);
+    const logBtn = page.locator('[data-testid="story-log-btn"]');
+    if (await logBtn.count()) {
+      await logBtn.click();
+      await page.waitForTimeout(500);
+      await capture('07-history');
+      console.log('history rows:', await page.locator('.history-row').count());
+      await page.locator('.history-panel').click({ position: { x: 10, y: 10 } });
+      await page.waitForTimeout(300);
+    }
 
-  // 上一句（回退）
-  const before = await page.locator('.player-dialog .text').textContent().catch(() => '');
-  const prevBtn = page.locator('.player-bar button', { hasText: '上一句' });
-  await prevBtn.click();
-  await page.waitForTimeout(600);
-  const after = await page.locator('.player-dialog .text').textContent().catch(() => '');
-  console.log('back works:', before !== after, '| before:', (before ?? '').slice(0, 14), '| after:', (after ?? '').slice(0, 14));
-  await capture('08-back');
+    // 上一句（回退）
+    const before = await page.locator('.player-dialog .text').textContent().catch(() => '');
+    await menuBtn.click();
+    await page.waitForTimeout(300);
+    const prevBtn = page.locator('[data-testid="story-prev-btn"]');
+    if (await prevBtn.count()) {
+      await prevBtn.click();
+      await page.waitForTimeout(600);
+      const after = await page.locator('.player-dialog .text').textContent().catch(() => '');
+      console.log('back works:', before !== after, '| before:', (before ?? '').slice(0, 14), '| after:', (after ?? '').slice(0, 14));
+      await capture('08-back');
+    }
+  }
 } else {
   console.log('NO story items');
 }

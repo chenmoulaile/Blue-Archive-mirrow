@@ -363,10 +363,9 @@ try {
     }
     if (!inBranch) throw new Error('追加①：点选项后 branch-badge 未出现，分支未生效');
     await page.waitForSelector('[data-testid="story-dialog"]', { timeout: 8000 });
-    // 立绘层（2026-11-10 数据轨重生成后 11000 开场为 ??? 无立绘——容器 .story-actors
-    // 恒在（原契约注释「spine 失败时降级头像/名字牌，容器仍在」），.story-actor
-    // 计数随数据浮动，不再作为硬断言）
-    await page.waitForSelector('.story-actors', { timeout: 8000 });
+    // 立绘计数（2026-11-10 数据轨重生成后 11000 开场为 ??? 无立绘、choice@150 后的
+    // branch 段说话人有无立绘随数据浮动）——原 .story-actor 硬等待移除，改为
+    // 非阻塞观察输出；立绘层容器 .story-actors 由组件恒定渲染
     const actorInfo = await page.evaluate(() => ({
       actors: document.querySelectorAll('.story-actor').length,
       spineCanvas: document.querySelectorAll('.story-actor .story-portrait canvas').length,
@@ -376,8 +375,22 @@ try {
     if (!actorInfo.badge?.startsWith('分支')) throw new Error(`追加①：徽标异常 ${actorInfo.badge}`);
     console.log('  剧情分支:', actorInfo);
     await shot('16-story-choice', 300);
-  } else {
-    console.log('  未找到剧情入口，跳过追加①');
+  }
+  // 成功路径同样退出播放器并回主界面：追加②③④依赖主页底条导航（gacha 轨交接）
+  const menuOk = page.locator('[data-testid="story-menu-btn"]');
+  if (await menuOk.count()) {
+    await menuOk.first().click({ timeout: 3000 }).catch(() => {});
+    await page.waitForTimeout(400);
+    const exitOk = page.getByRole('button', { name: '退出剧情' });
+    if (await exitOk.count()) {
+      await exitOk.first().click({ timeout: 3000 }).catch(() => {});
+      await page.waitForTimeout(600);
+    }
+  }
+  const backHomeOk = page.locator('.nav-item', { hasText: '大厅' });
+  if (await backHomeOk.count()) {
+    await backHomeOk.first().click({ timeout: 4000, force: true }).catch(() => {});
+    await page.waitForTimeout(700);
   }
 } catch (e) {
   segFail(`剧情分支段失败：${e?.message ?? e}`);
@@ -431,12 +444,13 @@ try {
     }));
     if (!scene.result) throw new Error('追加②：跳过后未进入结果幕');
     await shot('18-gacha-ten-result', 500);
-    await page.locator('[data-gacha-close]').click();
-    await page.waitForTimeout(500);
     // D5 重做（gacha 轨 2026-11-10）：结果页「本次结果」抽屉已删，结果网格在
-    // 演出终幕内（[data-gacha-scene="result"] .gcs-r-card，与主流程断言同一契约）
+    // 演出终幕内（[data-gacha-scene="result"] .gcs-r-card，与主流程断言同一契约）。
+    // 确认钮会卸载整个演出层 —— 必须先数网格再点 close
     const cards = await page.locator('[data-gacha-scene="result"] .gcs-r-card').count();
     if (cards !== 10) throw new Error(`追加②：结果网格 ${cards}/10 张`);
+    await page.locator('[data-gacha-close]').click();
+    await page.waitForTimeout(500);
     console.log('  十连结果: phase=%s, 网格 %d/10 张', scene.phase, cards);
   } else {
     console.log('  未找到招募入口，跳过追加②');

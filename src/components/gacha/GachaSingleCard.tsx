@@ -11,7 +11,6 @@
  * 音效在本组件 flip 时刻按稀有度播 SE_FLIP；跳过时父组件 stopSeAll() 统一停。
  */
 import { useEffect, useRef, useState } from 'react';
-import type { Student } from '../../types';
 import type { PullResult } from '../../core/gacha/engine';
 import { audio } from '../../core/audio';
 import { GACHA_RESUME, SE_FLIP, STAR_COLOR } from './gachaData';
@@ -21,14 +20,14 @@ const STEP = { FLIP: 520, FACE: 1050, RING: 1120, DONE: 1980 } as const;
 
 export function GachaSingleCard({
   r,
-  st,
   art,
   isNew,
   single,
   onDone,
 }: {
   r: PullResult;
-  st: Student | null;
+  /** 学生档案（保留参数：台词卡/兜底展示由父级消费） */
+  st?: unknown;
   /** 卡面立绘图源（card_art → avatar 兜底，父级已解析） */
   art?: string;
   isNew?: boolean;

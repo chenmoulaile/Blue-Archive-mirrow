@@ -22,7 +22,7 @@ import {
   Vector2,
   type TextureAtlas,
 } from '@esotericsoftware/spine-webgl';
-import type { StagePos } from './storyStage';
+import { posFacesRight, posIsFar, type StagePos } from './storyStage';
 
 export interface StoryPortraitProps {
   skelUrl: string;
@@ -41,8 +41,20 @@ export interface StoryPortraitProps {
   onFail?: () => void;
 }
 
-/** 站位对应的水平构图（视口比例中心点） */
-const POS_FRAC: Record<StagePos, number> = { left: 0.27, center: 0.5, right: 0.73 };
+/**
+ * 站位对应的水平构图（视口比例中心点）。
+ * 五站位（S-1）：远景槽（far-left/far-right）更靠边且更小（FAR_ZOOM）。
+ */
+const POS_FRAC: Record<StagePos, number> = {
+  'far-left': 0.16,
+  left: 0.27,
+  center: 0.5,
+  right: 0.73,
+  'far-right': 0.84,
+};
+
+/** 远景缩小系数（报告一 S-1「含远景缩小」） */
+const FAR_ZOOM = 0.76;
 
 /** bottomInset（css px）→ 设备像素（相机以设备像素工作） */
 function bottomDevicePx(bottomInsetCss: number, canvas: HTMLCanvasElement, vh: number): number {
@@ -78,6 +90,9 @@ export function StoryPortrait({
   posRef.current = pos;
   bottomInsetRef.current = bottomInset;
 
+  /** 生效取景倍数：远景槽（1/5 号位）整体缩小（S-1 远景缩小 + S-8 站位构图） */
+  const effZoom = () => (posIsFar(posRef.current) ? zoomRef.current * FAR_ZOOM : zoomRef.current);
+
   // 表情切换：说话时播表情差分，停下/换人回落 Idle_01（直接操作 AnimationState，不重建 Spine）
   useEffect(() => {
     const st = stateRef.current;
@@ -99,7 +114,7 @@ export function StoryPortrait({
     if (!cam) return;
     const vw = Math.max(canvas.width, 1);
     const vh = Math.max(canvas.height, 1);
-    const z = zoomRef.current;
+    const z = effZoom();
     cam.setViewport(vw, vh);
     const fitH = baseRef.current.h / vh;
     cam.zoom = fitH / Math.max(z, 0.2);
@@ -126,7 +141,7 @@ export function StoryPortrait({
       if (!cam) return;
       const vw = Math.max(canvas.width, 1);
       const vh = Math.max(canvas.height, 1);
-      const z = zoomRef.current;
+      const z = effZoom();
       cam.setViewport(vw, vh);
       // 高度 = 视口高 × zoom：fit = 模型高 / 视口高（世界单位每像素），zoom 0.75 ≈ 占屏 3/4
       const fitH = baseRef.current.h / vh;
@@ -234,21 +249,34 @@ export function StoryPortrait({
   }, [skelUrl, atlasUrl]);
 
   if (failed) return null;
+  // S-8：spr 默认构图朝画面右（story-vis-02-multi-actor.png 实测），站画面右半
+  // 的立绘水平镜像后面向中心；交叉淡入 ~200ms（进场 opacity 动画，global.css）
+  const mirrored = posFacesRight(pos);
   return (
     <div
       className="story-portrait"
       data-pos={pos}
       data-active={dim ? 'n' : 'y'}
+      data-mirrored={mirrored ? 'y' : 'n'}
       style={{
         position: 'absolute',
         inset: 0,
         pointerEvents: 'none',
         filter: dim ? 'brightness(0.55) saturate(0.8)' : 'none',
-        // transform 交给 CSS 层（说话人浮动 / 非说话人微缩轻移），这里必须放行 transition
-        transition: 'filter 0.25s, transform 0.3s',
+        // transform 交给 CSS 层（说话人浮动 / 非说话人微缩轻移），这里必须放行 transition；
+        // 镜像只翻转本组件内层 canvas，不与外层 .story-actor 的 transform 叠加
+        transition: 'filter 0.25s, transform 0.3s, opacity 0.2s',
       }}
     >
-      <canvas ref={canvasRef} style={{ width: '100%', height: '100%', display: 'block' }} />
+      <canvas
+        ref={canvasRef}
+        style={{
+          width: '100%',
+          height: '100%',
+          display: 'block',
+          transform: mirrored ? 'scaleX(-1)' : undefined,
+        }}
+      />
     </div>
   );
 }

@@ -24,6 +24,8 @@ import {
   SE_RESULT_BG,
   SE_RESULT_IN,
   SE_RESULT_SSR,
+  SE_SSR_CHIME,
+  SE_SSR_IMPACT,
   SE_SSR_WIND,
   SE_TRANSITION,
   T,
@@ -63,7 +65,6 @@ export function GachaCutscene({
   results,
   times,
   plana,
-  newStar3,
   newNames,
   studentOf,
   bannerTitle,
@@ -122,8 +123,10 @@ export function GachaCutscene({
     } else if (phase === 'draw') {
       audio.playSe(SE_NORMAL_HANDLE);
       if (hasStar3) {
+        // SSR 专属链：风 → 铃 → 冲击（对齐真机 hero 演出前奏）
         at(450, () => audio.playSe(SE_SSR_WIND));
-        at(950, () => audio.playSe(SE_RESULT_SSR));
+        at(950, () => audio.playSe(SE_SSR_CHIME));
+        at(1250, () => audio.playSe(SE_SSR_IMPACT));
       } else {
         at(500, () => audio.playSe(SE_NORMAL_DROP));
         at(1000, () => audio.playSe(SE_NORMAL_BURST));

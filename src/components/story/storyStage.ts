@@ -106,13 +106,26 @@ export function resolveActor(
 }
 
 /**
+ * NPC 中文别名表（S-8 剧情轨实测补缺）：asset_map.character_spine 未收录的
+ * 高频剧情 NPC/系统显示名（实测 11000 全库扫描：琳/七神琳/部长 等映射缺失）。
+ * 值 = character_spine 已有的键（罗马字/NPC 编号），命中后走正常 spine 链。
+ * 只登记可验证的名字——宁缺勿造，查不到的仍走头像/对话框标签兜底。
+ */
+const NPC_NAME_ALIASES: Record<string, string> = {
+  琳: 'rin', // 四轩琳（联邦学生会秘书长，np0097_spr，实测 character_spine.rin）
+  七神琳: 'rin',
+  // 「莲实」映射缺失（character_spine 无 renri 键，2026-11-10 实测）——不编造，
+  // 该说话人走头像/对话框标签兜底
+};
+
+/**
  * NPC 对话立绘（2026-11-08 走查⑤）：resources/npc_portrait/ 里 239 张官方
  * NPC_Portrait_*.png（252×204 对话半身像）此前完全没有接入，无 spr 无头像的
  * NPC 说话人只剩悬空名牌。这里借 character_spine 的 NPC 映射反查文件名——
  * 实测映射值如 np0109_spr / pmcdirector_spr / fuuki_normal1_spr，对应
  * NPC_Portrait_NP0109.png / NPC_Portrait_Pmcdirector.png / NPC_Portrait_Fuuki_Normal1.png
  * （Windows 文件系统大小写不敏感；前端 img onError 会兜住真缺失）。
- * 七神琳等未收录中文映射的 NPC 查不到 → 返回 null，如实走头像/对话框标签兜底。
+ * 别名表也未收录的 NPC 查不到 → 返回 null，如实走头像/对话框标签兜底。
  */
 function npcPortraitOf(assets: AssetBundle, displayName: string): string | null {
   const model = modelOf(assets, displayName);
@@ -122,11 +135,13 @@ function npcPortraitOf(assets: AssetBundle, displayName: string): string | null 
   return `/res/npc_portrait/NPC_Portrait_${base}.png`;
 }
 
-/** 反查模型名（assets.spine() 不返回模型名，这里重复一次映射） */
+/** 反查模型名（assets.spine() 不返回模型名，这里重复一次映射；先过 NPC 别名表） */
 function modelOf(assets: AssetBundle, displayName: string): string | null {
   const key = displayName.trim().toLowerCase();
+  const aliased = NPC_NAME_ALIASES[key] ?? NPC_NAME_ALIASES[key.split('(')[0].trim()];
+  const probe = aliased ?? key;
   const cs = assets.map.character_spine as Record<string, string>;
-  return cs[key] ?? cs[key.split('(')[0].trim()] ?? null;
+  return cs[probe] ?? cs[probe.split('(')[0].trim()] ?? null;
 }
 
 function lookupStudent(assets: AssetBundle, displayName: string): Student | null {
