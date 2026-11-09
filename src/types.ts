@@ -176,6 +176,8 @@ export interface GachaRecord {
   name: string;
   isUp: boolean;
   pity: number;
+  /** 本次消耗类型（C-2：ticket/ten-ticket/pyroxene/mixed；老记录缺省视为 pyroxene） */
+  costType?: string;
 }
 
 export interface SaveData {
@@ -187,6 +189,8 @@ export interface SaveData {
   currency: {
     pyroxene: number;
     tickets: number;
+    /** 十连券（C-2 预留：十连优先扣一张；当前无发放途径，恒 0） */
+    tenTickets?: number;
     /** 信用点；老存档缺省时由 store 补默认值 */
     credit?: number;
   };
@@ -210,6 +214,10 @@ export interface SaveData {
     chargeLimited: number;
     history: GachaRecord[];
     owned: Record<string, number>;
+    /** 累计抽数（C-12 里程碑 70/130/150/170 判定；老存档缺省视为 0） */
+    totalPulls?: number;
+    /** 已抵达的里程碑 -> 'recorded'（限时十连券先记录不发券） */
+    milestones?: Record<string, 'recorded'>;
   };
   cafe: {
     placed: number[];

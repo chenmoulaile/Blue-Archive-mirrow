@@ -1,0 +1,174 @@
+{
+  "generatedAt": "2026-11-10",
+  "source": "FES 学生名单由 data/students_full.json（kivo 源，character_datas[].limited，与 students_slim 一一对应）与 data/banners.json（type=fes 池 up 名单，CN/Globle 服）交叉推导：limited=true 且作为 fes 池 UP 出现的学生。备选源考证：dungdinhmanh/blue-archive-data（SchaleDB 管线）仅 IsLimited 布尔无 FES 细分；ExcelDB GachaGroup/GachaElement 表 Bytes 为未解析二进制。已知局限：JP 服已实装但 CN banners 未记录为 fes 池 UP 的 FES 学生不在名单内（如天童爱丽丝*临战）；名单随 banners.json 更新重跑推导脚本校准。",
+  "fesStudents": [
+    {
+      "id": 1,
+      "name": "圣园未花"
+    },
+    {
+      "id": 11,
+      "name": "狐坂若藻"
+    },
+    {
+      "id": 42,
+      "name": "小鸟游星野"
+    },
+    {
+      "id": 133,
+      "name": "调月莉音"
+    },
+    {
+      "id": 135,
+      "name": "砂狼白子*恐怖"
+    },
+    {
+      "id": 300,
+      "name": "浦和花子"
+    },
+    {
+      "id": 346,
+      "name": "空崎日奈"
+    },
+    {
+      "id": 373,
+      "name": "小鸟游星野"
+    },
+    {
+      "id": 545,
+      "name": "圣园未花"
+    }
+  ],
+  "fesBannerUp": [
+    {
+      "bannerId": 2225,
+      "server": "CN",
+      "title": "庆典招募【太阳和雨的擦肩而过】",
+      "up": "狐坂若藻",
+      "start": "2024-02-08",
+      "matched": "狐坂若藻",
+      "matchedId": 11,
+      "note": "唯一 limited 匹配"
+    },
+    {
+      "bannerId": 2754,
+      "server": "CN",
+      "title": "庆典招募【从黄昏到水面 从恍惚到睡眠】",
+      "up": "小鸟游星野",
+      "start": "2024-06-13",
+      "matched": "小鸟游星野",
+      "matchedId": 42,
+      "note": "多候选 [373, 42]，按实装日期邻近性取 42"
+    },
+    {
+      "bannerId": 3380,
+      "server": "CN",
+      "title": "庆典招募【你是夜色中的纯真希望】",
+      "up": "圣园未花",
+      "start": "2024-11-07",
+      "matched": "圣园未花",
+      "matchedId": 1,
+      "note": "多候选 [1, 545]，按实装日期邻近性取 1"
+    },
+    {
+      "bannerId": 3993,
+      "server": "CN",
+      "title": "庆典招募【潋滟荡漾 水波十日】",
+      "up": "浦和花子",
+      "start": "2025-05-03",
+      "matched": "浦和花子",
+      "matchedId": 300,
+      "note": "唯一 limited 匹配"
+    },
+    {
+      "bannerId": 4361,
+      "server": "CN",
+      "title": "庆典招募【温柔地奏响天空的方式】",
+      "up": "空崎日奈",
+      "start": "2025-08-07",
+      "matched": "空崎日奈",
+      "matchedId": 346,
+      "note": "多候选 [121, 346]，按实装日期邻近性取 346"
+    },
+    {
+      "bannerId": 4997,
+      "server": "CN",
+      "title": "庆典招募【此处即为永远的彼方】",
+      "up": "砂狼白子",
+      "start": "2026-01-29",
+      "matched": "砂狼白子*恐怖",
+      "matchedId": 135,
+      "note": "唯一 limited 匹配"
+    },
+    {
+      "bannerId": 4998,
+      "server": "CN",
+      "title": "庆典招募【彼处就在约定的正中】",
+      "up": "小鸟游星野",
+      "start": "2026-01-29",
+      "matched": "小鸟游星野",
+      "matchedId": 373,
+      "note": "多候选 [373, 42]，按实装日期邻近性取 373"
+    },
+    {
+      "bannerId": 5642,
+      "server": "CN",
+      "title": "庆典招募【理性主义者如是说】",
+      "up": "调月莉音",
+      "start": "2026-06-04",
+      "matched": "调月莉音",
+      "matchedId": 133,
+      "note": "多候选 [133, 571]，按实装日期邻近性取 133"
+    },
+    {
+      "bannerId": 6042,
+      "server": "CN",
+      "title": "庆典招募【短暂的星夜之梦】",
+      "up": "圣园未花",
+      "start": "2026-10-01",
+      "matched": "圣园未花",
+      "matchedId": 545,
+      "note": "多候选 [1, 545]，按实装日期邻近性取 545"
+    }
+  ],
+  "excludedBanners": [
+    {
+      "bannerId": 1394,
+      "server": "Globle",
+      "title": "国际服卡池「May this festival be blessed with peace. Reconciliation is its own form of repentance.」",
+      "up": "",
+      "start": "2023-04-25",
+      "matched": null,
+      "note": "up 为空/为「老师」，无对应学生，跳过"
+    },
+    {
+      "bannerId": 3096,
+      "server": "Globle",
+      "title": "国际服卡池「Sensei! Welcome to the festival! It's a bit embarrassing, but... I hope you like it.」",
+      "up": "",
+      "start": "2024-09-24",
+      "matched": null,
+      "note": "up 为空/为「老师」，无对应学生，跳过"
+    },
+    {
+      "bannerId": 5643,
+      "server": "CN",
+      "title": "庆典招募【自由主义者疾驰中】",
+      "up": "老师",
+      "start": "2026-06-04",
+      "matched": null,
+      "note": "up 为空/为「老师」，无对应学生，跳过"
+    },
+    {
+      "bannerId": 6041,
+      "server": "CN",
+      "title": "庆典招募【盛夏波浪 如你所愿】",
+      "up": "老师",
+      "start": "2026-10-01",
+      "matched": null,
+      "note": "up 为空/为「老师」，无对应学生，跳过"
+    }
+  ],
+  "star2UpPools": {},
+  "note_star2UpPools": "二星 UP 池名单（引擎 C-4：池可配二星 UP，未配置该位为 0）。现无官方二星 UP 池数据源，留空即全池行为不变。"
+}

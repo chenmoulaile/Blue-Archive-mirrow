@@ -147,5 +147,29 @@ Cloudflare 会话长时间跑会假死，没有看门狗会整批卡住。
 **剧情语言。** `bluearchive.wiki` 为英文站，台词为英译。中文台词需另接
 `zh.bluearchive.wiki` 或国服 wiki，节点结构一致，可作为第二语言层并入同一张表。
 
-**音频缺口。** BGM 271 种、SE 748 种在剧情里被引用，但没有任何公开站点提供可下载文件。
-播放器需要静音降级 + 用户自备音频目录的映射机制。
+**音频缺口（2026-11-10 已大幅收敛）。** 剧情里引用的 BGM 已由国服 CDN 补齐（365 个
+`.ogg`）。SE 已从 Steam 版 `audio-sfx_*` bundle（31 个）提取 1198 个 `.wav` 到
+`resources/se/`，与 `data/se_index.json` 双向零差额；剧情 SE 名经
+`data/se_map.json`（前缀归一 + 编辑距离匹配）映射后 804/804 目标文件实存；
+抽卡 `UI_Gacha_*` 16 个全部实存。**仍然缺的只有 35 个剧情 SE 引用**（按用途分类，
+括号内为剧情节点出现次数）：
+
+| 用途 | 种类 | 代表 | 合计出现 |
+|---|---|---|---|
+| 桃信/剧情表情动效音（含大小写变体） | 28 | `SFX_Emoticon_Motion_Dot`(1564)、`_Respond`(1205)、`_Question`(590) | 6657 |
+| 剧情确认音 | 3 | `SE_Confirm_01`(557)、`SE_Confirm_02`(354)、`SE_confirm_01`(4) | 915 |
+| 剧情回答音 | 1 | `SE_Answer_01`(263) | 263 |
+| 其他 | 3 | `SE_Arona_Touch`(5)、`SE_Hatch_01`(1)、空引用(1) | 7 |
+
+合计 7842 次引用，播放时静音降级不报错。这批名字在 Steam 提取的 1198 个里都不存在，
+属于更细分的 UI 音（很可能在 `audio-sfx_ui-*` 其余 bundle 里）；补齐路径是从国服/KR
+CDN 再扫音频 bundle。
+
+**九宫格切边（A-3，2026-11-10 落地）。** `data/ui_nineslice.json` 476 条（LTRB 序）：
+NGUIAtlas.mSprites 解析 474 条（工具 `tools/fetch/import_nineslice_borders.py`，用
+国服 atlas bundle 快照 `.scratch/ui-atlas-stage` + KR CDN `assets-_mx-uis*` 77 个重扫，
+300/300 与既有值完全一致零冲突，`ui-_mxload-prefabs-*` 769 个只提供 mType 使用证据），
+另 2 条 ChatArchive 对话底板用 Pillow 实测（`tools/fetch/measure_chat_borders.py`）。
+ChatArchive 39 条里其余 37 条是头像/图标类，不需要切边。prefab 里按 Sliced 使用但
+任何 border 记录都没有的精灵 834 个，全部不在本地 `ui_atlas.json`（KR 特有精灵名），
+暂无本地影响，清单在 `.scratch/infra/nineslice_merge_report.json`。

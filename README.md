@@ -116,7 +116,7 @@ BGM 可以从国服 CDN 直接下（见下一节路径 A 的第 2 步，365 个 
 
 ```
 resources/bgm/theme_10.ogg      ← 剧情 BGM
-resources/se/SE_DoorOpen_01.ogg ← 音效（暂缺，散落在 bundle 里）
+resources/se/SE_DoorOpen_01.wav ← 音效（已就位，见「已知约束」SE 一节）
 ```
 
 找不到时播放器静音降级，不会报错。支持 `.ogg` / `.mp3` / `.wav`。
@@ -217,15 +217,27 @@ python tools/fetch/fetch_cursors.py    # -> resources/cursors/
 **wiki 不记录分支拓扑。** 剧情模板只存单条通关路径，`choice` 节点只有组号，
 没有全部选项文本。播放器把选项位置渲染为提示标记。
 
-**BGM 已从国服 CDN 补齐，SE 还没有。** `resources/bgm/` 有 365 个 `.ogg`（382MB，
+**BGM 与 SE 都已就位（2026-11-10 盘点核对）。** `resources/bgm/` 有 365 个 `.ogg`（382MB，
 文件名小写，如 `theme_10.ogg`；Windows 文件系统大小写不敏感，代码里按 `Theme_10` 查也能命中）。
-音效（SE）散落在 `assets-_mx-*` 的 bundle 里，要单独提，目前仍是静音降级。
+SE 有 1198 个 `.wav`（`resources/se/`，Steam 版 bundle 提取），与 `data/se_index.json` 一一对应、
+双向零差额；剧情 SE 经 `data/se_map.json` 映射后 804/804 目标文件实存；
+`src/components/gacha/gachaData.ts` 引用的 16 个 `UI_Gacha_*` 全部实存。
+已知缺口仅剩 35 个剧情 SE 引用无对应文件（桃信表情动效音 `SFX_Emoticon_Motion_*` 28 种、
+剧情确认/回答音 `SE_Confirm/SE_Answer` 4 种、其他 3 种，剧情节点里合计出现 7842 次），
+播放时静音降级；补齐路径是从音频 bundle 重扫（见 `docs/asset-pipeline.md`）。
 
-**UI 图集已从 bundle 提取。** `data/ui_atlas.json` 有 2009 条（18 个 NGUI 图集、1991 个精灵
-+ 18 个语义别名），主界面 16 个控件里 14 个用上了原件，剩 2 个（AP / 信用点图标）
-没有对应的 NGUI 精灵，继续走 `Glyph.tsx` 占位。**九宫格切边还没有**——
-NGUI 的 border 存在 prefab 的 `UISprite` 组件上，不在图集条目里，需要另外解析。
-只有走截图切图（路径 C）时才是「非原始图集」。
+**UI 图集已从 bundle 提取。** `data/ui_atlas.json` 有 2536 条（NGUI 图集精灵 + 39 条
+ChatArchive 独立件），顶栏三货币图标（AP 闪电 `Common/Common_Icon_Stamina`、
+信用点 `Common/Common_Icon_Gold`、青辉石 `Conquest/Common_Icon_Diamond`）官方原件
+实存且已接线（`src/core/game-ui-spec.ts` TOP_CURRENCY_ICONS，2026-11-08 走查①），
+其余零散控件缺件时走 `Glyph.tsx` 占位并在 DOM 打 `data-ui-source` 标注。
+**九宫格切边已落地**（`data/ui_nineslice.json`，
+476 条，border 为 LTRB 序）：474 条来自 NGUIAtlas.mSprites 解析（2026-11-10 用
+国服 atlas bundle 快照 + KR CDN 同名 bundle 重扫交叉验证，300/300 完全一致零冲突），
+另 2 条 ChatArchive 对话底板（`Scenario_Mode_Bg_3` / `Dialogue_Event_Background`）
+不是图集精灵，用 Pillow 从原图量出（`tools/fetch/measure_chat_borders.py`，明细在
+`.scratch/infra/chat_border_measure.json`）。只有走截图切图（路径 C）时才是「非原始图集」。
+`Emoji/*` 33 条仍缺图集纹理文件（禁止恢复引用，补齐路径见 `.scratch/infra/icon-found.md`）。
 
 **存档落在工作目录。** `.userdata/save.json`，缓存与 GPU shader 也在 `.userdata/`，
 不写系统盘。

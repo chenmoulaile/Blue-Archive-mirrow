@@ -1,7 +1,7 @@
 {
- "generated": "2026-11-05T01:07:46",
- "total": 474,
- "source": "NGUIAtlas.mSprites[i].borderLeft/Bottom/Right/Top",
+ "generated": "2026-11-10T00:17:45",
+ "total": 476,
+ "source": "NGUIAtlas.mSprites[i].borderLeft/Bottom/Right/Top + KR CDN ui-_mxload-prefabs scan (NGUIAtlas.mSprites borderLeft/Bottom/Right/Top) + NGUIAtlas rescan (CN atlas-stage + KR assets-_mx-uis) + manual measure ChatArchive x2 (tools/fetch/measure_chat_borders.py)",
  "sprites": {
   "Conquest/Conquest_Bg_Raius10px": {
    "border": [
@@ -4742,6 +4742,30 @@
    ],
    "type": "Sliced",
    "source_prefab": "ui-_mxload-prefabs-2026-07-02_assets_all_1120420146.bundle"
+  },
+  "ChatArchive/Scenario_Mode_Bg_3.png": {
+   "border": [
+    62,
+    19,
+    22,
+    30
+   ],
+   "type": "Sliced",
+   "source_prefab": null,
+   "origin": "manual-measure-pillow",
+   "measure": "radius=19 band=[62, 2, 22, 30] right_feature_edge=1277"
+  },
+  "ChatArchive/Dialogue_Event_Background.png": {
+   "border": [
+    14,
+    14,
+    274,
+    14
+   ],
+   "type": "Sliced",
+   "source_prefab": null,
+   "origin": "manual-measure-pillow",
+   "measure": "radius=14 band=[0, 3, 274, 1] right_feature_edge=1035"
   }
  }
 }

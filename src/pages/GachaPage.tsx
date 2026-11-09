@@ -9,7 +9,12 @@ import {
   pullTen,
   PITY,
   RATES,
+  MILESTONE_PULLS,
+  resolvePullCost,
+  hitMilestones,
   type PullResult,
+  type PullContext,
+  type PullCost,
 } from '../core/gacha/engine';
 import type { Banner, Student } from '../types';
 import '../styles/gacha-cutscene.css';
@@ -29,6 +34,30 @@ interface Cutscene {
   /** 本批「首次获得」的学生名（对照抽取前 owned 快照），结果页 NEW 徽标用 */
   newNames: string[];
   bannerTitle: string;
+  /** 本次消耗（C-2：招募券 / 十连券 / 青辉石 / 混合） */
+  cost: PullCost | null;
+}
+
+/** data/fes_pool.json 的形状（FES 学生名单 + 二星 UP 池配置） */
+interface FesPoolFile {
+  fesStudents: { id: number; name: string }[];
+  star2UpPools: Record<string, string[]>;
+}
+
+/** banner.up 支持多角色（真机双 UP 各占 0.7%）：按常见分隔符拆分 */
+function parseUpNames(up: string | undefined | null): string[] {
+  if (!up) return [];
+  return up
+    .split(/[、,，/／&＋+·]/)
+    .map((s) => s.trim())
+    .filter(Boolean);
+}
+
+function costLabel(c: PullCost): string {
+  if (c.costType === 'ten-ticket') return '十连券×1';
+  if (c.costType === 'ticket') return `招募券×${c.ticketsUsed}`;
+  if (c.costType === 'mixed') return `招募券×${c.ticketsUsed} + 青辉石×${c.pyroxene.toLocaleString()}`;
+  return `青辉石×${c.pyroxene.toLocaleString()}`;
 }
 
 /** 测试补给水位：与设置页「一键补给（测试用）」一致 */
@@ -65,6 +94,25 @@ export default function GachaPage() {
   const [showPoolList, setShowPoolList] = useState(false);
   /** 余额不足时的待重试抽取：补给按钮（测试用）点击后自动重放 */
   const [needSupply, setNeedSupply] = useState<{ cost: number; times: 1 | 10 } | null>(null);
+  /** 本次消耗（结果抽屉与记录表标注用，C-2） */
+  const [lastCost, setLastCost] = useState<PullCost | null>(null);
+  /** FES 学生名单 + 二星 UP 池配置（data/fes_pool.json；缺失时引擎退化为整池均匀） */
+  const [fesPool, setFesPool] = useState<FesPoolFile | null>(null);
+
+  useEffect(() => {
+    let live = true;
+    fetch('/data/fes_pool.json')
+      .then((r) => (r.ok ? (r.json() as Promise<FesPoolFile>) : Promise.reject(new Error(String(r.status)))))
+      .then((j) => {
+        if (live) setFesPool(j);
+      })
+      .catch(() => {
+        /* 名单缺失按无常驻分层处理，不阻塞招募 */
+      });
+    return () => {
+      live = false;
+    };
+  }, []);
 
   const studentById = useMemo(() => new Map(assets.students.map((s) => [s.id, s])), [assets.students]);
   const studentOf = useCallback(
@@ -109,13 +157,28 @@ export default function GachaPage() {
   );
 
   // ------------------------------------------------ 抽取
+  const upNames = useMemo(() => parseUpNames(banner?.up), [banner?.up]);
+  const isFes = banner?.type === 'fes';
+  const isStarter = banner?.type === 'starter';
+  const fesStudentIds = useMemo(() => (fesPool?.fesStudents ?? []).map((s) => s.id), [fesPool]);
+  const star2UpNames = useMemo(
+    () => (banner ? fesPool?.star2UpPools?.[String(banner.id)] : undefined),
+    [banner, fesPool]
+  );
+
   const doPull = useCallback(
     (times: 1 | 10) => {
       if (!banner) return;
-      const cost = PULL_COST * times;
-      if (save.currency.pyroxene < cost) {
-        toast(`青辉石不足（需要 ${cost}）`);
-        setNeedSupply({ cost, times });
+      // C-2 消耗优先级：单抽优先扣一张招募券，十连优先扣一张十连券；
+      // 券不足部分按每抽 120 青辉石扣，仍不足才走余额不足分支。
+      const cost = resolvePullCost(
+        times,
+        { tickets: save.currency.tickets ?? 0, tenTickets: save.currency.tenTickets },
+        save.currency.pyroxene
+      );
+      if (!cost.enough) {
+        toast(`青辉石不足（券抵扣后本次还需 ${cost.pyroxene}）`);
+        setNeedSupply({ cost: cost.pyroxene, times });
         return;
       }
       const state = {
@@ -123,7 +186,16 @@ export default function GachaPage() {
         chargeNormal: save.gacha.chargeNormal,
         chargeLimited: save.gacha.chargeLimited,
       };
-      const ctx = { mode, limited, upName: banner.up || null };
+      const ctx: PullContext = {
+        mode,
+        limited,
+        upName: banner.up || null,
+        upNames,
+        fes: isFes,
+        fesStudentIds,
+        star2UpNames,
+        starter: isStarter,
+      };
 
       let out: PullResult[];
       if (times === 1) {
@@ -135,11 +207,21 @@ export default function GachaPage() {
       const stamp = Date.now();
       // 抽取前的持有表快照，用于判断「新获得的 ★3」（进揭示幕）；只读，不影响保底逻辑
       const ownedBefore = save.gacha.owned;
+      const totalPullsBefore = save.gacha.totalPulls ?? 0;
+      const milestonesHit = hitMilestones(totalPullsBefore, out.length);
       store.update((d) => {
-        d.currency.pyroxene -= cost;
+        d.currency.tickets = (d.currency.tickets ?? 0) - cost.ticketsUsed;
+        d.currency.tenTickets = (d.currency.tenTickets ?? 0) - cost.tenTicketsUsed;
+        d.currency.pyroxene -= cost.pyroxene;
         d.gacha.classicPoints = state.classicPoints;
         d.gacha.chargeNormal = state.chargeNormal;
         d.gacha.chargeLimited = state.chargeLimited;
+        // C-12 里程碑返利：按累计抽数记录（限时十连券先记录不发券，文案见招募详情）
+        d.gacha.totalPulls = totalPullsBefore + out.length;
+        if (milestonesHit.length > 0) {
+          d.gacha.milestones = { ...(d.gacha.milestones ?? {}) };
+          for (const h of milestonesHit) d.gacha.milestones[String(h.pulls)] = 'recorded';
+        }
         for (const r of out) {
           d.gacha.history.unshift({
             at: stamp,
@@ -149,6 +231,7 @@ export default function GachaPage() {
             name: r.name,
             isUp: r.isUp,
             pity: r.pityAfter,
+            costType: cost.costType,
           });
           d.gacha.owned[r.name] = (d.gacha.owned[r.name] ?? 0) + 1;
         }
@@ -161,6 +244,7 @@ export default function GachaPage() {
         .filter((r) => !(ownedBefore[r.name] > 0))
         .map((r) => r.name);
       setResults(out);
+      setLastCost(cost);
       setNeedSupply(null);
       setCut({
         results: out,
@@ -169,10 +253,27 @@ export default function GachaPage() {
         newStar3: fresh ? studentById.get(fresh.studentId ?? -1) ?? null : null,
         newNames,
         bannerTitle: banner.title,
+        cost,
       });
       setCutSeq((n) => n + 1);
     },
-    [banner, limited, mode, pool, save.currency.pyroxene, save.gacha, studentById, toast]
+    [
+      banner,
+      limited,
+      mode,
+      pool,
+      upNames,
+      isFes,
+      isStarter,
+      fesStudentIds,
+      star2UpNames,
+      save.currency.tickets,
+      save.currency.tenTickets,
+      save.currency.pyroxene,
+      save.gacha,
+      studentById,
+      toast,
+    ]
   );
 
   // 补给（测试用）：补足到固定水位（幂等），余额到位后自动重放刚才未成的抽取
@@ -293,7 +394,7 @@ export default function GachaPage() {
       {needSupply && (
         <div className="gacha-supply" role="alert">
           <span>
-            青辉石不足（本次需要 {needSupply.cost}，持有 {save.currency.pyroxene.toLocaleString()}）
+            青辉石不足（券抵扣后本次还需 {needSupply.cost}，持有 {save.currency.pyroxene.toLocaleString()}）
           </span>
           <button className="btn gacha-supply-btn" onClick={supplyCurrency}>
             一键补给（测试用）
@@ -306,6 +407,11 @@ export default function GachaPage() {
         <div className="gacha-last">
           <div className="gacha-last-head">
             <b>本次结果</b>
+            {lastCost && (
+              <span className="muted" style={{ fontSize: 12 }}>
+                本次消耗：{costLabel(lastCost)}
+              </span>
+            )}
             <button className="btn ghost sm" onClick={() => setResults([])}>
               清空
             </button>
@@ -493,6 +599,11 @@ export default function GachaPage() {
                       : '充能模式：每抽 +1，第 100 抽未出 UP 则必得 ★3（其中 50% 为 UP），第 200 抹必得 UP；获得 UP 立刻归零，不跨池继承。一般池与限定池充能互不相通。'}
                   </p>
                 </div>
+                <p className="muted" style={{ fontSize: 12, lineHeight: 1.7, margin: '10px 0 0' }}>
+                  累计招募里程碑（{MILESTONE_PULLS.join(' / ')} 抽）各返利限时十连券×1，已达{' '}
+                  {MILESTONE_PULLS.filter((m) => save.gacha.milestones?.[String(m)]).length} 个；当前版本仅记录进度，
+                  限时十连券暂未实装发放。
+                </p>
                 <table className="gacha-rates">
                   <thead>
                     <tr>
@@ -548,6 +659,7 @@ export default function GachaPage() {
                         <th>结果</th>
                         <th>UP</th>
                         <th>计数</th>
+                        <th>消耗</th>
                       </tr>
                     </thead>
                     <tbody>
@@ -567,11 +679,20 @@ export default function GachaPage() {
                           </td>
                           <td>{h.isUp ? '✓' : ''}</td>
                           <td className="muted">{h.pity}</td>
+                          <td className="muted" style={{ fontSize: 12 }}>
+                            {h.costType === 'ten-ticket'
+                              ? '十连券'
+                              : h.costType === 'ticket'
+                                ? '招募券'
+                                : h.costType === 'mixed'
+                                  ? '券+石'
+                                  : '青辉石'}
+                          </td>
                         </tr>
                       ))}
                       {save.gacha.history.length === 0 && (
                         <tr>
-                          <td colSpan={5} className="muted" style={{ textAlign: 'center', padding: 22 }}>
+                          <td colSpan={6} className="muted" style={{ textAlign: 'center', padding: 22 }}>
                             还没有抽卡记录
                           </td>
                         </tr>
