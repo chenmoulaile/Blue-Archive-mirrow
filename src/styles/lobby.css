@@ -315,55 +315,15 @@
   opacity: 0.85;
 }
 
-/* ---------------------------------------------------------------- 记忆大厅重排（Track: lobby，2026-11-08）
- * 对照参考：.scratch/reference2 取证（无实机记忆大厅 UI 屏，官方素材 =
- * MemoryBtn / CHxxxx_MemorialLobby 语音 / Student_Portrait_*_Collection 收藏卡）
- * + BA 公知布局：spine 全屏居中、顶部返回+学生名+好感度、底部功能条。
+/* ---------------------------------------------------------------- 记忆大厅重排（Track: lobby，2026-11-10 L-1~L-6）
+ * 2026-11-08 首版对照 .scratch/reference2（无实机 UI 屏）；本轮按审计报告一
+ * L-1~L-6 + 报告二 F2/F3/F4 重排：顶部只留返回/设定（App 级 TopCurrencyBar 承担，
+ * 本页不再自绘顶栏）、底部功能条收敛为 大厅选择/回忆重播、学生名进切换抽屉、
+ * 好感度不常驻、暗色托底与暗角移除（L-6 直接观察 spine 场景接缝）。
  * 注意：main.tsx 里 global.css 在 App 之后 import（打包顺序靠后），
  * 对 global.css 既有类的一律用两级选择器提高优先级，不依赖文件顺序。 */
 
-/* 顶栏：返回 + 学生名 + 好感度（名字条从左下移到顶部） */
-.lobby .lobby-top {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  display: flex;
-  align-items: center;
-  gap: 14px;
-  padding: 18px 24px;
-  z-index: 7;
-  pointer-events: none;
-}
-.lobby .lobby-top > * {
-  pointer-events: auto;
-}
-.lobby .lobby-top .lobby-name {
-  position: static;
-}
-.lobby-favor {
-  display: flex;
-  align-items: center;
-  gap: 7px;
-  padding: 7px 14px;
-  border-radius: 999px;
-  background: rgba(8, 20, 32, 0.55);
-  border: 1px solid rgba(255, 182, 206, 0.45);
-  color: #ffd7e2;
-  font-size: 13.5px;
-  letter-spacing: 1px;
-  backdrop-filter: blur(6px);
-}
-.lobby-favor b {
-  font-variant-numeric: tabular-nums;
-  font-size: 15px;
-  color: #fff;
-}
-.lobby-favor span {
-  opacity: 0.8;
-}
-
-/* 底部功能条：居中横排（切换学生/回忆重播/语音/随机/设定）。
+/* 底部功能条：居中横排（大厅选择/回忆重播）。
  * 九宫格白圆底板 Common_Btn_Circle_W（140×142 实测）+ 图集图标：
  * 图标是官方白色遮罩原件，压暗贴近真机「白圆+深色图标」观感。 */
 .lobby .lobby-tools {
@@ -371,7 +331,7 @@
   left: 50%;
   transform: translateX(-50%);
   bottom: 24px;
-  gap: 14px;
+  gap: 18px;
   z-index: 7;
 }
 .lobby .lobby-tools .icon-btn {
@@ -392,25 +352,162 @@
   transform: translateY(-2px);
 }
 
-/* 右下视角工具（放大/缩小/复位）：与功能条分离——
- * e2e 契约 .lobby-tools .icon-btn 的第一位必须是「切换学生」 */
-.lobby .lobby-viewtools {
-  position: absolute;
-  right: 26px;
-  bottom: 24px;
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  z-index: 7;
-}
-.lobby .lobby-viewtools .icon-btn {
-  width: 44px;
-  height: 44px;
-}
-
 /* 语音字幕上移，给底部功能条让位 */
 .lobby .lobby-line {
   bottom: 128px;
+}
+
+/* L-4/F4：点击冒出的 ❤ 粒子（三颗一组，--dx 水平散开 + 交错延迟） */
+.lobby-heart {
+  position: absolute;
+  z-index: 6;
+  color: #ff7d9c;
+  font-size: 20px;
+  line-height: 1;
+  pointer-events: none;
+  opacity: 0;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.45);
+  animation: lobbyHeart 1.15s ease-out forwards;
+}
+.lobby-heart.big {
+  font-size: 27px;
+  color: #ff5f86;
+}
+@keyframes lobbyHeart {
+  0% {
+    opacity: 0;
+    transform: translate(-50%, 0) scale(0.5);
+  }
+  18% {
+    opacity: 1;
+    transform: translate(calc(-50% + var(--dx, 0px)), -18px) scale(1.15);
+  }
+  100% {
+    opacity: 0;
+    transform: translate(calc(-50% + var(--dx, 0px)), -76px) scale(0.9);
+  }
+}
+
+/* L-5/F3：切换抽屉改横向轮播（已可用大厅序列 + 左右箭头），学生名在抽屉内。
+ * global.css 的 .lobby-picker 是全屏搜索网格底；这里覆盖为抽屉+轮播形态。 */
+.lobby .lobby-picker {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  padding: 30px 34px;
+}
+.lobby .lobby-picker .picker-head {
+  flex: none;
+  align-items: flex-start;
+  gap: 14px;
+}
+.lobby .lobby-picker .picker-title {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.lobby .lobby-picker .picker-title > b {
+  font-size: 19px;
+  letter-spacing: 2px;
+}
+/* 学生名（e2e 契约）移入抽屉：覆盖 global.css 的绝对定位旧形态 */
+.lobby .lobby-picker .lobby-name {
+  position: static;
+  padding: 0;
+}
+.lobby .lobby-picker .lobby-name b {
+  font-size: 22px;
+  letter-spacing: 2px;
+  display: inline;
+}
+.lobby .lobby-picker .picker-count {
+  font-size: 12.5px;
+  opacity: 0.75;
+  letter-spacing: 1px;
+}
+.lobby .lobby-picker .picker-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-left: auto;
+}
+.lobby .lobby-picker .picker-actions input {
+  padding: 9px 16px;
+  border-radius: 999px;
+  border: 1px solid rgba(143, 216, 242, 0.45);
+  background: rgba(8, 22, 34, 0.6);
+  color: #eaf6ff;
+  outline: none;
+  width: 200px;
+  font-size: 13.5px;
+}
+.lobby .lobby-picker .picker-actions input::placeholder {
+  color: rgba(200, 228, 248, 0.55);
+}
+
+/* 轮播条：横向滚动 + snap 对齐，左右箭头翻动 */
+.lobby .lobby-picker .picker-strip-wrap {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-height: 0;
+}
+.lobby .lobby-picker .picker-arrow {
+  flex: none;
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  background: rgba(8, 22, 34, 0.55);
+  color: #fff;
+  font-size: 24px;
+  line-height: 1;
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+  backdrop-filter: blur(6px);
+  transition: 0.15s;
+  padding-bottom: 3px;
+}
+.lobby .lobby-picker .picker-arrow:hover {
+  background: rgba(20, 46, 68, 0.75);
+  transform: scale(1.06);
+}
+.lobby .lobby-picker .picker-strip {
+  flex: 1;
+  display: flex;
+  align-items: stretch;
+  gap: 16px;
+  overflow-x: auto;
+  overflow-y: hidden;
+  scroll-snap-type: x proximity;
+  padding: 10px 6px;
+  min-height: 0;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(143, 216, 242, 0.4) transparent;
+}
+.lobby .lobby-picker .picker-card {
+  flex: none;
+  width: 176px;
+  scroll-snap-align: center;
+  border-radius: 13px;
+}
+.lobby .lobby-picker .picker-card img {
+  height: 216px;
+}
+.lobby .lobby-picker .picker-card.current {
+  outline: 2.5px solid rgba(143, 216, 242, 0.9);
+  outline-offset: -1px;
+  box-shadow: 0 0 22px rgba(111, 200, 245, 0.4);
+}
+.lobby .lobby-picker .picker-card-empty {
+  height: 216px;
+  display: grid;
+  place-items: center;
+  color: #8aa;
+  font-size: 12px;
+  background: #cfe3f0;
 }
 
 /* 主界面左下纵列：事件横幅/学生名条/编队入口同列堆叠（2026-11-08 重叠修复） */

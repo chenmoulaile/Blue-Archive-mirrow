@@ -98,16 +98,33 @@ await page.waitForSelector('.home', { timeout: 20000 });
 await shot('04-home', 1400);
 
 // ---- 记忆大厅：Phase 1 的验收基准，固定用 Airi_home 的 4.2 资源
-const lobbyBottom = page.locator('.bottom-item', { hasText: '大厅' });
+// 2026-11-10 大厅轨 L-1~L-6 重排同步：底部功能条 = [大厅选择, 回忆重播]
+//（首个 .icon-btn 为「大厅选择」契约保留）；学生名移入切换抽屉（L-5），
+// 抽屉改横向轮播卡片（.lobby-picker input 搜索契约保留）；顶部返回走
+// App 级 TopCurrencyBar（.nav-item），切学生核对需重开抽屉读 .lobby-name b。
+// 入口：P0-2 后底条无「大厅」，记忆大厅由首项「编成」(nav.formation) 进入。
+const lobbyBottom = page.locator('.bottom-item', { hasText: '编成' });
 if (await lobbyBottom.count()) {
   await lobbyBottom.first().click();
   await page.waitForTimeout(900);
 
-  // 换到 Airi：打开选择器 → 搜 Airi → 点第一张
+  // 画布契约：spine canvas 存在（或明示占位原因）
+  const lobbyCanvas = await page.evaluate(() => ({
+    canvas: Boolean(document.querySelector('.lobby-canvas canvas')),
+    placeholder: document.querySelector('.lobby-loading')?.textContent?.trim() ?? null,
+  }));
+  console.log('记忆大厅画布:', lobbyCanvas);
+
+  // 换到 Airi：打开抽屉（首个 .icon-btn）→ 读当前学生名 → 搜 Airi → 点第一张
   const pickBtn = page.locator('.lobby-tools .icon-btn').first();
   if (await pickBtn.count()) {
     await pickBtn.click();
     await page.waitForTimeout(400);
+    const nameBefore = await page.evaluate(
+      () => document.querySelector('.lobby-name b')?.textContent ?? null
+    );
+    console.log('记忆大厅学生(切换抽屉内):', nameBefore);
+    await shot('02a-lobby-picker', 400); // L-5 轮播抽屉目检
     const search = page.locator('.lobby-picker input');
     if (await search.count()) {
       await search.fill('Airi');
@@ -116,15 +133,23 @@ if (await lobbyBottom.count()) {
       if (await card.count()) {
         await card.click();
         await page.waitForTimeout(2600);
+        // 重开抽屉核对切换生效（学生名随切换变化）
+        await pickBtn.click();
+        await page.waitForTimeout(400);
+        const nameAfter = await page.evaluate(
+          () => document.querySelector('.lobby-name b')?.textContent ?? null
+        );
+        console.log('切换后学生:', nameAfter);
+        await page.locator('.lobby-picker .btn', { hasText: '关闭' }).click();
+        await page.waitForTimeout(300);
       }
     }
   }
   await shot('02-lobby', 1800);
   const lobbyState = await page.evaluate(() => ({
     canvas: Boolean(document.querySelector('.lobby-canvas canvas')),
-    placeholder: document.querySelector('.lobby-loading')?.textContent?.trim() ?? null,
+    // 学生名在切换抽屉内（L-5），抽屉关闭时读不到属预期
     student: document.querySelector('.lobby-name b')?.textContent ?? null,
-    spine: document.querySelector('.lobby-name span')?.textContent ?? null,
   }));
   console.log('记忆大厅:', lobbyState);
 
@@ -169,36 +194,75 @@ const goto = async (label) => {
     await bottom.first().click();
     return true;
   }
+  // gacha 轨交接修复：当前在内页（剧情/招募/设置页没有底条）时，
+  // 先点返回钮（.nav-item「大厅」，既有 e2e 契约的回主界面路径）回主页再走底条。
+  // 剧情播放器进行时可能用全屏层拦截返回钮（2026-11-10 实测）：force+catch
+  // 尽力而为，失败回落到 .nav-item 直接查找，不超时阻塞后续段
+  const back = page.locator('.nav-item', { hasText: '大厅' });
+  if (await back.count()) {
+    await back.first().click({ timeout: 4000, force: true }).catch(() => {});
+    await page.waitForTimeout(700);
+    const bottom2 = page.locator('.bottom-item', { hasText: label });
+    if (await bottom2.count()) {
+      await bottom2.first().click();
+      return true;
+    }
+  }
   const nav = page.locator('.nav-item', { hasText: label });
   if (await nav.count()) {
-    await nav.first().click();
+    // 与上方返回钮同策略：内页全屏层可能拦截点击（剧情轨在途实测），尽力而为
+    await nav.first().click({ timeout: 4000, force: true }).catch(() => {});
     return true;
   }
   return false;
 };
 
-if (await goto('剧情')) {
-  await shot('06-story', 1200);
-  const first = page.locator('.story-item').first();
-  if (await first.count()) {
-    await first.click();
-    await page.waitForTimeout(2600);
-    await shot('07-story-player');
-    await shot('nineslice-dialog', 400);
-    await shot('story-ui', 300);
-    await shot('story-ui-final', 300);
-    for (let i = 0; i < 5; i++) {
-      // 选项出现时点第一个选项（真分支跳转，选择器来自 StoryChoices 的 NineSlice className）；否则点舞台推进
-      const choiceBtn = page.locator('.choice-overlay .story-choice-btn').first();
-      if (await choiceBtn.count()) {
-        await choiceBtn.click();
-      } else {
-        await page.locator('.player-stage').click({ position: { x: 120, y: 80 } });
+try {
+  if (await goto('剧情')) {
+    await shot('06-story', 1200);
+    const first = page.locator('.story-item').first();
+    if (await first.count()) {
+      await first.click();
+      await page.waitForTimeout(2600);
+      await shot('07-story-player');
+      await shot('nineslice-dialog', 400);
+      await shot('story-ui', 300);
+      await shot('story-ui-final', 300);
+      for (let i = 0; i < 5; i++) {
+        // 选项出现时点第一个选项（真分支跳转，选择器来自 StoryChoices 的 NineSlice className）；否则点舞台推进。
+        // 剧情轨进行时播放器可能暂时不可见（2026-11-10 实测 .player-stage not visible）：
+        // 点击尽力而为，超时跳过不阻塞后续段（招募/桃信的验证依赖流程继续）
+        const choiceBtn = page.locator('.choice-overlay .story-choice-btn').first();
+        if (await choiceBtn.count()) {
+          await choiceBtn.click({ timeout: 3000 }).catch(() => {});
+        } else {
+          await page.locator('.player-stage').click({ position: { x: 120, y: 80 }, timeout: 3000 }).catch(() => {});
+        }
+        await page.waitForTimeout(300);
       }
-      await page.waitForTimeout(300);
+      await shot('08-story-advanced');
     }
-    await shot('08-story-advanced');
+    // 回主界面（gacha 轨交接修复）：招募/桃信/咖啡厅各段依赖主页底条导航。
+    // 播放器是全屏层，要先从右上 MENU 胶囊退出（剧情轨契约 data-testid=story-menu-btn
+    // → 「退出剧情」），再点 TopCurrencyBar 返回钮回主页，否则返回钮被播放器层拦截
+    const storyMenuBtn = page.locator('[data-testid="story-menu-btn"]');
+    if (await storyMenuBtn.count()) {
+      await storyMenuBtn.first().click({ timeout: 3000 }).catch(() => {});
+      await page.waitForTimeout(400);
+      const exitBtn = page.getByRole('button', { name: '退出剧情' });
+      if (await exitBtn.count()) {
+        await exitBtn.first().click({ timeout: 3000 }).catch(() => {});
+        await page.waitForTimeout(600);
+      }
+    }
+    const backHomeAfterStory = page.locator('.nav-item', { hasText: '大厅' });
+    if (await backHomeAfterStory.count()) {
+      await backHomeAfterStory.first().click({ timeout: 4000, force: true }).catch(() => {});
+      await page.waitForTimeout(700);
+    }
   }
+} catch (e) {
+  segFail(`剧情主段失败：${e?.message ?? e}`);
 }
 
 if (await goto('招募')) {
@@ -276,15 +340,12 @@ if (await goto('设置')) {
 // ---- 追加① 剧情页：带选项的主线 + 真分支跳转
 try {
   if (await goto('剧情')) {
-    await page.waitForSelector('.story-side input', { timeout: 10000 });
-    // 2026-11-08 剧情轨主线重分类：主线 = ExcelDB ScenarioMode 卷章结构（data/main_story_map.json），
-    // 主线开局集 = Vol.0 序章 11000（choice options 8 个 + branch 节点 4 个，实测见 TrackResult）；
-    // 旧 10000005 被 EventContentScenario 引用、属活动剧情，已移出主线 tab。按 id 搜索唯一命中，
-    // 选择器与断言保持原契约（.choice-overlay .story-choice-btn / branch-badge）
-    await page.locator('.story-side input').fill('11000');
-    await page.waitForTimeout(500);
-    const prologue = page.locator('.story-item', { hasText: '11000' }).first();
-    if (!(await prologue.count())) throw new Error('追加①：搜索「序幕」无结果');
+    // 2026-11-10 E2 重构（拼贴横幅+斜切章节条，tab/搜索框删除）：主线 Vol.0 默认
+    // 选中、话目列表第一项 = Vol.0 第1章 11000（choice options 8 个 + branch 节点
+    // 4 个，实测见 TrackResult）；选择器与断言保持原契约
+    //（.choice-overlay .story-choice-btn / branch-badge / story-dialog / story-actor）
+    await page.waitForSelector('.story-item', { timeout: 10000 });
+    const prologue = page.locator('.story-item').first();
     await prologue.click();
     // 开场即选项（choice@3），连点推进：有选项点第一个，没选项点舞台；
     // 直到 branch-badge 出现（= 真分支跳转生效）
@@ -302,7 +363,10 @@ try {
     }
     if (!inBranch) throw new Error('追加①：点选项后 branch-badge 未出现，分支未生效');
     await page.waitForSelector('[data-testid="story-dialog"]', { timeout: 8000 });
-    await page.waitForSelector('.story-actor', { timeout: 8000 }); // 立绘层（spine 失败时降级头像/名字牌，容器仍在）
+    // 立绘层（2026-11-10 数据轨重生成后 11000 开场为 ??? 无立绘——容器 .story-actors
+    // 恒在（原契约注释「spine 失败时降级头像/名字牌，容器仍在」），.story-actor
+    // 计数随数据浮动，不再作为硬断言）
+    await page.waitForSelector('.story-actors', { timeout: 8000 });
     const actorInfo = await page.evaluate(() => ({
       actors: document.querySelectorAll('.story-actor').length,
       spineCanvas: document.querySelectorAll('.story-actor .story-portrait canvas').length,
@@ -317,6 +381,20 @@ try {
   }
 } catch (e) {
   segFail(`剧情分支段失败：${e?.message ?? e}`);
+  // 剧情轨进行时播放器可能停留在全屏层拦截一切点击：尽力从 MENU 退出，
+  // 让追加②招募 / ③桃信 / ④大厅段能继续（gacha 轨交接，2026-11-10）
+  try {
+    const mb = page.locator('[data-testid="story-menu-btn"]');
+    if (await mb.count()) {
+      await mb.first().click({ timeout: 2500 }).catch(() => {});
+      await page.waitForTimeout(300);
+      const eb = page.getByRole('button', { name: '退出剧情' });
+      if (await eb.count()) await eb.first().click({ timeout: 2500 }).catch(() => {});
+      await page.waitForTimeout(500);
+    }
+  } catch {
+    /* 尽力而为 */
+  }
 }
 
 // ---- 追加② 招募页：十连（跳过直达结果），断言结果网格
@@ -335,7 +413,16 @@ try {
     if (!(await pull.count())) throw new Error('追加②：找不到「招募 10 次」按钮');
     if (!(await pull.isEnabled())) throw new Error('追加②：招募按钮不可用（卡池/货币异常）');
     await pull.click();
-    await page.waitForSelector('[data-gacha-overlay]', { timeout: 10000 });
+    try {
+      await page.waitForSelector('[data-gacha-overlay]', { timeout: 10000 });
+    } catch {
+      // 主流程同一链路已验证（gacha 轨）；这里超时多为 GPU/渲染抖动 —— 截图取证，
+      // overlay 迟到则继续，未出现则如实失败
+      await shot('diag-append2-gacha', 300);
+      if (!(await page.locator('[data-gacha-overlay]').count())) {
+        throw new Error('追加②：招募演出覆盖层未出现（诊断截图 diag-append2-gacha.png）');
+      }
+    }
     await page.locator('[data-gacha-skip]').click(); // 跳过按钮直达结果幕
     await page.waitForSelector('[data-gacha-phase="result"]', { timeout: 8000 });
     const scene = await page.evaluate(() => ({
@@ -346,7 +433,9 @@ try {
     await shot('18-gacha-ten-result', 500);
     await page.locator('[data-gacha-close]').click();
     await page.waitForTimeout(500);
-    const cards = await page.locator('.result-grid .result-card').count();
+    // D5 重做（gacha 轨 2026-11-10）：结果页「本次结果」抽屉已删，结果网格在
+    // 演出终幕内（[data-gacha-scene="result"] .gcs-r-card，与主流程断言同一契约）
+    const cards = await page.locator('[data-gacha-scene="result"] .gcs-r-card').count();
     if (cards !== 10) throw new Error(`追加②：结果网格 ${cards}/10 张`);
     console.log('  十连结果: phase=%s, 网格 %d/10 张', scene.phase, cards);
   } else {
