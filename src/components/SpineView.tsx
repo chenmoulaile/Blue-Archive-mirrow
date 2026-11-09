@@ -310,10 +310,23 @@ export function SpineView({
       },
     };
 
-    const sc = new SpineCanvas(canvas, {
-      app,
-      webglConfig: { alpha: true, premultipliedAlpha: true, antialias: true },
-    });
+    let sc: SpineCanvas | null = null;
+    try {
+      sc = new SpineCanvas(canvas, {
+        app,
+        webglConfig: { alpha: true, premultipliedAlpha: true, antialias: true },
+      });
+    } catch (e) {
+      // 集成轨 2026-11-10：上下文创建失败（如 GL 上下文数到顶/GPU 资源耗尽时
+      // getContext 返回 null，SpineCanvas 构造里 SceneRenderer→Shader.compile 读
+      // gl.VERTEX_SHADER 直接 TypeError）原来是同步异常从 effect 抛出、应用无
+      // 错误边界会整树卸载成白屏。这里降级为画布级错误（宿主已有 error 兜底 UI），
+      // 应用其余部分继续可用。
+      const msg = e instanceof Error ? e.message : String(e);
+      setStatus('error');
+      setErrMsg(msg);
+      onError?.(msg);
+    }
 
     // 2026-11-08 走查②：本机 GPU 栈出现过 GL_OUT_OF_MEMORY → context lost，
     // SpineCanvas 不监听该事件，上下文丢了以后画布静默变黑、界面无任何提示。
@@ -341,7 +354,14 @@ export function SpineView({
       disposed = true;
       ro.disconnect();
       canvas.removeEventListener('webglcontextlost', onContextLost);
-      sc.dispose();
+      // SpineCanvas.dispose 只停 update/render 回调，ManagedWebGLRenderingContext
+      // 的 GL 上下文并不会释放（Chromium 每页有 WebGL 上下文数上限，泄漏到顶后
+      // 新画布 getContext 返回 null）。卸载时显式摘监听 + loseContext 交还资源。
+      if (sc) {
+        sc.context.dispose();
+        sc.dispose();
+        sc.context.gl?.getExtension('WEBGL_lose_context')?.loseContext();
+      }
       stateRef.current = null;
       skeletonRef.current = null;
       camRef.current = null;
