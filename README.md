@@ -16,7 +16,7 @@ Electron + Vite + React + TypeScript 严格模式实现的《蔚蓝档案》同�
 
 ## 下载即用（普通用户看这里）
 
-不想配置环境，直接到 [**Releases**](https://github.com/chenmoulaile/Blue-Archive-mirrow/releases) 下载 **v0.3.0** 资产包：
+不想配置环境，直接到 [**Releases**](https://github.com/chenmoulaile/Blue-Archive-mirrow/releases) 下载 **v0.4.0** 资产包（本版起为竖屏还原版）：
 
 1. **下载全部资产分卷**（`00-核心` + `01-*` 起的素材分卷，清单以 Release 资产列表为准）。
 2. **全部解压到同一个目录**（分卷压缩包只需对 `00-核心` 或第一个分卷右键解压，其余分卷自动续接），得到如下结构：
