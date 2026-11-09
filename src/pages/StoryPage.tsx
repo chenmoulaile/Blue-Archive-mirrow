@@ -432,8 +432,21 @@ export default function StoryPage() {
         } else if (n.op === 'bgm') bgm = (n as { id: string }).id;
         else if (n.op === 'bgmStop') bgm = '';
         else if (n.op === 'subtitle') {
-          const s = n as { on?: boolean; text?: string };
+          // S-4 telop：快照累积 + 停顿点（同分支实现——拆开会成 else-if 死代码，
+          // 2026-11-10 探针实测修正）。on 且有文本：telop 显示、无对话框，等待
+          // 点击/自动推进（off 清除）；空文本 on 指令（实测 80000005@58 raw
+          // "[0,0];instant;1;" 无 text）不停顿；带 branch 的字幕（实测 1123 个）
+          // 参与分支过滤，不属于本分支的跳过。
+          const s = n as { on?: boolean; text?: string; branch?: string };
           snap.subtitle = s.on ? (s.text ?? '') : '';
+          if (s.on && snap.subtitle) {
+            const br = typeof s.branch === 'string' ? s.branch : undefined;
+            if (br !== undefined && (!ctx || br !== ctx)) {
+              i += dir;
+              continue;
+            }
+            return { index: i, line: null, isChoice: false, bg, bgm, fx: snap };
+          }
         } else if (n.op === 'place') {
           snap.place = nodeText(n) ?? '';
         } else if (n.op === 'popup') {
@@ -458,16 +471,6 @@ export default function StoryPage() {
         } else if (n.op === 'choice') {
           const options = (n as { options?: StoryChoiceOption[] }).options ?? [];
           if (options.length > 0) return { index: i, line: null, isChoice: true, bg, bgm, fx: snap };
-        } else if (n.op === 'subtitle' && (n as { on?: boolean }).on) {
-          // S-4 telop 停顿点：字幕显示、无对话框，等待点击/自动推进（off 清除）。
-          // 空文本的 on 指令（实测 80000005@58：raw "[0,0];instant;1;" 无 text）
-          // 不停顿；带 branch 的字幕（实测 1123 个）参与分支过滤，不属于本分支的跳过
-          const br = branchOf(n);
-          if (br !== undefined && (!ctx || br !== ctx)) {
-            i += dir;
-            continue;
-          }
-          if (snap.subtitle) return { index: i, line: null, isChoice: false, bg, bgm, fx: snap };
         } else if (isDisplayable(n)) {
           const br = branchOf(n);
           if (dir === 1) {
@@ -617,6 +620,20 @@ export default function StoryPage() {
         return;
       }
       setChoice(null);
+
+      // S-4 telop 停顿点（subtitle on）：r.line 为 null——字幕条已由 fx 渲染，
+      // 对话框让位（清 line），仅维护分支上下文与进度，不写 history
+      if (!r.line) {
+        setLine(null);
+        branchRef.current = null;
+        setBranchGroup(null);
+        store.update((d) => {
+          markRead(d, f.story_id, r.index);
+          d.story.progress[f.story_id] = r.index;
+          d.story.lastPlayed = f.story_id;
+        });
+        return;
+      }
 
       const shown = r.line as Line;
       setLine(shown);
