@@ -1,17 +1,25 @@
 /**
- * MomoTalk —— 游戏内聊天应用还原。
+ * MomoTalk —— 游戏内聊天应用还原（竖屏全屏页栈形态，报告一 M-1、报告二 C1）。
  *
  * 数据：data/momotalk/index.json（265 名学生会话索引）+
  *       data/momotalk/<characterId>.json（真实消息序列）。
- * 结构：左会话列表（MomotalkList）+ 右聊天页（ChatRoom）。
+ * 结构：真机是全屏手机应用 —— 会话列表占满一屏（栈底），点进会话后
+ *       ChatRoom 以全屏覆盖层挂载（舞台轨 ViewStack + StackOverlay，
+ *       250ms 滑入过渡），左上角返回弹出栈顶；1080×1920 竖屏内全宽布局，
+ *       横屏时代的双栏工作台形态已随 M-1 废除。
  * 状态：已读/未读、回复选项、好感度解锁、最近互动全部落 src/core/store.ts
  *       的 save.momotalk（read/favor/answered/chosen/recent）。
  */
-import { useEffect, useMemo, useRef, useState } from 'react';
-import { useApp, navState } from '../core/AppContext';
+import { useEffect, useMemo, useState } from 'react';
+import { navState, useApp } from '../core/AppContext';
 import { store, useSave } from '../core/store';
+import { StackOverlay, useViewStack } from '../components/stage';
 import { ChatRoom } from '../components/momotalk/ChatRoom';
-import { MomotalkList, type MomoListEntry } from '../components/momotalk/MomotalkList';
+import {
+  MomotalkList,
+  type MomoListEntry,
+  type MomoSortMode,
+} from '../components/momotalk/MomotalkList';
 import {
   favorOf,
   loadMomoChar,
@@ -29,12 +37,12 @@ import type { Student } from '../types';
 export default function MomoTalkPage() {
   const { assets, go, toast } = useApp();
   const save = useSave();
+  const stack = useViewStack<'room'>();
 
   const [refs, setRefs] = useState<MomoStudentRef[]>([]);
   const [charFiles, setCharFiles] = useState<Map<number, MomoCharFile>>(new Map());
   const [loading, setLoading] = useState(true);
-  const [query, setQuery] = useState('');
-  const [activeCid, setActiveCid] = useState<number | null>(null);
+  const [sort, setSort] = useState<MomoSortMode>('recent');
 
   // 会话索引（一次），再全量拉各学生记录做列表预览/未读数（懒加载缓存在 data.ts）
   useEffect(() => {
@@ -67,7 +75,8 @@ export default function MomoTalkPage() {
     return `${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
   }, []);
 
-  /** 会话列表条目（预览/未读/置顶规则见 MomotalkList） */
+  /** 会话列表条目（预览/未读规则见 data.ts；排序 M-6：最新=最近互动优先，
+   *  生日置顶保留在「最新」档；「未读」档未读段数优先） */
   const entries = useMemo<MomoListEntry[]>(() => {
     const out: MomoListEntry[] = [];
     for (const ref of refs) {
@@ -86,31 +95,32 @@ export default function MomoTalkPage() {
         ts: save.momotalk.recent[String(ref.characterId)] ?? 0,
       });
     }
-    const q = query.trim().toLowerCase();
-    const hit = (e: MomoListEntry) =>
-      !q ||
-      e.ref.name.toLowerCase().includes(q) ||
-      e.ref.devName.toLowerCase().includes(q) ||
-      (studentById.get(e.ref.studentId)?.name_en ?? '').toLowerCase().includes(q);
-    return out
-      .filter(hit)
-      .sort(
-        (a, b) =>
-          Number(b.birthday) - Number(a.birthday) ||
-          b.ts - a.ts ||
-          b.unread - a.unread ||
-          a.ref.characterId - b.ref.characterId
+    return out.sort((a, b) => {
+      if (sort === 'unread') {
+        return b.unread - a.unread || b.ts - a.ts || a.ref.characterId - b.ref.characterId;
+      }
+      return (
+        Number(b.birthday) - Number(a.birthday) ||
+        b.ts - a.ts ||
+        b.unread - a.unread ||
+        a.ref.characterId - b.ref.characterId
       );
-  }, [refs, charFiles, save, studentById, query, todayMd]);
+    });
+  }, [refs, charFiles, save, studentById, sort, todayMd]);
 
+  const unreadTotal = useMemo(() => entries.reduce((n, e) => n + e.unread, 0), [entries]);
+
+  // 页栈 room 层：open 幂等，entries 里至多一个 room（退出动画期间保留可渲染）
+  const roomEntry = stack.entries.find((e) => e.key === 'room') ?? null;
+  const activeCid = roomEntry ? (roomEntry.params as { cid: number } | undefined)?.cid ?? null : null;
   const activeRef = activeCid !== null ? refs.find((r) => r.characterId === activeCid) ?? null : null;
   const activeFile = activeCid !== null ? charFiles.get(activeCid) ?? null : null;
 
   const openChat = (cid: number): void => {
-    setActiveCid(cid);
     store.update((d) => {
       d.momotalk.recent[String(cid)] = Date.now();
     });
+    stack.open('room', { cid });
   };
 
   /** 老师选回复：持久化选项 + 首次回复 +1 好感（好感驱动下一段对话解锁） */
@@ -164,37 +174,38 @@ export default function MomoTalkPage() {
   };
 
   return (
-    <div className="momo mt-layout">
+    // 页面根节点可容纳 absolute 全屏覆盖层（ViewStack 契约）
+    <div className="momo mt-page">
       <MomotalkList
         entries={entries}
         activeId={activeCid}
-        query={query}
         loading={loading}
-        onQuery={setQuery}
+        unreadTotal={unreadTotal}
+        sort={sort}
+        onSort={setSort}
         onOpen={openChat}
+        onFilter={() => toast('筛选 · 尚未实装')}
       />
-      {activeRef ? (
-        <ChatRoom
-          key={activeRef.characterId}
-          refInfo={activeRef}
-          charFile={activeFile}
-          student={studentById.get(activeRef.studentId) ?? null}
-          storyIndex={assets.storyIndex}
-          favor={favorOf(save, activeRef.characterId)}
-          save={save}
-          onBack={() => setActiveCid(null)}
-          onChoose={handleChoose}
-          onWatchStory={handleWatchStory}
-          onAllRead={handleAllRead}
-          toast={toast}
-        />
-      ) : (
-        <div className="mt-room mt-room-placeholder">
-          <div className="mt-empty">
-            {loading ? '正在载入 MomoTalk…' : '从左侧选择一名学生开始聊天'}
-            {loading && <div className="mt-loading-bar" />}
-          </div>
-        </div>
+      {roomEntry && (
+        <StackOverlay key="room" entry={roomEntry} label="桃信聊天">
+          {activeRef && (
+            <ChatRoom
+              key={activeRef.characterId}
+              refInfo={activeRef}
+              charFile={activeFile}
+              student={studentById.get(activeRef.studentId) ?? null}
+              storyIndex={assets.storyIndex}
+              favor={favorOf(save, activeRef.characterId)}
+              save={save}
+              seVolume={save.settings.seVolume}
+              onBack={() => stack.close('room')}
+              onChoose={handleChoose}
+              onWatchStory={handleWatchStory}
+              onAllRead={handleAllRead}
+              toast={toast}
+            />
+          )}
+        </StackOverlay>
       )}
     </div>
   );

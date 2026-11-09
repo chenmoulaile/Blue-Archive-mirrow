@@ -115,15 +115,13 @@ export function previewOf(threads: MomoThread[]): { text: string; from: 'student
 // ---------------------------------------------------------------- 图片与剧情
 
 /**
- * 照片消息 URL。数据里是 'UIs/03_Scenario/04_ScenarioImage/Mo_Yuuka_01'，
- * 提取约定是 resources/ui/extra/<Name>.png（见 tools/fetch/extract_momotalk_images.py）。
- * 实测这 20 张纹理在本地 bundle 里未提取到（uis-03_scenario-01_background /
- * 02_character 两个族全扫 0 命中），所以组件按 onerror 优雅占位；
- * 将来文件补齐后这里无需改代码。
+ * 照片消息 URL。数据里是 'UIs/03_Scenario/04_ScenarioImage/Mo_Yuuka_01'。
+ * 2026-11-10 CDN 轨已把 Mo_* 剧情照片按原目录结构落到 resources/ui/extra3/
+ * （23 个文件），桃信数据的 20 个去重引用逐一比对全部命中，直接按原路径取；
+ * 个别缺图仍走 <img> onerror 占位卡兜底，不伪造素材。
  */
 export function momoImageUrl(imagePath: string): string {
-  const base = imagePath.split('/').pop() ?? imagePath;
-  return `/res/ui/extra/${base}.png`;
+  return `/res/ui/extra3/${imagePath}.png`;
 }
 
 /** 羁绊剧情触发 → 剧情索引条目（StoryPage 用 entry.id 跳转） */

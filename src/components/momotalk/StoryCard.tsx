@@ -12,12 +12,14 @@ export interface StoryCardProps {
   title: string | null;
   favorRank: number;
   watched: boolean;
+  /** M-9：流式区入场弹出动画（已读直显区不播） */
+  animate?: boolean;
   onWatch: () => void;
 }
 
-export function StoryCard({ title, favorRank, watched, onWatch }: StoryCardProps) {
+export function StoryCard({ title, favorRank, watched, animate, onWatch }: StoryCardProps) {
   return (
-    <div className="mt-storycard-wrap">
+    <div className={`mt-storycard-wrap${animate ? ' anim' : ''}`}>
       <NineSlice name={MOMO_SPRITES.storyCard} className="mt-storycard" fillCenter={false}>
         <span className="mt-storycard-label">
           <Glyph name="story" size={16} />
