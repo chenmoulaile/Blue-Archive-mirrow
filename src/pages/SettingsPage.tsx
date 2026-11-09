@@ -134,8 +134,8 @@ export default function SettingsPage({ onGo }: { onGo: (v: View) => void }) {
             value={save.settings.theme}
             onChange={(e) => set('theme', e.target.value as 'dark-game' | 'light')}
           >
-            <option value="dark-game">深色游戏风（默认）</option>
-            <option value="light">浅色网页风</option>
+            <option value="light">明亮浅色（默认）</option>
+            <option value="dark-game">深色游戏风</option>
           </select>
         </div>
         <div className="field">

@@ -1,16 +1,20 @@
 /**
  * 主界面（ロビー）—— 进入流程第一屏之后的游戏大厅
  *
- * 布局对照真实游戏（Wiki ロビー分区 + Steam 简中客户端）：
+ * 布局对照真实游戏（Wiki ロビー分区 + Steam 简中客户端 + 报告二视频一帧 1）：
  *   - 顶栏：老师信息（等级/经验）+ 体力(AP)/信用点/青辉石，数字全部走 store
  *     （AP 按离线时长恢复，参数见 AP_REGEN；信用点/青辉石在 save.currency）
  *   - 中央：学生回忆大厅 Spine 模型（LobbyStage，滚轮缩放/拖拽平移/点击互动）
  *   - 右侧竖排功能菜单：日程表/作战/咖啡厅/商店/社团/制造/招募/邮件/菜单，
  *     九宫格真素材按钮（Common_Btn_Circle_W 底板 + 图集图标）
- *   - 左下：事件横幅 + 学生名条 + 编队/任务入口——同一个 flex 纵列自下
- *     而上堆叠（2026-11-08 走查「横幅与名字条重叠」的结构性修复）
+ *   - 左下：事件横幅（右下三角切角）+ 学生名条（头像+彩带）——同一个 flex
+ *     纵列自下而上堆叠；编队/任务入口已并入底部黑条（P0-2，原版左下无此二者）
  *   - 右下：MomoTalk 大入口 + 未读角标（联动桃信轨的 bond 会话未读数）
- *   - 保留：事件横幅、菜单弹窗、长按隐藏 UI、底部导航（e2e 依赖 .bottom-item）
+ *   - 底部黑条：编队/任务/挑战任务/剧情/社团/道具/资料馆/招募（P0-2 原版
+ *     入口集）；桃信不进底条（右下大入口）、咖啡厅走右侧菜单
+ *
+ * 坐标系约定（G-1）：本页渲染在 PortraitStage 的 1080×1920 逻辑画框内，
+ * 所有尺寸直接用 game-ui-spec 的逻辑 px，不再读窗口宽度换算（缩放由舞台统一做）。
  *
  * 按钮反馈 SE 统一走 audio.playSe（LOBBY_SE，se_index.json 实测存在）。
  */
@@ -29,7 +33,6 @@ import {
   MENU_POPUP,
   SIDE_MENU_REAL,
   SIDE_MENU_REAL_SPEC,
-  LOBBY_QUICK_BTN,
   MOMOTALK_ENTRY,
   TOP_CURRENCY_ICONS,
   AP_REGEN,
@@ -68,34 +71,25 @@ const SIDE_GLYPH_FALLBACK: Record<string, GlyphName> = {
   menu: 'menu',
 };
 
-const BOTTOM_ITEMS: { key: string; label: string; view: View; icon: GlyphName }[] = [
-  { key: 'story', label: t('nav.story'), view: 'story', icon: 'story' },
-  { key: 'momotalk', label: t('nav.momotalk'), view: 'momotalk', icon: 'momotalk' },
-  { key: 'cafe', label: t('nav.cafe'), view: 'cafe', icon: 'cafe' },
-  { key: 'memorial', label: t('nav.lobby'), view: 'memorial', icon: 'memorial' },
-  { key: 'gacha', label: t('nav.gacha'), view: 'gacha', icon: 'gacha' },
-];
-
 /**
- * 1920×1080 基准的缩放系数。
- * 窗口比 1280 逻辑像素还窄时不再继续缩小（否则图标小到看不清），
- * 改为固定 1280/1920 的下限，靠布局锚点自适应。
+ * 底部黑条入口的文案与图标（P0-2）：构成来自 BOTTOM_NAV.items（报告二 B4 视频一帧 1）。
+ * 动作在组件内 bottomActions（未实装的入口给 toast，保持入口齐全与原版一致）。
  */
-function useScale(): number {
-  const [w, setW] = useState(() => window.innerWidth);
-  useEffect(() => {
-    const onResize = (): void => setW(window.innerWidth);
-    window.addEventListener('resize', onResize);
-    return () => window.removeEventListener('resize', onResize);
-  }, []);
-  return Math.min(1.6, Math.max(1280 / 1920, w / 1920));
-}
+type BottomKey = (typeof BOTTOM_NAV.items.value)[number];
+const BOTTOM_META: Record<BottomKey, { labelKey: string; icon: GlyphName }> = {
+  formation: { labelKey: 'nav.formation', icon: 'formation' },
+  mission: { labelKey: 'nav.mission', icon: 'mission' },
+  sub: { labelKey: 'nav.sub', icon: 'mission' },
+  story: { labelKey: 'nav.story', icon: 'story' },
+  club: { labelKey: 'nav.club', icon: 'student' },
+  item: { labelKey: 'nav.item', icon: 'item' },
+  archive: { labelKey: 'nav.archive', icon: 'scrapbook' },
+  gacha: { labelKey: 'nav.gacha', icon: 'gacha' },
+};
 
 export default function HomePage() {
-  const { assets, go, toast, uiAtlas } = useApp();
+  const { assets, go, toast, uiAtlas, restartIntro } = useApp();
   const save = useSave();
-  const s = useScale();
-  const P = useCallback((n: number) => Math.round(n * s), [s]);
 
   /**
    * 九宫格按钮底板内联样式。
@@ -263,6 +257,21 @@ export default function HomePage() {
   const teacher = save.teacher;
   const expPct = Math.min(100, (teacher.exp % 1000) / 10);
 
+  // 底部黑条动作（P0-2）：跳页类直跳，未实装类 toast（在渲染前组装好依赖）
+  const bottomActions = useMemo(() => {
+    const map: Record<BottomKey, () => void> = {
+      formation: () => go('memorial'),
+      mission: () => go('story'),
+      sub: () => toast('挑战任务尚未实装'),
+      story: () => go('story'),
+      club: () => toast('社团尚未实装'),
+      item: () => toast('道具尚未实装'),
+      archive: () => toast('资料馆尚未实装'),
+      gacha: () => go('gacha'),
+    };
+    return map;
+  }, [go, toast]);
+
   return (
     <div
       className="home"
@@ -294,49 +303,49 @@ export default function HomePage() {
       {!uiHidden && (
         <>
           {/* 顶栏 */}
-          <header className="home-top" style={{ height: P(TOP_BAR.height.value), padding: `0 ${P(TOP_BAR.paddingX.value)}px` }}>
+          <header className="home-top" style={{ height: TOP_BAR.height.value, padding: `0 ${TOP_BAR.paddingX.value}px` }}>
             <div className="teacher">
               <div
                 className="teacher-avatar"
-                style={{ width: P(TOP_BAR.teacher.avatarSize.value), height: P(TOP_BAR.teacher.avatarSize.value) }}
+                style={{ width: TOP_BAR.teacher.avatarSize.value, height: TOP_BAR.teacher.avatarSize.value }}
               >
                 {kanban?.avatar ? <img src={kanban.avatar} alt="" /> : 'T'}
               </div>
               <div className="teacher-info">
                 <div className="teacher-line">
-                  <span className="teacher-name" style={{ fontSize: P(TOP_BAR.teacher.nameFontSize.value) }}>
+                  <span className="teacher-name" style={{ fontSize: TOP_BAR.teacher.nameFontSize.value }}>
                     {teacher.name}
                   </span>
-                  <span className="teacher-level" style={{ fontSize: P(TOP_BAR.teacher.levelFontSize.value) }}>
+                  <span className="teacher-level" style={{ fontSize: TOP_BAR.teacher.levelFontSize.value }}>
                     Lv.{teacher.level}
                   </span>
                 </div>
                 <div
                   className="exp-bar"
-                  style={{ width: P(TOP_BAR.teacher.expBarWidth.value), height: P(TOP_BAR.teacher.expBarHeight.value) }}
+                  style={{ width: TOP_BAR.teacher.expBarWidth.value, height: TOP_BAR.teacher.expBarHeight.value }}
                 >
                   <i style={{ width: `${expPct}%` }} />
                 </div>
               </div>
             </div>
 
-            <div className="resources" style={{ gap: P(TOP_BAR.resources.gap.value) }}>
+            <div className="resources" style={{ gap: TOP_BAR.resources.gap.value }}>
               <div className="res" title={`${t('lobby.ap')}（每 ${AP_REGEN.minutesPerPoint.value} 分钟恢复 1 点）`}>
-                <UIIcon name={TOP_CURRENCY_ICONS.stamina.value} size={P(TOP_BAR.resources.iconSize.value)} fallback="⚡" />
-                <b style={{ fontSize: P(TOP_BAR.resources.fontSiz.value) }}>
+                <UIIcon name={TOP_CURRENCY_ICONS.stamina.value} size={TOP_BAR.resources.iconSize.value} fallback="⚡" />
+                <b style={{ fontSize: TOP_BAR.resources.fontSiz.value }}>
                   {apValue}/{AP_REGEN.max.value}
                 </b>
                 <span className="plus">+</span>
               </div>
               <div className="res" title={t('lobby.credit')}>
-                <UIIcon name={TOP_CURRENCY_ICONS.credit.value} size={P(TOP_BAR.resources.iconSize.value)} fallback="◈" />
-                <b style={{ fontSize: P(TOP_BAR.resources.fontSiz.value) }}>
+                <UIIcon name={TOP_CURRENCY_ICONS.credit.value} size={TOP_BAR.resources.iconSize.value} fallback="◈" />
+                <b style={{ fontSize: TOP_BAR.resources.fontSiz.value }}>
                   {(save.currency.credit ?? 0).toLocaleString()}
                 </b>
               </div>
               <div className="res" title={t('lobby.pyroxene')}>
-                <UIIcon name={TOP_CURRENCY_ICONS.pyroxene.value} size={P(TOP_BAR.resources.iconSize.value)} fallback="✦" />
-                <b style={{ fontSize: P(TOP_BAR.resources.fontSiz.value) }}>
+                <UIIcon name={TOP_CURRENCY_ICONS.pyroxene.value} size={TOP_BAR.resources.iconSize.value} fallback="✦" />
+                <b style={{ fontSize: TOP_BAR.resources.fontSiz.value }}>
                   {save.currency.pyroxene.toLocaleString()}
                 </b>
                 <span
@@ -349,13 +358,13 @@ export default function HomePage() {
             </div>
           </header>
 
-          {/* 右侧功能菜单（九宫格真素材按钮） */}
+          {/* 右侧功能菜单（九宫格真素材按钮；咖啡厅入口在此，不进底条） */}
           <aside
             className="home-side"
             style={{
-              right: P(SIDE_MENU_REAL_SPEC.rightMargin.value),
-              bottom: P(SIDE_MENU_REAL_SPEC.bottomOffset.value),
-              gap: P(SIDE_MENU_REAL_SPEC.gap.value),
+              right: SIDE_MENU_REAL_SPEC.rightMargin.value,
+              bottom: SIDE_MENU_REAL_SPEC.bottomOffset.value,
+              gap: SIDE_MENU_REAL_SPEC.gap.value,
             }}
           >
             {SIDE_MENU_REAL.map((item) => {
@@ -369,8 +378,8 @@ export default function HomePage() {
                   className={`side-btn${hasPlate(plate) ? ' ns' : ''}${bday ? ' birthday' : ''}`}
                   style={{
                     ...nsPlate(plate),
-                    width: P(SIDE_MENU_REAL_SPEC.iconSize.value),
-                    height: P(SIDE_MENU_REAL_SPEC.iconSize.value),
+                    width: SIDE_MENU_REAL_SPEC.iconSize.value,
+                    height: SIDE_MENU_REAL_SPEC.iconSize.value,
                   }}
                   data-zone={item.zone}
                   data-ui-sprite={plate}
@@ -380,11 +389,11 @@ export default function HomePage() {
                 >
                   <UIIcon
                     name={item.icon}
-                    size={P(SIDE_MENU_REAL_SPEC.iconSize.value * 0.58)}
-                    fallback={<Glyph name={SIDE_GLYPH_FALLBACK[item.key] ?? 'menu'} size={P(SIDE_MENU_REAL_SPEC.iconSize.value * 0.58)} />}
+                    size={SIDE_MENU_REAL_SPEC.iconSize.value * 0.58}
+                    fallback={<Glyph name={SIDE_GLYPH_FALLBACK[item.key] ?? 'menu'} size={SIDE_MENU_REAL_SPEC.iconSize.value * 0.58} />}
                   />
                   {cafeReady && (
-                    <span className="side-badge" style={{ fontSize: P(13), minWidth: P(22), height: P(22) }}>
+                    <span className="side-badge" style={{ fontSize: 13, minWidth: 22, height: 22 }}>
                       ¥
                     </span>
                   )}
@@ -393,21 +402,19 @@ export default function HomePage() {
             })}
           </aside>
 
-          {/* 左下纵列：事件横幅 + 学生信息条 + 编队/任务入口。
-              2026-11-08 走查「左下活动横幅与名字条重叠」修复：三者原来各自
-              绝对定位（横幅 bottom≈194 与名字条 bottom≈198 同高同列），
-              现在并入同一个 flex 纵列自下而上排（横幅最上），结构上不可能再压盖。 */}
+          {/* 左下纵列：事件横幅（右下三角切角）+ 学生名条（头像+彩带）。
+              编队/任务入口已并入底部黑条（P0-2，原版左下无独立编队按钮）。 */}
           <div
             className="lb-left"
-            style={{ left: P(LOBBY_QUICK_BTN.left.value), bottom: P(LOBBY_QUICK_BTN.bottom.value) }}
+            style={{ left: EVENT_BANNER.square.left.value, bottom: EVENT_BANNER.square.bottom.value }}
           >
-            {/* 事件横幅（方形，点击进活动页） */}
+            {/* 事件横幅（方形切角，点击进活动页） */}
             {banners[bannerIdx] && (
               <div
                 className="banner-square"
                 style={{
-                  width: P(EVENT_BANNER.square.width.value),
-                  height: P(EVENT_BANNER.square.height.value),
+                  width: EVENT_BANNER.square.width.value,
+                  height: EVENT_BANNER.square.height.value,
                 }}
                 onClick={() => {
                   se(LOBBY_SE.click.value);
@@ -421,65 +428,28 @@ export default function HomePage() {
               </div>
             )}
 
-            {/* 学生信息条：名字 + 语音字幕（e2e 追加④依赖 .lb-namebar span） */}
+            {/* 学生名条：头像 + 彩带名字（B5）+ 语音字幕（.lb-namebar span 仍是字幕，
+                头像用 <i> 承载避免改变 span 语义） */}
             {kanban && (
               <div className="lb-namebar">
+                <i className="lb-avatar" aria-hidden="true">
+                  {kanban.avatar ? <img src={kanban.avatar} alt="" /> : <Glyph name="student" size={36} />}
+                </i>
                 <b>{kanban.name}</b>
                 {line && <span>{line}</span>}
               </div>
             )}
-
-            {/* 编队 / 任务入口（Common_Btn_Normal_* 九宫格底板） */}
-            <div className="lb-quick">
-            <button
-              className={`lb-quick-btn${hasPlate(LOBBY_QUICK_BTN.plateB.value) ? ' ns' : ''}`}
-              style={{
-                ...nsPlate(LOBBY_QUICK_BTN.plateB.value),
-                width: P(LOBBY_QUICK_BTN.width.value),
-                height: P(LOBBY_QUICK_BTN.height.value),
-                fontSize: P(17),
-              }}
-              data-ui-sprite={LOBBY_QUICK_BTN.plateB.value}
-              data-ui-source={hasPlate(LOBBY_QUICK_BTN.plateB.value) ? 'assetbundle' : 'css-fallback'}
-              onClick={() => {
-                se(LOBBY_SE.click.value);
-                go('memorial');
-              }}
-              title="编队（学生一览）"
-            >
-              <UIIcon name={LOBBY_QUICK_BTN.formationIcon.value} size={P(30)} fallback={<Glyph name="memorial" size={P(30)} />} />
-              {t('nav.formation')}
-            </button>
-            <button
-              className={`lb-quick-btn${hasPlate(LOBBY_QUICK_BTN.plateY.value) ? ' ns' : ''}`}
-              style={{
-                ...nsPlate(LOBBY_QUICK_BTN.plateY.value),
-                width: P(LOBBY_QUICK_BTN.width.value),
-                height: P(LOBBY_QUICK_BTN.height.value),
-                fontSize: P(17),
-              }}
-              data-ui-sprite={LOBBY_QUICK_BTN.plateY.value}
-              data-ui-source={hasPlate(LOBBY_QUICK_BTN.plateY.value) ? 'assetbundle' : 'css-fallback'}
-              onClick={() => {
-                se(LOBBY_SE.click.value);
-                go('story');
-              }}
-              title="任务（作战剧情）"
-            >
-              <UIIcon name={LOBBY_QUICK_BTN.missionIcon.value} size={P(30)} fallback={<Glyph name="story" size={P(30)} />} />
-              {t('nav.mission')}
-            </button>
-            </div>
           </div>
 
-          {/* 右下：MomoTalk 大入口 + 未读角标（生日当天抖动提示） */}
+          {/* 右下：MomoTalk 大入口 + 未读角标（生日当天抖动提示）。
+              桃信入口保持在右下（P0-2：不进底条） */}
           <button
             className={`lb-momo${birthdayToday.length > 0 ? ' birthday' : ''}`}
             style={{
-              width: P(MOMOTALK_ENTRY.width.value),
-              height: P(MOMOTALK_ENTRY.height.value),
-              right: P(MOMOTALK_ENTRY.right.value),
-              bottom: P(MOMOTALK_ENTRY.bottom.value),
+              width: MOMOTALK_ENTRY.width.value,
+              height: MOMOTALK_ENTRY.height.value,
+              right: MOMOTALK_ENTRY.right.value,
+              bottom: MOMOTALK_ENTRY.bottom.value,
             }}
             onClick={() => {
               se(LOBBY_SE.click.value);
@@ -489,13 +459,13 @@ export default function HomePage() {
           >
             <UIIcon
               name={MOMOTALK_ENTRY.icon.value}
-              size={P(MOMOTALK_ENTRY.width.value * 0.72)}
-              fallback={<Glyph name="momotalk" size={P(MOMOTALK_ENTRY.width.value * 0.6)} />}
+              size={MOMOTALK_ENTRY.width.value * 0.72}
+              fallback={<Glyph name="momotalk" size={MOMOTALK_ENTRY.width.value * 0.6} />}
             />
             {momoUnread > 0 && (
               <span
                 className="lb-momo-badge"
-                style={{ fontSize: P(13), minWidth: P(24), height: P(24) }}
+                style={{ fontSize: 13, minWidth: 24, height: 24 }}
               >
                 {badgeText(momoUnread)}
               </span>
@@ -507,10 +477,10 @@ export default function HomePage() {
             <div
               className="banner-round"
               style={{
-                width: P(EVENT_BANNER.round.size.value),
-                height: P(EVENT_BANNER.round.size.value),
-                top: P(EVENT_BANNER.round.top.value),
-                right: P(EVENT_BANNER.round.right.value + SIDE_MENU_REAL_SPEC.iconSize.value + SIDE_MENU_REAL_SPEC.rightMargin.value),
+                width: EVENT_BANNER.round.size.value,
+                height: EVENT_BANNER.round.size.value,
+                top: EVENT_BANNER.round.top.value,
+                right: EVENT_BANNER.round.right.value + SIDE_MENU_REAL_SPEC.iconSize.value + SIDE_MENU_REAL_SPEC.rightMargin.value,
               }}
               onClick={() => {
                 se(LOBBY_SE.click.value);
@@ -522,25 +492,29 @@ export default function HomePage() {
             </div>
           )}
 
-          {/* 底部导航（e2e 依赖 .bottom-item） */}
-          <nav className="home-bottom" style={{ height: P(BOTTOM_NAV.height.value) }}>
-            {BOTTOM_ITEMS.map((it) => (
-              <button
-                key={it.key}
-                className="bottom-item"
-                onClick={() => {
-                  se(LOBBY_SE.click.value);
-                  go(it.view);
-                }}
-              >
-                <UIIcon
-                  name={`nav_${it.key}`}
-                  size={P(BOTTOM_NAV.iconSize.value)}
-                  fallback={<Glyph name={it.icon} size={P(BOTTOM_NAV.iconSize.value)} />}
-                />
-                <span style={{ fontSize: P(BOTTOM_NAV.labelFontSize.value) }}>{it.label}</span>
-              </button>
-            ))}
+          {/* 底部黑条（P0-2 原版入口集；e2e 依赖 .bottom-item） */}
+          <nav className="home-bottom" style={{ height: BOTTOM_NAV.height.value }}>
+            {BOTTOM_NAV.items.value.map((key) => {
+              const act = BOTTOM_META[key];
+              return (
+                <button
+                  key={key}
+                  className="bottom-item"
+                  data-bottom-key={key}
+                  onClick={() => {
+                    se(LOBBY_SE.click.value);
+                    bottomActions[key]();
+                  }}
+                >
+                  <UIIcon
+                    name={`nav_${key}`}
+                    size={BOTTOM_NAV.iconSize.value}
+                    fallback={<Glyph name={act.icon} size={BOTTOM_NAV.iconSize.value} />}
+                  />
+                  <span style={{ fontSize: BOTTOM_NAV.labelFontSize.value }}>{t(act.labelKey)}</span>
+                </button>
+              );
+            })}
           </nav>
         </>
       )}
@@ -566,8 +540,8 @@ export default function HomePage() {
               <button key={key} className="menu-item" onClick={() => se(LOBBY_SE.click.value)}>
                 <UIIcon
                   name={`menu_${key}`}
-                  size={P(MENU_POPUP.iconSize.value)}
-                  fallback={<Glyph name={key as GlyphName} size={P(MENU_POPUP.iconSize.value)} />}
+                  size={MENU_POPUP.iconSize.value}
+                  fallback={<Glyph name={key as GlyphName} size={MENU_POPUP.iconSize.value} />}
                 />
                 <span>{t(`menu.${key}`)}</span>
               </button>
@@ -582,10 +556,26 @@ export default function HomePage() {
             >
               <UIIcon
                 name="menu_settings"
-                size={P(MENU_POPUP.iconSize.value)}
-                fallback={<Glyph name="settings" size={P(MENU_POPUP.iconSize.value)} />}
+                size={MENU_POPUP.iconSize.value}
+                fallback={<Glyph name="settings" size={MENU_POPUP.iconSize.value} />}
               />
               <span>{t('nav.settings')}</span>
+            </button>
+            {/* 原侧栏「重播启动」入口并入菜单弹窗（P0-1 拆侧栏后功能保持可达） */}
+            <button
+              className="menu-item"
+              onClick={() => {
+                se(LOBBY_SE.click.value);
+                setMenuOpen(false);
+                restartIntro();
+              }}
+            >
+              <UIIcon
+                name="menu_restart"
+                size={MENU_POPUP.iconSize.value}
+                fallback={<Glyph name="restart" size={MENU_POPUP.iconSize.value} />}
+              />
+              <span>重播启动</span>
             </button>
           </div>
         </div>

@@ -28,9 +28,17 @@ export interface SpecValue<T> {
 
 const v = <T>(value: T, source: SpecSource, note?: string): SpecValue<T> => ({ value, source, note });
 
-/** 设计基准分辨率：游戏内 UI 按 1920×1080 排版，其他分辨率等比缩放 */
-export const REF_WIDTH = 1920;
-export const REF_HEIGHT = 1080;
+/**
+ * 设计基准分辨率：游戏内 UI 按 1080×1920 竖屏排版（G-1，报告一 3.1）。
+ * 全部页面渲染在 PortraitStage 的 1080×1920 逻辑画框内，舞台外由
+ * letterbox（居中 + 按高度缩放）适配任意窗口。竖屏化落地前不做任何
+ * 逐页像素校准（冲突裁决④：横屏量出的尺寸到竖屏全部作废）。
+ */
+export const REF_WIDTH = 1080;
+export const REF_HEIGHT = 1920;
+
+/** 竖屏舞台缩放系数写入 :root 时用的 CSS 变量名（PortraitStage 负责赋值） */
+export const STAGE_SCALE_CSS_VAR = '--stage-scale';
 
 /** 安全区（刘海/圆角屏留白） */
 export const SAFE_AREA = v({ top: 0, right: 0, bottom: 0, left: 0 }, 'wiki_layout');
@@ -98,9 +106,19 @@ export const SIDE_MENU_SPEC = {
 
 // ---------------------------------------------------------------- 底部导航
 
+/**
+ * 底部黑条入口集（P0-2，报告二 B4：视频一帧 1 底部）。
+ * 原版是游戏性入口：编队/任务/挑战任务/剧情/社团/道具/资料馆（招募按任务书并入）；
+ * 桃信走右下大入口（MOMOTALK_ENTRY）、咖啡厅走右侧菜单（SIDE_MENU_REAL），
+ * 二者不进底条。item key 与 i18n nav.* 对应，未实装项在 HomePage 走 toast。
+ */
 export const BOTTOM_NAV = {
-  height: v(76, 'estimated'),
-  items: v(['story', 'momotalk', 'cafe', 'student', 'gacha'] as const, 'wiki_layout'),
+  height: v(76, 'estimated', '竖屏校准前沿用横屏估算值（冲突裁决④）'),
+  items: v(
+    ['formation', 'mission', 'sub', 'story', 'club', 'item', 'archive', 'gacha'] as const,
+    'wiki_layout',
+    '报告二 B4 视频一帧 1：编队+任务/挑战任务/剧情/社团/道具/资料馆等'
+  ),
   iconSize: v(34, 'estimated'),
   labelFontSize: v(12, 'estimated'),
   activeIndicatorHeight: v(3, 'estimated'),
@@ -431,16 +449,28 @@ export const LOBBY_SE = {
   bell: v('SE_Bell_01', 'assetbundle'),
 };
 
+// ---------------------------------------------------------------- 舞台与页栈
+
+/**
+ * 竖屏舞台与页栈的全局动效常量（G-1/G-2）。
+ * - transitionMs：ViewStack 全屏覆盖层进入/返回的滑入时长（任务书约定约 250ms）
+ * - tiltDeg：BA 标志性微倾斜语言（报告二：剧情对话框 UI 整体倾斜约 -1.5°），
+ *   已同步为全局 CSS 变量 --ba-tilt，组件以 CSS 变量为准，此处留档溯源
+ */
+export const STAGE_UI = {
+  transitionMs: v(250, 'estimated', '页栈滑入/滑出时长（G-2）'),
+  tiltDeg: v(-1.5, 'wiki_layout', '报告二对照截图 5：剧情对话框整体微倾斜'),
+};
+
 // ---------------------------------------------------------------- 缩放
 
-/** 把 1920×1080 基准下的像素值换算到当前窗口 */
-export function scaleFor(winWidth: number): number {
-  return winWidth / REF_WIDTH;
-}
-
-/** 把 1920×1080 基准下的像素值换算到当前窗口 */
-export function px(base: number, winWidth: number): number {
-  return (base * winWidth) / REF_WIDTH;
+/**
+ * 竖屏舞台缩放系数（G-1）：窗口装下整个 1080×1920 画框所需的比例。
+ * 外层按此系数对舞台整体 transform: scale()，舞台内所有页面只用
+ * 1080×1920 逻辑 px，不再各自换算窗口尺寸。
+ */
+export function stageScaleFor(winWidth: number, winHeight: number): number {
+  return Math.min(winWidth / REF_WIDTH, winHeight / REF_HEIGHT);
 }
 
 /** 统计还有多少常量是估算值，用于「距离 1:1 还差多少」的进度提示 */
@@ -456,6 +486,6 @@ export function countEstimates(): { total: number; estimate: number } {
     }
     for (const child of Object.values(node as Record<string, unknown>)) walk(child);
   };
-  walk({ TOP_BAR, SIDE_MENU_SPEC, BOTTOM_NAV, EVENT_BANNER, KANBAN, MENU_POPUP, INTRO_TIMING, STORY_UI, MOMOTALK_UI, GACHA_UI, LOBBY_UI, HOME_STAGE, SIDE_MENU_REAL, SIDE_MENU_REAL_SPEC, LOBBY_QUICK_BTN, MOMOTALK_ENTRY, TOP_CURRENCY_ICONS, TOP_SIGNIN_ICON, AP_REGEN, TITLE_SCREEN, LOADING_ARONA, LOADING_TIPS, LOBBY_SE });
+  walk({ TOP_BAR, SIDE_MENU_SPEC, BOTTOM_NAV, EVENT_BANNER, KANBAN, MENU_POPUP, INTRO_TIMING, STORY_UI, MOMOTALK_UI, GACHA_UI, LOBBY_UI, HOME_STAGE, SIDE_MENU_REAL, SIDE_MENU_REAL_SPEC, LOBBY_QUICK_BTN, MOMOTALK_ENTRY, TOP_CURRENCY_ICONS, TOP_SIGNIN_ICON, AP_REGEN, TITLE_SCREEN, LOADING_ARONA, LOADING_TIPS, LOBBY_SE, STAGE_UI });
   return { total, estimate };
 }

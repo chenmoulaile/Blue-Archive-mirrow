@@ -37,7 +37,8 @@ check('默认 UI 语言 = zh-CN', C.DEFAULT_LOCALE === 'zh-CN', C.DEFAULT_LOCALE
 check('默认语音 = ja', C.DEFAULT_VOICE === 'ja', C.DEFAULT_VOICE);
 check('DEFAULT_SETTINGS.locale = zh-CN', C.DEFAULT_SETTINGS.locale === 'zh-CN');
 check('DEFAULT_SETTINGS.voice = ja', C.DEFAULT_SETTINGS.voice === 'ja');
-check('默认主题 = dark-game', C.DEFAULT_SETTINGS.theme === 'dark-game', C.DEFAULT_SETTINGS.theme);
+// P0-3：默认主题翻转为明亮浅色（BA 原版基调），dark-game 降为可选项
+check('默认主题 = light', C.DEFAULT_SETTINGS.theme === 'light', C.DEFAULT_SETTINGS.theme);
 check('assertDefaults 不抛错', (() => {
   try {
     C.assertDefaults();

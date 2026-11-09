@@ -44,7 +44,7 @@ export interface Settings {
   playIntro: boolean;
   /** 是否使用 BA 主题鼠标指针 */
   useCustomCursor: boolean;
-  /** 主题：dark-game = 深色游戏风（默认），light = 浅色网页风 */
+  /** 主题：light = 明亮浅色（BA 原版基调，P0-3 默认），dark-game = 深色游戏风（可选） */
   theme: 'dark-game' | 'light';
 }
 
@@ -58,7 +58,9 @@ export const DEFAULT_SETTINGS: Settings = {
   skipUnread: false,
   playIntro: true,
   useCustomCursor: true,
-  theme: 'dark-game',
+  // P0-3：默认主题从 dark-game 换为明亮浅色（白底深字、淡蓝紫渐变、青色高亮）。
+  // 已有存档里保存的主题不受影响，仅新装与「恢复默认」走亮色。
+  theme: 'light',
 };
 
 /** 恢复默认时用的对象（深拷贝，避免被改） */

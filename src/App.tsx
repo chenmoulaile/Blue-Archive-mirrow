@@ -5,9 +5,10 @@ import { store, useSave } from './core/store';
 import { audio } from './core/audio';
 import { loadUIAtlas, injectUIFonts, type UIAtlas } from './core/ui-atlas';
 import { setLocale, t } from './core/i18n';
-import { TOP_CURRENCY_ICONS, TOP_SIGNIN_ICON } from './core/game-ui-spec';
-import { UIIcon } from './components/NineSlice';
-import { Glyph, type GlyphName } from './components/Glyph';
+import { apRecharge, AP_MAX } from './core/store';
+import { AP_REGEN } from './core/game-ui-spec';
+import PortraitStage from './components/stage/PortraitStage';
+import TopCurrencyBar from './components/stage/TopCurrencyBar';
 import type { AppInfo } from './types';
 import IntroFlow from './pages/IntroFlow';
 import HomePage from './pages/HomePage';
@@ -23,28 +24,6 @@ import './styles/cursors.css';
 import './styles/game-theme.css';
 
 export type { View };
-
-const NAV: { key: View; icon: GlyphName; labelKey: string }[] = [
-  { key: 'home', icon: 'home', labelKey: 'nav.lobby' },
-  { key: 'memorial', icon: 'memorial', labelKey: 'nav.student' },
-  { key: 'story', icon: 'story', labelKey: 'nav.story' },
-  { key: 'gacha', icon: 'gacha', labelKey: 'nav.gacha' },
-  { key: 'momotalk', icon: 'momotalk', labelKey: 'nav.momotalk' },
-  { key: 'cafe', icon: 'cafe', labelKey: 'nav.cafe' },
-  { key: 'events', icon: 'events', labelKey: 'nav.events' },
-  { key: 'settings', icon: 'settings', labelKey: 'nav.settings' },
-];
-
-const TITLE_KEYS: Record<View, string> = {
-  home: 'nav.lobby',
-  memorial: 'nav.student',
-  story: 'nav.story',
-  gacha: 'nav.gacha',
-  momotalk: 'nav.momotalk',
-  cafe: 'nav.cafe',
-  events: 'nav.events',
-  settings: 'nav.settings',
-};
 
 /**
  * 极简路由：view ↔ URL。
@@ -136,7 +115,7 @@ export default function App() {
     document.documentElement.classList.toggle('no-custom-cursor', !save.settings.useCustomCursor);
   }, [save.settings.useCustomCursor]);
 
-  // 主题：默认 dark-game（深色游戏风），可在设置页切回 light
+  // 主题：默认明亮浅色（P0-3），设置页可切深色 dark-game
   useEffect(() => {
     document.documentElement.dataset.theme = save.settings.theme;
   }, [save.settings.theme]);
@@ -169,6 +148,12 @@ export default function App() {
         : null,
     [assets, info, uiAtlas, save.settings, toast, restartIntro]
   );
+
+  // 内页顶栏的实时体力（与主界面同一套离线恢复逻辑）
+  const apValue = useMemo(() => {
+    const base = save.ap ?? { value: AP_MAX, updatedAt: Date.now() };
+    return apRecharge(base, Date.now()).value;
+  }, [save.ap]);
 
   if (bootError) {
     return (
@@ -209,83 +194,43 @@ export default function App() {
     );
   }
 
-  // 主界面是全屏游戏界面，不套侧边栏
-  if (view === 'home') {
-    return (
-      <AppContext.Provider value={ctx}>
-        <HomePage />
-        {toastMsg && <Toast msg={toastMsg} />}
-      </AppContext.Provider>
-    );
-  }
+  // 通用货币顶栏（P0-1）：体力/信用点/青辉石 + 左上返回 + 右侧商店/菜单。
+  // backLabel「大厅」保留 e2e 以 .nav-item 回主界面的既有语义。
+  const currencyBar = (
+    <TopCurrencyBar
+      ap={{ value: apValue, max: AP_REGEN.max.value, title: `体力（每 ${AP_REGEN.minutesPerPoint.value} 分钟恢复 1 点）` }}
+      credit={save.currency.credit ?? 0}
+      pyroxene={save.currency.pyroxene}
+      currencyHint="虚拟青辉石（仅本软件内可用）"
+      onBack={() => setView('home')}
+      backClassName="nav-item"
+      onShop={() => ctx.toast('商店尚未实装（信用点与道具在剧情奖励中发放）')}
+      onMenu={() => setView('settings')}
+    />
+  );
 
   return (
     <AppContext.Provider value={ctx}>
-      <div className="shell">
-        <aside className="sidebar">
-          <div className="brand">
-            <div className="mark">BA</div>
-            <div>
-              <b>{t('app.title')}</b>
-              <span>FAN CLIENT</span>
+      {/* G-1 竖屏舞台：全部游戏页面都渲染进 1080×1920 逻辑画框，外层 letterbox */}
+      <PortraitStage>
+        {view === 'home' ? (
+          <HomePage />
+        ) : (
+          <div className="inner-page">
+            {currencyBar}
+            <div className="content">
+              {view === 'memorial' && <LobbyPage />}
+              {view === 'story' && <StoryPage />}
+              {view === 'gacha' && <GachaPage />}
+              {view === 'momotalk' && <MomoTalkPage />}
+              {view === 'cafe' && <CafePage />}
+              {view === 'events' && <EventsPage onGo={setView} />}
+              {view === 'settings' && <SettingsPage onGo={setView} />}
             </div>
           </div>
-          {NAV.map((n) => (
-            <button
-              key={n.key}
-              className={`nav-item${view === n.key ? ' on' : ''}`}
-              onClick={() => setView(n.key)}
-            >
-              <span className="ico">
-                <Glyph name={n.icon} size={17} />
-              </span>
-              {t(n.labelKey)}
-            </button>
-          ))}
-          <div style={{ flex: 1 }} />
-          <button className="nav-item" onClick={restartIntro}>
-            <span className="ico">
-              <Glyph name="restart" size={17} />
-            </span>
-            重播启动
-          </button>
-        </aside>
-
-        <div className="main">
-          <div className="topbar">
-            <h2>{t(TITLE_KEYS[view])}</h2>
-            <div className="wallet">
-              {/* 2026-11-08 走查①：内页顶栏货币胶囊统一为主页顶栏同款深色胶囊
-                  （深底白字 + 青辉石宝石原件），原来白底浅字 + CSS 圆点对比度极低；
-                  「✦ N 天」语义不明，改为「签到 N 天」+ 日历原件。 */}
-              <div className="chip" title="虚拟青辉石（仅本软件内可用）">
-                <UIIcon
-                  name={TOP_CURRENCY_ICONS.pyroxene.value}
-                  size={16}
-                  fallback={<span>✦</span>}
-                />
-                {save.currency.pyroxene.toLocaleString()}
-              </div>
-              <div className="chip" title={`连续签到 ${save.signIn.streak} 天`}>
-                <UIIcon name={TOP_SIGNIN_ICON.value} size={15} fallback={<span>✦</span>} />
-                签到 {save.signIn.streak} 天
-              </div>
-            </div>
-          </div>
-
-          <div className="content">
-            {view === 'memorial' && <LobbyPage />}
-            {view === 'story' && <StoryPage />}
-            {view === 'gacha' && <GachaPage />}
-            {view === 'momotalk' && <MomoTalkPage />}
-            {view === 'cafe' && <CafePage />}
-            {view === 'events' && <EventsPage onGo={setView} />}
-            {view === 'settings' && <SettingsPage onGo={setView} />}
-          </div>
-        </div>
-      </div>
-
-      {toastMsg && <Toast msg={toastMsg} />}
+        )}
+        {toastMsg && <Toast msg={toastMsg} />}
+      </PortraitStage>
     </AppContext.Provider>
   );
 }
