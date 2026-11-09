@@ -30,9 +30,12 @@ const app = await electron.launch({
 });
 
 const page = await app.firstWindow();
-// 固定窗口尺寸，保证截图基线可比较（显示器只有 1024×768 时也能拉大窗口）
+// 固定窗口尺寸，保证截图基线可比较（显示器只有 1024×768 时也能拉大窗口）。
+// 2026-11-10 集成轨竖屏适配（G-1）：内容区 = 舞台逻辑尺寸 1080×1920，letterbox
+// scale=1 零黑边完整呈现；显示器/work area 把窗口钳小时 PortraitStage 仍按
+// min(宽/1080, 高/1920) 完整缩放呈现（letterbox 语义），下方断言不依赖 scale=1。
 await app.evaluate(({ BrowserWindow }) => {
-  BrowserWindow.getAllWindows()[0].setContentSize(1440, 900);
+  BrowserWindow.getAllWindows()[0].setContentSize(1080, 1920);
 });
 const errors = [];
 // integration-w1 追加段的断言失败单独记录；任一非空则进程退出码非 0
@@ -96,6 +99,41 @@ await shot('03-loading');
 await page.waitForTimeout(2200);
 await page.waitForSelector('.home', { timeout: 20000 });
 await shot('04-home', 1400);
+
+// ---- 竖屏舞台 letterbox 校验（G-1，集成轨 2026-11-10）：stage-frame 必须
+// 完整落在窗口内（不裁切），--stage-scale 与 min(窗宽/1080, 窗高/1920) 一致。
+// 窗口被系统钳小时两条依然成立——这正是 letterbox 的呈现契约。
+const stage = await page.evaluate(() => {
+  const f = document.querySelector('[data-stage-frame]')?.getBoundingClientRect();
+  const scale = parseFloat(
+    getComputedStyle(document.documentElement).getPropertyValue('--stage-scale')
+  );
+  return {
+    win: { w: window.innerWidth, h: window.innerHeight },
+    frame: f ? { x: f.x, y: f.y, w: f.width, h: f.height } : null,
+    scale,
+  };
+});
+{
+  const expect = Math.min(stage.win.w / 1080, stage.win.h / 1920);
+  const inside =
+    stage.frame &&
+    stage.frame.x >= -0.5 &&
+    stage.frame.y >= -0.5 &&
+    stage.frame.x + stage.frame.w <= stage.win.w + 0.5 &&
+    stage.frame.y + stage.frame.h <= stage.win.h + 0.5;
+  console.log(
+    '竖屏舞台: win=%dx%d frame=%s scale=%s (期望 %s)',
+    stage.win.w,
+    stage.win.h,
+    JSON.stringify(stage.frame),
+    stage.scale,
+    expect.toFixed(4)
+  );
+  if (!inside) segFail(`竖屏舞台 letterbox：stage-frame 超出窗口 ${JSON.stringify(stage.frame)}`);
+  if (!Number.isFinite(stage.scale) || Math.abs(stage.scale - expect) > 0.01)
+    segFail(`竖屏舞台 letterbox：--stage-scale=${stage.scale} 与期望 ${expect.toFixed(4)} 不符`);
+}
 
 // ---- 记忆大厅：Phase 1 的验收基准，固定用 Airi_home 的 4.2 资源
 // 2026-11-10 大厅轨 L-1~L-6 重排同步：底部功能条 = [大厅选择, 回忆重播]
@@ -187,32 +225,53 @@ if (await menuBtn.count()) {
   }
 }
 
-// 底部导航进入各功能页（回主界面后才有底部导航）
+// 各功能页入口（集成轨 2026-11-10 按竖屏新布局适配，P0-2）：
+//   底条（.bottom-item）：编成/任务/挑战任务/剧情/社团/道具/资料馆/招募；
+//   桃信走右下大入口 .lb-momo、咖啡厅走右侧菜单 side-btn zone③（日程表=活动）、
+//   设置走右侧菜单 zone④ 菜单弹窗的「设置」项——这些都不在底条，
+//   旧脚本按「底条文案 / .nav-item 文案」找入口的路径对它们已失效。
 const goto = async (label) => {
+  // 主页专属入口表（不在底条的入口；zone 与 game-ui-spec.SIDE_MENU_REAL 一致）
+  const HOME_ENTRY = {
+    桃信: '.lb-momo',
+    咖啡厅: '.side-btn[data-zone="③"]',
+    活动: '.side-btn[data-zone="①"]',
+  };
+  // 先回主页：内页（剧情/招募/设置页没有底条）用返回钮（.nav-item「大厅」，
+  // 既有 e2e 契约的回主界面路径）。剧情播放器进行时可能用全屏层拦截返回钮
+  // （2026-11-10 实测）：force+catch 尽力而为，不超时阻塞后续段
+  if (!(await page.locator('.home').count())) {
+    const back = page.locator('.nav-item', { hasText: '大厅' });
+    if (await back.count()) {
+      await back.first().click({ timeout: 4000, force: true }).catch(() => {});
+      await page.waitForTimeout(700);
+    }
+  }
   const bottom = page.locator('.bottom-item', { hasText: label });
   if (await bottom.count()) {
     await bottom.first().click();
     return true;
   }
-  // gacha 轨交接修复：当前在内页（剧情/招募/设置页没有底条）时，
-  // 先点返回钮（.nav-item「大厅」，既有 e2e 契约的回主界面路径）回主页再走底条。
-  // 剧情播放器进行时可能用全屏层拦截返回钮（2026-11-10 实测）：force+catch
-  // 尽力而为，失败回落到 .nav-item 直接查找，不超时阻塞后续段
-  const back = page.locator('.nav-item', { hasText: '大厅' });
-  if (await back.count()) {
-    await back.first().click({ timeout: 4000, force: true }).catch(() => {});
-    await page.waitForTimeout(700);
-    const bottom2 = page.locator('.bottom-item', { hasText: label });
-    if (await bottom2.count()) {
-      await bottom2.first().click();
+  if (HOME_ENTRY[label]) {
+    const el = page.locator(HOME_ENTRY[label]);
+    if (await el.count()) {
+      await el.first().click();
       return true;
     }
   }
-  const nav = page.locator('.nav-item', { hasText: label });
-  if (await nav.count()) {
-    // 与上方返回钮同策略：内页全屏层可能拦截点击（剧情轨在途实测），尽力而为
-    await nav.first().click({ timeout: 4000, force: true }).catch(() => {});
-    return true;
+  if (label === '设置') {
+    // 主页没有 TopCurrencyBar，设置走右侧菜单(④) → 菜单弹窗 → 「设置」项
+    const menuBtn = page.locator('.side-btn[data-zone="④"]');
+    if (await menuBtn.count()) {
+      await menuBtn.first().click();
+      await page.waitForTimeout(400);
+      const item = page.locator('.menu-item', { hasText: '设置' });
+      if (await item.count()) {
+        await item.first().click();
+        return true;
+      }
+      await page.keyboard.press('Escape'); // 弹窗开但找不到设置项：关掉别挡路
+    }
   }
   return false;
 };
@@ -330,11 +389,14 @@ if (await goto('设置')) {
 //   ② 招募十连：跳过按钮直达结果幕，断言结果网格
 //   ③ 桃信会话：断言头像气泡
 //   ④ 大厅互动：点击学生断言语音/反应
-// 选择器与各轨道组件约定：
+// 选择器与各轨道组件约定（2026-11-10 集成轨随竖屏新布局复核）：
 //   story: [data-testid=story-dialog]/[data-testid=branch-badge]/.story-choice-btn/.story-actor
 //   gacha: [data-gacha-overlay]/[data-gacha-phase]/[data-gacha-skip]/[data-gacha-scene]/[data-gacha-close]
+//          （phase 机 enter/draw/cards/result，skip 直达 result——断言语义不变）
 //   momotalk: .mt-list/.mt-row-item/.mt-room/.mt-bubble/.mt-row-avatar
-//   lobby: .ls-stage/.ls-heart/.ls-bounce/.lb-namebar
+//          （M-1 页栈化后聊天室为全屏覆盖层，断言后点 .mt-back 弹栈）
+//   lobby: .lobby-canvas canvas/.lobby-heart/.lobby-line
+//          （LobbyPage 自建舞台；入口=P0-2 底条首项「编成」）
 // ==================================================================
 
 // ---- 追加① 剧情页：带选项的主线 + 真分支跳转
@@ -481,6 +543,11 @@ try {
     if (info.avatars === 0) throw new Error('追加③：学生头像位未渲染');
     console.log('  桃信会话:', info);
     await shot('19-momotalk-room', 400);
+    // 集成轨 2026-11-10：M-1 页栈化后聊天室是全屏覆盖层（StackOverlay），
+    // 断言完成后点 ChatRoom 返回钮（.mt-back）弹栈回列表，不让覆盖层影响
+    // 后续段的入口点击（不阻塞：失败时下一段 goto 的 .nav-item 回主页兜底）
+    await page.locator('.mt-back').click({ timeout: 3000 }).catch(() => {});
+    await page.waitForTimeout(400);
   } else {
     console.log('  未找到桃信入口，跳过追加③');
   }
@@ -488,35 +555,93 @@ try {
   segFail(`桃信会话段失败：${e?.message ?? e}`);
 }
 
-// ---- 追加④ 大厅：点击学生，断言语音/反应触发
+// ---- 追加④ 记忆大厅互动：点击学生，断言语音/❤ 反馈
+// （集成轨 2026-11-10 适配：P0-2 底条无「大厅」，记忆大厅从首项「编成」进入；
+//  LobbyPage 是自建舞台（SpineView .lobby-canvas，无 LobbyStage 的 .ls-stage），
+//  反馈元素 = .lobby-heart（♥ CSS 粒子）与 .lobby-line（语音字幕），
+//  「点击学生后必有反馈」的断言语义不变）
 try {
-  if (await goto('大厅')) {
-    await page.waitForSelector('.home .ls-stage', { timeout: 15000 });
+  if (await goto('编成')) {
+    await page.waitForSelector('.lobby-canvas canvas, .lobby-loading', { timeout: 15000 });
     await page.waitForTimeout(600);
     const vp2 = await page.evaluate(() => ({ w: window.innerWidth, h: window.innerHeight }));
-    await page.mouse.click(Math.round(vp2.w / 2), Math.round(vp2.h * 0.45)); // .home-veil 是 pointer-events:none
+    await page.mouse.click(Math.round(vp2.w / 2), Math.round(vp2.h * 0.45)); // L-4 上半屏触摸分区
     let heart = false;
     try {
-      await page.waitForSelector('.ls-heart', { timeout: 3000 }); // ♥ 存活 1.1s
+      await page.waitForSelector('.lobby-heart', { timeout: 3000 }); // ♥ 存活约 1.1s
       heart = true;
     } catch {
-      /* 心形窗口短，落空再靠字幕/微动效判定 */
+      /* 心形窗口短，落空再靠字幕判定 */
     }
     const info = await page.evaluate(() => ({
-      line: document.querySelector('.lb-namebar span')?.textContent?.trim() ?? '', // 语音字幕存活 2.6s
-      bounce: document.querySelectorAll('.ls-stage.ls-bounce').length, // 微动效存活 0.62s
-      spineCanvas: document.querySelectorAll('.ls-stage canvas').length,
+      line: document.querySelector('.lobby-line')?.textContent?.trim() ?? '', // 语音字幕存活 2.6s
+      hearts: document.querySelectorAll('.lobby-heart').length,
+      spineCanvas: document.querySelectorAll('.lobby-canvas canvas').length,
     }));
-    if (!heart && !info.line && !info.bounce) {
-      throw new Error('追加④：点击学生后无任何反馈（无♥/字幕/微动效）');
+    if (!heart && !info.line && !info.hearts) {
+      throw new Error('追加④：点击学生后无任何反馈（无♥/字幕）');
     }
-    console.log('  大厅互动: heart=%s, 字幕="%s", bounce=%s, spine canvas=%d', heart, info.line, info.bounce, info.spineCanvas);
+    console.log('  大厅互动: heart=%s, 字幕="%s", ♥粒子=%d, spine canvas=%d', heart, info.line, info.hearts, info.spineCanvas);
     await shot('20-lobby-touch', 300);
   } else {
     console.log('  未找到大厅入口，跳过追加④');
   }
 } catch (e) {
   segFail(`大厅互动段失败：${e?.message ?? e}`);
+}
+
+// ---- 可达性巡检（集成轨 2026-11-10）：竖屏新布局下全部页面从主页出发可达。
+// 入口集 = P0-2 底条（编成/剧情/招募）+ 主页专属入口（桃信 .lb-momo / 咖啡厅
+// side-btn③ / 活动 side-btn① / 设置 菜单弹窗）。逐页断言页面根选择器出现。
+try {
+  const REACH = [
+    { label: '记忆大厅', hint: '底条·编成', marker: '.lobby' },
+    { label: '剧情', hint: '底条·剧情', marker: '.story-page' },
+    { label: '招募', hint: '底条·招募', marker: '.gacha-page' },
+    { label: '桃信', hint: '右下 .lb-momo', marker: '.mt-page' },
+    { label: '咖啡厅', hint: '右侧菜单 zone③', marker: '.cafe-layout' },
+    { label: '活动', hint: '右侧菜单 zone① 日程表', marker: '.events-wrap' },
+    { label: '设置', hint: '菜单弹窗·设置', marker: '.settings-grid' },
+  ];
+  const backHome = async () => {
+    if (await page.locator('.home').count()) return;
+    const back = page.locator('.nav-item', { hasText: '大厅' });
+    await back.first().click({ timeout: 4000, force: true }).catch(() => {});
+    await page.waitForSelector('.home', { timeout: 8000 });
+    await page.waitForTimeout(400);
+  };
+  await backHome();
+  const reachable = [];
+  for (const item of REACH) {
+    let ok = false;
+    let how = item.hint;
+    try {
+      const bottom = page.locator('.bottom-item', { hasText: item.label === '记忆大厅' ? '编成' : item.label });
+      if (await bottom.count()) {
+        await bottom.first().click();
+      } else if (item.label === '桃信') {
+        await page.locator('.lb-momo').first().click();
+      } else if (item.label === '咖啡厅' || item.label === '活动') {
+        await page.locator(item.label === '咖啡厅' ? '.side-btn[data-zone="③"]' : '.side-btn[data-zone="①"]').first().click();
+      } else if (item.label === '设置') {
+        await page.locator('.side-btn[data-zone="④"]').first().click();
+        await page.waitForTimeout(400);
+        await page.locator('.menu-item', { hasText: '设置' }).first().click();
+      } else {
+        throw new Error(`主页无入口（${item.hint}）`);
+      }
+      await page.waitForSelector(item.marker, { timeout: 8000 });
+      ok = true;
+    } catch (e) {
+      how = `${item.hint} → ${e?.message ?? e}`;
+    }
+    reachable.push({ page: item.label, entry: item.hint, ok });
+    if (!ok) segFail(`可达性巡检：${item.label} 不可达（${how}）`);
+    await backHome();
+  }
+  console.log('可达性巡检:', JSON.stringify(reachable));
+} catch (e) {
+  segFail(`可达性巡检失败：${e?.message ?? e}`);
 }
 
 // ---- 还原度统计：有多少控件还是兜底样式
