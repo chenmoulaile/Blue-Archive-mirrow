@@ -498,7 +498,38 @@ try {
         throw new Error('追加②：招募演出覆盖层未出现（诊断截图 diag-append2-gacha.png）');
       }
     }
-    await page.locator('[data-gacha-skip]').click(); // 跳过按钮直达结果幕
+    // D3/P1-7 裁决①（2026-11-10 走查修复）：跳过前在十连揭示中途停帧，采
+    // 普卡 / 台词卡 / hero 揭示（★3 或新角色）各 1 张运行时帧作视觉基线
+    //（此前仅 e2e-10/18 两张 result 帧，中途形态只有代码级证据，无防回归基线）。
+    // 轮询 data-gacha-scene，各形态采到即止；★3 十连不保底，缺席时如实记录
+    // 不算失败 —— 缺素材兜底。既有 result 断言不变。
+    const wantFrames = [
+      { scene: 'single-card', probe: '.gcsc-card.st-flip, .gcsc-card.st-face', name: '20-gacha-card-normal', label: '普卡(单卡居中)', done: false },
+      { scene: 'talk', probe: '', name: '21-gacha-card-talk', label: '台词卡', done: false },
+      { scene: 'hero-reveal', probe: '', name: '22-gacha-hero-reveal', label: 'hero揭示(★3/新角色)', done: false },
+    ];
+    const frameDeadline = Date.now() + 45000; // 10 张 × ~3.4s + 进场 3.3s 的整轮余量
+    while (Date.now() < frameDeadline && wantFrames.some((w) => !w.done)) {
+      if (await page.locator('[data-gacha-phase="result"]').count()) break; // 已自然到结果页
+      for (const w of wantFrames) {
+        if (w.done) continue;
+        const sel = `[data-gacha-scene="${w.scene}"]${w.probe ? ` ${w.probe}` : ''}`;
+        if (await page.locator(sel).first().isVisible().catch(() => false)) {
+          await shot(w.name, 150);
+          w.done = true;
+        }
+      }
+      await page.waitForTimeout(120);
+    }
+    for (const w of wantFrames) {
+      console.log(
+        `  揭示中途帧[${w.label}]: ${w.done ? `已采集 e2e-${w.name}.png` : '本批未出现（如实记录，不算失败）'}`
+      );
+    }
+    // 中途帧采完后再跳过直达结果幕；若演出已自然走到 result，skip 按钮已卸载
+    if (await page.locator('[data-gacha-skip]').count()) {
+      await page.locator('[data-gacha-skip]').click(); // 跳过按钮直达结果幕
+    }
     await page.waitForSelector('[data-gacha-phase="result"]', { timeout: 8000 });
     const scene = await page.evaluate(() => ({
       result: document.querySelectorAll('[data-gacha-scene="result"]').length,

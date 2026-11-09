@@ -1224,9 +1224,13 @@ export default function StoryPage() {
                   </span>
                 </div>
               )}
-              {/* 分支徽标在生产构建也要保留（e2e 契约 data-testid=branch-badge） */}
+              {/* 分支徽标在生产构建也要保留（e2e 契约 data-testid=branch-badge）。
+                  S-9 走查：原来是 .story-player（flex column）的直接子项，被
+                  align-self:stretch 拉成全宽橄榄色横条常驻播放器底部；加
+                  .player-branch-badge 转为右上角 AUTO/MENU 下方小胶囊。
+                  分支过滤逻辑（branchRef/branchGroup）不动。 */}
               {!import.meta.env.DEV && branchGroup && (
-                <span className="branch-badge" data-testid="branch-badge">
+                <span className="branch-badge player-branch-badge" data-testid="branch-badge">
                   分支
                 </span>
               )}
